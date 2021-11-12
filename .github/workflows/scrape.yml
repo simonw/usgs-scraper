@@ -1,0 +1,27 @@
+name: Scrape latest data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '*/10 * * * *'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Fetch latest data
+      run: |-
+        curl "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson" | jq > usgs.json
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
