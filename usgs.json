@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637121436000,
+    "generated": 1637123416000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "78 km NW of Yakutat, Alaska",
+        "time": 1637121454876,
+        "updated": 1637121901242,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021eqxmzwc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021eqxmzwc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "021eqxmzwc",
+        "ids": ",ak021eqxmzwc,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.76,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 78 km NW of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.5549,
+          60.1187,
+          0.1
+        ]
+      },
+      "id": "ak021eqxmzwc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,42 +92,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "14 km NNW of Midland, Texas",
-        "time": 1637119557168,
-        "updated": 1637121209917,
+        "mag": 2.7,
+        "place": "15 km NNW of Midland, Texas",
+        "time": 1637119556876,
+        "updated": 1637122015634,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fuqs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fuqs.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021wmxu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021wmxu.geojson",
         "felt": 7,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 99,
-        "net": "us",
-        "code": "7000fuqs",
-        "ids": ",us7000fuqs,",
-        "sources": ",us,",
+        "sig": 115,
+        "net": "tx",
+        "code": "2021wmxu",
+        "ids": ",us7000fuqs,tx2021wmxu,",
+        "sources": ",us,tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.326,
-        "rms": 0.48,
-        "gap": 55,
-        "magType": "mb_lg",
+        "nst": 25,
+        "dmin": 0.01680917741,
+        "rms": 0.1,
+        "gap": 47,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 14 km NNW of Midland, Texas"
+        "title": "M 2.7 - 15 km NNW of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.165,
-          32.1086,
-          2.36
+          -102.1599895,
+          32.11395264,
+          6.676147461
         ]
       },
-      "id": "us7000fuqs"
+      "id": "tx2021wmxu"
     },
     {
       "type": "Feature",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "6 km E of Pāhala, Hawaii",
         "time": 1637090155760,
         "updated": 1637106972091,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 152,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Island of Hawaii, Hawaii"
+        "title": "M 3.7 - 6 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "near the south coast of Honshu, Japan",
+        "place": "8 km NW of Hadano, Japan",
         "time": 1637085284450,
         "updated": 1637118856459,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 132,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - near the south coast of Honshu, Japan"
+        "title": "M 4.4 - 8 km NW of Hadano, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "Puerto Rico region",
+        "place": "4 km SSE of La Parguera, Puerto Rico",
         "time": 1637049752960,
         "updated": 1637051167665,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 235,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 4 km SSE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1608,54 +1648,14 @@
         ]
       },
       "id": "us7000fuhb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "south of the Fiji Islands",
-        "time": 1637036685269,
-        "updated": 1637037551040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fuh5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fuh5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000fuh5",
-        "ids": ",us7000fuh5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.433,
-        "rms": 1.03,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.592,
-          -22.7334,
-          560.7
-        ]
-      },
-      "id": "us7000fuh5"
     }
   ],
   "bbox": [
-    -179.592,
+    -156.235,
     -58.69,
     -0.41,
     153.3757,
     67.3286,
-    560.7
+    211.29
   ]
 }
