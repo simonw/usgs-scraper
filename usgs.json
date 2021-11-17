@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637178430000,
+    "generated": 1637179155000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 29
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "0 km E of San Ramon, California",
-        "time": 1637178224457,
-        "updated": 1637178228322,
+        "mag": 2.6,
+        "place": "1km NE of San Ramon, CA",
+        "time": 1637178387720,
+        "updated": 1637178748457,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1637178220",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ew1637178220.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73654070",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73654070.geojson",
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 271,
-        "net": "ew",
-        "code": "1637178220",
-        "ids": ",ew1637178220,",
-        "sources": ",ew,",
-        "types": ",origin,",
-        "nst": 4,
-        "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "mw",
+        "sig": 105,
+        "net": "nc",
+        "code": "73654070",
+        "ids": ",nc73654070,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.07235,
+        "rms": 0.07,
+        "gap": 91,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.2 - 0 km E of San Ramon, California"
+        "title": "M 2.6 - 1km NE of San Ramon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.972,
-          37.7805,
-          8
+          -121.9690018,
+          37.7888336,
+          9.25
         ]
       },
-      "id": "ew1637178220"
+      "id": "nc73654070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.82,
+        "place": "2km NE of San Ramon, CA",
+        "time": 1637178223550,
+        "updated": 1637179094017,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73654060",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73654060.geojson",
+        "felt": 2003,
+        "cdi": 4,
+        "mmi": 4.18,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 624,
+        "net": "nc",
+        "code": "73654060",
+        "ids": ",ew1637178220,nc73654060,",
+        "sources": ",ew,nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 75,
+        "dmin": 0.06963,
+        "rms": 0.12,
+        "gap": 49,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.8 - 2km NE of San Ramon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9674988,
+          37.7919998,
+          10.93
+        ]
+      },
+      "id": "nc73654060"
     },
     {
       "type": "Feature",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "usd000gfpp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.78,
+        "place": "33 km NW of Stanley, Idaho",
+        "time": 1637174746990,
+        "updated": 1637178586810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80530829",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80530829.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 119,
+        "net": "mb",
+        "code": "80530829",
+        "ids": ",mb80530829,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.836,
+        "rms": 0.22,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 33 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2001667,
+          44.4573333,
+          7.32
+        ]
+      },
+      "id": "mb80530829"
     },
     {
       "type": "Feature",
