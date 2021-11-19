@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637337463000,
+    "generated": 1637339655000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "5 km SSW of Adjuntas, Puerto Rico",
+        "time": 1637336603510,
+        "updated": 1637339208485,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021323008",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021323008.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "pr",
+        "code": "2021323008",
+        "ids": ",pr2021323008,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1774,
+        "rms": 0.12,
+        "gap": 61,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km SSW of Adjuntas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7501,
+          18.1223,
+          23
+        ]
+      },
+      "id": "pr2021323008"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 5.1,
         "place": "24 km NW of Karayazı, Turkey",
         "time": 1637325654052,
-        "updated": 1637337400535,
+        "updated": 1637338029040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvfl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvfl.geojson",
@@ -110,7 +150,7 @@
         "code": "7000fvfl",
         "ids": ",us7000fvfl,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.113,
         "rms": 0.78,
@@ -1293,81 +1333,41 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "45 km S of Puerto San José, Guatemala",
-        "time": 1637254618539,
-        "updated": 1637284085256,
+        "place": "41 km S of Puerto San José, Guatemala",
+        "time": 1637254616993,
+        "updated": 1637339340015,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fv5p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fv5p.geojson",
-        "felt": 43,
+        "felt": 44,
         "cdi": 4.8,
-        "mmi": 4.66,
+        "mmi": 4.069,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 538,
+        "sig": 539,
         "net": "us",
         "code": "7000fv5p",
         "ids": ",us7000fv5p,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 1.351,
-        "rms": 1.06,
-        "gap": 122,
+        "dmin": 1.318,
+        "rms": 1.28,
+        "gap": 63,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 45 km S of Puerto San José, Guatemala"
+        "title": "M 5.8 - 41 km S of Puerto San José, Guatemala"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.8318,
-          13.518,
-          47.26
+          -90.8004,
+          13.5508,
+          29.54
         ]
       },
       "id": "us7000fv5p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "62 km NNW of Bandar Abbas, Iran",
-        "time": 1637251841693,
-        "updated": 1637258772040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fv4g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fv4g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000fv4g",
-        "ids": ",us7000fv4g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.741,
-        "rms": 0.58,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 62 km NNW of Bandar Abbas, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.9885,
-          27.6914,
-          10
-        ]
-      },
-      "id": "us7000fv4g"
     }
   ],
   "bbox": [
