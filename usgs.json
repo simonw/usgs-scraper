@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637601411000,
+    "generated": 1637604286000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "250 km E of Levuka, Fiji",
+        "time": 1637601033623,
+        "updated": 1637602251040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw8x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw8x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000fw8x",
+        "ids": ",us7000fw8x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.472,
+        "rms": 1.14,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 250 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.3194,
+          -18.1039,
+          568.48
+        ]
+      },
+      "id": "us7000fw8x"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -535,7 +575,7 @@
         "mag": 4.5,
         "place": "4 km NNE of Puerto Plata, Dominican Republic",
         "time": 1637566967534,
-        "updated": 1637599782696,
+        "updated": 1637601886753,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw4z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw4z.geojson",
@@ -615,12 +655,12 @@
         "mag": 2.6,
         "place": "14 km SW of Stockton, Kansas",
         "time": 1637566262879,
-        "updated": 1637574835040,
+        "updated": 1637603794055,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw4w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw4w.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -630,7 +670,7 @@
         "code": "7000fw4w",
         "ids": ",us7000fw4w,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.606,
         "rms": 0.59,
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "us7000fw18"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "6 km ENE of Pāhala, Hawaii",
-        "time": 1637517617260,
-        "updated": 1637527833266,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72806527",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72806527.geojson",
-        "felt": 11,
-        "cdi": 2.3,
-        "mmi": 3.96,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "hv",
-        "code": "72806527",
-        "ids": ",hv72806527,us7000fw05,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 49,
-        "dmin": null,
-        "rms": 0.150000006,
-        "gap": 128,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 6 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.421493530273,
-          19.234167098999,
-          32.9500007629395
-        ]
-      },
-      "id": "hv72806527"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "off the coast of Oregon",
-        "time": 1637515537485,
-        "updated": 1637518484040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvzv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvzv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000fvzv",
-        "ids": ",us7000fvzv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.345,
-        "rms": 0.95,
-        "gap": 210,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.9686,
-          44.6212,
-          10
-        ]
-      },
-      "id": "us7000fvzv"
     }
   ],
   "bbox": [
@@ -1416,6 +1376,6 @@
     4,
     175.3562,
     63.0537,
-    520
+    568.48
   ]
 }
