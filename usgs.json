@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637877676000,
+    "generated": 1637881296000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.85,
         "place": "17km WSW of Toms Place, CA",
         "time": 1637877430780,
-        "updated": 1637877653580,
+        "updated": 1637881250129,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73657750",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73657750.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 125,
         "net": "nc",
         "code": "73657750",
-        "ids": ",nc73657750,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73657750,us7000fx3n,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 25,
         "dmin": 0.09365,
         "rms": 0.05,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nc73657750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Kermadec Islands region",
+        "time": 1637876559032,
+        "updated": 1637878109040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx3l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx3l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000fx3l",
+        "ids": ",us7000fx3l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.142,
+        "rms": 1.15,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.1856,
+          -29.5558,
+          345.25
+        ]
+      },
+      "id": "us7000fx3l"
     },
     {
       "type": "Feature",
@@ -452,10 +492,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.12,
+        "mag": 3.49,
         "place": "13 km SSE of Volcano, Hawaii",
-        "time": 1637849202980,
-        "updated": 1637869733674,
+        "time": 1637849202950,
+        "updated": 1637879411497,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72811222",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72811222.geojson",
@@ -463,9 +503,9 @@
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 157,
+        "sig": 195,
         "net": "hv",
         "code": "72811222",
         "ids": ",hv72811222,us7000fx0m,",
@@ -473,18 +513,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": 48,
         "dmin": null,
-        "rms": 0.189999998,
-        "gap": 109,
+        "rms": 0.1,
+        "gap": 114,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 13 km SSE of Volcano, Hawaii"
+        "title": "M 3.5 - 13 km SSE of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.199493408203,
-          19.3295001983643,
-          5.92000007629395
+          -155.201666666667,
+          19.3246666666667,
+          6.55
         ]
       },
       "id": "hv72811222"
@@ -1328,94 +1368,14 @@
         ]
       },
       "id": "hv72810532"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "48 km SSE of Denali National Park, Alaska",
-        "time": 1637793574319,
-        "updated": 1637799188321,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f2tlsun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f2tlsun.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021f2tlsun",
-        "ids": ",us7000fwwf,ak021f2tlsun,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 48 km SSE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.5194,
-          63.1134,
-          1.7
-        ]
-      },
-      "id": "ak021f2tlsun"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "62 km WNW of Talcahuano, Chile",
-        "time": 1637791388903,
-        "updated": 1637792495040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fww8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fww8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000fww8",
-        "ids": ",us7000fww8,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.515,
-        "rms": 0.68,
-        "gap": 111,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 62 km WNW of Talcahuano, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.7435,
-          -36.4863,
-          11.95
-        ]
-      },
-      "id": "us7000fww8"
     }
   ],
   "bbox": [
-    -178.3796,
+    -179.1856,
     -58.0025,
     0.51,
     175.1081,
-    63.1134,
+    62.0534,
     615.06
   ]
 }
