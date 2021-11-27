@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637989276000,
+    "generated": 1637992996000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "95 km W of San Antonio de los Cobres, Argentina",
+        "time": 1637990715848,
+        "updated": 1637991799040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxev",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxev.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000fxev",
+        "ids": ",us7000fxev,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.588,
+        "rms": 0.65,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 95 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2565,
+          -24.3024,
+          179.59
+        ]
+      },
+      "id": "us7000fxev"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6099999,
+        "place": "1 km S of Pāhala, Hawaii",
+        "time": 1637989492490,
+        "updated": 1637989822230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72813147",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72813147.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "hv",
+        "code": "72813147",
+        "ids": ",hv72813147,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.100000001,
+        "gap": 85,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 1 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.475326538086,
+          19.1863327026367,
+          34.7099990844727
+        ]
+      },
+      "id": "hv72813147"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 5.4,
         "place": "74 km W of Panguna, Papua New Guinea",
         "time": 1637984751331,
-        "updated": 1637986072097,
+        "updated": 1637992104605,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxe4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxe4.geojson",
@@ -1615,7 +1695,7 @@
         "mag": 5.7,
         "place": "Izu Islands, Japan region",
         "time": 1637910844305,
-        "updated": 1637918345568,
+        "updated": 1637989705040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx6f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx6f.geojson",
@@ -1630,7 +1710,7 @@
         "code": "7000fx6f",
         "ids": ",us7000fx6f,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 4.643,
         "rms": 1.29,
@@ -1648,51 +1728,11 @@
         ]
       },
       "id": "us7000fx6f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.96,
-        "place": "17km WSW of Toms Place, CA",
-        "time": 1637904509580,
-        "updated": 1637980628658,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73657915",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73657915.geojson",
-        "felt": 6,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "nc",
-        "code": "73657915",
-        "ids": ",nc73657915,nn00828844,us7000fx61,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.1206,
-        "rms": 0.04,
-        "gap": 114,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 17km WSW of Toms Place, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.8521652,
-          37.4985008,
-          4.41
-        ]
-      },
-      "id": "nc73657915"
     }
   ],
   "bbox": [
     -177.5494,
-    -22.1967,
+    -24.3024,
     0,
     154.8132,
     68.0478,
