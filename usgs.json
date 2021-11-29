@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638144990000,
+    "generated": 1638150390000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 56
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "Puerto Rico region",
+        "time": 1638148549130,
+        "updated": 1638150159133,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021333000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021333000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "pr",
+        "code": "2021333000",
+        "ids": ",pr2021333000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.0344,
+        "rms": 0.07,
+        "gap": 175,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.01,
+          17.9733,
+          11
+        ]
+      },
+      "id": "pr2021333000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "25 km WSW of Coyanosa, Texas",
         "time": 1638140583465,
-        "updated": 1638142197484,
+        "updated": 1638148020617,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xind",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xind.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 3.849,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +68,9 @@
         "sig": 168,
         "net": "tx",
         "code": "2021xind",
-        "ids": ",us7000fxu5,tx2021xind,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",tx2021xind,us7000fxu5,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 22,
         "dmin": 0.04883398697,
         "rms": 0.3,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ak021f9fu75r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "231 km SE of Chiniak, Alaska",
+        "time": 1638139241752,
+        "updated": 1638145276722,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f9freli",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f9freli.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "021f9freli",
+        "ids": ",ak021f9freli,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.14,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 231 km SE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7376,
+          56.0641,
+          12.5
+        ]
+      },
+      "id": "ak021f9freli"
     },
     {
       "type": "Feature",
@@ -453,31 +533,31 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "25 km W of Abepura, Indonesia",
+        "place": "near the north coast of Papua, Indonesia",
         "time": 1638120450721,
-        "updated": 1638130865040,
+        "updated": 1638149711278,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxt1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxt1.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 313,
         "net": "us",
         "code": "7000fxt1",
         "ids": ",us7000fxt1,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 6.979,
         "rms": 0.7,
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 25 km W of Abepura, Indonesia"
+        "title": "M 4.5 - near the north coast of Papua, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "65 km W of La Ligua, Chile",
+        "place": "Near the coast of Valparaiso, Chile",
         "time": 1638092237623,
         "updated": 1638107531742,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 134,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.0 - 65 km W of La Ligua, Chile"
+        "title": "M 4.0 - Near the coast of Valparaiso, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "11 km NNE of Hoehne, Colorado",
+        "place": "Colorado",
         "time": 1638087134466,
         "updated": 1638112033981,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 11 km NNE of Hoehne, Colorado"
+        "title": "M 2.7 - Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -1495,17 +1575,17 @@
         "mag": 5.1,
         "place": "28 km W of Callao, Peru",
         "time": 1638081150995,
-        "updated": 1638117358914,
+        "updated": 1638149655027,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxna",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxna.geojson",
-        "felt": 78,
+        "felt": 80,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 436,
+        "sig": 437,
         "net": "us",
         "code": "7000fxna",
         "ids": ",us7000fxna,",
@@ -1573,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "56 km SSE of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1638079150556,
         "updated": 1638087053726,
         "tz": null,
@@ -1597,7 +1677,7 @@
         "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 56 km SSE of Whites City, New Mexico"
+        "title": "M 3.2 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1968,291 +2048,11 @@
         ]
       },
       "id": "ak021f93c4rf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "northern Alaska",
-        "time": 1638063850267,
-        "updated": 1638072103213,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f93a45y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f93a45y.geojson",
-        "felt": 2,
-        "cdi": 4.1,
-        "mmi": 4.693,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "ak",
-        "code": "021f93a45y",
-        "ids": ",ak021f93a45y,us7000fxli,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.94,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.3 - northern Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.5953,
-          66.9559,
-          6.9
-        ]
-      },
-      "id": "ak021f93a45y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "6 km SSW of Venetie, Alaska",
-        "time": 1638063587483,
-        "updated": 1638066089040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f939474",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f939474.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.706,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "021f939474",
-        "ids": ",us7000fxlg,ak021f939474,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 6 km SSW of Venetie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.4799,
-          66.9631,
-          12.1
-        ]
-      },
-      "id": "ak021f939474"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "50 km SW of Qā’en, Iran",
-        "time": 1638063488507,
-        "updated": 1638064737040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxlh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxlh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000fxlh",
-        "ids": ",us7000fxlh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 8.616,
-        "rms": 0.74,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 50 km SW of Qā’en, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.7505,
-          33.4477,
-          10
-        ]
-      },
-      "id": "us7000fxlh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "67 km ESE of Margherita, India",
-        "time": 1638063171113,
-        "updated": 1638066462040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxlf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxlf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000fxlf",
-        "ids": ",us7000fxlf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.324,
-        "rms": 1.27,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 67 km ESE of Margherita, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.3158,
-          27.0868,
-          10
-        ]
-      },
-      "id": "us7000fxlf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "15 km SSE of Guánica, Puerto Rico",
-        "time": 1638062968050,
-        "updated": 1638064231820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021332001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021332001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "pr",
-        "code": "2021332001",
-        "ids": ",pr2021332001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1356,
-        "rms": 0.1,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 15 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.857,
-          17.8413,
-          11
-        ]
-      },
-      "id": "pr2021332001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "15 km SSE of Guánica, Puerto Rico",
-        "time": 1638060880940,
-        "updated": 1638062507579,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021332000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021332000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "2021332000",
-        "ids": ",pr2021332000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1379,
-        "rms": 0.14,
-        "gap": 224,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 15 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8563,
-          17.8391,
-          13
-        ]
-      },
-      "id": "pr2021332000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "45 km WSW of Carahue, Chile",
-        "time": 1638059857679,
-        "updated": 1638067019040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxl3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxl3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000fxl3",
-        "ids": ",us7000fxl3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.052,
-        "rms": 0.64,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 45 km WSW of Carahue, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.6557,
-          -38.8416,
-          31.26
-        ]
-      },
-      "id": "us7000fxl3"
     }
   ],
   "bbox": [
     -178.2631,
-    -38.8416,
+    -32.3775,
     4.5,
     161.0192,
     67.0253,
