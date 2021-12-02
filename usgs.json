@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638417750000,
+    "generated": 1638421350000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "63 km S of Whites City, New Mexico",
+        "time": 1638418568899,
+        "updated": 1638419798278,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xojz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xojz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "tx",
+        "code": "2021xojz",
+        "ids": ",us6000g8ck,tx2021xojz,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.05533160398,
+        "rms": 0.2,
+        "gap": 78,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 63 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.498454,
+          31.61339809,
+          6.851391602
+        ]
+      },
+      "id": "tx2021xojz"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.3,
         "place": "278 km WSW of Adak, Alaska",
         "time": 1638412017631,
-        "updated": 1638415626505,
+        "updated": 1638419831521,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8cc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8cc.geojson",
@@ -55,13 +95,13 @@
         "mag": 3.26,
         "place": "Island of Hawaii, Hawaii",
         "time": 1638410612960,
-        "updated": 1638416516992,
+        "updated": 1638417923631,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72819152",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72819152.geojson",
         "felt": 12,
         "cdi": 3.8,
-        "mmi": 3.792,
+        "mmi": 3.81,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -95,7 +135,7 @@
         "mag": 2.45,
         "place": "15km E of Dixon, CA",
         "time": 1638408880200,
-        "updated": 1638411012380,
+        "updated": 1638418634070,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658626",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658626.geojson",
@@ -172,55 +212,15 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.67000008,
-        "place": "8 km E of Pāhala, Hawaii",
-        "time": 1638406032770,
-        "updated": 1638406225360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72819057",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72819057.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "hv",
-        "code": "72819057",
-        "ids": ",hv72819057,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": null,
-        "rms": 0.0900000036,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.396667480469,
-          19.2026672363281,
-          31.8999996185303
-        ]
-      },
-      "id": "hv72819057"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.48,
         "place": "10km S of Tres Pinos, CA",
         "time": 1638404864280,
-        "updated": 1638416291854,
+        "updated": 1638419452777,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658581",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658581.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -230,7 +230,7 @@
         "code": "73658581",
         "ids": ",nc73658581,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.06277,
         "rms": 0.11,
@@ -288,6 +288,46 @@
         ]
       },
       "id": "ak021fef219j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "8 km NNE of Canneto, Italy",
+        "time": 1638398654026,
+        "updated": 1638418892040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8aq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8aq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000g8aq",
+        "ids": ",us6000g8aq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.429,
+        "rms": 0.75,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 8 km NNE of Canneto, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.994,
+          38.5639,
+          224.42
+        ]
+      },
+      "id": "us6000g8aq"
     },
     {
       "type": "Feature",
@@ -495,17 +535,17 @@
         "mag": 5,
         "place": "4 km W of Tsukuba, Japan",
         "time": 1638377918264,
-        "updated": 1638417671533,
+        "updated": 1638419341561,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g88v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g88v.geojson",
-        "felt": 192,
+        "felt": 194,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 486,
+        "sig": 487,
         "net": "us",
         "code": "6000g88v",
         "ids": ",us6000g88v,",
@@ -1248,126 +1288,6 @@
         ]
       },
       "id": "us6000g83b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "28 km WSW of Cañete, Chile",
-        "time": 1638334150178,
-        "updated": 1638399789040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g837",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g837.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000g837",
-        "ids": ",us6000g837,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.231,
-        "rms": 0.52,
-        "gap": 153,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 28 km WSW of Cañete, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.6928,
-          -37.9149,
-          15.94
-        ]
-      },
-      "id": "us6000g837"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "24 km SW of Cañete, Chile",
-        "time": 1638333564903,
-        "updated": 1638401722039,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g836",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g836.geojson",
-        "felt": 19,
-        "cdi": 5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 410,
-        "net": "us",
-        "code": "6000g836",
-        "ids": ",us6000g836,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.226,
-        "rms": 0.61,
-        "gap": 68,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 24 km SW of Cañete, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.6241,
-          -37.9268,
-          15.18
-        ]
-      },
-      "id": "us6000g836"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "78 km SE of Hasaki, Japan",
-        "time": 1638331758467,
-        "updated": 1638402721040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g835",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g835.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000g835",
-        "ids": ",us6000g835,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.424,
-        "rms": 0.62,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 78 km SE of Hasaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.3611,
-          35.1775,
-          35
-        ]
-      },
-      "id": "us6000g835"
     }
   ],
   "bbox": [
