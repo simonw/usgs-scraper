@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638626483000,
+    "generated": 1638630270000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.8,
+        "place": "South Sandwich Islands region",
+        "time": 1638628032487,
+        "updated": 1638629494004,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g90r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g90r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.56,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "6000g90r",
+        "ids": ",us6000g90r,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 7.113,
+        "rms": 0.72,
+        "gap": 192,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.7428,
+          -59.5378,
+          29.98
+        ]
+      },
+      "id": "us6000g90r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "62 km S of Kokhanok, Alaska",
+        "time": 1638626481581,
+        "updated": 1638627079982,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fj7zms2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fj7zms2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "021fj7zms2",
+        "ids": ",ak021fj7zms2,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.92,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 62 km S of Kokhanok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.9016,
+          58.8862,
+          129.6
+        ]
+      },
+      "id": "ak021fj7zms2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
-        "place": "16 km NW of Vrontádos, Greece",
+        "place": "Near the coast of western Turkey",
         "time": 1638622869631,
         "updated": 1638623959040,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 16 km NW of Vrontádos, Greece"
+        "title": "M 4.2 - Near the coast of western Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "western Texas",
+        "place": "51 km NW of Toyah, Texas",
         "time": 1638596059915,
         "updated": 1638597295259,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - western Texas"
+        "title": "M 3.2 - 51 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1328,54 +1408,14 @@
         ]
       },
       "id": "us6000g8tx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.47,
-        "place": "2 km N of Guaymate, Dominican Republic",
-        "time": 1638541084150,
-        "updated": 1638551270040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021337008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021337008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 185,
-        "net": "pr",
-        "code": "2021337008",
-        "ids": ",us6000g8qg,pr2021337008,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.602,
-        "rms": 0.34,
-        "gap": 141,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 2 km N of Guaymate, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9761,
-          18.6076,
-          132
-        ]
-      },
-      "id": "pr2021337008"
     }
   ],
   "bbox": [
     -155.70317077637,
-    -22.8562,
+    -59.5378,
     0.62999999523163,
     171.7883,
-    44.8554,
+    58.8862,
     598.43
   ]
 }
