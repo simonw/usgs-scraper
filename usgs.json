@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639100801000,
+    "generated": 1639102801000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 61
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "2km ENE of Prattville, CA",
+        "time": 1639100979420,
+        "updated": 1639102751463,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661991",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661991.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nc",
+        "code": "73661991",
+        "ids": ",nc73661991,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.03207,
+        "rms": 0.18,
+        "gap": 51,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2km ENE of Prattville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1355,
+          40.2165,
+          5.3
+        ]
+      },
+      "id": "nc73661991"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4,
         "place": "2 km SW of Indios, Puerto Rico",
         "time": 1639099533436,
-        "updated": 1639100636652,
+        "updated": 1639102238066,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb1h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb1h.geojson",
-        "felt": 21,
+        "felt": 60,
         "cdi": 5.3,
         "mmi": 3.35,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 257,
+        "sig": 278,
         "net": "us",
         "code": "6000gb1h",
         "ids": ",us6000gb1h,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.071,
         "rms": 0.37,
@@ -455,12 +495,12 @@
         "mag": 3.41,
         "place": "15 km SW of San Rafael del Yuma, Dominican Republic",
         "time": 1639089153290,
-        "updated": 1639100650102,
+        "updated": 1639101174437,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021343004",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021343004.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -648,6 +688,86 @@
         ]
       },
       "id": "us6000gaza"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.94,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1639077855800,
+        "updated": 1639102160640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045373",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045373.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "av",
+        "code": "91045373",
+        "ids": ",av91045373,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": null,
+        "rms": 0.12,
+        "gap": 350,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.344666666667,
+          52.0201666666667,
+          4.33
+        ]
+      },
+      "id": "av91045373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.87,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1639077841280,
+        "updated": 1639101864400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91440581",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91440581.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "av",
+        "code": "91440581",
+        "ids": ",av91440581,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": null,
+        "rms": 0.18,
+        "gap": 315,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.314666666667,
+          52.012,
+          1.64
+        ]
+      },
+      "id": "av91440581"
     },
     {
       "type": "Feature",
@@ -1413,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Philippine Islands region",
+        "place": "23 km ENE of Santa Monica, Philippines",
         "time": 1639053902383,
         "updated": 1639055533040,
         "tz": null,
@@ -1437,7 +1557,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Philippine Islands region"
+        "title": "M 4.9 - 23 km ENE of Santa Monica, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -2328,86 +2448,6 @@
         ]
       },
       "id": "pr2021343002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "119 km N of Naze, Japan",
-        "time": 1639015509547,
-        "updated": 1639082260739,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaq5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaq5.geojson",
-        "felt": 13,
-        "cdi": 6.7,
-        "mmi": 5.607,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 563,
-        "net": "us",
-        "code": "6000gaq5",
-        "ids": ",us6000gaq5,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 2.246,
-        "rms": 0.9,
-        "gap": 49,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 119 km N of Naze, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4172,
-          29.4414,
-          17
-        ]
-      },
-      "id": "us6000gaq5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "off the coast of Oregon",
-        "time": 1639014516437,
-        "updated": 1639015211040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaq3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaq3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gaq3",
-        "ids": ",us6000gaq3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.648,
-        "rms": 0.81,
-        "gap": 200,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.1711,
-          44.2208,
-          10
-        ]
-      },
-      "id": "us6000gaq3"
     }
   ],
   "bbox": [
