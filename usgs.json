@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639404136000,
+    "generated": 1639407992000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "24 km SE of Susitna North, Alaska",
+        "time": 1639406467933,
+        "updated": 1639407279678,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fy42aty",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fy42aty.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "021fy42aty",
+        "ids": ",ak021fy42aty,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.77,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 24 km SE of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4776,
+          62.0349,
+          19.2
+        ]
+      },
+      "id": "ak021fy42aty"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.51,
         "place": "12km S of Tres Pinos, CA",
         "time": 1639404035530,
-        "updated": 1639404129886,
+        "updated": 1639406890800,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73663271",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73663271.geojson",
@@ -30,7 +70,7 @@
         "code": "73663271",
         "ids": ",nc73663271,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": null,
         "rms": 0.07,
@@ -55,7 +95,7 @@
         "mag": 3.7,
         "place": "152 km SE of Chignik, Alaska",
         "time": 1639403386043,
-        "updated": 1639403940618,
+        "updated": 1639406924040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fy3inwx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fy3inwx.geojson",
@@ -68,9 +108,9 @@
         "sig": 211,
         "net": "ak",
         "code": "021fy3inwx",
-        "ids": ",ak021fy3inwx,",
-        "sources": ",ak,",
-        "types": ",origin,shakemap,",
+        "ids": ",us6000gbvl,ak021fy3inwx,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.62,
@@ -88,6 +128,86 @@
         ]
       },
       "id": "ak021fy3inwx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "95 km N of Lagunas, Peru",
+        "time": 1639402125519,
+        "updated": 1639405651040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbvm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbvm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gbvm",
+        "ids": ",us6000gbvm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 9.269,
+        "rms": 1.22,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 95 km N of Lagunas, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7891,
+          -4.3694,
+          98.98
+        ]
+      },
+      "id": "us6000gbvm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "59 km S of Whites City, New Mexico",
+        "time": 1639401093339,
+        "updated": 1639404523040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbvg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbvg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000gbvg",
+        "ids": ",us6000gbvg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.057,
+        "rms": 0.38,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 59 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4385,
+          31.6461,
+          5
+        ]
+      },
+      "id": "us6000gbvg"
     },
     {
       "type": "Feature",
@@ -295,17 +415,17 @@
         "mag": 5.5,
         "place": "14 km WSW of Tingloy, Philippines",
         "time": 1639386755642,
-        "updated": 1639397928623,
+        "updated": 1639406497515,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbu7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbu7.geojson",
-        "felt": 27,
+        "felt": 28,
         "cdi": 4.1,
         "mmi": 3.537,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 476,
+        "sig": 477,
         "net": "us",
         "code": "6000gbu7",
         "ids": ",us6000gbu7,",
@@ -1092,46 +1212,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45,
-        "place": "6 km E of Chickasha, Oklahoma",
-        "time": 1639342127715,
-        "updated": 1639343693376,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021yhxt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021yhxt.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "ok",
-        "code": "2021yhxt",
-        "ids": ",ok2021yhxt,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.1047773063,
-        "rms": 0.8182262121,
-        "gap": 130.4246216,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km E of Chickasha, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.86269379,
-          35.04459381,
-          4.601409435
-        ]
-      },
-      "id": "ok2021yhxt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.67,
         "place": "3 km SSW of Guánica, Puerto Rico",
         "time": 1639341159070,
@@ -1335,17 +1415,17 @@
         "mag": 3.02,
         "place": "3 km NE of Manchester, Ohio",
         "time": 1639331575910,
-        "updated": 1639402650185,
+        "updated": 1639405968269,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140143.geojson",
-        "felt": 382,
+        "felt": 384,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 331,
+        "sig": 332,
         "net": "se",
         "code": "60140143",
         "ids": ",us6000gbpp,se60140143,",
@@ -1768,46 +1848,6 @@
         ]
       },
       "id": "pr2021346005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "50 km NE of Tobelo, Indonesia",
-        "time": 1639319162677,
-        "updated": 1639321489040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbnn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbnn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gbnn",
-        "ids": ",us6000gbnn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.583,
-        "rms": 0.36,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 50 km NE of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.3748,
-          2.0008,
-          235.07
-        ]
-      },
-      "id": "us6000gbnn"
     }
   ],
   "bbox": [
