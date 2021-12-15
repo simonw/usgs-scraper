@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639598583000,
+    "generated": 1639602123000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 59
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3,
         "place": "74 km NW of Ninilchik, Alaska",
         "time": 1639595359950,
-        "updated": 1639595977722,
+        "updated": 1639600294040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g1hxbmo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g1hxbmo.geojson",
@@ -68,9 +68,9 @@
         "sig": 138,
         "net": "ak",
         "code": "021g1hxbmo",
-        "ids": ",ak021g1hxbmo,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gcit,ak021g1hxbmo,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.58,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "ak021g1hxbmo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1639594696582,
+        "updated": 1639599438040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcis",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcis.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000gcis",
+        "ids": ",us6000gcis,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.771,
+        "rms": 0.77,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3297,
+          31.3393,
+          10
+        ]
+      },
+      "id": "us6000gcis"
     },
     {
       "type": "Feature",
@@ -215,11 +255,11 @@
         "mag": 3.1,
         "place": "7 km SW of Gypsum, Kansas",
         "time": 1639592268920,
-        "updated": 1639596134000,
+        "updated": 1639600928197,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcie",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcie.geojson",
-        "felt": 5,
+        "felt": 7,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -252,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.82,
-        "place": "44 km SE of Pāhala, Hawaii",
-        "time": 1639592026510,
-        "updated": 1639597693040,
+        "mag": 3.09,
+        "place": "44 km ESE of Naalehu, Hawaii",
+        "time": 1639592026430,
+        "updated": 1639599258590,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834632",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834632.geojson",
@@ -263,71 +303,31 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 147,
         "net": "hv",
         "code": "72834632",
         "ids": ",us6000gcid,hv72834632,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 39,
+        "nst": 46,
         "dmin": null,
-        "rms": 0.219999999,
-        "gap": 257,
-        "magType": "ml",
+        "rms": 0.16,
+        "gap": 255,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 44 km SE of Pāhala, Hawaii"
+        "title": "M 3.1 - 44 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.195327758789,
-          18.9091663360596,
-          6.59999990463257
+          -155.197333333333,
+          18.9051666666667,
+          6.41
         ]
       },
       "id": "hv72834632"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46000004,
-        "place": "54 km SE of Naalehu, Hawaii",
-        "time": 1639591298450,
-        "updated": 1639597244040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834622",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834622.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "hv",
-        "code": "72834622",
-        "ids": ",us6000gcib,hv72834622,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": null,
-        "rms": 0.159999996,
-        "gap": 287,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 54 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.258163452148,
-          18.6876659393311,
-          15.7700004577637
-        ]
-      },
-      "id": "hv72834622"
     },
     {
       "type": "Feature",
@@ -575,12 +575,12 @@
         "mag": 2.9,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639582221605,
-        "updated": 1639594093138,
+        "updated": 1639600980912,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ymzt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ymzt.geojson",
-        "felt": 19,
-        "cdi": 3.8,
+        "felt": 21,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -615,11 +615,11 @@
         "mag": 3.4,
         "place": "Kansas",
         "time": 1639580588658,
-        "updated": 1639597451683,
+        "updated": 1639599136188,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gced",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gced.geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -975,17 +975,17 @@
         "mag": 4,
         "place": "2 km SSW of Gypsum, Kansas",
         "time": 1639562301667,
-        "updated": 1639596966143,
+        "updated": 1639601103536,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcd6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcd6.geojson",
-        "felt": 116,
+        "felt": 120,
         "cdi": 4.1,
         "mmi": 4.697,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 294,
+        "sig": 295,
         "net": "us",
         "code": "6000gcd6",
         "ids": ",us6000gcd6,",
@@ -2368,46 +2368,6 @@
         ]
       },
       "id": "us6000gc9g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "26 km SW of Monument, New Mexico",
-        "time": 1639514393651,
-        "updated": 1639593536040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc94",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc94.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000gc94",
-        "ids": ",us6000gc94,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.11,
-        "rms": 0.65,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 26 km SW of Monument, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.4624,
-          32.4523,
-          3.6
-        ]
-      },
-      "id": "us6000gc94"
     }
   ],
   "bbox": [
