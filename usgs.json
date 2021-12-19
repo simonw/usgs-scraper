@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639919521000,
+    "generated": 1639922583000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "3km SE of Charter Oak, CA",
+        "time": 1639922397600,
+        "updated": 1639922528385,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40131168",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40131168.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "ci",
+        "code": "40131168",
+        "ids": ",ci40131168,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 122,
+        "dmin": 0.01861,
+        "rms": 0.23,
+        "gap": 20,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 3km SE of Charter Oak, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.822998,
+          34.0786667,
+          11.52
+        ]
+      },
+      "id": "ci40131168"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +95,22 @@
         "mag": 2.9,
         "place": "0 km WNW of Indios, Puerto Rico",
         "time": 1639917167780,
-        "updated": 1639918233292,
+        "updated": 1639921174426,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021353005",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021353005.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 130,
         "net": "pr",
         "code": "2021353005",
-        "ids": ",us6000gdla,pr2021353005,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2021353005,us6000gdla,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 0.0576,
         "rms": 0.12,
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "19 km SSE of Esperanza, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639911832270,
         "updated": 1639913824472,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 19 km SSE of Esperanza, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -455,11 +495,11 @@
         "mag": 4.6,
         "place": "6 km ESE of San Lorenzo, Philippines",
         "time": 1639895229279,
-        "updated": 1639913806715,
+        "updated": 1639921192415,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdje",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdje.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 4.7,
         "mmi": null,
         "alert": null,
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Near the coast of Atacama, Chile",
+        "place": "126 km W of Copiapó, Chile",
         "time": 1639891796784,
         "updated": 1639893567040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 165,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Near the coast of Atacama, Chile"
+        "title": "M 4.3 - 126 km W of Copiapó, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "32 km WSW of Winslow West, Arizona",
+        "place": "32 km WSW of LeChee, Arizona",
         "time": 1639887860324,
         "updated": 1639906171135,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 32 km WSW of Winslow West, Arizona"
+        "title": "M 3.0 - 32 km WSW of LeChee, Arizona"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "Puerto Rico region",
+        "place": "5 km SW of La Parguera, Puerto Rico",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -1557,7 +1597,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "Oklahoma",
+        "place": "7 km SE of Erin Springs, Oklahoma",
         "time": 1639841132558,
         "updated": 1639874503333,
         "tz": null,
@@ -1637,7 +1677,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Oklahoma"
+        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1768,46 +1808,6 @@
         ]
       },
       "id": "pr2021352002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Chagos Archipelago region",
-        "time": 1639834768793,
-        "updated": 1639837112040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gde7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gde7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000gde7",
-        "ids": ",us6000gde7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.9,
-        "rms": 1.15,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Chagos Archipelago region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          68.3705,
-          -3.2002,
-          10
-        ]
-      },
-      "id": "us6000gde7"
     }
   ],
   "bbox": [
