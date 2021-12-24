@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640361809000,
+    "generated": 1640365963000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.42,
         "place": "42km W of Petrolia, CA",
         "time": 1640361089300,
-        "updated": 1640361491249,
+        "updated": 1640362392358,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668306.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73668306",
         "ids": ",nc73668306,ew1640361100,",
         "sources": ",nc,ew,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,shake-alert,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 34,
         "dmin": 0.3751,
         "rms": 0.31,
@@ -293,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Greece",
+        "place": "6 km SSW of Tsarítsani, Greece",
         "time": 1640346107617,
         "updated": 1640348681816,
         "tz": null,
@@ -317,7 +317,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Greece"
+        "title": "M 4.3 - 6 km SSW of Tsarítsani, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "36 km N of Glacier View, Alaska",
+        "place": "Central Alaska",
         "time": 1640345950677,
         "updated": 1640346349773,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 36 km N of Glacier View, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -375,11 +375,11 @@
         "mag": 4.87,
         "place": "42 km ESE of Naalehu, Hawaii",
         "time": 1640345494390,
-        "updated": 1640361289681,
+        "updated": 1640364303367,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72844817",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72844817.geojson",
-        "felt": 19,
+        "felt": 21,
         "cdi": 4.1,
         "mmi": 3.63,
         "alert": "green",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "104 km SW of Nikolski, Alaska",
         "time": 1640328505724,
         "updated": 1640333906040,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 207,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 3.3 - 104 km SW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Sicily, Italy",
+        "place": "11 km SSW of Catania, Italy",
         "time": 1640295224740,
         "updated": 1640341973175,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Sicily, Italy"
+        "title": "M 4.3 - 11 km SSW of Catania, Italy"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "nc73668096"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "65 km NNE of Chalkyitsik, Alaska",
-        "time": 1640277426974,
-        "updated": 1640286296040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geuy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geuy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000geuy",
-        "ids": ",us6000geuy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.647,
-        "rms": 0.82,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 65 km NNE of Chalkyitsik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -143.0157,
-          67.1721,
-          12.75
-        ]
-      },
-      "id": "us6000geuy"
     }
   ],
   "bbox": [
@@ -1735,7 +1695,7 @@
     -54.1699,
     0.37,
     129.9683,
-    67.1721,
+    62.1311,
     580.78
   ]
 }
