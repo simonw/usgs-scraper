@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640365963000,
+    "generated": 1640368984000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73,
+        "place": "35km SSE of Santa Cruz Is. (E end), CA",
+        "time": 1640366581530,
+        "updated": 1640366800709,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39895831",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39895831.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "ci",
+        "code": "39895831",
+        "ids": ",ci39895831,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.3958,
+        "rms": 0.27,
+        "gap": 165,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 35km SSE of Santa Cruz Is. (E end), CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3956667,
+          33.733,
+          9.28
+        ]
+      },
+      "id": "ci39895831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "117 km NE of Gisborne, New Zealand",
+        "time": 1640365064171,
+        "updated": 1640367563040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf2i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf2i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000gf2i",
+        "ids": ",us6000gf2i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.593,
+        "rms": 0.65,
+        "gap": 220,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 117 km NE of Gisborne, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.9348,
+          -37.8856,
+          10
+        ]
+      },
+      "id": "us6000gf2i"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.42,
         "place": "42km W of Petrolia, CA",
         "time": 1640361089300,
-        "updated": 1640362392358,
+        "updated": 1640368196040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668306.geojson",
@@ -28,8 +108,8 @@
         "sig": 180,
         "net": "nc",
         "code": "73668306",
-        "ids": ",nc73668306,ew1640361100,",
-        "sources": ",nc,ew,",
+        "ids": ",nc73668306,ew1640361100,us6000gf2b,",
+        "sources": ",nc,ew,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 34,
         "dmin": 0.3751,
@@ -52,16 +132,56 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1640359717877,
+        "updated": 1640366394040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf2a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf2a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gf2a",
+        "ids": ",us6000gf2a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.222,
+        "rms": 1.09,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.627,
+          -18.7353,
+          445.27
+        ]
+      },
+      "id": "us6000gf2a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.6,
         "place": "46km W of Petrolia, CA",
         "time": 1640355862350,
-        "updated": 1640359492053,
+        "updated": 1640366748754,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668291",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668291.geojson",
         "felt": 1,
         "cdi": 2.2,
-        "mmi": 1.804,
+        "mmi": 1.92,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -175,11 +295,11 @@
         "mag": 5.7,
         "place": "86 km NNW of Phôngsali, Laos",
         "time": 1640353402983,
-        "updated": 1640360875927,
+        "updated": 1640365966783,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf1y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf1y.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.8,
         "mmi": 6.913,
         "alert": "yellow",
@@ -375,17 +495,17 @@
         "mag": 4.87,
         "place": "42 km ESE of Naalehu, Hawaii",
         "time": 1640345494390,
-        "updated": 1640364303367,
+        "updated": 1640366450805,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72844817",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72844817.geojson",
-        "felt": 21,
+        "felt": 23,
         "cdi": 4.1,
         "mmi": 3.63,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 373,
+        "sig": 374,
         "net": "hv",
         "code": "72844817",
         "ids": ",hv72844817,us6000gf1f,pt21358050,",
@@ -1648,53 +1768,13 @@
         ]
       },
       "id": "nc73668116"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "4km NW of The Geysers, CA",
-        "time": 1640281822910,
-        "updated": 1640291651128,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668096",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668096.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "73668096",
-        "ids": ",nc73668096,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.007988,
-        "rms": 0.18,
-        "gap": 57,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7884979,
-          38.8019981,
-          0.37
-        ]
-      },
-      "id": "nc73668096"
     }
   ],
   "bbox": [
     -178.514,
     -54.1699,
-    0.37,
-    129.9683,
+    2.201270103,
+    178.9348,
     62.1311,
     580.78
   ]
