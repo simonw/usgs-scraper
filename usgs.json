@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640437923000,
+    "generated": 1640440923000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": 1640439760084,
+        "updated": 1640440911040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf8b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf8b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000gf8b",
+        "ids": ",us6000gf8b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.189,
+        "rms": 0.89,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.974,
+          -24.3884,
+          503.74
+        ]
+      },
+      "id": "us6000gf8b"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.9,
         "place": "121 km SSE of Hihifo, Tonga",
         "time": 1640435949107,
-        "updated": 1640437910058,
+        "updated": 1640440071630,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf7u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf7u.geojson",
-        "felt": 1,
+        "felt": 5,
         "cdi": 2.5,
         "mmi": 3.4,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 536,
+        "sig": 537,
         "net": "us",
         "code": "6000gf7u",
         "ids": ",us6000gf7u,pt21359050,",
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000gf7u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "Fiji region",
+        "time": 1640435945731,
+        "updated": 1640438841121,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf7t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf7t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.888,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000gf7t",
+        "ids": ",us6000gf7t,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 15.305,
+        "rms": 1.58,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.2018,
+          -17.4639,
+          235.42
+        ]
+      },
+      "id": "us6000gf7t"
     },
     {
       "type": "Feature",
@@ -1528,50 +1608,10 @@
         ]
       },
       "id": "us6000gf20"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "86 km NNW of Phôngsali, Laos",
-        "time": 1640353402983,
-        "updated": 1640435689063,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf1y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf1y.geojson",
-        "felt": 11,
-        "cdi": 7.9,
-        "mmi": 6.913,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 659,
-        "net": "us",
-        "code": "6000gf1y",
-        "ids": ",us6000gf1y,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 2.225,
-        "rms": 0.64,
-        "gap": 21,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - 86 km NNW of Phôngsali, Laos"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          101.6878,
-          22.3639,
-          10
-        ]
-      },
-      "id": "us6000gf1y"
     }
   ],
   "bbox": [
-    -179.8806,
+    -179.974,
     -58.0238,
     0,
     178.9348,
