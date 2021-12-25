@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640408703000,
+    "generated": 1640412231000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "92 km E of McCarthy, Alaska",
+        "time": 1640411183022,
+        "updated": 1640411688903,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ght6o1g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ght6o1g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021ght6o1g",
+        "ids": ",ak021ght6o1g,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 92 km E of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.2076,
+          61.5795,
+          0
+        ]
+      },
+      "id": "ak021ght6o1g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "225 km NE of Lospalos, Timor Leste",
+        "time": 1640408629534,
+        "updated": 1640409635040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf5l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf5l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gf5l",
+        "ids": ",us6000gf5l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.713,
+        "rms": 0.54,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 225 km NE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6458,
+          -7.311,
+          145.61
+        ]
+      },
+      "id": "us6000gf5l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1528,94 +1608,14 @@
         ]
       },
       "id": "us6000gf04"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.48,
-        "place": "54 km NNE of Luquillo, Puerto Rico",
-        "time": 1640325707760,
-        "updated": 1640327382337,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021358001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021358001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 186,
-        "net": "pr",
-        "code": "2021358001",
-        "ids": ",pr2021358001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.5252,
-        "rms": 0.17,
-        "gap": 262,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 54 km NNE of Luquillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4596,
-          18.802,
-          16
-        ]
-      },
-      "id": "pr2021358001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "98 km W of La Libertad, Mexico",
-        "time": 1640324690010,
-        "updated": 1640325773040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gezr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gezr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000gezr",
-        "ids": ",us6000gezr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.482,
-        "rms": 0.62,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 98 km W of La Libertad, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.7148,
-          29.9228,
-          10
-        ]
-      },
-      "id": "us6000gezr"
     }
   ],
   "bbox": [
     -179.8806,
     -58.0238,
-    1.91,
+    0,
     178.9348,
-    60.1756,
+    61.5795,
     580.78
   ]
 }
