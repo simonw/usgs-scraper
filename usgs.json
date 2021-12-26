@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640483777000,
+    "generated": 1640485863000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.54,
+        "place": "44 km SE of Boca de Yuma, Dominican Republic",
+        "time": 1640480912870,
+        "updated": 1640484349605,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021360000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021360000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 193,
+        "net": "pr",
+        "code": "2021360000",
+        "ids": ",pr2021360000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.4353,
+        "rms": 0.2,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 44 km SE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3236,
+          18.0825,
+          76
+        ]
+      },
+      "id": "pr2021360000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "140 km S of Bodden Town, Cayman Islands",
         "time": 1640479467418,
-        "updated": 1640480543040,
+        "updated": 1640485359338,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfbc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfbc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000gfbc",
         "ids": ",us6000gfbc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 2.081,
         "rms": 0.88,
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "ak021ghrc7yd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "32 km SW of El Cardo, Peru",
-        "time": 1640399150555,
-        "updated": 1640400998040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf51",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf51.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000gf51",
-        "ids": ",us6000gf51,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.962,
-        "rms": 0.73,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 32 km SW of El Cardo, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.9666,
-          -16.7787,
-          70.89
-        ]
-      },
-      "id": "us6000gf51"
     }
   ],
   "bbox": [
