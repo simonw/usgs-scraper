@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640592361000,
+    "generated": 1640595781000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 49
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "169 km W of Labuan, Indonesia",
+        "time": 1640593940521,
+        "updated": 1640594970040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfkq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfkq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000gfkq",
+        "ids": ",us6000gfkq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.661,
+        "rms": 0.5,
+        "gap": 44,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 169 km W of Labuan, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.3204,
+          -6.6646,
+          36.25
+        ]
+      },
+      "id": "us6000gfkq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.4,
         "place": "32 km NW of Valdez, Alaska",
-        "time": 1640592004530,
-        "updated": 1640592288041,
+        "time": 1640592004533,
+        "updated": 1640593072040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gl5rrfd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gl5rrfd.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 178,
         "net": "ak",
         "code": "021gl5rrfd",
-        "ids": ",ak021gl5rrfd,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",ak021gl5rrfd,us6000gfkm,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.9,
@@ -42,12 +82,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.8319,
+          -146.8347,
           61.3079,
-          11.9
+          12.1
         ]
       },
       "id": "ak021gl5rrfd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "4 km E of Assaria, Kansas",
+        "time": 1640591943792,
+        "updated": 1640592725040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfkl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfkl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000gfkl",
+        "ids": ",us6000gfkl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.708,
+        "rms": 0.34,
+        "gap": 141,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km E of Assaria, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5499,
+          38.6772,
+          5
+        ]
+      },
+      "id": "us6000gfkl"
     },
     {
       "type": "Feature",
@@ -88,6 +168,46 @@
         ]
       },
       "id": "us6000gfkh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "6 km SE of Espino, Puerto Rico",
+        "time": 1640590076680,
+        "updated": 1640592643923,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021361003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021361003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "2021361003",
+        "ids": ",pr2021361003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.2284,
+        "rms": 0.11,
+        "gap": 105,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km SE of Espino, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0773,
+          18.2325,
+          13
+        ]
+      },
+      "id": "pr2021361003"
     },
     {
       "type": "Feature",
@@ -215,17 +335,17 @@
         "mag": 3.3,
         "place": "7 km WSW of Gypsum, Kansas",
         "time": 1640584291200,
-        "updated": 1640588860388,
+        "updated": 1640592774539,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfjw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfjw.geojson",
-        "felt": 22,
-        "cdi": 3.6,
+        "felt": 23,
+        "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 175,
+        "sig": 176,
         "net": "us",
         "code": "6000gfjw",
         "ids": ",us6000gfjw,",
@@ -1848,166 +1968,6 @@
         ]
       },
       "id": "pr2021360003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.84,
-        "place": "49 km ESE of Naalehu, Hawaii",
-        "time": 1640508279560,
-        "updated": 1640509971040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72846932",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72846932.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 124,
-        "net": "hv",
-        "code": "72846932",
-        "ids": ",us6000gfde,hv72846932,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": null,
-        "rms": 0.209999993,
-        "gap": 265,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 49 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.156005859375,
-          18.8721675872803,
-          11.6899995803833
-        ]
-      },
-      "id": "hv72846932"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.37,
-        "place": "75 km NW of Aguadilla, Puerto Rico",
-        "time": 1640507992860,
-        "updated": 1640516577990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021360002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021360002.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 175,
-        "net": "pr",
-        "code": "2021360002",
-        "ids": ",pr2021360002,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.7086,
-        "rms": 0.43,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 75 km NW of Aguadilla, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6856,
-          18.8825,
-          74
-        ]
-      },
-      "id": "pr2021360002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "3 km WNW of Point MacKenzie, Alaska",
-        "time": 1640507790816,
-        "updated": 1640573969879,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjig6ox",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjig6ox.geojson",
-        "felt": 28,
-        "cdi": 3.1,
-        "mmi": 2.053,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "ak",
-        "code": "021gjig6ox",
-        "ids": ",ak021gjig6ox,us6000gfdb,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.96,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 3 km WNW of Point MacKenzie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.045,
-          61.3715,
-          30.6
-        ]
-      },
-      "id": "ak021gjig6ox"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "55 km NNE of Hirara, Japan",
-        "time": 1640507206517,
-        "updated": 1640564591040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfd9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfd9.geojson",
-        "felt": 8,
-        "cdi": 3.9,
-        "mmi": 4.427,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 539,
-        "net": "us",
-        "code": "6000gfd9",
-        "ids": ",us6000gfd9,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 2.462,
-        "rms": 1,
-        "gap": 22,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - 55 km NNE of Hirara, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.5917,
-          25.2257,
-          10
-        ]
-      },
-      "id": "us6000gfd9"
     }
   ],
   "bbox": [
