@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640628183000,
+    "generated": 1640631719000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 39
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.77,
         "place": "24km S of Point Sur, CA",
         "time": 1640625285390,
-        "updated": 1640627151007,
+        "updated": 1640628250509,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668766",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668766.geojson",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "7 km SW of Gypsum, Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -615,22 +615,22 @@
         "mag": 2.45,
         "place": "11km NE of Coso Junction, CA",
         "time": 1640596246920,
-        "updated": 1640596880550,
+        "updated": 1640629272327,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39897055",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39897055.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 93,
         "net": "ci",
         "code": "39897055",
         "ids": ",ci39897055,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 26,
         "dmin": 0.005896,
         "rms": 0.14,
@@ -1132,10 +1132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.72,
+        "mag": 3.04,
         "place": "9 km E of Pāhala, Hawaii",
-        "time": 1640574534470,
-        "updated": 1640574879040,
+        "time": 1640574534490,
+        "updated": 1640630014150,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72847902",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72847902.geojson",
@@ -1143,28 +1143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 114,
+        "sig": 142,
         "net": "hv",
         "code": "72847902",
         "ids": ",us6000gfjd,hv72847902,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 41,
+        "nst": 50,
         "dmin": null,
-        "rms": 0.119999997,
-        "gap": 162,
+        "rms": 0.11,
+        "gap": 159,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 9 km E of Pāhala, Hawaii"
+        "title": "M 3.0 - 9 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.38932800293,
-          19.2035007476807,
-          31.5699996948242
+          -155.391,
+          19.2026666666667,
+          31.51
         ]
       },
       "id": "hv72847902"
@@ -1568,214 +1568,14 @@
         ]
       },
       "id": "us6000gfhr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "30 km S of Fry, Greece",
-        "time": 1640545142537,
-        "updated": 1640574024298,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfhq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfhq.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": 4.424,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 483,
-        "net": "us",
-        "code": "6000gfhq",
-        "ids": ",us6000gfhq,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.448,
-        "rms": 1.11,
-        "gap": 46,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 30 km S of Fry, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.9194,
-          35.1437,
-          10
-        ]
-      },
-      "id": "us6000gfhq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "231 km E of Levuka, Fiji",
-        "time": 1640544281465,
-        "updated": 1640546862040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfhp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfhp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gfhp",
-        "ids": ",us6000gfhp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 7.56,
-        "rms": 1.05,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 231 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5128,
-          -17.835,
-          551.58
-        ]
-      },
-      "id": "us6000gfhp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "102 km W of La Libertad, Mexico",
-        "time": 1640544211232,
-        "updated": 1640551533040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfhi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfhi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gfhi",
-        "ids": ",us6000gfhi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.464,
-        "rms": 1.02,
-        "gap": 42,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 102 km W of La Libertad, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.7581,
-          29.9134,
-          10
-        ]
-      },
-      "id": "us6000gfhi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "223 km ESE of Attu Station, Alaska",
-        "time": 1640542659628,
-        "updated": 1640559246141,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjoai98",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjoai98.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.853,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "021gjoai98",
-        "ids": ",ak021gjoai98,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 223 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.0969,
-          51.926,
-          41
-        ]
-      },
-      "id": "ak021gjoai98"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "115 km SSE of Kaktovik, Alaska",
-        "time": 1640542006025,
-        "updated": 1640552994040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfhg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfhg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000gfhg",
-        "ids": ",us6000gfhg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.615,
-        "rms": 0.97,
-        "gap": 141,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 115 km SSE of Kaktovik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -142.57,
-          69.1644,
-          15.64
-        ]
-      },
-      "id": "us6000gfhg"
     }
   ],
   "bbox": [
     -179.3966,
     -34.8507,
     0,
-    176.0969,
-    69.1644,
+    143.1298,
+    62.2732,
     587.87
   ]
 }
