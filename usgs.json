@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641571530000,
+    "generated": 1641575730000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "3km SW of Anderson Springs, CA",
+        "time": 1641573107170,
+        "updated": 1641573912501,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675176",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675176.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "nc",
+        "code": "73675176",
+        "ids": ",nc73675176,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.009554,
+        "rms": 0.05,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3km SW of Anderson Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7160034,
+          38.7550011,
+          1.65
+        ]
+      },
+      "id": "nc73675176"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.67,
         "place": "6km S of Brawley, CA",
         "time": 1641561311880,
-        "updated": 1641562220040,
+        "updated": 1641573390003,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39904831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39904831.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "39904831",
         "ids": ",ci39904831,us7000g9wh,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 53,
         "dmin": 0.03575,
         "rms": 0.29,
@@ -213,38 +253,38 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "0 km NNE of Ricardo Palma, Peru",
-        "time": 1641551224330,
-        "updated": 1641571412382,
+        "place": "3 km N of Cocachacra, Peru",
+        "time": 1641551228440,
+        "updated": 1641575617503,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9vi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9vi.geojson",
-        "felt": 103,
+        "felt": 107,
         "cdi": 7.3,
-        "mmi": 4.686,
+        "mmi": 4.323,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 725,
+        "sig": 728,
         "net": "us",
         "code": "7000g9vi",
         "ids": ",us7000g9vi,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 5.693,
-        "rms": 1.19,
+        "dmin": 5.591,
+        "rms": 0.66,
         "gap": 47,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 0 km NNE of Ricardo Palma, Peru"
+        "title": "M 5.6 - 3 km N of Cocachacra, Peru"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.6539,
-          -11.9131,
-          66.12
+          -76.5352,
+          -11.8819,
+          109.68
         ]
       },
       "id": "us7000g9vi"
@@ -415,12 +455,12 @@
         "mag": 2.6,
         "place": "9 km SSW of Gypsum, Kansas",
         "time": 1641539460131,
-        "updated": 1641558341372,
+        "updated": 1641573569152,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9uf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9uf.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "felt": 3,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "us7000g9pb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "56 km S of Corinto, Nicaragua",
-        "time": 1641486307435,
-        "updated": 1641551492298,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9nb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9nb.geojson",
-        "felt": 52,
-        "cdi": 4.6,
-        "mmi": 5.051,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 596,
-        "net": "us",
-        "code": "7000g9nb",
-        "ids": ",us7000g9nb,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.689,
-        "rms": 1.3,
-        "gap": 53,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - 56 km S of Corinto, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.1178,
-          11.9754,
-          21.65
-        ]
-      },
-      "id": "us7000g9nb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "41 km SW of Dillon, Montana",
-        "time": 1641486065650,
-        "updated": 1641488511360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80535314",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80535314.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "mb",
-        "code": "80535314",
-        "ids": ",mb80535314,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.49,
-        "rms": 0.29,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 41 km SW of Dillon, Montana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.0563333,
-          44.9966667,
-          5.88
-        ]
-      },
-      "id": "mb80535314"
     }
   ],
   "bbox": [
