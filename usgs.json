@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641589290000,
+    "generated": 1641592950000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "13km WNW of Alder Springs, CA",
-        "time": 1641587652350,
-        "updated": 1641589090073,
+        "mag": 4.7,
+        "place": "15 km NE of Taichung, Taiwan",
+        "time": 1641589937587,
+        "updated": 1641592584411,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675266",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675266.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ga1h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ga1h.geojson",
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "nc",
-        "code": "73675266",
-        "ids": ",nc73675266,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.2688,
-        "rms": 0.14,
-        "gap": 84,
-        "magType": "ml",
+        "sig": 340,
+        "net": "us",
+        "code": "7000ga1h",
+        "ids": ",us7000ga1h,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.496,
+        "rms": 0.62,
+        "gap": 65,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.2 - 13km WNW of Alder Springs, CA"
+        "title": "M 4.7 - 15 km NE of Taichung, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.8748322,
-          39.6873322,
-          9.2
+          120.7774,
+          24.2594,
+          10
+        ]
+      },
+      "id": "us7000ga1h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.83,
+        "place": "14km WNW of Alder Springs, CA",
+        "time": 1641587652320,
+        "updated": 1641592304455,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675266",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675266.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 123,
+        "net": "nc",
+        "code": "73675266",
+        "ids": ",nc73675266,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.2703,
+        "rms": 0.13,
+        "gap": 45,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 14km WNW of Alder Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8743333,
+          39.6896667,
+          6.83
         ]
       },
       "id": "nc73675266"
@@ -92,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.9,
+        "place": "224 km SE of Chiniak, Alaska",
+        "time": 1641584603408,
+        "updated": 1641590275040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ga0v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ga0v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "7000ga0v",
+        "ids": ",us7000ga0v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.25,
+        "rms": 0.74,
+        "gap": 188,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 224 km SE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2885,
+          56.4322,
+          22.09
+        ]
+      },
+      "id": "us7000ga0v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "36 km SE of Mina, Nevada",
         "time": 1641583922087,
-        "updated": 1641584180366,
+        "updated": 1641589543040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831343",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831343.geojson",
@@ -108,8 +188,8 @@
         "sig": 112,
         "net": "nn",
         "code": "00831343",
-        "ids": ",nn00831343,",
-        "sources": ",nn,",
+        "ids": ",us7000ga0s,nn00831343,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
         "nst": 27,
         "dmin": 0.131,
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Malawi",
+        "place": "7 km WSW of Monkey Bay, Malawi",
         "time": 1641573934033,
         "updated": 1641578544040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Malawi"
+        "title": "M 4.6 - 7 km WSW of Monkey Bay, Malawi"
       },
       "geometry": {
         "type": "Point",
@@ -775,17 +855,17 @@
         "mag": 2.6,
         "place": "9 km SSW of Gypsum, Kansas",
         "time": 1641539460131,
-        "updated": 1641583881513,
+        "updated": 1641592818945,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9uf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9uf.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 106,
         "net": "us",
         "code": "7000g9uf",
         "ids": ",us7000g9uf,",
@@ -1408,166 +1488,6 @@
         ]
       },
       "id": "us7000g9rd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "104 km S of Kencong, Indonesia",
-        "time": 1641506368974,
-        "updated": 1641520765269,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9r6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9r6.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000g9r6",
-        "ids": ",us7000g9r6,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.18,
-        "rms": 0.6,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 104 km S of Kencong, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.2228,
-          -9.2166,
-          50.85
-        ]
-      },
-      "id": "us7000g9r6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "123 km SSE of Zarubino, Russia",
-        "time": 1641505945098,
-        "updated": 1641507571040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9qz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9qz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000g9qz",
-        "ids": ",us7000g9qz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.653,
-        "rms": 0.7,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 123 km SSE of Zarubino, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.5267,
-          41.5672,
-          543.86
-        ]
-      },
-      "id": "us7000g9qz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "16 km N of Pijijiapan, Mexico",
-        "time": 1641505490415,
-        "updated": 1641507953040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9qx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9qx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000g9qx",
-        "ids": ",us7000g9qx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.141,
-        "rms": 0.91,
-        "gap": 158,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 16 km N of Pijijiapan, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.2289,
-          15.8318,
-          93.79
-        ]
-      },
-      "id": "us7000g9qx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "63 km E of Khorugh, Tajikistan",
-        "time": 1641504517002,
-        "updated": 1641505829040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9qn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9qn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000g9qn",
-        "ids": ",us7000g9qn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.407,
-        "rms": 0.8,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 63 km E of Khorugh, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          72.2698,
-          37.5232,
-          186.17
-        ]
-      },
-      "id": "us7000g9qn"
     }
   ],
   "bbox": [
@@ -1576,6 +1496,6 @@
     1.62,
     153.4462,
     65.4225,
-    543.86
+    109.68
   ]
 }
