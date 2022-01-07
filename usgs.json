@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641553290000,
+    "generated": 1641557190000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "118 km E of Chignik, Alaska",
+        "time": 1641554984618,
+        "updated": 1641555502572,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022brhin4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022brhin4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "022brhin4",
+        "ids": ",ak022brhin4,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.38,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 118 km E of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.4977,
+          56.358,
+          52
+        ]
+      },
+      "id": "ak022brhin4"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.2,
         "place": "2 km ENE of Ricardo Palma, Peru",
         "time": 1641551224723,
-        "updated": 1641553065901,
+        "updated": 1641557011256,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9vi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9vi.geojson",
-        "felt": 38,
-        "cdi": 6.4,
+        "felt": 84,
+        "cdi": 6.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 440,
+        "sig": 474,
         "net": "us",
         "code": "7000g9vi",
         "ids": ",us7000g9vi,",
@@ -175,11 +215,11 @@
         "mag": 4.7,
         "place": "25 km E of Estique, Peru",
         "time": 1641535485989,
-        "updated": 1641552817729,
+        "updated": 1641553796392,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9u1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9u1.geojson",
-        "felt": 4,
+        "felt": 6,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -1368,94 +1408,14 @@
         ]
       },
       "id": "hv72859492"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "38 km NNW of Ruteng, Indonesia",
-        "time": 1641469517329,
-        "updated": 1641548428040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9j2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9j2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000g9j2",
-        "ids": ",us7000g9j2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.91,
-        "rms": 1.3,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 38 km NNW of Ruteng, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.3376,
-          -8.291,
-          193.19
-        ]
-      },
-      "id": "us7000g9j2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "80 km S of Kaktovik, Alaska",
-        "time": 1641467837850,
-        "updated": 1641474435040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022a3vj4p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022a3vj4p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "022a3vj4p",
-        "ids": ",us7000g9iv,ak022a3vj4p,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.92,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 80 km S of Kaktovik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.0341,
-          69.4269,
-          0
-        ]
-      },
-      "id": "ak022a3vj4p"
     }
   ],
   "bbox": [
     -177.5304,
     -59.7047,
-    0,
+    1.06,
     138.1463,
-    69.4269,
+    65.4225,
     543.86
   ]
 }
