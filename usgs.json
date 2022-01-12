@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642003766000,
+    "generated": 1642007786000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 48
   },
   "features": [
     {
@@ -295,12 +295,12 @@
         "mag": 4.9,
         "place": "107 km SW of Jinchang, China",
         "time": 1641989779690,
-        "updated": 1641990873040,
+        "updated": 1642004223241,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbau",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbau.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +310,7 @@
         "code": "7000gbau",
         "ids": ",us7000gbau,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 10.695,
         "rms": 0.56,
@@ -692,6 +692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.68,
+        "place": "88km ESE of Maneadero, B.C., MX",
+        "time": 1641968962660,
+        "updated": 1642005077916,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39909615",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39909615.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "ci",
+        "code": "39909615",
+        "ids": ",ci39909615,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.09542,
+        "rms": 0.13,
+        "gap": 118,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 88km ESE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6905,
+          31.4436667,
+          17.18
+        ]
+      },
+      "id": "ci39909615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "52 km SW of Lebu, Chile",
         "time": 1641965429337,
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.04,
-        "place": "Puerto Rico region",
+        "place": "3 km SSE of La Parguera, Puerto Rico",
         "time": 1641963106650,
         "updated": 1641965342931,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 228,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 3 km SSE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1092,10 +1132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.69,
+        "mag": 2.65,
         "place": "12km N of Borrego Springs, CA",
-        "time": 1641953528250,
-        "updated": 1641955927743,
+        "time": 1641953528390,
+        "updated": 1642007772192,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39909511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39909511.geojson",
@@ -1103,18 +1143,18 @@
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 109,
         "net": "ci",
         "code": "39909511",
         "ids": ",ci39909511,us7000gb6q,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 84,
-        "dmin": 0.04497,
-        "rms": 0.21,
-        "gap": 28,
+        "nst": 114,
+        "dmin": 0.03448,
+        "rms": 0.2,
+        "gap": 14,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 12km N of Borrego Springs, CA"
@@ -1122,9 +1162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3633333,
-          33.362,
-          1.46
+          -116.3635,
+          33.3611667,
+          2.96
         ]
       },
       "id": "ci39909511"
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "3 km WSW of Tallaboa, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641944810530,
         "updated": 1641946372450,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 176,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km WSW of Tallaboa, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "81 km SE of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1641939344011,
         "updated": 1641968135736,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 81 km SE of Nikolski, Alaska"
+        "title": "M 4.7 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1888,86 +1928,6 @@
         ]
       },
       "id": "us7000gb0p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "100 km SE of Nikolski, Alaska",
-        "time": 1641920635966,
-        "updated": 1641926131782,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb0k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb0k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.023,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gb0k",
-        "ids": ",us7000gb0k,ak022ih22em,",
-        "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.066,
-        "rms": 1.13,
-        "gap": 172,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.4 - 100 km SE of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -167.742,
-          52.3511,
-          10
-        ]
-      },
-      "id": "us7000gb0k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "162 km N of Calama, Chile",
-        "time": 1641917576886,
-        "updated": 1641919740040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb07",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb07.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gb07",
-        "ids": ",us7000gb07,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.684,
-        "rms": 0.37,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 162 km N of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7562,
-          -20.9973,
-          109.1
-        ]
-      },
-      "id": "us7000gb07"
     }
   ],
   "bbox": [
