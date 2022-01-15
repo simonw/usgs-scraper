@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642219429000,
+    "generated": 1642223209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -175,22 +175,22 @@
         "mag": 5.4,
         "place": "57 km E of Madang, Papua New Guinea",
         "time": 1642207873179,
-        "updated": 1642215267599,
+        "updated": 1642221657692,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc5i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc5i.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 3.4,
         "mmi": 3.923,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 450,
         "net": "us",
         "code": "7000gc5i",
         "ids": ",us7000gc5i,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 3.306,
         "rms": 0.91,
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Vancouver Island, Canada region",
+        "place": "223 km W of Port McNeill, Canada",
         "time": 1642148728704,
         "updated": 1642152685921,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Vancouver Island, Canada region"
+        "title": "M 4.3 - 223 km W of Port McNeill, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "219 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642142306617,
         "updated": 1642145333661,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 219 km W of Port McNeill, Canada"
+        "title": "M 4.2 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -1528,52 +1528,12 @@
         ]
       },
       "id": "pr2022014000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "10km NW of The Geysers, CA",
-        "time": 1642135822630,
-        "updated": 1642140431735,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73678226",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73678226.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "nc",
-        "code": "73678226",
-        "ids": ",nc73678226,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 53,
-        "dmin": 0.000705,
-        "rms": 0.05,
-        "gap": 35,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 10km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.8363342,
-          38.8388329,
-          2.17
-        ]
-      },
-      "id": "nc73678226"
     }
   ],
   "bbox": [
     -178.1076,
     -38.0002,
-    2.17,
+    5,
     179.4505,
     67.6322,
     586.33
