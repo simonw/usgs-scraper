@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642269769000,
+    "generated": 1642273309000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.68,
+        "place": "Virgin Islands region",
+        "time": 1642268521920,
+        "updated": 1642270315726,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022015002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022015002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 208,
+        "net": "pr",
+        "code": "2022015002",
+        "ids": ",pr2022015002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.0235,
+        "rms": 0.61,
+        "gap": 332,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - Virgin Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4408,
+          18.8898,
+          58
+        ]
+      },
+      "id": "pr2022015002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "South Sandwich Islands region",
-        "time": 1642267492947,
-        "updated": 1642268688040,
+        "time": 1642267492756,
+        "updated": 1642269795040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc9f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc9f.geojson",
@@ -32,9 +72,9 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 8.074,
-        "rms": 0.54,
-        "gap": 89,
+        "dmin": 8.035,
+        "rms": 0.58,
+        "gap": 72,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 5.0 - South Sandwich Islands region"
@@ -42,8 +82,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.6976,
-          -58.056,
+          -23.7713,
+          -58.0492,
           10
         ]
       },
@@ -95,7 +135,7 @@
         "mag": 2.46,
         "place": "18km NE of Lebec, CA",
         "time": 1642263541960,
-        "updated": 1642266785646,
+        "updated": 1642272111040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39913455",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39913455.geojson",
@@ -108,8 +148,8 @@
         "sig": 94,
         "net": "ci",
         "code": "39913455",
-        "ids": ",ci39913455,",
-        "sources": ",ci,",
+        "ids": ",ci39913455,us7000gc99,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 47,
         "dmin": 0.173,
@@ -133,9 +173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "Oklahoma",
+        "place": "4 km NNW of Covington, Oklahoma",
         "time": 1642261135364,
-        "updated": 1642261364163,
+        "updated": 1642270993040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022baua",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022baua.geojson",
@@ -148,8 +188,8 @@
         "sig": 102,
         "net": "ok",
         "code": "2022baua",
-        "ids": ",ok2022baua,",
-        "sources": ",ok,",
+        "ids": ",us7000gc94,ok2022baua,",
+        "sources": ",us,ok,",
         "types": ",origin,phase-data,",
         "nst": 36,
         "dmin": 0.1404066682,
@@ -157,7 +197,7 @@
         "gap": 59.95294285,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Oklahoma"
+        "title": "M 2.6 - 4 km NNW of Covington, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "12 km SSW of Ashkāsham, Afghanistan",
         "time": 1642245729374,
         "updated": 1642248650040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Hindu Kush region, Afghanistan"
+        "title": "M 4.3 - 12 km SSW of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Kansas",
+        "place": "9 km SW of Gypsum, Kansas",
         "time": 1642236119406,
         "updated": 1642261079529,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 45,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - Kansas"
+        "title": "M 3.0 - 9 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -855,12 +895,12 @@
         "mag": 5.8,
         "place": "68 km NNW of Nuku‘alofa, Tonga",
         "time": 1642220085000,
-        "updated": 1642268496896,
+        "updated": 1642272947836,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8r.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -870,7 +910,7 @@
         "code": "7000gc8r",
         "ids": ",us7000gc8r,at00r5qho6,pt22015050,",
         "sources": ",us,at,pt,",
-        "types": ",associate,general-header,impact-link,origin,phase-data,trump-origin,",
+        "types": ",associate,dyfi,general-header,impact-link,origin,phase-data,trump-origin,",
         "nst": null,
         "dmin": null,
         "rms": 1.02,
@@ -1175,21 +1215,21 @@
         "mag": 4.6,
         "place": "75 km SE of Nikolski, Alaska",
         "time": 1642206172017,
-        "updated": 1642207318040,
+        "updated": 1642271763677,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc5b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc5b.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.801,
+        "mmi": 1.434,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 326,
         "net": "us",
         "code": "7000gc5b",
-        "ids": ",us7000gc5b,ak022ot7122,",
-        "sources": ",us,ak,",
+        "ids": ",ak022ot7122,us7000gc5b,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.701,
@@ -1532,7 +1572,7 @@
   ],
   "bbox": [
     -178.1076,
-    -58.056,
+    -58.0492,
     0,
     179.4505,
     67.6322,
