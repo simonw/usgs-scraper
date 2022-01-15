@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642262629000,
+    "generated": 1642266769000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "18km NE of Lebec, CA",
+        "time": 1642263541960,
+        "updated": 1642265515091,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39913455",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39913455.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "ci",
+        "code": "39913455",
+        "ids": ",ci39913455,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.173,
+        "rms": 0.19,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 18km NE of Lebec, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7338333,
+          34.9606667,
+          4.1
+        ]
+      },
+      "id": "ci39913455"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,22 +335,22 @@
         "mag": 4.2,
         "place": "29 km SSW of Salmās, Iran",
         "time": 1642251786153,
-        "updated": 1642253119040,
+        "updated": 1642263419598,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8f.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "us",
         "code": "7000gc8f",
         "ids": ",us7000gc8f,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.275,
         "rms": 0.72,
@@ -335,11 +375,11 @@
         "mag": 4.6,
         "place": "59 km SSW of El Rosario, El Salvador",
         "time": 1642251053239,
-        "updated": 1642252319696,
+        "updated": 1642263483049,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8d.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "12 km SSW of Ashkāsham, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1642245729374,
         "updated": 1642248650040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 12 km SSW of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -455,11 +495,11 @@
         "mag": 3.35,
         "place": "7 km SSW of La Playa, Puerto Rico",
         "time": 1642243382480,
-        "updated": 1642254650284,
+        "updated": 1642265940298,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022015000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022015000.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -728,6 +768,46 @@
         ]
       },
       "id": "us7000gc6t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "68 km NNW of Nuku‘alofa, Tonga",
+        "time": 1642220085000,
+        "updated": 1642266624625,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "7000gc8r",
+        "ids": ",us7000gc8r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,trump-origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.02,
+        "gap": null,
+        "magType": "ms_20",
+        "type": "volcanic eruption",
+        "title": "M 5.8 Volcanic Eruption - 68 km NNW of Nuku‘alofa, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.39,
+          -20.546,
+          0
+        ]
+      },
+      "id": "us7000gc8r"
     },
     {
       "type": "Feature",
@@ -1368,132 +1448,12 @@
         ]
       },
       "id": "us7000gc2k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "23 km NW of Stanley, Idaho",
-        "time": 1642180271581,
-        "updated": 1642199294500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc10",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc10.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000gc10",
-        "ids": ",mb80536099,us7000gc10,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.956,
-        "rms": 1.26,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 23 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1739,
-          44.3462,
-          12.14
-        ]
-      },
-      "id": "us7000gc10"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "66 km NNW of Bima, Indonesia",
-        "time": 1642178601834,
-        "updated": 1642179612040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc0w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc0w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000gc0w",
-        "ids": ",us7000gc0w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.058,
-        "rms": 1.06,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 66 km NNW of Bima, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.609,
-          -7.8729,
-          10
-        ]
-      },
-      "id": "us7000gc0w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "13 km SSW of Ashkāsham, Afghanistan",
-        "time": 1642176783440,
-        "updated": 1642197844209,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc0n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc0n.geojson",
-        "felt": 8,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 403,
-        "net": "us",
-        "code": "7000gc0n",
-        "ids": ",us7000gc0n,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.929,
-        "rms": 0.71,
-        "gap": 48,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 13 km SSW of Ashkāsham, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.5044,
-          36.568,
-          102.96
-        ]
-      },
-      "id": "us7000gc0n"
     }
   ],
   "bbox": [
     -178.1076,
     -38.0002,
-    2.211308002,
+    0,
     179.4505,
     67.6322,
     586.33
