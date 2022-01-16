@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642345370000,
+    "generated": 1642349009000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 48
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.64,
+        "mag": 3.6,
+        "place": "115 km WSW of Akhiok, Alaska",
+        "time": 1642345575362,
+        "updated": 1642346139522,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022qpkdsl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022qpkdsl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.252,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "022qpkdsl",
+        "ids": ",ak022qpkdsl,",
+        "sources": ",ak,",
+        "types": ",origin,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.98,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 115 km WSW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.841,
+          56.471,
+          7.2
+        ]
+      },
+      "id": "ak022qpkdsl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
         "place": "23km N of Searles Valley, CA",
         "time": 1642345190550,
-        "updated": 1642345329985,
+        "updated": 1642347671040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39913999",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39913999.geojson",
@@ -25,26 +65,26 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 107,
+        "sig": 92,
         "net": "ci",
         "code": "39913999",
-        "ids": ",ci39913999,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.1195,
-        "rms": 0.15,
-        "gap": 62,
+        "ids": ",ci39913999,us7000gch3,",
+        "sources": ",ci,us,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.123,
+        "rms": 0.19,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 23km N of Searles Valley, CA"
+        "title": "M 2.5 - 23km N of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3928299,
-          35.9710007,
-          1.63
+          -117.3955,
+          35.9738333,
+          1.53
         ]
       },
       "id": "ci39913999"
@@ -55,22 +95,22 @@
         "mag": 3.6,
         "place": "23 km WSW of Chenega, Alaska",
         "time": 1642343675458,
-        "updated": 1642344446538,
+        "updated": 1642347081040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022qp4zgo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022qp4zgo.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.8,
         "mmi": 2.999,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 201,
         "net": "ak",
         "code": "022qp4zgo",
-        "ids": ",ak022qp4zgo,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,shakemap,",
+        "ids": ",ak022qp4zgo,us7000gch1,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.8,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ak022qp4zgo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "66 km NNE of Punta Cana, Dominican Republic",
+        "time": 1642341523820,
+        "updated": 1642348916767,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022016006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022016006.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "pr",
+        "code": "2022016006",
+        "ids": ",us7000gcgy,pr2022016006,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.6625,
+        "rms": 0.76,
+        "gap": 193,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 66 km NNE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1741,
+          19.1431,
+          10
+        ]
+      },
+      "id": "pr2022016006"
     },
     {
       "type": "Feature",
@@ -128,6 +208,46 @@
         ]
       },
       "id": "us7000gcgw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "20 km SE of Karyes, Greece",
+        "time": 1642340217687,
+        "updated": 1642345568040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcgt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcgt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000gcgt",
+        "ids": ",us7000gcgt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.353,
+        "rms": 0.81,
+        "gap": 58,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 20 km SE of Karyes, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3926,
+          40.1069,
+          10
+        ]
+      },
+      "id": "us7000gcgt"
     },
     {
       "type": "Feature",
@@ -255,11 +375,11 @@
         "mag": 5.5,
         "place": "26 km SSE of Karyes, Greece",
         "time": 1642333685595,
-        "updated": 1642341168084,
+        "updated": 1642348022886,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcfq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcfq.geojson",
-        "felt": 20,
+        "felt": 22,
         "cdi": 4.1,
         "mmi": 4.585,
         "alert": "green",
@@ -1808,52 +1928,12 @@
         ]
       },
       "id": "ci39913455"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "Oklahoma",
-        "time": 1642261135364,
-        "updated": 1642332231410,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022baua",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022baua.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "ok",
-        "code": "2022baua",
-        "ids": ",ok2022baua,us7000gc94,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.1404066682,
-        "rms": 0.6661328085,
-        "gap": 59.95294285,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.60557556,
-          36.34433365,
-          2.211308002
-        ]
-      },
-      "id": "ok2022baua"
     }
   ],
   "bbox": [
     -173.7742,
     -60.0472,
-    1.63,
+    1.53,
     170.5695,
     61.4648,
     408.08
