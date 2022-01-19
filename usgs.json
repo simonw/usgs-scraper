@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642604813000,
+    "generated": 1642608525000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 29
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 5.5,
         "place": "219 km E of Amahai, Indonesia",
         "time": 1642602585146,
-        "updated": 1642604426153,
+        "updated": 1642604968152,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gd5g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gd5g.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 5.469,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 465,
+        "sig": 466,
         "net": "us",
         "code": "7000gd5g",
         "ids": ",us7000gd5g,",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "45 km N of Güiria, Venezuela",
+        "place": "near the coast of Venezuela",
         "time": 1642561188368,
         "updated": 1642604441269,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 45 km N of Güiria, Venezuela"
+        "title": "M 4.8 - near the coast of Venezuela"
       },
       "geometry": {
         "type": "Point",
@@ -688,6 +688,46 @@
         ]
       },
       "id": "pr2022019001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "36 km NNW of Nuku‘alofa, Tonga",
+        "time": 1642554999983,
+        "updated": 1642606047040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gd26",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gd26.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000gd26",
+        "ids": ",us7000gd26,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.961,
+        "rms": 0.79,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 36 km NNW of Nuku‘alofa, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.3305,
+          -20.8291,
+          10
+        ]
+      },
+      "id": "us7000gd26"
     },
     {
       "type": "Feature",
@@ -1128,86 +1168,6 @@
         ]
       },
       "id": "us7000gcxb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "17km SSW of Mariposa, CA",
-        "time": 1642520956060,
-        "updated": 1642564885963,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73680231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73680231.geojson",
-        "felt": 4,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "nc",
-        "code": "73680231",
-        "ids": ",nc73680231,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.1553,
-        "rms": 0.14,
-        "gap": 114,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 17km SSW of Mariposa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.027832,
-          37.3359985,
-          17.06
-        ]
-      },
-      "id": "nc73680231"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "252 km SSE of Amahai, Indonesia",
-        "time": 1642518918641,
-        "updated": 1642522481040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcx4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcx4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000gcx4",
-        "ids": ",us7000gcx4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.921,
-        "rms": 0.7,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 252 km SSE of Amahai, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.8259,
-          -5.4374,
-          195.56
-        ]
-      },
-      "id": "us7000gcx4"
     }
   ],
   "bbox": [
