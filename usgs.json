@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642709037000,
+    "generated": 1642712457000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "89 km NNW of Nuku‘alofa, Tonga",
+        "time": 1642709130967,
+        "updated": 1642710265040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gdmq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gdmq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000gdmq",
+        "ids": ",us7000gdmq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.73,
+        "rms": 0.84,
+        "gap": 205,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 89 km NNW of Nuku‘alofa, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.3802,
+          -20.3512,
+          10
+        ]
+      },
+      "id": "us7000gdmq"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
         "place": "45 km S of San Mateo del Mar, Mexico",
         "time": 1642705748059,
-        "updated": 1642708603315,
+        "updated": 1642709979468,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gdm7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gdm7.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 7.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 387,
+        "sig": 388,
         "net": "us",
         "code": "7000gdm7",
         "ids": ",us7000gdm7,",
@@ -132,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49,
-        "place": "16km WSW of Deep Springs, CA",
-        "time": 1642702281710,
-        "updated": 1642704351645,
+        "mag": 2.59,
+        "place": "15km WSW of Deep Springs, CA",
+        "time": 1642702281570,
+        "updated": 1642710851247,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73681106",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73681106.geojson",
@@ -143,28 +183,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 103,
         "net": "nc",
         "code": "73681106",
         "ids": ",nc73681106,nn00832066,",
         "sources": ",nc,nn,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.1381,
-        "rms": 0.1,
-        "gap": 191,
+        "nst": 40,
+        "dmin": 0.1471,
+        "rms": 0.08,
+        "gap": 116,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 16km WSW of Deep Springs, CA"
+        "title": "M 2.6 - 15km WSW of Deep Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.1576691,
-          37.3261681,
-          12.77
+          -118.147,
+          37.3301667,
+          12.72
         ]
       },
       "id": "nc73681106"
@@ -328,6 +368,46 @@
         ]
       },
       "id": "nn00832045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "100 km N of Tocopilla, Chile",
+        "time": 1642692788932,
+        "updated": 1642711666377,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gdjv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gdjv.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000gdjv",
+        "ids": ",us7000gdjv,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.393,
+        "rms": 1.19,
+        "gap": 174,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.0 - 100 km N of Tocopilla, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3062,
+          -21.1888,
+          35.86
+        ]
+      },
+      "id": "us7000gdjv"
     },
     {
       "type": "Feature",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Sichuan-Gansu border region, China",
+        "place": "50 km W of Guangyuan, China",
         "time": 1642629157901,
         "updated": 1642707825880,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Sichuan-Gansu border region, China"
+        "title": "M 4.4 - 50 km W of Guangyuan, China"
       },
       "geometry": {
         "type": "Point",
@@ -1528,46 +1608,6 @@
         ]
       },
       "id": "us7000gdbn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.01,
-        "place": "70 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1642623516990,
-        "updated": 1642690987282,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022019009",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022019009.geojson",
-        "felt": 5,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 249,
-        "net": "pr",
-        "code": "2022019009",
-        "ids": ",pr2022019009,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 1.0423,
-        "rms": 0.37,
-        "gap": 210,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 70 km NE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3845,
-          18.8366,
-          17
-        ]
-      },
-      "id": "pr2022019009"
     }
   ],
   "bbox": [
