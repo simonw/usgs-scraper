@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642731598000,
+    "generated": 1642734118000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.79,
         "place": "2 km WSW of Indios, Puerto Rico",
         "time": 1642728162150,
-        "updated": 1642729044520,
+        "updated": 1642732301858,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022021000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022021000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "2022021000",
         "ids": ",pr2022021000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.0434,
         "rms": 0.15,
@@ -95,7 +95,7 @@
         "mag": 2.73,
         "place": "6km WNW of Walker, CA",
         "time": 1642721754140,
-        "updated": 1642729453201,
+        "updated": 1642732655229,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73681251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73681251.geojson",
@@ -455,7 +455,7 @@
         "mag": 2.59,
         "place": "15km WSW of Deep Springs, CA",
         "time": 1642702281570,
-        "updated": 1642714391420,
+        "updated": 1642732641622,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73681106",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73681106.geojson",
@@ -615,7 +615,7 @@
         "mag": 2.5,
         "place": "37 km SE of Mina, Nevada",
         "time": 1642697528489,
-        "updated": 1642712581040,
+        "updated": 1642732639882,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00832058",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00832058.geojson",
@@ -652,10 +652,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
+        "mag": 3.4,
         "place": "37 km SE of Mina, Nevada",
         "time": 1642693510479,
-        "updated": 1642707265444,
+        "updated": 1642732653925,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00832045",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00832045.geojson",
@@ -665,7 +665,7 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
+        "sig": 178,
         "net": "nn",
         "code": "00832045",
         "ids": ",nn00832045,us7000gdjx,",
@@ -675,9 +675,9 @@
         "dmin": 0.115,
         "rms": 0.1234,
         "gap": 57.72,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.7 - 37 km SE of Mina, Nevada"
+        "title": "M 3.4 - 37 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1015,11 +1015,11 @@
         "mag": 2.53,
         "place": "27km ESE of Ridgecrest, CA",
         "time": 1642672350400,
-        "updated": 1642723018410,
+        "updated": 1642732425187,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39917967",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39917967.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "us7000gdqg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "66 km SW of Masachapa, Nicaragua",
-        "time": 1642645956932,
-        "updated": 1642655382040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gdeb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gdeb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000gdeb",
-        "ids": ",us7000gdeb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.039,
-        "rms": 0.83,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 66 km SW of Masachapa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.8882,
-          11.3148,
-          37.56
-        ]
-      },
-      "id": "us7000gdeb"
     }
   ],
   "bbox": [
