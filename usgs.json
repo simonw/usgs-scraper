@@ -1,50 +1,50 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643061684000,
+    "generated": 1643065284000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.27999997,
+        "mag": 3,
         "place": "9 km ENE of Pāhala, Hawaii",
-        "time": 1643061486430,
-        "updated": 1643061672340,
+        "time": 1643061486360,
+        "updated": 1643064268040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72888717",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72888717.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 166,
+        "sig": 139,
         "net": "hv",
         "code": "72888717",
-        "ids": ",hv72888717,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
+        "ids": ",hv72888717,us7000geps,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 54,
         "dmin": null,
-        "rms": 0.140000001,
-        "gap": 139,
-        "magType": "md",
+        "rms": 0.12,
+        "gap": 144,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 9 km ENE of Pāhala, Hawaii"
+        "title": "M 3.0 - 9 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.393005371094,
-          19.2398338317871,
-          31.6900005340576
+          -155.391666666667,
+          19.2326666666667,
+          32.73
         ]
       },
       "id": "hv72888717"
@@ -55,17 +55,17 @@
         "mag": 4.8,
         "place": "20 km W of Wagin, Australia",
         "time": 1643059489438,
-        "updated": 1643061400097,
+        "updated": 1643065137602,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gep9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gep9.geojson",
-        "felt": 35,
-        "cdi": 5.6,
+        "felt": 134,
+        "cdi": 5.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 374,
+        "sig": 427,
         "net": "us",
         "code": "7000gep9",
         "ids": ",us7000gep9,",
@@ -94,8 +94,8 @@
       "properties": {
         "mag": 5.1,
         "place": "South Sandwich Islands region",
-        "time": 1643059065430,
-        "updated": 1643059911040,
+        "time": 1643059055241,
+        "updated": 1643062914040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gep5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gep5.geojson",
@@ -112,9 +112,9 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 19.806,
-        "rms": 0.61,
-        "gap": 197,
+        "dmin": 8.279,
+        "rms": 0.71,
+        "gap": 165,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 5.1 - South Sandwich Islands region"
@@ -122,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -25.2507,
-          -58.27,
-          35
+          -23.8315,
+          -58.6997,
+          10
         ]
       },
       "id": "us7000gep5"
@@ -133,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "103 km SE of Neiafu, Tonga",
-        "time": 1643059000846,
-        "updated": 1643060560040,
+        "place": "56 km NNW of Nuku‘alofa, Tonga",
+        "time": 1643059017495,
+        "updated": 1643063843040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gep3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gep3.geojson",
@@ -152,19 +152,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 8.314,
-        "rms": 0.94,
-        "gap": 135,
+        "dmin": 6.839,
+        "rms": 0.59,
+        "gap": 221,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 103 km SE of Neiafu, Tonga"
+        "title": "M 5.0 - 56 km NNW of Nuku‘alofa, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.3459,
-          -19.3568,
-          114.05
+          -175.4886,
+          -20.7049,
+          99.27
         ]
       },
       "id": "us7000gep3"
@@ -212,8 +212,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "78 km SSW of Unalaska, Alaska",
+        "time": 1643057978456,
+        "updated": 1643063200622,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221415q7l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221415q7l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.756,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "0221415q7l",
+        "ids": ",ak0221415q7l,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 78 km SSW of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.7687,
+          53.1814,
+          25.6
+        ]
+      },
+      "id": "ak0221415q7l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
-        "place": "219 km NE of Gisborne, New Zealand",
+        "place": "off the east coast of the North Island of New Zealand",
         "time": 1643055947071,
         "updated": 1643061319253,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 76,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 219 km NE of Gisborne, New Zealand"
+        "title": "M 5.2 - off the east coast of the North Island of New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -248,6 +288,46 @@
         ]
       },
       "id": "us7000genk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "8 km SW of Petite Rivière de Nippes, Haiti",
+        "time": 1643054505867,
+        "updated": 1643063400040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gen4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gen4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000gen4",
+        "ids": ",us7000gen4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.949,
+        "rms": 1.06,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 8 km SW of Petite Rivière de Nippes, Haiti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2996,
+          18.4262,
+          10
+        ]
+      },
+      "id": "us7000gen4"
     },
     {
       "type": "Feature",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.69,
-        "place": "2 km SSE of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1643010394290,
         "updated": 1643022243898,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 197,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 2 km SSE of Guánica, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1808,51 +1888,11 @@
         ]
       },
       "id": "us7000gefx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "77 km W of San Antonio de los Cobres, Argentina",
-        "time": 1642977036662,
-        "updated": 1642993385040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gefn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gefn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gefn",
-        "ids": ",us7000gefn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.712,
-        "rms": 0.53,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 77 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0678,
-          -24.3344,
-          166.21
-        ]
-      },
-      "id": "us7000gefn"
     }
   ],
   "bbox": [
     -175.5363,
-    -58.27,
+    -58.6997,
     6,
     179.9901,
     64.8262,
