@@ -1,50 +1,50 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643108484000,
+    "generated": 1643112444000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.46,
-        "place": "6 km E of Wailua, Hawaii",
-        "time": 1643107889690,
-        "updated": 1643108308218,
+        "mag": 4.67,
+        "place": "10 km NNE of Wailua, Hawaii",
+        "time": 1643107889050,
+        "updated": 1643112356909,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72889347",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72889347.geojson",
-        "felt": 22,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
+        "felt": 545,
+        "cdi": 4.6,
+        "mmi": 4.2,
+        "alert": "green",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 315,
+        "sig": 586,
         "net": "hv",
         "code": "72889347",
-        "ids": ",pt22025001,hv72889347,",
-        "sources": ",pt,hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 50,
+        "ids": ",pt22025001,hv72889347,us7000geup,",
+        "sources": ",pt,hv,us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 60,
         "dmin": null,
-        "rms": 0.200000003,
-        "gap": 326,
+        "rms": 0.34,
+        "gap": 206,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.5 - 6 km E of Wailua, Hawaii"
+        "title": "M 4.7 - 10 km NNE of Wailua, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.071166992188,
-          20.8431663513184,
-          9.78999996185303
+          -156.082666666667,
+          20.928,
+          41.14
         ]
       },
       "id": "hv72889347"
@@ -55,17 +55,17 @@
         "mag": 2.6,
         "place": "9 km ENE of Pāhala, Hawaii",
         "time": 1643104038430,
-        "updated": 1643108420148,
+        "updated": 1643111561605,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72889302",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72889302.geojson",
-        "felt": 8,
-        "cdi": 4.1,
+        "felt": 6,
+        "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 107,
+        "sig": 106,
         "net": "hv",
         "code": "72889302",
         "ids": ",hv72889302,",
@@ -655,7 +655,7 @@
         "mag": 3,
         "place": "9 km ENE of Pāhala, Hawaii",
         "time": 1643061486360,
-        "updated": 1643108343425,
+        "updated": 1643109902396,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72888717",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72888717.geojson",
@@ -695,17 +695,17 @@
         "mag": 4.8,
         "place": "20 km W of Wagin, Australia",
         "time": 1643059489438,
-        "updated": 1643103661543,
+        "updated": 1643109600912,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gep9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gep9.geojson",
-        "felt": 182,
+        "felt": 184,
         "cdi": 5.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 453,
+        "sig": 454,
         "net": "us",
         "code": "7000gep9",
         "ids": ",us7000gep9,",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "219 km NE of Gisborne, New Zealand",
+        "place": "off the east coast of the North Island of New Zealand",
         "time": 1643055947071,
         "updated": 1643098683569,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 76,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 219 km NE of Gisborne, New Zealand"
+        "title": "M 5.2 - off the east coast of the North Island of New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -1608,133 +1608,13 @@
         ]
       },
       "id": "hv72888162"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "14 km WSW of Kingfisher, Oklahoma",
-        "time": 1643025005669,
-        "updated": 1643047047331,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022bqxz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022bqxz.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "ok",
-        "code": "2022bqxz",
-        "ids": ",ok2022bqxz,us7000gejb,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 81,
-        "dmin": 0,
-        "rms": 0.18,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 14 km WSW of Kingfisher, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.088,
-          35.835,
-          7.58
-        ]
-      },
-      "id": "ok2022bqxz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "28 km NNW of Nuku‘alofa, Tonga",
-        "time": 1643024190704,
-        "updated": 1643037752630,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gejk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gejk.geojson",
-        "felt": 3,
-        "cdi": 5.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 342,
-        "net": "us",
-        "code": "7000gejk",
-        "ids": ",us7000gejk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 6.997,
-        "rms": 0.4,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 28 km NNW of Nuku‘alofa, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.3289,
-          -20.9105,
-          10
-        ]
-      },
-      "id": "us7000gejk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Kermadec Islands region",
-        "time": 1643023418780,
-        "updated": 1643025739040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gej8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gej8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000gej8",
-        "ids": ",us7000gej8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.897,
-        "rms": 0.44,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.9901,
-          -31.5359,
-          409.22
-        ]
-      },
-      "id": "us7000gej8"
     }
   ],
   "bbox": [
     -176.9205,
     -58.6997,
     7.494091797,
-    179.9901,
+    179.8663,
     63.3889,
     505.86
   ]
