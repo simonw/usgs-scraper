@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643266932000,
+    "generated": 1643270846000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "53 km S of Elim, Alaska",
+        "time": 1643269647778,
+        "updated": 1643270696519,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02218ryjbj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02218ryjbj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "02218ryjbj",
+        "ids": ",ak02218ryjbj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 53 km S of Elim, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.2381,
+          64.1333,
+          18.2
+        ]
+      },
+      "id": "ak02218ryjbj"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.57,
         "place": "9 km E of Pāhala, Hawaii",
         "time": 1643265998630,
-        "updated": 1643266844805,
+        "updated": 1643268642040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72891357",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72891357.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -28,8 +68,8 @@
         "sig": 102,
         "net": "hv",
         "code": "72891357",
-        "ids": ",hv72891357,",
-        "sources": ",hv,",
+        "ids": ",hv72891357,us7000gfhc,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 51,
         "dmin": null,
@@ -53,16 +93,16 @@
       "type": "Feature",
       "properties": {
         "mag": 6.2,
-        "place": "219 km WNW of Pangai, Tonga",
-        "time": 1643265607151,
-        "updated": 1643266790040,
+        "place": "225 km WNW of Pangai, Tonga",
+        "time": 1643265605998,
+        "updated": 1643268695921,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfhb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfhb.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 3.623,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 591,
@@ -70,21 +110,21 @@
         "code": "7000gfhb",
         "ids": ",us7000gfhb,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 5.106,
-        "rms": 1.11,
+        "dmin": 5.028,
+        "rms": 1.48,
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.2 - 219 km WNW of Pangai, Tonga"
+        "title": "M 6.2 - 225 km WNW of Pangai, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -176.3218,
-          -19.1419,
-          14.5
+          -176.3494,
+          -19.0681,
+          4.17
         ]
       },
       "id": "us7000gfhb"
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us7000gfh8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "1 km SE of Sabanilla, Costa Rica",
+        "time": 1643263455358,
+        "updated": 1643269411587,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfh7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfh7.geojson",
+        "felt": 4,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 286,
+        "net": "us",
+        "code": "7000gfh7",
+        "ids": ",us7000gfh7,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.113,
+        "rms": 0.47,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 1 km SE of Sabanilla, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2057,
+          10.0671,
+          87.22
+        ]
+      },
+      "id": "us7000gfh7"
     },
     {
       "type": "Feature",
@@ -572,6 +652,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.28,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1643230175410,
+        "updated": 1643268942720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91472631",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91472631.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.491,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 282,
+        "net": "av",
+        "code": "91472631",
+        "ids": ",av91472631,ak02217c69yv,",
+        "sources": ",av,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 8,
+        "dmin": null,
+        "rms": 0.13,
+        "gap": 306,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.3 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.239333333333,
+          51.9246666666667,
+          2.5
+        ]
+      },
+      "id": "av91472631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "33 km WNW of San Pedro de Atacama, Chile",
         "time": 1643226172913,
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Pulau-Pulau Talaud, Indonesia",
+        "place": "200 km SE of Sarangani, Philippines",
         "time": 1643220677483,
         "updated": 1643234207040,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": 137,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Pulau-Pulau Talaud, Indonesia"
+        "title": "M 4.4 - 200 km SE of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1135,11 +1255,11 @@
         "mag": 3.12,
         "place": "15km NE of Little Lake, CA",
         "time": 1643193510020,
-        "updated": 1643247034197,
+        "updated": 1643270430615,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39923679",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39923679.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1408,86 +1528,6 @@
         ]
       },
       "id": "us7000gf7y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1643184268300,
-        "updated": 1643254795820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91472446",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91472446.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "av",
-        "code": "91472446",
-        "ids": ",av91472446,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": null,
-        "rms": 0.24,
-        "gap": 314,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.306666666667,
-          52.0056666666667,
-          3.74
-        ]
-      },
-      "id": "av91472446"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.59,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1643181926880,
-        "updated": 1643265186900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91472441",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91472441.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 198,
-        "net": "av",
-        "code": "91472441",
-        "ids": ",av91472441,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": null,
-        "rms": 0.24,
-        "gap": 315,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.310166666667,
-          52.0093333333333,
-          4.13
-        ]
-      },
-      "id": "av91472441"
     }
   ],
   "bbox": [
@@ -1495,7 +1535,7 @@
     -25.9416,
     0,
     179.815,
-    63.1038,
+    64.1333,
     621.2
   ]
 }
