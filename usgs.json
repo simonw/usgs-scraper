@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643270846000,
+    "generated": 1643274206000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.6,
         "place": "53 km S of Elim, Alaska",
         "time": 1643269647778,
-        "updated": 1643270696519,
+        "updated": 1643272476040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02218ryjbj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02218ryjbj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": 2.057,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 200,
         "net": "ak",
         "code": "02218ryjbj",
-        "ids": ",ak02218ryjbj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02218ryjbj,us7000gfhq,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 1,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak02218ryjbj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "23 km WSW of Stella, Puerto Rico",
+        "time": 1643269075430,
+        "updated": 1643272953727,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022027010",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022027010.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "pr",
+        "code": "2022027010",
+        "ids": ",pr2022027010,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.4066,
+        "rms": 0.15,
+        "gap": 291,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 23 km WSW of Stella, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4636,
+          18.2646,
+          85
+        ]
+      },
+      "id": "pr2022027010"
     },
     {
       "type": "Feature",
@@ -95,13 +135,13 @@
         "mag": 6.2,
         "place": "225 km WNW of Pangai, Tonga",
         "time": 1643265605998,
-        "updated": 1643268695921,
+        "updated": 1643273122819,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfhb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfhb.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.623,
+        "mmi": 3.62,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -492,20 +532,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "28 km SSE of Kokhanok, Alaska",
-        "time": 1643247364533,
-        "updated": 1643248984073,
+        "mag": 3.7,
+        "place": "19 km SSE of Kokhanok, Alaska",
+        "time": 1643247364264,
+        "updated": 1643271617334,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02218obj1q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02218obj1q.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.246,
+        "mmi": 3.069,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 211,
         "net": "ak",
         "code": "02218obj1q",
         "ids": ",us7000gffd,ak02218obj1q,",
@@ -513,18 +553,18 @@
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 1.1,
+        "rms": 0.7,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 28 km SSE of Kokhanok, Alaska"
+        "title": "M 3.7 - 19 km SSE of Kokhanok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.6418,
-          59.1947,
-          0
+          -154.6419,
+          59.2813,
+          13.5
         ]
       },
       "id": "ak02218obj1q"
@@ -1533,7 +1573,7 @@
   "bbox": [
     -177.5016,
     -25.9416,
-    0,
+    1.63,
     179.815,
     64.1333,
     621.2
