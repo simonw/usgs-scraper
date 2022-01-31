@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643662897000,
+    "generated": 1643666437000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -215,11 +215,11 @@
         "mag": 4.5,
         "place": "7 km NW of Medford, Oklahoma",
         "time": 1643649021129,
-        "updated": 1643662695040,
+        "updated": 1643666303004,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022cedc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022cedc.geojson",
-        "felt": 3740,
+        "felt": 3836,
         "cdi": 6.7,
         "mmi": 5.67,
         "alert": "green",
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "189 km SE of Perryville, Alaska",
+        "place": "south of Alaska",
         "time": 1643635128154,
         "updated": 1643642500040,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 189 km SE of Perryville, Alaska"
+        "title": "M 3.0 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -815,11 +815,11 @@
         "mag": 4.01,
         "place": "8 km ENE of Pāhala, Hawaii",
         "time": 1643630072360,
-        "updated": 1643660325228,
+        "updated": 1643663828353,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72897042",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72897042.geojson",
-        "felt": 69,
+        "felt": 68,
         "cdi": 3.4,
         "mmi": 5.225,
         "alert": "green",
@@ -975,7 +975,7 @@
         "mag": 5.7,
         "place": "Kermadec Islands, New Zealand",
         "time": 1643628105947,
-        "updated": 1643645501512,
+        "updated": 1643664213040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ggkz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ggkz.geojson",
@@ -990,7 +990,7 @@
         "code": "7000ggkz",
         "ids": ",us7000ggkz,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 10.177,
         "rms": 0.65,
@@ -1012,42 +1012,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "7 km SE of Gardendale, Texas",
-        "time": 1643621794153,
-        "updated": 1643640145137,
+        "mag": 2.51,
+        "place": "18 km W of Volcano, Hawaii",
+        "time": 1643622833200,
+        "updated": 1643666424170,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ggkj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ggkj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72896937",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72896937.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "hv",
+        "code": "72896937",
+        "ids": ",hv72896937,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 18 km W of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.4025,
+          19.412,
+          1.78
+        ]
+      },
+      "id": "hv72896937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "6 km SE of Gardendale, Texas",
+        "time": 1643621793557,
+        "updated": 1643664425032,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022cdoc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022cdoc.geojson",
         "felt": 7,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 132,
-        "net": "us",
-        "code": "7000ggkj",
-        "ids": ",us7000ggkj,",
-        "sources": ",us,",
+        "sig": 114,
+        "net": "tx",
+        "code": "2022cdoc",
+        "ids": ",us7000ggkj,tx2022cdoc,",
+        "sources": ",us,tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.241,
-        "rms": 0.4,
-        "gap": 38,
-        "magType": "mb_lg",
+        "nst": 19,
+        "dmin": 0.0260164056,
+        "rms": 0.1,
+        "gap": 44,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 7 km SE of Gardendale, Texas"
+        "title": "M 2.7 - 6 km SE of Gardendale, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.3206,
-          31.9759,
-          2.85
+          -102.3357708,
+          31.97845459,
+          8.681437174
         ]
       },
-      "id": "us7000ggkj"
+      "id": "tx2022cdoc"
     },
     {
       "type": "Feature",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us7000gggu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "northern East Pacific Rise",
-        "time": 1643579460564,
-        "updated": 1643585918040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gggs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gggs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000gggs",
-        "ids": ",us7000gggs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 10.841,
-        "rms": 0.68,
-        "gap": 118,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - northern East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.251,
-          8.1852,
-          10
-        ]
-      },
-      "id": "us7000gggs"
     }
   ],
   "bbox": [
