@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643641597000,
+    "generated": 1643645357000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "21 km N of Aniso, Peru",
+        "time": 1643642879098,
+        "updated": 1643643989040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ggp3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ggp3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000ggp3",
+        "ids": ",us7000ggp3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.69,
+        "rms": 0.15,
+        "gap": 266,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 21 km N of Aniso, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2981,
+          -14.6128,
+          122.64
+        ]
+      },
+      "id": "us7000ggp3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -132,42 +172,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "208 km SE of Perryville, Alaska",
-        "time": 1643635120893,
-        "updated": 1643639423040,
+        "mag": 3,
+        "place": "south of Alaska",
+        "time": 1643635128154,
+        "updated": 1643642500040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ggm2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ggm2.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221fhikuy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221fhikuy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "7000ggm2",
-        "ids": ",us7000ggm2,",
-        "sources": ",us,",
+        "sig": 138,
+        "net": "ak",
+        "code": "0221fhikuy",
+        "ids": ",us7000ggm2,ak0221fhikuy,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 1.666,
-        "rms": 0.45,
-        "gap": 231,
-        "magType": "mb",
+        "dmin": null,
+        "rms": 0.55,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 208 km SE of Perryville, Alaska"
+        "title": "M 3.0 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.7327,
-          54.6455,
+          -156.8146,
+          54.8448,
           10
         ]
       },
-      "id": "us7000ggm2"
+      "id": "ak0221fhikuy"
     },
     {
       "type": "Feature",
@@ -455,11 +495,11 @@
         "mag": 4.01,
         "place": "8 km ENE of Pāhala, Hawaii",
         "time": 1643630072360,
-        "updated": 1643637474435,
+        "updated": 1643644399590,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72897042",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72897042.geojson",
-        "felt": 49,
+        "felt": 50,
         "cdi": 3.5,
         "mmi": 5.225,
         "alert": "green",
@@ -488,6 +528,46 @@
         ]
       },
       "id": "hv72897042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "103 km SSW of Unalaska, Alaska",
+        "time": 1643629194332,
+        "updated": 1643641856301,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221fgg089",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221fgg089.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.535,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "0221fgg089",
+        "ids": ",ak0221fgg089,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 103 km SSW of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.8913,
+          52.9685,
+          20.3
+        ]
+      },
+      "id": "ak0221fgg089"
     },
     {
       "type": "Feature",
@@ -572,10 +652,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
+        "mag": 5.7,
         "place": "Kermadec Islands, New Zealand",
-        "time": 1643628105913,
-        "updated": 1643635512394,
+        "time": 1643628105947,
+        "updated": 1643645317040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ggkz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ggkz.geojson",
@@ -585,25 +665,25 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 500,
         "net": "us",
         "code": "7000ggkz",
         "ids": ",us7000ggkz,",
         "sources": ",us,",
         "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 10.167,
-        "rms": 0.69,
+        "dmin": 10.177,
+        "rms": 0.65,
         "gap": 59,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - Kermadec Islands, New Zealand"
+        "title": "M 5.7 - Kermadec Islands, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -177.0194,
-          -29.6684,
+          -177.0327,
+          -29.6471,
           10
         ]
       },
@@ -1495,11 +1575,11 @@
         "mag": 4.05,
         "place": "5km WSW of Palomar Observatory, CA",
         "time": 1643564786970,
-        "updated": 1643641313387,
+        "updated": 1643645235185,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39928087",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39928087.geojson",
-        "felt": 5665,
+        "felt": 5680,
         "cdi": 4.6,
         "mmi": 4.351,
         "alert": "green",
@@ -1648,170 +1728,10 @@
         ]
       },
       "id": "us7000ggf0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "59 km SSW of Whites City, New Mexico",
-        "time": 1643558119596,
-        "updated": 1643560668040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gget",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gget.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000gget",
-        "ids": ",us7000gget,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.028,
-        "rms": 0.46,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 59 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5265,
-          31.6507,
-          5
-        ]
-      },
-      "id": "us7000gget"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.71,
-        "place": "4 km WSW of Guánica, Puerto Rico",
-        "time": 1643557262140,
-        "updated": 1643574196241,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022030003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022030003.geojson",
-        "felt": 20,
-        "cdi": 4.1,
-        "mmi": 3.5,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 220,
-        "net": "pr",
-        "code": "2022030003",
-        "ids": ",us7000gger,pr2022030003,",
-        "sources": ",us,pr,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 23,
-        "dmin": 0.0684,
-        "rms": 0.18,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 4 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9456,
-          17.9586,
-          7
-        ]
-      },
-      "id": "pr2022030003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.17,
-        "place": "3 km SW of Fuig, Puerto Rico",
-        "time": 1643556635160,
-        "updated": 1643560521040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022030004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022030004.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 155,
-        "net": "pr",
-        "code": "2022030004",
-        "ids": ",us7000ggen,pr2022030004,",
-        "sources": ",us,pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.0665,
-        "rms": 0.15,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 3 km SW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.945,
-          17.9655,
-          7
-        ]
-      },
-      "id": "pr2022030004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "80 km W of San Antonio de los Cobres, Argentina",
-        "time": 1643555300577,
-        "updated": 1643556973040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ggem",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ggem.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000ggem",
-        "ids": ",us7000ggem,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.501,
-        "rms": 0.46,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 80 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0936,
-          -24.0812,
-          224.76
-        ]
-      },
-      "id": "us7000ggem"
     }
   ],
   "bbox": [
-    -177.0194,
+    -177.0327,
     -29.6862,
     0.05519168079,
     140.9662,
