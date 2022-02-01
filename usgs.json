@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643702897000,
+    "generated": 1643706219000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "160 km S of Chenega, Alaska",
+        "time": 1643702968518,
+        "updated": 1643703199845,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221h20kkw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221h20kkw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0221h20kkw",
+        "ids": ",ak0221h20kkw,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 160 km S of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1429,
+          58.6268,
+          2.4
+        ]
+      },
+      "id": "ak0221h20kkw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -735,12 +775,12 @@
         "mag": 2.7,
         "place": "6 km WNW of Haines, Alaska",
         "time": 1643660662628,
-        "updated": 1643660845000,
+        "updated": 1643705561053,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221flpmc6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221flpmc6.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -750,7 +790,7 @@
         "code": "0221flpmc6",
         "ids": ",ak0221flpmc6,",
         "sources": ",ak,",
-        "types": ",origin,",
+        "types": ",dyfi,origin,",
         "nst": null,
         "dmin": null,
         "rms": 0.74,
@@ -975,11 +1015,11 @@
         "mag": 4.5,
         "place": "7 km NW of Medford, Oklahoma",
         "time": 1643649021129,
-        "updated": 1643702394360,
+        "updated": 1643705173984,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022cedc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022cedc.geojson",
-        "felt": 4174,
+        "felt": 4175,
         "cdi": 6.4,
         "mmi": 5.67,
         "alert": "green",
@@ -1928,46 +1968,6 @@
         ]
       },
       "id": "ak0221ff5h91"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "48 km ESE of Nikolski, Alaska",
-        "time": 1643619379272,
-        "updated": 1643640736681,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ggkg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ggkg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.485,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "7000ggkg",
-        "ids": ",ak0221fer9r5,us7000ggkg,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.603,
-        "rms": 0.6,
-        "gap": 170,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.6 - 48 km ESE of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.1601,
-          52.8275,
-          35.1
-        ]
-      },
-      "id": "us7000ggkg"
     }
   ],
   "bbox": [
