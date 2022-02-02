@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643803599000,
+    "generated": 1643807319000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 50
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 5.1,
         "place": "116 km WSW of Puerto Madero, Mexico",
         "time": 1643802135165,
-        "updated": 1643803289040,
+        "updated": 1643805073216,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ghac",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ghac.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 401,
         "net": "us",
         "code": "7000ghac",
         "ids": ",us7000ghac,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 2.31,
         "rms": 0.73,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us7000ghac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "100 km SW of La Esperanza (El Zapotal), Mexico",
+        "time": 1643801801477,
+        "updated": 1643806699040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gha9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gha9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000gha9",
+        "ids": ",us7000gha9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.187,
+        "rms": 0.79,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 100 km SW of La Esperanza (El Zapotal), Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.804,
+          14.7891,
+          10
+        ]
+      },
+      "id": "us7000gha9"
     },
     {
       "type": "Feature",
@@ -135,7 +175,7 @@
         "mag": 5.5,
         "place": "74 km ENE of ‘Ohonua, Tonga",
         "time": 1643797593412,
-        "updated": 1643798936223,
+        "updated": 1643804992420,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gh9y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gh9y.geojson",
@@ -1215,7 +1255,7 @@
         "mag": 3.47,
         "place": "4km SSE of Markleeville, CA",
         "time": 1643766108220,
-        "updated": 1643800411181,
+        "updated": 1643804083295,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73686986",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73686986.geojson",
@@ -1615,11 +1655,11 @@
         "mag": 3.26,
         "place": "1km SE of South Gate, CA",
         "time": 1643736376480,
-        "updated": 1643801831139,
+        "updated": 1643805493439,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39929895",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39929895.geojson",
-        "felt": 1096,
+        "felt": 1098,
         "cdi": 5,
         "mmi": 3.38,
         "alert": null,
@@ -1968,93 +2008,13 @@
         ]
       },
       "id": "nc73686841"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.52,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1643719888140,
-        "updated": 1643769215050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91476221",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91476221.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 191,
-        "net": "av",
-        "code": "91476221",
-        "ids": ",av91476221,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 315,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.310666666667,
-          52.017,
-          5.85
-        ]
-      },
-      "id": "av91476221"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "194 km SSW of Akhiok, Alaska",
-        "time": 1643717535615,
-        "updated": 1643719216097,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221h4ewf5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221h4ewf5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.033,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "0221h4ewf5",
-        "ids": ",us7000ggxg,ak0221h4ewf5,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.46,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 194 km SSW of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.9258,
-          55.2468,
-          11.8
-        ]
-      },
-      "id": "ak0221h4ewf5"
     }
   ],
   "bbox": [
     -178.355,
     -58.5113,
     -1.09,
-    178.31066666667,
+    163.1968,
     63.2386,
     583.01
   ]
