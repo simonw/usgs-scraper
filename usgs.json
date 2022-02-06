@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1644123739000,
+    "generated": 1644127399000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 33
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.42,
         "place": "2km NE of The Geysers, CA",
         "time": 1644123317840,
-        "updated": 1644123717617,
+        "updated": 1644126497382,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73689126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73689126.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 24,
+        "cdi": 3.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 180,
+        "sig": 189,
         "net": "nc",
         "code": "73689126",
-        "ids": ",nc73689126,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73689126,us7000gid1,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 71,
         "dmin": 0.005587,
         "rms": 0.09,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nc73689126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "6 km WSW of Kawasaki, Japan",
+        "time": 1644120931933,
+        "updated": 1644125300582,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gidc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gidc.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000gidc",
+        "ids": ",us7000gidc,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.451,
+        "rms": 0.57,
+        "gap": 165,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 6 km WSW of Kawasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6461,
+          35.4965,
+          72.05
+        ]
+      },
+      "id": "us7000gidc"
     },
     {
       "type": "Feature",
@@ -1172,42 +1212,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.91,
-        "place": "259 km W of Adak, Alaska",
-        "time": 1644047669840,
-        "updated": 1644091123720,
+        "mag": 2.8,
+        "place": "257 km W of Adak, Alaska",
+        "time": 1644047669607,
+        "updated": 1644123988040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91048938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91048938.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gia2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gia2.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 130,
-        "net": "av",
-        "code": "91048938",
-        "ids": ",av91048938,",
-        "sources": ",av,",
+        "sig": 121,
+        "net": "us",
+        "code": "7000gia2",
+        "ids": ",av91048938,us7000gia2,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 91,
+        "nst": null,
+        "dmin": 0.008,
+        "rms": 0.72,
+        "gap": 87,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 259 km W of Adak, Alaska"
+        "title": "M 2.8 - 257 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.592666666667,
-          51.9245,
-          5.4
+          179.6251,
+          51.9215,
+          10
         ]
       },
-      "id": "av91048938"
+      "id": "us7000gia2"
     },
     {
       "type": "Feature",
@@ -1288,133 +1328,13 @@
         ]
       },
       "id": "ak0221nmzpzt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "137 km S of False Pass, Alaska",
-        "time": 1644038445773,
-        "updated": 1644050449339,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gi6u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gi6u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.432,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000gi6u",
-        "ids": ",us7000gi6u,ak0221nmg1mi,",
-        "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.189,
-        "rms": 0.57,
-        "gap": 167,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.5 - 137 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.3644,
-          53.6151,
-          14.92
-        ]
-      },
-      "id": "us7000gi6u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "6 km WSW of Grębocice, Poland",
-        "time": 1644038342231,
-        "updated": 1644082877566,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gi6t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gi6t.geojson",
-        "felt": 6,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 287,
-        "net": "us",
-        "code": "7000gi6t",
-        "ids": ",us7000gi6t,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.241,
-        "rms": 0.8,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 6 km WSW of Grębocice, Poland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.0763,
-          51.5805,
-          10.99
-        ]
-      },
-      "id": "us7000gi6t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "131 km S of False Pass, Alaska",
-        "time": 1644037831319,
-        "updated": 1644050154255,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gi6q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gi6q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000gi6q",
-        "ids": ",ak0221nmdv8a,us7000gi6q,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.165,
-        "rms": 1.01,
-        "gap": 172,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 131 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.3226,
-          53.6708,
-          28.62
-        ]
-      },
-      "id": "us7000gi6q"
     }
   ],
   "bbox": [
     -179.5549,
     -47.3274,
     -1.47,
-    179.59266666667,
+    179.6251,
     61.981,
     566.79
   ]
