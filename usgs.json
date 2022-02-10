@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1644472990000,
+    "generated": 1644476536000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -775,12 +775,12 @@
         "mag": 2.79,
         "place": "7 km NW of Medford, Oklahoma",
         "time": 1644428812259,
-        "updated": 1644429534564,
+        "updated": 1644473208416,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022cupv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022cupv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -788,9 +788,9 @@
         "sig": 120,
         "net": "ok",
         "code": "2022cupv",
-        "ids": ",us7000gjff,ok2022cupv,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2022cupv,us7000gjff,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 101,
         "dmin": 0,
         "rms": 0.2,
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "ak0221ualez8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "56 km WSW of Kaltag, Alaska",
-        "time": 1644388064231,
-        "updated": 1644388905506,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221u98d4b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221u98d4b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0221u98d4b",
-        "ids": ",ak0221u98d4b,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.19,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 56 km WSW of Kaltag, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.7782,
-          64.1173,
-          39.9
-        ]
-      },
-      "id": "ak0221u98d4b"
     }
   ],
   "bbox": [
@@ -1495,7 +1455,7 @@
     -58.3244,
     7.72,
     179.8259,
-    64.1173,
+    63.7109,
     527.82
   ]
 }
