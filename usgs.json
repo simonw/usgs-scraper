@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1644519674000,
+    "generated": 1644523339000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "82 km NNE of Punta Cana, Dominican Republic",
-        "time": 1644518657000,
-        "updated": 1644519108270,
+        "mag": 4.18,
+        "place": "89 km NNE of Punta Cana, Dominican Republic",
+        "time": 1644518656470,
+        "updated": 1644523305279,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt22041050",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt22041050.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022041000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022041000.geojson",
+        "felt": 3,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
-        "net": "pt",
-        "code": "22041050",
-        "ids": ",pt22041050,",
-        "sources": ",pt,",
-        "types": ",origin,",
-        "nst": 15,
-        "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "Ml",
+        "sig": 269,
+        "net": "pr",
+        "code": "2022041000",
+        "ids": ",pt22041050,us7000gjs1,pr2022041000,",
+        "sources": ",pt,us,pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.8738,
+        "rms": 0.64,
+        "gap": 208,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.3 - 82 km NNE of Punta Cana, Dominican Republic"
+        "title": "M 4.2 - 89 km NNE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.004,
-          19.223,
+          -68.1043,
+          19.3426,
           10
         ]
       },
-      "id": "pt22041050"
+      "id": "pr2022041000"
     },
     {
       "type": "Feature",
@@ -775,13 +775,13 @@
         "mag": 4.3,
         "place": "238 km WSW of Adak, Alaska",
         "time": 1644464735357,
-        "updated": 1644519477068,
+        "updated": 1644519619116,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gjji",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gjji.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 4.209,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -790,7 +790,7 @@
         "code": "7000gjji",
         "ids": ",ak0221vv396q,us7000gjji,",
         "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 1.049,
         "rms": 0.95,
@@ -1208,46 +1208,6 @@
         ]
       },
       "id": "us7000gjgy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "1 km NE of Correggio, Italy",
-        "time": 1644436856616,
-        "updated": 1644509344384,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gjgg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gjgg.geojson",
-        "felt": 31,
-        "cdi": 4.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000gjgg",
-        "ids": ",us7000gjgg,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.445,
-        "rms": 0.93,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 1 km NE of Correggio, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.7929,
-          44.7765,
-          10
-        ]
-      },
-      "id": "us7000gjgg"
     }
   ],
   "bbox": [
