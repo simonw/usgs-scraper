@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1644699662000,
+    "generated": 1644703289000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "24 km S of Susitna North, Alaska",
-        "time": 1644689405187,
-        "updated": 1644699273040,
+        "mag": 5.5,
+        "place": "central Mid-Atlantic Ridge",
+        "time": 1644698933854,
+        "updated": 1644700288696,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221zevvmm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221zevvmm.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gkcm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gkcm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0221zevvmm",
-        "ids": ",ak0221zevvmm,us7000gkbl,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
+        "sig": 465,
+        "net": "us",
+        "code": "7000gkcm",
+        "ids": ",us7000gkcm,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.75,
-        "gap": null,
-        "magType": "ml",
+        "dmin": 9.271,
+        "rms": 0.7,
+        "gap": 79,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 2.7 - 24 km S of Susitna North, Alaska"
+        "title": "M 5.5 - central Mid-Atlantic Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.772,
-          61.9433,
-          4.1
+          -19.9873,
+          -0.5003,
+          10
         ]
       },
-      "id": "ak0221zevvmm"
+      "id": "us7000gkcm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "25 km SSE of Susitna North, Alaska",
+        "time": 1644689404574,
+        "updated": 1644702123872,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gkbl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gkbl.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "us",
+        "code": "7000gkbl",
+        "ids": ",ak0221zevvmm,us7000gkbl,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.376,
+        "rms": 0.76,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 25 km SSE of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6109,
+          61.9608,
+          7.12
+        ]
+      },
+      "id": "us7000gkbl"
     },
     {
       "type": "Feature",
@@ -128,46 +168,6 @@
         ]
       },
       "id": "nc73691991"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "6 km SSE of Hope, Alaska",
-        "time": 1644686141318,
-        "updated": 1644698763600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221zeblhw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221zeblhw.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "ak",
-        "code": "0221zeblhw",
-        "ids": ",ak0221zeblhw,us7000gkb3,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.98,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km SSE of Hope, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.597,
-          60.8646,
-          12.6
-        ]
-      },
-      "id": "ak0221zeblhw"
     },
     {
       "type": "Feature",
@@ -415,21 +415,21 @@
         "mag": 4.3,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1644671478650,
-        "updated": 1644672706040,
+        "updated": 1644700398684,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gk9x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gk9x.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.504,
+        "mmi": 1.265,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 284,
         "net": "us",
         "code": "7000gk9x",
-        "ids": ",us7000gk9x,ak0221zbwycq,",
-        "sources": ",us,ak,",
+        "ids": ",ak0221zbwycq,us7000gk9x,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.861,
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "54 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1644666601330,
         "updated": 1644668227040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 54 km S of Whites City, New Mexico"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1055,11 +1055,11 @@
         "mag": 3.24,
         "place": "2km NNE of San Leandro, CA",
         "time": 1644635622080,
-        "updated": 1644698835138,
+        "updated": 1644703279339,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73691736",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73691736.geojson",
-        "felt": 1104,
+        "felt": 1105,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Batan Islands region, Philippines",
+        "place": "67 km WSW of Basco, Philippines",
         "time": 1644626468560,
         "updated": 1644627649040,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 46,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Batan Islands region, Philippines"
+        "title": "M 5.2 - 67 km WSW of Basco, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1288,126 +1288,6 @@
         ]
       },
       "id": "us7000gk5j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "275 km ENE of Levuka, Fiji",
-        "time": 1644615910913,
-        "updated": 1644617136040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gk4w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gk4w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gk4w",
-        "ids": ",us7000gk4w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.137,
-        "rms": 0.48,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 275 km ENE of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.159,
-          -17.463,
-          558.46
-        ]
-      },
-      "id": "us7000gk4w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1644615811830,
-        "updated": 1644625908080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91049528",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91049528.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "av",
-        "code": "91049528",
-        "ids": ",av91049528,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.18,
-        "gap": 329,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.323166666667,
-          52.0215,
-          3.18
-        ]
-      },
-      "id": "av91049528"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "4 km NE of Covenant Life, Alaska",
-        "time": 1644615300308,
-        "updated": 1644636517261,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221xta6ip",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221xta6ip.geojson",
-        "felt": 7,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "ak",
-        "code": "0221xta6ip",
-        "ids": ",ak0221xta6ip,us7000gk4p,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 2.07,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km NE of Covenant Life, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -135.9604,
-          59.4445,
-          3.4
-        ]
-      },
-      "id": "ak0221xta6ip"
     }
   ],
   "bbox": [
@@ -1415,7 +1295,7 @@
     -29.625,
     2.27,
     178.8855,
-    61.9433,
-    558.46
+    61.9608,
+    531.96
   ]
 }
