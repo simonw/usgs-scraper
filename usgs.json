@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1644847322000,
+    "generated": 1644851195000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
     {
@@ -52,6 +52,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.8,
+        "place": "119 km SSE of Nikolski, Alaska",
+        "time": 1644843938854,
+        "updated": 1644847645040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gkrj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gkrj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.919,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "7000gkrj",
+        "ids": ",us7000gkrj,ak02222myg8p,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.341,
+        "rms": 1.18,
+        "gap": 231,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 119 km SSE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.2745,
+          51.9234,
+          10
+        ]
+      },
+      "id": "us7000gkrj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.12,
         "place": "61 km NW of Rincón, Puerto Rico",
         "time": 1644840698570,
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "near the coast of Guatemala",
+        "place": "76 km SW of Acajutla, El Salvador",
         "time": 1644838835548,
         "updated": 1644840965040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - near the coast of Guatemala"
+        "title": "M 4.3 - 76 km SW of Acajutla, El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -252,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.07,
-        "place": "37km ENE of Maneadero, B.C., MX",
-        "time": 1644828788240,
-        "updated": 1644829414130,
+        "mag": 3.03,
+        "place": "40km ENE of Maneadero, B.C., MX",
+        "time": 1644828788470,
+        "updated": 1644850081570,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40185288",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40185288.geojson",
@@ -263,31 +303,71 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 145,
+        "sig": 141,
         "net": "ci",
         "code": "40185288",
         "ids": ",ci40185288,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.2706,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.2449,
         "rms": 0.23,
-        "gap": 133,
+        "gap": 129,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 37km ENE of Maneadero, B.C., MX"
+        "title": "M 3.0 - 40km ENE of Maneadero, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.2053299,
-          31.8451672,
-          8.44
+          -116.1773333,
+          31.8561667,
+          15.3
         ]
       },
       "id": "ci40185288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "40km ENE of Maneadero, B.C., MX",
+        "time": 1644828781010,
+        "updated": 1644850356783,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40185280",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40185280.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "ci",
+        "code": "40185280",
+        "ids": ",ci40185280,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.2468,
+        "rms": 0.23,
+        "gap": 130,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 40km ENE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.177,
+          31.8526667,
+          16.42
+        ]
+      },
+      "id": "ci40185280"
     },
     {
       "type": "Feature",
@@ -1095,7 +1175,7 @@
         "mag": 5.7,
         "place": "169 km S of Merizo Village, Guam",
         "time": 1644785382191,
-        "updated": 1644829196800,
+        "updated": 1644850787905,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gkm3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gkm3.geojson",
@@ -1173,9 +1253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "168 km SSW of Merizo Village, Guam",
+        "place": "south of the Mariana Islands",
         "time": 1644784185609,
-        "updated": 1644827995526,
+        "updated": 1644849587222,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gklv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gklv.geojson",
@@ -1197,7 +1277,7 @@
         "gap": 59,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 168 km SSW of Merizo Village, Guam"
+        "title": "M 5.7 - south of the Mariana Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1728,131 +1808,11 @@
         ]
       },
       "id": "us7000gkjf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "Vanuatu region",
-        "time": 1644763682164,
-        "updated": 1644781136795,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gkjc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gkjc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.927,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000gkjc",
-        "ids": ",us7000gkjc,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 5.352,
-        "rms": 0.65,
-        "gap": 106,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - Vanuatu region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.5595,
-          -21.0272,
-          10
-        ]
-      },
-      "id": "us7000gkjc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1644762710286,
-        "updated": 1644780116040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gkj8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gkj8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000gkj8",
-        "ids": ",us7000gkj8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.095,
-        "rms": 0.22,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3889,
-          31.6721,
-          5
-        ]
-      },
-      "id": "us7000gkj8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "76 km NNW of Wanaka, New Zealand",
-        "time": 1644762678691,
-        "updated": 1644784158541,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gkj7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gkj7.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000gkj7",
-        "ids": ",us7000gkj7,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.769,
-        "rms": 0.46,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 76 km NNW of Wanaka, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.7354,
-          -44.084,
-          6.9
-        ]
-      },
-      "id": "us7000gkj7"
     }
   ],
   "bbox": [
     -177.7144,
-    -44.084,
+    -24.9489,
     -0.77,
     179.5781,
     67.3149,
