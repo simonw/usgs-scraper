@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645221599000,
+    "generated": 1645225199000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Shetland Islands",
+        "time": 1645222085481,
+        "updated": 1645223418040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gm2z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gm2z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000gm2z",
+        "ids": ",us7000gm2z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.357,
+        "rms": 1.1,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Shetland Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.3055,
+          -62.818,
+          10
+        ]
+      },
+      "id": "us7000gm2z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "61 km SW of Tari, Papua New Guinea",
+        "time": 1645220379795,
+        "updated": 1645225168852,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gm2n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gm2n.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000gm2n",
+        "ids": ",us7000gm2n,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 10.8,
+        "rms": 1.3,
+        "gap": 24,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 61 km SW of Tari, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5632,
+          -6.252,
+          10
+        ]
+      },
+      "id": "us7000gm2n"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.11,
         "place": "5 km SSW of Indios, Puerto Rico",
         "time": 1645216353720,
-        "updated": 1645217312140,
+        "updated": 1645223782040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71335568",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71335568.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +108,9 @@
         "sig": 149,
         "net": "pr",
         "code": "71335568",
-        "ids": ",pr71335568,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr71335568,us7000gm21,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": null,
         "rms": 0.21,
@@ -88,6 +168,46 @@
         ]
       },
       "id": "pr71335553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "99 km S of La Libertad, El Salvador",
+        "time": 1645213884053,
+        "updated": 1645222394040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gm1p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gm1p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000gm1p",
+        "ids": ",us7000gm1p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.059,
+        "rms": 0.55,
+        "gap": 189,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 99 km S of La Libertad, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4082,
+          12.5887,
+          36.24
+        ]
+      },
+      "id": "us7000gm1p"
     },
     {
       "type": "Feature",
@@ -372,10 +492,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.52,
+        "mag": 2.79,
         "place": "1 km SSW of Pāhala, Hawaii",
-        "time": 1645195041010,
-        "updated": 1645195372520,
+        "time": 1645195041040,
+        "updated": 1645223692990,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72921252",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72921252.geojson",
@@ -383,28 +503,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 120,
         "net": "hv",
         "code": "72921252",
         "ids": ",hv72921252,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 53,
+        "nst": 56,
         "dmin": null,
-        "rms": 0.109999999,
-        "gap": 77,
+        "rms": 0.12,
+        "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km SSW of Pāhala, Hawaii"
+        "title": "M 2.8 - 1 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.483840942383,
-          19.1926670074463,
-          34.6800003051758
+          -155.483833333333,
+          19.1896666666667,
+          34.26
         ]
       },
       "id": "hv72921252"
@@ -1252,6 +1372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1645151375549,
+        "updated": 1645221638040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000glxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000glxl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000glxl",
+        "ids": ",us7000glxl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.667,
+        "rms": 0.62,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.5279,
+          -56.6481,
+          42.04
+        ]
+      },
+      "id": "us7000glxl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "42 km SSW of Shizunai-furukawachō, Japan",
         "time": 1645149101311,
@@ -1408,292 +1568,12 @@
         ]
       },
       "id": "us7000gluc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.54,
-        "place": "Island of Hawaii, Hawaii",
-        "time": 1645138177160,
-        "updated": 1645158216058,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72920752",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72920752.geojson",
-        "felt": 25,
-        "cdi": 3.8,
-        "mmi": 3.976,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 202,
-        "net": "hv",
-        "code": "72920752",
-        "ids": ",hv72920752,us7000glu7,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 56,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - Island of Hawaii, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.478666666667,
-          19.1825,
-          36.41
-        ]
-      },
-      "id": "hv72920752"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "13km WSW of Delta, B.C., MX",
-        "time": 1645137879260,
-        "updated": 1645140842684,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40188408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40188408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "ci",
-        "code": "40188408",
-        "ids": ",ci40188408,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.1236,
-        "rms": 0.29,
-        "gap": 155,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 13km WSW of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.3145,
-          32.2958333,
-          19
-        ]
-      },
-      "id": "ci40188408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "9 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1645137640580,
-        "updated": 1645142856422,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71335388",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71335388.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "pr",
-        "code": "71335388",
-        "ids": ",pr71335388,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 6,
-        "dmin": null,
-        "rms": 0.08,
-        "gap": 278,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8455,
-          17.9078333333333,
-          15.59
-        ]
-      },
-      "id": "pr71335388"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "9 km SE of Midland, Texas",
-        "time": 1645137216337,
-        "updated": 1645140496040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000glty",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000glty.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000glty",
-        "ids": ",us7000glty,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.187,
-        "rms": 0.56,
-        "gap": 40,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.5 - 9 km SE of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.0151,
-          31.9363,
-          5
-        ]
-      },
-      "id": "us7000glty"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "Oklahoma",
-        "time": 1645136911640,
-        "updated": 1645199084031,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022djpd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022djpd.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "ok",
-        "code": "2022djpd",
-        "ids": ",ok2022djpd,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 95,
-        "dmin": 0,
-        "rms": 0.24,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.784,
-          36.85383333,
-          7.79
-        ]
-      },
-      "id": "ok2022djpd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "79 km ESE of Denali Park, Alaska",
-        "time": 1645136731133,
-        "updated": 1645137497492,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02227r1mb9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02227r1mb9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "02227r1mb9",
-        "ids": ",ak02227r1mb9,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.76,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 79 km ESE of Denali Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.3416,
-          63.576,
-          0
-        ]
-      },
-      "id": "ak02227r1mb9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "48 km N of Isabela, Puerto Rico",
-        "time": 1645136300870,
-        "updated": 1645137999910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71335378",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71335378.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71335378",
-        "ids": ",pr71335378,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": null,
-        "rms": 0.18,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 48 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0548333333333,
-          18.9403333333333,
-          9.98
-        ]
-      },
-      "id": "pr71335378"
     }
   ],
   "bbox": [
-    -155.48384094238,
-    -59.8322,
-    0,
+    -155.48383333333,
+    -62.818,
+    2.46,
     178.2643,
     70.7198,
     225.66
