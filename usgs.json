@@ -1,50 +1,50 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645415984000,
+    "generated": 1645419602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 56
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
-        "place": "27 km WNW of Anchor Point, Alaska",
-        "time": 1645415754896,
-        "updated": 1645415977195,
+        "mag": 4,
+        "place": "29 km WNW of Anchor Point, Alaska",
+        "time": 1645415755757,
+        "updated": 1645419388735,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222e2294h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222e2294h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 23,
+        "cdi": 3.2,
+        "mmi": 3.063,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 1,
-        "sig": 234,
+        "sig": 254,
         "net": "ak",
         "code": "0222e2294h",
-        "ids": ",at00r7myx6,ak0222e2294h,",
-        "sources": ",at,ak,",
-        "types": ",impact-link,origin,",
+        "ids": ",ak0222e2294h,at00r7myx6,us7000gmjq,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.61,
+        "rms": 0.48,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 27 km WNW of Anchor Point, Alaska"
+        "title": "M 4.0 - 29 km WNW of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.2861,
-          59.8687,
-          87.6
+          -152.3052,
+          59.8892,
+          84.5
         ]
       },
       "id": "ak0222e2294h"
@@ -52,20 +52,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "6 km SSE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1645414812845,
+        "updated": 1645417815040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmjn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmjn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000gmjn",
+        "ids": ",us7000gmjn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.019,
+        "rms": 0.85,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 6 km SSE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.6572,
+          53.0042,
+          110.05
+        ]
+      },
+      "id": "us7000gmjn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
         "place": "36 km SW of Blenheim, New Zealand",
         "time": 1645412804880,
-        "updated": 1645415862500,
+        "updated": 1645419354415,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmji",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmji.geojson",
-        "felt": 29,
+        "felt": 37,
         "cdi": 5.9,
-        "mmi": 5.153,
+        "mmi": 5.016,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 433,
+        "sig": 438,
         "net": "us",
         "code": "7000gmji",
         "ids": ",us7000gmji,",
@@ -2208,86 +2248,6 @@
         ]
       },
       "id": "ak0222cfexzq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "9km N of San Juan Bautista, CA",
-        "time": 1645332588100,
-        "updated": 1645408683433,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73695371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73695371.geojson",
-        "felt": 18,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "nc",
-        "code": "73695371",
-        "ids": ",nc73695371,us7000gmcn,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 70,
-        "dmin": 0.04841,
-        "rms": 0.19,
-        "gap": 57,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 9km N of San Juan Bautista, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.5253296,
-          36.9230003,
-          4.87
-        ]
-      },
-      "id": "nc73695371"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "270 km E of Amahai, Indonesia",
-        "time": 1645330051486,
-        "updated": 1645331829040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmch",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmch.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000gmch",
-        "ids": ",us7000gmch,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.091,
-        "rms": 1,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 270 km E of Amahai, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.3474,
-          -3.5402,
-          10
-        ]
-      },
-      "id": "us7000gmch"
     }
   ],
   "bbox": [
