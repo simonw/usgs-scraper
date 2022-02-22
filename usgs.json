@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645556385000,
+    "generated": 1645560032000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "5 km SE of Maria Antonia, Puerto Rico",
+        "time": 1645559164600,
+        "updated": 1645559931650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71336688",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71336688.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "pr",
+        "code": "71336688",
+        "ids": ",pr71336688,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 202,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8515,
+          17.9443333333333,
+          10.81
+        ]
+      },
+      "id": "pr71336688"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,12 +335,12 @@
         "mag": 3.1,
         "place": "Central Alaska",
         "time": 1645538165097,
-        "updated": 1645540279040,
+        "updated": 1645559412891,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222fvk1j9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222fvk1j9.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -308,9 +348,9 @@
         "sig": 148,
         "net": "ak",
         "code": "0222fvk1j9",
-        "ids": ",us7000gmyb,ak0222fvk1j9,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0222fvk1j9,us7000gmyb,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.64,
@@ -1615,17 +1655,17 @@
         "mag": 3.2,
         "place": "5 km N of Hockley, United Kingdom",
         "time": 1645484367833,
-        "updated": 1645556085234,
+        "updated": 1645556395626,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmts",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmts.geojson",
-        "felt": 702,
+        "felt": 704,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 473,
+        "sig": 474,
         "net": "us",
         "code": "7000gmts",
         "ids": ",us7000gmts,",
@@ -1928,86 +1968,6 @@
         ]
       },
       "id": "us7000gms0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "160 km N of Calama, Chile",
-        "time": 1645472262374,
-        "updated": 1645511242352,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmqa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmqa.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gmqa",
-        "ids": ",us7000gmqa,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.674,
-        "rms": 0.75,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 160 km N of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.766,
-          -21.0161,
-          139.85
-        ]
-      },
-      "id": "us7000gmqa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "158 km E of Namie, Japan",
-        "time": 1645471686202,
-        "updated": 1645479035040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmqb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmqb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000gmqb",
-        "ids": ",us7000gmqb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.681,
-        "rms": 0.69,
-        "gap": 194,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 158 km E of Namie, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.7889,
-          37.3562,
-          35
-        ]
-      },
-      "id": "us7000gmqb"
     }
   ],
   "bbox": [
