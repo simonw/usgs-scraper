@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645585185000,
+    "generated": 1645588832000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "71 km NE of Samaná, Dominican Republic",
+        "time": 1645584041710,
+        "updated": 1645588431429,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022054000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022054000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "pr",
+        "code": "2022054000",
+        "ids": ",pr2022054000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.1572,
+        "rms": 0.58,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 71 km NE of Samaná, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7935,
+          19.5953,
+          51
+        ]
+      },
+      "id": "pr2022054000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,12 +215,12 @@
         "mag": 4.5,
         "place": "50 km S of Taltal, Chile",
         "time": 1645564564379,
-        "updated": 1645566448040,
+        "updated": 1645585461372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gn1x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gn1x.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +230,7 @@
         "code": "7000gn1x",
         "ids": ",us7000gn1x,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.34,
         "rms": 1.14,
@@ -1608,133 +1648,13 @@
         ]
       },
       "id": "us7000gmve"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "67 km NNE of Ruteng, Indonesia",
-        "time": 1645500360413,
-        "updated": 1645503194040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmvd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmvd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000gmvd",
-        "ids": ",us7000gmvd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.624,
-        "rms": 0.74,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 67 km NNE of Ruteng, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.704,
-          -8.0517,
-          10
-        ]
-      },
-      "id": "us7000gmvd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "290 km SSE of Katsuura, Japan",
-        "time": 1645499603338,
-        "updated": 1645500626040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmvc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmvc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gmvc",
-        "ids": ",us7000gmvc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.623,
-        "rms": 0.73,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 290 km SSE of Katsuura, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.7087,
-          32.7996,
-          37.12
-        ]
-      },
-      "id": "us7000gmvc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "65 km WNW of Skardu, Pakistan",
-        "time": 1645499123862,
-        "updated": 1645500975040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmvb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmvb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gmvb",
-        "ids": ",us7000gmvb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.439,
-        "rms": 0.91,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 65 km WNW of Skardu, Pakistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          75.03,
-          35.6156,
-          10
-        ]
-      },
-      "id": "us7000gmvb"
     }
   ],
   "bbox": [
     -178.1407,
     -25.8571,
     0,
-    141.7087,
+    125.2023,
     64.6143,
     242.29
   ]
