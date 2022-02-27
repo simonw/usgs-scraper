@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645977648000,
+    "generated": 1645981248000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "155 km E of Shikotan, Russia",
+        "time": 1645979615593,
+        "updated": 1645980742040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h0jb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h0jb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000h0jb",
+        "ids": ",us6000h0jb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.387,
+        "rms": 0.51,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 155 km E of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6568,
+          43.8228,
+          10
+        ]
+      },
+      "id": "us6000h0jb"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.65,
         "place": "8 km NW of Prague, Oklahoma",
         "time": 1645975038572,
-        "updated": 1645977433606,
+        "updated": 1645979069954,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022ebhy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022ebhy.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -372,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "30 km SE of Kaktovik, Alaska",
-        "time": 1645945337299,
-        "updated": 1645946612040,
+        "mag": 2.9,
+        "place": "55 km S of Kaktovik, Alaska",
+        "time": 1645945340133,
+        "updated": 1645977744644,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222o1ctb0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222o1ctb0.geojson",
@@ -383,9 +423,9 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 129,
         "net": "ak",
         "code": "0222o1ctb0",
         "ids": ",us6000h0h1,ak0222o1ctb0,",
@@ -393,18 +433,18 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.06,
+        "rms": 1.11,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 30 km SE of Kaktovik, Alaska"
+        "title": "M 2.9 - 55 km S of Kaktovik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -143.0468,
-          69.9462,
-          15.1
+          -143.6224,
+          69.6377,
+          22.4
         ]
       },
       "id": "ak0222o1ctb0"
@@ -535,17 +575,17 @@
         "mag": 3.14,
         "place": "10km NW of Santa Paula, CA",
         "time": 1645937074640,
-        "updated": 1645977624665,
+        "updated": 1645980812003,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40194848",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40194848.geojson",
-        "felt": 106,
+        "felt": 108,
         "cdi": 3.6,
         "mmi": 3.129,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 190,
+        "sig": 191,
         "net": "ci",
         "code": "40194848",
         "ids": ",ci40194848,us6000h0gb,",
@@ -693,15 +733,15 @@
       "type": "Feature",
       "properties": {
         "mag": 3.98,
-        "place": "9km NW of Santa Paula, CA",
-        "time": 1645926258220,
-        "updated": 1645977402998,
+        "place": "10km NW of Santa Paula, CA",
+        "time": 1645926258300,
+        "updated": 1645981031143,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40194736",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40194736.geojson",
-        "felt": 1981,
+        "felt": 1998,
         "cdi": 3.8,
-        "mmi": 3.937,
+        "mmi": 4.026,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -711,20 +751,20 @@
         "ids": ",ci40194736,at00r7xwtt,us6000h0fm,ew1645926260,",
         "sources": ",ci,at,us,ew,",
         "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 106,
-        "dmin": 0.02493,
+        "nst": 129,
+        "dmin": 0.01636,
         "rms": 0.32,
-        "gap": 28,
+        "gap": 18,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - 9km NW of Santa Paula, CA"
+        "title": "M 4.0 - 10km NW of Santa Paula, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.1333313,
-          34.4121666,
-          25.89
+          -119.132,
+          34.4211667,
+          19.66
         ]
       },
       "id": "ci40194736"
@@ -1055,7 +1095,7 @@
     -32.8679,
     0.665246129,
     179.9399,
-    69.9462,
+    69.6377,
     563.05
   ]
 }
