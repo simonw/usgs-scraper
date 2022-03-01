@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646147099000,
+    "generated": 1646150693000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "122 km SSW of Singaparna, Indonesia",
+        "time": 1646147547830,
+        "updated": 1646149318040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h13s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h13s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000h13s",
+        "ids": ",us6000h13s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.893,
+        "rms": 0.76,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 122 km SSW of Singaparna, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6653,
+          -8.3618,
+          72.23
+        ]
+      },
+      "id": "us6000h13s"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "112 km NNE of Arctic Village, Alaska",
-        "time": 1646138907335,
-        "updated": 1646139733520,
+        "mag": 2.6,
+        "place": "111 km NNE of Arctic Village, Alaska",
+        "time": 1646138907765,
+        "updated": 1646147410480,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222rfodk8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222rfodk8.geojson",
@@ -63,28 +103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 104,
         "net": "ak",
         "code": "0222rfodk8",
         "ids": ",ak0222rfodk8,",
         "sources": ",ak,",
-        "types": ",origin,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.56,
+        "rms": 0.99,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 112 km NNE of Arctic Village, Alaska"
+        "title": "M 2.6 - 111 km NNE of Arctic Village, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -144.443,
-          69.0496,
-          4.9
+          -144.4791,
+          69.0463,
+          8.9
         ]
       },
       "id": "ak0222rfodk8"
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "12 km W of Kalifornsky, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1646120009468,
         "updated": 1646122800265,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 12 km W of Kalifornsky, Alaska"
+        "title": "M 2.5 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -975,12 +1015,12 @@
         "mag": 2.84,
         "place": "5km WSW of Ojai, CA",
         "time": 1646110870940,
-        "updated": 1646145765659,
+        "updated": 1646150206319,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40196616",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40196616.geojson",
-        "felt": 31,
-        "cdi": 3.1,
+        "felt": 33,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -1173,14 +1213,14 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "Gulf of Alaska",
+        "place": "282 km SE of Chiniak, Alaska",
         "time": 1646107984469,
-        "updated": 1646113330597,
+        "updated": 1646147329294,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h0zr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h0zr.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": 0,
         "alert": null,
         "status": "reviewed",
@@ -1188,16 +1228,16 @@
         "sig": 234,
         "net": "us",
         "code": "6000h0zr",
-        "ids": ",ak0222rapcus,us6000h0zr,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",us6000h0zr,ak0222rapcus,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 2.717,
         "rms": 0.93,
         "gap": 194,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - Gulf of Alaska"
+        "title": "M 3.9 - 282 km SE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1372,6 +1412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.82,
+        "place": "27 km NW of Stanley, Idaho",
+        "time": 1646099113180,
+        "updated": 1646147254690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80539349",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80539349.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "mb",
+        "code": "80539349",
+        "ids": ",mb80539349,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.832,
+        "rms": 0.22,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 27 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1986667,
+          44.373,
+          9.62
+        ]
+      },
+      "id": "mb80539349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.7,
         "place": "187 km S of Adak, Alaska",
         "time": 1646095688638,
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "4 km S of Pāhala, Hawaii",
         "time": 1646092754420,
         "updated": 1646099934210,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": 126,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 4 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Utah",
+        "place": "4 km S of Joseph, Utah",
         "time": 1646075603560,
         "updated": 1646109456693,
         "tz": null,
@@ -1677,7 +1757,7 @@
         "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Utah"
+        "title": "M 2.7 - 4 km S of Joseph, Utah"
       },
       "geometry": {
         "type": "Point",
@@ -1928,126 +2008,6 @@
         ]
       },
       "id": "us6000h0sk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.67,
-        "place": "58km W of Petrolia, CA",
-        "time": 1646063735850,
-        "updated": 1646078050791,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73699016",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73699016.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "nc",
-        "code": "73699016",
-        "ids": ",nc73699016,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 50,
-        "dmin": 0.4824,
-        "rms": 0.2,
-        "gap": 250,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 58km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.9603333,
-          40.3873333,
-          9.72
-        ]
-      },
-      "id": "nc73699016"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "80 km SW of Pelabuhanratu, Indonesia",
-        "time": 1646062689113,
-        "updated": 1646135267344,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h0sh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h0sh.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000h0sh",
-        "ids": ",us6000h0sh,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.66,
-        "rms": 0.87,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 80 km SW of Pelabuhanratu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.9757,
-          -7.4328,
-          51.3
-        ]
-      },
-      "id": "us6000h0sh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "0 km ENE of La Parguera, Puerto Rico",
-        "time": 1646061729370,
-        "updated": 1646063966812,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022059002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022059002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "pr",
-        "code": "2022059002",
-        "ids": ",pr2022059002,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.0111,
-        "rms": 0.18,
-        "gap": 113,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 0 km ENE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.038,
-          17.9786,
-          7
-        ]
-      },
-      "id": "pr2022059002"
     }
   ],
   "bbox": [
@@ -2055,7 +2015,7 @@
     -29.5317,
     -2.92,
     148.6636,
-    69.0496,
+    69.0463,
     581.79
   ]
 }
