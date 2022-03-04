@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646413300000,
+    "generated": 1646416840000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.8,
         "place": "24 km NE of Chase, Alaska",
         "time": 1646412817913,
-        "updated": 1646413109121,
+        "updated": 1646413392040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222wgp8lk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222wgp8lk.geojson",
@@ -28,9 +28,9 @@
         "sig": 121,
         "net": "ak",
         "code": "0222wgp8lk",
-        "ids": ",ak0222wgp8lk,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000h229,ak0222wgp8lk,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.86,
@@ -375,12 +375,12 @@
         "mag": 3.1,
         "place": "37 km NNW of Toyah, Texas",
         "time": 1646384842404,
-        "updated": 1646408820631,
+        "updated": 1646415955301,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ejzg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ejzg.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Nevada",
+        "place": "54 km N of Hiko, Nevada",
         "time": 1646351502275,
         "updated": 1646374605046,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 104.67,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Nevada"
+        "title": "M 3.1 - 54 km N of Hiko, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1252,89 +1252,49 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1646330352710,
-        "updated": 1646358497020,
+        "mag": 4.3,
+        "place": "128 km ESE of Iquique, Chile",
+        "time": 1646330576990,
+        "updated": 1646416484040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91050918",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91050918.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h1ub",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h1ub.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 92,
-        "net": "av",
-        "code": "91050918",
-        "ids": ",av91050918,",
-        "sources": ",av,",
+        "sig": 284,
+        "net": "us",
+        "code": "6000h1ub",
+        "ids": ",us6000h1ub,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 319,
-        "magType": "ml",
+        "nst": null,
+        "dmin": 0.462,
+        "rms": 0.29,
+        "gap": 62,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.5 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 4.3 - 128 km ESE of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.285333333333,
-          52.0101666666667,
-          5.08
+          -68.9829,
+          -20.5776,
+          110.17
         ]
       },
-      "id": "av91050918"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "8 km E of Pāhala, Hawaii",
-        "time": 1646327729410,
-        "updated": 1646349460330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72936322",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72936322.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "hv",
-        "code": "72936322",
-        "ids": ",hv72936322,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 151,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.3975,
-          19.2176666666667,
-          32.54
-        ]
-      },
-      "id": "hv72936322"
+      "id": "us6000h1ub"
     }
   ],
   "bbox": [
     -175.9766,
     -29.5079,
     1.4,
-    178.28533333333,
+    177.3249,
     62.6269,
     198.43
   ]
