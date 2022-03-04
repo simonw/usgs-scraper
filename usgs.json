@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646362957000,
+    "generated": 1646366437000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73,
+        "place": "6 km E of Pāhala, Hawaii",
+        "time": 1646363548180,
+        "updated": 1646364280040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72936892",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72936892.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "hv",
+        "code": "72936892",
+        "ids": ",us6000h1yn,hv72936892,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 144,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 6 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.419174194336,
+          19.2086658477783,
+          33.4099998474121
+        ]
+      },
+      "id": "hv72936892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "Kermadec Islands region",
+        "time": 1646362714547,
+        "updated": 1646364019040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h1yl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h1yl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000h1yl",
+        "ids": ",us6000h1yl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.932,
+        "rms": 0.64,
+        "gap": 149,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.5253,
+          -27.2215,
+          10
+        ]
+      },
+      "id": "us6000h1yl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,14 +133,14 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Nevada",
+        "place": "54 km N of Hiko, Nevada",
         "time": 1646351502275,
-        "updated": 1646361434741,
+        "updated": 1646366324042,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00834881",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00834881.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,16 +148,16 @@
         "sig": 148,
         "net": "nn",
         "code": "00834881",
-        "ids": ",us6000h1xd,nn00834881,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00834881,us6000h1xd,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 17,
         "dmin": 0.642,
         "rms": 0.1755,
         "gap": 104.67,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Nevada"
+        "title": "M 3.1 - 54 km N of Hiko, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "15 km WNW of Nopalapan, Mexico",
+        "place": "Veracruz, Mexico",
         "time": 1646318432946,
         "updated": 1646361432402,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 67,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 15 km WNW of Nopalapan, Mexico"
+        "title": "M 5.7 - Veracruz, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1492,10 +1572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "Windward Islands",
-        "time": 1646282998429,
-        "updated": 1646286339040,
+        "mag": 4.3,
+        "place": "73 km N of Güiria, Venezuela",
+        "time": 1646282998548,
+        "updated": 1646366144040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h1mp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h1mp.geojson",
@@ -1505,26 +1585,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 284,
         "net": "us",
         "code": "6000h1mp",
         "ids": ",us6000h1mp,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 1.063,
-        "rms": 0.65,
+        "dmin": 1.051,
+        "rms": 0.59,
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Windward Islands"
+        "title": "M 4.3 - 73 km N of Güiria, Venezuela"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.219,
-          11.2187,
-          120.12
+          -62.2222,
+          11.2353,
+          121.18
         ]
       },
       "id": "us6000h1mp"
@@ -1533,9 +1613,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "127 km WNW of Naha, Japan",
-        "time": 1646282954716,
-        "updated": 1646284142040,
+        "place": "125 km WNW of Naha, Japan",
+        "time": 1646282954484,
+        "updated": 1646365518040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h1mq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h1mq.geojson",
@@ -1552,18 +1632,18 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 1.503,
-        "rms": 1.04,
-        "gap": 105,
+        "dmin": 1.464,
+        "rms": 0.97,
+        "gap": 104,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 127 km WNW of Naha, Japan"
+        "title": "M 4.6 - 125 km WNW of Naha, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.5908,
-          26.81,
+          126.6332,
+          26.8407,
           10
         ]
       },
@@ -1574,8 +1654,8 @@
       "properties": {
         "mag": 4.7,
         "place": "127 km ENE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1646281399578,
-        "updated": 1646287013040,
+        "time": 1646281399487,
+        "updated": 1646364626040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h1mk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h1mk.geojson",
@@ -1592,8 +1672,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 1.149,
-        "rms": 0.76,
+        "dmin": 1.148,
+        "rms": 0.55,
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
@@ -1602,8 +1682,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.4695,
-          53.3748,
+          160.4792,
+          53.3488,
           35
         ]
       },
@@ -1612,10 +1692,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
+        "mag": 4.6,
         "place": "86 km SE of Gorontalo, Indonesia",
-        "time": 1646281255261,
-        "updated": 1646282084040,
+        "time": 1646281255268,
+        "updated": 1646363613040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h1mj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h1mj.geojson",
@@ -1625,69 +1705,29 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 326,
         "net": "us",
         "code": "6000h1mj",
         "ids": ",us6000h1mj,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 1.34,
-        "rms": 0.45,
-        "gap": 123,
+        "dmin": 1.341,
+        "rms": 0.46,
+        "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 86 km SE of Gorontalo, Indonesia"
+        "title": "M 4.6 - 86 km SE of Gorontalo, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.6268,
-          -0.0028,
-          157.77
+          123.6236,
+          0.0016,
+          153.48
         ]
       },
       "id": "us6000h1mj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.84,
-        "place": "105 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1646276783650,
-        "updated": 1646362557040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022062000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022062000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 227,
-        "net": "pr",
-        "code": "2022062000",
-        "ids": ",us6000h1mb,pr2022062000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.164,
-        "rms": 0.44,
-        "gap": 328,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 105 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6243,
-          19.2675,
-          63
-        ]
-      },
-      "id": "pr2022062000"
     }
   ],
   "bbox": [
@@ -1695,7 +1735,7 @@
     -33.5181,
     0.4,
     178.28533333333,
-    53.3748,
+    53.3488,
     417.71
   ]
 }
