@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646443540000,
+    "generated": 1646446540000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1646443011481,
+        "updated": 1646445826673,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022elfg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022elfg.geojson",
+        "felt": 4,
+        "cdi": 3.1,
+        "mmi": 5.124,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 286,
+        "net": "tx",
+        "code": "2022elfg",
+        "ids": ",us6000h280,tx2022elfg,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 18,
+        "dmin": 0.04512123612,
+        "rms": 0.3,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.3 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3164693,
+          31.66147136,
+          7.57121582
+        ]
+      },
+      "id": "tx2022elfg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "47 km NW of Abra Pampa, Argentina",
+        "time": 1646442606608,
+        "updated": 1646445325737,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h27y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h27y.geojson",
+        "felt": 6,
+        "cdi": 4.1,
+        "mmi": 3.216,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 502,
+        "net": "us",
+        "code": "6000h27y",
+        "ids": ",us6000h27y,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 2.004,
+        "rms": 0.87,
+        "gap": 20,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 47 km NW of Abra Pampa, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0707,
+          -22.4729,
+          247.31
+        ]
+      },
+      "id": "us6000h27y"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.9,
         "place": "74 km NW of Yakutat, Alaska",
         "time": 1646442558086,
-        "updated": 1646442974489,
+        "updated": 1646444237040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222xv1m5j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222xv1m5j.geojson",
@@ -28,9 +108,9 @@
         "sig": 234,
         "net": "ak",
         "code": "0222xv1m5j",
-        "ids": ",ak0222xv1m5j,",
-        "sources": ",ak,",
-        "types": ",origin,shakemap,",
+        "ids": ",us6000h27x,ak0222xv1m5j,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.85,
@@ -132,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45000005,
-        "place": "3 km WSW of Pāhala, Hawaii",
-        "time": 1646433556080,
-        "updated": 1646433756870,
+        "mag": 2.59,
+        "place": "4 km SW of Pāhala, Hawaii",
+        "time": 1646433556010,
+        "updated": 1646443729080,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72938022",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72938022.geojson",
@@ -143,28 +223,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 103,
         "net": "hv",
         "code": "72938022",
         "ids": ",hv72938022,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 47,
+        "nst": 52,
         "dmin": null,
-        "rms": 0.140000001,
-        "gap": 79,
+        "rms": 0.12,
+        "gap": 87,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km WSW of Pāhala, Hawaii"
+        "title": "M 2.6 - 4 km SW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.510330200195,
-          19.1856670379639,
-          36.0499992370605
+          -155.511333333333,
+          19.1785,
+          36.82
         ]
       },
       "id": "hv72938022"
@@ -692,42 +772,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
+        "mag": 2.9,
         "place": "53 km N of Hiko, Nevada",
-        "time": 1646387868329,
-        "updated": 1646427656062,
+        "time": 1646387867488,
+        "updated": 1646445973624,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00834904",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00834904.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h20n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h20n.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
-        "net": "nn",
-        "code": "00834904",
-        "ids": ",us6000h20n,nn00834904,",
-        "sources": ",us,nn,",
+        "sig": 129,
+        "net": "us",
+        "code": "6000h20n",
+        "ids": ",nn00834904,us6000h20n,",
+        "sources": ",nn,us,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.608,
-        "rms": 0.2103,
-        "gap": 51.23,
+        "nst": null,
+        "dmin": 0.646,
+        "rms": 0.61,
+        "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 53 km N of Hiko, Nevada"
+        "title": "M 2.9 - 53 km N of Hiko, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.2445,
-          38.079,
-          2.5
+          -115.2928,
+          38.0772,
+          2.82
         ]
       },
-      "id": "nn00834904"
+      "id": "us6000h20n"
     },
     {
       "type": "Feature",
@@ -1416,6 +1496,6 @@
     -3.18,
     178.27566666667,
     67.6329,
-    198.43
+    247.31
   ]
 }
