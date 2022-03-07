@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646658247000,
+    "generated": 1646661607000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "5 km S of Pāhala, Hawaii",
+        "time": 1646660129060,
+        "updated": 1646660460000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72941427",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72941427.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "72941427",
+        "ids": ",hv72941427,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": null,
+        "rms": 0.180000007,
+        "gap": 168,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.471664428711,
+          19.1504993438721,
+          30.5499992370605
+        ]
+      },
+      "id": "hv72941427"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "10 km SSE of Gardendale, Texas",
         "time": 1646656723125,
-        "updated": 1646657947853,
+        "updated": 1646661418567,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022epss",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022epss.geojson",
-        "felt": 16,
-        "cdi": 3.7,
+        "felt": 24,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 144,
+        "sig": 147,
         "net": "tx",
         "code": "2022epss",
         "ids": ",us6000h2qw,tx2022epss,",
@@ -52,8 +92,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.74,
+        "place": "9 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1646656283430,
+        "updated": 1646658944680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71339368",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71339368.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71339368",
+        "ids": ",pr71339368,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": null,
+        "rms": 0.25,
+        "gap": 235,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 9 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8578333333333,
+          17.9015,
+          11.67
+        ]
+      },
+      "id": "pr71339368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
-        "place": "99 km S of Kushiro, Japan",
+        "place": "Hokkaido, Japan region",
         "time": 1646647762271,
         "updated": 1646650599040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 99 km S of Kushiro, Japan"
+        "title": "M 4.9 - Hokkaido, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -215,22 +295,22 @@
         "mag": 3.34,
         "place": "4 km WSW of Pāhala, Hawaii",
         "time": 1646634492490,
-        "updated": 1646643667073,
+        "updated": 1646661539930,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72941037",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72941037.geojson",
         "felt": 28,
         "cdi": 3.4,
-        "mmi": null,
+        "mmi": 3.661,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 181,
         "net": "hv",
         "code": "72941037",
-        "ids": ",hv72941037,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv72941037,us6000h2pg,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 45,
         "dmin": null,
         "rms": 0.09,
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Philippine Islands region",
+        "place": "209 km SE of Pondaguitan, Philippines",
         "time": 1646603286659,
         "updated": 1646604078040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 169,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Philippine Islands region"
+        "title": "M 4.2 - 209 km SE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "11 km SW of Akutan, Alaska",
         "time": 1646600169036,
         "updated": 1646602883040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 3.0 - 11 km SW of Akutan, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1128,46 +1208,6 @@
         ]
       },
       "id": "pr2022065000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "24 km WNW of Pucara, Peru",
-        "time": 1646574151864,
-        "updated": 1646577138040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h2jf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h2jf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000h2jf",
-        "ids": ",us6000h2jf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.685,
-        "rms": 0.28,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 24 km WNW of Pucara, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.672,
-          -15.9071,
-          156.78
-        ]
-      },
-      "id": "us6000h2jf"
     }
   ],
   "bbox": [
