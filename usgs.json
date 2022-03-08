@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646769667000,
+    "generated": 1646773207000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -52,42 +52,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "113 km SW of Nikolski, Alaska",
-        "time": 1646765083576,
-        "updated": 1646766712305,
+        "mag": 3.8,
+        "place": "112 km SW of Nikolski, Alaska",
+        "time": 1646765084180,
+        "updated": 1646770362040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022333zpje",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022333zpje.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h34l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h34l.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "022333zpje",
-        "ids": ",ak022333zpje,",
-        "sources": ",ak,",
+        "sig": 222,
+        "net": "us",
+        "code": "6000h34l",
+        "ids": ",ak022333zpje,us6000h34l,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
-        "magType": "ml",
+        "dmin": 1.041,
+        "rms": 1.13,
+        "gap": 179,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.4 - 113 km SW of Nikolski, Alaska"
+        "title": "M 3.8 - 112 km SW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -170.0498,
-          52.2232,
-          27.4
+          -170.0887,
+          52.2532,
+          47.27
         ]
       },
-      "id": "ak022333zpje"
+      "id": "us6000h34l"
     },
     {
       "type": "Feature",
@@ -215,17 +215,17 @@
         "mag": 3.6,
         "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1646758185340,
-        "updated": 1646765901359,
+        "updated": 1646771275212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72943142",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72943142.geojson",
-        "felt": 29,
+        "felt": 30,
         "cdi": 3.4,
         "mmi": 3.882,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 209,
+        "sig": 210,
         "net": "hv",
         "code": "72943142",
         "ids": ",hv72943142,us6000h327,",
@@ -452,8 +452,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "14 km N of Atka, Alaska",
+        "time": 1646748334760,
+        "updated": 1646769984210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91507256",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91507256.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "av",
+        "code": "91507256",
+        "ids": ",av91507256,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": 167,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 14 km N of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.2275,
+          52.3268333333333,
+          3.75
+        ]
+      },
+      "id": "av91507256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
-        "place": "Windward Islands",
+        "place": "73 km E of Dennery, Saint Lucia",
         "time": 1646747781203,
         "updated": 1646754835425,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Windward Islands"
+        "title": "M 4.3 - 73 km E of Dennery, Saint Lucia"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Russia-Mongolia border region",
+        "place": "4 km SSE of Mugur-Aksy, Russia",
         "time": 1646704088298,
         "updated": 1646704931040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Russia-Mongolia border region"
+        "title": "M 4.0 - 4 km SSE of Mugur-Aksy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1608,93 +1648,13 @@
         ]
       },
       "id": "us6000h2w4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "off the coast of Oregon",
-        "time": 1646684312449,
-        "updated": 1646716497961,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h2vb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h2vb.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "us",
-        "code": "6000h2vb",
-        "ids": ",us6000h2vb,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.816,
-        "rms": 0.47,
-        "gap": 224,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.835,
-          44.1203,
-          10
-        ]
-      },
-      "id": "us6000h2vb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1646683551110,
-        "updated": 1646704832310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91506201",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91506201.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "av",
-        "code": "91506201",
-        "ids": ",av91506201,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.06,
-        "gap": 312,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.3565,
-          52.0791666666667,
-          -2.66
-        ]
-      },
-      "id": "av91506201"
     }
   ],
   "bbox": [
     -178.6557,
     -59.0894,
-    -2.66,
-    178.3565,
+    1.8099999427795,
+    175.1266,
     70.6979,
     561.39
   ]
