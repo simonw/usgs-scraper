@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646859619000,
+    "generated": 1646863237000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "27 km S of Mina, Nevada",
-        "time": 1646858308507,
-        "updated": 1646858551588,
+        "place": "30 km S of Mina, Nevada",
+        "time": 1646858308638,
+        "updated": 1646861623357,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00835115",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00835115.geojson",
@@ -23,7 +23,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "nn",
@@ -31,20 +31,20 @@
         "ids": ",nn00835115,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.113,
-        "rms": 0.3166,
-        "gap": 123.19,
+        "nst": 21,
+        "dmin": 0.122,
+        "rms": 0.1393,
+        "gap": 51.25,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 27 km S of Mina, Nevada"
+        "title": "M 2.5 - 30 km S of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.1089,
-          38.1428,
-          9.5
+          -118.113,
+          38.1199,
+          11.1
         ]
       },
       "id": "nn00835115"
@@ -215,17 +215,17 @@
         "mag": 3.1,
         "place": "36 km NNE of Excursion Inlet, Alaska",
         "time": 1646845405783,
-        "updated": 1646848489185,
+        "updated": 1646861875722,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02234qonr5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02234qonr5.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 149,
         "net": "ak",
         "code": "02234qonr5",
         "ids": ",ak02234qonr5,us6000h3bi,",
@@ -488,6 +488,46 @@
         ]
       },
       "id": "pr71339658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "58 km SE of Akutan, Alaska",
+        "time": 1646836829562,
+        "updated": 1646860774445,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02234p4b2x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02234p4b2x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.551,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "ak",
+        "code": "02234p4b2x",
+        "ids": ",ak02234p4b2x,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 58 km SE of Akutan, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.0817,
+          53.8016,
+          47.6
+        ]
+      },
+      "id": "ak02234p4b2x"
     },
     {
       "type": "Feature",
@@ -1368,126 +1408,6 @@
         ]
       },
       "id": "us6000h36i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "0 km WNW of Nueva Concepción, Guatemala",
-        "time": 1646776437927,
-        "updated": 1646780072040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h35x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h35x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000h35x",
-        "ids": ",us6000h35x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.508,
-        "rms": 0.96,
-        "gap": 162,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 0 km WNW of Nueva Concepción, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.304,
-          14.2012,
-          81.47
-        ]
-      },
-      "id": "us6000h35x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "98 km SSW of Chirilagua, El Salvador",
-        "time": 1646775596823,
-        "updated": 1646779129040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h35u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h35u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000h35u",
-        "ids": ",us6000h35u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.082,
-        "rms": 1.01,
-        "gap": 197,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 98 km SSW of Chirilagua, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.4616,
-          12.3885,
-          33.35
-        ]
-      },
-      "id": "us6000h35u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "10 km SSE of Point Possession, Alaska",
-        "time": 1646774885060,
-        "updated": 1646818160641,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022335od6n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022335od6n.geojson",
-        "felt": 25,
-        "cdi": 3.4,
-        "mmi": 2.216,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 208,
-        "net": "ak",
-        "code": "022335od6n",
-        "ids": ",ak022335od6n,us6000h35n,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.77,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 10 km SSE of Point Possession, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.6127,
-          60.8328,
-          45.1
-        ]
-      },
-      "id": "ak022335od6n"
     }
   ],
   "bbox": [
