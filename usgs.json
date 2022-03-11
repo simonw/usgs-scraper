@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646953229000,
+    "generated": 1646956889000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 22
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.7,
         "place": "19 km W of Anchor Point, Alaska",
         "time": 1646952558553,
-        "updated": 1646953222513,
+        "updated": 1646953925040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02236hh0vc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02236hh0vc.geojson",
@@ -28,8 +28,8 @@
         "sig": 112,
         "net": "ak",
         "code": "02236hh0vc",
-        "ids": ",ak02236hh0vc,",
-        "sources": ",ak,",
+        "ids": ",us6000h3p1,ak02236hh0vc,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
+        "mag": 4,
+        "place": "52 km SSE of Champerico, Guatemala",
+        "time": 1646952132205,
+        "updated": 1646953442040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3p0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3p0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000h3p0",
+        "ids": ",us6000h3p0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.869,
+        "rms": 1.15,
+        "gap": 164,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 52 km SSE of Champerico, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7039,
+          13.8604,
+          35
+        ]
+      },
+      "id": "us6000h3p0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
         "place": "south of the Fiji Islands",
-        "time": 1646950278302,
-        "updated": 1646951274040,
+        "time": 1646950278359,
+        "updated": 1646955034040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3nt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3nt.geojson",
@@ -65,26 +105,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 369,
         "net": "us",
         "code": "6000h3nt",
         "ids": ",us6000h3nt,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 5.531,
-        "rms": 0.77,
-        "gap": 70,
-        "magType": "mww",
+        "dmin": 5.528,
+        "rms": 1.09,
+        "gap": 34,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - south of the Fiji Islands"
+        "title": "M 4.9 - south of the Fiji Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.3011,
-          -23.1791,
-          556.89
+          179.297,
+          -23.1764,
+          553.75
         ]
       },
       "id": "us6000h3nt"
@@ -208,6 +248,46 @@
         ]
       },
       "id": "ak02236d8gtv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "7 km WSW of Iwai, Japan",
+        "time": 1646921557971,
+        "updated": 1646954744819,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3k5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3k5.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000h3k5",
+        "ids": ",us6000h3k5,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.41,
+        "rms": 0.54,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 7 km WSW of Iwai, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8297,
+          36.0169,
+          61.6
+        ]
+      },
+      "id": "us6000h3k5"
     },
     {
       "type": "Feature",
@@ -808,54 +888,14 @@
         ]
       },
       "id": "tx2022eujo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Kepulauan Barat Daya, Indonesia",
-        "time": 1646869336091,
-        "updated": 1646870551040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3fr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3fr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000h3fr",
-        "ids": ",us6000h3fr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.429,
-        "rms": 0.57,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.8727,
-          -7.4988,
-          159.02
-        ]
-      },
-      "id": "us6000h3fr"
     }
   ],
   "bbox": [
     -179.7661,
     -41.0497,
     3.59,
-    179.3011,
+    179.297,
     60.3997,
-    556.89
+    553.75
   ]
 }
