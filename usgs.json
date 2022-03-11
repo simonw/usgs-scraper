@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646996430000,
+    "generated": 1647000030000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "6 km S of Lincoln, Montana",
+        "time": 1646999031433,
+        "updated": 1646999849103,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3rx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3rx.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "6000h3rx",
+        "ids": ",us6000h3rx,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.157,
+        "rms": 0.59,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 6 km S of Lincoln, Montana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.6781,
+          46.8997,
+          11.23
+        ]
+      },
+      "id": "us6000h3rx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "172 km E of Hasaki, Japan",
+        "time": 1646997186068,
+        "updated": 1646998308040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3ru",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3ru.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000h3ru",
+        "ids": ",us6000h3ru,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.449,
+        "rms": 0.55,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 172 km E of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7305,
+          35.5867,
+          10
+        ]
+      },
+      "id": "us6000h3ru"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.74,
         "place": "5km WNW of Walker, CA",
         "time": 1646995556610,
-        "updated": 1646995930283,
+        "updated": 1646996552116,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73704126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73704126.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "73704126",
         "ids": ",nc73704126,nn00835196,",
         "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 16,
         "dmin": 0.08028,
         "rms": 0.1,
