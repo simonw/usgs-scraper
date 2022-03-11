@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647003870000,
+    "generated": 1647007230000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.79,
+        "place": "79 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1647003853200,
+        "updated": 1647006722510,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022070003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022070003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 221,
+        "net": "pr",
+        "code": "2022070003",
+        "ids": ",pr2022070003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.0348,
+        "rms": 0.39,
+        "gap": 328,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 79 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5156,
+          19.0023,
+          29
+        ]
+      },
+      "id": "pr2022070003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "280 km WNW of Ozernovskiy, Russia",
+        "time": 1647003723485,
+        "updated": 1647005843040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3si",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3si.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000h3si",
+        "ids": ",us6000h3si,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.056,
+        "rms": 0.48,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 280 km WNW of Ozernovskiy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7584,
+          52.5139,
+          495.73
+        ]
+      },
+      "id": "us6000h3si"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 3.3,
         "place": "9 km SSE of Lincoln, Montana",
         "time": 1646999948095,
-        "updated": 1647000369040,
+        "updated": 1647006512133,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3ry",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3ry.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "6000h3ry",
         "ids": ",us6000h3ry,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.118,
         "rms": 0.75,
@@ -175,7 +255,7 @@
         "mag": 2.74,
         "place": "5km WNW of Walker, CA",
         "time": 1646995556610,
-        "updated": 1647001169169,
+        "updated": 1647006190348,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73704126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73704126.geojson",
@@ -1088,46 +1168,6 @@
         ]
       },
       "id": "us6000h3k5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "12 km SSE of Volcano, Hawaii",
-        "time": 1646917968850,
-        "updated": 1646951248040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72945852",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72945852.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "hv",
-        "code": "72945852",
-        "ids": ",us6000h3jx,hv72945852,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 12 km SSE of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.210166666667,
-          19.333,
-          29.72
-        ]
-      },
-      "id": "hv72945852"
     }
   ],
   "bbox": [
