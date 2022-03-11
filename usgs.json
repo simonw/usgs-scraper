@@ -1,25 +1,105 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647028830000,
+    "generated": 1647032430000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "8km E of Guadalupe Victoria, B.C., MX",
+        "time": 1647029602900,
+        "updated": 1647030114929,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40205392",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40205392.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "ci",
+        "code": "40205392",
+        "ids": ",ci40205392,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.04605,
+        "rms": 0.11,
+        "gap": 230,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 8km E of Guadalupe Victoria, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.022,
+          32.2975,
+          19.84
+        ]
+      },
+      "id": "ci40205392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "52 km NE of Kobuk, Alaska",
+        "time": 1647024573709,
+        "updated": 1647031518040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3vn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3vn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000h3vn",
+        "ids": ",us6000h3vn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.315,
+        "rms": 0.75,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 52 km NE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.2037,
+          67.3016,
+          5.54
+        ]
+      },
+      "id": "us6000h3vn"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.79,
         "place": "1km ENE of El Cerrito, CA",
         "time": 1647020670460,
-        "updated": 1647028660606,
+        "updated": 1647032425607,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73704246",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73704246.geojson",
-        "felt": 1112,
+        "felt": 1138,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -28,8 +108,8 @@
         "sig": 550,
         "net": "nc",
         "code": "73704246",
-        "ids": ",nc73704246,",
-        "sources": ",nc,",
+        "ids": ",nc73704246,us6000h3v8,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 71,
         "dmin": 0.03744,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "nc73704246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "202 km ENE of Levuka, Fiji",
+        "time": 1647020625446,
+        "updated": 1647029661040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3vc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3vc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000h3vc",
+        "ids": ",us6000h3vc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.962,
+        "rms": 0.5,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 202 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.8451,
+          -17.5687,
+          524.28
+        ]
+      },
+      "id": "us6000h3vc"
     },
     {
       "type": "Feature",
@@ -335,17 +455,17 @@
         "mag": 4.9,
         "place": "8 km E of Andop, Philippines",
         "time": 1647008065753,
-        "updated": 1647019347052,
+        "updated": 1647030372183,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3sn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3sn.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 6.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 375,
+        "sig": 376,
         "net": "us",
         "code": "6000h3sn",
         "ids": ",us6000h3sn,",
@@ -575,11 +695,11 @@
         "mag": 3.3,
         "place": "9 km SSE of Lincoln, Montana",
         "time": 1646999948095,
-        "updated": 1647019837896,
+        "updated": 1647029948266,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3ry",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3ry.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1451,7 +1571,7 @@
     }
   ],
   "bbox": [
-    -178.5301,
+    -178.8451,
     -37.1731,
     4.85,
     179.297,
