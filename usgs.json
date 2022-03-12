@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647093575000,
+    "generated": 1647097175000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.25,
         "place": "9 km E of Pāhala, Hawaii",
         "time": 1647088071350,
-        "updated": 1647091589929,
+        "updated": 1647095404642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72947797",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72947797.geojson",
@@ -55,12 +55,12 @@
         "mag": 5.1,
         "place": "88 km W of Copiapó, Chile",
         "time": 1647088067423,
-        "updated": 1647089177040,
+        "updated": 1647096138338,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h40b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h40b.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "6000h40b",
         "ids": ",us6000h40b,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.464,
         "rms": 0.87,
@@ -335,12 +335,12 @@
         "mag": 2.47,
         "place": "9km NNE of Olancha, CA",
         "time": 1647062146890,
-        "updated": 1647062366240,
+        "updated": 1647095113269,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40205696",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40205696.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -350,7 +350,7 @@
         "code": "40205696",
         "ids": ",ci40205696,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 26,
         "dmin": 0.1266,
         "rms": 0.19,
@@ -1288,86 +1288,6 @@
         ]
       },
       "id": "ak0223816c9b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "59 km NNE of Punta Cana, Dominican Republic",
-        "time": 1647010534400,
-        "updated": 1647033320040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71339828",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71339828.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 160,
-        "net": "pr",
-        "code": "71339828",
-        "ids": ",us6000h3sw,pr71339828,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": null,
-        "rms": 0.81,
-        "gap": 202,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 59 km NNE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1151666666667,
-          19.0441666666667,
-          51.64
-        ]
-      },
-      "id": "pr71339828"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "8 km E of Andop, Philippines",
-        "time": 1647008065753,
-        "updated": 1647030372183,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3sn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3sn.geojson",
-        "felt": 10,
-        "cdi": 6.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 376,
-        "net": "us",
-        "code": "6000h3sn",
-        "ids": ",us6000h3sn,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.816,
-        "rms": 0.99,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 8 km E of Andop, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.8294,
-          7.8527,
-          44.31
-        ]
-      },
-      "id": "us6000h3sn"
     }
   ],
   "bbox": [
