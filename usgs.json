@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647428421000,
+    "generated": 1647432019000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "south of the Fiji Islands",
+        "time": 1647427574466,
+        "updated": 1647428527040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h50g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h50g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000h50g",
+        "ids": ",us6000h50g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.007,
+        "rms": 0.77,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.8516,
+          -23.4521,
+          523.49
+        ]
+      },
+      "id": "us6000h50g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "4 km W of La Parguera, Puerto Rico",
+        "time": 1647425860770,
+        "updated": 1647432010939,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71340418",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71340418.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "pr",
+        "code": "71340418",
+        "ids": ",pr71340418,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 11,
+        "dmin": null,
+        "rms": 0.13,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km W of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0906666666667,
+          17.978,
+          9.81
+        ]
+      },
+      "id": "pr71340418"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.87,
         "place": "7km S of Redlands, CA",
         "time": 1647425618170,
-        "updated": 1647427701472,
+        "updated": 1647431371886,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39969223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39969223.geojson",
-        "felt": 31,
+        "felt": 37,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 143,
         "net": "ci",
         "code": "39969223",
         "ids": ",ci39969223,",
@@ -215,11 +295,11 @@
         "mag": 5.6,
         "place": "5 km E of Huambo, Peru",
         "time": 1647410794721,
-        "updated": 1647418227778,
+        "updated": 1647430589300,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h4z7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h4z7.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 7,
         "mmi": 6.367,
         "alert": "green",
@@ -1968,50 +2048,10 @@
         ]
       },
       "id": "us6000h4p4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "30 km SSW of Alamo, Nevada",
-        "time": 1647344912728,
-        "updated": 1647380691044,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00835351",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00835351.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "nn",
-        "code": "00835351",
-        "ids": ",nn00835351,us6000h4ny,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.355,
-        "rms": 0.1972,
-        "gap": 75.07,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 30 km SSW of Alamo, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.3165,
-          37.1209,
-          11.8
-        ]
-      },
-      "id": "nn00835351"
     }
   ],
   "bbox": [
-    -175.7177,
+    -179.8516,
     -60.3239,
     0,
     179.6258,
