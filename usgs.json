@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647464419000,
+    "generated": 1647468019000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
     {
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "75 km ENE of Namie, Japan",
+        "time": 1647453947658,
+        "updated": 1647466906040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h56g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h56g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000h56g",
+        "ids": ",us6000h56g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.101,
+        "rms": 1.05,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 75 km ENE of Namie, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.8098,
+          37.6998,
+          52.16
+        ]
+      },
+      "id": "us6000h56g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.49,
         "place": "14km S of Searles Valley, CA",
         "time": 1647453062390,
-        "updated": 1647460718087,
+        "updated": 1647465930040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39969439",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39969439.geojson",
@@ -68,8 +108,8 @@
         "sig": 96,
         "net": "ci",
         "code": "39969439",
-        "ids": ",ci39969439,",
-        "sources": ",ci,",
+        "ids": ",ci39969439,us6000h55x,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 33,
         "dmin": 0.06134,
@@ -255,7 +295,7 @@
         "mag": 2.79,
         "place": "4 km W of Lucien, Oklahoma",
         "time": 1647444580020,
-        "updated": 1647445087185,
+        "updated": 1647466546040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022fgjx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022fgjx.geojson",
@@ -268,8 +308,8 @@
         "sig": 120,
         "net": "ok",
         "code": "2022fgjx",
-        "ids": ",ok2022fgjx,",
-        "sources": ",ok,",
+        "ids": ",us6000h538,ok2022fgjx,",
+        "sources": ",us,ok,",
         "types": ",origin,phase-data,",
         "nst": 94,
         "dmin": 0,
@@ -292,20 +332,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "122 km WNW of Iquique, Chile",
+        "time": 1647443269712,
+        "updated": 1647466297119,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h52u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h52u.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "6000h52u",
+        "ids": ",us6000h52u,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.141,
+        "rms": 0.61,
+        "gap": 177,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 122 km WNW of Iquique, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1626,
+          -19.6673,
+          31.25
+        ]
+      },
+      "id": "us6000h52u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 7.3,
         "place": "57 km ENE of Namie, Japan",
         "time": 1647441393264,
-        "updated": 1647463783935,
+        "updated": 1647467870252,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h519.geojson",
-        "felt": 287,
+        "felt": 294,
         "cdi": 8.6,
         "mmi": 7.575,
         "alert": "orange",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 1247,
+        "sig": 1253,
         "net": "us",
         "code": "6000h519",
         "ids": ",pt22075004,us6000h519,at00r8udwu,",
@@ -1408,46 +1488,6 @@
         ]
       },
       "id": "us6000h4wc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "148 km SE of António Enes, Mozambique",
-        "time": 1647380033953,
-        "updated": 1647382277040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h4ut",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h4ut.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000h4ut",
-        "ids": ",us6000h4ut,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.226,
-        "rms": 1.05,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 148 km SE of António Enes, Mozambique"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          41.0187,
-          -17.0442,
-          10
-        ]
-      },
-      "id": "us6000h4ut"
     }
   ],
   "bbox": [
