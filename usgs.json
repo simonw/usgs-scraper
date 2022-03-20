@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647788384000,
+    "generated": 1647792044000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "28 km SSW of Mazuko, Peru",
+        "time": 1647787187540,
+        "updated": 1647789135040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h66w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h66w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000h66w",
+        "ids": ",us6000h66w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.712,
+        "rms": 0.38,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 28 km SSW of Mazuko, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4779,
+          -13.3335,
+          10
+        ]
+      },
+      "id": "us6000h66w"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,46 +128,6 @@
         ]
       },
       "id": "us6000h66m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "3km S of Manton, CA",
-        "time": 1647779979810,
-        "updated": 1647781570309,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73708071",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73708071.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "nc",
-        "code": "73708071",
-        "ids": ",nc73708071,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.07475,
-        "rms": 0.14,
-        "gap": 130,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3km S of Manton, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.8691635,
-          40.3911667,
-          10.83
-        ]
-      },
-      "id": "nc73708071"
     },
     {
       "type": "Feature",
@@ -255,12 +255,12 @@
         "mag": 2.55,
         "place": "3 km WSW of Indios, Puerto Rico",
         "time": 1647772308120,
-        "updated": 1647774582890,
+        "updated": 1647788571019,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71340948",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71340948.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +270,7 @@
         "code": "71340948",
         "ids": ",pr71340948,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 8,
         "dmin": null,
         "rms": 0.11,
@@ -1335,17 +1335,17 @@
         "mag": 3.58,
         "place": "4km ENE of Corralitos, CA",
         "time": 1647709181390,
-        "updated": 1647788278648,
+        "updated": 1647791878134,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73707826",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73707826.geojson",
-        "felt": 676,
+        "felt": 686,
         "cdi": 4.1,
         "mmi": 3.967,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 474,
+        "sig": 478,
         "net": "nc",
         "code": "73707826",
         "ids": ",nc73707826,us6000h61y,",
@@ -1448,86 +1448,6 @@
         ]
       },
       "id": "us6000h61u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "11 km SW of Lugu, Taiwan",
-        "time": 1647703422245,
-        "updated": 1647747622153,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h61l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h61l.geojson",
-        "felt": 3,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 313,
-        "net": "us",
-        "code": "6000h61l",
-        "ids": ",us6000h61l,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.284,
-        "rms": 1.05,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 11 km SW of Lugu, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.6668,
-          23.6788,
-          10
-        ]
-      },
-      "id": "us6000h61l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Kermadec Islands region",
-        "time": 1647702582714,
-        "updated": 1647703744040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h61i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h61i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000h61i",
-        "ids": ",us6000h61i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.792,
-        "rms": 0.79,
-        "gap": 70,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.4891,
-          -27.464,
-          10
-        ]
-      },
-      "id": "us6000h61i"
     }
   ],
   "bbox": [
