@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647759582000,
+    "generated": 1647763183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "15 km NNW of Cooper Landing, Alaska",
+        "time": 1647762294591,
+        "updated": 1647763135040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0223mrw004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0223mrw004.geojson",
+        "felt": 1,
+        "cdi": 2.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "ak",
+        "code": "0223mrw004",
+        "ids": ",ak0223mrw004,us6000h65i,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.96,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 15 km NNW of Cooper Landing, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9606,
+          60.6084,
+          23.1
+        ]
+      },
+      "id": "ak0223mrw004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "37 km SE of Blenheim, New Zealand",
+        "time": 1647761326941,
+        "updated": 1647762907598,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h65c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h65c.geojson",
+        "felt": 8,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 301,
+        "net": "us",
+        "code": "6000h65c",
+        "ids": ",us6000h65c,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.603,
+        "rms": 0.65,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 37 km SE of Blenheim, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2174,
+          -41.7892,
+          10
+        ]
+      },
+      "id": "us6000h65c"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -815,17 +895,17 @@
         "mag": 3.58,
         "place": "4km ENE of Corralitos, CA",
         "time": 1647709181390,
-        "updated": 1647758160800,
+        "updated": 1647762369890,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73707826",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73707826.geojson",
-        "felt": 649,
+        "felt": 656,
         "cdi": 4.1,
         "mmi": 3.967,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 463,
+        "sig": 466,
         "net": "nc",
         "code": "73707826",
         "ids": ",nc73707826,us6000h61y,",
@@ -1848,54 +1928,14 @@
         ]
       },
       "id": "hv72955422"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "5km WNW of Walker, CA",
-        "time": 1647675528520,
-        "updated": 1647683653547,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73707601",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73707601.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "73707601",
-        "ids": ",nc73707601,nn00835646,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.06204,
-        "rms": 0.04,
-        "gap": 111,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5km WNW of Walker, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.5373306,
-          38.5253334,
-          0.85
-        ]
-      },
-      "id": "nc73707601"
     }
   ],
   "bbox": [
     -179.0636,
-    -34.072,
+    -41.7892,
     0,
-    161.7952,
-    59.828,
+    174.2174,
+    60.6084,
     199.32
   ]
 }
