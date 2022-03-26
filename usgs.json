@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648270808000,
+    "generated": 1648274408000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "18 km SSW of Central, Alaska",
+        "time": 1648272887059,
+        "updated": 1648274000040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0223wnv21f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0223wnv21f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0223wnv21f",
+        "ids": ",us7000gxg0,ak0223wnv21f,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 18 km SSW of Central, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.0025,
+          65.4278,
+          5.8
+        ]
+      },
+      "id": "ak0223wnv21f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "31 km S of Segundo, Colorado",
+        "time": 1648270610025,
+        "updated": 1648271389040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gxfm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gxfm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000gxfm",
+        "ids": ",us7000gxfm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.056,
+        "rms": 0.95,
+        "gap": 164,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 31 km S of Segundo, Colorado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.814,
+          36.8428,
+          5
+        ]
+      },
+      "id": "us7000gxfm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +175,12 @@
         "mag": 2.95,
         "place": "4 km S of Indios, Puerto Rico",
         "time": 1648265008870,
-        "updated": 1648266936550,
+        "updated": 1648272499808,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71342083",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71342083.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +190,7 @@
         "code": "71342083",
         "ids": ",pr71342083,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": null,
         "rms": 0.24,
@@ -292,14 +372,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "18 km SSE of Iquique, Chile",
+        "time": 1648242953542,
+        "updated": 1648271470040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gxfq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gxfq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "7000gxfq",
+        "ids": ",us7000gxfq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.868,
+        "rms": 0.55,
+        "gap": 169,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 18 km SSE of Iquique, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0684,
+          -20.3624,
+          17.97
+        ]
+      },
+      "id": "us7000gxfq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.67,
         "place": "10km WSW of Williams, CA",
         "time": 1648242658610,
-        "updated": 1648269653180,
+        "updated": 1648273278288,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73710361",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73710361.geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 3.1,
         "mmi": 4.138,
         "alert": null,
@@ -528,6 +648,46 @@
         ]
       },
       "id": "us7000gxcn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "9 km NE of Nicola Town, Saint Kitts and Nevis",
+        "time": 1648231244315,
+        "updated": 1648270907691,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gxfl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gxfl.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000gxfl",
+        "ids": ",us7000gxfl,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.276,
+        "rms": 0.18,
+        "gap": 157,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 9 km NE of Nicola Town, Saint Kitts and Nevis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.6961,
+          17.446,
+          11.21
+        ]
+      },
+      "id": "us7000gxfl"
     },
     {
       "type": "Feature",
@@ -1608,46 +1768,6 @@
         ]
       },
       "id": "hv72961452"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "261 km SE of Chiniak, Alaska",
-        "time": 1648186113836,
-        "updated": 1648186734040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gx5e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gx5e.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "7000gx5e",
-        "ids": ",us7000gx5e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.582,
-        "rms": 0.63,
-        "gap": 221,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 261 km SE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.7691,
-          56.264,
-          10
-        ]
-      },
-      "id": "us7000gx5e"
     }
   ],
   "bbox": [
@@ -1655,7 +1775,7 @@
     -34.7587,
     -0.49,
     151.3799,
-    63.3387,
+    65.4278,
     507.53
   ]
 }
