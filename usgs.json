@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648641641000,
+    "generated": 1648645868000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.25,
+        "place": "14 km NNE of Carrizales, Puerto Rico",
+        "time": 1648641980080,
+        "updated": 1648644224411,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71342713",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71342713.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 163,
+        "net": "pr",
+        "code": "71342713",
+        "ids": ",pr71342713,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 26,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 14 km NNE of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7545,
+          18.6083333333333,
+          16.52
+        ]
+      },
+      "id": "pr71342713"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -212,42 +252,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
+        "mag": 2.8,
         "place": "57 km S of Whites City, New Mexico",
-        "time": 1648633040333,
-        "updated": 1648638063040,
+        "time": 1648633040450,
+        "updated": 1648641840268,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gydf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gydf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022gfni",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022gfni.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000gydf",
-        "ids": ",us7000gydf,",
-        "sources": ",us,",
+        "sig": 121,
+        "net": "tx",
+        "code": "2022gfni",
+        "ids": ",us7000gydf,tx2022gfni,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.109,
-        "rms": 0.58,
-        "gap": 113,
+        "nst": 8,
+        "dmin": 0.0984084679,
+        "rms": 0.1,
+        "gap": 79,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 57 km S of Whites City, New Mexico"
+        "title": "M 2.8 - 57 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3735,
-          31.6568,
-          5
+          -104.3866443,
+          31.65391738,
+          5.848779297
         ]
       },
-      "id": "us7000gydf"
+      "id": "tx2022gfni"
     },
     {
       "type": "Feature",
@@ -1055,12 +1095,12 @@
         "mag": 3.09,
         "place": "3 km ESE of Morovis, Puerto Rico",
         "time": 1648598721010,
-        "updated": 1648603595930,
+        "updated": 1648641877234,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71342623",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71342623.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1070,7 +1110,7 @@
         "code": "71342623",
         "ids": ",pr71342623,",
         "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": null,
         "rms": 0.21,
@@ -1735,7 +1775,7 @@
         "mag": 4.9,
         "place": "80 km WNW of Cabra, Philippines",
         "time": 1648571234997,
-        "updated": 1648574418040,
+        "updated": 1648645235040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gy5c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gy5c.geojson",
@@ -1750,7 +1790,7 @@
         "code": "7000gy5c",
         "ids": ",us7000gy5c,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 8.817,
         "rms": 0.57,
@@ -2008,214 +2048,14 @@
         ]
       },
       "id": "hv72966117"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "22 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1648557700870,
-        "updated": 1648558031210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72966037",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72966037.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "hv",
-        "code": "72966037",
-        "ids": ",hv72966037,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": null,
-        "rms": 0.239999995,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 22 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.658828735352,
-          19.5021667480469,
-          -1.23000001907349
-        ]
-      },
-      "id": "hv72966037"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "20 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1648557700700,
-        "updated": 1648561497690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72966042",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72966042.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "hv",
-        "code": "72966042",
-        "ids": ",hv72966042,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 142,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 20 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.677,
-          19.5085,
-          5.11
-        ]
-      },
-      "id": "hv72966042"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "8 km E of Skwentna, Alaska",
-        "time": 1648557089959,
-        "updated": 1648557806457,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02241qmg7f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02241qmg7f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "02241qmg7f",
-        "ids": ",ak02241qmg7f,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.76,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km E of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.2371,
-          61.9928,
-          68.2
-        ]
-      },
-      "id": "ak02241qmg7f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "1 km ESE of Sardínia, Greece",
-        "time": 1648556032136,
-        "updated": 1648563040040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gy2t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gy2t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000gy2t",
-        "ids": ",us7000gy2t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.373,
-        "rms": 0.47,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 1 km ESE of Sardínia, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.2267,
-          38.8865,
-          10
-        ]
-      },
-      "id": "us7000gy2t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "53 km NW of Toyah, Texas",
-        "time": 1648555635233,
-        "updated": 1648614104409,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022gdwt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022gdwt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2022gdwt",
-        "ids": ",tx2022gdwt,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.05789104303,
-        "rms": 0.2,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 53 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2346234,
-          31.61987221,
-          4.820458984
-        ]
-      },
-      "id": "tx2022gdwt"
     }
   ],
   "bbox": [
     -179.4089,
     -58,
-    -1.2300000190735,
+    -0.79,
     178.9908,
-    61.9928,
+    60.0519,
     605.6
   ]
 }
