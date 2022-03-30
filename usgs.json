@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648670403000,
+    "generated": 1648674042000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,17 +55,17 @@
         "mag": 4.9,
         "place": "56 km ESE of Taltal, Chile",
         "time": 1648657807243,
-        "updated": 1648668757241,
+        "updated": 1648670504349,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyfe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyfe.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 370,
         "net": "us",
         "code": "7000gyfe",
         "ids": ",us7000gyfe,",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000gyfc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "8 km NNE of Wai‘ōhinu, Hawaii",
+        "time": 1648652897710,
+        "updated": 1648673824520,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72967582",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72967582.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "hv",
+        "code": "72967582",
+        "ids": ",hv72967582,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 121,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km NNE of Wai‘ōhinu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.5925,
+          19.142,
+          -0.38
+        ]
+      },
+      "id": "hv72967582"
     },
     {
       "type": "Feature",
@@ -1648,52 +1688,12 @@
         ]
       },
       "id": "pr2022088001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "159 km SW of Adak, Alaska",
-        "time": 1648586315302,
-        "updated": 1648591839040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gy7t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gy7t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.627,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "7000gy7t",
-        "ids": ",us7000gy7t,ak02241vffxq,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.963,
-        "rms": 1.28,
-        "gap": 229,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - 159 km SW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.3205,
-          50.9059,
-          10
-        ]
-      },
-      "id": "us7000gy7t"
     }
   ],
   "bbox": [
-    -178.3205,
+    -176.7672,
     -58,
-    0,
+    -0.38,
     179.9925,
     60.0519,
     247
