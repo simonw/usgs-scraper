@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648693662000,
+    "generated": 1648696242000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "5 km ENE of Union City, Oklahoma",
+        "time": 1648694400078,
+        "updated": 1648695478040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022ggvb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022ggvb.geojson",
+        "felt": 4,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 120,
+        "net": "ok",
+        "code": "2022ggvb",
+        "ids": ",ok2022ggvb,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 75,
+        "dmin": 0.0270216912,
+        "rms": 0.8119805998,
+        "gap": 24.14126587,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 5 km ENE of Union City, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.88634491,
+          35.40257263,
+          5
+        ]
+      },
+      "id": "ok2022ggvb"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.01,
         "place": "1km SW of Round Valley, CA",
         "time": 1648692326800,
-        "updated": 1648693637243,
+        "updated": 1648696131893,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73712486",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73712486.geojson",
-        "felt": 117,
+        "felt": 151,
         "cdi": 3.8,
-        "mmi": 4.393,
-        "alert": null,
+        "mmi": 4.242,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 292,
+        "sig": 305,
         "net": "nc",
         "code": "73712486",
-        "ids": ",nc73712486,ew1648692330,",
-        "sources": ",nc,ew,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "ids": ",nc73712486,us7000gyl7,ew1648692330,nn00836397,",
+        "sources": ",nc,us,ew,nn,",
+        "types": ",dyfi,focal-mechanism,losspager,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 23,
         "dmin": 0.06611,
         "rms": 0.06,
@@ -55,11 +95,11 @@
         "mag": 4.2,
         "place": "67 km W of Cartagena, Chile",
         "time": 1648692052242,
-        "updated": 1648693521944,
+        "updated": 1648693842479,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyl5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyl5.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -92,38 +132,78 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
-        "place": "55 km NNW of Laguna Naick-Neck, Argentina",
-        "time": 1648688226003,
-        "updated": 1648693106040,
+        "mag": 2.76,
+        "place": "9 km NNE of Quebradillas, Puerto Rico",
+        "time": 1648692035510,
+        "updated": 1648695168700,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyl8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyl8.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71342773",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71342773.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
+        "sig": 117,
+        "net": "pr",
+        "code": "71342773",
+        "ids": ",pr71342773,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": null,
+        "rms": 0.23,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 9 km NNE of Quebradillas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9061666666667,
+          18.5535,
+          17.56
+        ]
+      },
+      "id": "pr71342773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "Argentina-Paraguay border region",
+        "time": 1648688226004,
+        "updated": 1648695939946,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyl8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyl8.geojson",
+        "felt": 11,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 191,
         "net": "us",
         "code": "7000gyl8",
         "ids": ",us7000gyl8,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 4.854,
         "rms": 0.66,
         "gap": 79,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.5 - 55 km NNW of Laguna Naick-Neck, Argentina"
+        "title": "M 3.5 - Argentina-Paraguay border region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.2108,
-          -24.7607,
+          -58.2107,
+          -24.7606,
           10
         ]
       },
@@ -413,9 +493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "4 km NE of Sutcliffe, Nevada",
+        "place": "Nevada",
         "time": 1648674317191,
-        "updated": 1648693234284,
+        "updated": 1648694400434,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00836357",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00836357.geojson",
@@ -437,7 +517,7 @@
         "gap": 107.9,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km NE of Sutcliffe, Nevada"
+        "title": "M 2.6 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -455,17 +535,17 @@
         "mag": 6.9,
         "place": "279 km ESE of Tadine, New Caledonia",
         "time": 1648673818474,
-        "updated": 1648685809209,
+        "updated": 1648694894152,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyj0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyj0.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 6.5,
         "mmi": 4.08,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 737,
+        "sig": 738,
         "net": "us",
         "code": "7000gyj0",
         "ids": ",at00r9ksv5,us7000gyj0,pt22089000,",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "off the coast of Southeastern Alaska",
+        "place": "119 km WSW of Elfin Cove, Alaska",
         "time": 1648667058699,
         "updated": 1648667453856,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - off the coast of Southeastern Alaska"
+        "title": "M 3.0 - 119 km WSW of Elfin Cove, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Near the south coast of Papua, Indonesia",
+        "place": "136 km NE of Tual, Indonesia",
         "time": 1648627580733,
         "updated": 1648628494040,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Near the south coast of Papua, Indonesia"
+        "title": "M 4.8 - 136 km NE of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "131 km SW of Bandar Lampung, Indonesia",
+        "place": "Sunda Strait, Indonesia",
         "time": 1648626279662,
         "updated": 1648627839040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 42,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 131 km SW of Bandar Lampung, Indonesia"
+        "title": "M 5.0 - Sunda Strait, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1528,126 +1608,6 @@
         ]
       },
       "id": "us7000gya8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "60 km W of San José de Jáchal, Argentina",
-        "time": 1648609513755,
-        "updated": 1648685671040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gya5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gya5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000gya5",
-        "ids": ",us7000gya5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.675,
-        "rms": 0.84,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 60 km W of San José de Jáchal, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.3721,
-          -30.234,
-          125.63
-        ]
-      },
-      "id": "us7000gya5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "5 km NW of Karakenja, Tajikistan",
-        "time": 1648609038101,
-        "updated": 1648610175040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gya3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gya3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gya3",
-        "ids": ",us7000gya3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.339,
-        "rms": 0.8,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 5 km NW of Karakenja, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.4719,
-          39.263,
-          10
-        ]
-      },
-      "id": "us7000gya3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1648608353074,
-        "updated": 1648609208559,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022gezt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022gezt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2022gezt",
-        "ids": ",us7000gya1,tx2022gezt,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.0955748402,
-        "rms": 0.2,
-        "gap": 91,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3889932,
-          31.67596282,
-          6.157275391
-        ]
-      },
-      "id": "tx2022gezt"
     }
   ],
   "bbox": [
