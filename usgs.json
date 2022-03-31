@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648753185000,
+    "generated": 1648756811000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.8,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1648756241000,
+        "updated": 1648756705772,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt22090002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt22090002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 1,
+        "sig": 711,
+        "net": "pt",
+        "code": "22090002",
+        "ids": ",pt22090002,",
+        "sources": ",pt,",
+        "types": ",impact-link,origin,",
+        "nst": 21,
+        "dmin": null,
+        "rms": null,
+        "gap": 71.99999424000046,
+        "magType": "Mi",
+        "type": "earthquake",
+        "title": "M 6.8 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.536,
+          -22.829,
+          10
+        ]
+      },
+      "id": "pt22090002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "69 km NE of Atka, Alaska",
+        "time": 1648752934782,
+        "updated": 1648754131109,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022455ex8q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022455ex8q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022455ex8q",
+        "ids": ",ak022455ex8q,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.51,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 69 km NE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.5918,
+          52.695,
+          203.1
+        ]
+      },
+      "id": "ak022455ex8q"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,17 +415,17 @@
         "mag": 3.4,
         "place": "9 km S of Clayton, New Mexico",
         "time": 1648731365168,
-        "updated": 1648737292523,
+        "updated": 1648753492885,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gypi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gypi.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 181,
+        "sig": 182,
         "net": "us",
         "code": "7000gypi",
         "ids": ",us7000gypi,",
@@ -1215,7 +1295,7 @@
         "mag": 3.93,
         "place": "1km SW of Round Valley, CA",
         "time": 1648692326760,
-        "updated": 1648751977136,
+        "updated": 1648753296270,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73712486",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73712486.geojson",
@@ -1728,52 +1808,12 @@
         ]
       },
       "id": "us7000gyj0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "119 km WSW of Elfin Cove, Alaska",
-        "time": 1648667058699,
-        "updated": 1648667453856,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02243i60r0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02243i60r0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "02243i60r0",
-        "ids": ",ak02243i60r0,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.89,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 119 km WSW of Elfin Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -138.2506,
-          57.8349,
-          0
-        ]
-      },
-      "id": "ak02243i60r0"
     }
   ],
   "bbox": [
     -178.4204,
     -58.1044,
-    0,
+    5,
     170.8015,
     61.3525,
     571.48
