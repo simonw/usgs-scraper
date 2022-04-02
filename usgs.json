@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648862930000,
+    "generated": 1648866470000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "79 km S of Masachapa, Nicaragua",
+        "time": 1648862275290,
+        "updated": 1648863471040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gz57",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gz57.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000gz57",
+        "ids": ",us7000gz57,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.075,
+        "rms": 0.65,
+        "gap": 179,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 79 km S of Masachapa, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6127,
+          11.0764,
+          49.38
+        ]
+      },
+      "id": "us7000gz57"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.76,
         "place": "3 km E of Rincón, Puerto Rico",
         "time": 1648854732240,
-        "updated": 1648855918150,
+        "updated": 1648865854201,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71343003",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71343003.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "71343003",
         "ids": ",pr71343003,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": null,
         "rms": 0.16,
@@ -815,17 +855,17 @@
         "mag": 2.6,
         "place": "3 km SSW of Big Lake, Alaska",
         "time": 1648817420947,
-        "updated": 1648831298181,
+        "updated": 1648864471827,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246pcjo2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246pcjo2.geojson",
-        "felt": 2,
-        "cdi": 2,
+        "felt": 3,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 105,
         "net": "ak",
         "code": "02246pcjo2",
         "ids": ",ak02246pcjo2,us7000gyz8,",
@@ -1768,86 +1808,6 @@
         ]
       },
       "id": "nc73712916"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "76 km E of Union, Philippines",
-        "time": 1648776953549,
-        "updated": 1648780400782,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyus",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyus.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000gyus",
-        "ids": ",us7000gyus,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.903,
-        "rms": 1.08,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 76 km E of Union, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.8077,
-          9.724,
-          10
-        ]
-      },
-      "id": "us7000gyus"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Izu Islands, Japan region",
-        "time": 1648776762105,
-        "updated": 1648778656040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyup.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000gyup",
-        "ids": ",us7000gyup,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.935,
-        "rms": 0.99,
-        "gap": 40,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.7956,
-          30.7041,
-          30.57
-        ]
-      },
-      "id": "us7000gyup"
     }
   ],
   "bbox": [
