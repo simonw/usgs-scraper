@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648886392000,
+    "generated": 1648889992000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "8km SSW of Markleeville, CA",
+        "time": 1648889750210,
+        "updated": 1648889950974,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73713306",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73713306.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "nc",
+        "code": "73713306",
+        "ids": ",nc73713306,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.241,
+        "rms": 0.2,
+        "gap": 47,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 8km SSW of Markleeville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8241653,
+          38.6211662,
+          -1.91
+        ]
+      },
+      "id": "nc73713306"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
         "place": "4 km NE of Funaishikawa, Japan",
         "time": 1648884434409,
-        "updated": 1648886202040,
+        "updated": 1648888964999,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gz6g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gz6g.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000gz6g",
         "ids": ",us7000gz6g,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.925,
         "rms": 0.62,
@@ -1608,172 +1648,12 @@
         ]
       },
       "id": "us7000gyxy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "42 km WNW of Valdez, Alaska",
-        "time": 1648803028465,
-        "updated": 1648803795719,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246mytqo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246mytqo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "02246mytqo",
-        "ids": ",ak02246mytqo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 42 km WNW of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.026,
-          61.3234,
-          15.2
-        ]
-      },
-      "id": "ak02246mytqo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "7km W of Holtville, CA",
-        "time": 1648802643130,
-        "updated": 1648843719935,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39983439",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39983439.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "ci",
-        "code": "39983439",
-        "ids": ",ci39983439,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.006252,
-        "rms": 0.27,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 7km W of Holtville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.45,
-          32.7996667,
-          13.6
-        ]
-      },
-      "id": "ci39983439"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1648801690522,
-        "updated": 1648802726040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyxa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyxa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000gyxa",
-        "ids": ",us7000gyxa,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 14.136,
-        "rms": 0.63,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.1927,
-          -60.6609,
-          10
-        ]
-      },
-      "id": "us7000gyxa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "Southern Alaska",
-        "time": 1648800918127,
-        "updated": 1648840347360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246mrax3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246mrax3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.024,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "02246mrax3",
-        "ids": ",ak02246mrax3,us7000gyx6,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.86,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - Southern Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.6886,
-          61.7238,
-          28.6
-        ]
-      },
-      "id": "ak02246mrax3"
     }
   ],
   "bbox": [
     -179.3165,
-    -60.6609,
-    -0.37,
+    -42.9796,
+    -1.91,
     171.7596,
     73.9058,
     184.16
