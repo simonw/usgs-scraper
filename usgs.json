@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648940397000,
+    "generated": 1648944057000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1648940784944,
+        "updated": 1648942611040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gz9t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gz9t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000gz9t",
+        "ids": ",us7000gz9t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.116,
+        "rms": 0.94,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.82,
+          -22.6404,
+          10
+        ]
+      },
+      "id": "us7000gz9t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
-        "place": "150 km SW of Hihifo, Tonga",
+        "place": "Tonga",
         "time": 1648937115391,
         "updated": 1648938310040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 63,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 150 km SW of Hihifo, Tonga"
+        "title": "M 5.2 - Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "82 km SE of Atka, Alaska",
         "time": 1648928715098,
         "updated": 1648932862040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 215,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 2.5 - 82 km SE of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "western Texas",
+        "place": "16 km SE of Ackerly, Texas",
         "time": 1648928414029,
         "updated": 1648930133850,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 144,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - western Texas"
+        "title": "M 3.1 - 16 km SE of Ackerly, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1168,86 +1208,6 @@
         ]
       },
       "id": "us7000gz57"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "5 km E of La Parguera, Puerto Rico",
-        "time": 1648857573380,
-        "updated": 1648858998150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71343013",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71343013.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71343013",
-        "ids": ",pr71343013,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": null,
-        "rms": 0.06,
-        "gap": 159,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km E of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9976666666667,
-          17.9831666666667,
-          13.41
-        ]
-      },
-      "id": "pr71343013"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "3 km E of Rincón, Puerto Rico",
-        "time": 1648854732240,
-        "updated": 1648865854201,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71343003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71343003.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "pr",
-        "code": "71343003",
-        "ids": ",pr71343003,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 18,
-        "dmin": null,
-        "rms": 0.16,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km E of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2145,
-          18.3453333333333,
-          25.54
-        ]
-      },
-      "id": "pr71343003"
     }
   ],
   "bbox": [
