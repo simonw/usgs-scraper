@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649081103000,
+    "generated": 1649084677000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 52
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "118 km E of Chignik, Alaska",
-        "time": 1649080751452,
-        "updated": 1649081086428,
+        "mag": 4.5,
+        "place": "19 km ENE of La Troncal, Ecuador",
+        "time": 1649081900651,
+        "updated": 1649083806040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzky",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzky.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000gzky",
+        "ids": ",us7000gzky,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.892,
+        "rms": 0.34,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 19 km ENE of La Troncal, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1884,
+          -2.3328,
+          112.19
+        ]
+      },
+      "id": "us7000gzky"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "Kuril Islands",
+        "time": 1649081613455,
+        "updated": 1649083661856,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzl0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzl0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.273,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000gzl0",
+        "ids": ",us7000gzl0,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 5.943,
+        "rms": 0.74,
+        "gap": 75,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.1684,
+          47.6169,
+          19.42
+        ]
+      },
+      "id": "us7000gzl0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "110 km E of Chignik, Alaska",
+        "time": 1649080751182,
+        "updated": 1649083932040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224bolx80",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224bolx80.geojson",
@@ -25,29 +105,109 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 129,
         "net": "ak",
         "code": "0224bolx80",
-        "ids": ",ak0224bolx80,",
-        "sources": ",ak,",
+        "ids": ",us7000gzks,ak0224bolx80,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.49,
+        "rms": 0.47,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 118 km E of Chignik, Alaska"
+        "title": "M 2.9 - 110 km E of Chignik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.4987,
-          56.2675,
-          48.2
+          -156.6132,
+          56.3535,
+          20.1
         ]
       },
       "id": "ak0224bolx80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "4 km SE of Maria Antonia, Puerto Rico",
+        "time": 1649079855090,
+        "updated": 1649083392890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71343368",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71343368.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71343368",
+        "ids": ",pr71343368,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": null,
+        "rms": 0.1,
+        "gap": 193,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8596666666667,
+          17.9543333333333,
+          10.58
+        ]
+      },
+      "id": "pr71343368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "7 km S of Shiroi, Japan",
+        "time": 1649078993299,
+        "updated": 1649084377367,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzkp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzkp.geojson",
+        "felt": 78,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 386,
+        "net": "us",
+        "code": "7000gzkp",
+        "ids": ",us7000gzkp,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.701,
+        "rms": 0.66,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 7 km S of Shiroi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0622,
+          35.7363,
+          52.32
+        ]
+      },
+      "id": "us7000gzkp"
     },
     {
       "type": "Feature",
@@ -252,39 +412,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.5,
-        "place": "61 km E of Namie, Japan",
-        "time": 1649068144313,
-        "updated": 1649079964633,
+        "mag": 5.4,
+        "place": "54 km E of Namie, Japan",
+        "time": 1649068143899,
+        "updated": 1649084415572,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzjc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzjc.geojson",
         "felt": 15,
         "cdi": 3.4,
-        "mmi": 3.679,
+        "mmi": 3.649,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 470,
+        "sig": 454,
         "net": "us",
         "code": "7000gzjc",
         "ids": ",us7000gzjc,",
         "sources": ",us,",
         "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 2.904,
-        "rms": 1.16,
-        "gap": 96,
+        "dmin": 2.852,
+        "rms": 1.38,
+        "gap": 68,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 61 km E of Namie, Japan"
+        "title": "M 5.4 - 54 km E of Namie, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.679,
-          37.386,
-          36.79
+          141.6074,
+          37.3973,
+          30.09
         ]
       },
       "id": "us7000gzjc"
@@ -375,7 +535,7 @@
         "mag": 3.3,
         "place": "53 km ESE of Naalehu, Hawaii",
         "time": 1649057010500,
-        "updated": 1649074426270,
+        "updated": 1649081703132,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72972882",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72972882.geojson",
@@ -1892,82 +2052,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "44 km ENE of La Paz, Philippines",
-        "time": 1648999780463,
-        "updated": 1649057880639,
+        "mag": 5.5,
+        "place": "Mindanao, Philippines",
+        "time": 1648999780197,
+        "updated": 1649081924021,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzdt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzdt.geojson",
         "felt": 5,
         "cdi": 4.1,
-        "mmi": 4.373,
+        "mmi": 4.169,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 485,
+        "sig": 467,
         "net": "us",
         "code": "7000gzdt",
         "ids": ",us7000gzdt,",
         "sources": ",us,",
         "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 2.335,
+        "dmin": 2.337,
         "rms": 0.96,
         "gap": 82,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 44 km ENE of La Paz, Philippines"
+        "title": "M 5.5 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.6103,
-          9.1837,
-          22.59
+          126.6099,
+          9.1859,
+          20.71
         ]
       },
       "id": "us7000gzdt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "62 km E of Nahrīn, Afghanistan",
-        "time": 1648998003542,
-        "updated": 1648999385040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzdn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzdn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000gzdn",
-        "ids": ",us7000gzdn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.271,
-        "rms": 0.38,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 62 km E of Nahrīn, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          69.8183,
-          36.008,
-          100.64
-        ]
-      },
-      "id": "us7000gzdn"
     }
   ],
   "bbox": [
