@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649174680000,
+    "generated": 1649178195000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -175,12 +175,12 @@
         "mag": 3.4,
         "place": "63 km NNE of Luquillo, Puerto Rico",
         "time": 1649166044120,
-        "updated": 1649169040070,
+        "updated": 1649175641047,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71343483",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71343483.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +190,7 @@
         "code": "71343483",
         "ids": ",pr71343483,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": null,
         "rms": 0.16,
@@ -328,6 +328,46 @@
         ]
       },
       "id": "us7000gzta"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "2km N of Redway, CA",
+        "time": 1649145934920,
+        "updated": 1649177232272,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73714596",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73714596.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "nc",
+        "code": "73714596",
+        "ids": ",nc73714596,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.04082,
+        "rms": 0.12,
+        "gap": 79,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2km N of Redway, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8226667,
+          40.1378333,
+          22.9
+        ]
+      },
+      "id": "nc73714596"
     },
     {
       "type": "Feature",
@@ -1328,53 +1368,13 @@
         ]
       },
       "id": "ci39986031"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "Vanuatu",
-        "time": 1649088416658,
-        "updated": 1649138936174,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd000h551",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usd000h551.geojson",
-        "felt": 17,
-        "cdi": 4.7,
-        "mmi": 5.334,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 562,
-        "net": "us",
-        "code": "d000h551",
-        "ids": ",usd000h551,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 2.125,
-        "rms": 0.91,
-        "gap": 32,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.8682,
-          -17.4861,
-          23.6
-        ]
-      },
-      "id": "usd000h551"
     }
   ],
   "bbox": [
     -176.839,
     -41.6953,
     1.53,
-    167.8682,
+    152.9148,
     65.0864,
     223.98
   ]
