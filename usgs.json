@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649246418000,
+    "generated": 1649250738000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.87,
+        "place": "6 km NNE of Darrington, Washington",
+        "time": 1649249180200,
+        "updated": 1649250628040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61819867",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61819867.geojson",
+        "felt": 6,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "uw",
+        "code": "61819867",
+        "ids": ",uw61819867,us7000h04p,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.1386,
+        "rms": 0.31,
+        "gap": 113,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 6 km NNE of Darrington, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.56483333333334,
+          48.30883333333333,
+          0.56
+        ]
+      },
+      "id": "uw61819867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "176 km NW of Sabang, Indonesia",
+        "time": 1649248637241,
+        "updated": 1649250029040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h04n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h04n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000h04n",
+        "ids": ",us7000h04n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.75,
+        "rms": 0.48,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 176 km NW of Sabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.313,
+          7.1362,
+          10
+        ]
+      },
+      "id": "us7000h04n"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -655,12 +735,12 @@
         "mag": 4,
         "place": "147 km WNW of Ishikawa, Japan",
         "time": 1649185366894,
-        "updated": 1649195499040,
+        "updated": 1649250224033,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzxh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzxh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -670,7 +750,7 @@
         "code": "7000gzxh",
         "ids": ",us7000gzxh,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.562,
         "rms": 0.61,
@@ -1048,52 +1128,12 @@
         ]
       },
       "id": "pr71343483"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "117 km ESE of Copiapó, Chile",
-        "time": 1649164164963,
-        "updated": 1649166326040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gztw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gztw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gztw",
-        "ids": ",us7000gztw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.911,
-        "rms": 0.54,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 117 km ESE of Copiapó, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.2251,
-          -27.7658,
-          95.1
-        ]
-      },
-      "id": "us7000gztw"
     }
   ],
   "bbox": [
     -178.2889,
     -57.988,
-    4.18,
+    0.56,
     143.6383,
     65.0864,
     548.42
