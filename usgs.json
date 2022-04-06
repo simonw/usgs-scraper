@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649208435000,
+    "generated": 1649212095000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.54,
+        "mag": 3.2,
+        "place": "261 km W of Ferndale, California",
+        "time": 1649210363301,
+        "updated": 1649210950040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h02a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h02a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000h02a",
+        "ids": ",us7000h02a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.487,
+        "rms": 0.67,
+        "gap": 263,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 261 km W of Ferndale, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.3489,
+          40.8035,
+          12.54
+        ]
+      },
+      "id": "us7000h02a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
         "place": "48 km SE of Naalehu, Hawaii",
-        "time": 1649206002500,
-        "updated": 1649206333700,
+        "time": 1649206002390,
+        "updated": 1649212040040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72974782",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72974782.geojson",
@@ -23,28 +63,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 99,
+        "sig": 102,
         "net": "hv",
         "code": "72974782",
-        "ids": ",hv72974782,",
-        "sources": ",hv,",
+        "ids": ",us7000h021,hv72974782,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 33,
+        "nst": 45,
         "dmin": null,
-        "rms": 0.180000007,
-        "gap": 274,
+        "rms": 0.21,
+        "gap": 273,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 48 km SE of Naalehu, Hawaii"
+        "title": "M 2.6 - 48 km SE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.246170043945,
-          18.7705001831055,
-          6.82000017166138
+          -155.240666666667,
+          18.7755,
+          4.64
         ]
       },
       "id": "hv72974782"
@@ -55,17 +95,17 @@
         "mag": 5.2,
         "place": "44 km ESE of Xunchang, China",
         "time": 1649202606465,
-        "updated": 1649207258030,
+        "updated": 1649209240214,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h01q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h01q.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 417,
         "net": "us",
         "code": "7000h01q",
         "ids": ",us7000h01q,",
@@ -1012,46 +1052,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48000002,
-        "place": "55 km SE of Naalehu, Hawaii",
-        "time": 1649136322950,
-        "updated": 1649136522900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72973842",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72973842.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "72973842",
-        "ids": ",hv72973842,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": null,
-        "rms": 0.300000012,
-        "gap": 281,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 55 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.177673339844,
-          18.7426662445068,
-          17.0499992370605
-        ]
-      },
-      "id": "hv72973842"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.52,
         "place": "4 km SSE of Pāhala, Hawaii",
         "time": 1649133357820,
@@ -1095,7 +1095,7 @@
         "mag": 2.8,
         "place": "57 km S of Cantwell, Alaska",
         "time": 1649132523576,
-        "updated": 1649173138236,
+        "updated": 1649210836040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224d6kfc9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224d6kfc9.geojson",
@@ -1108,8 +1108,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0224d6kfc9",
-        "ids": ",ak0224d6kfc9,",
-        "sources": ",ak,",
+        "ids": ",us7000gzrz,ak0224d6kfc9,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1135,7 +1135,7 @@
         "mag": 3.83,
         "place": "138 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1649132219860,
-        "updated": 1649135378986,
+        "updated": 1649210504040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022095000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022095000.geojson",
@@ -1148,8 +1148,8 @@
         "sig": 226,
         "net": "pr",
         "code": "2022095000",
-        "ids": ",pr2022095000,",
-        "sources": ",pr,",
+        "ids": ",pr2022095000,us7000gzrw,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 1.3765,
@@ -1208,206 +1208,6 @@
         ]
       },
       "id": "pr71343428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "105 km W of San Antonio de los Cobres, Argentina",
-        "time": 1649124869681,
-        "updated": 1649207719040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzr7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzr7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000gzr7",
-        "ids": ",us7000gzr7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.414,
-        "rms": 0.56,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 105 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3517,
-          -24.1512,
-          214.02
-        ]
-      },
-      "id": "us7000gzr7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "10 km ENE of Pāhala, Hawaii",
-        "time": 1649124524810,
-        "updated": 1649207215040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72973662",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72973662.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "hv",
-        "code": "72973662",
-        "ids": ",us7000gzr0,hv72973662,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 142,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 10 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.384994506836,
-          19.242000579834,
-          31.9599990844727
-        ]
-      },
-      "id": "hv72973662"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "127 km W of Tobelo, Indonesia",
-        "time": 1649123048274,
-        "updated": 1649206263718,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzq8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzq8.geojson",
-        "felt": 1,
-        "cdi": 4.1,
-        "mmi": 3.791,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 536,
-        "net": "us",
-        "code": "7000gzq8",
-        "ids": ",us7000gzq8,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.259,
-        "rms": 0.86,
-        "gap": 28,
-        "magType": "mwb",
-        "type": "earthquake",
-        "title": "M 5.9 - 127 km W of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.8813,
-          1.9416,
-          36
-        ]
-      },
-      "id": "us7000gzq8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "95 km SW of Challapata, Bolivia",
-        "time": 1649122533156,
-        "updated": 1649205517040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzq6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzq6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000gzq6",
-        "ids": ",us7000gzq6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.617,
-        "rms": 0.75,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 95 km SW of Challapata, Bolivia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4995,
-          -19.4182,
-          224.78
-        ]
-      },
-      "id": "us7000gzq6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "near the coast of Nicaragua",
-        "time": 1649122119099,
-        "updated": 1649205044040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzq5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzq5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gzq5",
-        "ids": ",us7000gzq5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.325,
-        "rms": 0.24,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - near the coast of Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.3072,
-          11.8262,
-          125.72
-        ]
-      },
-      "id": "us7000gzq5"
     }
   ],
   "bbox": [
