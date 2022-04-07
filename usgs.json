@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649347400000,
+    "generated": 1649350940000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "40 km N of Koyukuk, Alaska",
+        "time": 1649349720527,
+        "updated": 1649350476941,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224gowlp0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224gowlp0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0224gowlp0",
+        "ids": ",ak0224gowlp0,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.97,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 40 km N of Koyukuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.7405,
+          65.2469,
+          13.8
+        ]
+      },
+      "id": "ak0224gowlp0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,25 +92,65 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "189 km N of Lospalos, Timor Leste",
+        "time": 1649343746900,
+        "updated": 1649350416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0el",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0el.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000h0el",
+        "ids": ",us7000h0el,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.08,
+        "rms": 0.67,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 189 km N of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1476,
+          -6.8164,
+          432.54
+        ]
+      },
+      "id": "us7000h0el"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.97,
         "place": "0 km WSW of Pāhala, Hawaii",
         "time": 1649340504270,
-        "updated": 1649341439540,
+        "updated": 1649350094035,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72976252",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72976252.geojson",
         "felt": 1,
         "cdi": 2.2,
-        "mmi": null,
+        "mmi": 3.604,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 136,
         "net": "hv",
         "code": "72976252",
-        "ids": ",hv72976252,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv72976252,us7000h0d7,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 47,
         "dmin": null,
         "rms": 0.150000006,
@@ -133,13 +213,13 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Malawi",
+        "place": "37 km E of Nsanje, Malawi",
         "time": 1649328189315,
-        "updated": 1649342395953,
+        "updated": 1649347969469,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0cc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0cc.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2.8,
         "mmi": null,
         "alert": null,
@@ -157,7 +237,7 @@
         "gap": 38,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Malawi"
+        "title": "M 4.9 - 37 km E of Nsanje, Malawi"
       },
       "geometry": {
         "type": "Point",
@@ -1056,6 +1136,6 @@
     3.42,
     137.4802,
     65.2516,
-    193.8
+    432.54
   ]
 }
