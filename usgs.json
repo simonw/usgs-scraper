@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649343920000,
+    "generated": 1649347400000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "53 km NW of Koyukuk, Alaska",
+        "time": 1649346307774,
+        "updated": 1649346658771,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224gobtsp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224gobtsp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0224gobtsp",
+        "ids": ",ak0224gobtsp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 53 km NW of Koyukuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.4267,
+          65.2516,
+          3.9
+        ]
+      },
+      "id": "ak0224gobtsp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "37 km E of Nsanje, Malawi",
+        "place": "Malawi",
         "time": 1649328189315,
         "updated": 1649342395953,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 38,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 37 km E of Nsanje, Malawi"
+        "title": "M 4.9 - Malawi"
       },
       "geometry": {
         "type": "Point",
@@ -1008,94 +1048,14 @@
         ]
       },
       "id": "ak0224f1yyh3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "48 km SE of Pāhala, Hawaii",
-        "time": 1649260560320,
-        "updated": 1649296311040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72975342",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72975342.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "hv",
-        "code": "72975342",
-        "ids": ",hv72975342,us7000h05i,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": null,
-        "rms": 0.18,
-        "gap": 267,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 48 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.156166666667,
-          18.8901666666667,
-          6.41
-        ]
-      },
-      "id": "hv72975342"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Kermadec Islands region",
-        "time": 1649258876472,
-        "updated": 1649266259600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h05d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h05d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000h05d",
-        "ids": ",us7000h05d,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 2.606,
-        "rms": 0.68,
-        "gap": 87,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.3708,
-          -27.0352,
-          11.31
-        ]
-      },
-      "id": "us7000h05d"
     }
   ],
   "bbox": [
-    -176.3708,
-    -27.0352,
+    -158.4267,
+    -24.1147,
     3.42,
     137.4802,
-    62.193,
+    65.2516,
     193.8
   ]
 }
