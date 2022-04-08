@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649448290000,
+    "generated": 1649451867000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.96,
+        "place": "66 km SE of Punta Cana, Dominican Republic",
+        "time": 1649446982080,
+        "updated": 1649450646010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71343833",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71343833.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 135,
+        "net": "pr",
+        "code": "71343833",
+        "ids": ",pr71343833,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": null,
+        "rms": 0.26,
+        "gap": 323,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 66 km SE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8895,
+          18.2398333333333,
+          69.41
+        ]
+      },
+      "id": "pr71343833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "47 km E of Port-Olry, Vanuatu",
         "time": 1649446851660,
-        "updated": 1649447602040,
+        "updated": 1649451226808,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0su",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0su.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000h0su",
         "ids": ",us7000h0su,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.544,
         "rms": 0.65,
@@ -132,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.83,
+        "mag": 2.82,
         "place": "10km NNW of Cholame, CA",
-        "time": 1649441048540,
-        "updated": 1649443451135,
+        "time": 1649441048550,
+        "updated": 1649450845040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73716036",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73716036.geojson",
@@ -143,17 +183,17 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 123,
         "net": "nc",
         "code": "73716036",
-        "ids": ",nc73716036,",
-        "sources": ",nc,",
+        "ids": ",nc73716036,us7000h0s8,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 50,
-        "dmin": 0.02568,
-        "rms": 0.05,
+        "nst": 65,
+        "dmin": 0.02587,
+        "rms": 0.07,
         "gap": 104,
         "magType": "md",
         "type": "earthquake",
@@ -162,9 +202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.3473358,
-          35.7980003,
-          10.16
+          -120.3475,
+          35.7981667,
+          10.26
         ]
       },
       "id": "nc73716036"
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us7000h0iv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Izu Islands, Japan region",
-        "time": 1649363349722,
-        "updated": 1649403413298,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0ie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0ie.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000h0ie",
-        "ids": ",us7000h0ie,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.593,
-        "rms": 1.05,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.8004,
-          31.1386,
-          10
-        ]
-      },
-      "id": "us7000h0ie"
     }
   ],
   "bbox": [
