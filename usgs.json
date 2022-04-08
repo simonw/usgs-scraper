@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649401190000,
+    "generated": 1649404855000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,11 +55,11 @@
         "mag": 2.52,
         "place": "7km E of Orange Cove, CA",
         "time": 1649398801220,
-        "updated": 1649400592093,
+        "updated": 1649402924438,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73715851",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73715851.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "nc73715851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Fiji region",
+        "time": 1649396372616,
+        "updated": 1649404472040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0lu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0lu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000h0lu",
+        "ids": ",us7000h0lu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.608,
+        "rms": 0.64,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.2584,
+          -21.6144,
+          605.26
+        ]
+      },
+      "id": "us7000h0lu"
     },
     {
       "type": "Feature",
@@ -655,12 +695,12 @@
         "mag": 4.6,
         "place": "Izu Islands, Japan region",
         "time": 1649363349722,
-        "updated": 1649365517040,
+        "updated": 1649403413298,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0ie",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0ie.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -670,7 +710,7 @@
         "code": "7000h0ie",
         "ids": ",us7000h0ie,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 2.593,
         "rms": 1.05,
@@ -1288,54 +1328,14 @@
         ]
       },
       "id": "us7000h0c3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "2 km S of Schimatári, Greece",
-        "time": 1649317137592,
-        "updated": 1649351716040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0bg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0bg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000h0bg",
-        "ids": ",us7000h0bg,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.745,
-        "rms": 0.86,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 2 km S of Schimatári, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.5859,
-          38.3267,
-          14.36
-        ]
-      },
-      "id": "us7000h0bg"
     }
   ],
   "bbox": [
-    -161.1741,
+    -179.2584,
     -25.4313,
     3.9,
     177.4973,
     67.7326,
-    432.54
+    605.26
   ]
 }
