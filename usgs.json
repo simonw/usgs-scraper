@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649595895000,
+    "generated": 1649599195000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "20 km NNW of Fox River, Alaska",
+        "time": 1649596869073,
+        "updated": 1649597546902,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224llluxv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224llluxv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "0224llluxv",
+        "ids": ",ak0224llluxv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 20 km NNW of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.0396,
+          60.0361,
+          49.6
+        ]
+      },
+      "id": "ak0224llluxv"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.57,
         "place": "16km WSW of Petrolia, CA",
         "time": 1649595795100,
-        "updated": 1649595886989,
+        "updated": 1649597051795,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73716606",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73716606.geojson",
@@ -30,7 +70,7 @@
         "code": "73716606",
         "ids": ",nc73716606,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
         "dmin": 0.1441,
         "rms": 0.06,
@@ -52,42 +92,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "56 km N of San Antonio, Puerto Rico",
-        "time": 1649593073820,
-        "updated": 1649593496040,
+        "mag": 3.36,
+        "place": "74 km NE of Punta Cana, Dominican Republic",
+        "time": 1649594518820,
+        "updated": 1649597839390,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h12r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h12r.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71344003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71344003.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000h12r",
-        "ids": ",us7000h12r,",
-        "sources": ",us,",
+        "sig": 174,
+        "net": "pr",
+        "code": "71344003",
+        "ids": ",pr71344003,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.532,
-        "rms": 0.5,
-        "gap": 200,
-        "magType": "ml",
+        "nst": 13,
+        "dmin": null,
+        "rms": 0.37,
+        "gap": 195,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 56 km N of San Antonio, Puerto Rico"
+        "title": "M 3.4 - 74 km NE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.1745,
-          18.9998,
-          35
+          -67.9188333333333,
+          19.0755,
+          84.97
         ]
       },
-      "id": "us7000h12r"
+      "id": "pr71344003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.61,
+        "place": "63 km N of San Antonio, Puerto Rico",
+        "time": 1649593074530,
+        "updated": 1649597330830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022100001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022100001.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 201,
+        "net": "pr",
+        "code": "2022100001",
+        "ids": ",pr2022100001,us7000h12r,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.6015,
+        "rms": 0.7,
+        "gap": 209,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 63 km N of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1443,
+          19.0681,
+          9
+        ]
+      },
+      "id": "pr2022100001"
     },
     {
       "type": "Feature",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Nicobar Islands, India region",
+        "place": "182 km NW of Sabang, Indonesia",
         "time": 1649586016402,
         "updated": 1649588646464,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 121,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Nicobar Islands, India region"
+        "title": "M 4.5 - 182 km NW of Sabang, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -335,11 +415,11 @@
         "mag": 5,
         "place": "80 km NE of Hasaki, Japan",
         "time": 1649583796553,
-        "updated": 1649594222081,
+        "updated": 1649596195273,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h126.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -375,12 +455,12 @@
         "mag": 4.7,
         "place": "81 km ESE of Namie, Japan",
         "time": 1649579425318,
-        "updated": 1649581078269,
+        "updated": 1649596252140,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h122",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h122.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -495,12 +575,12 @@
         "mag": 4.1,
         "place": "39 km WSW of El Arenal, Mexico",
         "time": 1649567200743,
-        "updated": 1649568847040,
+        "updated": 1649598165515,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h110",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h110.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -510,7 +590,7 @@
         "code": "7000h110",
         "ids": ",us7000h110,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.487,
         "rms": 0.64,
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "54 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1649558624989,
         "updated": 1649565983823,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 54 km S of Whites City, New Mexico"
+        "title": "M 3.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Chile-Argentina border region",
+        "place": "29 km E of Los Andes, Chile",
         "time": 1649521734759,
         "updated": 1649547881291,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": 63,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Chile-Argentina border region"
+        "title": "M 4.5 - 29 km E of Los Andes, Chile"
       },
       "geometry": {
         "type": "Point",
