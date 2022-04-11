@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649693102000,
+    "generated": 1649696645000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1649692009161,
+        "updated": 1649693307040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1ac",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1ac.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000h1ac",
+        "ids": ",us7000h1ac,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.706,
+        "rms": 0.92,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          180,
+          -24.9188,
+          508.02
+        ]
+      },
+      "id": "us7000h1ac"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "77 km ESE of Egegik, Alaska",
         "time": 1649689350427,
-        "updated": 1649690064368,
+        "updated": 1649695089040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224na81px",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224na81px.geojson",
@@ -28,8 +68,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0224na81px",
-        "ids": ",ak0224na81px,",
-        "sources": ",ak,",
+        "ids": ",us7000h1a5,ak0224na81px,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak0224na81px"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "49 km SE of Hengchun, Taiwan",
+        "time": 1649688189383,
+        "updated": 1649694216040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h19y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h19y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000h19y",
+        "ids": ",us7000h19y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.166,
+        "rms": 0.53,
+        "gap": 113,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 49 km SE of Hengchun, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0237,
+          21.6464,
+          10
+        ]
+      },
+      "id": "us7000h19y"
     },
     {
       "type": "Feature",
@@ -1608,54 +1688,14 @@
         ]
       },
       "id": "us7000h14s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "6km SE of Tres Pinos, CA",
-        "time": 1649610178630,
-        "updated": 1649692376103,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73716646",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73716646.geojson",
-        "felt": 3,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "nc",
-        "code": "73716646",
-        "ids": ",nc73716646,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.0511,
-        "rms": 0.11,
-        "gap": 75,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 6km SE of Tres Pinos, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.2626648,
-          36.7563324,
-          10.03
-        ]
-      },
-      "id": "nc73716646"
     }
   ],
   "bbox": [
     -177.6414,
     -58.0285,
     -3.31,
-    160.6039,
+    180,
     62.182,
-    249.53
+    508.02
   ]
 }
