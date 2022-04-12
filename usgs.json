@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649782983000,
+    "generated": 1649786416000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.46,
         "place": "1 km ESE of Yauco, Puerto Rico",
         "time": 1649779823910,
-        "updated": 1649781893760,
+        "updated": 1649783747563,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71344353",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71344353.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71344353",
         "ids": ",pr71344353,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 9,
         "dmin": null,
         "rms": 0.14,
@@ -52,25 +52,65 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "81 km WSW of San Antonio, Chile",
-        "time": 1649779667302,
-        "updated": 1649781391040,
+        "mag": 4.5,
+        "place": "70 km SSE of Katsuura, Japan",
+        "time": 1649779673365,
+        "updated": 1649783113222,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1hk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1hk.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1hl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1hl.geojson",
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 312,
+        "net": "us",
+        "code": "7000h1hl",
+        "ids": ",us7000h1hl,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.527,
+        "rms": 0.51,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 70 km SSE of Katsuura, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5077,
+          34.5328,
+          48.72
+        ]
+      },
+      "id": "us7000h1hl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "81 km WSW of San Antonio, Chile",
+        "time": 1649779667302,
+        "updated": 1649785427065,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1hk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1hk.geojson",
+        "felt": 2,
+        "cdi": 5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
         "net": "us",
         "code": "7000h1hk",
         "ids": ",us7000h1hk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.698,
         "rms": 0.35,
@@ -132,6 +172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "58 km SSW of Nikolski, Alaska",
+        "time": 1649778394760,
+        "updated": 1649783082274,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224oy0viv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224oy0viv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "0224oy0viv",
+        "ids": ",ak0224oy0viv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 58 km SSW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.0541,
+          52.4227,
+          7.5
+        ]
+      },
+      "id": "ak0224oy0viv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "58 km S of Whites City, New Mexico",
         "time": 1649775511788,
@@ -173,9 +253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "118 km S of Sand Point, Alaska",
-        "time": 1649774118266,
-        "updated": 1649781827458,
+        "place": "114 km S of Sand Point, Alaska",
+        "time": 1649774119015,
+        "updated": 1649783207040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1h8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1h8.geojson",
@@ -192,19 +272,19 @@
         "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 0.869,
-        "rms": 0.33,
+        "dmin": 0.879,
+        "rms": 0.55,
         "gap": 206,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.6 - 118 km S of Sand Point, Alaska"
+        "title": "M 3.6 - 114 km S of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.7408,
-          54.2796,
-          24.15
+          -160.8199,
+          54.3222,
+          29.86
         ]
       },
       "id": "us7000h1h8"
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "tx2022hccz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "116 km NNW of Zonguldak, Turkey",
-        "time": 1649698722806,
-        "updated": 1649765632052,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1b2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1b2.geojson",
-        "felt": 16,
-        "cdi": 3.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 317,
-        "net": "us",
-        "code": "7000h1b2",
-        "ids": ",us7000h1b2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.878,
-        "rms": 0.79,
-        "gap": 27,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 116 km NNW of Zonguldak, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.0657,
-          42.3489,
-          13.89
-        ]
-      },
-      "id": "us7000h1b2"
     }
   ],
   "bbox": [
