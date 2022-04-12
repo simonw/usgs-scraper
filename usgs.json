@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649786416000,
+    "generated": 1649790003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1649786096177,
+        "updated": 1649788725040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1ia",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1ia.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.031,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000h1ia",
+        "ids": ",us7000h1ia,ak0224oz9ghp,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.634,
+        "rms": 0.82,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.8503,
+          51.3464,
+          55.23
+        ]
+      },
+      "id": "us7000h1ia"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1448,92 +1488,12 @@
         ]
       },
       "id": "us7000h1bq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "52 km NW of Toyah, Texas",
-        "time": 1649701920275,
-        "updated": 1649706888549,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022hccx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022hccx.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2022hccx",
-        "ids": ",tx2022hccx,us7000h1ba,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.06541087482,
-        "rms": 0.1,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 52 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2056419,
-          31.63013147,
-          4.306298828
-        ]
-      },
-      "id": "tx2022hccx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "51 km NW of Toyah, Texas",
-        "time": 1649701912685,
-        "updated": 1649705542233,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022hccz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022hccz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2022hccz",
-        "ids": ",tx2022hccz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.07545302178,
-        "rms": 0.1,
-        "gap": 162,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 51 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2098247,
-          31.61264593,
-          3.997802734
-        ]
-      },
-      "id": "tx2022hccz"
     }
   ],
   "bbox": [
     -179.9274,
     -55.8661,
-    3.997802734,
+    5,
     179.6123,
     63.4898,
     566.15
