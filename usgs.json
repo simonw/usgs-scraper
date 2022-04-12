@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649793603000,
+    "generated": 1649797203000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "36 km N of Khorixas, Namibia",
+        "time": 1649795775744,
+        "updated": 1649796870040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1j9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1j9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000h1j9",
+        "ids": ",us7000h1j9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.644,
+        "rms": 1.06,
+        "gap": 28,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 36 km N of Khorixas, Namibia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9224,
+          -20.0417,
+          10
+        ]
+      },
+      "id": "us7000h1j9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.98,
+        "place": "41 km NNW of San Antonio, Puerto Rico",
+        "time": 1649795088730,
+        "updated": 1649797067530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71344368",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71344368.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "pr",
+        "code": "71344368",
+        "ids": ",pr71344368,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": null,
+        "rms": 0.17,
+        "gap": 212,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 41 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1828333333333,
+          18.8543333333333,
+          55.02
+        ]
+      },
+      "id": "pr71344368"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.2,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1649786383026,
-        "updated": 1649790757040,
+        "updated": 1649796053950,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1ic",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1ic.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": 2.966,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "7000h1ic",
         "ids": ",us7000h1ic,ak0224ozai48,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.742,
         "rms": 0.91,
