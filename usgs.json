@@ -1,35 +1,115 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649919609000,
+    "generated": 1649923209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "south of the Fiji Islands",
+        "time": 1649921169555,
+        "updated": 1649922713040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h23r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h23r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000h23r",
+        "ids": ",us7000h23r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.718,
+        "rms": 0.38,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.0196,
+          -22.7852,
+          568.81
+        ]
+      },
+      "id": "us7000h23r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "south of Tonga",
+        "time": 1649919815043,
+        "updated": 1649921302307,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h23k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h23k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000h23k",
+        "ids": ",us7000h23k,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 4.689,
+        "rms": 1.24,
+        "gap": 48,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - south of Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.2915,
+          -25.1817,
+          10
+        ]
+      },
+      "id": "us7000h23k"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.46,
         "place": "12km N of Borrego Springs, CA",
         "time": 1649918020690,
-        "updated": 1649919158402,
+        "updated": 1649921594040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39992023",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39992023.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 93,
+        "sig": 94,
         "net": "ci",
         "code": "39992023",
-        "ids": ",ci39992023,",
-        "sources": ",ci,",
+        "ids": ",ci39992023,us7000h23a,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 80,
         "dmin": 0.04322,
