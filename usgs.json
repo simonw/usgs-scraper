@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649959209000,
+    "generated": 1649962809000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.47,
+        "place": "11 km ENE of Pāhala, Hawaii",
+        "time": 1649960869820,
+        "updated": 1649961199950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72983792",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72983792.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "hv",
+        "code": "72983792",
+        "ids": ",hv72983792,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": null,
+        "rms": 0.140000001,
+        "gap": 137,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.382827758789,
+          19.2521667480469,
+          31.3999996185303
+        ]
+      },
+      "id": "hv72983792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.3,
-        "place": "36 km N of Dyer, Nevada",
-        "time": 1649957179819,
-        "updated": 1649958653692,
+        "place": "37 km N of Dyer, Nevada",
+        "time": 1649957179821,
+        "updated": 1649959836296,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00837174",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00837174.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,21 +70,21 @@
         "code": "00837174",
         "ids": ",nn00837174,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
-        "dmin": 0.131,
-        "rms": 0.1391,
-        "gap": 50.77,
+        "dmin": 0.13,
+        "rms": 0.1234,
+        "gap": 50.68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 36 km N of Dyer, Nevada"
+        "title": "M 3.3 - 37 km N of Dyer, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.047,
-          38.0002,
-          5.7
+          -118.0462,
+          38.0016,
+          5.9
         ]
       },
       "id": "nn00837174"
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "49 km W of Villazón, Bolivia",
+        "place": "Jujuy, Argentina",
         "time": 1649951394379,
         "updated": 1649952594040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 39,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 49 km W of Villazón, Bolivia"
+        "title": "M 4.9 - Jujuy, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -255,7 +295,7 @@
         "mag": 4.7,
         "place": "87 km W of Illapel, Chile",
         "time": 1649941291527,
-        "updated": 1649949297040,
+        "updated": 1649959205040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h26d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h26d.geojson",
@@ -270,7 +310,7 @@
         "code": "7000h26d",
         "ids": ",us7000h26d,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.015,
         "rms": 0.61,
@@ -295,7 +335,7 @@
         "mag": 4.9,
         "place": "108 km W of Illapel, Chile",
         "time": 1649940791895,
-        "updated": 1649941995040,
+        "updated": 1649959390040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h26b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h26b.geojson",
@@ -310,7 +350,7 @@
         "code": "7000h26b",
         "ids": ",us7000h26b,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.134,
         "rms": 1.06,
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.36,
-        "place": "Puerto Rico region",
+        "place": "45 km N of Brenas, Puerto Rico",
         "time": 1649900441810,
         "updated": 1649911022030,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 237,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Puerto Rico region"
+        "title": "M 3.4 - 45 km N of Brenas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "28 km SSE of Champerico, Guatemala",
+        "place": "Guatemala",
         "time": 1649890597342,
         "updated": 1649912206832,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 207,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 28 km SSE of Champerico, Guatemala"
+        "title": "M 4.3 - Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -1052,13 +1092,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "59 km S of Whites City, New Mexico",
-        "time": 1649885181064,
-        "updated": 1649885702040,
+        "mag": 2.5,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1649885181027,
+        "updated": 1649962061213,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h1ze",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h1ze.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022hfzt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022hfzt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2022hfzt",
+        "ids": ",tx2022hfzt,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1114591316,
+        "rms": 0.3,
+        "gap": 104,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3701245,
+          31.67286545,
+          7.854003906
+        ]
+      },
+      "id": "tx2022hfzt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1649885180924,
+        "updated": 1649960285867,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022hfzr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022hfzr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -1066,34 +1146,34 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
-        "net": "us",
-        "code": "7000h1ze",
-        "ids": ",us7000h1ze,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2022hfzr",
+        "ids": ",us7000h1ze,tx2022hfzr,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.12,
-        "rms": 0.29,
-        "gap": 102,
+        "nst": 10,
+        "dmin": 0.08683006633,
+        "rms": 0.3,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 59 km S of Whites City, New Mexico"
+        "title": "M 2.6 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3642,
-          31.6367,
-          5
+          -104.366273,
+          31.66323809,
+          8.728076172
         ]
       },
-      "id": "us7000h1ze"
+      "id": "tx2022hfzr"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Ryukyu Islands, Japan",
+        "place": "137 km WNW of Naha, Japan",
         "time": 1649881162069,
         "updated": 1649882914040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 44,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Ryukyu Islands, Japan"
+        "title": "M 4.8 - 137 km WNW of Naha, Japan"
       },
       "geometry": {
         "type": "Point",
