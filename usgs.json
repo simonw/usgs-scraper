@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650135613000,
+    "generated": 1650139213000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "38km E of Big Pine, CA",
+        "time": 1650137662700,
+        "updated": 1650138206905,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40238416",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40238416.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "ci",
+        "code": "40238416",
+        "ids": ",nc73718485,ci40238416,",
+        "sources": ",nc,ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.2169,
+        "rms": 0.11,
+        "gap": 118,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 38km E of Big Pine, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8651667,
+          37.1046667,
+          -0.16
+        ]
+      },
+      "id": "ci40238416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.46,
+        "place": "72 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1650134861410,
+        "updated": 1650138813198,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022106000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022106000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 184,
+        "net": "pr",
+        "code": "2022106000",
+        "ids": ",pr2022106000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.7136,
+        "rms": 0.2,
+        "gap": 289,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 72 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.067,
+          18.9878,
+          24
+        ]
+      },
+      "id": "pr2022106000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,19 +133,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "83 km WSW of San Antonio, Chile",
+        "place": "Off the coast of Valparaiso, Chile",
         "time": 1650129033627,
-        "updated": 1650135520805,
+        "updated": 1650137959108,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h2q1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h2q1.geojson",
-        "felt": 4,
-        "cdi": 2.2,
+        "felt": 5,
+        "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 387,
         "net": "us",
         "code": "7000h2q1",
         "ids": ",us7000h2q1,",
@@ -77,7 +157,7 @@
         "gap": 69,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 83 km WSW of San Antonio, Chile"
+        "title": "M 5.0 - Off the coast of Valparaiso, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -92,8 +172,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "39 km WSW of Kýthira, Greece",
+        "time": 1650128439693,
+        "updated": 1650136848040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h2q0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h2q0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000h2q0",
+        "ids": ",us7000h2q0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.243,
+        "rms": 0.82,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 39 km WSW of Kýthira, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5741,
+          36.0479,
+          62.33
+        ]
+      },
+      "id": "us7000h2q0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "124 km E of Shangri-La, China",
+        "place": "Sichuan-Yunnan border region, China",
         "time": 1650125920217,
         "updated": 1650134848040,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 124 km E of Shangri-La, China"
+        "title": "M 4.6 - Sichuan-Yunnan border region, China"
       },
       "geometry": {
         "type": "Point",
@@ -413,9 +533,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "63 km SSW of Nikolski, Alaska",
         "time": 1650086240650,
-        "updated": 1650087092040,
+        "updated": 1650137404678,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h2mv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h2mv.geojson",
@@ -428,8 +548,8 @@
         "sig": 259,
         "net": "us",
         "code": "7000h2mv",
-        "ids": ",us7000h2mv,ak0224ve1nbf,",
-        "sources": ",us,ak,",
+        "ids": ",ak0224ve1nbf,us7000h2mv,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 1.255,
@@ -437,7 +557,7 @@
         "gap": 176,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 4.1 - 63 km SSW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1128,52 +1248,12 @@
         ]
       },
       "id": "ak0224tzosv1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "Puerto Rico region",
-        "time": 1650051777770,
-        "updated": 1650114785977,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71344683",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71344683.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71344683",
-        "ids": ",pr71344683,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 150,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8171666666667,
-          18.029,
-          17.17
-        ]
-      },
-      "id": "pr71344683"
     }
   ],
   "bbox": [
     -169.1186,
     -33.9896,
-    5,
+    -0.16,
     154.2931,
     62.4185,
     505.42
