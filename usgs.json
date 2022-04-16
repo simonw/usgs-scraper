@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650103213000,
+    "generated": 1650106813000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 42
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 2.47,
         "place": "5km ESE of Pinnacles, CA",
         "time": 1650099238510,
-        "updated": 1650100586142,
+        "updated": 1650104379878,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73718255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73718255.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -110,7 +110,7 @@
         "code": "73718255",
         "ids": ",nc73718255,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 38,
         "dmin": 0.0637,
         "rms": 0.18,
@@ -248,6 +248,46 @@
         ]
       },
       "id": "us7000h2mv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "13km S of Ferndale, CA",
+        "time": 1650085574940,
+        "updated": 1650106706739,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73718195",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73718195.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "73718195",
+        "ids": ",nc73718195,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.04939,
+        "rms": 0.08,
+        "gap": 89,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 13km S of Ferndale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.2751667,
+          40.4621667,
+          24.84
+        ]
+      },
+      "id": "nc73718195"
     },
     {
       "type": "Feature",
@@ -695,12 +735,12 @@
         "mag": 3.04,
         "place": "13 km SE of Esperanza, Puerto Rico",
         "time": 1650062680190,
-        "updated": 1650065860440,
+        "updated": 1650104483750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71344713",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71344713.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -710,7 +750,7 @@
         "code": "71344713",
         "ids": ",pr71344713,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": null,
         "rms": 0.16,
@@ -1495,11 +1535,11 @@
         "mag": 4.63,
         "place": "9 km E of Pāhala, Hawaii",
         "time": 1650023913060,
-        "updated": 1650095551658,
+        "updated": 1650104180320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72984552",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72984552.geojson",
-        "felt": 521,
+        "felt": 522,
         "cdi": 4.2,
         "mmi": 6.278,
         "alert": "green",
@@ -1648,126 +1688,6 @@
         ]
       },
       "id": "us7000h2gq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "6km ENE of Avenal, CA",
-        "time": 1650019109380,
-        "updated": 1650063698378,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73717790",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73717790.geojson",
-        "felt": 5,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "nc",
-        "code": "73717790",
-        "ids": ",nc73717790,us7000h2gl,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 49,
-        "dmin": 0.0704,
-        "rms": 0.13,
-        "gap": 132,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 6km ENE of Avenal, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.062,
-          36.0181667,
-          4.43
-        ]
-      },
-      "id": "nc73717790"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "84 km E of Chignik, Alaska",
-        "time": 1650017077960,
-        "updated": 1650020409040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224tteph3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224tteph3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "0224tteph3",
-        "ids": ",us7000h2gj,ak0224tteph3,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 84 km E of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.0513,
-          56.2405,
-          63.1
-        ]
-      },
-      "id": "ak0224tteph3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "26 km ESE of Calama, Chile",
-        "time": 1650016933756,
-        "updated": 1650019149040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h2gh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h2gh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000h2gh",
-        "ids": ",us7000h2gh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.621,
-        "rms": 0.57,
-        "gap": 38,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 26 km ESE of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.6858,
-          -22.5411,
-          119.75
-        ]
-      },
-      "id": "us7000h2gh"
     }
   ],
   "bbox": [
