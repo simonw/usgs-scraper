@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650470440000,
+    "generated": 1650474440000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1650472991800,
+        "updated": 1650473323390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72990522",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72990522.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "hv",
+        "code": "72990522",
+        "ids": ",hv72990522,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": null,
+        "rms": 0.150000006,
+        "gap": 113,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.494995117188,
+          19.1625003814697,
+          33.3800010681152
+        ]
+      },
+      "id": "hv72990522"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.9,
         "place": "124 km ESE of Neiafu, Tonga",
         "time": 1650467791485,
-        "updated": 1650468992040,
+        "updated": 1650471769243,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3l1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3l1.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 370,
         "net": "us",
         "code": "7000h3l1",
         "ids": ",us7000h3l1,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 5.314,
         "rms": 1.42,
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "18 km E of Palora, Ecuador",
+        "place": "Ecuador",
         "time": 1650433127588,
         "updated": 1650462781040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 61,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 18 km E of Palora, Ecuador"
+        "title": "M 4.2 - Ecuador"
       },
       "geometry": {
         "type": "Point",
@@ -815,17 +855,17 @@
         "mag": 3.04,
         "place": "22 km WNW of Stanley, Idaho",
         "time": 1650430333640,
-        "updated": 1650465679693,
+        "updated": 1650472893433,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80543619",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80543619.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 143,
         "net": "mb",
         "code": "80543619",
         "ids": ",mb80543619,",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Mauritius - Reunion region",
+        "place": "283 km ESE of Port Mathurin, Mauritius",
         "time": 1650418124270,
         "updated": 1650419846040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 151,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Mauritius - Reunion region"
+        "title": "M 5.0 - 283 km ESE of Port Mathurin, Mauritius"
       },
       "geometry": {
         "type": "Point",
@@ -1648,126 +1688,6 @@
         ]
       },
       "id": "us7000h3dv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "South Sandwich Islands region",
-        "time": 1650387445295,
-        "updated": 1650393160040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3dn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3dn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000h3dn",
-        "ids": ",us7000h3dn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 7.316,
-        "rms": 0.27,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.1426,
-          -57.9235,
-          37.57
-        ]
-      },
-      "id": "us7000h3dn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "29 km ESE of San Ignacio, Philippines",
-        "time": 1650386190941,
-        "updated": 1650389129040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3dm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3dm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000h3dm",
-        "ids": ",us7000h3dm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.14,
-        "rms": 0.48,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 29 km ESE of San Ignacio, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.7254,
-          6.9919,
-          80.16
-        ]
-      },
-      "id": "us7000h3dm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "266 km S of Ambon, Indonesia",
-        "time": 1650385042468,
-        "updated": 1650387791040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3cr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3cr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000h3cr",
-        "ids": ",us7000h3cr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.654,
-        "rms": 0.7,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 266 km S of Ambon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.131,
-          -6.1067,
-          353.53
-        ]
-      },
-      "id": "us7000h3cr"
     }
   ],
   "bbox": [
@@ -1776,6 +1696,6 @@
     -0.95,
     170.8329,
     66.4076,
-    353.53
+    184.2
   ]
 }
