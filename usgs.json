@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650657652000,
+    "generated": 1650661192000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "1 km SW of Pāhala, Hawaii",
+        "time": 1650659460720,
+        "updated": 1650659792800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72992777",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72992777.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "hv",
+        "code": "72992777",
+        "ids": ",hv72992777,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": null,
+        "rms": 0.140000001,
+        "gap": 116,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.48649597168,
+          19.193000793457,
+          28.0499992370605
+        ]
+      },
+      "id": "hv72992777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "138 km N of Kendari, Indonesia",
+        "time": 1650656967178,
+        "updated": 1650658375040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hfqc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hfqc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000hfqc",
+        "ids": ",us6000hfqc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.76,
+        "rms": 0.68,
+        "gap": 49,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 138 km N of Kendari, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2797,
+          -2.7438,
+          10
+        ]
+      },
+      "id": "us6000hfqc"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "2 km S of Indios, Puerto Rico",
         "time": 1650654752420,
-        "updated": 1650656049270,
+        "updated": 1650657689295,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71345523",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71345523.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "71345523",
         "ids": ",pr71345523,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 8,
         "dmin": null,
         "rms": 0.13,
@@ -55,7 +135,7 @@
         "mag": 2.5,
         "place": "45 km ESE of Yakutat, Alaska",
         "time": 1650648556586,
-        "updated": 1650649639089,
+        "updated": 1650657742040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02255ihhmo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02255ihhmo.geojson",
@@ -68,8 +148,8 @@
         "sig": 96,
         "net": "ak",
         "code": "02255ihhmo",
-        "ids": ",ak02255ihhmo,",
-        "sources": ",ak,",
+        "ids": ",us6000hfpg,ak02255ihhmo,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -132,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.52,
+        "mag": 2.51,
         "place": "22km W of El Sauzal, B.C., MX",
-        "time": 1650642448450,
-        "updated": 1650642660747,
+        "time": 1650642448810,
+        "updated": 1650659016101,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40243888",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40243888.geojson",
@@ -143,18 +223,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 97,
         "net": "ci",
         "code": "40243888",
         "ids": ",ci40243888,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.2228,
-        "rms": 0.19,
-        "gap": 242,
+        "nst": 22,
+        "dmin": 0.2177,
+        "rms": 0.17,
+        "gap": 243,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 22km W of El Sauzal, B.C., MX"
@@ -162,9 +242,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.9146667,
-          31.934,
-          1.14
+          -116.9095,
+          31.9308333,
+          14.97
         ]
       },
       "id": "ci40243888"
@@ -255,17 +335,17 @@
         "mag": 3.9,
         "place": "4 km SSE of Big Lake, Alaska",
         "time": 1650628190533,
-        "updated": 1650656910468,
+        "updated": 1650659669401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02255f18x6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02255f18x6.geojson",
-        "felt": 208,
+        "felt": 211,
         "cdi": 3.3,
         "mmi": 3.126,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 303,
+        "sig": 304,
         "net": "ak",
         "code": "02255f18x6",
         "ids": ",ak02255f18x6,us6000hfjg,",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "98 km SSE of Tual, Indonesia",
+        "place": "Kepulauan Aru region, Indonesia",
         "time": 1650622346492,
         "updated": 1650630323040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 79,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 98 km SSE of Tual, Indonesia"
+        "title": "M 4.5 - Kepulauan Aru region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1128,214 +1208,14 @@
         ]
       },
       "id": "nm60391181"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "27 km WNW of Stanley, Idaho",
-        "time": 1650574420090,
-        "updated": 1650649063122,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hff3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hff3.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000hff3",
-        "ids": ",mb80543749,us6000hff3,",
-        "sources": ",mb,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.857,
-        "rms": 0.95,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 27 km WNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.2327,
-          44.3506,
-          10
-        ]
-      },
-      "id": "us6000hff3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "near the north coast of Greenland",
-        "time": 1650573159099,
-        "updated": 1650633014040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hfev",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hfev.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000hfev",
-        "ids": ",us6000hfev,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.31,
-        "rms": 0.89,
-        "gap": 22,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - near the north coast of Greenland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -28.1194,
-          82.9995,
-          10
-        ]
-      },
-      "id": "us6000hfev"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "63 km ENE of Pedro Bay, Alaska",
-        "time": 1650572739768,
-        "updated": 1650657250040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02253wpmv8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02253wpmv8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "02253wpmv8",
-        "ids": ",us6000hfer,ak02253wpmv8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 63 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.1215,
-          60.0722,
-          120.1
-        ]
-      },
-      "id": "ak02253wpmv8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "226 km S of Sinabang, Indonesia",
-        "time": 1650572615563,
-        "updated": 1650656785040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hfes",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hfes.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000hfes",
-        "ids": ",us6000hfes,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.17,
-        "rms": 0.97,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 226 km S of Sinabang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.7549,
-          0.4635,
-          10
-        ]
-      },
-      "id": "us6000hfes"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "62 km E of Nabire, Indonesia",
-        "time": 1650571308125,
-        "updated": 1650656248040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hfeg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hfeg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000hfeg",
-        "ids": ",us6000hfeg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.823,
-        "rms": 1.13,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 62 km E of Nabire, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.0608,
-          -3.2788,
-          10
-        ]
-      },
-      "id": "us6000hfeg"
     }
   ],
   "bbox": [
     -177.8423,
     -58.003,
     0.1,
-    136.0608,
-    82.9995,
+    133.0144,
+    62.0003,
     206.8
   ]
 }
