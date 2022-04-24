@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650815996000,
+    "generated": 1650819736000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "15km SSW of Searles Valley, CA",
+        "time": 1650818557990,
+        "updated": 1650819215200,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40245048",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40245048.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "ci",
+        "code": "40245048",
+        "ids": ",ci40245048,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.05393,
+        "rms": 0.13,
+        "gap": 93,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15km SSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4563333,
+          35.6403333,
+          6.3
+        ]
+      },
+      "id": "ci40245048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "170 km WNW of Kuril’sk, Russia",
+        "time": 1650814797177,
+        "updated": 1650817641040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hg2e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hg2e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000hg2e",
+        "ids": ",us6000hg2e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.422,
+        "rms": 0.45,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 170 km WNW of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9639,
+          45.9754,
+          10
+        ]
+      },
+      "id": "us6000hg2e"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 5,
         "place": "12 km S of Molina, Chile",
         "time": 1650811506160,
-        "updated": 1650815657923,
+        "updated": 1650818658993,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hg24",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hg24.geojson",
@@ -1775,12 +1855,12 @@
         "mag": 3.27,
         "place": "4 km SSW of Indios, Puerto Rico",
         "time": 1650736736270,
-        "updated": 1650738752210,
+        "updated": 1650817624321,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71345653",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71345653.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1788,9 +1868,9 @@
         "sig": 165,
         "net": "pr",
         "code": "71345653",
-        "ids": ",us6000hfvw,pr71345653,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr71345653,us6000hfvw,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": null,
         "rms": 0.13,
@@ -1928,46 +2008,6 @@
         ]
       },
       "id": "pr71345608"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "187 km SW of Lithakiá, Greece",
-        "time": 1650732296121,
-        "updated": 1650733715040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hfvc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hfvc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000hfvc",
-        "ids": ",us6000hfvc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.053,
-        "rms": 0.79,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 187 km SW of Lithakiá, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.5819,
-          36.3537,
-          10
-        ]
-      },
-      "id": "us6000hfvc"
     }
   ],
   "bbox": [
