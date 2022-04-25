@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650854116000,
+    "generated": 1650856857000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.5,
         "place": "66 km WNW of Nanwalek, Alaska",
-        "time": 1650853747685,
-        "updated": 1650853979627,
+        "time": 1650853747682,
+        "updated": 1650854482461,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225a860bv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225a860bv.geojson",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.9996,
-          59.5832,
-          78.1
+          -153.0003,
+          59.5833,
+          78.2
         ]
       },
       "id": "ak0225a860bv"
@@ -55,7 +55,7 @@
         "mag": 2.8,
         "place": "184 km SSW of Chenega, Alaska",
         "time": 1650850742436,
-        "updated": 1650850953806,
+        "updated": 1650855578040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225a7mpib",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225a7mpib.geojson",
@@ -68,8 +68,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0225a7mpib",
-        "ids": ",ak0225a7mpib,",
-        "sources": ",ak,",
+        "ids": ",us6000hg57,ak0225a7mpib,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -335,12 +335,12 @@
         "mag": 2.52,
         "place": "2 km S of Barranquitas, Puerto Rico",
         "time": 1650830867790,
-        "updated": 1650831797720,
+        "updated": 1650855374677,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71345913",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71345913.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +350,7 @@
         "code": "71345913",
         "ids": ",pr71345913,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": null,
         "rms": 0.15,
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "130 km ESE of Shizunai-furukawachō, Japan",
+        "place": "Hokkaido, Japan region",
         "time": 1650788173221,
         "updated": 1650792516040,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 60,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 130 km ESE of Shizunai-furukawachō, Japan"
+        "title": "M 5.1 - Hokkaido, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "159 km E of Shikotan, Russia",
+        "place": "east of the Kuril Islands",
         "time": 1650774637270,
         "updated": 1650775848040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 189,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 159 km E of Shikotan, Russia"
+        "title": "M 4.8 - east of the Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1608,86 +1608,6 @@
         ]
       },
       "id": "pr71345763"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.78,
-        "place": "53 km SSE of Boca de Yuma, Dominican Republic",
-        "time": 1650770392930,
-        "updated": 1650773388785,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022114000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022114000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 220,
-        "net": "pr",
-        "code": "2022114000",
-        "ids": ",us6000hfz0,pr2022114000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.5727,
-        "rms": 0.31,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 53 km SSE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3906,
-          17.9413,
-          19
-        ]
-      },
-      "id": "pr2022114000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "117 km NNE of Bangkalan, Indonesia",
-        "time": 1650767869896,
-        "updated": 1650770017040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hfyz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hfyz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000hfyz",
-        "ids": ",us6000hfyz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.675,
-        "rms": 0.95,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 117 km NNE of Bangkalan, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.0233,
-          -6.0247,
-          594.08
-        ]
-      },
-      "id": "us6000hfyz"
     }
   ],
   "bbox": [
@@ -1696,6 +1616,6 @@
     6.3,
     173.8551,
     72.4155,
-    594.08
+    554.7
   ]
 }
