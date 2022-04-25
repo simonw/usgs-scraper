@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650924016000,
+    "generated": 1650927597000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "10 km SSW of Tallaboa, Puerto Rico",
+        "time": 1650923262460,
+        "updated": 1650924162430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71346113",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71346113.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "pr",
+        "code": "71346113",
+        "ids": ",pr71346113,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": null,
+        "rms": 0.28,
+        "gap": 225,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km SSW of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7518333333333,
+          17.9105,
+          5.99
+        ]
+      },
+      "id": "pr71346113"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "7 km E of Pāhala, Hawaii",
         "time": 1650922628750,
-        "updated": 1650922960160,
+        "updated": 1650925824040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72995162",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72995162.geojson",
@@ -28,8 +68,8 @@
         "sig": 112,
         "net": "hv",
         "code": "72995162",
-        "ids": ",hv72995162,",
-        "sources": ",hv,",
+        "ids": ",us6000hgbq,hv72995162,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 42,
         "dmin": null,
@@ -52,8 +92,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "73 km S of Hualien City, Taiwan",
+        "time": 1650922236235,
+        "updated": 1650925155040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hgbn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hgbn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000hgbn",
+        "ids": ",us6000hgbn,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.21,
+        "rms": 1,
+        "gap": 84,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.5 - 73 km S of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5122,
+          23.3211,
+          36.75
+        ]
+      },
+      "id": "us6000hgbn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.46,
-        "place": "11 km E of Crowder, Oklahoma",
+        "place": "Oklahoma",
         "time": 1650919383560,
         "updated": 1650920795663,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 11 km E of Crowder, Oklahoma"
+        "title": "M 2.5 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -655,12 +735,12 @@
         "mag": 3.7,
         "place": "67 km SE of Iquique, Chile",
         "time": 1650895429288,
-        "updated": 1650919730460,
+        "updated": 1650925756133,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hg81",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hg81.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1012,10 +1092,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.71,
+        "mag": 2.73,
         "place": "6km W of Ferndale, CA",
-        "time": 1650867512620,
-        "updated": 1650901092682,
+        "time": 1650867512570,
+        "updated": 1650926482301,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73723030",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73723030.geojson",
@@ -1023,18 +1103,18 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 113,
+        "sig": 115,
         "net": "nc",
         "code": "73723030",
         "ids": ",nc73723030,",
         "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.09168,
-        "rms": 0.05,
-        "gap": 192,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.05405,
+        "rms": 0.11,
+        "gap": 199,
         "magType": "md",
         "type": "earthquake",
         "title": "M 2.7 - 6km W of Ferndale, CA"
@@ -1042,9 +1122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.3395004,
-          40.5673332,
-          21.27
+          -124.334,
+          40.569,
+          21.62
         ]
       },
       "id": "nc73723030"
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "11 km SSE of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1650859082610,
         "updated": 1650863397130,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 244,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 11 km SSE of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.51,
-        "place": "122 km NNE of Suárez, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1650855741680,
         "updated": 1650860832676,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 302,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 122 km NNE of Suárez, Puerto Rico"
+        "title": "M 3.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1768,6 @@
         ]
       },
       "id": "us6000hg4t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "194 km SE of Sarangani, Philippines",
-        "time": 1650838479578,
-        "updated": 1650848244040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hg46",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hg46.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000hg46",
-        "ids": ",us6000hg46,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.123,
-        "rms": 0.74,
-        "gap": 158,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 194 km SE of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.6675,
-          4.1208,
-          68.14
-        ]
-      },
-      "id": "us6000hg46"
     }
   ],
   "bbox": [
