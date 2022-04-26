@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650996009000,
+    "generated": 1650999609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "11 km SSE of Guánica, Puerto Rico",
+        "time": 1650998601500,
+        "updated": 1650999472930,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71346198",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71346198.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71346198",
+        "ids": ",pr71346198,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 245,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8776666666667,
+          17.8743333333333,
+          14.04
+        ]
+      },
+      "id": "pr71346198"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.52,
         "place": "5 km ENE of Pāhala, Hawaii",
         "time": 1650988285820,
-        "updated": 1650988990040,
+        "updated": 1650996252922,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72995737",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72995737.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -68,9 +108,9 @@
         "sig": 98,
         "net": "hv",
         "code": "72995737",
-        "ids": ",us6000hggi,hv72995737,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv72995737,us6000hggi,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 47,
         "dmin": null,
         "rms": 0.140000001,
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "114 km E of Neiafu, Tonga",
+        "place": "Tonga region",
         "time": 1650986274207,
         "updated": 1650989599040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 114 km E of Neiafu, Tonga"
+        "title": "M 4.6 - Tonga region"
       },
       "geometry": {
         "type": "Point",
@@ -295,17 +335,17 @@
         "mag": 2.74,
         "place": "4km E of Truckee, CA",
         "time": 1650981065160,
-        "updated": 1650995890555,
+        "updated": 1650997818745,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73723705",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73723705.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 119,
         "net": "nc",
         "code": "73723705",
         "ids": ",nc73723705,nn00837873,us6000hgfq,",
@@ -328,6 +368,46 @@
         ]
       },
       "id": "nc73723705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "294 km SW of Adak, Alaska",
+        "time": 1650970351447,
+        "updated": 1650997454379,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225c0lyw5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225c0lyw5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "0225c0lyw5",
+        "ids": ",ak0225c0lyw5,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.7,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 294 km SW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.8838,
+          50.2019,
+          48.4
+        ]
+      },
+      "id": "ak0225c0lyw5"
     },
     {
       "type": "Feature",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.56,
-        "place": "Puerto Rico region",
+        "place": "10 km SSW of Tallaboa, Puerto Rico",
         "time": 1650923262460,
         "updated": 1650924162430,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 225,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 10 km SSW of Tallaboa, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "11 km E of Crowder, Oklahoma",
+        "place": "Oklahoma",
         "time": 1650919383560,
         "updated": 1650982812040,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 11 km E of Crowder, Oklahoma"
+        "title": "M 2.5 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
