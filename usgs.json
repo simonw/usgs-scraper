@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651089609000,
+    "generated": 1651093209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "35 km NNW of Toyah, Texas",
+        "time": 1651092085107,
+        "updated": 1651092973567,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h5gu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h5gu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.722,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "7000h5gu",
+        "ids": ",us7000h5gu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.244,
+        "rms": 0.32,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 35 km NNW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.9646,
+          31.6006,
+          5
+        ]
+      },
+      "id": "us7000h5gu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4,
         "place": "36 km WSW of Mentone, Texas",
         "time": 1651085652927,
-        "updated": 1651088842040,
+        "updated": 1651093139765,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ifjt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ifjt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.628,
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": 4.637,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 246,
         "net": "tx",
         "code": "2022ifjt",
-        "ids": ",us6000hgqx,tx2022ifjt,",
-        "sources": ",us,tx,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "ids": ",tx2022ifjt,us6000hgqx,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 13,
         "dmin": 0.07684106682,
         "rms": 0.2,
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "86 km ESE of Caburan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1651014049904,
         "updated": 1651030492040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 86 km ESE of Caburan, Philippines"
+        "title": "M 4.4 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1048,126 +1088,6 @@
         ]
       },
       "id": "us6000hgj3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "7 km WSW of La Parguera, Puerto Rico",
-        "time": 1651004012340,
-        "updated": 1651004856950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71346218",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71346218.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71346218",
-        "ids": ",pr71346218,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.18,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km WSW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.115,
-          17.9551666666667,
-          10.74
-        ]
-      },
-      "id": "pr71346218"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "50 km SSW of Whites City, New Mexico",
-        "time": 1651003387053,
-        "updated": 1651041696052,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022idqn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022idqn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2022idqn",
-        "ids": ",us6000hgic,tx2022idqn,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.07009891429,
-        "rms": 0.4,
-        "gap": 95,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 50 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5956255,
-          31.76455115,
-          5.128955078
-        ]
-      },
-      "id": "tx2022idqn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "2 km ESE of Konia, Cyprus",
-        "time": 1651003340568,
-        "updated": 1651077079286,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hgid",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hgid.geojson",
-        "felt": 10,
-        "cdi": 6.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 277,
-        "net": "us",
-        "code": "6000hgid",
-        "ids": ",us6000hgid,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.721,
-        "rms": 0.93,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 2 km ESE of Konia, Cyprus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.4818,
-          34.7787,
-          13.76
-        ]
-      },
-      "id": "us6000hgid"
     }
   ],
   "bbox": [
