@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651338141000,
+    "generated": 1651341626000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "7 km WSW of Woodbine, Kansas",
+        "time": 1651334790304,
+        "updated": 1651338895040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h638",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h638.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000h638",
+        "ids": ",us7000h638,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.471,
+        "rms": 0.21,
+        "gap": 133,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km WSW of Woodbine, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0356,
+          38.7667,
+          5
+        ]
+      },
+      "id": "us7000h638"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 3.84,
         "place": "Mona Passage",
         "time": 1651324585960,
-        "updated": 1651327425675,
+        "updated": 1651338352040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022120001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022120001.geojson",
@@ -68,8 +108,8 @@
         "sig": 227,
         "net": "pr",
         "code": "2022120001",
-        "ids": ",pr2022120001,",
-        "sources": ",pr,",
+        "ids": ",us7000h62s,pr2022120001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 29,
         "dmin": 0.2135,
@@ -255,12 +295,12 @@
         "mag": 4.04,
         "place": "15 km SW of San Rafael del Yuma, Dominican Republic",
         "time": 1651312529980,
-        "updated": 1651323089040,
+        "updated": 1651338177024,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022120000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022120000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -268,9 +308,9 @@
         "sig": 251,
         "net": "pr",
         "code": "2022120000",
-        "ids": ",us7000h62m,pr2022120000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2022120000,us7000h62m,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 0.4308,
         "rms": 0.38,
@@ -1055,11 +1095,11 @@
         "mag": 2.84,
         "place": "1 km SSW of Peerless Park, Missouri",
         "time": 1651271438700,
-        "updated": 1651337909688,
+        "updated": 1651341575470,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60392336",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60392336.geojson",
-        "felt": 4053,
+        "felt": 4069,
         "cdi": 5,
         "mmi": null,
         "alert": null,
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "us7000h5vs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "16 km WSW of Ula, Turkey",
-        "time": 1651253735384,
-        "updated": 1651268667100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h5vf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h5vf.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "7000h5vf",
-        "ids": ",us7000h5vf,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.863,
-        "rms": 0.83,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 16 km WSW of Ula, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.2331,
-          37.074,
-          11.98
-        ]
-      },
-      "id": "us7000h5vf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "94 km E of Shangri-La, China",
-        "time": 1651253031970,
-        "updated": 1651256130040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h5vh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h5vh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000h5vh",
-        "ids": ",us7000h5vh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.668,
-        "rms": 0.78,
-        "gap": 53,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 94 km E of Shangri-La, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          100.6622,
-          27.9111,
-          10
-        ]
-      },
-      "id": "us7000h5vh"
     }
   ],
   "bbox": [
