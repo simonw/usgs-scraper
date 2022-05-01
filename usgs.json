@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651399231000,
+    "generated": 1651402787000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "5km SE of Aromas, CA",
+        "time": 1651402406010,
+        "updated": 1651402578895,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73727496",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73727496.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "nc",
+        "code": "73727496",
+        "ids": ",nc73727496,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": null,
+        "rms": 0.2,
+        "gap": 66,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5km SE of Aromas, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5985031,
+          36.8553352,
+          5.63
+        ]
+      },
+      "id": "nc73727496"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "3 km NW of Knik, Alaska",
         "time": 1651397189733,
-        "updated": 1651398951529,
+        "updated": 1651402278329,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225k9jj1o",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225k9jj1o.geojson",
-        "felt": 79,
-        "cdi": 3.2,
+        "felt": 87,
+        "cdi": 3,
         "mmi": 3.749,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 193,
+        "sig": 194,
         "net": "ak",
         "code": "0225k9jj1o",
         "ids": ",ak0225k9jj1o,us7000h66p,",
@@ -55,7 +95,7 @@
         "mag": 2.7,
         "place": "California-Nevada border region",
         "time": 1651396996607,
-        "updated": 1651398396040,
+        "updated": 1651399935955,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h66n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h66n.geojson",
@@ -88,6 +128,86 @@
         ]
       },
       "id": "us7000h66n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "33 km NNE of Suncho Corral, Argentina",
+        "time": 1651396753222,
+        "updated": 1651399289040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h66l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h66l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000h66l",
+        "ids": ",us7000h66l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.215,
+        "rms": 0.49,
+        "gap": 63,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 33 km NNE of Suncho Corral, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.3405,
+          -27.6409,
+          570.91
+        ]
+      },
+      "id": "us7000h66l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "25 km SSW of Nueva Concepción, Guatemala",
+        "time": 1651395228197,
+        "updated": 1651399667040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h66f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h66f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000h66f",
+        "ids": ",us7000h66f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.589,
+        "rms": 0.41,
+        "gap": 184,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 25 km SSW of Nueva Concepción, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4142,
+          13.9987,
+          58.32
+        ]
+      },
+      "id": "us7000h66f"
     },
     {
       "type": "Feature",
@@ -215,11 +335,11 @@
         "mag": 3.42,
         "place": "5km WNW of The Geysers, CA",
         "time": 1651375057990,
-        "updated": 1651395471098,
+        "updated": 1651399923960,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73727061",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73727061.geojson",
-        "felt": 43,
+        "felt": 44,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -936,6 +1056,6 @@
     0.1607294828,
     142.3801,
     61.4812,
-    222.51
+    570.91
   ]
 }
