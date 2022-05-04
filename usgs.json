@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651618797000,
+    "generated": 1651622437000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.83,
+        "mag": 2.6,
+        "place": "58 km WNW of Petersville, Alaska",
+        "time": 1651619576964,
+        "updated": 1651621062040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225nsvcn5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225nsvcn5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0225nsvcn5",
+        "ids": ",us7000h6w5,ak0225nsvcn5,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 58 km WNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.8638,
+          62.6428,
+          0.8
+        ]
+      },
+      "id": "ak0225nsvcn5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.82,
         "place": "24km NE of Ensenada, B.C., MX",
-        "time": 1651618657910,
-        "updated": 1651618788779,
+        "time": 1651618657740,
+        "updated": 1651620385040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40251568",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40251568.geojson",
@@ -25,16 +65,16 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 123,
+        "sig": 122,
         "net": "ci",
         "code": "40251568",
-        "ids": ",ci40251568,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.2478,
-        "rms": 0.17,
-        "gap": 97,
+        "ids": ",ci40251568,us7000h6w0,",
+        "sources": ",ci,us,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.2411,
+        "rms": 0.18,
+        "gap": 98,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.8 - 24km NE of Ensenada, B.C., MX"
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4489975,
-          32.0353317,
-          16.79
+          -116.4491667,
+          32.0253333,
+          19.07
         ]
       },
       "id": "ci40251568"
@@ -55,12 +95,12 @@
         "mag": 2.99,
         "place": "2 km NNW of Fuig, Puerto Rico",
         "time": 1651615952480,
-        "updated": 1651617017430,
+        "updated": 1651619784729,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71347288",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71347288.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "71347288",
         "ids": ",pr71347288,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": null,
         "rms": 0.17,
@@ -1408,54 +1448,14 @@
         ]
       },
       "id": "pr2022123000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "105 km WNW of Madang, Papua New Guinea",
-        "time": 1651533956078,
-        "updated": 1651535366040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6qi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6qi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000h6qi",
-        "ids": ",us7000h6qi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 7.312,
-        "rms": 0.71,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 105 km WNW of Madang, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.87,
-          -4.9817,
-          94.4
-        ]
-      },
-      "id": "us7000h6qi"
     }
   ],
   "bbox": [
     -178.4796,
     -30.7778,
-    3.26,
+    0.8,
     179.8529,
-    61.5882,
+    62.6428,
     596.21
   ]
 }
