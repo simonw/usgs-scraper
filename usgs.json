@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651676704000,
+    "generated": 1651680283000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.54,
         "place": "31km SE of Blue Lake, CA",
         "time": 1651672566410,
-        "updated": 1651672934165,
+        "updated": 1651678094642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73729226",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73729226.geojson",
@@ -175,7 +175,7 @@
         "mag": 4.2,
         "place": "224 km SSE of King Cove, Alaska",
         "time": 1651666347803,
-        "updated": 1651667012040,
+        "updated": 1651677603834,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6zh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6zh.geojson",
@@ -188,8 +188,8 @@
         "sig": 271,
         "net": "us",
         "code": "7000h6zh",
-        "ids": ",us7000h6zh,ak0225p9uuzo,",
-        "sources": ",us,ak,",
+        "ids": ",ak0225p9uuzo,us7000h6zh,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 1.684,
@@ -252,6 +252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.45,
+        "place": "2 km WNW of Tallaboa, Puerto Rico",
+        "time": 1651664728970,
+        "updated": 1651677449300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71347358",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71347358.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71347358",
+        "ids": ",pr71347358,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": null,
+        "rms": 0.18,
+        "gap": 185,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km WNW of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7411666666667,
+          18.0045,
+          13.86
+        ]
+      },
+      "id": "pr71347358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "15 km WSW of Kíssamos, Greece",
         "time": 1651660847758,
@@ -293,19 +333,19 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "10 km NW of Trapper Creek, Alaska",
-        "time": 1651658009204,
-        "updated": 1651675714581,
+        "place": "9 km S of Trapper Creek, Alaska",
+        "time": 1651658008428,
+        "updated": 1651680025619,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225p8bcql",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225p8bcql.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "felt": 5,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 122,
         "net": "ak",
         "code": "0225p8bcql",
         "ids": ",ak0225p8bcql,us7000h6z1,",
@@ -313,18 +353,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.83,
+        "rms": 0.63,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 10 km NW of Trapper Creek, Alaska"
+        "title": "M 2.8 - 9 km S of Trapper Creek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.3556,
-          62.3958,
-          11.3
+          -150.2286,
+          62.2331,
+          15
         ]
       },
       "id": "ak0225p8bcql"
@@ -455,22 +495,22 @@
         "mag": 3.81,
         "place": "43 km NNW of San Antonio, Puerto Rico",
         "time": 1651639883340,
-        "updated": 1651642054040,
+        "updated": 1651677737873,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022124000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022124000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 223,
+        "sig": 224,
         "net": "pr",
         "code": "2022124000",
-        "ids": ",us7000h6xl,pr2022124000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2022124000,us7000h6xl,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 0.4154,
         "rms": 0.43,
@@ -608,6 +648,46 @@
         ]
       },
       "id": "us7000h6x9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "29 km NW of Toyah, Texas",
+        "time": 1651632163535,
+        "updated": 1651679475201,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022iqyg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022iqyg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2022iqyg",
+        "ids": ",tx2022iqyg,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.04391584546,
+        "rms": 0.2,
+        "gap": 115,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 29 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.020988,
+          31.50131773,
+          7.494091797
+        ]
+      },
+      "id": "tx2022iqyg"
     },
     {
       "type": "Feature",
@@ -1328,126 +1408,6 @@
         ]
       },
       "id": "us7000h6tp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "2 km WSW of Strada in Chianti, Italy",
-        "time": 1651593049698,
-        "updated": 1651676540120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6tk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6tk.geojson",
-        "felt": 12,
-        "cdi": 4.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 194,
-        "net": "us",
-        "code": "7000h6tk",
-        "ids": ",us7000h6tk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.128,
-        "rms": 0.47,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 2 km WSW of Strada in Chianti, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.2624,
-          43.6518,
-          6.67
-        ]
-      },
-      "id": "us7000h6tk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "Hawaii region, Hawaii",
-        "time": 1651592499540,
-        "updated": 1651611188422,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73002082",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73002082.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "hv",
-        "code": "73002082",
-        "ids": ",hv73002082,us7000h6tg,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 53,
-        "dmin": null,
-        "rms": 0.14,
-        "gap": 163,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - Hawaii region, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.384833333333,
-          19.1976666666667,
-          31.81
-        ]
-      },
-      "id": "hv73002082"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "7 km SSE of Polkowice, Poland",
-        "time": 1651591441769,
-        "updated": 1651593472873,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6tf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6tf.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "7000h6tf",
-        "ids": ",us7000h6tf,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.104,
-        "rms": 0.53,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 7 km SSE of Polkowice, Poland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.1174,
-          51.4458,
-          9.5
-        ]
-      },
-      "id": "us7000h6tf"
     }
   ],
   "bbox": [
