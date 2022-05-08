@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651993202000,
+    "generated": 1651996802000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "70 km ENE of The Valley, Anguilla",
+        "time": 1651989403507,
+        "updated": 1651994088040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h7w6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h7w6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000h7w6",
+        "ids": ",us7000h7w6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.114,
+        "rms": 0.65,
+        "gap": 234,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 70 km ENE of The Valley, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.4632,
+          18.4976,
+          35
+        ]
+      },
+      "id": "us7000h7w6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.24,
         "place": "12 km WSW of Quinton, Oklahoma",
         "time": 1651988158835,
-        "updated": 1651989546040,
+        "updated": 1651994662104,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022iylz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022iylz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 162,
         "net": "ok",
         "code": "2022iylz",
-        "ids": ",us7000h7w4,ok2022iylz,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2022iylz,us7000h7w4,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 51,
         "dmin": 0.1318635941,
         "rms": 0.8488505205,
@@ -55,17 +95,17 @@
         "mag": 3.9,
         "place": "45 km W of Tyonek, Alaska",
         "time": 1651983362401,
-        "updated": 1651990774144,
+        "updated": 1651996466083,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225vr9lag",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225vr9lag.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 2.9,
         "mmi": 2.925,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 240,
+        "sig": 241,
         "net": "ak",
         "code": "0225vr9lag",
         "ids": ",ak0225vr9lag,at00rbjqio,us7000h7vr,",
@@ -1048,46 +1088,6 @@
         ]
       },
       "id": "ak0225u60kl1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "2 km SSW of Summit, Utah",
-        "time": 1651907941930,
-        "updated": 1651949122576,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60495807",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60495807.geojson",
-        "felt": 4,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "uu",
-        "code": "60495807",
-        "ids": ",uu60495807,us7000h7qy,",
-        "sources": ",uu,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.2196,
-        "rms": 0.22,
-        "gap": 152,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km SSW of Summit, Utah"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.949,
-          37.7858333,
-          6.4
-        ]
-      },
-      "id": "uu60495807"
     }
   ],
   "bbox": [
