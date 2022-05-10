@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652205615000,
+    "generated": 1652209236000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -335,7 +335,7 @@
         "mag": 5.6,
         "place": "94 km NW of Port-Vila, Vanuatu",
         "time": 1652188690914,
-        "updated": 1652196063569,
+        "updated": 1652208536040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8bc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8bc.geojson",
@@ -350,7 +350,7 @@
         "code": "7000h8bc",
         "ids": ",us7000h8bc,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 1.805,
         "rms": 0.65,
@@ -1055,17 +1055,17 @@
         "mag": 2.9,
         "place": "4 km E of Elgin, South Carolina",
         "time": 1652154940714,
-        "updated": 1652205074056,
+        "updated": 1652209127276,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h88y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h88y.geojson",
-        "felt": 812,
+        "felt": 816,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 422,
+        "sig": 423,
         "net": "us",
         "code": "7000h88y",
         "ids": ",us7000h88y,",
@@ -1495,7 +1495,7 @@
         "mag": 6.3,
         "place": "179 km SW of Lorengau, Papua New Guinea",
         "time": 1652135586797,
-        "updated": 1652149079109,
+        "updated": 1652208237040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h87i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h87i.geojson",
@@ -1510,7 +1510,7 @@
         "code": "7000h87i",
         "ids": ",us7000h87i,",
         "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 5.861,
         "rms": 0.88,
@@ -1772,6 +1772,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "97 km W of Gorontalo, Indonesia",
+        "time": 1652129651197,
+        "updated": 1652207523040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h86l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h86l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000h86l",
+        "ids": ",us7000h86l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.502,
+        "rms": 0.9,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 97 km W of Gorontalo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1898,
+          0.5844,
+          98.66
+        ]
+      },
+      "id": "us7000h86l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.72,
         "place": "7 km S of Guánica, Puerto Rico",
         "time": 1652129384410,
@@ -1808,86 +1848,6 @@
         ]
       },
       "id": "pr71348103"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "57 km WNW of Happy Valley, Alaska",
-        "time": 1652122145415,
-        "updated": 1652122814171,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225xnc2ur",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225xnc2ur.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "0225xnc2ur",
-        "ids": ",ak0225xnc2ur,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 57 km WNW of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.7344,
-          60.0548,
-          93.3
-        ]
-      },
-      "id": "ak0225xnc2ur"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "142 km SE of Perryville, Alaska",
-        "time": 1652119702903,
-        "updated": 1652205565040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h85x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h85x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "7000h85x",
-        "ids": ",us7000h85x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.133,
-        "rms": 0.57,
-        "gap": 208,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 142 km SE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.6401,
-          54.9636,
-          10
-        ]
-      },
-      "id": "us7000h85x"
     }
   ],
   "bbox": [
