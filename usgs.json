@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652173215000,
+    "generated": 1652177115000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,14 +15,14 @@
         "mag": 5.4,
         "place": "22 km WSW of El Hoyo, Argentina",
         "time": 1652172127246,
-        "updated": 1652173202040,
+        "updated": 1652173505040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8a8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8a8.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 1,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 449,
@@ -30,7 +30,7 @@
         "code": "7000h8a8",
         "ids": ",us7000h8a8,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 5.081,
         "rms": 0.88,
@@ -92,6 +92,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "South Sandwich Islands region",
+        "time": 1652168752971,
+        "updated": 1652174279040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8af",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8af.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000h8af",
+        "ids": ",us7000h8af,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.565,
+        "rms": 0.49,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.1888,
+          -55.8283,
+          28.46
+        ]
+      },
+      "id": "us7000h8af"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "251 km ENE of Beauséjour, Guadeloupe",
         "time": 1652167482546,
@@ -135,7 +175,7 @@
         "mag": 2.55,
         "place": "25km NE of Hetch Hetchy Reservoir, CA",
         "time": 1652167243460,
-        "updated": 1652167691032,
+        "updated": 1652174410721,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73731626",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73731626.geojson",
@@ -375,17 +415,17 @@
         "mag": 2.9,
         "place": "4 km E of Elgin, South Carolina",
         "time": 1652154940714,
-        "updated": 1652172769101,
+        "updated": 1652176814975,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h88y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h88y.geojson",
-        "felt": 658,
+        "felt": 671,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 366,
+        "sig": 371,
         "net": "us",
         "code": "7000h88y",
         "ids": ",us7000h88y,",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "central Peru",
+        "place": "21 km S of Anchonga, Peru",
         "time": 1652135096383,
         "updated": 1652138207040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - central Peru"
+        "title": "M 4.5 - 21 km S of Anchonga, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1768,6 @@
         ]
       },
       "id": "us7000h83c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "19km WSW of Round Valley, CA",
-        "time": 1652088367530,
-        "updated": 1652142963690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73731161",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73731161.geojson",
-        "felt": 4,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "nc",
-        "code": "73731161",
-        "ids": ",nc73731161,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.193,
-        "rms": 0.07,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 19km WSW of Round Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.8036652,
-          37.3764992,
-          11.67
-        ]
-      },
-      "id": "nc73731161"
     }
   ],
   "bbox": [
