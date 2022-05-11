@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652256303000,
+    "generated": 1652259918000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.7,
         "place": "19km ESE of Anza, CA",
         "time": 1652253919370,
-        "updated": 1652254149407,
+        "updated": 1652257603896,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40256064",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40256064.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "40256064",
         "ids": ",ci40256064,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 78,
         "dmin": 0.06827,
         "rms": 0.27,
@@ -52,10 +52,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.8,
+        "place": "18 km WNW of San Isidro, Costa Rica",
+        "time": 1652253768066,
+        "updated": 1652256841040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8j5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8j5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "7000h8j5",
+        "ids": ",us7000h8j5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.315,
+        "rms": 1.04,
+        "gap": 190,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 18 km WNW of San Isidro, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8612,
+          9.4201,
+          10
+        ]
+      },
+      "id": "us7000h8j5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.73,
+        "place": "15 km SE of Esperanza, Puerto Rico",
+        "time": 1652253154800,
+        "updated": 1652256383755,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022131001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022131001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 214,
+        "net": "pr",
+        "code": "2022131001",
+        "ids": ",pr2022131001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.207,
+        "rms": 0.34,
+        "gap": 250,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 15 km SE of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3738,
+          17.9928,
+          7
+        ]
+      },
+      "id": "pr2022131001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.79,
         "place": "14km NW of Lee Vining, CA",
         "time": 1652252846580,
-        "updated": 1652253650579,
+        "updated": 1652257403323,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73732056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73732056.geojson",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.57,
-        "place": "Puerto Rico region",
+        "place": "3 km SSW of Indios, Puerto Rico",
         "time": 1652188049420,
         "updated": 1652189585150,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 168,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 3 km SSW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "32 km ESE of Denali National Park, Alaska",
+        "place": "Central Alaska",
         "time": 1652177033839,
         "updated": 1652179877040,
         "tz": null,
@@ -1597,7 +1677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 32 km ESE of Denali National Park, Alaska"
+        "title": "M 2.6 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1648,46 +1728,6 @@
         ]
       },
       "id": "pr71348228"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "22 km WSW of El Hoyo, Argentina",
-        "time": 1652172127246,
-        "updated": 1652248396798,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8a8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8a8.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": 1,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000h8a8",
-        "ids": ",us7000h8a8,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 5.081,
-        "rms": 0.88,
-        "gap": 31,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 22 km WSW of El Hoyo, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.4433,
-          -27.1087,
-          579.27
-        ]
-      },
-      "id": "us7000h8a8"
     }
   ],
   "bbox": [
