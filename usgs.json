@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652248817000,
+    "generated": 1652252477000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 42
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 4.6,
         "place": "74 km SE of Ōfunato, Japan",
         "time": 1652246860013,
-        "updated": 1652248648040,
+        "updated": 1652252211352,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8ip.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "7000h8ip",
         "ids": ",us7000h8ip,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 2.388,
         "rms": 1.03,
@@ -455,17 +455,17 @@
         "mag": 6.8,
         "place": "78 km NNW of San Antonio de los Cobres, Argentina",
         "time": 1652223989129,
-        "updated": 1652248148930,
+        "updated": 1652251626776,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8g3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8g3.geojson",
-        "felt": 68,
+        "felt": 70,
         "cdi": 7.5,
         "mmi": 5.051,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 762,
+        "sig": 764,
         "net": "us",
         "code": "7000h8g3",
         "ids": ",at00rbow6s,us7000h8g3,pt22130002,",
@@ -735,11 +735,11 @@
         "mag": 2.8,
         "place": "5 km ESE of Elgin, South Carolina",
         "time": 1652209747828,
-        "updated": 1652246487476,
+        "updated": 1652251610294,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8ei",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8ei.geojson",
-        "felt": 227,
+        "felt": 228,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -973,9 +973,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "southern Ontario, Canada",
+        "place": "16 km SE of Arnprior, Canada",
         "time": 1652191934785,
-        "updated": 1652248135040,
+        "updated": 1652249553040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8by",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8by.geojson",
@@ -990,14 +990,14 @@
         "code": "7000h8by",
         "ids": ",us7000h8by,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",impact-text,origin,phase-data,",
         "nst": null,
         "dmin": 0.732,
         "rms": 0.29,
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - southern Ontario, Canada"
+        "title": "M 2.5 - 16 km SE of Arnprior, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -1688,86 +1688,6 @@
         ]
       },
       "id": "nc73731626"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.53,
-        "place": "27km S of Trona, CA",
-        "time": 1652165631020,
-        "updated": 1652232954590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40255392",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40255392.geojson",
-        "felt": 7,
-        "cdi": 2.9,
-        "mmi": 3.542,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 194,
-        "net": "ci",
-        "code": "40255392",
-        "ids": ",ci40255392,us7000h89r,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 49,
-        "dmin": 0.02051,
-        "rms": 0.15,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 27km S of Trona, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3896667,
-          35.5251667,
-          9.05
-        ]
-      },
-      "id": "ci40255392"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "102 km S of La Libertad, El Salvador",
-        "time": 1652164538919,
-        "updated": 1652165427040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h89n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h89n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000h89n",
-        "ids": ",us7000h89n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.169,
-        "rms": 0.76,
-        "gap": 157,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 102 km S of La Libertad, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.2197,
-          12.5692,
-          44.36
-        ]
-      },
-      "id": "us7000h89n"
     }
   ],
   "bbox": [
