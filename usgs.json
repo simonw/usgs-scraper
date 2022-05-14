@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652551232000,
+    "generated": 1652554833000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "Central Alaska",
+        "time": 1652553227708,
+        "updated": 1652553480431,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02265wxhci",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02265wxhci.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "02265wxhci",
+        "ids": ",ak02265wxhci,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - Central Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2246,
+          63.4927,
+          0
+        ]
+      },
+      "id": "ak02265wxhci"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "14km SW of Toms Place, CA",
+        "time": 1652552433400,
+        "updated": 1652554570400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73733706",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73733706.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "nc",
+        "code": "73733706",
+        "ids": ",nc73733706,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 27,
+        "dmin": 0.1151,
+        "rms": 0.05,
+        "gap": 128,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 14km SW of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7913361,
+          37.4786682,
+          8.22
+        ]
+      },
+      "id": "nc73733706"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +175,17 @@
         "mag": 4.5,
         "place": "14 km NNW of Hveragerði, Iceland",
         "time": 1652547393180,
-        "updated": 1652550395829,
+        "updated": 1652554051077,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hl5m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hl5m.geojson",
-        "felt": 3,
-        "cdi": 3.2,
+        "felt": 4,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 313,
         "net": "us",
         "code": "6000hl5m",
         "ids": ",us6000hl5m,",
@@ -1328,52 +1408,12 @@
         ]
       },
       "id": "ci40017815"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "3 km SW of Pāhala, Hawaii",
-        "time": 1652466001790,
-        "updated": 1652480606168,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73011402",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73011402.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "hv",
-        "code": "73011402",
-        "ids": ",hv73011402,us6000hkyn,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 52,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 3 km SW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.506666666667,
-          19.1795,
-          36.23
-        ]
-      },
-      "id": "hv73011402"
     }
   ],
   "bbox": [
     -176.8451,
     -35.7446,
-    0.4663523138,
+    0,
     179.8516,
     86.4314,
     490.03
