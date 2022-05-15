@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652648439000,
+    "generated": 1652652039000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 23
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.88,
         "place": "9 km ENE of Pāhala, Hawaii",
         "time": 1652642966490,
-        "updated": 1652645568427,
+        "updated": 1652650293238,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73013327",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73013327.geojson",
@@ -293,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.43,
-        "place": "Puerto Rico region",
+        "place": "41 km N of Suárez, Puerto Rico",
         "time": 1652602760380,
         "updated": 1652623905240,
         "tz": null,
@@ -317,7 +317,7 @@
         "gap": 239,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Puerto Rico region"
+        "title": "M 3.4 - 41 km N of Suárez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -775,12 +775,12 @@
         "mag": 4.6,
         "place": "51 km SW of Tari, Papua New Guinea",
         "time": 1652575012892,
-        "updated": 1652575973040,
+        "updated": 1652650128779,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hl80",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hl80.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -790,7 +790,7 @@
         "code": "6000hl80",
         "ids": ",us6000hl80,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 9.737,
         "rms": 0.8,
@@ -928,86 +928,6 @@
         ]
       },
       "id": "us6000hl70"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.48,
-        "place": "18 km WSW of Stella, Puerto Rico",
-        "time": 1652564559450,
-        "updated": 1652624891897,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022134001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022134001.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": 2.416,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 187,
-        "net": "pr",
-        "code": "2022134001",
-        "ids": ",pr2022134001,us6000hl6v,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 25,
-        "dmin": 0.1635,
-        "rms": 0.13,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 18 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4001,
-          18.2413,
-          79
-        ]
-      },
-      "id": "pr2022134001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "17km SSE of Maricopa, CA",
-        "time": 1652563694790,
-        "updated": 1652636733133,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40018903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40018903.geojson",
-        "felt": 13,
-        "cdi": 4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "ci",
-        "code": "40018903",
-        "ids": ",ci40018903,us6000hl6u,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 72,
-        "dmin": 0.05664,
-        "rms": 0.31,
-        "gap": 26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 17km SSE of Maricopa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.353,
-          34.9123333,
-          5.83
-        ]
-      },
-      "id": "ci40018903"
     }
   ],
   "bbox": [
