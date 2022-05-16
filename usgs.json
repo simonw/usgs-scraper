@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652668119000,
+    "generated": 1652670879000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 19
+    "count": 17
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.9,
         "place": "52 km E of Pedro Bay, Alaska",
         "time": 1652667272634,
-        "updated": 1652668017275,
+        "updated": 1652668828040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02268yd4vt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02268yd4vt.geojson",
@@ -28,8 +28,8 @@
         "sig": 129,
         "net": "ak",
         "code": "02268yd4vt",
-        "ids": ",ak02268yd4vt,",
-        "sources": ",ak,",
+        "ids": ",us6000hldz,ak02268yd4vt,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -52,14 +52,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "131 km N of Calama, Chile",
+        "time": 1652663821245,
+        "updated": 1652668272040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hldu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hldu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000hldu",
+        "ids": ",us6000hldu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.588,
+        "rms": 0.79,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 131 km N of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9027,
+          -21.2654,
+          127.05
+        ]
+      },
+      "id": "us6000hldu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
         "place": "25 km NW of Susitna, Alaska",
         "time": 1652657029748,
-        "updated": 1652659580309,
+        "updated": 1652669387756,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02267nduv5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02267nduv5.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -648,132 +688,12 @@
         ]
       },
       "id": "us6000hl8x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "6 km SW of Liborio Negron Torres, Puerto Rico",
-        "time": 1652584344470,
-        "updated": 1652586259540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71348908",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71348908.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71348908",
-        "ids": ",pr71348908,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 142,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km SW of Liborio Negron Torres, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9843333333333,
-          17.9981666666667,
-          11.5
-        ]
-      },
-      "id": "pr71348908"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "17 km S of Fern Forest, Hawaii",
-        "time": 1652582527130,
-        "updated": 1652582858860,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73012682",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73012682.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "hv",
-        "code": "73012682",
-        "ids": ",hv73012682,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": null,
-        "rms": 0.230000004,
-        "gap": 204,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 17 km S of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.111663818359,
-          19.3108329772949,
-          -0.639999985694885
-        ]
-      },
-      "id": "hv73012682"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "91km SSW of Alberto Oviedo Mota, B.C., MX",
-        "time": 1652582014110,
-        "updated": 1652630746096,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40019135",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40019135.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 134,
-        "net": "ci",
-        "code": "40019135",
-        "ids": ",ci40019135,us6000hl8g,",
-        "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.1763,
-        "rms": 0.09,
-        "gap": 101,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 91km SSW of Alberto Oviedo Mota, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6358333,
-          31.5145,
-          9.02
-        ]
-      },
-      "id": "ci40019135"
     }
   ],
   "bbox": [
     -178.215,
     -34.9799,
-    -0.63999998569489,
+    7.185595703,
     142.2766,
     61.9888,
     206.66
