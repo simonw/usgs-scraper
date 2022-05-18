@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652857206000,
+    "generated": 1652860807000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 43
   },
   "features": [
     {
@@ -15,13 +15,13 @@
         "mag": 5.7,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1652855275252,
-        "updated": 1652856730326,
+        "updated": 1652857273131,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlxv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlxv.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.945,
+        "mmi": 3.912,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -175,7 +175,7 @@
         "mag": 5.4,
         "place": "210 km SW of Merizo Village, Guam",
         "time": 1652844343869,
-        "updated": 1652852152623,
+        "updated": 1652859351352,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlxe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlxe.geojson",
@@ -1055,7 +1055,7 @@
         "mag": 2.6,
         "place": "165 km WSW of Crescent City, California",
         "time": 1652802265423,
-        "updated": 1652803889040,
+        "updated": 1652859730559,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlts",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlts.geojson",
@@ -1068,9 +1068,9 @@
         "sig": 104,
         "net": "us",
         "code": "6000hlts",
-        "ids": ",us6000hlts,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "ids": ",nc73735021,us6000hlts,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": null,
         "dmin": 1.68,
         "rms": 0.22,
@@ -1412,6 +1412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1652786467108,
+        "updated": 1652860464040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlrd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlrd.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000hlrd",
+        "ids": ",tx2022jpiw,us6000hlrd,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.092,
+        "rms": 0.3,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3728,
+          31.6637,
+          8.7
+        ]
+      },
+      "id": "us6000hlrd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "58 km S of Whites City, New Mexico",
         "time": 1652786467070,
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "tx2022jpix"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "59 km S of Whites City, New Mexico",
-        "time": 1652786467037,
-        "updated": 1652856460673,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlrd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlrd.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000hlrd",
-        "ids": ",tx2022jpiw,us6000hlrd,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.118,
-        "rms": 0.44,
-        "gap": 105,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 59 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3659,
-          31.642,
-          5
-        ]
-      },
-      "id": "us6000hlrd"
     },
     {
       "type": "Feature",
@@ -1695,17 +1695,17 @@
         "mag": 3.56,
         "place": "5 km ENE of Oso, Washington",
         "time": 1652774854290,
-        "updated": 1652851984301,
+        "updated": 1652859521867,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61832097",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61832097.geojson",
-        "felt": 222,
+        "felt": 224,
         "cdi": 4.2,
         "mmi": 4.161,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 288,
+        "sig": 289,
         "net": "uw",
         "code": "61832097",
         "ids": ",uw61832097,us6000hlqt,",
@@ -1728,126 +1728,6 @@
         ]
       },
       "id": "uw61832097"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "224 km SSE of Katsuura, Japan",
-        "time": 1652771999233,
-        "updated": 1652801716040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlqp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlqp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000hlqp",
-        "ids": ",us6000hlqp,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.328,
-        "rms": 1.07,
-        "gap": 93,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 224 km SSE of Katsuura, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.3786,
-          33.3276,
-          10
-        ]
-      },
-      "id": "us6000hlqp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "33 km SE of Coihueco, Chile",
-        "time": 1652771973835,
-        "updated": 1652774049040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlqm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlqm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000hlqm",
-        "ids": ",us6000hlqm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.259,
-        "rms": 1.21,
-        "gap": 103,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 33 km SE of Coihueco, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.5353,
-          -36.8148,
-          10
-        ]
-      },
-      "id": "us6000hlqm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "113 km SSW of Abepura, Indonesia",
-        "time": 1652771490693,
-        "updated": 1652772406040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlql",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlql.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000hlql",
-        "ids": ",us6000hlql,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 8.048,
-        "rms": 0.99,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 113 km SSW of Abepura, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.2848,
-          -3.5657,
-          108.16
-        ]
-      },
-      "id": "us6000hlql"
     }
   ],
   "bbox": [
