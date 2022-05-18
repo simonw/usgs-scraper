@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652897120000,
+    "generated": 1652900420000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
@@ -292,39 +292,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.7,
+        "mag": 5.8,
         "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1652855275252,
-        "updated": 1652889175735,
+        "time": 1652855275176,
+        "updated": 1652899084207,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlxv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlxv.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.912,
+        "mmi": 4.314,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 500,
+        "sig": 518,
         "net": "us",
         "code": "6000hlxv",
         "ids": ",at00rc2fak,us6000hlxv,ak0226cbwe6q,",
         "sources": ",at,us,ak,",
-        "types": ",impact-link,losspager,origin,phase-data,shakemap,",
+        "types": ",impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 0.45,
-        "rms": 1.08,
-        "gap": 140,
+        "dmin": 0.44,
+        "rms": 1.1,
+        "gap": 95,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 5.8 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.728,
-          51.1085,
-          19.25
+          178.7361,
+          51.1188,
+          17.58
         ]
       },
       "id": "us6000hlxv"
@@ -614,11 +614,11 @@
       "properties": {
         "mag": 3,
         "place": "59 km S of Whites City, New Mexico",
-        "time": 1652838185991,
-        "updated": 1652897017375,
+        "time": 1652838186156,
+        "updated": 1652897482263,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlx0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlx0.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022jqli",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022jqli.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -626,15 +626,15 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 138,
-        "net": "us",
-        "code": "6000hlx0",
-        "ids": ",tx2022jqli,us6000hlx0,",
-        "sources": ",tx,us,",
+        "net": "tx",
+        "code": "2022jqli",
+        "ids": ",us6000hlx0,tx2022jqli,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.157,
-        "rms": 0.89,
-        "gap": 108,
+        "nst": 17,
+        "dmin": 0.1028133966,
+        "rms": 0.2,
+        "gap": 147,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.0 - 59 km S of Whites City, New Mexico"
@@ -642,12 +642,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3185,
-          31.6447,
-          5
+          -104.3789726,
+          31.63834008,
+          5.026123046999999
         ]
       },
-      "id": "us6000hlx0"
+      "id": "tx2022jqli"
     },
     {
       "type": "Feature",
@@ -1248,53 +1248,13 @@
         ]
       },
       "id": "us6000hlv5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "186 km SSW of Akhiok, Alaska",
-        "time": 1652813249303,
-        "updated": 1652881730040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226avmj83",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226avmj83.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0226avmj83",
-        "ids": ",us6000hlvh,ak0226avmj83,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.19,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 186 km SSW of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.3386,
-          55.3997,
-          29.6
-        ]
-      },
-      "id": "ak0226avmj83"
     }
   ],
   "bbox": [
     -155.46733093262,
     -57.7221,
-    5,
-    178.728,
+    5.026123047,
+    178.7361,
     86.6293,
     536.87
   ]
