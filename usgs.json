@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652993996000,
+    "generated": 1652997596000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.64,
         "place": "38km ESE of Shaver Lake, CA",
         "time": 1652985822340,
-        "updated": 1652986651096,
+        "updated": 1652995151514,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73735741",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73735741.geojson",
@@ -55,7 +55,7 @@
         "mag": 3.1,
         "place": "189 km SSW of Akhiok, Alaska",
         "time": 1652976231236,
-        "updated": 1652982639178,
+        "updated": 1652997576040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226e59228",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226e59228.geojson",
@@ -68,8 +68,8 @@
         "sig": 148,
         "net": "ak",
         "code": "0226e59228",
-        "ids": ",ak0226e59228,",
-        "sources": ",ak,",
+        "ids": ",us6000hme5,ak0226e59228,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -292,6 +292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "18 km N of Santa Clara, Panama",
+        "time": 1652962946791,
+        "updated": 1652995346128,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmgq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmgq.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000hmgq",
+        "ids": ",us6000hmgq,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.229,
+        "rms": 0.86,
+        "gap": 149,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 18 km N of Santa Clara, Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.794,
+          8.999,
+          10
+        ]
+      },
+      "id": "us6000hmgq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.19,
         "place": "21 km SSE of Naalehu, Hawaii",
         "time": 1652961812170,
@@ -368,6 +408,46 @@
         ]
       },
       "id": "hv73017142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "4 km S of Fowlerton, Texas",
+        "time": 1652961128877,
+        "updated": 1652995008847,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022jtax",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022jtax.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2022jtax",
+        "ids": ",tx2022jtax,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.3348141815,
+        "rms": 0.3,
+        "gap": 98,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km S of Fowlerton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.80457261,
+          28.42803955,
+          16.50695801
+        ]
+      },
+      "id": "tx2022jtax"
     },
     {
       "type": "Feature",
@@ -1248,46 +1328,6 @@
         ]
       },
       "id": "us6000hm5u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "38 km WNW of Cantwell, Alaska",
-        "time": 1652909921153,
-        "updated": 1652912849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226ckw86m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226ckw86m.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0226ckw86m",
-        "ids": ",us6000hm57,ak0226ckw86m,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.1,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 38 km WNW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.6545,
-          63.5367,
-          0
-        ]
-      },
-      "id": "ak0226ckw86m"
     }
   ],
   "bbox": [
