@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652930876000,
+    "generated": 1652933360000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "26 km E of Honaunau-Napoopoo, Hawaii",
+        "time": 1652930949750,
+        "updated": 1652931631680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73016782",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73016782.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "hv",
+        "code": "73016782",
+        "ids": ",hv73016782,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": null,
+        "rms": 0.13,
+        "gap": 139,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 26 km E of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.6175,
+          19.439,
+          -0.69
+        ]
+      },
+      "id": "hv73016782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "South Sandwich Islands region",
+        "time": 1652930947769,
+        "updated": 1652932825528,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hm6v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hm6v.geojson",
+        "felt": 1,
+        "cdi": 6.3,
+        "mmi": 3.675,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "6000hm6v",
+        "ids": ",us6000hm6v,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 6.878,
+        "rms": 0.87,
+        "gap": 32,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.7 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.3766,
+          -57.0795,
+          35
+        ]
+      },
+      "id": "us6000hm6v"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 5.7,
         "place": "southern East Pacific Rise",
         "time": 1652925088470,
-        "updated": 1652927233568,
+        "updated": 1652932502374,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hm6e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hm6e.geojson",
@@ -888,52 +968,12 @@
         ]
       },
       "id": "us6000hlxk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "227 km SSE of Katsuura, Japan",
-        "time": 1652845945128,
-        "updated": 1652913184440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlxg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlxg.geojson",
-        "felt": 1,
-        "cdi": 5.3,
-        "mmi": 2.933,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 483,
-        "net": "us",
-        "code": "6000hlxg",
-        "ids": ",us6000hlxg,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.363,
-        "rms": 0.55,
-        "gap": 64,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 227 km SSE of Katsuura, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.4229,
-          33.3154,
-          13
-        ]
-      },
-      "id": "us6000hlxg"
     }
   ],
   "bbox": [
     -163.5224,
     -58.8231,
-    0,
+    -0.69,
     178.7751,
     63.5367,
     138.56
