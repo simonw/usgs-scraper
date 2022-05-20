@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653069592000,
+    "generated": 1653073198000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "8km WNW of Johannesburg, CA",
+        "time": 1653070250750,
+        "updated": 1653070902940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40023287",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40023287.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ci",
+        "code": "40023287",
+        "ids": ",ci40023287,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.09084,
+        "rms": 0.15,
+        "gap": 41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 8km WNW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7166667,
+          35.393,
+          8.82
+        ]
+      },
+      "id": "ci40023287"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "51 km SSW of Lowell Point, Alaska",
         "time": 1653064323236,
-        "updated": 1653067819245,
+        "updated": 1653071094040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226fsye0l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226fsye0l.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0226fsye0l",
-        "ids": ",ak0226fsye0l,",
-        "sources": ",ak,",
+        "ids": ",us6000hmpt,ak0226fsye0l,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -55,11 +95,11 @@
         "mag": 3.3,
         "place": "10km SSW of Ferndale, CA",
         "time": 1653063635540,
-        "updated": 1653065325651,
+        "updated": 1653071681372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73736021",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73736021.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -68,8 +108,8 @@
         "sig": 168,
         "net": "nc",
         "code": "73736021",
-        "ids": ",nc73736021,",
-        "sources": ",nc,",
+        "ids": ",nc73736021,us6000hmpn,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 17,
         "dmin": 0.03144,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "nc73736021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "39 km SSW of Sierra Blanca, Texas",
+        "time": 1653061918629,
+        "updated": 1653069849040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmpf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmpf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "6000hmpf",
+        "ids": ",us6000hmpf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.412,
+        "rms": 1.04,
+        "gap": 175,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 39 km SSW of Sierra Blanca, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.4618,
+          30.8305,
+          8.5
+        ]
+      },
+      "id": "us6000hmpf"
     },
     {
       "type": "Feature",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.66,
-        "place": "Puerto Rico region",
+        "place": "7 km SSE of Maria Antonia, Puerto Rico",
         "time": 1653039610940,
         "updated": 1653058546540,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 195,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Puerto Rico region"
+        "title": "M 3.7 - 7 km SSE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -375,17 +455,17 @@
         "mag": 5.8,
         "place": "82 km NW of Coquimbo, Chile",
         "time": 1653037665455,
-        "updated": 1653069411672,
+        "updated": 1653070843126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmkd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmkd.geojson",
-        "felt": 24,
+        "felt": 26,
         "cdi": 5.5,
         "mmi": 3.89,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 531,
+        "sig": 532,
         "net": "us",
         "code": "6000hmkd",
         "ids": ",us6000hmkd,",
@@ -808,46 +888,6 @@
         ]
       },
       "id": "us6000hmhu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "38km ESE of Shaver Lake, CA",
-        "time": 1652985822340,
-        "updated": 1653009877211,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73735741",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73735741.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "nc",
-        "code": "73735741",
-        "ids": ",nc73735741,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.6162,
-        "rms": 0.05,
-        "gap": 215,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 38km ESE of Shaver Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.9161682,
-          36.9766655,
-          34.48
-        ]
-      },
-      "id": "nc73735741"
     }
   ],
   "bbox": [
