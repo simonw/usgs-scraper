@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653073198000,
+    "generated": 1653076792000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "4 km S of Pāhala, Hawaii",
+        "time": 1653075872740,
+        "updated": 1653076202390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73018227",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73018227.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "73018227",
+        "ids": ",hv73018227,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": null,
+        "rms": 0.159999996,
+        "gap": 156,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.484832763672,
+          19.1620006561279,
+          33.4099998474121
+        ]
+      },
+      "id": "hv73018227"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,86 @@
         ]
       },
       "id": "ci40023287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "294 km SSE of Alo, Wallis and Futuna",
+        "time": 1653067376384,
+        "updated": 1653076411040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmqc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmqc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000hmqc",
+        "ids": ",us6000hmqc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.652,
+        "rms": 0.64,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 294 km SSE of Alo, Wallis and Futuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.0681,
+          -16.7724,
+          405.44
+        ]
+      },
+      "id": "us6000hmqc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "0 km WSW of Junction, Utah",
+        "time": 1653066507706,
+        "updated": 1653074020943,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmpy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmpy.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000hmpy",
+        "ids": ",us6000hmpy,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.267,
+        "rms": 0.5,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 0 km WSW of Junction, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2273,
+          38.236,
+          2.23
+        ]
+      },
+      "id": "us6000hmpy"
     },
     {
       "type": "Feature",
@@ -215,17 +335,17 @@
         "mag": 5.5,
         "place": "48 km NE of Al Hoceïma, Morocco",
         "time": 1653050149570,
-        "updated": 1653060453040,
+        "updated": 1653076129133,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmld",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmld.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 7.4,
         "mmi": 4.579,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 474,
+        "sig": 475,
         "net": "us",
         "code": "6000hmld",
         "ids": ",us6000hmld,",
@@ -893,9 +1013,9 @@
   "bbox": [
     -177.5843,
     -30.1233,
-    6.23,
+    2.23,
     155.1799,
     60.156,
-    127.3
+    405.44
   ]
 }
