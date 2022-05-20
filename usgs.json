@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653058798000,
+    "generated": 1653062427000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 20
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "50 km E of Port Alsworth, Alaska",
+        "time": 1653059212045,
+        "updated": 1653059935376,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226fs7hgh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226fs7hgh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0226fs7hgh",
+        "ids": ",ak0226fs7hgh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.77,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 50 km E of Port Alsworth, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.4161,
+          60.156,
+          127.3
+        ]
+      },
+      "id": "ak0226fs7hgh"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "48 km NE of Al Hoceïma, Morocco",
         "time": 1653050149570,
-        "updated": 1653058050225,
+        "updated": 1653060453040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmld",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmld.geojson",
@@ -30,7 +70,7 @@
         "code": "6000hmld",
         "ids": ",us6000hmld,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 2.402,
         "rms": 0.45,
@@ -215,17 +255,17 @@
         "mag": 5.8,
         "place": "82 km NW of Coquimbo, Chile",
         "time": 1653037665455,
-        "updated": 1653058779502,
+        "updated": 1653061981972,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmkd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmkd.geojson",
-        "felt": 11,
+        "felt": 16,
         "cdi": 4.8,
         "mmi": 3.89,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 523,
+        "sig": 525,
         "net": "us",
         "code": "6000hmkd",
         "ids": ",us6000hmkd,",
@@ -252,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.47,
-        "place": "41km S of Qualeys Camp, NV",
-        "time": 1653034609070,
-        "updated": 1653043511379,
+        "mag": 2.61,
+        "place": "40km S of Qualeys Camp, NV",
+        "time": 1653034609080,
+        "updated": 1653062310150,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73735931",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73735931.geojson",
@@ -263,28 +303,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 94,
+        "sig": 105,
         "net": "nc",
         "code": "73735931",
         "ids": ",nc73735931,us6000hmka,",
         "sources": ",nc,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.2668,
-        "rms": 0.07,
-        "gap": 167,
+        "nst": 38,
+        "dmin": 0.1786,
+        "rms": 0.13,
+        "gap": 73,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 41km S of Qualeys Camp, NV"
+        "title": "M 2.6 - 40km S of Qualeys Camp, NV"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.5315018,
-          37.9403343,
-          9.33
+          -118.5413333,
+          37.9438333,
+          9.38
         ]
       },
       "id": "nc73735931"
@@ -768,94 +808,14 @@
         ]
       },
       "id": "ak0226e58atk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "143 km NW of Ternate, Indonesia",
-        "time": 1652974152627,
-        "updated": 1652977536913,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmci.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 401,
-        "net": "us",
-        "code": "6000hmci",
-        "ids": ",us6000hmci,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.29,
-        "rms": 1.12,
-        "gap": 31,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 143 km NW of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.4462,
-          1.6824,
-          3.84
-        ]
-      },
-      "id": "us6000hmci"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "181 km SSW of Akhiok, Alaska",
-        "time": 1652973123645,
-        "updated": 1652980307452,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226e4pckf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226e4pckf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0226e4pckf",
-        "ids": ",ak0226e4pckf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.13,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 181 km SSW of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.1003,
-          55.4041,
-          0.3
-        ]
-      },
-      "id": "ak0226e4pckf"
     }
   ],
   "bbox": [
     -177.5843,
     -30.1233,
-    0.3,
+    6.23,
     155.1799,
     62.8195,
-    82.77
+    127.3
   ]
 }
