@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653087598000,
+    "generated": 1653091258000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "19 km NNE of Isangel, Vanuatu",
+        "time": 1653088339558,
+        "updated": 1653089267040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmt5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmt5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000hmt5",
+        "ids": ",us6000hmt5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.675,
+        "rms": 0.79,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 19 km NNE of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.3378,
+          -19.3741,
+          142.27
+        ]
+      },
+      "id": "us6000hmt5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "4km NNW of Pinnacles, CA",
+        "time": 1653088062130,
+        "updated": 1653089853529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73736106",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73736106.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "nc",
+        "code": "73736106",
+        "ids": ",nc73736106,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": null,
+        "rms": 0.08,
+        "gap": 118,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4km NNW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1541672,
+          36.5660019,
+          2.6
+        ]
+      },
+      "id": "nc73736106"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -132,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.46,
-        "place": "4 km S of Pāhala, Hawaii",
-        "time": 1653075872740,
-        "updated": 1653076202390,
+        "mag": 2.72,
+        "place": "3 km SSW of Pāhala, Hawaii",
+        "time": 1653075872700,
+        "updated": 1653087983240,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73018227",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73018227.geojson",
@@ -143,28 +223,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 93,
+        "sig": 114,
         "net": "hv",
         "code": "73018227",
         "ids": ",hv73018227,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 43,
+        "nst": 51,
         "dmin": null,
-        "rms": 0.159999996,
-        "gap": 156,
+        "rms": 0.11,
+        "gap": 98,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km S of Pāhala, Hawaii"
+        "title": "M 2.7 - 3 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.484832763672,
-          19.1620006561279,
-          33.4099998474121
+          -155.486833333333,
+          19.1688333333333,
+          35.24
         ]
       },
       "id": "hv73018227"
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "278 km E of Samarai, Papua New Guinea",
+        "place": "D'Entrecasteaux Islands region",
         "time": 1653074065887,
         "updated": 1653084408040,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 34,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 278 km E of Samarai, Papua New Guinea"
+        "title": "M 4.6 - D'Entrecasteaux Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "124 km WSW of Myitkyina, Myanmar",
+        "place": "Myanmar",
         "time": 1653071960881,
         "updated": 1653083833040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 124 km WSW of Myitkyina, Myanmar"
+        "title": "M 4.3 - Myanmar"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.66,
-        "place": "Puerto Rico region",
+        "place": "7 km SSE of Maria Antonia, Puerto Rico",
         "time": 1653039610940,
         "updated": 1653058546540,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 195,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Puerto Rico region"
+        "title": "M 3.7 - 7 km SSE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1132,6 +1212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "40 km SSE of False Pass, Alaska",
+        "time": 1653016461503,
+        "updated": 1653090039040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmrn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmrn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000hmrn",
+        "ids": ",av91059318,us6000hmrn,",
+        "sources": ",av,us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.355,
+        "rms": 0.34,
+        "gap": 192,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 40 km SSE of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.2417,
+          54.4995,
+          10
+        ]
+      },
+      "id": "us6000hmrn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "74 km E of Kangding, China",
         "time": 1653006997224,
@@ -1213,8 +1333,8 @@
   "bbox": [
     -177.5843,
     -30.1233,
-    6.23,
-    155.1799,
+    2.6,
+    169.3378,
     60.156,
     405.44
   ]
