@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653408015000,
+    "generated": 1653411871000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "10 km S of Indios, Puerto Rico",
+        "time": 1653410052760,
+        "updated": 1653411147190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71350488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71350488.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71350488",
+        "ids": ",pr71350488,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": null,
+        "rms": 0.21,
+        "gap": 236,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 10 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8098333333333,
+          17.8963333333333,
+          11.26
+        ]
+      },
+      "id": "pr71350488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "282 km WSW of Tual, Indonesia",
+        "time": 1653408486631,
+        "updated": 1653410274040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hc8t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hc8t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000hc8t",
+        "ids": ",us7000hc8t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.925,
+        "rms": 0.47,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 282 km WSW of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.299,
+          -6.3217,
+          113.92
+        ]
+      },
+      "id": "us7000hc8t"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +175,17 @@
         "mag": 5.4,
         "place": "49 km E of Estique, Peru",
         "time": 1653397078249,
-        "updated": 1653404479774,
+        "updated": 1653411203160,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hc71",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hc71.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 4.1,
         "mmi": 3.443,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 450,
         "net": "us",
         "code": "7000hc71",
         "ids": ",us7000hc71,",
@@ -134,8 +214,8 @@
       "properties": {
         "mag": 2.7,
         "place": "30 km SE of Mina, Nevada",
-        "time": 1653394368927,
-        "updated": 1653407754562,
+        "time": 1653394368925,
+        "updated": 1653408322741,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00839442",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00839442.geojson",
@@ -151,10 +231,10 @@
         "ids": ",nn00839442,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.047,
-        "rms": 0.0922,
-        "gap": 98.2,
+        "nst": 24,
+        "dmin": 0.053,
+        "rms": 0.1303,
+        "gap": 53.6,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 30 km SE of Mina, Nevada"
@@ -162,9 +242,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9105,
-          38.165,
-          10.5
+          -117.9031,
+          38.1671,
+          10
         ]
       },
       "id": "nn00839442"
@@ -535,7 +615,7 @@
         "mag": 2.84,
         "place": "12km S of Hamilton City, CA",
         "time": 1653369393360,
-        "updated": 1653383054333,
+        "updated": 1653408882739,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73737316",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73737316.geojson",
@@ -548,8 +628,8 @@
         "sig": 124,
         "net": "nc",
         "code": "73737316",
-        "ids": ",nc73737316,",
-        "sources": ",nc,",
+        "ids": ",nc73737316,nn00839437,",
+        "sources": ",nc,nn,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 10,
         "dmin": 0.2847,
@@ -1172,10 +1252,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "89 km SE of Mil’kovo, Russia",
+        "time": 1653338878083,
+        "updated": 1653410993040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hc14",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hc14.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000hc14",
+        "ids": ",us7000hc14,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.121,
+        "rms": 0.68,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 89 km SE of Mil’kovo, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.4161,
+          54.0451,
+          118.23
+        ]
+      },
+      "id": "us7000hc14"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "62 km SW of Sand Point, Alaska",
+        "time": 1653337015275,
+        "updated": 1653410134040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hc0x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hc0x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000hc0x",
+        "ids": ",us7000hc0x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.576,
+        "rms": 0.65,
+        "gap": 160,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 62 km SW of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.0663,
+          54.8838,
+          49.84
+        ]
+      },
+      "id": "us7000hc0x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.2,
         "place": "59 km SE of Denali National Park, Alaska",
         "time": 1653335123970,
-        "updated": 1653335853202,
+        "updated": 1653409029040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226ktfk4r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226ktfk4r.geojson",
@@ -1188,8 +1348,8 @@
         "sig": 158,
         "net": "ak",
         "code": "0226ktfk4r",
-        "ids": ",ak0226ktfk4r,",
-        "sources": ",ak,",
+        "ids": ",us7000hc0a,ak0226ktfk4r,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1488,46 +1648,6 @@
         ]
       },
       "id": "us7000hbz7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Halmahera, Indonesia",
-        "time": 1653324339541,
-        "updated": 1653328846040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hbz1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hbz1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000hbz1",
-        "ids": ",us7000hbz1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.938,
-        "rms": 0.44,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Halmahera, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.2834,
-          1.7127,
-          62.16
-        ]
-      },
-      "id": "us7000hbz1"
     }
   ],
   "bbox": [
