@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653595190000,
+    "generated": 1653598825000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "West Chile Rise",
+        "time": 1653595336709,
+        "updated": 1653596529040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hcu0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hcu0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000hcu0",
+        "ids": ",us7000hcu0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 12.367,
+        "rms": 0.81,
+        "gap": 144,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - West Chile Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9107,
+          -40.2598,
+          10
+        ]
+      },
+      "id": "us7000hcu0"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6.2,
         "place": "southern East Pacific Rise",
         "time": 1653588604970,
-        "updated": 1653591893252,
+        "updated": 1653596007965,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hct4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hct4.geojson",
@@ -135,7 +175,7 @@
         "mag": 3.37,
         "place": "8 km NNE of Quebradillas, Puerto Rico",
         "time": 1653581717670,
-        "updated": 1653586674990,
+        "updated": 1653598432040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71350893",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71350893.geojson",
@@ -148,8 +188,8 @@
         "sig": 175,
         "net": "pr",
         "code": "71350893",
-        "ids": ",pr71350893,",
-        "sources": ",pr,",
+        "ids": ",us7000hcs5,pr71350893,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 49,
         "dmin": null,
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 7.2,
-        "place": "Southern Peru",
+        "place": "13 km WNW of Azángaro, Peru",
         "time": 1653566540271,
         "updated": 1653593792425,
         "tz": null,
@@ -350,14 +390,14 @@
         "code": "7000hcmn",
         "ids": ",pt22146000,at00rcho3w,us7000hcmn,",
         "sources": ",pt,at,us,",
-        "types": ",dyfi,general-text,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 2.532,
         "rms": 1.37,
         "gap": 28,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 7.2 - Southern Peru"
+        "title": "M 7.2 - 13 km WNW of Azángaro, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -575,11 +615,11 @@
         "mag": 4.28,
         "place": "18km S of Trona, CA",
         "time": 1653557012530,
-        "updated": 1653594393912,
+        "updated": 1653598604429,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40027143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40027143.geojson",
-        "felt": 298,
+        "felt": 299,
         "cdi": 4.1,
         "mmi": 5.373,
         "alert": "green",
@@ -852,10 +892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49,
+        "mag": 2.5,
         "place": "11km W of Toms Place, CA",
         "time": 1653552083950,
-        "updated": 1653562156203,
+        "updated": 1653598691747,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73738111",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73738111.geojson",
@@ -863,7 +903,7 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "nc",
@@ -871,10 +911,10 @@
         "ids": ",nc73738111,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.04758,
-        "rms": 0.02,
-        "gap": 180,
+        "nst": 25,
+        "dmin": 0.04919,
+        "rms": 0.03,
+        "gap": 131,
         "magType": "md",
         "type": "earthquake",
         "title": "M 2.5 - 11km W of Toms Place, CA"
@@ -882,9 +922,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.8024979,
-          37.5473328,
-          7.56
+          -118.8021667,
+          37.5456667,
+          7.32
         ]
       },
       "id": "nc73738111"
@@ -1052,10 +1092,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.89,
-        "place": "0km WSW of Round Valley, CA",
-        "time": 1653535952940,
-        "updated": 1653548115732,
+        "mag": 2.81,
+        "place": "1km ESE of Round Valley, CA",
+        "time": 1653535952860,
+        "updated": 1653598691436,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73738011",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73738011.geojson",
@@ -1063,28 +1103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 128,
+        "sig": 121,
         "net": "nc",
         "code": "73738011",
         "ids": ",nc73738011,",
         "sources": ",nc,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.1835,
-        "rms": 0.14,
-        "gap": 66,
+        "nst": 39,
+        "dmin": 0.1794,
+        "rms": 0.06,
+        "gap": 45,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 0km WSW of Round Valley, CA"
+        "title": "M 2.8 - 1km ESE of Round Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.6008301,
-          37.4136658,
-          11.58
+          -118.59,
+          37.4115,
+          11.29
         ]
       },
       "id": "nc73738011"
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "5 km NNE of Santa María Ecatepec, Mexico",
+        "place": "Oaxaca, Mexico",
         "time": 1653514982087,
         "updated": 1653581180872,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 135,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 5 km NNE of Santa María Ecatepec, Mexico"
+        "title": "M 5.5 - Oaxaca, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1615,11 +1655,11 @@
         "mag": 2.49,
         "place": "10km SSW of Ridgemark, CA",
         "time": 1653514796450,
-        "updated": 1653593657447,
+        "updated": 1653596181299,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73737901",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73737901.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -1688,126 +1728,6 @@
         ]
       },
       "id": "nn00839616"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "50 km ESE of Yujing, Taiwan",
-        "time": 1653512301827,
-        "updated": 1653513691040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hcie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hcie.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000hcie",
-        "ids": ",us7000hcie,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.248,
-        "rms": 0.94,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 50 km ESE of Yujing, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.9443,
-          23.0332,
-          8.45
-        ]
-      },
-      "id": "us7000hcie"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "48 km SSW of Glacier View, Alaska",
-        "time": 1653512183066,
-        "updated": 1653513254040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226o561jt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226o561jt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0226o561jt",
-        "ids": ",us7000hci9,ak0226o561jt,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 48 km SSW of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.9246,
-          61.3961,
-          16.3
-        ]
-      },
-      "id": "ak0226o561jt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "75 km SSW of Kaktovik, Alaska",
-        "time": 1653510983331,
-        "updated": 1653512401040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hci6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hci6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000hci6",
-        "ids": ",us7000hci6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.337,
-        "rms": 0.37,
-        "gap": 91,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 75 km SSW of Kaktovik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.6529,
-          69.5566,
-          10
-        ]
-      },
-      "id": "us7000hci6"
     }
   ],
   "bbox": [
@@ -1815,7 +1735,7 @@
     -49.7844,
     4.79,
     172.0689,
-    69.5566,
+    59.9287,
     386.48
   ]
 }
