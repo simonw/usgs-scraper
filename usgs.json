@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653721219000,
+    "generated": 1653724819000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 24
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "37 km N of Punta Cana, Dominican Republic",
-        "time": 1653716844798,
-        "updated": 1653717465040,
+        "mag": 2.55,
+        "place": "6km SSW of Palomar Observatory, CA",
+        "time": 1653721752780,
+        "updated": 1653724610657,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hd81",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hd81.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40028959",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40028959.geojson",
+        "felt": 88,
+        "cdi": 3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 126,
+        "net": "ci",
+        "code": "40028959",
+        "ids": ",ci40028959,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 77,
+        "dmin": 0.05467,
+        "rms": 0.21,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 6km SSW of Palomar Observatory, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8788333,
+          33.3005,
+          13.12
+        ]
+      },
+      "id": "ci40028959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.58,
+        "place": "40 km NNE of Otra Banda, Dominican Republic",
+        "time": 1653716843170,
+        "updated": 1653722434895,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022148000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022148000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000hd81",
-        "ids": ",us7000hd81,",
-        "sources": ",us,",
+        "sig": 197,
+        "net": "pr",
+        "code": "2022148000",
+        "ids": ",us7000hd81,pr2022148000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.402,
-        "rms": 0.65,
-        "gap": 148,
-        "magType": "ml",
+        "nst": 21,
+        "dmin": 0.5036,
+        "rms": 0.39,
+        "gap": 168,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 37 km N of Punta Cana, Dominican Republic"
+        "title": "M 3.6 - 40 km NNE of Otra Banda, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.3849,
-          18.9193,
-          30.57
+          -68.5378,
+          18.9926,
+          63
         ]
       },
-      "id": "us7000hd81"
+      "id": "pr2022148000"
     },
     {
       "type": "Feature",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "226 km WSW of Bandar Lampung, Indonesia",
+        "place": "southwest of Sumatra, Indonesia",
         "time": 1653690073640,
         "updated": 1653692842040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 161,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 226 km WSW of Bandar Lampung, Indonesia"
+        "title": "M 4.3 - southwest of Sumatra, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.45,
-        "place": "Mona Passage",
+        "place": "19 km ENE of Punta Cana, Dominican Republic",
         "time": 1653682309610,
         "updated": 1653692453672,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 151,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Mona Passage"
+        "title": "M 3.5 - 19 km ENE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "51 km WNW of Gizo, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1653644637317,
         "updated": 1653645841040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 57,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 51 km WNW of Gizo, Solomon Islands"
+        "title": "M 5.2 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -928,94 +968,14 @@
         ]
       },
       "id": "us7000hd0b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "228 km ENE of Levuka, Fiji",
-        "time": 1653638089068,
-        "updated": 1653639567040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hd08",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hd08.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000hd08",
-        "ids": ",us7000hd08,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.216,
-        "rms": 0.44,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 228 km ENE of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5736,
-          -17.6592,
-          540.95
-        ]
-      },
-      "id": "us7000hd08"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "20 km ESE of Chickaloon, Alaska",
-        "time": 1653635941056,
-        "updated": 1653636122192,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226r8a1cf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226r8a1cf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0226r8a1cf",
-        "ids": ",ak0226r8a1cf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.96,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 20 km ESE of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.1288,
-          61.7001,
-          0
-        ]
-      },
-      "id": "ak0226r8a1cf"
     }
   ],
   "bbox": [
-    -178.5736,
+    -173.4957,
     -59.6407,
-    0,
+    6.72,
     156.4164,
-    61.7001,
-    540.95
+    54.5864,
+    186.61
   ]
 }
