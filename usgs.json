@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653832779000,
+    "generated": 1653836422000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.8,
         "place": "22 km W of Stevens Village, Alaska",
         "time": 1653831939903,
-        "updated": 1653832616026,
+        "updated": 1653833944040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226un32q1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226un32q1.geojson",
@@ -28,8 +28,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0226un32q1",
-        "ids": ",ak0226un32q1,",
-        "sources": ",ak,",
+        "ids": ",us7000hdft,ak0226un32q1,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -292,6 +292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.45,
+        "place": "26 km NW of Stanley, Idaho",
+        "time": 1653812221630,
+        "updated": 1653833240770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80547349",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80547349.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "mb",
+        "code": "80547349",
+        "ids": ",mb80547349,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.839,
+        "rms": 0.22,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 26 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2083333,
+          44.3585,
+          10.35
+        ]
+      },
+      "id": "mb80547349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
         "place": "southeast of the Loyalty Islands",
         "time": 1653810304953,
@@ -375,17 +415,17 @@
         "mag": 5.1,
         "place": "35 km E of Ōarai, Japan",
         "time": 1653807323739,
-        "updated": 1653830155735,
+        "updated": 1653835024899,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hddw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hddw.geojson",
-        "felt": 76,
+        "felt": 77,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 435,
+        "sig": 436,
         "net": "us",
         "code": "7000hddw",
         "ids": ",us7000hddw,",
@@ -1208,86 +1248,6 @@
         ]
       },
       "id": "us7000hdae"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "northern Mid-Atlantic Ridge",
-        "time": 1653747545112,
-        "updated": 1653774914258,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdaa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdaa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "7000hdaa",
-        "ids": ",us7000hdaa,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 16.653,
-        "rms": 1,
-        "gap": 68,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - northern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -45.0394,
-          23.4466,
-          10
-        ]
-      },
-      "id": "us7000hdaa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "192 km NNW of Sola, Vanuatu",
-        "time": 1653747072461,
-        "updated": 1653772466336,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hda6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hda6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.524,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "7000hda6",
-        "ids": ",us7000hda6,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 3.22,
-        "rms": 0.82,
-        "gap": 54,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 192 km NNW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.0339,
-          -12.2115,
-          209.09
-        ]
-      },
-      "id": "us7000hda6"
     }
   ],
   "bbox": [
@@ -1296,6 +1256,6 @@
     -0.79,
     173.2818,
     66.0151,
-    209.09
+    181.56
   ]
 }
