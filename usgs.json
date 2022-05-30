@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653922785000,
+    "generated": 1653926435000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 26
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.6,
         "place": "36 km WSW of Mentone, Texas",
-        "time": 1653921497991,
-        "updated": 1653922723040,
+        "time": 1653921497751,
+        "updated": 1653923931040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdla",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdla.geojson",
@@ -32,8 +32,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 0.254,
-        "rms": 0.52,
+        "dmin": 0.257,
+        "rms": 0.51,
         "gap": 73,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.9671,
-          31.6114,
-          7.77
+          -103.9716,
+          31.6125,
+          5
         ]
       },
       "id": "us7000hdla"
@@ -95,7 +95,7 @@
         "mag": 3.2,
         "place": "54 km W of Clear, Alaska, Alaska",
         "time": 1653921082200,
-        "updated": 1653921879040,
+        "updated": 1653922999040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226wb4tdp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226wb4tdp.geojson",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "ak0226wb4tdp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "21 km NW of Albardón, Argentina",
+        "time": 1653921047092,
+        "updated": 1653923741040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdl7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdl7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000hdl7",
+        "ids": ",us7000hdl7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.235,
+        "rms": 1.03,
+        "gap": 157,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 21 km NW of Albardón, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6971,
+          -31.3097,
+          132.38
+        ]
+      },
+      "id": "us7000hdl7"
     },
     {
       "type": "Feature",
@@ -215,22 +255,22 @@
         "mag": 3.5,
         "place": "59km W of Petrolia, CA",
         "time": 1653904256480,
-        "updated": 1653915948040,
+        "updated": 1653923398618,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73739346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73739346.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 1.406,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
+        "sig": 189,
         "net": "nc",
         "code": "73739346",
         "ids": ",nc73739346,us7000hdk6,",
         "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 60,
         "dmin": 0.5017,
         "rms": 0.25,
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "northern Sumatra, Indonesia",
+        "place": "42 km NE of Padangsidempuan, Indonesia",
         "time": 1653904185202,
         "updated": 1653910028040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - northern Sumatra, Indonesia"
+        "title": "M 4.6 - 42 km NE of Padangsidempuan, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1008,91 +1048,11 @@
         ]
       },
       "id": "us7000hdg8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.03,
-        "place": "12 km WSW of Quinton, Oklahoma",
-        "time": 1653839489732,
-        "updated": 1653843148040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022klpv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022klpv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "ok",
-        "code": "2022klpv",
-        "ids": ",us7000hdg4,ok2022klpv,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.1112065986,
-        "rms": 0.6657363352,
-        "gap": 93.02411652,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 12 km WSW of Quinton, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.50694275,
-          35.09503555,
-          5
-        ]
-      },
-      "id": "ok2022klpv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.68,
-        "place": "40km ENE of Maneadero, B.C., MX",
-        "time": 1653838016570,
-        "updated": 1653866512911,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40029871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40029871.geojson",
-        "felt": 5,
-        "cdi": 3.8,
-        "mmi": 3.994,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 210,
-        "net": "ci",
-        "code": "40029871",
-        "ids": ",ci40029871,us7000hdg1,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 42,
-        "dmin": 0.24,
-        "rms": 0.24,
-        "gap": 193,
-        "magType": "mlr",
-        "type": "earthquake",
-        "title": "M 3.7 - 40km ENE of Maneadero, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1963348,
-          31.8903332,
-          8.33
-        ]
-      },
-      "id": "ci40029871"
     }
   ],
   "bbox": [
     -177.8945,
-    -22.3026,
+    -31.3097,
     0,
     175.5282,
     64.2243,
