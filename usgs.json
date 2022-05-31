@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653980381000,
+    "generated": 1653984049000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "115 km WSW of Bandar Lampung, Indonesia",
+        "time": 1653981010474,
+        "updated": 1653982238595,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdqr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdqr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.389,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "7000hdqr",
+        "ids": ",us7000hdqr,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 2.042,
+        "rms": 1,
+        "gap": 34,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.6 - 115 km WSW of Bandar Lampung, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.3239,
+          -5.8913,
+          70.64
+        ]
+      },
+      "id": "us7000hdqr"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "29 km S of Mina, Nevada",
         "time": 1653980023074,
-        "updated": 1653980263726,
+        "updated": 1653982911860,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00839963",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00839963.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "00839963",
         "ids": ",nn00839963,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 35,
         "dmin": 0.105,
         "rms": 0.2486,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nn00839963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "280 km NNW of Kuril’sk, Russia",
+        "time": 1653979080128,
+        "updated": 1653980621040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdqn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdqn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000hdqn",
+        "ids": ",us7000hdqn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.795,
+        "rms": 0.89,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 280 km NNW of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.7471,
+          47.6309,
+          407.89
+        ]
+      },
+      "id": "us7000hdqn"
     },
     {
       "type": "Feature",
@@ -895,17 +975,17 @@
         "mag": 3.6,
         "place": "2 km SE of Prees, United Kingdom",
         "time": 1653921416212,
-        "updated": 1653978416475,
+        "updated": 1653983341513,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdns",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdns.geojson",
-        "felt": 10,
+        "felt": 12,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 203,
+        "sig": 204,
         "net": "us",
         "code": "7000hdns",
         "ids": ",us7000hdns,",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "77 km SSE of Adak, Alaska",
         "time": 1653921141717,
         "updated": 1653944447040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 229,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.2 - 77 km SSE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "northern Sumatra, Indonesia",
+        "place": "42 km NE of Padangsidempuan, Indonesia",
         "time": 1653904185202,
         "updated": 1653910028040,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - northern Sumatra, Indonesia"
+        "title": "M 4.6 - 42 km NE of Padangsidempuan, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1328,54 +1408,14 @@
         ]
       },
       "id": "pr71351428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "15 km WSW of Mala, Peru",
-        "time": 1653894259647,
-        "updated": 1653942837180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdjc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdjc.geojson",
-        "felt": 12,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 329,
-        "net": "us",
-        "code": "7000hdjc",
-        "ids": ",us7000hdjc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.715,
-        "rms": 0.83,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 15 km WSW of Mala, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.7613,
-          -12.703,
-          56.12
-        ]
-      },
-      "id": "us7000hdjc"
     }
   ],
   "bbox": [
     -176.0606,
     -31.3097,
     0,
-    131.328,
+    146.7471,
     64.2243,
-    250.03
+    407.89
   ]
 }
