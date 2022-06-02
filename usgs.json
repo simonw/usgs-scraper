@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654192807000,
+    "generated": 1654196399000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -135,22 +135,22 @@
         "mag": 4,
         "place": "28 km WSW of Ashkāsham, Afghanistan",
         "time": 1654177551168,
-        "updated": 1654179749040,
+        "updated": 1654196300449,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hecc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hecc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
+        "sig": 247,
         "net": "us",
         "code": "7000hecc",
         "ids": ",us7000hecc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.721,
         "rms": 1.25,
@@ -295,13 +295,13 @@
         "mag": 4.14,
         "place": "7km NW of Bay Point, CA",
         "time": 1654171642230,
-        "updated": 1654192611141,
+        "updated": 1654196321837,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73740051",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73740051.geojson",
-        "felt": 5385,
+        "felt": 5445,
         "cdi": 4.3,
-        "mmi": 4.165,
+        "mmi": 4.157,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -455,12 +455,12 @@
         "mag": 3.43,
         "place": "26 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1654165217530,
-        "updated": 1654170165040,
+        "updated": 1654196241903,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71351973",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71351973.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -468,9 +468,9 @@
         "sig": 181,
         "net": "pr",
         "code": "71351973",
-        "ids": ",us7000heb7,pr71351973,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr71351973,us7000heb7,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 37,
         "dmin": null,
         "rms": 0.18,
@@ -613,12 +613,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "52 km SSW of Whites City, New Mexico",
-        "time": 1654154743319,
-        "updated": 1654156455040,
+        "place": "53 km SSW of Whites City, New Mexico",
+        "time": 1654154743220,
+        "updated": 1654193551065,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hea0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hea0.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022kshd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022kshd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -626,28 +626,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
-        "net": "us",
-        "code": "7000hea0",
-        "ids": ",us7000hea0,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2022kshd",
+        "ids": ",us7000hea0,tx2022kshd,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.075,
-        "rms": 0.3,
-        "gap": 72,
+        "nst": 10,
+        "dmin": 0.05332325713,
+        "rms": 0.2,
+        "gap": 95,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 52 km SSW of Whites City, New Mexico"
+        "title": "M 2.5 - 53 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.5572,
-          31.7274,
-          5
+          -104.564985,
+          31.72159139,
+          7.185595703
         ]
       },
-      "id": "us7000hea0"
+      "id": "tx2022kshd"
     },
     {
       "type": "Feature",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Philippine Islands region",
+        "place": "159 km ESE of Pondaguitan, Philippines",
         "time": 1654139198876,
         "updated": 1654140092040,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Philippine Islands region"
+        "title": "M 5.0 - 159 km ESE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Kepulauan Obi, Indonesia",
+        "place": "212 km S of Sofifi, Indonesia",
         "time": 1654124144357,
         "updated": 1654125176040,
         "tz": null,
@@ -1277,7 +1277,7 @@
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Kepulauan Obi, Indonesia"
+        "title": "M 5.0 - 212 km S of Sofifi, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us7000he6c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "55 km SSW of Whites City, New Mexico",
-        "time": 1654107396668,
-        "updated": 1654139227318,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022krhd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022krhd.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2022krhd",
-        "ids": ",tx2022krhd,us7000he5s,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.07599618142,
-        "rms": 0.2,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 55 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5896572,
-          31.71220509,
-          5.437451172
-        ]
-      },
-      "id": "tx2022krhd"
     }
   ],
   "bbox": [
