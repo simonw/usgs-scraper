@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654160405000,
+    "generated": 1654164005000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Georgia Island region",
+        "time": 1654161300294,
+        "updated": 1654162352040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hean",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hean.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000hean",
+        "ids": ",us7000hean,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.549,
+        "rms": 0.73,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Georgia Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -32.4817,
+          -55.3429,
+          10
+        ]
+      },
+      "id": "us7000hean"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1608,51 +1648,11 @@
         ]
       },
       "id": "us7000he29"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "45 km W of Linqiong, China",
-        "time": 1654074008122,
-        "updated": 1654144097292,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000he1h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000he1h.geojson",
-        "felt": 17,
-        "cdi": 7.3,
-        "mmi": 6.918,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 662,
-        "net": "us",
-        "code": "7000he1h",
-        "ids": ",us7000he1h,",
-        "sources": ",us,",
-        "types": ",dyfi,general-text,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 9.09,
-        "rms": 1.05,
-        "gap": 18,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - 45 km W of Linqiong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          102.9892,
-          30.4155,
-          10
-        ]
-      },
-      "id": "us7000he1h"
     }
   ],
   "bbox": [
     -178.3079,
-    -32.2168,
+    -55.3429,
     0,
     179.621,
     67.6511,
