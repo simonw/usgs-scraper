@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654455625000,
+    "generated": 1654459225000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "6 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1654451657520,
         "updated": 1654453137300,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 226,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 6 km SW of Guánica, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "southern Xinjiang, China",
+        "place": "126 km WNW of Kashgar, China",
         "time": 1654433195539,
         "updated": 1654435100040,
         "tz": null,
@@ -317,7 +317,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - southern Xinjiang, China"
+        "title": "M 4.5 - 126 km WNW of Kashgar, China"
       },
       "geometry": {
         "type": "Point",
@@ -415,12 +415,12 @@
         "mag": 3.43,
         "place": "74 km NNE of Punta Cana, Dominican Republic",
         "time": 1654427083860,
-        "updated": 1654430558040,
+        "updated": 1654457207975,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71352498",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71352498.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -428,9 +428,9 @@
         "sig": 181,
         "net": "pr",
         "code": "71352498",
-        "ids": ",us7000hf52,pr71352498,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr71352498,us7000hf52,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 12,
         "dmin": null,
         "rms": 0.6,
@@ -1608,126 +1608,6 @@
         ]
       },
       "id": "us7000hf0r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "5 km NNW of El Moro, Colorado",
-        "time": 1654372468648,
-        "updated": 1654429354697,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hf0l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hf0l.geojson",
-        "felt": 11,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 133,
-        "net": "us",
-        "code": "7000hf0l",
-        "ids": ",us7000hf0l,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.143,
-        "rms": 0.83,
-        "gap": 99,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 5 km NNW of El Moro, Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4897,
-          37.2674,
-          5
-        ]
-      },
-      "id": "us7000hf0l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "74 km S of Challapata, Bolivia",
-        "time": 1654369428252,
-        "updated": 1654377038040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hf0g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hf0g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000hf0g",
-        "ids": ",us7000hf0g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.248,
-        "rms": 0.67,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 74 km S of Challapata, Bolivia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8111,
-          -19.5779,
-          255.77
-        ]
-      },
-      "id": "us7000hf0g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "123 km W of Kashgar, China",
-        "time": 1654369245417,
-        "updated": 1654376727040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hf0f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hf0f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000hf0f",
-        "ids": ",us7000hf0f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.109,
-        "rms": 0.52,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 123 km W of Kashgar, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          74.5574,
-          39.5888,
-          45.5
-        ]
-      },
-      "id": "us7000hf0f"
     }
   ],
   "bbox": [
