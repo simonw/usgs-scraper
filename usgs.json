@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654599643000,
+    "generated": 1654603244000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.91,
+        "place": "151 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1654596494570,
+        "updated": 1654601189452,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022158001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022158001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 235,
+        "net": "pr",
+        "code": "2022158001",
+        "ids": ",pr2022158001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 1.3851,
+        "rms": 0.27,
+        "gap": 286,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 151 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1983,
+          19.6901,
+          60
+        ]
+      },
+      "id": "pr2022158001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.96,
         "place": "18km W of Petrolia, CA",
         "time": 1654595338310,
-        "updated": 1654598356920,
+        "updated": 1654600125040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73741131",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73741131.geojson",
@@ -28,8 +68,8 @@
         "sig": 135,
         "net": "nc",
         "code": "73741131",
-        "ids": ",nc73741131,",
-        "sources": ",nc,",
+        "ids": ",nc73741131,us7000hfix,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
         "dmin": 0.1601,
@@ -415,17 +455,17 @@
         "mag": 2.7800000000000002,
         "place": "4 km WSW of Fern Prairie, Washington",
         "time": 1654567108760,
-        "updated": 1654599417496,
+        "updated": 1654603169693,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61840137",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61840137.geojson",
-        "felt": 749,
+        "felt": 759,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 426,
+        "sig": 430,
         "net": "uw",
         "code": "61840137",
         "ids": ",uw61840137,us7000hfhb,",
@@ -1168,46 +1208,6 @@
         ]
       },
       "id": "us7000hfb7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "74 km N of Chickaloon, Alaska",
-        "time": 1654516540824,
-        "updated": 1654517207040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02277u94oy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02277u94oy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "02277u94oy",
-        "ids": ",us7000hfav,ak02277u94oy,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 74 km N of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.2263,
-          62.4575,
-          35.5
-        ]
-      },
-      "id": "ak02277u94oy"
     }
   ],
   "bbox": [
@@ -1215,7 +1215,7 @@
     -29.8565,
     1.9,
     167.3406,
-    62.4575,
+    59.7842,
     549.81
   ]
 }
