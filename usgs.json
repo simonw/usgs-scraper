@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654745249000,
+    "generated": 1654747646000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49000001,
-        "place": "3 km WNW of Pāhala, Hawaii",
-        "time": 1654740413150,
-        "updated": 1654740743490,
+        "mag": 2.7,
+        "place": "2 km WNW of Pāhala, Hawaii",
+        "time": 1654740413030,
+        "updated": 1654746539840,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73038662",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73038662.geojson",
@@ -23,28 +23,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 112,
         "net": "hv",
         "code": "73038662",
         "ids": ",hv73038662,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 44,
+        "nst": 50,
         "dmin": null,
-        "rms": 0.159999996,
-        "gap": 118,
+        "rms": 0.12,
+        "gap": 66,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km WNW of Pāhala, Hawaii"
+        "title": "M 2.7 - 2 km WNW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.509674072266,
-          19.2210006713867,
-          33.6699981689453
+          -155.503,
+          19.2085,
+          35.49
         ]
       },
       "id": "hv73038662"
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "180 km NE of The Valley, Anguilla",
-        "time": 1654737088837,
-        "updated": 1654739721864,
+        "mag": 4.4,
+        "place": "179 km NE of The Valley, Anguilla",
+        "time": 1654737088687,
+        "updated": 1654747051920,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hg2e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hg2e.geojson",
@@ -105,25 +105,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 298,
         "net": "us",
         "code": "7000hg2e",
         "ids": ",us7000hg2e,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 1.88,
-        "rms": 0.87,
-        "gap": 45,
-        "magType": "mb",
+        "dmin": 1.868,
+        "rms": 0.37,
+        "gap": 65,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.9 - 180 km NE of The Valley, Anguilla"
+        "title": "M 4.4 - 179 km NE of The Valley, Anguilla"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.0576,
-          19.5415,
+          -62.0587,
+          19.5285,
           10
         ]
       },
@@ -1048,6 +1048,46 @@
         ]
       },
       "id": "us7000hfvg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "23 km NNW of Bima, Indonesia",
+        "time": 1654680286774,
+        "updated": 1654747428040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hfw2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hfw2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000hfw2",
+        "ids": ",us7000hfw2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.432,
+        "rms": 1.07,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 23 km NNW of Bima, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.6191,
+          -8.2783,
+          169.87
+        ]
+      },
+      "id": "us7000hfw2"
     },
     {
       "type": "Feature",
