@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655004324000,
+    "generated": 1655006664000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "4 km WSW of Guánica, Puerto Rico",
+        "time": 1655005519855,
+        "updated": 1655006313040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hgup",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hgup.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "7000hgup",
+        "ids": ",us7000hgup,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.11,
+        "rms": 0.22,
+        "gap": 203,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 4 km WSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9504,
+          17.956,
+          10
+        ]
+      },
+      "id": "us7000hgup"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "61 km SSW of Shungnak, Alaska",
+        "time": 1655005243235,
+        "updated": 1655006009040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227hmmj96",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227hmmj96.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0227hmmj96",
+        "ids": ",us7000hgun,ak0227hmmj96,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.82,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 61 km SSW of Shungnak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.5723,
+          66.3631,
+          6.8
+        ]
+      },
+      "id": "ak0227hmmj96"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
         "place": "34 km NW of Archidona, Ecuador",
         "time": 1655001463758,
-        "updated": 1655003749916,
+        "updated": 1655005869673,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hgui",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hgui.geojson",
-        "felt": 1,
-        "cdi": 3.4,
+        "felt": 2,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "87 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1654995841470,
         "updated": 1654998466040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 288,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 87 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.6 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "1 km E of Uramita, Colombia",
+        "place": "northern Colombia",
         "time": 1654995006784,
         "updated": 1654996697885,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 1 km E of Uramita, Colombia"
+        "title": "M 4.6 - northern Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "San Luis, Argentina",
+        "place": "San Juan-Mendoza-San Luis border region, Argentina",
         "time": 1654954810773,
         "updated": 1654991449805,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 81,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - San Luis, Argentina"
+        "title": "M 4.6 - San Juan-Mendoza-San Luis border region, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1768,6 @@
         ]
       },
       "id": "us7000hgni"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "106 km E of Iquique, Chile",
-        "time": 1654919418733,
-        "updated": 1654977019762,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hgne",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hgne.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "7000hgne",
-        "ids": ",us7000hgne,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.106,
-        "rms": 0.57,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 106 km E of Iquique, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.1357,
-          -20.2471,
-          103.65
-        ]
-      },
-      "id": "us7000hgne"
     }
   ],
   "bbox": [
@@ -1735,7 +1775,7 @@
     -65.1963,
     0,
     178.4601,
-    60.5231,
+    66.3631,
     184.62
   ]
 }
