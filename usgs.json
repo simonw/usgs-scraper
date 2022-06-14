@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655229609000,
+    "generated": 1655233209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "36 km ESE of Naalehu, Hawaii",
+        "time": 1655229248780,
+        "updated": 1655233186040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhec",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhec.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000hhec",
+        "ids": ",us7000hhec,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.376,
+        "rms": 0.6,
+        "gap": 255,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 36 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2738,
+          18.9057,
+          10
+        ]
+      },
+      "id": "us7000hhec"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 4.4,
         "place": "63 km ENE of Ishinomaki, Japan",
         "time": 1655224426827,
-        "updated": 1655226843040,
+        "updated": 1655230660799,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhdw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhdw.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "7000hhdw",
         "ids": ",us7000hhdw,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 2.352,
         "rms": 0.54,
@@ -1455,11 +1495,11 @@
         "mag": 3.5,
         "place": "59 km W of Sitka, Alaska",
         "time": 1655153458433,
-        "updated": 1655226299131,
+        "updated": 1655232221629,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227jkcfeu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227jkcfeu.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2,
         "mmi": 2.652,
         "alert": null,
@@ -1608,51 +1648,11 @@
         ]
       },
       "id": "us7000hh4z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Prince Edward Islands region",
-        "time": 1655143794379,
-        "updated": 1655155331040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hh4m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hh4m.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000hh4m",
-        "ids": ",us7000hh4m,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 18.885,
-        "rms": 0.67,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Prince Edward Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.1314,
-          -45.9334,
-          10
-        ]
-      },
-      "id": "us7000hh4m"
     }
   ],
   "bbox": [
     -178.2193,
-    -45.9334,
+    -23.8002,
     1.04,
     147.4001,
     63.1541,
