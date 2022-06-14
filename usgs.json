@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655180462000,
+    "generated": 1655183408000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -375,12 +375,12 @@
         "mag": 2.52,
         "place": "1 km ENE of Palomas, Puerto Rico",
         "time": 1655165715900,
-        "updated": 1655168401330,
+        "updated": 1655182305436,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71353968",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71353968.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +390,7 @@
         "code": "71353968",
         "ids": ",pr71353968,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 5,
         "dmin": null,
         "rms": 0.13,
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.03,
-        "place": "Mona Passage",
+        "place": "5 km S of La Playa, Puerto Rico",
         "time": 1655097022960,
         "updated": 1655143475100,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 139,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Mona Passage"
+        "title": "M 3.0 - 5 km S of La Playa, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1488,46 +1488,6 @@
         ]
       },
       "id": "pr71353873"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "48 km SSE of Port Graham, Alaska",
-        "time": 1655095241759,
-        "updated": 1655096784040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227jarb9r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227jarb9r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0227jarb9r",
-        "ids": ",us7000hh0y,ak0227jarb9r,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.69,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 48 km SSE of Port Graham, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.4342,
-          58.9667,
-          30.8
-        ]
-      },
-      "id": "ak0227jarb9r"
     }
   ],
   "bbox": [
@@ -1535,7 +1495,7 @@
     -46.8408,
     3.839396159,
     167.7653,
-    58.9667,
+    57.1113,
     228.57
   ]
 }
