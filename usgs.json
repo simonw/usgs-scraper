@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655380827000,
+    "generated": 1655385087000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "55 km NNE of Petersville, Alaska",
+        "time": 1655382896313,
+        "updated": 1655383025839,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227oe3kf7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227oe3kf7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0227oe3kf7",
+        "ids": ",ak0227oe3kf7,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.55,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 55 km NNE of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.4094,
+          62.9689,
+          99.3
+        ]
+      },
+      "id": "ak0227oe3kf7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "3 km E of Parkersburg, Illinois",
+        "time": 1655381673240,
+        "updated": 1655384169040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60399861",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60399861.geojson",
+        "felt": 5,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "nm",
+        "code": "60399861",
+        "ids": ",nm60399861,us7000hhs3,",
+        "sources": ",nm,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.1611,
+        "rms": 0.16,
+        "gap": 57,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km E of Parkersburg, Illinois"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0146667,
+          38.5866667,
+          23.12
+        ]
+      },
+      "id": "nm60399861"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,7 +335,7 @@
         "mag": 5.1,
         "place": "49 km W of Darapidap, Philippines",
         "time": 1655359732700,
-        "updated": 1655362956835,
+        "updated": 1655383504040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhqh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhqh.geojson",
@@ -270,7 +350,7 @@
         "code": "7000hhqh",
         "ids": ",us7000hhqh,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 5.707,
         "rms": 0.95,
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "33 km E of Kīsh, Iran",
+        "place": "southern Iran",
         "time": 1655340047792,
         "updated": 1655340954040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 33 km E of Kīsh, Iran"
+        "title": "M 4.6 - southern Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1208,46 +1288,6 @@
         ]
       },
       "id": "us7000hhiy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "off the coast of Oregon",
-        "time": 1655297417642,
-        "updated": 1655312465545,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhir",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhir.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "7000hhir",
-        "ids": ",us7000hhir,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 4.24,
-        "rms": 0.74,
-        "gap": 189,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.8205,
-          44.6174,
-          10
-        ]
-      },
-      "id": "us7000hhir"
     }
   ],
   "bbox": [
