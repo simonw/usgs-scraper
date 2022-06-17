@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655456489000,
+    "generated": 1655460023000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.1,
+        "place": "33 km WSW of Ashkāsham, Afghanistan",
+        "time": 1655457778817,
+        "updated": 1655459633301,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hi2g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hi2g.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 401,
+        "net": "us",
+        "code": "7000hi2g",
+        "ids": ",us7000hi2g,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.788,
+        "rms": 0.9,
+        "gap": 36,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 33 km WSW of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.2156,
+          36.5258,
+          221.25
+        ]
+      },
+      "id": "us7000hi2g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "148 km WSW of Haveluloto, Tonga",
+        "time": 1655457118732,
+        "updated": 1655458373040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hi2f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hi2f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000hi2f",
+        "ids": ",us7000hi2f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.263,
+        "rms": 0.69,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 148 km WSW of Haveluloto, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.5989,
+          -21.4831,
+          224.58
+        ]
+      },
+      "id": "us7000hi2f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
-        "place": "Kodiak Island region, Alaska",
+        "place": "56 km NE of Ouzinkie, Alaska",
         "time": 1655454930471,
-        "updated": 1655455068385,
+        "updated": 1655458049040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227pz9c8f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227pz9c8f.geojson",
@@ -28,8 +108,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0227pz9c8f",
-        "ids": ",ak0227pz9c8f,",
-        "sources": ",ak,",
+        "ids": ",us7000hi2e,ak0227pz9c8f,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -37,7 +117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Kodiak Island region, Alaska"
+        "title": "M 2.8 - 56 km NE of Ouzinkie, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak0227pz9c8f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "53 km N of Beauséjour, Guadeloupe",
+        "time": 1655452343030,
+        "updated": 1655456861040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hi2a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hi2a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000hi2a",
+        "ids": ",us7000hi2a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.498,
+        "rms": 0.8,
+        "gap": 197,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 53 km N of Beauséjour, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.0823,
+          16.7872,
+          51
+        ]
+      },
+      "id": "us7000hi2a"
     },
     {
       "type": "Feature",
@@ -373,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "12 km SSE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1655427814110,
         "updated": 1655429087570,
         "tz": null,
@@ -397,7 +517,7 @@
         "gap": 244,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 12 km SSE of Maria Antonia, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "33 km SSE of Londres, Argentina",
+        "place": "Catamarca, Argentina",
         "time": 1655416950865,
         "updated": 1655418158040,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 33 km SSE of Londres, Argentina"
+        "title": "M 4.2 - Catamarca, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "4 km ESE of Parkersburg, Illinois",
+        "place": "Illinois",
         "time": 1655381673470,
         "updated": 1655445819234,
         "tz": null,
@@ -1557,7 +1677,7 @@
         "gap": 57,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km ESE of Parkersburg, Illinois"
+        "title": "M 2.5 - Illinois"
       },
       "geometry": {
         "type": "Point",
@@ -1608,54 +1728,14 @@
         ]
       },
       "id": "tx2022lsep"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "66 km SSE of Gorontalo, Indonesia",
-        "time": 1655370906480,
-        "updated": 1655373185040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhr8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhr8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000hhr8",
-        "ids": ",us7000hhr8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.204,
-        "rms": 0.83,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 66 km SSE of Gorontalo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.3554,
-          0.0184,
-          135.72
-        ]
-      },
-      "id": "us7000hhr8"
     }
   ],
   "bbox": [
-    -158.4988,
+    -176.5989,
     -27.9823,
     2.866650391,
     142.1175,
     67.8628,
-    187.71
+    224.58
   ]
 }
