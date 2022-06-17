@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655463623000,
+    "generated": 1655467234000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "50 km NNE of The Valley, Anguilla",
-        "time": 1655462888000,
-        "updated": 1655463483897,
+        "mag": 2.45,
+        "place": "6km SSE of Portola Valley, CA",
+        "time": 1655464082510,
+        "updated": 1655465945612,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt22168001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt22168001.geojson",
-        "felt": 5,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73746671",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73746671.geojson",
+        "felt": 9,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 418,
-        "net": "pt",
-        "code": "22168001",
-        "ids": ",pt22168001,",
-        "sources": ",pt,",
-        "types": ",dyfi,origin,",
-        "nst": 16,
-        "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "Mi",
+        "sig": 96,
+        "net": "nc",
+        "code": "73746671",
+        "ids": ",nc73746671,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.02422,
+        "rms": 0.12,
+        "gap": 53,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 5.2 - 50 km NNE of The Valley, Anguilla"
+        "title": "M 2.5 - 6km SSE of Portola Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.92,
-          18.651,
-          10
+          -122.2036667,
+          37.3388329,
+          8.66
         ]
       },
-      "id": "pt22168001"
+      "id": "nc73746671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "31 km NNE of The Valley, Anguilla",
+        "time": 1655462891270,
+        "updated": 1655466962081,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hi2s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hi2s.geojson",
+        "felt": 66,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 382,
+        "net": "us",
+        "code": "7000hi2s",
+        "ids": ",pt22168001,us7000hi2s,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.452,
+        "rms": 0.54,
+        "gap": 32,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 31 km NNE of The Valley, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9751,
+          18.4946,
+          29.4
+        ]
+      },
+      "id": "us7000hi2s"
     },
     {
       "type": "Feature",
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "56 km NE of Ouzinkie, Alaska",
+        "place": "Kodiak Island region, Alaska",
         "time": 1655454930471,
         "updated": 1655458049040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 56 km NE of Ouzinkie, Alaska"
+        "title": "M 2.8 - Kodiak Island region, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "Puerto Rico region",
+        "place": "12 km SSE of Maria Antonia, Puerto Rico",
         "time": 1655427814110,
         "updated": 1655429087570,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 244,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
+        "title": "M 2.8 - 12 km SSE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Catamarca, Argentina",
+        "place": "33 km SSE of Londres, Argentina",
         "time": 1655416950865,
         "updated": 1655418158040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Catamarca, Argentina"
+        "title": "M 4.2 - 33 km SSE of Londres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1768,6 @@
         ]
       },
       "id": "nm60399861"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1655379583146,
-        "updated": 1655380703631,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022lsep",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022lsep.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2022lsep",
-        "ids": ",us7000hhrs,tx2022lsep,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.06591265002,
-        "rms": 0.3,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4248396,
-          31.68101299,
-          6.131567383
-        ]
-      },
-      "id": "tx2022lsep"
     }
   ],
   "bbox": [
