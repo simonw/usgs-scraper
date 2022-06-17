@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655452823000,
+    "generated": 1655456489000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "Kodiak Island region, Alaska",
+        "time": 1655454930471,
+        "updated": 1655455068385,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227pz9c8f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227pz9c8f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "0227pz9c8f",
+        "ids": ",ak0227pz9c8f,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Kodiak Island region, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.8304,
+          58.2908,
+          29.4
+        ]
+      },
+      "id": "ak0227pz9c8f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1655452109433,
+        "updated": 1655455699899,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ltsl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ltsl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2022ltsl",
+        "ids": ",tx2022ltsl,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.02179095736,
+        "rms": 0.3,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4772932,
+          31.67720399,
+          2.866650391
+        ]
+      },
+      "id": "tx2022ltsl"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.7,
         "place": "25 km WNW of Golfito, Costa Rica",
         "time": 1655450785298,
-        "updated": 1655452470040,
+        "updated": 1655454246687,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hi25",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hi25.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "7000hi25",
         "ids": ",us7000hi25,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.585,
         "rms": 1.19,
@@ -135,7 +215,7 @@
         "mag": 2.45,
         "place": "14km ENE of Red Bluff, CA",
         "time": 1655440219580,
-        "updated": 1655448736545,
+        "updated": 1655453771032,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73746556",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73746556.geojson",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "Puerto Rico region",
+        "place": "12 km SSE of Maria Antonia, Puerto Rico",
         "time": 1655427814110,
         "updated": 1655429087570,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 244,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
+        "title": "M 2.8 - 12 km SSE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Catamarca, Argentina",
+        "place": "33 km SSE of Londres, Argentina",
         "time": 1655416950865,
         "updated": 1655418158040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Catamarca, Argentina"
+        "title": "M 4.2 - 33 km SSE of Londres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1568,52 +1648,12 @@
         ]
       },
       "id": "us7000hhr8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "6km W of Cobb, CA",
-        "time": 1655369336620,
-        "updated": 1655399554307,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73746091",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73746091.geojson",
-        "felt": 2,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "nc",
-        "code": "73746091",
-        "ids": ",nc73746091,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 62,
-        "dmin": 0.01023,
-        "rms": 0.07,
-        "gap": 31,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 6km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7981644,
-          38.8276672,
-          1.87
-        ]
-      },
-      "id": "nc73746091"
     }
   ],
   "bbox": [
     -158.4988,
     -27.9823,
-    1.87,
+    2.866650391,
     142.1175,
     67.8628,
     187.71
