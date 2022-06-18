@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655539227000,
+    "generated": 1655542827000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "28 km N of Four Mile Road, Alaska",
+        "time": 1655540108169,
+        "updated": 1655542452293,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227rmoco0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227rmoco0.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "0227rmoco0",
+        "ids": ",ak0227rmoco0,us7000hibb,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 28 km N of Four Mile Road, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.0094,
+          64.8521,
+          26.2
+        ]
+      },
+      "id": "ak0227rmoco0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "7 km E of Stillmore, Georgia",
+        "time": 1655539523720,
+        "updated": 1655542817523,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60400186",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60400186.geojson",
+        "felt": 205,
+        "cdi": 5,
+        "mmi": 4.934,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 336,
+        "net": "se",
+        "code": "60400186",
+        "ids": ",us7000hib6,at00rdnyh0,se60400186,at00rdnyh2,",
+        "sources": ",us,at,se,at,",
+        "types": ",associate,dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 22,
+        "dmin": 0.8316,
+        "rms": 0.29,
+        "gap": 116,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.9 - 7 km E of Stillmore, Georgia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1405,
+          32.4525,
+          0.74
+        ]
+      },
+      "id": "se60400186"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1688,54 +1768,14 @@
         ]
       },
       "id": "us7000hi2f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "Kodiak Island region, Alaska",
-        "time": 1655454930471,
-        "updated": 1655458049040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227pz9c8f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227pz9c8f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0227pz9c8f",
-        "ids": ",us7000hi2e,ak0227pz9c8f,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - Kodiak Island region, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.8304,
-          58.2908,
-          29.4
-        ]
-      },
-      "id": "ak0227pz9c8f"
     }
   ],
   "bbox": [
     -178.5353,
     -49.2177,
-    1.94,
+    0.74,
     169.7407,
-    64.4652,
+    64.8521,
     622.42
   ]
 }
