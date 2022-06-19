@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655643937000,
+    "generated": 1655647237000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "7 km E of Pāhala, Hawaii",
         "time": 1655643426870,
-        "updated": 1655643756330,
+        "updated": 1655646111145,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73048737",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73048737.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 96,
         "net": "hv",
         "code": "73048737",
-        "ids": ",hv73048737,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv73048737,us7000hijb,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 47,
         "dmin": null,
         "rms": 0.129999995,
@@ -52,10 +52,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.6,
+        "place": "off the coast of Oregon",
+        "time": 1655642826156,
+        "updated": 1655644190040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hij8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hij8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "7000hij8",
+        "ids": ",us7000hij8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.386,
+        "rms": 0.82,
+        "gap": 247,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.244,
+          44.4805,
+          10
+        ]
+      },
+      "id": "us7000hij8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "133 km S of ‘Ohonua, Tonga",
+        "time": 1655642306847,
+        "updated": 1655644929040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hija",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hija.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000hija",
+        "ids": ",us7000hija,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 8.257,
+        "rms": 0.52,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 133 km S of ‘Ohonua, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.7607,
+          -22.5266,
+          10
+        ]
+      },
+      "id": "us7000hija"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
         "place": "75 km SW of Pangai, Tonga",
         "time": 1655639360228,
-        "updated": 1655641277236,
+        "updated": 1655646732551,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hiiy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hiiy.geojson",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "59 km SSW of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1655631281190,
         "updated": 1655632245040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 101,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 59 km SSW of Whites City, New Mexico"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "near the west coast of Honshu, Japan",
+        "place": "61 km NNE of Nanao, Japan",
         "time": 1655618886908,
         "updated": 1655628720388,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 90,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - near the west coast of Honshu, Japan"
+        "title": "M 5.1 - 61 km NNE of Nanao, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -812,6 +892,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.92,
+        "place": "8 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1655596222770,
+        "updated": 1655645919530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022169001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022169001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 236,
+        "net": "pr",
+        "code": "2022169001",
+        "ids": ",pr2022169001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.1096,
+        "rms": 0.51,
+        "gap": 146,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 8 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5861,
+          18.3063,
+          79
+        ]
+      },
+      "id": "pr2022169001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "7 km SE of Ferry, Alaska",
         "time": 1655593093123,
@@ -893,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "2 km S of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1655590590370,
         "updated": 1655599338925,
         "tz": null,
@@ -917,7 +1037,7 @@
         "gap": 203,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 2 km S of Indios, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1568,46 +1688,6 @@
         ]
       },
       "id": "us7000hidx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "52 km SSW of Whites City, New Mexico",
-        "time": 1655560720403,
-        "updated": 1655568106192,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022lwae",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022lwae.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.374,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "tx",
-        "code": "2022lwae",
-        "ids": ",us7000hidq,tx2022lwae,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 20,
-        "dmin": 0.03232584933,
-        "rms": 0.3,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 52 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5359507,
-          31.72641008,
-          4.820458984
-        ]
-      },
-      "id": "tx2022lwae"
     }
   ],
   "bbox": [
