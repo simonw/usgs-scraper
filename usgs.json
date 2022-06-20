@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655751580000,
+    "generated": 1655755240000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.58,
-        "place": "93km WNW of Bayview, CA",
-        "time": 1655749713380,
-        "updated": 1655750832049,
+        "mag": 3.3,
+        "place": "21 km W of Salamatof, Alaska",
+        "time": 1655752191123,
+        "updated": 1655752282722,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227v49mcw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227v49mcw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "0227v49mcw",
+        "ids": ",ak0227v49mcw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.49,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 21 km W of Salamatof, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.7158,
+          60.5971,
+          72.9
+        ]
+      },
+      "id": "ak0227v49mcw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "104 km WNW of Port-Vila, Vanuatu",
+        "time": 1655752156306,
+        "updated": 1655754438371,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hitl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hitl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.377,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000hitl",
+        "ids": ",us7000hitl,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 2.007,
+        "rms": 0.68,
+        "gap": 67,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 104 km WNW of Port-Vila, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.3703,
+          -17.4593,
+          10
+        ]
+      },
+      "id": "us7000hitl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.98,
+        "place": "96km WNW of Bayview, CA",
+        "time": 1655749714770,
+        "updated": 1655752151360,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73748321",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73748321.geojson",
@@ -23,28 +103,28 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 137,
         "net": "nc",
         "code": "73748321",
         "ids": ",nc73748321,",
         "sources": ",nc,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 1.035,
-        "rms": 0.23,
-        "gap": 303,
+        "nst": 32,
+        "dmin": 0.8767,
+        "rms": 0.16,
+        "gap": 293,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 93km WNW of Bayview, CA"
+        "title": "M 3.0 - 96km WNW of Bayview, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125.2535019,
-          40.991333,
-          4.23
+          -125.2936667,
+          40.9688333,
+          23.67
         ]
       },
       "id": "nc73748321"
@@ -55,11 +135,11 @@
         "mag": 3.03,
         "place": "9km E of Mammoth Lakes, CA",
         "time": 1655739786790,
-        "updated": 1655748010726,
+        "updated": 1655753113553,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73748191",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73748191.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1654,7 +1734,7 @@
     -178.4661,
     -60.563,
     -0.67,
-    148.8708,
+    167.3703,
     65.6017,
     566.94
   ]
