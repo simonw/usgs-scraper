@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655712040000,
+    "generated": 1655715640000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "8km E of Mammoth Lakes, CA",
+        "time": 1655713656920,
+        "updated": 1655714478253,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73747976",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73747976.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "nc",
+        "code": "73747976",
+        "ids": ",nc73747976,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.007086,
+        "rms": 0.05,
+        "gap": 80,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 8km E of Mammoth Lakes, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8896637,
+          37.6401672,
+          -0.5
+        ]
+      },
+      "id": "nc73747976"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +175,11 @@
         "mag": 2.79,
         "place": "8km E of Mammoth Lakes, CA",
         "time": 1655703183620,
-        "updated": 1655703974198,
+        "updated": 1655712611174,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73747896",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73747896.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -208,6 +248,46 @@
         ]
       },
       "id": "ak0227uw157g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "22 km S of Sinabang, Indonesia",
+        "time": 1655701299657,
+        "updated": 1655713106040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hin8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hin8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000hin8",
+        "ids": ",us7000hin8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.55,
+        "rms": 0.36,
+        "gap": 193,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 22 km S of Sinabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.3607,
+          2.2753,
+          33.85
+        ]
+      },
+      "id": "us7000hin8"
     },
     {
       "type": "Feature",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "22 km N of Zhaotong, China",
+        "place": "Sichuan-Yunnan-Guizhou region, China",
         "time": 1655678456294,
         "updated": 1655679156040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 74,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 22 km N of Zhaotong, China"
+        "title": "M 4.5 - Sichuan-Yunnan-Guizhou region, China"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "near the coast of central Peru",
+        "place": "114 km SW of Paracas, Peru",
         "time": 1655665129754,
         "updated": 1655666245040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 158,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - near the coast of central Peru"
+        "title": "M 4.5 - 114 km SW of Paracas, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "northern Alaska",
+        "place": "60 km NNE of Chalkyitsik, Alaska",
         "time": 1655650142141,
         "updated": 1655654841040,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - northern Alaska"
+        "title": "M 2.6 - 60 km NNE of Chalkyitsik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2013,7 +2093,7 @@
   "bbox": [
     -178.4661,
     -22.5266,
-    -0.26,
+    -0.5,
     148.8708,
     67.153,
     566.94
