@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655774873000,
+    "generated": 1655779193000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "126 km WNW of Tobelo, Indonesia",
+        "time": 1655776453159,
+        "updated": 1655777440040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hivx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hivx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000hivx",
+        "ids": ",us7000hivx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.28,
+        "rms": 0.47,
+        "gap": 131,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 126 km WNW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8939,
+          1.97,
+          34.35
+        ]
+      },
+      "id": "us7000hivx"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "35 km ENE of Cantwell, Alaska",
         "time": 1655773664658,
-        "updated": 1655773776926,
+        "updated": 1655779172040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227wh2pzs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227wh2pzs.geojson",
@@ -28,8 +68,8 @@
         "sig": 112,
         "net": "ak",
         "code": "0227wh2pzs",
-        "ids": ",ak0227wh2pzs,",
-        "sources": ",ak,",
+        "ids": ",us7000hivc,ak0227wh2pzs,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1408,86 +1448,6 @@
         ]
       },
       "id": "us7000himp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "29 km SSW of Hualien City, Taiwan",
-        "time": 1655689183194,
-        "updated": 1655762043847,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hime",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hime.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000hime",
-        "ids": ",us7000hime,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.38,
-        "rms": 0.5,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 29 km SSW of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.4693,
-          23.7397,
-          10
-        ]
-      },
-      "id": "us7000hime"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "56 km NE of Nanao, Japan",
-        "time": 1655688693321,
-        "updated": 1655759080819,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000himd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000himd.geojson",
-        "felt": 7,
-        "cdi": 6.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 374,
-        "net": "us",
-        "code": "7000himd",
-        "ids": ",us7000himd,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.149,
-        "rms": 0.58,
-        "gap": 85,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 56 km NE of Nanao, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          137.3362,
-          37.4635,
-          6.9
-        ]
-      },
-      "id": "us7000himd"
     }
   ],
   "bbox": [
