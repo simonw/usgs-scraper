@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655856107000,
+    "generated": 1655861333000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "7 km ESE of La Parguera, Puerto Rico",
+        "time": 1655859127090,
+        "updated": 1655860972940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71355418",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71355418.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71355418",
+        "ids": ",pr71355418,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": null,
+        "rms": 0.13,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km ESE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.98,
+          17.9525,
+          15.65
+        ]
+      },
+      "id": "pr71355418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "54 km NE of Calingasta, Argentina",
+        "time": 1655856099151,
+        "updated": 1655859346040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hj5l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hj5l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000hj5l",
+        "ids": ",us7000hj5l,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.576,
+        "rms": 0.65,
+        "gap": 38,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.6 - 54 km NE of Calingasta, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9749,
+          -31.0239,
+          103.69
+        ]
+      },
+      "id": "us7000hj5l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 2.8,
         "place": "48 km SSE of Denali National Park, Alaska",
         "time": 1655851456737,
-        "updated": 1655853503031,
+        "updated": 1655856947040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227wtsp0j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227wtsp0j.geojson",
@@ -108,8 +188,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0227wtsp0j",
-        "ids": ",ak0227wtsp0j,",
-        "sources": ",ak,",
+        "ids": ",ak0227wtsp0j,us7000hj4u,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -128,46 +208,6 @@
         ]
       },
       "id": "ak0227wtsp0j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "41 km NW of Stanley, Idaho",
-        "time": 1655850465040,
-        "updated": 1655851770320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80549534",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80549534.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "mb",
-        "code": "80549534",
-        "ids": ",mb80549534,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.787,
-        "rms": 0.26,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 41 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.2306667,
-          44.5231667,
-          5.06
-        ]
-      },
-      "id": "mb80549534"
     },
     {
       "type": "Feature",
@@ -335,17 +375,17 @@
         "mag": 5.9,
         "place": "46 km SW of Khōst, Afghanistan",
         "time": 1655844876148,
-        "updated": 1655854634028,
+        "updated": 1655860339436,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hj3u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hj3u.geojson",
-        "felt": 49,
+        "felt": 50,
         "cdi": 7.4,
         "mmi": 7.158,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 686,
+        "sig": 687,
         "net": "us",
         "code": "7000hj3u",
         "ids": ",us7000hj3u,",
@@ -1408,94 +1448,14 @@
         ]
       },
       "id": "us7000hivl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "35 km ENE of Cantwell, Alaska",
-        "time": 1655773664658,
-        "updated": 1655779172040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227wh2pzs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227wh2pzs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0227wh2pzs",
-        "ids": ",us7000hivc,ak0227wh2pzs,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.52,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 35 km ENE of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.2665,
-          63.481,
-          4.9
-        ]
-      },
-      "id": "ak0227wh2pzs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "49 km S of Jurm, Afghanistan",
-        "time": 1655772557998,
-        "updated": 1655846113554,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hiv9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hiv9.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000hiv9",
-        "ids": ",us7000hiv9,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.376,
-        "rms": 1.06,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 49 km S of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.836,
-          36.4183,
-          123.09
-        ]
-      },
-      "id": "us7000hiv9"
     }
   ],
   "bbox": [
     -179.5006,
     -58.7537,
-    4.9,
+    5,
     154.343,
-    63.481,
+    63.1189,
     590.64
   ]
 }
