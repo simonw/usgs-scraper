@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656439212000,
+    "generated": 1656442821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Mariana Islands region",
+        "time": 1656438104604,
+        "updated": 1656441531040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hkxj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hkxj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000hkxj",
+        "ids": ",us7000hkxj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 8.179,
+        "rms": 0.41,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5516,
+          21.7164,
+          276.81
+        ]
+      },
+      "id": "us7000hkxj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "53 km ESE of Whittier, Alaska",
         "time": 1656437231303,
-        "updated": 1656437313391,
+        "updated": 1656440334040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02288bhawm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02288bhawm.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "02288bhawm",
-        "ids": ",ak02288bhawm,",
-        "sources": ",ak,",
+        "ids": ",us7000hkxa,ak02288bhawm,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -495,17 +535,17 @@
         "mag": 4.22,
         "place": "2km WNW of Cobb, CA",
         "time": 1656417460710,
-        "updated": 1656436569615,
+        "updated": 1656442621424,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73752031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73752031.geojson",
-        "felt": 68,
+        "felt": 71,
         "cdi": 4.9,
         "mmi": 4.772,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 307,
+        "sig": 309,
         "net": "nc",
         "code": "73752031",
         "ids": ",nc73752031,us7000hktw,ew1656417460,",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.67,
-        "place": "2 km W of Palomas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1656389456620,
         "updated": 1656390875740,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 81,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 2 km W of Palomas, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us7000hkn8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "41 km NW of Stanley, Idaho",
-        "time": 1656355331200,
-        "updated": 1656358705420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80549949",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80549949.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "mb",
-        "code": "80549949",
-        "ids": ",mb80549949,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.783,
-        "rms": 0.21,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 41 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.241,
-          44.5215,
-          10.92
-        ]
-      },
-      "id": "mb80549949"
     }
   ],
   "bbox": [
@@ -1656,6 +1656,6 @@
     0,
     166.9601,
     64.826,
-    249.69
+    276.81
   ]
 }
