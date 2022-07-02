@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656784810000,
+    "generated": 1656788382000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 52
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Nevada",
-        "time": 1656782397446,
-        "updated": 1656783000721,
+        "place": "90 km S of Eureka, Nevada",
+        "time": 1656782397206,
+        "updated": 1656785182780,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00842131",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00842131.geojson",
@@ -23,7 +23,7 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 148,
         "net": "nn",
@@ -31,20 +31,20 @@
         "ids": ",nn00842131,",
         "sources": ",nn,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.459,
-        "rms": 0.3809,
-        "gap": 198.15,
+        "nst": 11,
+        "dmin": 0.864,
+        "rms": 0.1853,
+        "gap": 103.84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Nevada"
+        "title": "M 3.1 - 90 km S of Eureka, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.253,
-          38.7148,
-          3.7
+          -116.0858,
+          38.7053,
+          17.9
         ]
       },
       "id": "nn00842131"
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "90 km SW of Kuril’sk, Russia",
+        "time": 1656781823789,
+        "updated": 1656785983040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzex",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzex.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000hzex",
+        "ids": ",us6000hzex,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 3.214,
+        "rms": 0.74,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 90 km SW of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0043,
+          44.7042,
+          162.07
+        ]
+      },
+      "id": "us6000hzex"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "68 km ESE of Denali National Park, Alaska",
         "time": 1656781184010,
-        "updated": 1656781324315,
+        "updated": 1656788237040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228ex86o9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228ex86o9.geojson",
@@ -68,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0228ex86o9",
-        "ids": ",ak0228ex86o9,",
-        "sources": ",ak,",
+        "ids": ",us6000hzeu,ak0228ex86o9,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -95,7 +135,7 @@
         "mag": 2.7,
         "place": "87 km SE of Kingston, Nevada",
         "time": 1656779667602,
-        "updated": 1656779893993,
+        "updated": 1656787724040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00842126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00842126.geojson",
@@ -108,8 +148,8 @@
         "sig": 112,
         "net": "nn",
         "code": "00842126",
-        "ids": ",nn00842126,",
-        "sources": ",nn,",
+        "ids": ",us6000hzek,nn00842126,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 1.187,
@@ -175,12 +215,12 @@
         "mag": 2.6,
         "place": "4 km NW of Ponce, Puerto Rico",
         "time": 1656777191760,
-        "updated": 1656778491140,
+        "updated": 1656785035966,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71357188",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71357188.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +230,7 @@
         "code": "71357188",
         "ids": ",pr71357188,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": null,
         "rms": 0.11,
@@ -215,7 +255,7 @@
         "mag": 2.57,
         "place": "4 km SSW of Indios, Puerto Rico",
         "time": 1656776747650,
-        "updated": 1656778125050,
+        "updated": 1656786274040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71357178",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71357178.geojson",
@@ -228,8 +268,8 @@
         "sig": 102,
         "net": "pr",
         "code": "71357178",
-        "ids": ",pr71357178,",
-        "sources": ",pr,",
+        "ids": ",us6000hzeg,pr71357178,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 33,
         "dmin": null,
@@ -248,6 +288,46 @@
         ]
       },
       "id": "pr71357178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "83 km W of San Antonio de los Cobres, Argentina",
+        "time": 1656775559860,
+        "updated": 1656786107040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hze9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hze9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000hze9",
+        "ids": ",us6000hze9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 1.689,
+        "rms": 0.6,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.4 - 83 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1287,
+          -24.3461,
+          187.01
+        ]
+      },
+      "id": "us6000hze9"
     },
     {
       "type": "Feature",
@@ -615,12 +695,12 @@
         "mag": 4.4,
         "place": "32 km NNE of Bandar-e Lengeh, Iran",
         "time": 1656753345412,
-        "updated": 1656755616040,
+        "updated": 1656785272558,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzd2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzd2.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -630,7 +710,7 @@
         "code": "6000hzd2",
         "ids": ",us6000hzd2,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 65,
         "dmin": 2.194,
         "rms": 0.43,
@@ -1495,11 +1575,11 @@
         "mag": 6,
         "place": "57 km NE of Bandar-e Lengeh, Iran",
         "time": 1656717914133,
-        "updated": 1656771186539,
+        "updated": 1656787797183,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hz9v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hz9v.geojson",
-        "felt": 144,
+        "felt": 145,
         "cdi": 4.7,
         "mmi": 7.407,
         "alert": "yellow",
@@ -2008,53 +2088,13 @@
         ]
       },
       "id": "us6000hz8h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "22 km NNW of Daphu, Bhutan",
-        "time": 1656700193402,
-        "updated": 1656762778938,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hz6u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hz6u.geojson",
-        "felt": 16,
-        "cdi": 4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 278,
-        "net": "us",
-        "code": "6000hz6u",
-        "ids": ",us6000hz6u,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 3.616,
-        "rms": 0.72,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 22 km NNW of Daphu, Bhutan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          89.2837,
-          27.1505,
-          10
-        ]
-      },
-      "id": "us6000hz6u"
     }
   ],
   "bbox": [
     -177.9927,
     -26.0868,
     -2.3199999332428,
-    142.0799,
+    147.0043,
     63.2101,
     483.49
   ]
