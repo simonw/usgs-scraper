@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656878445000,
+    "generated": 1656881985000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "21 km SW of Adak, Alaska",
+        "time": 1656880397440,
+        "updated": 1656881820675,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzld",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzld.geojson",
+        "felt": 1,
+        "cdi": 4.1,
+        "mmi": 2.999,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000hzld",
+        "ids": ",us6000hzld,ak0228gmzmuk,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 56,
+        "dmin": 0.183,
+        "rms": 1.05,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 21 km SW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.8268,
+          51.7215,
+          54.21
+        ]
+      },
+      "id": "us6000hzld"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.65,
         "place": "24km E of Maricopa, CA",
         "time": 1656878200250,
-        "updated": 1656878425819,
+        "updated": 1656881453040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40295976",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40295976.geojson",
@@ -28,8 +68,8 @@
         "sig": 108,
         "net": "ci",
         "code": "40295976",
-        "ids": ",ci40295976,",
-        "sources": ",ci,",
+        "ids": ",ci40295976,us6000hzl6,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 43,
         "dmin": 0.2332,
@@ -1208,90 +1248,10 @@
         ]
       },
       "id": "us6000hzg9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "16 km SE of Waynoka, Oklahoma",
-        "time": 1656795353712,
-        "updated": 1656796607040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022mwcy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022mwcy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "ok",
-        "code": "2022mwcy",
-        "ids": ",us6000hzfx,ok2022mwcy,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.04145400599,
-        "rms": 0.7084471572,
-        "gap": 36.57211304,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 16 km SE of Waynoka, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.75682831,
-          36.47105026,
-          3.252800465
-        ]
-      },
-      "id": "ok2022mwcy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "11 km SE of Williamsville, Missouri",
-        "time": 1656794095530,
-        "updated": 1656825113636,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60401721",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60401721.geojson",
-        "felt": 17,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "nm",
-        "code": "60401721",
-        "ids": ",nm60401721,us6000hzft,",
-        "sources": ",nm,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.1173,
-        "rms": 0.22,
-        "gap": 50,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 11 km SE of Williamsville, Missouri"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.4783333,
-          36.8893333,
-          4.23
-        ]
-      },
-      "id": "nm60401721"
     }
   ],
   "bbox": [
-    -158.4225,
+    -176.8268,
     -45.7807,
     0.2,
     149.5125,
