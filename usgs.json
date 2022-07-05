@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657044019000,
+    "generated": 1657047679000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 54
   },
   "features": [
     {
@@ -373,9 +373,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "34 km NW of Willow, Alaska",
-        "time": 1657032481113,
-        "updated": 1657034910040,
+        "place": "33 km NW of Willow, Alaska",
+        "time": 1657032482082,
+        "updated": 1657046146040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228jukwrg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228jukwrg.geojson",
@@ -383,7 +383,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
         "net": "ak",
@@ -393,18 +393,18 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.56,
+        "rms": 0.81,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 34 km NW of Willow, Alaska"
+        "title": "M 2.7 - 33 km NW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.4092,
-          61.999,
-          8
+          -150.4023,
+          61.996,
+          7.9
         ]
       },
       "id": "ak0228jukwrg"
@@ -852,6 +852,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.45,
+        "place": "14km WSW of Petrolia, CA",
+        "time": 1657005672300,
+        "updated": 1657046773345,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73754681",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73754681.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "nc",
+        "code": "73754681",
+        "ids": ",nc73754681,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.08168,
+        "rms": 0.12,
+        "gap": 262,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 14km WSW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.4493333,
+          40.2906667,
+          20.64
+        ]
+      },
+      "id": "nc73754681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.08,
         "place": "32 km N of San Juan, Puerto Rico",
         "time": 1657004648830,
@@ -1252,42 +1292,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "67 km S of Avalon, California",
-        "time": 1656988923676,
-        "updated": 1657040099981,
+        "mag": 3.2,
+        "place": "18km SE of San Clemente Is. (SE tip), CA",
+        "time": 1656988925220,
+        "updated": 1657047577075,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzwm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzwm.geojson",
-        "felt": 10,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40296688",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40296688.geojson",
+        "felt": 11,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 141,
-        "net": "us",
-        "code": "6000hzwm",
-        "ids": ",us6000hzwm,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 34,
-        "dmin": 1.02,
-        "rms": 0.77,
-        "gap": 201,
+        "sig": 160,
+        "net": "ci",
+        "code": "40296688",
+        "ids": ",us6000hzwm,ci40296688,",
+        "sources": ",us,ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.3909,
+        "rms": 0.31,
+        "gap": 212,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 67 km S of Avalon, California"
+        "title": "M 3.2 - 18km SE of San Clemente Is. (SE tip), CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2326,
-          32.7413,
-          10
+          -118.2046667,
+          32.715,
+          5.84
         ]
       },
-      "id": "us6000hzwm"
+      "id": "ci40296688"
     },
     {
       "type": "Feature",
@@ -2128,86 +2168,6 @@
         ]
       },
       "id": "hv73064907"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "West Chile Rise",
-        "time": 1656958312470,
-        "updated": 1656960493040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzu0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzu0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000hzu0",
-        "ids": ",us6000hzu0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 14.572,
-        "rms": 0.95,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - West Chile Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.7941,
-          -40.8964,
-          10
-        ]
-      },
-      "id": "us6000hzu0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Andaman Islands, India region",
-        "time": 1656958064617,
-        "updated": 1656962049040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzu3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzu3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000hzu3",
-        "ids": ",us6000hzu3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.88,
-        "rms": 0.67,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Andaman Islands, India region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          94.235,
-          10.4675,
-          10
-        ]
-      },
-      "id": "us6000hzu3"
     }
   ],
   "bbox": [
@@ -2215,7 +2175,7 @@
     -57.9516,
     1.33,
     162.0753,
-    61.999,
+    61.996,
     486.9
   ]
 }
