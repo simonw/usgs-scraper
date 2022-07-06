@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657141226000,
+    "generated": 1657144826000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "23 km E of Saint George, Alaska",
+        "time": 1657142795837,
+        "updated": 1657143702040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i0dk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i0dk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "6000i0dk",
+        "ids": ",us6000i0dk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 3.019,
+        "rms": 0.36,
+        "gap": 109,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.2 - 23 km E of Saint George, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.1607,
+          56.5915,
+          10
+        ]
+      },
+      "id": "us6000i0dk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.9,
         "place": "13km SE of Mammoth Lakes, CA",
         "time": 1657133482800,
-        "updated": 1657139818896,
+        "updated": 1657142174727,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73755446",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73755446.geojson",
@@ -335,7 +375,7 @@
         "mag": 5.5,
         "place": "130 km W of Castro, Chile",
         "time": 1657120348543,
-        "updated": 1657131205162,
+        "updated": 1657144505040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i09s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i09s.geojson",
@@ -372,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.69000006,
-        "place": "20 km SE of Waimea, Hawaii",
-        "time": 1657119927370,
-        "updated": 1657120258680,
+        "mag": 2.5,
+        "place": "20 km SSE of Waimea, Hawaii",
+        "time": 1657119927310,
+        "updated": 1657142047340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73066952",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73066952.geojson",
@@ -383,28 +423,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 96,
         "net": "hv",
         "code": "73066952",
         "ids": ",hv73066952,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 36,
+        "nst": 42,
         "dmin": null,
-        "rms": 0.159999996,
-        "gap": 120,
+        "rms": 0.11,
+        "gap": 118,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 20 km SE of Waimea, Hawaii"
+        "title": "M 2.5 - 20 km SSE of Waimea, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.559829711914,
-          19.8691673278809,
-          21.5400009155273
+          -155.571,
+          19.8643333333333,
+          22.89
         ]
       },
       "id": "hv73066952"
@@ -728,46 +768,6 @@
         ]
       },
       "id": "tx2022ncob"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "20 km W of Volcano, Hawaii",
-        "time": 1657094817330,
-        "updated": 1657095148250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73066617",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73066617.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "73066617",
-        "ids": ",hv73066617,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.0900000036,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 20 km W of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.430328369141,
-          19.4088325500488,
-          6.98999977111816
-        ]
-      },
-      "id": "hv73066617"
     },
     {
       "type": "Feature",
@@ -1368,94 +1368,14 @@
         ]
       },
       "id": "us6000i04v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "272 km E of Levuka, Fiji",
-        "time": 1657058184578,
-        "updated": 1657059280040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i04q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i04q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000i04q",
-        "ids": ",us6000i04q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 77,
-        "dmin": 3.674,
-        "rms": 0.81,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 272 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1127,
-          -18.1729,
-          609.69
-        ]
-      },
-      "id": "us6000i04q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "18 km ESE of Koseda, Japan",
-        "time": 1657057903466,
-        "updated": 1657060955040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i04w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i04w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000i04w",
-        "ids": ",us6000i04w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 1.212,
-        "rms": 0.68,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 18 km ESE of Koseda, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.8343,
-          30.3379,
-          45.51
-        ]
-      },
-      "id": "us6000i04w"
     }
   ],
   "bbox": [
-    -178.1127,
+    -169.1607,
     -42.3146,
     0.77,
     174.9183,
     61.8377,
-    609.69
+    230.74
   ]
 }
