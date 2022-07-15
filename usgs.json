@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657875641000,
+    "generated": 1657879225000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1657876009350,
+        "updated": 1657877748040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73075772",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73075772.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "hv",
+        "code": "73075772",
+        "ids": ",us6000i2mk,hv73075772,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": null,
+        "rms": 0.140000001,
+        "gap": 140,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.498672485352,
+          19.1690006256104,
+          34.1500015258789
+        ]
+      },
+      "id": "hv73075772"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.2,
         "place": "9 km SSW of Womens Bay, Alaska",
         "time": 1657875296062,
-        "updated": 1657875443883,
+        "updated": 1657876099040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02290af6o1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02290af6o1.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 158,
         "net": "ak",
         "code": "02290af6o1",
-        "ids": ",ak02290af6o1,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02290af6o1,us6000i2mi,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.86,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak02290af6o1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "6 km ENE of Baitoa, Dominican Republic",
+        "time": 1657875206251,
+        "updated": 1657878792741,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i2me",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i2me.geojson",
+        "felt": 19,
+        "cdi": 4.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 255,
+        "net": "us",
+        "code": "6000i2me",
+        "ids": ",us6000i2me,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.114,
+        "rms": 0.67,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 6 km ENE of Baitoa, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6484,
+          19.341,
+          32.13
+        ]
+      },
+      "id": "us6000i2me"
     },
     {
       "type": "Feature",
@@ -95,17 +175,17 @@
         "mag": 4.6,
         "place": "7 km ENE of San Lorenzo, Philippines",
         "time": 1657874220040,
-        "updated": 1657875262443,
+        "updated": 1657876816221,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i2ma",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i2ma.geojson",
-        "felt": 2,
-        "cdi": 2.2,
+        "felt": 4,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 327,
         "net": "us",
         "code": "6000i2ma",
         "ids": ",us6000i2ma,",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "58 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1657864066722,
         "updated": 1657864898040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 109,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 58 km S of Whites City, New Mexico"
+        "title": "M 2.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1657861083705,
         "updated": 1657861537040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -495,17 +575,17 @@
         "mag": 4.57,
         "place": "13km NE of Ridgecrest, CA",
         "time": 1657847946940,
-        "updated": 1657872555129,
+        "updated": 1657878560104,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40063391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40063391.geojson",
-        "felt": 392,
+        "felt": 393,
         "cdi": 4.8,
         "mmi": 5.335,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 509,
+        "sig": 510,
         "net": "ci",
         "code": "40063391",
         "ids": ",ci40063391,us6000i2jx,ew1657847950,",
@@ -815,7 +895,7 @@
         "mag": 2.48,
         "place": "8km NNE of Walker, CA",
         "time": 1657829516130,
-        "updated": 1657873090388,
+        "updated": 1657878496132,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc71128514",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc71128514.geojson",
@@ -855,7 +935,7 @@
         "mag": 2.6,
         "place": "7km NNE of Walker, CA",
         "time": 1657829502950,
-        "updated": 1657875200603,
+        "updated": 1657877595870,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73758651",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73758651.geojson",
