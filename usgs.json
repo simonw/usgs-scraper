@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1658174392000,
+    "generated": 1658178037000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 33
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 5.9,
         "place": "214 km W of Longyearbyen, Svalbard and Jan Mayen",
         "time": 1658169633072,
-        "updated": 1658173741647,
+        "updated": 1658177119949,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i3hy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i3hy.geojson",
@@ -70,7 +70,7 @@
         "code": "6000i3hy",
         "ids": ",us6000i3hy,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 111,
         "dmin": 1.155,
         "rms": 0.95,
@@ -212,10 +212,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.57999992,
-        "place": "41 km SE of Naalehu, Hawaii",
-        "time": 1658160157040,
-        "updated": 1658171017040,
+        "mag": 2.47,
+        "place": "44 km ESE of Naalehu, Hawaii",
+        "time": 1658162996460,
+        "updated": 1658175323920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73079022",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73079022.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "hv",
+        "code": "73079022",
+        "ids": ",hv73079022,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": null,
+        "rms": 0.14,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 44 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.207833333333,
+          18.8775,
+          5.6
+        ]
+      },
+      "id": "hv73079022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "43 km ESE of Naalehu, Hawaii",
+        "time": 1658160156740,
+        "updated": 1658175771290,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73079007",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73079007.geojson",
@@ -223,28 +263,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 107,
         "net": "hv",
         "code": "73079007",
         "ids": ",us6000i3fm,hv73079007,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 19,
+        "nst": 36,
         "dmin": null,
-        "rms": 0.25,
-        "gap": 264,
+        "rms": 0.19,
+        "gap": 261,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 41 km SE of Naalehu, Hawaii"
+        "title": "M 2.6 - 43 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.255172729492,
-          18.8481674194336,
-          12.0600004196167
+          -155.2275,
+          18.8596666666667,
+          6.58
         ]
       },
       "id": "hv73079007"
@@ -375,12 +415,12 @@
         "mag": 5.1,
         "place": "49 km WSW of Khōst, Afghanistan",
         "time": 1658146965015,
-        "updated": 1658152315509,
+        "updated": 1658177998779,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i3el",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i3el.geojson",
-        "felt": 1,
-        "cdi": 3.8,
+        "felt": 2,
+        "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "27 km SE of Jurm, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1658144071048,
         "updated": 1658145115040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 57,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 27 km SE of Jurm, Afghanistan"
+        "title": "M 4.3 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -568,6 +608,46 @@
         ]
       },
       "id": "hv73078827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "45 km SE of Naalehu, Hawaii",
+        "time": 1658137754450,
+        "updated": 1658177227700,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73078822",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73078822.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "73078822",
+        "ids": ",hv73078822,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": null,
+        "rms": 0.17,
+        "gap": 268,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 45 km SE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.232166666667,
+          18.8166666666667,
+          7.34
+        ]
+      },
+      "id": "hv73078822"
     },
     {
       "type": "Feature",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "27 km W of Sarpol-e Z̄ahāb, Iran",
+        "place": "Iran-Iraq border region",
         "time": 1658131489045,
         "updated": 1658135113040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 27 km W of Sarpol-e Z̄ahāb, Iran"
+        "title": "M 4.4 - Iran-Iraq border region"
       },
       "geometry": {
         "type": "Point",
@@ -732,10 +812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.51999998,
+        "mag": 2.8,
         "place": "45 km ESE of Naalehu, Hawaii",
-        "time": 1658131288200,
-        "updated": 1658142079040,
+        "time": 1658131288040,
+        "updated": 1658177640180,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73078767",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73078767.geojson",
@@ -743,28 +823,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 121,
         "net": "hv",
         "code": "73078767",
         "ids": ",us6000i3dn,hv73078767,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 24,
+        "nst": 33,
         "dmin": null,
-        "rms": 0.25999999,
-        "gap": 267,
+        "rms": 0.16,
+        "gap": 264,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
+        "title": "M 2.8 - 45 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.211837768555,
-          18.8446674346924,
-          9.5600004196167
+          -155.214166666667,
+          18.8475,
+          7.38
         ]
       },
       "id": "hv73078767"
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "3 km WSW of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1658123374400,
         "updated": 1658124808700,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 167,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km WSW of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "Puerto Rico region",
+        "place": "15 km S of Jauca, Puerto Rico",
         "time": 1658107715070,
         "updated": 1658109448250,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Puerto Rico region"
+        "title": "M 3.3 - 15 km S of Jauca, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "South Island of New Zealand",
+        "place": "4 km SE of Cromwell, New Zealand",
         "time": 1658095388072,
         "updated": 1658116301775,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 149,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - South Island of New Zealand"
+        "title": "M 2.9 - 4 km SE of Cromwell, New Zealand"
       },
       "geometry": {
         "type": "Point",
