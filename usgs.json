@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1658390451000,
+    "generated": 1658394032000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 27
   },
   "features": [
     {
@@ -52,8 +52,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "south of the Kermadec Islands",
+        "time": 1658386867953,
+        "updated": 1658393934040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hscd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hscd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000hscd",
+        "ids": ",us7000hscd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 3.798,
+        "rms": 0.75,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0151,
+          -33.0714,
+          10
+        ]
+      },
+      "id": "us7000hscd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
-        "place": "67 km SE of Ust’-Kamchatsk Staryy, Russia",
+        "place": "off the east coast of the Kamchatka Peninsula, Russia",
         "time": 1658386317861,
         "updated": 1658387830040,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 67 km SE of Ust’-Kamchatsk Staryy, Russia"
+        "title": "M 4.7 - off the east coast of the Kamchatka Peninsula, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "178 km SSE of Naze, Japan",
+        "place": "southeast of the Ryukyu Islands, Japan",
         "time": 1658349082778,
         "updated": 1658352375040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 178 km SSE of Naze, Japan"
+        "title": "M 4.6 - southeast of the Ryukyu Islands, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "234 km W of Adak, Alaska",
+        "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1658328643200,
         "updated": 1658389505730,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 234 km W of Adak, Alaska"
+        "title": "M 2.5 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1051,7 +1091,7 @@
     }
   ],
   "bbox": [
-    -176.3456,
+    -178.0151,
     -48.2007,
     -0.5,
     179.97733333333,
