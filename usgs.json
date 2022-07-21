@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1658386790000,
+    "generated": 1658390451000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 26
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1658383253344,
-        "updated": 1658385013484,
+        "place": "59 km S of Whites City, New Mexico",
+        "time": 1658388976115,
+        "updated": 1658389764040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022odsa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022odsa.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hsc1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hsc1.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,11 +26,91 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 148,
+        "net": "us",
+        "code": "7000hsc1",
+        "ids": ",us7000hsc1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.094,
+        "rms": 0.23,
+        "gap": 101,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 59 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3956,
+          31.6397,
+          5
+        ]
+      },
+      "id": "us7000hsc1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "67 km SE of Ust’-Kamchatsk Staryy, Russia",
+        "time": 1658386317861,
+        "updated": 1658387830040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hsbv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hsbv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000hsbv",
+        "ids": ",us7000hsbv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 91,
+        "dmin": 3.985,
+        "rms": 0.71,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 67 km SE of Ust’-Kamchatsk Staryy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          163.3777,
+          55.8935,
+          10
+        ]
+      },
+      "id": "us7000hsbv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "54 km S of Whites City, New Mexico",
+        "time": 1658383253344,
+        "updated": 1658387882438,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022odsa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022odsa.geojson",
+        "felt": 1,
+        "cdi": 2.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
         "net": "tx",
         "code": "2022odsa",
-        "ids": ",us7000hsbm,tx2022odsa,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2022odsa,us7000hsbm,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": 0.07277044444,
         "rms": 0.1,
@@ -812,6 +892,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.51,
+        "place": "234 km W of Adak, Alaska",
+        "time": 1658328643200,
+        "updated": 1658389505730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91639491",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91639491.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "av",
+        "code": "91639491",
+        "ids": ",av91639491,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 127,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 234 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.977333333333,
+          51.7401666666667,
+          11.11
+        ]
+      },
+      "id": "av91639491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "44 km WSW of Tatitlek, Alaska",
         "time": 1658328599541,
@@ -928,94 +1048,14 @@
         ]
       },
       "id": "us7000hs2d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "7 km E of La Parguera, Puerto Rico",
-        "time": 1658303701020,
-        "updated": 1658305365130,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71360413",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71360413.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "71360413",
-        "ids": ",pr71360413,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 202,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km E of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.981,
-          17.9656666666667,
-          5.84
-        ]
-      },
-      "id": "pr71360413"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Ecuador",
-        "time": 1658301022241,
-        "updated": 1658330164285,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hs1v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hs1v.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000hs1v",
-        "ids": ",us7000hs1v,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.646,
-        "rms": 1.23,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -78.4277,
-          -2.0023,
-          130.96
-        ]
-      },
-      "id": "us7000hs1v"
     }
   ],
   "bbox": [
     -176.3456,
     -48.2007,
     -0.5,
-    169.4346,
+    179.97733333333,
     62.9647,
-    130.96
+    80.9
   ]
 }
