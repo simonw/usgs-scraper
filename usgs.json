@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1658620863000,
+    "generated": 1658626084000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "83 km SSW of Hualien City, Taiwan",
+        "time": 1658622755589,
+        "updated": 1658623693040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ht1r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ht1r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000ht1r",
+        "ids": ",us7000ht1r,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 91,
+        "dmin": 0.181,
+        "rms": 0.82,
+        "gap": 59,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.9 - 83 km SSW of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4126,
+          23.2442,
+          29.49
+        ]
+      },
+      "id": "us7000ht1r"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,17 +655,17 @@
         "mag": 2.66,
         "place": "8km NW of Pinnacles, CA",
         "time": 1658578923810,
-        "updated": 1658587640937,
+        "updated": 1658625435981,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73761961",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73761961.geojson",
-        "felt": 3,
-        "cdi": 2,
+        "felt": 5,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 110,
         "net": "nc",
         "code": "73761961",
         "ids": ",nc73761961,us7000hsyt,",
@@ -1335,17 +1375,17 @@
         "mag": 4.24,
         "place": "5km S of Oroville East, CA",
         "time": 1658540464680,
-        "updated": 1658619798328,
+        "updated": 1658625736521,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73761796",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73761796.geojson",
-        "felt": 528,
+        "felt": 538,
         "cdi": 4.2,
         "mmi": 4.471,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 498,
+        "sig": 503,
         "net": "nc",
         "code": "73761796",
         "ids": ",nc73761796,us7000hsvi,ew1658540470,",
@@ -1368,126 +1408,6 @@
         ]
       },
       "id": "nc73761796"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "31 km W of Aleneva, Alaska",
-        "time": 1658539145119,
-        "updated": 1658540185040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229decbdg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229decbdg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ak",
-        "code": "0229decbdg",
-        "ids": ",us7000hsvh,ak0229decbdg,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.48,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 31 km W of Aleneva, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.4429,
-          58.0922,
-          58.1
-        ]
-      },
-      "id": "ak0229decbdg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "2 km W of La Parguera, Puerto Rico",
-        "time": 1658538290720,
-        "updated": 1658568951478,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022204000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022204000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "pr",
-        "code": "2022204000",
-        "ids": ",pr2022204000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.0237,
-        "rms": 0.08,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 2 km W of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0676,
-          17.9733,
-          8
-        ]
-      },
-      "id": "pr2022204000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71000004,
-        "place": "22 km E of Pāhala, Hawaii",
-        "time": 1658536996170,
-        "updated": 1658537183610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73084782",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73084782.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "hv",
-        "code": "73084782",
-        "ids": ",hv73084782,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": null,
-        "rms": 0.150000006,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 22 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.262832641602,
-          19.2185001373291,
-          44.0099983215332
-        ]
-      },
-      "id": "hv73084782"
     }
   ],
   "bbox": [
