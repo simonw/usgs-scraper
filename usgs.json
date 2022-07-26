@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1658851193000,
+    "generated": 1658855015000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 26
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.6,
         "place": "28 km NE of Khawhai, India",
         "time": 1658848423956,
-        "updated": 1658850437040,
+        "updated": 1658852026922,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000htji",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000htji.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000htji",
         "ids": ",us7000htji,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 55,
         "dmin": 4.457,
         "rms": 0.32,
@@ -1048,46 +1048,6 @@
         ]
       },
       "id": "ak0229gyw936"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kermadec Islands region",
-        "time": 1658767968464,
-        "updated": 1658776276454,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000htdi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000htdi.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000htdi",
-        "ids": ",us7000htdi,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": 9.578,
-        "rms": 0.54,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.6922,
-          -31.127,
-          10
-        ]
-      },
-      "id": "us7000htdi"
     }
   ],
   "bbox": [
