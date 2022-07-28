@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659038444000,
+    "generated": 1659042044000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "46km WNW of Petrolia, CA",
+        "time": 1659041373190,
+        "updated": 1659041770838,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73763836",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73763836.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "nc",
+        "code": "73763836",
+        "ids": ",nc73763836,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.3526,
+        "rms": 0.16,
+        "gap": 240,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 46km WNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.7994995,
+          40.4671669,
+          13.04
+        ]
+      },
+      "id": "nc73763836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "Izu Islands, Japan region",
+        "time": 1659037947754,
+        "updated": 1659040105167,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i69v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i69v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000i69v",
+        "ids": ",us6000i69v,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 111,
+        "dmin": 2.324,
+        "rms": 0.53,
+        "gap": 63,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4706,
+          32.4823,
+          10
+        ]
+      },
+      "id": "us6000i69v"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.74,
         "place": "42 km ESE of Naalehu, Hawaii",
         "time": 1659033145770,
-        "updated": 1659036475300,
+        "updated": 1659041395040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73090737",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73090737.geojson",
@@ -28,8 +108,8 @@
         "sig": 116,
         "net": "hv",
         "code": "73090737",
-        "ids": ",hv73090737,",
-        "sources": ",hv,",
+        "ids": ",us6000i692,hv73090737,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 30,
         "dmin": null,
@@ -55,13 +135,13 @@
         "mag": 5.8,
         "place": "22 km NNE of Bulolo, Papua New Guinea",
         "time": 1659032902882,
-        "updated": 1659036514281,
+        "updated": 1659040373464,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i693",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i693.geojson",
         "felt": 13,
         "cdi": 7.6,
-        "mmi": 6.73,
+        "mmi": 6.901,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -168,6 +248,46 @@
         ]
       },
       "id": "tx2022orjd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "3 km NNE of Dagupan, Philippines",
+        "time": 1659028549886,
+        "updated": 1659041096040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i68e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i68e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000i68e",
+        "ids": ",us6000i68e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 7.336,
+        "rms": 0.63,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 3 km NNE of Dagupan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343,
+          16.0735,
+          44.08
+        ]
+      },
+      "id": "us6000i68e"
     },
     {
       "type": "Feature",
@@ -295,21 +415,21 @@
         "mag": 4.1,
         "place": "83 km SSE of Atka, Alaska",
         "time": 1659010434404,
-        "updated": 1659011105040,
+        "updated": 1659040659377,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i65k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i65k.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.796,
+        "mmi": 1.148,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 259,
         "net": "us",
         "code": "6000i65k",
-        "ids": ",us6000i65k,ak0229lujqi9,",
-        "sources": ",us,ak,",
+        "ids": ",ak0229lujqi9,us6000i65k,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 42,
         "dmin": 0.754,
@@ -1008,46 +1128,6 @@
         ]
       },
       "id": "ak0229kcxxc2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Luzon, Philippines",
-        "time": 1658952162869,
-        "updated": 1658959655872,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i60g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i60g.geojson",
-        "felt": 1,
-        "cdi": 5.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000i60g",
-        "ids": ",us6000i60g,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 68,
-        "dmin": 5.282,
-        "rms": 1.06,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Luzon, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.9362,
-          17.5095,
-          10
-        ]
-      },
-      "id": "us6000i60g"
     }
   ],
   "bbox": [
