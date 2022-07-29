@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659062935000,
+    "generated": 1659065887000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1659064446745,
+        "updated": 1659065858149,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022osco",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022osco.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "tx",
+        "code": "2022osco",
+        "ids": ",us6000i6di,tx2022osco,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.09475004852,
+        "rms": 0.3,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3758188,
+          31.67765532,
+          6.285815430000001
+        ]
+      },
+      "id": "tx2022osco"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,12 +295,12 @@
         "mag": 4.6,
         "place": "Izu Islands, Japan region",
         "time": 1659053238808,
-        "updated": 1659054705040,
+        "updated": 1659065498103,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6cn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6cn.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +310,7 @@
         "code": "6000i6cn",
         "ids": ",us6000i6cn,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 57,
         "dmin": 2.389,
         "rms": 1.24,
@@ -1253,15 +1293,15 @@
       "type": "Feature",
       "properties": {
         "mag": 6.1,
-        "place": "24 km NW of Tocopilla, Chile",
-        "time": 1658981704174,
-        "updated": 1659049963554,
+        "place": "22 km NW of Tocopilla, Chile",
+        "time": 1658981705140,
+        "updated": 1659063246203,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i636",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i636.geojson",
         "felt": 57,
         "cdi": 7,
-        "mmi": 6.766,
+        "mmi": 6.75,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1271,20 +1311,20 @@
         "ids": ",us6000i636,",
         "sources": ",us,",
         "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 117,
-        "dmin": 0.586,
-        "rms": 1.29,
+        "nst": 111,
+        "dmin": 0.556,
+        "rms": 1,
         "gap": 33,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - 24 km NW of Tocopilla, Chile"
+        "title": "M 6.1 - 22 km NW of Tocopilla, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.376,
-          -21.9507,
-          44.74
+          -70.3404,
+          -21.9342,
+          54
         ]
       },
       "id": "us6000i636"
