@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659283213000,
+    "generated": 1659286922000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1659282016869,
+        "updated": 1659284008040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6zt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6zt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000i6zt",
+        "ids": ",us6000i6zt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 2.206,
+        "rms": 0.43,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3331,
+          32.5085,
+          10
+        ]
+      },
+      "id": "us6000i6zt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -695,12 +735,12 @@
         "mag": 3.31,
         "place": "56 km W of Stella, Puerto Rico",
         "time": 1659249135660,
-        "updated": 1659254130000,
+        "updated": 1659286848338,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71361783",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71361783.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -710,7 +750,7 @@
         "code": "71361783",
         "ids": ",pr71361783,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": null,
         "rms": 0.19,
@@ -1175,11 +1215,11 @@
         "mag": 5.1,
         "place": "27 km W of Bhojpur, Nepal",
         "time": 1659234489720,
-        "updated": 1659271969949,
+        "updated": 1659284030664,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6vr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6vr.geojson",
-        "felt": 51,
+        "felt": 52,
         "cdi": 5.6,
         "mmi": null,
         "alert": null,
@@ -1528,46 +1568,6 @@
         ]
       },
       "id": "us6000i6ta"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "34 km SE of Malaga, New Mexico",
-        "time": 1659199925474,
-        "updated": 1659248106502,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ouzb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ouzb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "tx",
-        "code": "2022ouzb",
-        "ids": ",tx2022ouzb,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1001647414,
-        "rms": 0.2,
-        "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 34 km SE of Malaga, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.8141292,
-          31.99756136,
-          7.982543944999999
-        ]
-      },
-      "id": "tx2022ouzb"
     }
   ],
   "bbox": [
