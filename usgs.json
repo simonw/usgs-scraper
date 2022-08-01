@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659328081000,
+    "generated": 1659331382000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.87,
+        "place": "13 km SE of Esperanza, Puerto Rico",
+        "time": 1659327962900,
+        "updated": 1659329592850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71361923",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71361923.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "pr",
+        "code": "71361923",
+        "ids": ",pr71361923,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": null,
+        "rms": 0.12,
+        "gap": 225,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 13 km SE of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.378,
+          18.017,
+          17.25
+        ]
+      },
+      "id": "pr71361923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "56 km SW of Tatitlek, Alaska",
+        "place": "Southern Alaska",
         "time": 1659327199759,
-        "updated": 1659327301024,
+        "updated": 1659329951040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229sbxhfr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229sbxhfr.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0229sbxhfr",
-        "ids": ",ak0229sbxhfr,",
-        "sources": ",ak,",
+        "ids": ",us6000i73f,ak0229sbxhfr,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -37,7 +77,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 56 km SW of Tatitlek, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -52,42 +92,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "81 km SE of Nikolski, Alaska",
-        "time": 1659326898631,
-        "updated": 1659328031120,
+        "mag": 4.9,
+        "place": "95 km SE of Nikolski, Alaska",
+        "time": 1659326897449,
+        "updated": 1659328710040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i73d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i73d.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.962,
+        "mmi": 2.81,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 369,
         "net": "us",
         "code": "6000i73d",
-        "ids": ",ak0229sbwew7,us6000i73d,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 143,
-        "dmin": 0.755,
-        "rms": 1.01,
+        "ids": ",us6000i73d,ak0229sbwew7,",
+        "sources": ",us,ak,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "nst": 116,
+        "dmin": 0.886,
+        "rms": 0.95,
         "gap": 134,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 5.1 - 81 km SE of Nikolski, Alaska"
+        "title": "M 4.9 - 95 km SE of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -168.1659,
-          52.3453,
-          13.6
+          -168.0618,
+          52.2306,
+          10
         ]
       },
       "id": "us6000i73d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "1 km SE of Vogar, Iceland",
+        "time": 1659325283895,
+        "updated": 1659329535040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i73e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i73e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000i73e",
+        "ids": ",us6000i73e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.902,
+        "rms": 0.6,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 1 km SE of Vogar, Iceland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.3592,
+          63.9683,
+          10
+        ]
+      },
+      "id": "us6000i73e"
     },
     {
       "type": "Feature",
@@ -141,16 +221,16 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i72x.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.702,
+        "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 298,
         "net": "us",
         "code": "6000i72x",
-        "ids": ",us6000i72x,ak0229saf2jd,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",us6000i72x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
         "nst": 42,
         "dmin": 0.2,
         "rms": 0.81,
@@ -254,12 +334,12 @@
       "properties": {
         "mag": 5.3,
         "place": "68 km SSE of Akutan, Alaska",
-        "time": 1659314201065,
-        "updated": 1659322009385,
+        "time": 1659314201094,
+        "updated": 1659331078099,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i72k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i72k.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.2,
         "mmi": 3.143,
         "alert": null,
@@ -273,7 +353,7 @@
         "types": ",dyfi,impact-link,moment-tensor,oaf,origin,phase-data,shakemap,",
         "nst": 176,
         "dmin": 0.611,
-        "rms": 0.82,
+        "rms": 0.86,
         "gap": 123,
         "magType": "mww",
         "type": "earthquake",
@@ -282,9 +362,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -165.3614,
-          53.5666,
-          41.94
+          -165.3605,
+          53.5677,
+          42.72
         ]
       },
       "id": "us6000i72k"
@@ -328,6 +408,46 @@
         ]
       },
       "id": "us6000i72j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "69km W of Ferndale, CA",
+        "time": 1659310713690,
+        "updated": 1659331227040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73764871",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73764871.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "nc",
+        "code": "73764871",
+        "ids": ",nc73764871,us6000i73i,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.5783,
+        "rms": 0.18,
+        "gap": 250,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 69km W of Ferndale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.0858333,
+          40.5706667,
+          24.35
+        ]
+      },
+      "id": "nc73764871"
     },
     {
       "type": "Feature",
@@ -1888,86 +2008,6 @@
         ]
       },
       "id": "pr2022212000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "13 km NE of Pāhala, Hawaii",
-        "time": 1659243643910,
-        "updated": 1659244431310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73093102",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73093102.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "hv",
-        "code": "73093102",
-        "ids": ",hv73093102,us6000i6wk,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 48,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 176,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.373672485352,
-          19.2746658325195,
-          32.0299987792969
-        ]
-      },
-      "id": "hv73093102"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "5 km WNW of Jagual, Puerto Rico",
-        "time": 1659242574120,
-        "updated": 1659243875920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71361733",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71361733.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71361733",
-        "ids": ",pr71361733,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": null,
-        "rms": 0.1,
-        "gap": 113,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 5 km WNW of Jagual, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0453333333333,
-          18.1811666666667,
-          10.77
-        ]
-      },
-      "id": "pr71361733"
     }
   ],
   "bbox": [
