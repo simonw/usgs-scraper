@@ -1,27 +1,147 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659452393000,
+    "generated": 1659456033000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "27 km E of Pedro Bay, Alaska",
+        "time": 1659454929865,
+        "updated": 1659455038286,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229u66smj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229u66smj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0229u66smj",
+        "ids": ",ak0229u66smj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 27 km E of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.6237,
+          59.7667,
+          151.3
+        ]
+      },
+      "id": "ak0229u66smj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "27 km NE of Baja Mar, Honduras",
+        "time": 1659454393951,
+        "updated": 1659455998040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7hs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7hs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000i7hs",
+        "ids": ",us6000i7hs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.007,
+        "rms": 0.63,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 27 km NE of Baja Mar, Honduras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6534,
+          16.0422,
+          10
+        ]
+      },
+      "id": "us6000i7hs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "38 km NNW of Tela, Honduras",
+        "time": 1659453421971,
+        "updated": 1659455932522,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7hp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7hp.geojson",
+        "felt": 39,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000i7hp",
+        "ids": ",us6000i7hp,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 76,
+        "dmin": 2.063,
+        "rms": 0.6,
+        "gap": 46,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 38 km NNW of Tela, Honduras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5431,
+          16.1162,
+          10
+        ]
+      },
+      "id": "us6000i7hp"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "19 km NNW of Susitna, Alaska",
         "time": 1659451013437,
-        "updated": 1659451921793,
+        "updated": 1659453036137,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229u5k61r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229u5k61r.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.652,
+        "mmi": 2.485,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -55,12 +175,12 @@
         "mag": 2.76,
         "place": "5km E of Orange Cove, CA",
         "time": 1659450765960,
-        "updated": 1659451216328,
+        "updated": 1659454811693,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73763100",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73763100.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +190,7 @@
         "code": "73763100",
         "ids": ",nc73763100,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 27,
         "dmin": 0.1981,
         "rms": 0.23,
@@ -93,9 +213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "35 km SSE of False Pass, Alaska",
-        "time": 1659450695184,
-        "updated": 1659451469040,
+        "place": "37 km S of False Pass, Alaska",
+        "time": 1659450695298,
+        "updated": 1659452700040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7hb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7hb.geojson",
@@ -112,22 +232,62 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 16,
-        "dmin": 0.325,
-        "rms": 0.41,
+        "dmin": 0.337,
+        "rms": 0.25,
         "gap": 169,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 35 km SSE of False Pass, Alaska"
+        "title": "M 3.7 - 37 km S of False Pass, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -163.3003,
-          54.5385,
-          12.11
+          -163.3151,
+          54.5246,
+          13.59
         ]
       },
       "id": "us6000i7hb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "117 km W of Höfn, Iceland",
+        "time": 1659450274984,
+        "updated": 1659452631040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7hi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7hi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000i7hi",
+        "ids": ",us6000i7hi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 1.657,
+        "rms": 0.63,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 117 km W of Höfn, Iceland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.6253,
+          64.3171,
+          7.83
+        ]
+      },
+      "id": "us6000i7hi"
     },
     {
       "type": "Feature",
@@ -255,7 +415,7 @@
         "mag": 2.48,
         "place": "18km SE of Yosemite Valley, CA",
         "time": 1659445404050,
-        "updated": 1659448986045,
+        "updated": 1659452771504,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73763060",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73763060.geojson",
@@ -655,11 +815,11 @@
         "mag": 3.43,
         "place": "20 km SE of Hana, Hawaii",
         "time": 1659411206180,
-        "updated": 1659425338616,
+        "updated": 1659454017023,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73095112",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73095112.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 1,
         "mmi": null,
         "alert": null,
@@ -1688,46 +1848,6 @@
         ]
       },
       "id": "us6000i769"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "12 km ESE of Atico, Peru",
-        "time": 1659367097526,
-        "updated": 1659369079040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i75t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i75t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000i75t",
-        "ids": ",us6000i75t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 3.687,
-        "rms": 0.56,
-        "gap": 145,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 12 km ESE of Atico, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5119,
-          -16.2554,
-          61.99
-        ]
-      },
-      "id": "us6000i75t"
     }
   ],
   "bbox": [
@@ -1735,7 +1855,7 @@
     -60.0476,
     5,
     166.7757,
-    64.0853,
+    64.3171,
     641.12
   ]
 }
