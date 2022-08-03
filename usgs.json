@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659535230000,
+    "generated": 1659538801000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 31
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 3.02,
         "place": "26 km WSW of Stella, Puerto Rico",
         "time": 1659530399760,
-        "updated": 1659533213306,
+        "updated": 1659538009841,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71362303",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71362303.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 140,
+        "sig": 141,
         "net": "pr",
         "code": "71362303",
         "ids": ",pr71362303,",
@@ -95,7 +95,7 @@
         "mag": 5.4,
         "place": "Kermadec Islands region",
         "time": 1659524872226,
-        "updated": 1659532265291,
+        "updated": 1659538098040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7qi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7qi.geojson",
@@ -110,7 +110,7 @@
         "code": "6000i7qi",
         "ids": ",us6000i7qi,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 80,
         "dmin": 2.426,
         "rms": 0.66,
@@ -1248,206 +1248,6 @@
         ]
       },
       "id": "us6000i7hp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "19 km NNW of Susitna, Alaska",
-        "time": 1659451013437,
-        "updated": 1659458371997,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229u5k61r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229u5k61r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.485,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0229u5k61r",
-        "ids": ",us6000i7hg,ak0229u5k61r,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 19 km NNW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7049,
-          61.6915,
-          53.9
-        ]
-      },
-      "id": "ak0229u5k61r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "4km E of Orange Cove, CA",
-        "time": 1659450765520,
-        "updated": 1659480190444,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73763100",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73763100.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "nc",
-        "code": "73763100",
-        "ids": ",nc73763100,us6000i7hd,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.1894,
-        "rms": 0.24,
-        "gap": 104,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4km E of Orange Cove, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2715,
-          36.6278333,
-          25.05
-        ]
-      },
-      "id": "nc73763100"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "37 km S of False Pass, Alaska",
-        "time": 1659450695298,
-        "updated": 1659452700040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7hb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7hb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000i7hb",
-        "ids": ",us6000i7hb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.337,
-        "rms": 0.25,
-        "gap": 169,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 37 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.3151,
-          54.5246,
-          13.59
-        ]
-      },
-      "id": "us6000i7hb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "117 km W of Höfn, Iceland",
-        "time": 1659450274984,
-        "updated": 1659452631040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7hi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7hi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000i7hi",
-        "ids": ",us6000i7hi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 1.657,
-        "rms": 0.63,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 117 km W of Höfn, Iceland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.6253,
-          64.3171,
-          7.83
-        ]
-      },
-      "id": "us6000i7hi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "53 km S of Whites City, New Mexico",
-        "time": 1659449262307,
-        "updated": 1659518710457,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022pagd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022pagd.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2022pagd",
-        "ids": ",us6000i7h5,tx2022pagd,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.08778269601,
-        "rms": 0.3,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 53 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4015196,
-          31.69196756,
-          6.105859375
-        ]
-      },
-      "id": "tx2022pagd"
     }
   ],
   "bbox": [
@@ -1455,7 +1255,7 @@
     -27.3862,
     -1.34,
     142.448,
-    64.3171,
+    64.0933,
     521.281
   ]
 }
