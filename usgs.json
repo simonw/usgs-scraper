@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659494898000,
+    "generated": 1659497970000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "274 km SSW of Labuan, Indonesia",
+        "time": 1659494435526,
+        "updated": 1659496148040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7mb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7mb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000i7mb",
+        "ids": ",us6000i7mb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 2.197,
+        "rms": 0.55,
+        "gap": 180,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 274 km SSW of Labuan, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.5889,
+          -8.5278,
+          10
+        ]
+      },
+      "id": "us6000i7mb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.46,
         "place": "25km W of Petrolia, CA",
         "time": 1659476646980,
-        "updated": 1659487369868,
+        "updated": 1659497470165,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73763275",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73763275.geojson",
@@ -215,22 +255,22 @@
         "mag": 4,
         "place": "39 km SSW of Siavonga, Zambia",
         "time": 1659470523821,
-        "updated": 1659476818040,
+        "updated": 1659497767094,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7jj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7jj.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
+        "sig": 247,
         "net": "us",
         "code": "6000i7jj",
         "ids": ",us6000i7jj,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 3.356,
         "rms": 0.91,
@@ -1328,126 +1368,6 @@
         ]
       },
       "id": "pr71362078"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "20 km SE of Hana, Hawaii",
-        "time": 1659411206180,
-        "updated": 1659490162040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73095112",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73095112.geojson",
-        "felt": 6,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 182,
-        "net": "hv",
-        "code": "73095112",
-        "ids": ",hv73095112,us6000i7cq,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": null,
-        "rms": 0.18,
-        "gap": 198,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 20 km SE of Hana, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.878666666667,
-          20.6103333333333,
-          8.09
-        ]
-      },
-      "id": "hv73095112"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "7 km SE of Ridgely, Tennessee",
-        "time": 1659409349930,
-        "updated": 1659465790549,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60402802",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60402802.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nm",
-        "code": "60402802",
-        "ids": ",nm60402802,",
-        "sources": ",nm,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.02101,
-        "rms": 0.09,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km SE of Ridgely, Tennessee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.437,
-          36.214,
-          8.26
-        ]
-      },
-      "id": "nm60402802"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "279 km E of Levuka, Fiji",
-        "time": 1659408827973,
-        "updated": 1659489441040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7ck",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7ck.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000i7ck",
-        "ids": ",us6000i7ck,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 3.524,
-        "rms": 0.58,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 279 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.0535,
-          -17.8517,
-          644.613
-        ]
-      },
-      "id": "us6000i7ck"
     }
   ],
   "bbox": [
@@ -1456,6 +1376,6 @@
     5,
     141.076,
     64.3171,
-    644.613
+    521.281
   ]
 }
