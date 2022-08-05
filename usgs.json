@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659715238000,
+    "generated": 1659719178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.89,
-        "place": "2 km ENE of Magas Arriba, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1659713660050,
         "updated": 1659714785670,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 167,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 2 km ENE of Magas Arriba, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -95,11 +95,11 @@
         "mag": 2.8,
         "place": "29 km WNW of Ester, Alaska",
         "time": 1659712659421,
-        "updated": 1659714618847,
+        "updated": 1659717627674,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229z4njfr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229z4njfr.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -135,12 +135,12 @@
         "mag": 3.03,
         "place": "2 km ENE of Magas Arriba, Puerto Rico",
         "time": 1659708636100,
-        "updated": 1659711474040,
+        "updated": 1659716975969,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71362923",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71362923.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "71362923",
         "ids": ",pr71362923,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": null,
         "rms": 0.12,
@@ -335,7 +335,7 @@
         "mag": 3.1,
         "place": "43 km E of Denali Park, Alaska",
         "time": 1659697084773,
-        "updated": 1659698696713,
+        "updated": 1659715279040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229z1x330",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229z1x330.geojson",
@@ -348,8 +348,8 @@
         "sig": 148,
         "net": "ak",
         "code": "0229z1x330",
-        "ids": ",ak0229z1x330,",
-        "sources": ",ak,",
+        "ids": ",ak0229z1x330,us6000i8cz,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -455,7 +455,7 @@
         "mag": 3.5,
         "place": "Gulf of Alaska",
         "time": 1659692615378,
-        "updated": 1659697956040,
+        "updated": 1659716816102,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8bm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8bm.geojson",
@@ -468,8 +468,8 @@
         "sig": 188,
         "net": "us",
         "code": "6000i8bm",
-        "ids": ",us6000i8bm,",
-        "sources": ",us,",
+        "ids": ",ak0229z18i8r,us6000i8bm,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
         "nst": 23,
         "dmin": 2.074,
@@ -1293,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Puerto Rico region",
+        "place": "9 km NNW of Camuy, Puerto Rico",
         "time": 1659659073820,
         "updated": 1659660061400,
         "tz": null,
@@ -1317,7 +1317,7 @@
         "gap": 262,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 9 km NNW of Camuy, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1372,8 +1372,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "Izu Islands, Japan region",
+        "time": 1659641365515,
+        "updated": 1659718209040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i856.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000i856",
+        "ids": ",us6000i856,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 2.267,
+        "rms": 0.44,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.415,
+          32.5301,
+          10
+        ]
+      },
+      "id": "us6000i856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "29 km SW of Ashkāsham, Afghanistan",
+        "place": "Afghanistan-Tajikistan-Pakistan region",
         "time": 1659640090166,
         "updated": 1659650682040,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 48,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 29 km SW of Ashkāsham, Afghanistan"
+        "title": "M 4.6 - Afghanistan-Tajikistan-Pakistan region"
       },
       "geometry": {
         "type": "Point",
@@ -1412,10 +1452,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5,
+        "place": "Izu Islands, Japan region",
+        "time": 1659636423308,
+        "updated": 1659716697040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8ea",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8ea.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000i8ea",
+        "ids": ",us6000i8ea,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 200,
+        "dmin": 2.161,
+        "rms": 0.71,
+        "gap": 34,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2921,
+          32.5509,
+          10
+        ]
+      },
+      "id": "us6000i8ea"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "Izu Islands, Japan region",
-        "time": 1659636377005,
-        "updated": 1659637409040,
+        "time": 1659636377368,
+        "updated": 1659715758040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i83n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i83n.geojson",
@@ -1431,19 +1511,19 @@
         "ids": ",us6000i83n,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 2.261,
-        "rms": 1.19,
-        "gap": 128,
-        "magType": "mb",
+        "nst": 158,
+        "dmin": 2.194,
+        "rms": 0.53,
+        "gap": 62,
+        "magType": "mww",
         "type": "earthquake",
         "title": "M 5.1 - Izu Islands, Japan region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.429,
-          32.5951,
+          142.3371,
+          32.5657,
           10
         ]
       },
