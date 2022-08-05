@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659700840000,
+    "generated": 1659705160000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Banda Sea",
+        "time": 1659700668533,
+        "updated": 1659702507040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8d9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8d9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000i8d9",
+        "ids": ",us6000i8d9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 2.045,
+        "rms": 0.64,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.9011,
+          -6.4704,
+          141.72
+        ]
+      },
+      "id": "us6000i8d9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,46 +88,6 @@
         ]
       },
       "id": "us6000i8d6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "3 km ESE of Fairview, Oklahoma",
-        "time": 1659698395204,
-        "updated": 1659700384975,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022pfnb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022pfnb.geojson",
-        "felt": 2,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "ok",
-        "code": "2022pfnb",
-        "ids": ",ok2022pfnb,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 79,
-        "dmin": 0.2521666586,
-        "rms": 0.5946122545,
-        "gap": 51.98243713,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km ESE of Fairview, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.43945312,
-          36.25632095,
-          2.004728317
-        ]
-      },
-      "id": "ok2022pfnb"
     },
     {
       "type": "Feature",
@@ -335,7 +335,7 @@
         "mag": 2.88,
         "place": "5 km SSE of Pole Ojea, Puerto Rico",
         "time": 1659688058650,
-        "updated": 1659689653710,
+        "updated": 1659703065040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71362773",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71362773.geojson",
@@ -348,8 +348,8 @@
         "sig": 128,
         "net": "pr",
         "code": "71362773",
-        "ids": ",pr71362773,",
-        "sources": ",pr,",
+        "ids": ",us6000i8b6,pr71362773,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": null,
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Puerto Rico region",
+        "place": "9 km NNW of Camuy, Puerto Rico",
         "time": 1659659073820,
         "updated": 1659660061400,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 262,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 9 km NNW of Camuy, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "29 km SW of Ashkāsham, Afghanistan",
+        "place": "Afghanistan-Tajikistan-Pakistan region",
         "time": 1659640090166,
         "updated": 1659650682040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 48,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 29 km SW of Ashkāsham, Afghanistan"
+        "title": "M 4.6 - Afghanistan-Tajikistan-Pakistan region"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "10 km S of Hukay, Philippines",
+        "place": "Mindoro, Philippines",
         "time": 1659635923469,
         "updated": 1659649744040,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 10 km S of Hukay, Philippines"
+        "title": "M 4.3 - Mindoro, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1575,11 +1575,11 @@
         "mag": 3.06,
         "place": "6 km SSE of Black Diamond, Washington",
         "time": 1659619359400,
-        "updated": 1659694500961,
+        "updated": 1659702056836,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61860022",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61860022.geojson",
-        "felt": 241,
+        "felt": 242,
         "cdi": 4.1,
         "mmi": 2.734,
         "alert": null,
@@ -1613,7 +1613,7 @@
   "bbox": [
     -177.601,
     -58.7864,
-    2.004728317,
+    3.91,
     179.7773,
     63.6671,
     569.566
