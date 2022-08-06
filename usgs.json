@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659812390000,
+    "generated": 1659816036000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.74,
         "place": "4km ESE of Tres Pinos, CA",
         "time": 1659809925490,
-        "updated": 1659811757127,
+        "updated": 1659815494017,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73764870",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73764870.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73764870",
         "ids": ",nc73764870,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.06666,
         "rms": 0.1,
@@ -55,17 +55,17 @@
         "mag": 4.7,
         "place": "68 km WSW of San Carlos, Mexico",
         "time": 1659802102022,
-        "updated": 1659811709633,
+        "updated": 1659813758309,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8nr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8nr.geojson",
-        "felt": 4,
-        "cdi": 3.1,
+        "felt": 5,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 341,
+        "sig": 342,
         "net": "us",
         "code": "6000i8nr",
         "ids": ",us6000i8nr,",
@@ -95,11 +95,11 @@
         "mag": 5,
         "place": "39 km S of Port-Vila, Vanuatu",
         "time": 1659799509706,
-        "updated": 1659805189398,
+        "updated": 1659815187700,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8nk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8nk.geojson",
-        "felt": 2,
+        "felt": 1,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us6000i8nk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "22 km W of Ashkāsham, Afghanistan",
+        "time": 1659799294501,
+        "updated": 1659814150040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8nj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8nj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000i8nj",
+        "ids": ",us6000i8nj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.718,
+        "rms": 0.89,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 22 km W of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.2847,
+          36.6855,
+          227.076
+        ]
+      },
+      "id": "us6000i8nj"
     },
     {
       "type": "Feature",
@@ -172,10 +212,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "New Mexico",
+        "time": 1659794954194,
+        "updated": 1659813663040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8n7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8n7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000i8n7",
+        "ids": ",us6000i8n7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.092,
+        "rms": 0.35,
+        "gap": 36,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.8209,
+          32.0037,
+          5
+        ]
+      },
+      "id": "us6000i8n7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "74 km W of Karluk, Alaska",
         "time": 1659793024756,
-        "updated": 1659793174109,
+        "updated": 1659813296040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022a0r48dn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022a0r48dn.geojson",
@@ -188,8 +268,8 @@
         "sig": 138,
         "net": "ak",
         "code": "022a0r48dn",
-        "ids": ",ak022a0r48dn,",
-        "sources": ",ak,",
+        "ids": ",us6000i8n2,ak022a0r48dn,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -208,6 +288,46 @@
         ]
       },
       "id": "ak022a0r48dn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1659791973882,
+        "updated": 1659813082040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8n0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8n0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000i8n0",
+        "ids": ",us6000i8n0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 2.363,
+        "rms": 0.9,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5318,
+          32.5252,
+          10
+        ]
+      },
+      "id": "us6000i8n0"
     },
     {
       "type": "Feature",
@@ -373,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "off the coast of Northern California",
+        "place": "148 km WSW of Crescent City, California",
         "time": 1659783156453,
         "updated": 1659786754197,
         "tz": null,
@@ -397,7 +517,7 @@
         "gap": 255,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - off the coast of Northern California"
+        "title": "M 2.5 - 148 km WSW of Crescent City, California"
       },
       "geometry": {
         "type": "Point",
@@ -1248,86 +1368,6 @@
         ]
       },
       "id": "us6000i8i7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "31 km NW of Susitna, Alaska",
-        "time": 1659727741497,
-        "updated": 1659804372040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229z73rin",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229z73rin.geojson",
-        "felt": 3,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "0229z73rin",
-        "ids": ",ak0229z73rin,us6000i8hw,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 31 km NW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.0012,
-          61.7046,
-          53.9
-        ]
-      },
-      "id": "ak0229z73rin"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "109 km NNE of Baukau, Timor Leste",
-        "time": 1659726935587,
-        "updated": 1659728819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8hu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8hu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000i8hu",
-        "ids": ",us6000i8hu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 4.49,
-        "rms": 0.79,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 109 km NNE of Baukau, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.7899,
-          -7.5396,
-          10
-        ]
-      },
-      "id": "us6000i8hu"
     }
   ],
   "bbox": [
@@ -1335,7 +1375,7 @@
     -24.7304,
     3.1,
     168.316,
-    61.7046,
+    57.5277,
     361.663
   ]
 }
