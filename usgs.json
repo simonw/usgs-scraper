@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659845092000,
+    "generated": 1659848393000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "12 km S of Guánica, Puerto Rico",
+        "time": 1659844781070,
+        "updated": 1659845870580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71363498",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71363498.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71363498",
+        "ids": ",pr71363498,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": null,
+        "rms": 0.09,
+        "gap": 245,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 12 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8976666666667,
+          17.8606666666667,
+          13.05
+        ]
+      },
+      "id": "pr71363498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "126 km E of Madang, Papua New Guinea",
+        "time": 1659844403271,
+        "updated": 1659847145305,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8tb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8tb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.067,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000i8tb",
+        "ids": ",us6000i8tb,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 86,
+        "dmin": 5.376,
+        "rms": 0.97,
+        "gap": 33,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 126 km E of Madang, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.9118,
+          -5.4284,
+          228.839
+        ]
+      },
+      "id": "us6000i8tb"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
         "place": "138 km NE of Iquique, Chile",
         "time": 1659840075193,
-        "updated": 1659843743065,
+        "updated": 1659845384534,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8su",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8su.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 387,
+        "sig": 388,
         "net": "us",
         "code": "6000i8su",
         "ids": ",us6000i8su,",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "11 km S of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1659816940800,
         "updated": 1659824790040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 11 km S of Guánica, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "off the coast of Northern California",
+        "place": "148 km WSW of Crescent City, California",
         "time": 1659783156453,
         "updated": 1659786754197,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 255,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - off the coast of Northern California"
+        "title": "M 2.5 - 148 km WSW of Crescent City, California"
       },
       "geometry": {
         "type": "Point",
@@ -1535,7 +1615,7 @@
         "mag": 4.01,
         "place": "46 km SE of Punta Cana, Dominican Republic",
         "time": 1659775603580,
-        "updated": 1659780002215,
+        "updated": 1659847107040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022218000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022218000.geojson",
@@ -1548,8 +1628,8 @@
         "sig": 247,
         "net": "pr",
         "code": "2022218000",
-        "ids": ",pr2022218000,",
-        "sources": ",pr,",
+        "ids": ",us6000i8lx,pr2022218000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 26,
         "dmin": 0.6431,
@@ -1692,42 +1772,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.56,
-        "place": "235 km W of Adak, Alaska",
-        "time": 1659766919000,
-        "updated": 1659818917910,
+        "mag": 2.7,
+        "place": "232 km W of Adak, Alaska",
+        "time": 1659766918362,
+        "updated": 1659846484040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91654931",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91654931.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8r1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8r1.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 101,
-        "net": "av",
-        "code": "91654931",
-        "ids": ",av91654931,",
-        "sources": ",av,",
+        "sig": 112,
+        "net": "us",
+        "code": "6000i8r1",
+        "ids": ",av91654931,us6000i8r1,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": null,
-        "rms": 0.22,
-        "gap": 126,
+        "nst": 26,
+        "dmin": 0.261,
+        "rms": 0.37,
+        "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 235 km W of Adak, Alaska"
+        "title": "M 2.7 - 232 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.958666666667,
-          51.7428333333333,
-          11.31
+          179.9959,
+          51.7318,
+          16.119
         ]
       },
-      "id": "av91654931"
+      "id": "us6000i8r1"
     },
     {
       "type": "Feature",
@@ -1854,7 +1934,7 @@
     -178.4241,
     -24.7304,
     3.1,
-    179.95866666667,
+    179.9959,
     61.1456,
     570.365
   ]
