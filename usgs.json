@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659926535000,
+    "generated": 1659929358000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "10km E of Pala, CA",
+        "time": 1659929230500,
+        "updated": 1659929355437,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40077271",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40077271.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "ci",
+        "code": "40077271",
+        "ids": ",ci40077271,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 120,
+        "dmin": 0.05525,
+        "rms": 0.26,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 10km E of Pala, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9704971,
+          33.3684998,
+          4.98
+        ]
+      },
+      "id": "ci40077271"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.4,
         "place": "15km NNE of Pinnacles, CA",
         "time": 1659926331520,
-        "updated": 1659926488073,
+        "updated": 1659928456618,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73765315",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73765315.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 178,
         "net": "nc",
         "code": "73765315",
-        "ids": ",nc73765315,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc73765315,us6000i8z6,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 62,
         "dmin": 0.08704,
         "rms": 0.21,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73765315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "117 km WNW of Lorino, Russia",
+        "time": 1659924107845,
+        "updated": 1659926643040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8z3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8z3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000i8z3",
+        "ids": ",us6000i8z3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 2.304,
+        "rms": 0.68,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 117 km WNW of Lorino, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.1401,
+          65.8213,
+          10
+        ]
+      },
+      "id": "us6000i8z3"
     },
     {
       "type": "Feature",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "Puerto Rico region",
+        "place": "13 km S of Guánica, Puerto Rico",
         "time": 1659846719530,
         "updated": 1659849852020,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 248,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 13 km S of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1495,7 +1575,7 @@
     -57.7969,
     1.6,
     148.1032,
-    56.5532,
+    65.8213,
     598.753
   ]
 }
