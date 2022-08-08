@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659929358000,
+    "generated": 1659931935000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.59,
-        "place": "10km E of Pala, CA",
-        "time": 1659929230500,
-        "updated": 1659929355437,
+        "mag": 4.7,
+        "place": "48 km NW of Valparaíso, Chile",
+        "time": 1659930295305,
+        "updated": 1659931813210,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40077271",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40077271.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8zd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8zd.geojson",
+        "felt": 3,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 103,
-        "net": "ci",
-        "code": "40077271",
-        "ids": ",ci40077271,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 120,
-        "dmin": 0.05525,
-        "rms": 0.26,
-        "gap": 26,
-        "magType": "ml",
+        "sig": 341,
+        "net": "us",
+        "code": "6000i8zd",
+        "ids": ",us6000i8zd,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 88,
+        "dmin": 0.42,
+        "rms": 0.82,
+        "gap": 69,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 2.6 - 10km E of Pala, CA"
+        "title": "M 4.7 - 48 km NW of Valparaíso, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.9704971,
-          33.3684998,
-          4.98
+          -71.9293,
+          -32.6749,
+          21.171
+        ]
+      },
+      "id": "us6000i8zd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "10km E of Pala, CA",
+        "time": 1659929230500,
+        "updated": 1659930946554,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40077271",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40077271.geojson",
+        "felt": 6,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "ci",
+        "code": "40077271",
+        "ids": ",ci40077271,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 80,
+        "dmin": 0.05438,
+        "rms": 0.24,
+        "gap": 27,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 10km E of Pala, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.971,
+          33.3698333,
+          5.6
         ]
       },
       "id": "ci40077271"
@@ -55,17 +95,17 @@
         "mag": 3.4,
         "place": "15km NNE of Pinnacles, CA",
         "time": 1659926331520,
-        "updated": 1659928456618,
+        "updated": 1659931281346,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73765315",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73765315.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 3,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 179,
         "net": "nc",
         "code": "73765315",
         "ids": ",nc73765315,us6000i8z6,",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "13 km S of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1659846719530,
         "updated": 1659849852020,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 248,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 13 km S of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1488,86 +1528,6 @@
         ]
       },
       "id": "pr71363523"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "12 km S of Guánica, Puerto Rico",
-        "time": 1659844781070,
-        "updated": 1659845870580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71363498",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71363498.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71363498",
-        "ids": ",pr71363498,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": null,
-        "rms": 0.09,
-        "gap": 245,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 12 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8976666666667,
-          17.8606666666667,
-          13.05
-        ]
-      },
-      "id": "pr71363498"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "126 km E of Madang, Papua New Guinea",
-        "time": 1659844403271,
-        "updated": 1659851788445,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8tb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8tb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.067,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000i8tb",
-        "ids": ",us6000i8tb,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 86,
-        "dmin": 5.376,
-        "rms": 0.97,
-        "gap": 33,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 126 km E of Madang, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.9118,
-          -5.4284,
-          228.839
-        ]
-      },
-      "id": "us6000i8tb"
     }
   ],
   "bbox": [
