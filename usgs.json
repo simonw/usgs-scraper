@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660101384000,
+    "generated": 1660104040000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "80 km WSW of Akhiok, Alaska",
+        "time": 1660103704812,
+        "updated": 1660103839567,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022a77f575",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022a77f575.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022a77f575",
+        "ids": ",ak022a77f575,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.34,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 80 km WSW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2767,
+          56.557,
+          0
+        ]
+      },
+      "id": "ak022a77f575"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +95,22 @@
         "mag": 2.69,
         "place": "3km NNE of Pinnacles, CA",
         "time": 1660099107820,
-        "updated": 1660099700958,
+        "updated": 1660101670307,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73766140",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73766140.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 112,
         "net": "nc",
         "code": "73766140",
         "ids": ",nc73766140,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 38,
         "dmin": 0.04867,
         "rms": 0.14,
@@ -1768,52 +1808,12 @@
         ]
       },
       "id": "us6000i99v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "11 km S of Guánica, Puerto Rico",
-        "time": 1660015404930,
-        "updated": 1660017096880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71364233",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71364233.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "pr",
-        "code": "71364233",
-        "ids": ",pr71364233,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": null,
-        "rms": 0.1,
-        "gap": 220,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 11 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8976666666667,
-          17.8643333333333,
-          15.03
-        ]
-      },
-      "id": "pr71364233"
     }
   ],
   "bbox": [
     -179.9052,
     -55.1646,
-    4.2,
+    0,
     179.9553,
     59.2369,
     543.358
