@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660132830000,
+    "generated": 1660136967000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 38
   },
   "features": [
     {
@@ -214,8 +214,8 @@
       "properties": {
         "mag": 5.2,
         "place": "30 km N of Isangel, Vanuatu",
-        "time": 1660114767068,
-        "updated": 1660115776040,
+        "time": 1660114766811,
+        "updated": 1660136849040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9my",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9my.geojson",
@@ -231,10 +231,10 @@
         "ids": ",us6000i9my,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 3.738,
-        "rms": 1.17,
-        "gap": 54,
+        "nst": 71,
+        "dmin": 3.75,
+        "rms": 1.21,
+        "gap": 28,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.2 - 30 km N of Isangel, Vanuatu"
@@ -242,9 +242,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          169.2636,
-          -19.2659,
-          157.627
+          169.285,
+          -19.2625,
+          158.385
         ]
       },
       "id": "us6000i9my"
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "154 km SSE of Lata, Solomon Islands",
+        "place": "Santa Cruz Islands",
         "time": 1660100192009,
         "updated": 1660101365040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 114,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 154 km SSE of Lata, Solomon Islands"
+        "title": "M 4.8 - Santa Cruz Islands"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "Antofagasta, Chile",
+        "place": "84 km S of San Pedro de Atacama, Chile",
         "time": 1660081074181,
         "updated": 1660086672040,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 185,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - Antofagasta, Chile"
+        "title": "M 3.9 - 84 km S of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1528,93 +1528,13 @@
         ]
       },
       "id": "pr2022221001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "Banda Sea",
-        "time": 1660049981726,
-        "updated": 1660111148710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9cd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9cd.geojson",
-        "felt": 3,
-        "cdi": 3.3,
-        "mmi": 3.752,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 483,
-        "net": "us",
-        "code": "6000i9cd",
-        "ids": ",us6000i9cd,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 96,
-        "dmin": 1.77,
-        "rms": 0.48,
-        "gap": 30,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.0087,
-          -6.7514,
-          160.417
-        ]
-      },
-      "id": "us6000i9cd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.662551067,
-        "place": "11 km S of Ackerly, Texas",
-        "time": 1660046548265,
-        "updated": 1660057433443,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022pmwn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022pmwn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "tx",
-        "code": "2022pmwn",
-        "ids": ",tx2022pmwn,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1090033613,
-        "rms": 0.2,
-        "gap": 56,
-        "magType": "mlv",
-        "type": "earthquake",
-        "title": "M 2.7 - 11 km S of Ackerly, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.7344703,
-          32.4206543,
-          9.684082031000003
-        ]
-      },
-      "id": "tx2022pmwn"
     }
   ],
   "bbox": [
     -171.2434,
     -57.0686,
     0,
-    169.2636,
+    169.285,
     59.2369,
     234.351
   ]
