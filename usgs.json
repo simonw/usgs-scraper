@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660230035000,
+    "generated": 1660233644000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 28
   },
   "features": [
     {
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.25,
-        "place": "24 km SSW of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1660188095390,
         "updated": 1660192387421,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 24 km SSW of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.3 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -575,17 +575,17 @@
         "mag": 2.7,
         "place": "2 km ENE of Driggs, Idaho",
         "time": 1660186891875,
-        "updated": 1660230010237,
+        "updated": 1660233074489,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9v2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9v2.geojson",
-        "felt": 56,
-        "cdi": 4.6,
+        "felt": 58,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 131,
         "net": "us",
         "code": "6000i9v2",
         "ids": ",us6000i9v2,",
@@ -692,10 +692,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.73,
+        "mag": 3,
+        "place": "60 km ENE of Adak, Alaska",
+        "time": 1660179679632,
+        "updated": 1660232115162,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022a8tg2x6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022a8tg2x6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "022a8tg2x6",
+        "ids": ",ak022a8tg2x6,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.25,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 60 km ENE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.8735,
+          52.1418,
+          147.3
+        ]
+      },
+      "id": "ak022a8tg2x6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
         "place": "10km S of Idyllwild, CA",
-        "time": 1660177094560,
-        "updated": 1660226231456,
+        "time": 1660177094510,
+        "updated": 1660230281410,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40079567",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40079567.geojson",
@@ -703,28 +743,28 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 115,
+        "sig": 93,
         "net": "ci",
         "code": "40079567",
         "ids": ",ci40079567,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 77,
-        "dmin": 0.06116,
-        "rms": 0.18,
-        "gap": 18,
+        "nst": 103,
+        "dmin": 0.03663,
+        "rms": 0.16,
+        "gap": 16,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 10km S of Idyllwild, CA"
+        "title": "M 2.5 - 10km S of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.709,
-          33.65,
-          16.47
+          -116.7113333,
+          33.6498333,
+          16.79
         ]
       },
       "id": "ci40079567"
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "294 km SE of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1660167967095,
         "updated": 1660170404040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 294 km SE of Levuka, Fiji"
+        "title": "M 4.5 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -1088,166 +1128,6 @@
         ]
       },
       "id": "pr71364883"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.63,
-        "place": "110 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1660147039820,
-        "updated": 1660169240040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022222000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022222000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 203,
-        "net": "pr",
-        "code": "2022222000",
-        "ids": ",us6000i9r6,pr2022222000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 1.0274,
-        "rms": 0.23,
-        "gap": 314,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 110 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6008,
-          19.3163,
-          33
-        ]
-      },
-      "id": "pr2022222000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "50 km SSE of Makubetsu, Japan",
-        "time": 1660146777926,
-        "updated": 1660227276040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9r3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9r3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000i9r3",
-        "ids": ",us6000i9r3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 0.911,
-        "rms": 0.5,
-        "gap": 100,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 50 km SSE of Makubetsu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1234,
-          44.9658,
-          4.724
-        ]
-      },
-      "id": "us6000i9r3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "8km N of Walker, CA",
-        "time": 1660146117970,
-        "updated": 1660185578907,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73766330",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73766330.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "nc",
-        "code": "73766330",
-        "ids": ",nc73766330,nn00844686,us6000i9qz,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.04208,
-        "rms": 0.12,
-        "gap": 58,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 8km N of Walker, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.4661667,
-          38.5858333,
-          4.82
-        ]
-      },
-      "id": "nc73766330"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "57 km SSE of Makubetsu, Japan",
-        "time": 1660145718623,
-        "updated": 1660168503040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9qy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9qy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000i9qy",
-        "ids": ",us6000i9qy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 129,
-        "dmin": 0.872,
-        "rms": 0.52,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 57 km SSE of Makubetsu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.9724,
-          44.8689,
-          10
-        ]
-      },
-      "id": "us6000i9qy"
     }
   ],
   "bbox": [
