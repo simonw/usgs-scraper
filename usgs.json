@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660219193000,
+    "generated": 1660223576000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "88 km ENE of Ugashik, Alaska",
+        "time": 1660221616027,
+        "updated": 1660221746519,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022a90878v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022a90878v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022a90878v",
+        "ids": ",ak022a90878v,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.38,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 88 km ENE of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.0493,
+          57.8357,
+          106.5
+        ]
+      },
+      "id": "ak022a90878v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "28 km S of La Horqueta (Poblado Doce), Mexico",
+        "time": 1660211643955,
+        "updated": 1660221065540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9wz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9wz.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "6000i9wz",
+        "ids": ",us6000i9wz,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 2.099,
+        "rms": 1.08,
+        "gap": 154,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 28 km S of La Horqueta (Poblado Doce), Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2115,
+          16.9549,
+          134.775
+        ]
+      },
+      "id": "us6000i9wz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -94,8 +174,8 @@
       "properties": {
         "mag": 3.6,
         "place": "24 km SSE of Baie-Comeau, Canada",
-        "time": 1660203436043,
-        "updated": 1660216087458,
+        "time": 1660203436048,
+        "updated": 1660222507605,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9wg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9wg.geojson",
@@ -112,8 +192,8 @@
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 36,
-        "dmin": 0.711,
-        "rms": 0.51,
+        "dmin": 0.709,
+        "rms": 0.49,
         "gap": 100,
         "magType": "ml",
         "type": "earthquake",
@@ -122,9 +202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.0293,
-          49.0144,
-          9.827
+          -68.0189,
+          49.0097,
+          9.915
         ]
       },
       "id": "us6000i9wg"
@@ -215,7 +295,7 @@
         "mag": 2.7,
         "place": "46km WSW of Ferndale, CA",
         "time": 1660194798310,
-        "updated": 1660208472954,
+        "updated": 1660221503040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73766710",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73766710.geojson",
@@ -228,8 +308,8 @@
         "sig": 112,
         "net": "nc",
         "code": "73766710",
-        "ids": ",nc73766710,",
-        "sources": ",nc,",
+        "ids": ",nc73766710,us6000i9vn,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 73,
         "dmin": 0.3473,
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.25,
-        "place": "Virgin Islands",
+        "place": "24 km SSW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1660188095390,
         "updated": 1660192387421,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Virgin Islands"
+        "title": "M 3.3 - 24 km SSW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -415,17 +495,17 @@
         "mag": 2.7,
         "place": "2 km ENE of Driggs, Idaho",
         "time": 1660186891875,
-        "updated": 1660218914854,
+        "updated": 1660223191186,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9v2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9v2.geojson",
-        "felt": 50,
-        "cdi": 3.8,
+        "felt": 52,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 136,
         "net": "us",
         "code": "6000i9v2",
         "ids": ",us6000i9v2,",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Fiji region",
+        "place": "294 km SE of Levuka, Fiji",
         "time": 1660167967095,
         "updated": 1660170404040,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Fiji region"
+        "title": "M 4.5 - 294 km SE of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
@@ -1168,46 +1248,6 @@
         ]
       },
       "id": "tx2022poxd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.48,
-        "place": "6 km NE of Pāhala, Hawaii",
-        "time": 1660136860410,
-        "updated": 1660137968350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73104922",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73104922.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "hv",
-        "code": "73104922",
-        "ids": ",hv73104922,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 52,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 114,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 6 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.427,
-          19.2373333333333,
-          33.37
-        ]
-      },
-      "id": "hv73104922"
     }
   ],
   "bbox": [
