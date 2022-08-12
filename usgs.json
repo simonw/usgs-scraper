@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660327210000,
+    "generated": 1660330787000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -295,12 +295,12 @@
         "mag": 2.56,
         "place": "24 km SSW of River Road, Washington",
         "time": 1660298545060,
-        "updated": 1660327005030,
+        "updated": 1660330712100,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61862587",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61862587.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +310,7 @@
         "code": "61862587",
         "ids": ",uw61862587,",
         "sources": ",uw,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 50,
         "dmin": 0.1952,
         "rms": 0.21,
@@ -575,17 +575,17 @@
         "mag": 5.2,
         "place": "11 km E of Zirándaro de los Chávez, Mexico",
         "time": 1660292245579,
-        "updated": 1660325089714,
+        "updated": 1660329870016,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia64",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia64.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 421,
+        "sig": 422,
         "net": "us",
         "code": "6000ia64",
         "ids": ",us6000ia64,",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Hokkaido, Japan region",
+        "place": "53 km SSE of Makubetsu, Japan",
         "time": 1660279073044,
         "updated": 1660280228040,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Hokkaido, Japan region"
+        "title": "M 4.5 - 53 km SSE of Makubetsu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "western Texas",
+        "place": "56 km SSW of Whites City, New Mexico",
         "time": 1660275336244,
         "updated": 1660310245791,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 79,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - western Texas"
+        "title": "M 2.9 - 56 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1848,46 +1848,6 @@
         ]
       },
       "id": "ak022a948y1q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1660243579549,
-        "updated": 1660246283040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9zz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9zz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000i9zz",
-        "ids": ",us6000i9zz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 1.199,
-        "rms": 1.29,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.4568,
-          -30.3956,
-          38.916
-        ]
-      },
-      "id": "us6000i9zz"
     }
   ],
   "bbox": [
