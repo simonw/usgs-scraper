@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660377647000,
+    "generated": 1660381204000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.45,
+        "mag": 3.1,
+        "place": "275 km SE of Perryville, Alaska",
+        "time": 1660378948159,
+        "updated": 1660379130627,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ac8tcqo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ac8tcqo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "022ac8tcqo",
+        "ids": ",ak022ac8tcqo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 275 km SE of Perryville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.2425,
+          54.0883,
+          0
+        ]
+      },
+      "id": "ak022ac8tcqo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.17,
         "place": "16km WSW of Weitchpec, CA",
-        "time": 1660375536390,
-        "updated": 1660377383305,
+        "time": 1660375536240,
+        "updated": 1660380193227,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73767575",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73767575.geojson",
-        "felt": 81,
+        "felt": 88,
         "cdi": 3.8,
-        "mmi": 2.85,
+        "mmi": 2.593,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 214,
+        "sig": 188,
         "net": "nc",
         "code": "73767575",
         "ids": ",nc73767575,us6000iah9,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 42,
-        "dmin": 0.109,
-        "rms": 0.16,
-        "gap": 139,
+        "nst": 60,
+        "dmin": 0.1097,
+        "rms": 0.14,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 16km WSW of Weitchpec, CA"
+        "title": "M 3.2 - 16km WSW of Weitchpec, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.8843307,
-          41.128334,
-          23.68
+          -123.882,
+          41.132,
+          28.27
         ]
       },
       "id": "nc73767575"
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "55 km NW of Bahía de Caráquez, Ecuador",
+        "place": "near the coast of Ecuador",
         "time": 1660374366871,
         "updated": 1660375421040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 153,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 55 km NW of Bahía de Caráquez, Ecuador"
+        "title": "M 4.8 - near the coast of Ecuador"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +215,7 @@
         "mag": 5.8,
         "place": "25 km WNW of Gadung, Philippines",
         "time": 1660371931587,
-        "updated": 1660377436454,
+        "updated": 1660379379138,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iag5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iag5.geojson",
@@ -815,7 +855,7 @@
         "mag": 5.2,
         "place": "181 km NW of Tūkrah, Libya",
         "time": 1660339910039,
-        "updated": 1660369899486,
+        "updated": 1660381149343,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iacz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iacz.geojson",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47,
-        "place": "Puerto Rico region",
+        "place": "2 km WSW of Indios, Puerto Rico",
         "time": 1660338264780,
         "updated": 1660338804340,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 187,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 2 km WSW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1608,334 +1648,14 @@
         ]
       },
       "id": "us6000ia6p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "14 km SSE of Baynjiwayn, Iraq",
-        "time": 1660294489782,
-        "updated": 1660295360127,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia6d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia6d.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "6000ia6d",
-        "ids": ",us6000ia6d,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.451,
-        "rms": 0.59,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 14 km SSE of Baynjiwayn, Iraq"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          46.006,
-          35.5031,
-          10
-        ]
-      },
-      "id": "us6000ia6d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "39 km NW of Bahía de Caráquez, Ecuador",
-        "time": 1660294078113,
-        "updated": 1660294826040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia6c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia6c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000ia6c",
-        "ids": ",us6000ia6c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 2.052,
-        "rms": 0.96,
-        "gap": 153,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 39 km NW of Bahía de Caráquez, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.6415,
-          -0.3167,
-          10
-        ]
-      },
-      "id": "us6000ia6c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.31,
-        "place": "59 km N of Loíza, Puerto Rico",
-        "time": 1660293985500,
-        "updated": 1660296335300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71365308",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71365308.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "pr",
-        "code": "71365308",
-        "ids": ",pr71365308,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": null,
-        "rms": 0.31,
-        "gap": 246,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 59 km N of Loíza, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.8558333333333,
-          18.9701666666667,
-          19.81
-        ]
-      },
-      "id": "pr71365308"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "59 km NW of Bahía de Caráquez, Ecuador",
-        "time": 1660293322056,
-        "updated": 1660294481040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia6a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia6a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000ia6a",
-        "ids": ",us6000ia6a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.239,
-        "rms": 0.55,
-        "gap": 159,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 59 km NW of Bahía de Caráquez, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.8317,
-          -0.2455,
-          10
-        ]
-      },
-      "id": "us6000ia6a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "16km WSW of Petrolia, CA",
-        "time": 1660292645570,
-        "updated": 1660376173246,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73767220",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73767220.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "73767220",
-        "ids": ",nc73767220,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.09166,
-        "rms": 0.1,
-        "gap": 243,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 16km WSW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.4623333,
-          40.285,
-          20.39
-        ]
-      },
-      "id": "nc73767220"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "11 km E of Zirándaro de los Chávez, Mexico",
-        "time": 1660292245579,
-        "updated": 1660329870016,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia64",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia64.geojson",
-        "felt": 15,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 422,
-        "net": "us",
-        "code": "6000ia64",
-        "ids": ",us6000ia64,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 109,
-        "dmin": 1.218,
-        "rms": 1.35,
-        "gap": 95,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 11 km E of Zirándaro de los Chávez, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.8723,
-          18.4692,
-          63.994
-        ]
-      },
-      "id": "us6000ia64"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "44 km WSW of Ashkāsham, Afghanistan",
-        "time": 1660291787042,
-        "updated": 1660292583040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia62",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia62.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000ia62",
-        "ids": ",us6000ia62,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.767,
-        "rms": 0.52,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 44 km WSW of Ashkāsham, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.0996,
-          36.4827,
-          143.154
-        ]
-      },
-      "id": "us6000ia62"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "2 km WSW of Indios, Puerto Rico",
-        "time": 1660291697590,
-        "updated": 1660292589990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71365273",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71365273.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "pr",
-        "code": "71365273",
-        "ids": ",pr71365273,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": null,
-        "rms": 0.17,
-        "gap": 191,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km WSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8405,
-          17.9823333333333,
-          18.11
-        ]
-      },
-      "id": "pr71365273"
     }
   ],
   "bbox": [
     -176.6661,
     -29.6579,
-    3.12,
+    0,
     178.3425,
     67.95,
-    143.154
+    114.9
   ]
 }
