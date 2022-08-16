@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660658444000,
+    "generated": 1660661984000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 41
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us6000ibay"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Kermadec Islands region",
+        "time": 1660654447733,
+        "updated": 1660660944040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibap",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibap.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000ibap",
+        "ids": ",us6000ibap,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 5.902,
+        "rms": 0.6,
+        "gap": 154,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.9094,
+          -31.8325,
+          330.673
+        ]
+      },
+      "id": "us6000ibap"
     },
     {
       "type": "Feature",
@@ -168,6 +208,46 @@
         ]
       },
       "id": "hv73111037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1660649563537,
+        "updated": 1660661136185,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ah99yzp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ah99yzp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "022ah99yzp",
+        "ids": ",ak022ah99yzp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.8988,
+          50.3357,
+          29.5
+        ]
+      },
+      "id": "ak022ah99yzp"
     },
     {
       "type": "Feature",
@@ -492,38 +572,38 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
+        "mag": 5.5,
         "place": "Macquarie Island region",
-        "time": 1660633788807,
-        "updated": 1660636365069,
+        "time": 1660633788786,
+        "updated": 1660658970779,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ib8t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ib8t.geojson",
         "felt": 1,
         "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
+        "mmi": 5.752,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 466,
         "net": "us",
         "code": "6000ib8t",
         "ids": ",us6000ib8t,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.377,
-        "rms": 0.67,
-        "gap": 93,
-        "magType": "mb",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 41,
+        "dmin": 0.387,
+        "rms": 0.88,
+        "gap": 50,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Macquarie Island region"
+        "title": "M 5.5 - Macquarie Island region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          158.5708,
-          -54.8013,
+          158.571,
+          -54.8134,
           10
         ]
       },
@@ -1571,10 +1651,10 @@
     }
   ],
   "bbox": [
-    -178.5008,
-    -54.8013,
+    -179.9094,
+    -54.8134,
     4.383422852,
-    170.3261,
+    177.8988,
     61.5841,
     587.429
   ]
