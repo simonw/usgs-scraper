@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660690840000,
+    "generated": 1660694462000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 46
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 4,
         "place": "20 km SW of Nanwalek, Alaska",
         "time": 1660687569329,
-        "updated": 1660690712355,
+        "updated": 1660692089373,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ahfnyru",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ahfnyru.geojson",
-        "felt": 24,
+        "felt": 25,
         "cdi": 2.8,
         "mmi": 3.057,
         "alert": null,
@@ -495,11 +495,11 @@
         "mag": 3.6,
         "place": "12 km WSW of Hope, Alaska",
         "time": 1660670901876,
-        "updated": 1660690409272,
+        "updated": 1660693723250,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ahctjjv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ahctjjv.geojson",
-        "felt": 146,
+        "felt": 147,
         "cdi": 3.2,
         "mmi": 3.091,
         "alert": null,
@@ -852,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.52,
-        "place": "7 km SSE of Pāhala, Hawaii",
-        "time": 1660651098230,
-        "updated": 1660651441300,
+        "mag": 2.74,
+        "place": "8 km SSE of Pāhala, Hawaii",
+        "time": 1660651098150,
+        "updated": 1660692114710,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73111037",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73111037.geojson",
@@ -863,28 +863,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 116,
         "net": "hv",
         "code": "73111037",
         "ids": ",hv73111037,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 50,
+        "nst": 53,
         "dmin": null,
-        "rms": 0.119999997,
-        "gap": 176,
+        "rms": 0.11,
+        "gap": 178,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km SSE of Pāhala, Hawaii"
+        "title": "M 2.7 - 8 km SSE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.441833496094,
-          19.1420001983643,
-          31.0900001525879
+          -155.443166666667,
+          19.1336666666667,
+          31.44
         ]
       },
       "id": "hv73111037"
@@ -1533,9 +1533,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "El Salvador",
-        "time": 1660621476298,
-        "updated": 1660652586951,
+        "place": "32 km SW of La Libertad, El Salvador",
+        "time": 1660621476848,
+        "updated": 1660694393740,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ib7v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ib7v.geojson",
@@ -1551,23 +1551,63 @@
         "ids": ",us6000ib7v,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.462,
-        "rms": 0.57,
-        "gap": 193,
+        "nst": 83,
+        "dmin": 0.391,
+        "rms": 0.66,
+        "gap": 138,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - El Salvador"
+        "title": "M 4.6 - 32 km SW of La Libertad, El Salvador"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.5779,
-          13.2068,
-          59.953
+          -89.5147,
+          13.2657,
+          61.434
         ]
       },
       "id": "us6000ib7v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "western Indian-Antarctic Ridge",
+        "time": 1660620375092,
+        "updated": 1660691439040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibev",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibev.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000ibev",
+        "ids": ",us6000ibev,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 18.536,
+        "rms": 0.59,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - western Indian-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3847,
+          -48.676,
+          10
+        ]
+      },
+      "id": "us6000ibev"
     },
     {
       "type": "Feature",
@@ -1808,166 +1848,6 @@
         ]
       },
       "id": "us6000ib74"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "19 km SE of Karluk, Alaska",
-        "time": 1660607226187,
-        "updated": 1660625399040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022afsyu56",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022afsyu56.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "022afsyu56",
-        "ids": ",us6000ib6w,ak022afsyu56,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 19 km SE of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.2606,
-          57.431,
-          12.3
-        ]
-      },
-      "id": "ak022afsyu56"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "20 km WSW of Coyanosa, Texas",
-        "time": 1660607127601,
-        "updated": 1660635084597,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022pysr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022pysr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2022pysr",
-        "ids": ",us6000ib6u,tx2022pysr,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.004483873738,
-        "rms": 0.4,
-        "gap": 42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 20 km WSW of Coyanosa, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.27053,
-          31.1826293,
-          4.383422852
-        ]
-      },
-      "id": "tx2022pysr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.215151683,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1660606774896,
-        "updated": 1660614880244,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022pysn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022pysn.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "tx",
-        "code": "2022pysn",
-        "ids": ",tx2022pysn,",
-        "sources": ",tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.09270103849,
-        "rms": 0.2,
-        "gap": 79,
-        "magType": "mlv",
-        "type": "earthquake",
-        "title": "M 3.2 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3951894,
-          31.64650887,
-          5.745947266
-        ]
-      },
-      "id": "tx2022pysn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.33,
-        "place": "53 km WSW of Stella, Puerto Rico",
-        "time": 1660606593110,
-        "updated": 1660618039040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71366178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71366178.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 171,
-        "net": "pr",
-        "code": "71366178",
-        "ids": ",us6000ib6s,pr71366178,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": null,
-        "rms": 0.75,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 53 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6905,
-          18.0993333333333,
-          30.51
-        ]
-      },
-      "id": "pr71366178"
     }
   ],
   "bbox": [
