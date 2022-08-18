@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660852842000,
+    "generated": 1660856382000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 23
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.47,
         "place": "4 km S of Indios, Puerto Rico",
         "time": 1660837290000,
-        "updated": 1660840319800,
+        "updated": 1660855225656,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71366833",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71366833.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "71366833",
         "ids": ",pr71366833,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": null,
         "rms": 0.17,
@@ -415,17 +415,17 @@
         "mag": 5.1,
         "place": "61 km ENE of Namie, Japan",
         "time": 1660801569764,
-        "updated": 1660823447603,
+        "updated": 1660855212226,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibsp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibsp.geojson",
-        "felt": 6,
-        "cdi": 2.7,
+        "felt": 7,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 402,
+        "sig": 403,
         "net": "us",
         "code": "6000ibsp",
         "ids": ",us6000ibsp,",
@@ -732,6 +732,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "77 km N of Amahai, Indonesia",
+        "time": 1660784597837,
+        "updated": 1660855690040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibrq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibrq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000ibrq",
+        "ids": ",us6000ibrq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 3.243,
+        "rms": 0.77,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 77 km N of Amahai, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.013,
+          -2.6487,
+          10
+        ]
+      },
+      "id": "us6000ibrq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "84 km WSW of Anaktuvuk Pass, Alaska",
         "time": 1660783832213,
@@ -888,86 +928,6 @@
         ]
       },
       "id": "us6000ibqz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "83km ESE of Maneadero, B.C., MX",
-        "time": 1660769307090,
-        "updated": 1660779640831,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40327320",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40327320.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "ci",
-        "code": "40327320",
-        "ids": ",ci40327320,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.1824,
-        "rms": 0.05,
-        "gap": 125,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 83km ESE of Maneadero, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.7045,
-          31.5611667,
-          7.58
-        ]
-      },
-      "id": "ci40327320"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.752444994,
-        "place": "17 km NNE of Hermleigh, Texas",
-        "time": 1660766880444,
-        "updated": 1660811925054,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022qcco",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022qcco.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "tx",
-        "code": "2022qcco",
-        "ids": ",tx2022qcco,",
-        "sources": ",tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.06950794952,
-        "rms": 0.2,
-        "gap": 56,
-        "magType": "mlv",
-        "type": "earthquake",
-        "title": "M 2.8 - 17 km NNE of Hermleigh, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.6551305,
-          32.76763916,
-          7.801066081
-        ]
-      },
-      "id": "tx2022qcco"
     }
   ],
   "bbox": [
