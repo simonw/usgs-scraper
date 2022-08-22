@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661126479000,
+    "generated": 1661131759000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "4 km SSE of Pāhala, Hawaii",
+        "time": 1661128545860,
+        "updated": 1661129200040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73117157",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73117157.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "73117157",
+        "ids": ",us6000icm7,hv73117157,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": null,
+        "rms": 0.109999999,
+        "gap": 102,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.464340209961,
+          19.1628341674805,
+          32.9799995422363
+        ]
+      },
+      "id": "hv73117157"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 2.65,
         "place": "7km NNE of Walker, CA",
         "time": 1661107066790,
-        "updated": 1661118554127,
+        "updated": 1661129013686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73770465",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73770465.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "73770465",
         "ids": ",nc73770465,nn00845559,",
         "sources": ",nc,nn,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.05612,
         "rms": 0.08,
@@ -575,17 +615,17 @@
         "mag": 3.14,
         "place": "4 km SSW of Imboden, Arkansas",
         "time": 1661091164960,
-        "updated": 1661126272425,
+        "updated": 1661131438770,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60405492",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60405492.geojson",
-        "felt": 200,
+        "felt": 205,
         "cdi": 4,
         "mmi": 4.186,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 232,
+        "sig": 234,
         "net": "nm",
         "code": "60405492",
         "ids": ",nm60405492,us6000icj9,",
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us6000icgr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "18 km WNW of Villa Basilio Nievas, Argentina",
-        "time": 1661042632354,
-        "updated": 1661043810040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000icg9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000icg9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000icg9",
-        "ids": ",us6000icg9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.202,
-        "rms": 0.56,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 18 km WNW of Villa Basilio Nievas, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9138,
-          -31.4953,
-          110.28
-        ]
-      },
-      "id": "us6000icg9"
     }
   ],
   "bbox": [
