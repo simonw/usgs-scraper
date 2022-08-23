@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661238140000,
+    "generated": 1661241620000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.6,
         "place": "0 km WNW of Týrnavos, Greece",
         "time": 1661236583258,
-        "updated": 1661237703040,
+        "updated": 1661239772453,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000icyp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000icyp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000icyp",
         "ids": ",us6000icyp,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 67,
         "dmin": 0.396,
         "rms": 0.47,
@@ -175,17 +175,17 @@
         "mag": 4.03,
         "place": "9 km E of Pāhala, Hawaii",
         "time": 1661231490110,
-        "updated": 1661237993085,
+        "updated": 1661241158185,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73118317",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73118317.geojson",
-        "felt": 116,
+        "felt": 122,
         "cdi": 4.2,
         "mmi": 4.722,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 299,
+        "sig": 301,
         "net": "hv",
         "code": "73118317",
         "ids": ",hv73118317,us6000icy8,",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "La Rioja-Cordoba border region, Argentina",
+        "place": "18 km NNW of Serrezuela, Argentina",
         "time": 1661225925885,
         "updated": 1661228316040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 144,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - La Rioja-Cordoba border region, Argentina"
+        "title": "M 4.3 - 18 km NNW of Serrezuela, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -295,11 +295,11 @@
         "mag": 2.74,
         "place": "11 km ESE of Chickasha, Oklahoma",
         "time": 1661223401228,
-        "updated": 1661233711192,
+        "updated": 1661239116440,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022qlto",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022qlto.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1488,86 +1488,6 @@
         ]
       },
       "id": "us6000icp3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1661154898127,
-        "updated": 1661156463040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000icp1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000icp1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000icp1",
-        "ids": ",us6000icp1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 109,
-        "dmin": 12.228,
-        "rms": 0.52,
-        "gap": 37,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -24.6462,
-          -0.9625,
-          10
-        ]
-      },
-      "id": "us6000icp1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "4 km SE of La Parguera, Puerto Rico",
-        "time": 1661153778910,
-        "updated": 1661155273110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71367353",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71367353.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "pr",
-        "code": "71367353",
-        "ids": ",pr71367353,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": null,
-        "rms": 0.09,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km SE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0133333333333,
-          17.9513333333333,
-          8.73
-        ]
-      },
-      "id": "pr71367353"
     }
   ],
   "bbox": [
