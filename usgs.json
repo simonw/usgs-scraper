@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661577095000,
+    "generated": 1661580007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "91 km NW of Sola, Vanuatu",
+        "time": 1661576867461,
+        "updated": 1661577927040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2vd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2vd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000i2vd",
+        "ids": ",us7000i2vd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 2.207,
+        "rms": 0.62,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 91 km NW of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.0186,
+          -13.2348,
+          199.663
+        ]
+      },
+      "id": "us7000i2vd"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.04,
         "place": "1 km S of Pāhala, Hawaii",
         "time": 1661576369070,
-        "updated": 1661576737998,
+        "updated": 1661577933751,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73122857",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73122857.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 143,
         "net": "hv",
         "code": "73122857",
         "ids": ",hv73122857,us7000i2vc,",
@@ -52,42 +92,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "42 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1661575391543,
-        "updated": 1661576454040,
+        "mag": 4,
+        "place": "64 km SSE of Demre, Turkey",
+        "time": 1661575670821,
+        "updated": 1661577205040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2va",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2va.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2vb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2vb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 246,
         "net": "us",
-        "code": "7000i2va",
-        "ids": ",us7000i2va,",
+        "code": "7000i2vb",
+        "ids": ",us7000i2vb,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.426,
-        "rms": 0.27,
-        "gap": 311,
-        "magType": "ml",
+        "nst": 22,
+        "dmin": 0.728,
+        "rms": 1,
+        "gap": 98,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.7 - 42 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 4.0 - 64 km SSE of Demre, Turkey"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.7007,
-          18.7045,
-          64.737
+          30.1992,
+          35.6859,
+          33.998
         ]
       },
-      "id": "us7000i2va"
+      "id": "us7000i2vb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.56,
+        "place": "37 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1661575393730,
+        "updated": 1661577836885,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022239000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022239000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 195,
+        "net": "pr",
+        "code": "2022239000",
+        "ids": ",us7000i2va,pr2022239000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.3757,
+        "rms": 0.26,
+        "gap": 306,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 37 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7546,
+          18.6693,
+          51
+        ]
+      },
+      "id": "pr2022239000"
     },
     {
       "type": "Feature",
@@ -732,6 +812,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "78 km WSW of Tobelo, Indonesia",
+        "time": 1661522229234,
+        "updated": 1661577308040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2m2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2m2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000i2m2",
+        "ids": ",us7000i2m2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.799,
+        "rms": 0.59,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 78 km WSW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3251,
+          1.5746,
+          140.949
+        ]
+      },
+      "id": "us7000i2m2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.460252572,
         "place": "34 km NW of Toyah, Texas",
         "time": 1661521238932,
@@ -808,6 +928,46 @@
         ]
       },
       "id": "us7000i2kg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "146 km NW of Constitución, Chile",
+        "time": 1661515952401,
+        "updated": 1661579010040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2kd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2kd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000i2kd",
+        "ids": ",us7000i2kd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 1.528,
+        "rms": 0.56,
+        "gap": 152,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 146 km NW of Constitución, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7024,
+          -34.5522,
+          10
+        ]
+      },
+      "id": "us7000i2kd"
     },
     {
       "type": "Feature",
@@ -1048,134 +1208,14 @@
         ]
       },
       "id": "us7000i2j1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.09,
-        "place": "23 km SSW of Mammoth, Wyoming",
-        "time": 1661493073810,
-        "updated": 1661525147740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60511437",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60511437.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 147,
-        "net": "uu",
-        "code": "60511437",
-        "ids": ",us7000i2in,uu60511437,",
-        "sources": ",us,uu,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.08655,
-        "rms": 0.21,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 23 km SSW of Mammoth, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.8038333,
-          44.7755,
-          11.58
-        ]
-      },
-      "id": "uu60511437"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "northern Mid-Atlantic Ridge",
-        "time": 1661492293492,
-        "updated": 1661493570040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2ik",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2ik.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000i2ik",
-        "ids": ",us7000i2ik,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 88,
-        "dmin": 24.46,
-        "rms": 0.43,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - northern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.8108,
-          29.6046,
-          10
-        ]
-      },
-      "id": "us7000i2ik"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "9 km NE of Girdwood, Alaska",
-        "time": 1661491174568,
-        "updated": 1661568083520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022axozwr6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022axozwr6.geojson",
-        "felt": 147,
-        "cdi": 3.2,
-        "mmi": 3.118,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "ak",
-        "code": "022axozwr6",
-        "ids": ",ak022axozwr6,us7000i2ih,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.54,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 9 km NE of Girdwood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.0491,
-          61.0076,
-          12.3
-        ]
-      },
-      "id": "ak022axozwr6"
     }
   ],
   "bbox": [
     -155.47982788086,
-    -27.1101,
+    -34.5522,
     5,
     167.3473,
-    61.0076,
+    58.9119,
     234.854
   ]
 }
