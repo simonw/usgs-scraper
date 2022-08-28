@@ -1,36 +1,156 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661720400000,
+    "generated": 1661724000000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "47 km W of Mentone, Texas",
+        "time": 1661722316210,
+        "updated": 1661723209385,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022qwhw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022qwhw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "tx",
+        "code": "2022qwhw",
+        "ids": ",us7000i36z,tx2022qwhw,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.06246043851,
+        "rms": 0.2,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 47 km W of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.1014379,
+          31.70759241,
+          7.468383789
+        ]
+      },
+      "id": "tx2022qwhw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "197 km W of Bandon, Oregon",
+        "time": 1661721970562,
+        "updated": 1661722534040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i36x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i36x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000i36x",
+        "ids": ",us7000i36x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 2.02,
+        "rms": 0.73,
+        "gap": 239,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 197 km W of Bandon, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.7975,
+          43.4477,
+          10
+        ]
+      },
+      "id": "us7000i36x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "69 km NW of Finschhafen, Papua New Guinea",
+        "time": 1661720687706,
+        "updated": 1661721623040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i36q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i36q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000i36q",
+        "ids": ",us7000i36q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 5.045,
+        "rms": 0.89,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 69 km NW of Finschhafen, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4543,
+          -6.0633,
+          71.368
+        ]
+      },
+      "id": "us7000i36q"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.82,
         "place": "27km NW of San Simeon, CA",
         "time": 1661719787060,
-        "updated": 1661720172838,
+        "updated": 1661723303928,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73772835",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73772835.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 123,
         "net": "nc",
         "code": "73772835",
-        "ids": ",nc73772835,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73772835,us7000i36n,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 53,
         "dmin": 0.2391,
         "rms": 0.32,
@@ -1888,46 +2008,6 @@
         ]
       },
       "id": "us7000i2z8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.67,
-        "place": "13 km N of Wai‘ōhinu, Hawaii",
-        "time": 1661636343730,
-        "updated": 1661636918040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73123372",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73123372.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "hv",
-        "code": "73123372",
-        "ids": ",us7000i2z4,hv73123372,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": null,
-        "rms": 0.189999998,
-        "gap": 97,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km N of Wai‘ōhinu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.626831054688,
-          19.1928329467773,
-          0.25
-        ]
-      },
-      "id": "hv73123372"
     }
   ],
   "bbox": [
