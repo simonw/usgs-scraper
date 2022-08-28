@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661641194000,
+    "generated": 1661644856000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 25
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.4,
         "place": "30 km SW of Vallenar, Chile",
         "time": 1661638485839,
-        "updated": 1661639797040,
+        "updated": 1661641933384,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2z8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2z8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000i2z8",
         "ids": ",us7000i2z8,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 64,
         "dmin": 0.372,
         "rms": 0.89,
@@ -135,21 +135,21 @@
         "mag": 3,
         "place": "10km E of Alum Rock, CA",
         "time": 1661629372740,
-        "updated": 1661641153647,
+        "updated": 1661644717253,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73772490",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73772490.geojson",
-        "felt": 158,
+        "felt": 163,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 200,
         "net": "nc",
         "code": "73772490",
-        "ids": ",nc73772490,",
-        "sources": ",nc,",
+        "ids": ",nc73772490,us7000i2ym,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 118,
         "dmin": 0.04756,
@@ -1008,86 +1008,6 @@
         ]
       },
       "id": "hv73122702"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "42 km W of Panguna, Papua New Guinea",
-        "time": 1661556020665,
-        "updated": 1661558281040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2tv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2tv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000i2tv",
-        "ids": ",us7000i2tv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 3.606,
-        "rms": 0.64,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 42 km W of Panguna, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.0982,
-          -6.3181,
-          130.997
-        ]
-      },
-      "id": "us7000i2tv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "222 km SE of Chiniak, Alaska",
-        "time": 1661554931331,
-        "updated": 1661558580040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i2u0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i2u0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000i2u0",
-        "ids": ",ak022axzm2sm,us7000i2u0,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 2.197,
-        "rms": 0.45,
-        "gap": 258,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 222 km SE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.8453,
-          56.121,
-          14.023
-        ]
-      },
-      "id": "us7000i2u0"
     }
   ],
   "bbox": [
