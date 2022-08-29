@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661792638000,
+    "generated": 1661796012000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 56
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "40 km SE of Chignik, Alaska",
+        "time": 1661793690161,
+        "updated": 1661793938495,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022b2urknx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022b2urknx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "022b2urknx",
+        "ids": ",ak022b2urknx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.52,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 40 km SE of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.0401,
+          55.9933,
+          54.1
+        ]
+      },
+      "id": "ak022b2urknx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "228 km E of Levuka, Fiji",
+        "time": 1661791388214,
+        "updated": 1661793078040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3fl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3fl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000i3fl",
+        "ids": ",us7000i3fl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 82,
+        "dmin": 3.261,
+        "rms": 0.49,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 228 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5278,
+          -17.9067,
+          566.932
+        ]
+      },
+      "id": "us7000i3fl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -54,8 +134,8 @@
       "properties": {
         "mag": 4.4,
         "place": "19 km E of Mugur-Aksy, Russia",
-        "time": 1661790199504,
-        "updated": 1661791802040,
+        "time": 1661790199458,
+        "updated": 1661794368040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3fe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3fe.geojson",
@@ -72,8 +152,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 40,
-        "dmin": 5.103,
-        "rms": 0.4,
+        "dmin": 5.102,
+        "rms": 0.39,
         "gap": 146,
         "magType": "mb",
         "type": "earthquake",
@@ -82,9 +162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          90.7149,
-          50.3648,
-          11.994
+          90.7167,
+          50.3675,
+          11.67
         ]
       },
       "id": "us7000i3fe"
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.19,
-        "place": "Puerto Rico region",
+        "place": "17 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1661787963410,
         "updated": 1661791502520,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 208,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 17 km N of Tierras Nuevas Poniente, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -215,11 +295,11 @@
         "mag": 4.4,
         "place": "214 km W of Ferndale, California",
         "time": 1661786549332,
-        "updated": 1661788851617,
+        "updated": 1661795957503,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3dm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3dm.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 1,
         "mmi": null,
         "alert": null,
@@ -228,9 +308,9 @@
         "sig": 298,
         "net": "us",
         "code": "7000i3dm",
-        "ids": ",us7000i3dm,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",us7000i3dm,nc73773155,",
+        "sources": ",us,nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 44,
         "dmin": 2.029,
         "rms": 0.43,
@@ -335,17 +415,17 @@
         "mag": 4.6,
         "place": "7 km W of San Bernardo, Chile",
         "time": 1661779040278,
-        "updated": 1661792046406,
+        "updated": 1661795790103,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3cj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3cj.geojson",
-        "felt": 23,
+        "felt": 36,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 335,
+        "sig": 340,
         "net": "us",
         "code": "7000i3cj",
         "ids": ",us7000i3cj,",
@@ -375,17 +455,17 @@
         "mag": 5.7,
         "place": "23 km NNE of Yigo Village, Guam",
         "time": 1661777757270,
-        "updated": 1661788614344,
+        "updated": 1661795232751,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3cd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3cd.geojson",
-        "felt": 122,
+        "felt": 124,
         "cdi": 5.8,
         "mmi": 4.588,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 571,
+        "sig": 572,
         "net": "us",
         "code": "7000i3cd",
         "ids": ",pt22241001,us7000i3cd,",
@@ -928,6 +1008,46 @@
         ]
       },
       "id": "pr71368558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "27 km SE of Nikolski, Alaska",
+        "time": 1661754507270,
+        "updated": 1661793356707,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022b2o9bmz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022b2o9bmz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "022b2o9bmz",
+        "ids": ",ak022b2o9bmz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 27 km SE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.6064,
+          52.7429,
+          23
+        ]
+      },
+      "id": "ak022b2o9bmz"
     },
     {
       "type": "Feature",
@@ -1775,7 +1895,7 @@
         "mag": 2.78,
         "place": "100km W of Petrolia, CA",
         "time": 1661717927890,
-        "updated": 1661792351180,
+        "updated": 1661795534469,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73772825",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73772825.geojson",
@@ -2128,130 +2248,10 @@
         ]
       },
       "id": "pr71368443"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "Gulf of Alaska",
-        "time": 1661708862859,
-        "updated": 1661714129040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i358",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i358.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000i358",
-        "ids": ",us7000i358,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 2.231,
-        "rms": 0.46,
-        "gap": 284,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Gulf of Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.005,
-          57.2122,
-          12.098
-        ]
-      },
-      "id": "us7000i358"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Fiji region",
-        "time": 1661707458208,
-        "updated": 1661713967040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i354",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i354.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000i354",
-        "ids": ",us7000i354,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 3.043,
-        "rms": 0.99,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.516,
-          -19.0285,
-          559.261
-        ]
-      },
-      "id": "us7000i354"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "174 km WSW of Pariaman, Indonesia",
-        "time": 1661706280301,
-        "updated": 1661707428040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i34y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i34y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000i34y",
-        "ids": ",us7000i34y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 2.549,
-        "rms": 0.62,
-        "gap": 167,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 174 km WSW of Pariaman, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.6115,
-          -1.0404,
-          17.653
-        ]
-      },
-      "id": "us7000i34y"
     }
   ],
   "bbox": [
-    -177.516,
+    -178.5278,
     -33.5784,
     -0.07,
     147.42,
