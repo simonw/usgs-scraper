@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1662843635000,
+    "generated": 1662847178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "11 km S of Guánica, Puerto Rico",
+        "time": 1662845975280,
+        "updated": 1662847025350,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71371078",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71371078.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "pr",
+        "code": "71371078",
+        "ids": ",us6000iirv,pr71371078,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 11 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9073333333333,
+          17.8678333333333,
+          13.72
+        ]
+      },
+      "id": "pr71371078"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,19 +133,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "1 km ENE of Flaxlanden, France",
+        "place": "Switzerland",
         "time": 1662825491642,
-        "updated": 1662843541831,
+        "updated": 1662847132124,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iiqi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iiqi.geojson",
-        "felt": 241,
+        "felt": 247,
         "cdi": 5.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 410,
+        "sig": 413,
         "net": "us",
         "code": "6000iiqi",
         "ids": ",us6000iiqi,",
@@ -117,7 +157,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 1 km ENE of Flaxlanden, France"
+        "title": "M 4.3 - Switzerland"
       },
       "geometry": {
         "type": "Point",
@@ -1212,6 +1252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.8,
+        "place": "118 km SSW of False Pass, Alaska",
+        "time": 1662766155322,
+        "updated": 1662844391040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iik8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iik8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000iik8",
+        "ids": ",us6000iik8,ak022bl5anzk,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 36,
+        "dmin": 0.773,
+        "rms": 0.98,
+        "gap": 193,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 118 km SSW of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.0101,
+          53.8442,
+          45.871
+        ]
+      },
+      "id": "us6000iik8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.9,
         "place": "Kodiak Island region, Alaska",
         "time": 1662764904390,
@@ -1288,50 +1368,10 @@
         ]
       },
       "id": "tx2022rsin"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Banda Sea",
-        "time": 1662759481278,
-        "updated": 1662781626226,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iijs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iijs.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "6000iijs",
-        "ids": ",us6000iijs,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 82,
-        "dmin": 1.988,
-        "rms": 0.7,
-        "gap": 65,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.5794,
-          -6.954,
-          153.98
-        ]
-      },
-      "id": "us6000iijs"
     }
   ],
   "bbox": [
-    -156.1463,
+    -164.0101,
     -58.7811,
     6.1,
     173.4545,
