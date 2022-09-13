@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663095826000,
+    "generated": 1663099247000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
     {
@@ -14,26 +14,26 @@
       "properties": {
         "mag": 5.2,
         "place": "110 km SE of Burica, Panama",
-        "time": 1663094477869,
-        "updated": 1663095762040,
+        "time": 1663094478447,
+        "updated": 1663097506144,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7qe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7qe.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 5,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 418,
         "net": "us",
         "code": "7000i7qe",
         "ids": ",us7000i7qe,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 98,
-        "dmin": 2.236,
-        "rms": 0.83,
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 103,
+        "dmin": 2.244,
+        "rms": 0.9,
         "gap": 135,
         "magType": "mww",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.2868,
-          7.2247,
-          6.27
+          -82.2991,
+          7.2111,
+          11.403
         ]
       },
       "id": "us7000i7qe"
@@ -175,21 +175,21 @@
         "mag": 2.71,
         "place": "9km ENE of San Martin, CA",
         "time": 1663082677250,
-        "updated": 1663086490259,
+        "updated": 1663098943925,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73781151",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73781151.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 114,
+        "sig": 115,
         "net": "nc",
         "code": "73781151",
-        "ids": ",nc73781151,",
-        "sources": ",nc,",
+        "ids": ",nc73781151,us7000i7nw,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 61,
         "dmin": 0.06813,
@@ -255,7 +255,7 @@
         "mag": 2.91,
         "place": "53km E of Maneadero, B.C., MX",
         "time": 1663081323020,
-        "updated": 1663088190404,
+        "updated": 1663098429040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40099743",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40099743.geojson",
@@ -268,8 +268,8 @@
         "sig": 130,
         "net": "ci",
         "code": "40099743",
-        "ids": ",ci40099743,",
-        "sources": ",ci,",
+        "ids": ",ci40099743,us7000i7nv,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 10,
         "dmin": 0.3064,
@@ -295,22 +295,22 @@
         "mag": 3.1,
         "place": "21 km SSW of Susitna North, Alaska",
         "time": 1663080712596,
-        "updated": 1663082149794,
+        "updated": 1663098715522,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022brm7yhg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022brm7yhg.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": 2.324,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 148,
         "net": "ak",
         "code": "022brm7yhg",
-        "ids": ",ak022brm7yhg,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",ak022brm7yhg,us7000i7ns,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.6,
@@ -328,6 +328,86 @@
         ]
       },
       "id": "ak022brm7yhg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "82 km S of Bahía de Kino, Mexico",
+        "time": 1663079492899,
+        "updated": 1663098890222,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7nq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7nq.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000i7nq",
+        "ids": ",us7000i7nq,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.777,
+        "rms": 0.44,
+        "gap": 130,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 82 km S of Bahía de Kino, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0509,
+          28.0812,
+          10
+        ]
+      },
+      "id": "us7000i7nq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "75 km WNW of Barcelona, Venezuela",
+        "time": 1663078441300,
+        "updated": 1663096041040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7nn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7nn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000i7nn",
+        "ids": ",us7000i7nn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 70,
+        "dmin": 3.937,
+        "rms": 0.42,
+        "gap": 48,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 75 km WNW of Barcelona, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2921,
+          10.459,
+          7.893
+        ]
+      },
+      "id": "us7000i7nn"
     },
     {
       "type": "Feature",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "southern Sumatra, Indonesia",
+        "place": "116 km SW of Kotabumi, Indonesia",
         "time": 1663067883594,
         "updated": 1663069112040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - southern Sumatra, Indonesia"
+        "title": "M 4.9 - 116 km SW of Kotabumi, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "105 km NE of Miches, Dominican Republic",
+        "place": "Dominican Republic region",
         "time": 1663061746522,
         "updated": 1663065407040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 253,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 105 km NE of Miches, Dominican Republic"
+        "title": "M 2.7 - Dominican Republic region"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "western Texas",
+        "place": "57 km S of Whites City, New Mexico",
         "time": 1663059881875,
         "updated": 1663060750040,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - western Texas"
+        "title": "M 3.2 - 57 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "western Texas",
+        "place": "28 km SW of Jal, New Mexico",
         "time": 1663056666475,
         "updated": 1663057810141,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - western Texas"
+        "title": "M 2.8 - 28 km SW of Jal, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "57 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1663055382936,
         "updated": 1663056396521,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 57 km S of Whites City, New Mexico"
+        "title": "M 3.1 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.62,
-        "place": "Puerto Rico region",
+        "place": "5 km SSW of Pole Ojea, Puerto Rico",
         "time": 1663045960770,
         "updated": 1663046786740,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 289,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 5 km SSW of Pole Ojea, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Hokkaido, Japan region",
+        "place": "81 km ENE of Mutsu, Japan",
         "time": 1663030319324,
         "updated": 1663033067822,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 94,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Hokkaido, Japan region"
+        "title": "M 5.2 - 81 km ENE of Mutsu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "28 km SW of Jal, New Mexico",
         "time": 1663028309114,
         "updated": 1663059609048,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 30,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 28 km SW of Jal, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "21 km NNE of Nikiski, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1663021741214,
         "updated": 1663061054007,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 21 km NNE of Nikiski, Alaska"
+        "title": "M 3.2 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Sumbawa region, Indonesia",
+        "place": "151 km S of Dompu, Indonesia",
         "time": 1663018633014,
         "updated": 1663025044040,
         "tz": null,
@@ -1517,7 +1597,7 @@
         "gap": 94,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Sumbawa region, Indonesia"
+        "title": "M 4.2 - 151 km S of Dompu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1608,46 +1688,6 @@
         ]
       },
       "id": "nc73780871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "12 km SE of Pāhala, Hawaii",
-        "time": 1663012837750,
-        "updated": 1663022261621,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73138262",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73138262.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "hv",
-        "code": "73138262",
-        "ids": ",hv73138262,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 48,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 184,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 12 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.405502319336,
-          19.1181659698486,
-          32.3300018310547
-        ]
-      },
-      "id": "hv73138262"
     }
   ],
   "bbox": [
