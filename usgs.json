@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663196390000,
+    "generated": 1663200040000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.7,
         "place": "12 km WSW of Ovalle, Chile",
         "time": 1663195274093,
-        "updated": 1663196336040,
+        "updated": 1663197000912,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i841",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i841.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000i841",
         "ids": ",us7000i841,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 59,
         "dmin": 0.278,
         "rms": 0.76,
@@ -135,12 +135,12 @@
         "mag": 4.2,
         "place": "2 km W of Suchilapan del Río, Mexico",
         "time": 1663181842372,
-        "updated": 1663184188040,
+        "updated": 1663198854235,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i82p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i82p.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "7000i82p",
         "ids": ",us7000i82p,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 32,
         "dmin": 2.968,
         "rms": 1.16,
@@ -175,17 +175,17 @@
         "mag": 2.67,
         "place": "4km E of Sonoma, CA",
         "time": 1663181706140,
-        "updated": 1663195149975,
+        "updated": 1663199402438,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73781611",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73781611.geojson",
-        "felt": 88,
+        "felt": 90,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 137,
+        "sig": 138,
         "net": "nc",
         "code": "73781611",
         "ids": ",nc73781611,",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "western Texas",
+        "place": "55 km S of Whites City, New Mexico",
         "time": 1663176655310,
         "updated": 1663182069040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - western Texas"
+        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -575,7 +575,7 @@
         "mag": 7,
         "place": "208 km SSE of Isangel, Vanuatu",
         "time": 1663153447447,
-        "updated": 1663195801741,
+        "updated": 1663197404245,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7ya",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7ya.geojson",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53,
-        "place": "1 km W of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1663149092470,
         "updated": 1663150367800,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 195,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km W of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.49,
-        "place": "Virgin Islands region",
+        "place": "104 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1663146827910,
         "updated": 1663151335040,
         "tz": null,
@@ -837,7 +837,7 @@
         "gap": 290,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Virgin Islands region"
+        "title": "M 3.5 - 104 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "near the coast of Nicaragua",
+        "place": "44 km WSW of Jiquilillo, Nicaragua",
         "time": 1663145075630,
         "updated": 1663167126804,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 109,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - near the coast of Nicaragua"
+        "title": "M 5.2 - 44 km WSW of Jiquilillo, Nicaragua"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.65,
-        "place": "Virgin Islands region",
+        "place": "Puerto Rico region",
         "time": 1663142829430,
         "updated": 1663145244840,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 278,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Virgin Islands region"
+        "title": "M 3.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "15 km WSW of Dutch Harbor, Alaska",
         "time": 1663140680592,
         "updated": 1663190590664,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 3.1 - 15 km WSW of Dutch Harbor, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Virgin Islands region",
+        "place": "86 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1663139878160,
         "updated": 1663142824211,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 285,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Virgin Islands region"
+        "title": "M 3.7 - 86 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1175,7 +1175,7 @@
         "mag": 5.8,
         "place": "299 km SSE of Ta`ū, American Samoa",
         "time": 1663132085350,
-        "updated": 1663175894178,
+        "updated": 1663197499937,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7uj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7uj.geojson",
@@ -1293,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.37,
-        "place": "Virgin Islands",
+        "place": "108 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1663125577980,
         "updated": 1663128327590,
         "tz": null,
@@ -1317,7 +1317,7 @@
         "gap": 304,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Virgin Islands"
+        "title": "M 3.4 - 108 km N of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1373,9 +1373,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Guerrero, Mexico",
+        "place": "18 km NE of Coyuquilla Norte, Mexico",
         "time": 1663124294963,
-        "updated": 1663182080633,
+        "updated": 1663198984332,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7u6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7u6.geojson",
@@ -1397,7 +1397,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Guerrero, Mexico"
+        "title": "M 4.9 - 18 km NE of Coyuquilla Norte, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "58 km SSW of Nikolski, Alaska",
         "time": 1663120364209,
         "updated": 1663137294344,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 3.3 - 58 km SSW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1495,11 +1495,11 @@
         "mag": 4.29,
         "place": "4km N of Santa Rosa, CA",
         "time": 1663119620420,
-        "updated": 1663193997797,
+        "updated": 1663198044612,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc71129069",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc71129069.geojson",
-        "felt": 245,
+        "felt": 246,
         "cdi": 4.8,
         "mmi": 4.58,
         "alert": null,
@@ -1535,11 +1535,11 @@
         "mag": 4.39,
         "place": "3km N of Santa Rosa, CA",
         "time": 1663119578730,
-        "updated": 1663196286324,
+        "updated": 1663200016057,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73781306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73781306.geojson",
-        "felt": 6776,
+        "felt": 6780,
         "cdi": 5.7,
         "mmi": 5.793,
         "alert": "green",
@@ -1688,254 +1688,14 @@
         ]
       },
       "id": "ci40099975"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "off the coast of Oregon",
-        "time": 1663113386780,
-        "updated": 1663121255672,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7sx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7sx.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000i7sx",
-        "ids": ",us7000i7sx,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 2.032,
-        "rms": 0.38,
-        "gap": 308,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -127.46,
-          43.1252,
-          10
-        ]
-      },
-      "id": "us7000i7sx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "272 km WNW of Haveluloto, Tonga",
-        "time": 1663113163451,
-        "updated": 1663114295040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7sw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7sw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000i7sw",
-        "ids": ",us7000i7sw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 78,
-        "dmin": 4.873,
-        "rms": 0.85,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 272 km WNW of Haveluloto, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.7697,
-          -20.6159,
-          445.77
-        ]
-      },
-      "id": "us7000i7sw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "29 km ENE of Valdez, Alaska",
-        "time": 1663112538629,
-        "updated": 1663113435976,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022brriuue",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022brriuue.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "022brriuue",
-        "ids": ",ak022brriuue,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.39,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 29 km ENE of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -145.8111,
-          61.2014,
-          14.2
-        ]
-      },
-      "id": "ak022brriuue"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "34 km ESE of Clear, Alaska, Alaska",
-        "time": 1663112489004,
-        "updated": 1663194954983,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022brrinwo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022brrinwo.geojson",
-        "felt": 168,
-        "cdi": 4.3,
-        "mmi": 3.536,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 318,
-        "net": "ak",
-        "code": "022brrinwo",
-        "ids": ",ak022brrinwo,us7000i7su,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.91,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 34 km ESE of Clear, Alaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.5076,
-          64.172,
-          13.2
-        ]
-      },
-      "id": "ak022brrinwo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "48 km E of Kainantu, Papua New Guinea",
-        "time": 1663110704995,
-        "updated": 1663116029040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7sn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i7sn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000i7sn",
-        "ids": ",us7000i7sn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 3.155,
-        "rms": 0.37,
-        "gap": 220,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 48 km E of Kainantu, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.2992,
-          -6.3477,
-          96.392
-        ]
-      },
-      "id": "us7000i7sn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "Island of Hawaii, Hawaii",
-        "time": 1663110022370,
-        "updated": 1663118315214,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73139232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73139232.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "hv",
-        "code": "73139232",
-        "ids": ",hv73139232,us7000i7sl,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 36,
-        "dmin": null,
-        "rms": 0.19,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.599333333333,
-          19.1588333333333,
-          0.41
-        ]
-      },
-      "id": "hv73139232"
     }
   ],
   "bbox": [
     -178.6481,
     -30.6491,
-    0.41,
+    1.16,
     179.27133333333,
     65.6243,
-    445.77
+    353.112
   ]
 }
