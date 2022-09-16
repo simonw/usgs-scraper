@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663362025000,
+    "generated": 1663365604000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45000005,
-        "place": "0 km WSW of Pāhala, Hawaii",
-        "time": 1663361331520,
-        "updated": 1663361662420,
+        "mag": 2.62,
+        "place": "1 km NW of Pāhala, Hawaii",
+        "time": 1663361331460,
+        "updated": 1663365519620,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73141762",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73141762.geojson",
@@ -23,28 +23,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 106,
         "net": "hv",
         "code": "73141762",
         "ids": ",hv73141762,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 43,
+        "nst": 46,
         "dmin": null,
-        "rms": 0.129999995,
-        "gap": 144,
+        "rms": 0.11,
+        "gap": 79,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 0 km WSW of Pāhala, Hawaii"
+        "title": "M 2.6 - 1 km NW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.483505249023,
-          19.2005004882812,
-          30.6399993896484
+          -155.4875,
+          19.2113333333333,
+          32.32
         ]
       },
       "id": "hv73141762"
@@ -52,32 +52,72 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "13 km E of Yedisu, Turkey",
-        "time": 1663360236971,
-        "updated": 1663361273040,
+        "mag": 2.5,
+        "place": "Puerto Rico",
+        "time": 1663360312200,
+        "updated": 1663362230040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8nr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8nr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71372073",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71372073.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 96,
+        "net": "pr",
+        "code": "71372073",
+        "ids": ",pr71372073,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": null,
+        "rms": 0.1,
+        "gap": 193,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9435,
+          17.9648333333333,
+          6.42
+        ]
+      },
+      "id": "pr71372073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "eastern Turkey",
+        "time": 1663360236971,
+        "updated": 1663365592517,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8nr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8nr.geojson",
+        "felt": 4,
+        "cdi": 4.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 356,
         "net": "us",
         "code": "7000i8nr",
         "ids": ",us7000i8nr,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 113,
         "dmin": 0.601,
         "rms": 1.12,
         "gap": 28,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - 13 km E of Yedisu, Turkey"
+        "title": "M 4.8 - eastern Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -92,8 +132,88 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "Bonin Islands, Japan region",
+        "time": 1663358409782,
+        "updated": 1663364322040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8nk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8nk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000i8nk",
+        "ids": ",us7000i8nk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 92,
+        "dmin": 4.548,
+        "rms": 0.69,
+        "gap": 118,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0547,
+          28.98,
+          27.291
+        ]
+      },
+      "id": "us7000i8nk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "86 km NNE of San Pedro de Atacama, Chile",
+        "time": 1663356264631,
+        "updated": 1663362837040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8n4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8n4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000i8n4",
+        "ids": ",us7000i8n4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.8,
+        "rms": 0.93,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 86 km NNE of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7683,
+          -22.244,
+          180.105
+        ]
+      },
+      "id": "us7000i8n4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
-        "place": "84 km WSW of Changuillo, Peru",
+        "place": "near the coast of central Peru",
         "time": 1663354535779,
         "updated": 1663356962461,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": 158,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 84 km WSW of Changuillo, Peru"
+        "title": "M 4.5 - near the coast of central Peru"
       },
       "geometry": {
         "type": "Point",
@@ -215,11 +335,11 @@
         "mag": 3.76,
         "place": "46 km S of Lanai City, Hawaii",
         "time": 1663345195270,
-        "updated": 1663361161100,
+        "updated": 1663364746769,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73141587",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73141587.geojson",
-        "felt": 78,
+        "felt": 80,
         "cdi": 3.1,
         "mmi": 2.698,
         "alert": null,
@@ -373,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "17 km NE of Goroka, Papua New Guinea",
         "time": 1663342787998,
         "updated": 1663344059040,
         "tz": null,
@@ -397,7 +517,7 @@
         "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 4.9 - 17 km NE of Goroka, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -452,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
+        "mag": 2.82,
         "place": "10 km E of Pāhala, Hawaii",
-        "time": 1663338864050,
-        "updated": 1663339195590,
+        "time": 1663338864130,
+        "updated": 1663362354900,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73141517",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73141517.geojson",
@@ -463,28 +583,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 122,
         "net": "hv",
         "code": "73141517",
         "ids": ",hv73141517,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 45,
+        "nst": 51,
         "dmin": null,
-        "rms": 0.129999995,
-        "gap": 160,
+        "rms": 0.13,
+        "gap": 159,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 10 km E of Pāhala, Hawaii"
+        "title": "M 2.8 - 10 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.374160766602,
-          19.2059993743896,
-          33.7099990844727
+          -155.375333333333,
+          19.213,
+          34.13
         ]
       },
       "id": "hv73141517"
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "218 km NNE of Laikit, Laikit II (Dimembe), Indonesia",
+        "place": "Pulau-Pulau Talaud, Indonesia",
         "time": 1663328734716,
         "updated": 1663330006040,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": 116,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 218 km NNE of Laikit, Laikit II (Dimembe), Indonesia"
+        "title": "M 4.6 - Pulau-Pulau Talaud, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "89 km WNW of Port-Vila, Vanuatu",
+        "place": "Vanuatu",
         "time": 1663326991249,
         "updated": 1663356538108,
         "tz": null,
@@ -717,7 +837,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 89 km WNW of Port-Vila, Vanuatu"
+        "title": "M 4.6 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "243 km NNE of Fais, Micronesia",
+        "place": "State of Yap, Federated States of Micronesia",
         "time": 1663302990536,
         "updated": 1663346797947,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 243 km NNE of Fais, Micronesia"
+        "title": "M 5.1 - State of Yap, Federated States of Micronesia"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "2 km E of Las Marías, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1663297548520,
         "updated": 1663301419925,
         "tz": null,
@@ -957,7 +1077,7 @@
         "gap": 54,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 2 km E of Las Marías, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Near the coast of Tarapaca, Chile",
+        "place": "25 km WSW of Iquique, Chile",
         "time": 1663297364801,
         "updated": 1663330002112,
         "tz": null,
@@ -997,7 +1117,7 @@
         "gap": 179,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Near the coast of Tarapaca, Chile"
+        "title": "M 3.7 - 25 km WSW of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "13 km SSE of Fern Forest, Hawaii",
         "time": 1663291295780,
         "updated": 1663292575150,
         "tz": null,
@@ -1037,7 +1157,7 @@
         "gap": 149,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 13 km SSE of Fern Forest, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "offshore Chiapas, Mexico",
+        "place": "59 km SSW of La Esperanza (El Zapotal), Mexico",
         "time": 1663281089512,
         "updated": 1663285936096,
         "tz": null,
@@ -1157,7 +1277,7 @@
         "gap": 172,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - offshore Chiapas, Mexico"
+        "title": "M 4.7 - 59 km SSW of La Esperanza (El Zapotal), Mexico"
       },
       "geometry": {
         "type": "Point",
