@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663484475000,
+    "generated": 1663488029000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 59
+    "count": 60
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.49,
-        "place": "23km NE of Thermal, CA",
-        "time": 1663484148090,
-        "updated": 1663484392827,
+        "mag": 3.8,
+        "place": "3 km NNE of Punta Cana, Dominican Republic",
+        "time": 1663485616000,
+        "updated": 1663487947543,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40102247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40102247.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022261000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022261000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 187,
+        "sig": 222,
+        "net": "pr",
+        "code": "2022261000",
+        "ids": ",pr2022261000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.0984,
+        "rms": 0.08,
+        "gap": 269,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 3 km NNE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3875,
+          18.6121,
+          154
+        ]
+      },
+      "id": "pr2022261000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "79 km E of Yujing, Taiwan",
+        "time": 1663484255608,
+        "updated": 1663485453992,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i90t.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 401,
+        "net": "us",
+        "code": "7000i90t",
+        "ids": ",us7000i90t,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.295,
+        "rms": 0.88,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 79 km E of Yujing, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2325,
+          23.0785,
+          10
+        ]
+      },
+      "id": "us7000i90t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.49,
+        "place": "23km NE of Thermal, CA",
+        "time": 1663484148090,
+        "updated": 1663487961423,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40102247",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40102247.geojson",
+        "felt": 21,
+        "cdi": 3.4,
+        "mmi": 3.743,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 195,
         "net": "ci",
         "code": "40102247",
-        "ids": ",ci40102247,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40102247,us7000i90s,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 110,
         "dmin": 0.0993,
         "rms": 0.22,
@@ -52,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 7.2,
-        "place": "85 km E of Yujing, Taiwan",
-        "time": 1663483455000,
-        "updated": 1663484470171,
+        "mag": 6.9,
+        "place": "Taiwan",
+        "time": 1663483454735,
+        "updated": 1663487842168,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00rie81r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00rie81r.geojson",
-        "felt": 21,
-        "cdi": 8.9,
-        "mmi": null,
-        "alert": null,
-        "status": "REVIEWED",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i90q.geojson",
+        "felt": 120,
+        "cdi": 8.7,
+        "mmi": 8.087,
+        "alert": "yellow",
+        "status": "reviewed",
         "tsunami": 1,
-        "sig": 816,
-        "net": "at",
-        "code": "00rie81r",
-        "ids": ",pt22261001,at00rie81r,",
-        "sources": ",pt,at,",
-        "types": ",dyfi,impact-link,origin,",
-        "nst": 21,
-        "dmin": 0.6413971,
-        "rms": 1.8,
-        "gap": 53.999995680000346,
-        "magType": "Mi",
+        "sig": 837,
+        "net": "us",
+        "code": "7000i90q",
+        "ids": ",pt22261001,at00rie81r,us7000i90q,",
+        "sources": ",pt,at,us,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 119,
+        "dmin": 0.403,
+        "rms": 1.18,
+        "gap": 24,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 7.2 - 85 km E of Yujing, Taiwan"
+        "title": "M 6.9 - Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.3,
-          23.1,
+          121.316,
+          23.1589,
           10
         ]
       },
-      "id": "at00rie81r"
+      "id": "us7000i90q"
     },
     {
       "type": "Feature",
@@ -95,12 +175,12 @@
         "mag": 5.2,
         "place": "87 km E of Yujing, Taiwan",
         "time": 1663482721946,
-        "updated": 1663483946040,
+        "updated": 1663487102110,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i90h.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +190,7 @@
         "code": "7000i90h",
         "ids": ",us7000i90h,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 96,
         "dmin": 0.346,
         "rms": 0.76,
@@ -213,19 +293,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "83 km E of Yujing, Taiwan",
+        "place": "Taiwan",
         "time": 1663478358359,
-        "updated": 1663484361855,
+        "updated": 1663485874199,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i903",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i903.geojson",
-        "felt": 23,
+        "felt": 22,
         "cdi": 6.7,
         "mmi": 7.025,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 498,
+        "sig": 497,
         "net": "us",
         "code": "7000i903",
         "ids": ",us7000i903,",
@@ -237,7 +317,7 @@
         "gap": 50,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 83 km E of Yujing, Taiwan"
+        "title": "M 5.6 - Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -255,7 +335,7 @@
         "mag": 2.55,
         "place": "23km NE of Thermal, CA",
         "time": 1663476211310,
-        "updated": 1663477146040,
+        "updated": 1663485136292,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40101999",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40101999.geojson",
@@ -533,31 +613,31 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "11 km NNW of Hasaki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1663466986218,
-        "updated": 1663468470040,
+        "updated": 1663485041795,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8yp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8yp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 355,
         "net": "us",
         "code": "7000i8yp",
         "ids": ",us7000i8yp,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 59,
         "dmin": 2.202,
         "rms": 1.11,
         "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 11 km NNW of Hasaki, Japan"
+        "title": "M 4.8 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -615,17 +695,17 @@
         "mag": 4.7,
         "place": "97 km E of Yujing, Taiwan",
         "time": 1663465952464,
-        "updated": 1663484230744,
+        "updated": 1663484915418,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8yl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8yl.geojson",
-        "felt": 2,
+        "felt": 1,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 341,
+        "sig": 340,
         "net": "us",
         "code": "7000i8yl",
         "ids": ",us7000i8yl,",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "60 km WNW of Nanwalek, Alaska",
+        "place": "Southern Alaska",
         "time": 1663452515146,
         "updated": 1663453030040,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 60 km WNW of Nanwalek, Alaska"
+        "title": "M 3.0 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "Puerto Rico region",
+        "place": "69 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1663451279380,
         "updated": 1663453404140,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 257,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Puerto Rico region"
+        "title": "M 3.3 - 69 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "7 km N of El Pedregal, Peru",
+        "place": "Near the coast of southern Peru",
         "time": 1663438909447,
         "updated": 1663441044040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 271,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 7 km N of El Pedregal, Peru"
+        "title": "M 4.1 - Near the coast of southern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "77 km ESE of Yujing, Taiwan",
+        "place": "Taiwan region",
         "time": 1663425927915,
         "updated": 1663479612047,
         "tz": null,
@@ -1637,7 +1717,7 @@
         "gap": 86,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 77 km ESE of Yujing, Taiwan"
+        "title": "M 5.5 - Taiwan region"
       },
       "geometry": {
         "type": "Point",
@@ -1853,9 +1933,9 @@
       "type": "Feature",
       "properties": {
         "mag": 6.5,
-        "place": "Taiwan",
+        "place": "96 km E of Yujing, Taiwan",
         "time": 1663422077752,
-        "updated": 1663484293849,
+        "updated": 1663486990833,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8ui",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8ui.geojson",
@@ -1877,7 +1957,7 @@
         "gap": 37,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.5 - Taiwan"
+        "title": "M 6.5 - 96 km E of Yujing, Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -2013,7 +2093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.84,
-        "place": "5 km NNW of Dorado, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1663413327450,
         "updated": 1663416063980,
         "tz": null,
@@ -2037,7 +2117,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 5 km NNW of Dorado, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2053,7 +2133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "38 km ENE of Arica, Chile",
+        "place": "Tarapaca, Chile",
         "time": 1663411845100,
         "updated": 1663413082040,
         "tz": null,
@@ -2077,7 +2157,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 38 km ENE of Arica, Chile"
+        "title": "M 4.6 - Tarapaca, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.38,
-        "place": "97 km NW of San Antonio, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1663410108130,
         "updated": 1663414420100,
         "tz": null,
@@ -2117,7 +2197,7 @@
         "gap": 253,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 97 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.4 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Alaska Peninsula",
+        "place": "117 km SE of Ugashik, Alaska",
         "time": 1663405794413,
         "updated": 1663405938579,
         "tz": null,
@@ -2157,7 +2237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Alaska Peninsula"
+        "title": "M 2.7 - 117 km SE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2173,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "148 km SSW of Akhiok, Alaska",
+        "place": "south of Alaska",
         "time": 1663405781191,
         "updated": 1663407216040,
         "tz": null,
@@ -2197,7 +2277,7 @@
         "gap": 208,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 148 km SSW of Akhiok, Alaska"
+        "title": "M 3.5 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2213,7 +2293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "25 km NW of Stanley, Idaho",
+        "place": "southern Idaho",
         "time": 1663405120722,
         "updated": 1663405938040,
         "tz": null,
@@ -2237,7 +2317,7 @@
         "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 25 km NW of Stanley, Idaho"
+        "title": "M 2.7 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -2253,7 +2333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "200 km SSE of Isangel, Vanuatu",
+        "place": "southeast of the Loyalty Islands",
         "time": 1663403569074,
         "updated": 1663404631040,
         "tz": null,
@@ -2277,7 +2357,7 @@
         "gap": 119,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 200 km SSE of Isangel, Vanuatu"
+        "title": "M 4.3 - southeast of the Loyalty Islands"
       },
       "geometry": {
         "type": "Point",
@@ -2328,46 +2408,6 @@
         ]
       },
       "id": "ci40101519"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.38,
-        "place": "96 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1663400226390,
-        "updated": 1663404708250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71372148",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71372148.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 176,
-        "net": "pr",
-        "code": "71372148",
-        "ids": ",pr71372148,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": null,
-        "rms": 0.34,
-        "gap": 286,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 96 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9261666666667,
-          19.2165,
-          30.21
-        ]
-      },
-      "id": "pr71372148"
     }
   ],
   "bbox": [
