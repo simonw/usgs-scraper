@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663734932000,
+    "generated": 1663738042000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.9,
         "place": "3 km WNW of Pāhala, Hawaii",
         "time": 1663734313300,
-        "updated": 1663734643480,
+        "updated": 1663735938027,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73146412",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73146412.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 130,
         "net": "hv",
         "code": "73146412",
         "ids": ",hv73146412,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 38,
         "dmin": null,
         "rms": 0.270000011,
@@ -95,22 +95,22 @@
         "mag": 3.36,
         "place": "10 km NE of Pāhala, Hawaii",
         "time": 1663732920720,
-        "updated": 1663733853247,
+        "updated": 1663737307879,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73146372",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73146372.geojson",
-        "felt": 6,
+        "felt": 8,
         "cdi": 3.1,
-        "mmi": null,
+        "mmi": 3.529,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 176,
         "net": "hv",
         "code": "73146372",
-        "ids": ",hv73146372,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv73146372,us7000i9rh,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 49,
         "dmin": null,
         "rms": 0.12,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "hv73146297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1663730339280,
+        "updated": 1663735361690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73146252",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73146252.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "hv",
+        "code": "73146252",
+        "ids": ",hv73146252,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": null,
+        "rms": 0.1,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.282666666667,
+          19.398,
+          0.52
+        ]
+      },
+      "id": "hv73146252"
     },
     {
       "type": "Feature",
@@ -292,39 +332,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.61,
-        "place": "14km WSW of Petrolia, CA",
-        "time": 1663728190110,
-        "updated": 1663731958402,
+        "mag": 3.69,
+        "place": "12km WSW of Petrolia, CA",
+        "time": 1663728190550,
+        "updated": 1663738032712,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73784121",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73784121.geojson",
-        "felt": 20,
+        "felt": 22,
         "cdi": 4.3,
-        "mmi": 3.916,
+        "mmi": 3.956,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 209,
+        "sig": 219,
         "net": "nc",
         "code": "73784121",
         "ids": ",nc73784121,ew1663728190,us7000i9q5,",
         "sources": ",nc,ew,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 29,
-        "dmin": 0.1223,
-        "rms": 0.11,
-        "gap": 248,
+        "nst": 39,
+        "dmin": 0.05532,
+        "rms": 0.19,
+        "gap": 237,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.6 - 14km WSW of Petrolia, CA"
+        "title": "M 3.7 - 12km WSW of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.4400024,
-          40.2939987,
-          6.8
+          -124.4145,
+          40.2943333,
+          7.87
         ]
       },
       "id": "nc73784121"
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.22,
-        "place": "42 km WSW of Stella, Puerto Rico",
+        "place": "Mona Passage, Puerto Rico",
         "time": 1663718656550,
         "updated": 1663719804880,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 149,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 42 km WSW of Stella, Puerto Rico"
+        "title": "M 3.2 - Mona Passage, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1615,17 +1655,17 @@
         "mag": 5.8,
         "place": "9 km SE of La Placita de Morelos, Mexico",
         "time": 1663661837023,
-        "updated": 1663712240563,
+        "updated": 1663735039271,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9hm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i9hm.geojson",
-        "felt": 91,
+        "felt": 92,
         "cdi": 5.8,
         "mmi": 5.114,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 570,
+        "sig": 571,
         "net": "us",
         "code": "7000i9hm",
         "ids": ",us7000i9hm,",
@@ -1808,86 +1848,6 @@
         ]
       },
       "id": "us7000i9fy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "northern Colombia",
-        "time": 1663649693292,
-        "updated": 1663723955678,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9ft",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i9ft.geojson",
-        "felt": 6,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 314,
-        "net": "us",
-        "code": "7000i9ft",
-        "ids": ",us7000i9ft,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.988,
-        "rms": 0.79,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - northern Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.9037,
-          6.9645,
-          49.845
-        ]
-      },
-      "id": "us7000i9ft"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "65 km NE of Calama, Chile",
-        "time": 1663648629863,
-        "updated": 1663723288040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9fq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i9fq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000i9fq",
-        "ids": ",us7000i9fq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.671,
-        "rms": 0.69,
-        "gap": 48,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 65 km NE of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5467,
-          -21.9814,
-          112.759
-        ]
-      },
-      "id": "us7000i9fq"
     }
   ],
   "bbox": [
