@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663758032000,
+    "generated": 1663761633000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "131 km WNW of Arctic Village, Alaska",
+        "time": 1663760949142,
+        "updated": 1663761163290,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022c4spwss",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022c4spwss.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "022c4spwss",
+        "ids": ",ak022c4spwss,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.89,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 131 km WNW of Arctic Village, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.4532,
+          68.6181,
+          0
+        ]
+      },
+      "id": "ak022c4spwss"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.28,
+        "place": "41 km SE of Boca de Yuma, Dominican Republic",
+        "time": 1663758389960,
+        "updated": 1663760194350,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71372628",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71372628.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "pr",
+        "code": "71372628",
+        "ids": ",us7000i9vv,pr71372628,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": null,
+        "rms": 0.29,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 41 km SE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3395,
+          18.1041666666667,
+          83.84
+        ]
+      },
+      "id": "pr71372628"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.06,
         "place": "18km NE of Coso Junction, CA",
         "time": 1663757448990,
-        "updated": 1663758012422,
+        "updated": 1663759712040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40103815",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40103815.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 144,
+        "sig": 145,
         "net": "ci",
         "code": "40103815",
-        "ids": ",ci40103815,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40103815,us7000i9vr,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 43,
         "dmin": 0.117,
         "rms": 0.17,
@@ -53,19 +133,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "138 km N of Lae, Papua New Guinea",
         "time": 1663752648880,
-        "updated": 1663756997951,
+        "updated": 1663760040678,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9uu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i9uu.geojson",
-        "felt": 4,
-        "cdi": 3.4,
+        "felt": 5,
+        "cdi": 3.8,
         "mmi": 3.604,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 501,
+        "sig": 502,
         "net": "us",
         "code": "7000i9uu",
         "ids": ",us7000i9uu,",
@@ -77,7 +157,7 @@
         "gap": 28,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 5.7 - 138 km N of Lae, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "98 km E of McCarthy, Alaska",
+        "place": "Southern Alaska",
         "time": 1663747991254,
         "updated": 1663748123192,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 98 km E of McCarthy, Alaska"
+        "title": "M 3.2 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.94,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1663731154100,
         "updated": 1663733887672,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 44,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Island of Hawaii, Hawaii"
+        "title": "M 2.9 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.22,
-        "place": "Mona Passage, Puerto Rico",
+        "place": "42 km WSW of Stella, Puerto Rico",
         "time": 1663718656550,
         "updated": 1663719804880,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 149,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Mona Passage, Puerto Rico"
+        "title": "M 3.2 - 42 km WSW of Stella, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Tajikistan",
+        "place": "86 km NE of Khorugh, Tajikistan",
         "time": 1663678642296,
         "updated": 1663682123040,
         "tz": null,
@@ -1597,7 +1677,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Tajikistan"
+        "title": "M 4.4 - 86 km NE of Khorugh, Tajikistan"
       },
       "geometry": {
         "type": "Point",
@@ -1655,7 +1735,7 @@
     -55.7451,
     -1.1399999856949,
     167.5502,
-    65.934,
+    68.6181,
     354.444
   ]
 }
