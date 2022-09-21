@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663747357000,
+    "generated": 1663750942000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "northern Mid-Atlantic Ridge",
+        "time": 1663748734185,
+        "updated": 1663749649040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9tg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i9tg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000i9tg",
+        "ids": ",us7000i9tg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 13.293,
+        "rms": 0.79,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - northern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -31.6997,
+          52.6023,
+          10
+        ]
+      },
+      "id": "us7000i9tg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "98 km E of McCarthy, Alaska",
+        "time": 1663747991254,
+        "updated": 1663748123192,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022c4qpwdg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022c4qpwdg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "022c4qpwdg",
+        "ids": ",ak022c4qpwdg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 98 km E of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.1015,
+          61.3282,
+          0
+        ]
+      },
+      "id": "ak022c4qpwdg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1615,7 +1695,7 @@
         "mag": 2.82,
         "place": "10km SW of Searles Valley, CA",
         "time": 1663665716730,
-        "updated": 1663704857850,
+        "updated": 1663750118040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40103127",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40103127.geojson",
@@ -1628,8 +1708,8 @@
         "sig": 123,
         "net": "ci",
         "code": "40103127",
-        "ids": ",ci40103127,",
-        "sources": ",ci,",
+        "ids": ",ci40103127,us7000i9hu,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 39,
         "dmin": 0.1063,
@@ -1648,86 +1728,6 @@
         ]
       },
       "id": "ci40103127"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "123 km E of Chignik, Alaska",
-        "time": 1663663058782,
-        "updated": 1663714684820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022c33bs2x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022c33bs2x.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": 3.425,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 369,
-        "net": "ak",
-        "code": "022c33bs2x",
-        "ids": ",ak022c33bs2x,at00rii2ms,us7000i9hn,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.65,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.9 - 123 km E of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.4328,
-          56.141,
-          35.7
-        ]
-      },
-      "id": "ak022c33bs2x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "9 km SE of La Placita de Morelos, Mexico",
-        "time": 1663661837023,
-        "updated": 1663735039271,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9hm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i9hm.geojson",
-        "felt": 92,
-        "cdi": 5.8,
-        "mmi": 5.114,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 571,
-        "net": "us",
-        "code": "7000i9hm",
-        "ids": ",us7000i9hm,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 110,
-        "dmin": 2.461,
-        "rms": 0.99,
-        "gap": 70,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - 9 km SE of La Placita de Morelos, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.52,
-          18.4757,
-          56.647
-        ]
-      },
-      "id": "us7000i9hm"
     }
   ],
   "bbox": [
