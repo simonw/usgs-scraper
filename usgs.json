@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663963239000,
+    "generated": 1663966839000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.79,
+        "place": "27 km E of Honaunau-Napoopoo, Hawaii",
+        "time": 1663962530260,
+        "updated": 1663963877174,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73149937",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73149937.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 120,
+        "net": "hv",
+        "code": "73149937",
+        "ids": ",hv73149937,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 85,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 27 km E of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.607666666667,
+          19.4721666666667,
+          -1.09
+        ]
+      },
+      "id": "hv73149937"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,20 +92,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "off the coast of Oregon",
+        "time": 1663957606353,
+        "updated": 1663966041040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaj2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaj2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000iaj2",
+        "ids": ",us7000iaj2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 3.28,
+        "rms": 0.83,
+        "gap": 241,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.5731,
+          43.6973,
+          10
+        ]
+      },
+      "id": "us7000iaj2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
         "place": "6 km W of Aquila, Mexico",
         "time": 1663957560857,
-        "updated": 1663962678244,
+        "updated": 1663965734423,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaj5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaj5.geojson",
-        "felt": 19,
+        "felt": 22,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 422,
+        "sig": 423,
         "net": "us",
         "code": "7000iaj5",
         "ids": ",us7000iaj5,",
@@ -172,8 +252,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "116 km WSW of Santiago de Cao, Peru",
+        "time": 1663955938176,
+        "updated": 1663965362040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iait",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iait.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000iait",
+        "ids": ",us7000iait,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 4.706,
+        "rms": 0.56,
+        "gap": 174,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 116 km WSW of Santiago de Cao, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1223,
+          -8.5417,
+          32.205
+        ]
+      },
+      "id": "us7000iait"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.95,
-        "place": "11 km NNW of Brenas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1663951326720,
         "updated": 1663957577900,
         "tz": null,
@@ -197,7 +317,7 @@
         "gap": 196,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 11 km NNW of Brenas, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "27 km E of Honaunau-Napoopoo, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1663947004130,
         "updated": 1663955697060,
         "tz": null,
@@ -357,7 +477,7 @@
         "gap": 89,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 27 km E of Honaunau-Napoopoo, Hawaii"
+        "title": "M 2.7 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -412,8 +532,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1663937659740,
+        "updated": 1663964053800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91072048",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91072048.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "av",
+        "code": "91072048",
+        "ids": ",av91072048,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": null,
+        "rms": 0.13,
+        "gap": 349,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.3605,
+          52.0173333333333,
+          4.3
+        ]
+      },
+      "id": "av91072048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.4,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "98 km WNW of Kandrian, Papua New Guinea",
         "time": 1663936466361,
         "updated": 1663943848872,
         "tz": null,
@@ -437,7 +597,7 @@
         "gap": 43,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - New Britain region, Papua New Guinea"
+        "title": "M 5.4 - 98 km WNW of Kandrian, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "15 km WSW of Larsen Bay, Alaska",
+        "place": "Kodiak Island region, Alaska",
         "time": 1663928458408,
         "updated": 1663944319884,
         "tz": null,
@@ -477,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 15 km WSW of Larsen Bay, Alaska"
+        "title": "M 3.4 - Kodiak Island region, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Gulf of Alaska",
+        "place": "237 km SSE of Chiniak, Alaska",
         "time": 1663919604682,
         "updated": 1663944739895,
         "tz": null,
@@ -597,7 +757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Gulf of Alaska"
+        "title": "M 2.5 - 237 km SSE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55999994,
-        "place": "57 km SW of Captain Cook, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1663917431200,
         "updated": 1663918206040,
         "tz": null,
@@ -757,7 +917,7 @@
         "gap": 289,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 57 km SW of Captain Cook, Hawaii"
+        "title": "M 2.6 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.61,
-        "place": "Puerto Rico region",
+        "place": "15 km S of Guánica, Puerto Rico",
         "time": 1663910597940,
         "updated": 1663917723740,
         "tz": null,
@@ -917,7 +1077,7 @@
         "gap": 264,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 15 km S of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Tarapaca-Antofagasta border region, Chile",
+        "place": "54 km N of Calama, Chile",
         "time": 1663892917858,
         "updated": 1663893812040,
         "tz": null,
@@ -1237,7 +1397,7 @@
         "gap": 91,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - Tarapaca-Antofagasta border region, Chile"
+        "title": "M 4.5 - 54 km N of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1448,53 +1608,13 @@
         ]
       },
       "id": "us7000iaay"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "296 km WNW of Haveluloto, Tonga",
-        "time": 1663878684190,
-        "updated": 1663879552040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaal.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000iaal",
-        "ids": ",us7000iaal,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 2.684,
-        "rms": 0.79,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 296 km WNW of Haveluloto, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.8353,
-          -20.1029,
-          567.039
-        ]
-      },
-      "id": "us7000iaal"
     }
   ],
   "bbox": [
     -179.2635,
     -27.3532,
-    -1.06,
-    167.1327,
+    -1.09,
+    178.3605,
     77.982,
     604.713
   ]
