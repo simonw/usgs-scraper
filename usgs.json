@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663896514000,
+    "generated": 1663901674000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 52
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.46,
-        "place": "17km SW of Primo Tapia, B.C., MX",
-        "time": 1663895214070,
-        "updated": 1663895430285,
+        "mag": 2.5,
+        "place": "101 km SE of Port Graham, Alaska",
+        "time": 1663900181646,
+        "updated": 1663900821040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40104743",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40104743.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022c7ybhjo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022c7ybhjo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 93,
+        "sig": 96,
+        "net": "ak",
+        "code": "022c7ybhjo",
+        "ids": ",us7000iacj,ak022c7ybhjo,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.14,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 101 km SE of Port Graham, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.6494,
+          58.6712,
+          18
+        ]
+      },
+      "id": "ak022c7ybhjo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "122 km SW of Pacocha, Peru",
+        "time": 1663897165069,
+        "updated": 1663898898040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iacc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iacc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000iacc",
+        "ids": ",us7000iacc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.636,
+        "rms": 0.99,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 122 km SW of Pacocha, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0577,
+          -18.5216,
+          24.638
+        ]
+      },
+      "id": "us7000iacc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "17km SW of Primo Tapia, B.C., MX",
+        "time": 1663895214070,
+        "updated": 1663900401124,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40104743",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40104743.geojson",
+        "felt": 3,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
         "net": "ci",
         "code": "40104743",
         "ids": ",ci40104743,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 9,
         "dmin": 0.3843,
         "rms": 0.13,
@@ -52,20 +132,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "177 km WSW of Longyearbyen, Svalbard and Jan Mayen",
+        "time": 1663894818125,
+        "updated": 1663897349040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iac9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iac9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000iac9",
+        "ids": ",us7000iac9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 1.225,
+        "rms": 0.9,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 177 km WSW of Longyearbyen, Svalbard and Jan Mayen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0323,
+          77.982,
+          10
+        ]
+      },
+      "id": "us7000iac9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "9 km N of Inashiki, Japan",
         "time": 1663894430849,
-        "updated": 1663896423827,
+        "updated": 1663896830114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iac2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iac2.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 341,
+        "sig": 342,
         "net": "us",
         "code": "7000iac2",
         "ids": ",us7000iac2,",
@@ -895,11 +1015,11 @@
         "mag": 3.49,
         "place": "26 km WNW of Forks, Washington",
         "time": 1663857716900,
-        "updated": 1663880702319,
+        "updated": 1663898084530,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61882431",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61882431.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.1,
         "mmi": 2.448,
         "alert": null,
@@ -1655,7 +1775,7 @@
         "mag": 3.8,
         "place": "Mona Passage",
         "time": 1663822173760,
-        "updated": 1663825896381,
+        "updated": 1663900784040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022265001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022265001.geojson",
@@ -1692,10 +1812,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "off the east coast of the North Island of New Zealand",
-        "time": 1663820896299,
-        "updated": 1663838608116,
+        "mag": 3,
+        "place": "35 km W of Challis, Idaho",
+        "time": 1663821103449,
+        "updated": 1663900343040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia2r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia2r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000ia2r",
+        "ids": ",us7000ia2r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.94,
+        "rms": 0.96,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 35 km W of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.6742,
+          44.5567,
+          10
+        ]
+      },
+      "id": "us7000ia2r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "113 km ENE of Tairua, New Zealand",
+        "time": 1663820897268,
+        "updated": 1663899398952,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia2q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia2q.geojson",
@@ -1705,26 +1865,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 272,
+        "sig": 259,
         "net": "us",
         "code": "7000ia2q",
         "ids": ",us7000ia2q,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.868,
-        "rms": 0.75,
-        "gap": 108,
+        "nst": 10,
+        "dmin": 1.241,
+        "rms": 0.8,
+        "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - off the east coast of the North Island of New Zealand"
+        "title": "M 4.1 - 113 km ENE of Tairua, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          177.2879,
-          -37.2526,
-          279.644
+          177.0923,
+          -36.786,
+          254.368
         ]
       },
       "id": "us7000ia2q"
@@ -1732,10 +1892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
+        "mag": 4.5,
         "place": "75 km NE of San Pedro de Atacama, Chile",
-        "time": 1663819608801,
-        "updated": 1663820402040,
+        "time": 1663819608381,
+        "updated": 1663897315040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia2m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia2m.geojson",
@@ -1745,29 +1905,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 312,
         "net": "us",
         "code": "7000ia2m",
         "ids": ",us7000ia2m,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.699,
-        "rms": 0.95,
-        "gap": 99,
+        "nst": 33,
+        "dmin": 0.688,
+        "rms": 0.51,
+        "gap": 46,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 75 km NE of San Pedro de Atacama, Chile"
+        "title": "M 4.5 - 75 km NE of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.7014,
-          -22.4072,
-          189.049
+          -67.6604,
+          -22.4553,
+          193.276
         ]
       },
       "id": "us7000ia2m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "60 km WNW of San Antonio de los Cobres, Argentina",
+        "time": 1663817630891,
+        "updated": 1663896535040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia2d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia2d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000ia2d",
+        "ids": ",us7000ia2d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 1.609,
+        "rms": 1.21,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 60 km WNW of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8863,
+          -24.0442,
+          211.319
+        ]
+      },
+      "id": "us7000ia2d"
     },
     {
       "type": "Feature",
@@ -1894,8 +2094,8 @@
     -177.8353,
     -40.7598,
     3.56,
-    177.2879,
-    57.1406,
+    177.0923,
+    77.982,
     567.039
   ]
 }
