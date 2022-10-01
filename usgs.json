@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664596602000,
+    "generated": 1664599183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "243 km NE of Saipan, Northern Mariana Islands",
+        "time": 1664596497693,
+        "updated": 1664598903949,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipwl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipwl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.301,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000ipwl",
+        "ids": ",us6000ipwl,",
+        "sources": ",us,",
+        "types": ",losspager,oaf,origin,phase-data,shakemap,",
+        "nst": 70,
+        "dmin": 4.005,
+        "rms": 0.72,
+        "gap": 95,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 243 km NE of Saipan, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0804,
+          16.9974,
+          56.066
+        ]
+      },
+      "id": "us6000ipwl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +175,11 @@
         "mag": 2.95,
         "place": "Olympic Peninsula, Washington",
         "time": 1664589753450,
-        "updated": 1664596278872,
+        "updated": 1664597656871,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61876107",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61876107.geojson",
-        "felt": 11,
+        "felt": 13,
         "cdi": 2.7,
         "mmi": 1.689,
         "alert": null,
@@ -935,7 +975,7 @@
         "mag": 3.41,
         "place": "17km ESE of Anza, CA",
         "time": 1664538611750,
-        "updated": 1664596264561,
+        "updated": 1664598429632,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40353408",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40353408.geojson",
@@ -1415,7 +1455,7 @@
         "mag": 2.8,
         "place": "8 km WNW of Westbrook, Texas",
         "time": 1664525045842,
-        "updated": 1664548260800,
+        "updated": 1664598125040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022tdou",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022tdou.geojson",
@@ -1428,8 +1468,8 @@
         "sig": 121,
         "net": "tx",
         "code": "2022tdou",
-        "ids": ",tx2022tdou,",
-        "sources": ",tx,",
+        "ids": ",us6000ipk0,tx2022tdou,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.2291391524,
