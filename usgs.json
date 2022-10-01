@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664607955000,
+    "generated": 1664611223000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 56
+    "count": 52
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.30999994,
-        "place": "29 km E of Honaunau-Napoopoo, Hawaii",
-        "time": 1664607709010,
-        "updated": 1664607905680,
+        "mag": 4.6,
+        "place": "south of the Kermadec Islands",
+        "time": 1664608877662,
+        "updated": 1664609970040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73162117",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73162117.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipxq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipxq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000ipxq",
+        "ids": ",us6000ipxq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 3.77,
+        "rms": 1.02,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.3255,
+          -33.8767,
+          185.264
+        ]
+      },
+      "id": "us6000ipxq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "12km N of Mineral, CA",
+        "time": 1664608485790,
+        "updated": 1664608874748,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73787866",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73787866.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 169,
-        "net": "hv",
-        "code": "73162117",
-        "ids": ",hv73162117,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": null,
-        "rms": 0.370000005,
-        "gap": 63,
+        "sig": 113,
+        "net": "nc",
+        "code": "73787866",
+        "ids": ",nc73787866,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.03062,
+        "rms": 0.09,
+        "gap": 93,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 29 km E of Honaunau-Napoopoo, Hawaii"
+        "title": "M 2.7 - 12km N of Mineral, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.584335327148,
-          19.450834274292,
-          -2.41000008583069
+          -121.5578308,
+          40.4601669,
+          1.86
         ]
       },
-      "id": "hv73162117"
+      "id": "nc73787866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.47,
+        "place": "Hawaii region, Hawaii",
+        "time": 1664607707030,
+        "updated": 1664610553998,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73162122",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73162122.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 185,
+        "net": "hv",
+        "code": "73162122",
+        "ids": ",hv73162122,us6000ipxl,hv73162117,",
+        "sources": ",hv,us,hv,",
+        "types": ",associate,origin,phase-data,",
+        "nst": 46,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": 52,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - Hawaii region, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.59,
+          19.478,
+          -0.69
+        ]
+      },
+      "id": "hv73162122"
     },
     {
       "type": "Feature",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Central Alaska",
+        "place": "56 km N of Petersville, Alaska",
         "time": 1664604734468,
         "updated": 1664606795040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Central Alaska"
+        "title": "M 3.0 - 56 km N of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "241 km NNE of Saipan, Northern Mariana Islands",
+        "place": "Alamagan region, Northern Mariana Islands",
         "time": 1664598401534,
         "updated": 1664599782040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 142,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 241 km NNE of Saipan, Northern Mariana Islands"
+        "title": "M 4.7 - Alamagan region, Northern Mariana Islands"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Mariana Islands region",
+        "place": "251 km NE of Saipan, Northern Mariana Islands",
         "time": 1664598350666,
         "updated": 1664599330040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 154,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Mariana Islands region"
+        "title": "M 4.7 - 251 km NE of Saipan, Northern Mariana Islands"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.95,
-        "place": "21 km NW of Forks, Washington",
+        "place": "Olympic Peninsula, Washington",
         "time": 1664589753450,
         "updated": 1664606480255,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 181,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 21 km NW of Forks, Washington"
+        "title": "M 3.0 - Olympic Peninsula, Washington"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "73 km WNW of Ninilchik, Alaska",
+        "place": "Southern Alaska",
         "time": 1664580270045,
         "updated": 1664591158040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 106,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 73 km WNW of Ninilchik, Alaska"
+        "title": "M 3.4 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Tonga",
+        "place": "180 km W of Neiafu, Tonga",
         "time": 1664537213061,
         "updated": 1664538627040,
         "tz": null,
@@ -1677,7 +1757,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Tonga"
+        "title": "M 4.6 - 180 km W of Neiafu, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -2008,253 +2088,13 @@
         ]
       },
       "id": "tx2022tdou"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "5 km SSW of Potala Pastillo, Puerto Rico",
-        "time": 1664524513420,
-        "updated": 1664527140460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71373843",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71373843.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 160,
-        "net": "pr",
-        "code": "71373843",
-        "ids": ",pr71373843,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 106,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 5 km SSW of Potala Pastillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5138333333333,
-          17.9443333333333,
-          11.91
-        ]
-      },
-      "id": "pr71373843"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "63 km NW of La Ligua, Chile",
-        "time": 1664523673724,
-        "updated": 1664525039339,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipjt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipjt.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "6000ipjt",
-        "ids": ",us6000ipjt,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.683,
-        "rms": 0.82,
-        "gap": 175,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 63 km NW of La Ligua, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.7753,
-          -32.1072,
-          33.488
-        ]
-      },
-      "id": "us6000ipjt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.41,
-        "place": "86 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1664523394290,
-        "updated": 1664528374540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71373883",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71373883.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 179,
-        "net": "pr",
-        "code": "71373883",
-        "ids": ",pr71373883,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 301,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 86 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7026666666667,
-          19.1093333333333,
-          32.94
-        ]
-      },
-      "id": "pr71373883"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "43 km ESE of Calama, Chile",
-        "time": 1664523333737,
-        "updated": 1664524265040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipjr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipjr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000ipjr",
-        "ids": ",us6000ipjr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.472,
-        "rms": 0.73,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 43 km ESE of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5343,
-          -22.6113,
-          128.648
-        ]
-      },
-      "id": "us6000ipjr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "5 km SSW of Potala Pastillo, Puerto Rico",
-        "time": 1664522580670,
-        "updated": 1664525946800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71373828",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71373828.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71373828",
-        "ids": ",pr71373828,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 5 km SSW of Potala Pastillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5133333333333,
-          17.9465,
-          12.26
-        ]
-      },
-      "id": "pr71373828"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "248 km S of Sinabang, Indonesia",
-        "time": 1664522550844,
-        "updated": 1664523590040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipjp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipjp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000ipjp",
-        "ids": ",us6000ipjp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 1.422,
-        "rms": 0.68,
-        "gap": 247,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 248 km S of Sinabang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.6195,
-          0.2435,
-          10
-        ]
-      },
-      "id": "us6000ipjp"
     }
   ],
   "bbox": [
     -179.7772,
-    -32.1072,
-    -2.4100000858307,
-    172.192,
+    -33.8767,
+    -1.53,
+    179.3255,
     63.0018,
     377.075
   ]
