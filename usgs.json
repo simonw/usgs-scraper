@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664794810000,
+    "generated": 1664798436000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 47
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 4.9,
         "place": "Easter Island region",
         "time": 1664790944277,
-        "updated": 1664792166040,
+        "updated": 1664795148961,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iqdu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iqdu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "6000iqdu",
         "ids": ",us6000iqdu,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 66,
         "dmin": 16.593,
         "rms": 0.44,
@@ -135,17 +135,17 @@
         "mag": 3.07,
         "place": "5km ESE of Yorba Linda, CA",
         "time": 1664785473710,
-        "updated": 1664794610892,
+        "updated": 1664798146296,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40354936",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40354936.geojson",
-        "felt": 559,
+        "felt": 567,
         "cdi": 4.1,
         "mmi": 4.001,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 374,
+        "sig": 377,
         "net": "ci",
         "code": "40354936",
         "ids": ",ci40354936,",
@@ -175,12 +175,12 @@
         "mag": 5,
         "place": "3 km ENE of Libas, Philippines",
         "time": 1664784474498,
-        "updated": 1664786345040,
+        "updated": 1664796553435,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iqdi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iqdi.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +190,7 @@
         "code": "6000iqdi",
         "ids": ",us6000iqdi,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 86,
         "dmin": 2.845,
         "rms": 0.92,
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "36 km NNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1664777274663,
         "updated": 1664789060960,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 36 km NNW of Toyah, Texas"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.15,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "5 km ESE of Pāhala, Hawaii",
         "time": 1664772482530,
         "updated": 1664780462261,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 165,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Island of Hawaii, Hawaii"
+        "title": "M 3.2 - 5 km ESE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.38,
-        "place": "Puerto Rico region",
+        "place": "49 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1664766737640,
         "updated": 1664769219340,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 235,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Puerto Rico region"
+        "title": "M 3.4 - 49 km N of Tierras Nuevas Poniente, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "11 km S of Pope-Vannoy Landing, Alaska",
+        "place": "Southern Alaska",
         "time": 1664751788173,
         "updated": 1664769926811,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.2 - 11 km S of Pope-Vannoy Landing, Alaska"
+        "title": "M 4.2 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1888,46 +1888,6 @@
         ]
       },
       "id": "ak022cn07iw7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "3 km SE of Dover, Oklahoma",
-        "time": 1664709540416,
-        "updated": 1664720176669,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022thmg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022thmg.geojson",
-        "felt": 4,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "ok",
-        "code": "2022thmg",
-        "ids": ",ok2022thmg,us6000iq6l,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 74,
-        "dmin": 0.08223971725,
-        "rms": 0.7729716531,
-        "gap": 30.3218689,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 3 km SE of Dover, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.88684082,
-          35.95274353,
-          5
-        ]
-      },
-      "id": "ok2022thmg"
     }
   ],
   "bbox": [
