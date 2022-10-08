@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665248785000,
+    "generated": 1665252025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.47,
         "place": "13km SW of Olancha, CA",
         "time": 1665248225460,
-        "updated": 1665248442256,
+        "updated": 1665248875770,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40357840",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40357840.geojson",
@@ -30,7 +30,7 @@
         "code": "40357840",
         "ids": ",ci40357840,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 27,
         "dmin": 0.2532,
         "rms": 0.21,
@@ -52,32 +52,32 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
+        "mag": 5.7,
         "place": "Pacific-Antarctic Ridge",
         "time": 1665240137939,
-        "updated": 1665241779040,
+        "updated": 1665249511916,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000is3u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000is3u.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 500,
         "net": "us",
         "code": "6000is3u",
         "ids": ",us6000is3u,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 65,
         "dmin": 31.478,
         "rms": 0.88,
         "gap": 77,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Pacific-Antarctic Ridge"
+        "title": "M 5.7 - Pacific-Antarctic Ridge"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.88,
-        "place": "Mona Passage",
+        "place": "7 km E of Mayagüez, Puerto Rico",
         "time": 1665222937870,
         "updated": 1665230076008,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 57,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Mona Passage"
+        "title": "M 2.9 - 7 km E of Mayagüez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "41 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1665215911889,
         "updated": 1665216449040,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 79,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 41 km NW of Toyah, Texas"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Near Islands, Aleutian Islands, Alaska",
+        "place": "126 km SSW of Attu Station, Alaska",
         "time": 1665209531540,
         "updated": 1665211393040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 121,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Near Islands, Aleutian Islands, Alaska"
+        "title": "M 4.7 - 126 km SSW of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "Puerto Rico region",
+        "place": "66 km N of Culebra, Puerto Rico",
         "time": 1665206394320,
         "updated": 1665208807190,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 255,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
+        "title": "M 3.6 - 66 km N of Culebra, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "106 km SSE of Akutan, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1665189155093,
         "updated": 1665190286040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 214,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 106 km SSE of Akutan, Alaska"
+        "title": "M 3.2 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.96,
-        "place": "70 km N of Culebra, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1665189139610,
         "updated": 1665191646700,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 287,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 70 km N of Culebra, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.17,
-        "place": "Puerto Rico region",
+        "place": "72 km N of Culebra, Puerto Rico",
         "time": 1665188979270,
         "updated": 1665189998680,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 265,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 72 km N of Culebra, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.32,
-        "place": "Oklahoma",
+        "place": "4 km SE of Dover, Oklahoma",
         "time": 1665186003972,
         "updated": 1665187760239,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 30.20388794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - Oklahoma"
+        "title": "M 3.3 - 4 km SE of Dover, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1215,11 +1215,11 @@
         "mag": 2.57,
         "place": "4km WSW of Colma, CA",
         "time": 1665185265840,
-        "updated": 1665246534855,
+        "updated": 1665250896209,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73790646",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73790646.geojson",
-        "felt": 407,
+        "felt": 409,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1253,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "15 km SSW of Volcano, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1665184892960,
         "updated": 1665191448200,
         "tz": null,
@@ -1277,7 +1277,7 @@
         "gap": 111,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 15 km SSW of Volcano, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Southeastern Alaska",
+        "place": "62 km NNW of Elfin Cove, Alaska",
         "time": 1665175612156,
         "updated": 1665247441040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Southeastern Alaska"
+        "title": "M 2.7 - 62 km NNW of Elfin Cove, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "south of Alaska",
+        "place": "208 km SE of Akutan, Alaska",
         "time": 1665172677308,
         "updated": 1665240662040,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 217,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.7 - south of Alaska"
+        "title": "M 3.7 - 208 km SE of Akutan, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.21,
-        "place": "4 km SSE of Dover, Oklahoma",
+        "place": "Oklahoma",
         "time": 1665166913780,
         "updated": 1665188006994,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 33,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 4 km SSE of Dover, Oklahoma"
+        "title": "M 3.2 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
