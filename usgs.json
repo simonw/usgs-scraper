@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665370374000,
+    "generated": 1665373585000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 31
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.6,
         "place": "99 km SSE of Sand Point, Alaska",
         "time": 1665366651085,
-        "updated": 1665367818040,
+        "updated": 1665372640508,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isdt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isdt.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": 3.159,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000isdt",
         "ids": ",us6000isdt,ak022d01zh46,",
         "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 128,
         "dmin": 0.271,
         "rms": 0.87,
@@ -332,6 +332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "56 km NW of Toyah, Texas",
+        "time": 1665352130061,
+        "updated": 1665372646040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iscq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iscq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000iscq",
+        "ids": ",us6000iscq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.204,
+        "rms": 0.26,
+        "gap": 97,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 56 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2694,
+          31.6157,
+          5
+        ]
+      },
+      "id": "us6000iscq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.97,
         "place": "14km SSW of Searles Valley, CA",
         "time": 1665352101150,
@@ -535,17 +575,17 @@
         "mag": 2.51,
         "place": "2 km N of Farragut, Tennessee",
         "time": 1665336669660,
-        "updated": 1665369646185,
+        "updated": 1665373539578,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60410946",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60410946.geojson",
-        "felt": 163,
+        "felt": 168,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 151,
+        "sig": 152,
         "net": "se",
         "code": "60410946",
         "ids": ",se60410946,us6000isb6,",
@@ -1208,286 +1248,6 @@
         ]
       },
       "id": "us6000is7y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "37 km WNW of Petersville, Alaska",
-        "time": 1665287156936,
-        "updated": 1665287589695,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cyflxot",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cyflxot.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "022cyflxot",
-        "ids": ",ak022cyflxot,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.84,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 37 km WNW of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.4402,
-          62.6327,
-          31.5
-        ]
-      },
-      "id": "ak022cyflxot"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "88 km W of Karluk, Alaska",
-        "time": 1665287077568,
-        "updated": 1665288573069,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cyflofc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cyflofc.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": 5.194,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "ak",
-        "code": "022cyflofc",
-        "ids": ",ak022cyflofc,us6000is7i,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.54,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.5 - 88 km W of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.9075,
-          57.7294,
-          4.8
-        ]
-      },
-      "id": "ak022cyflofc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "58 km SSW of Kroya, Indonesia",
-        "time": 1665287020791,
-        "updated": 1665322668252,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000is7k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000is7k.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000is7k",
-        "ids": ",us6000is7k,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.502,
-        "rms": 1.38,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 58 km SSW of Kroya, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          109.0174,
-          -8.1138,
-          81.391
-        ]
-      },
-      "id": "us6000is7k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "97 km W of Elfin Cove, Alaska",
-        "time": 1665286686991,
-        "updated": 1665340539859,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cyfkbwn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cyfkbwn.geojson",
-        "felt": 11,
-        "cdi": 2.9,
-        "mmi": 2.682,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 288,
-        "net": "ak",
-        "code": "022cyfkbwn",
-        "ids": ",at00rjgvfh,us6000is7e,ak022cyfkbwn,",
-        "sources": ",at,us,ak,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.69,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.3 - 97 km W of Elfin Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -138.0056,
-          58.192,
-          14.1
-        ]
-      },
-      "id": "ak022cyfkbwn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "off the coast of Oregon",
-        "time": 1665286365006,
-        "updated": 1665288462040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000is7b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000is7b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000is7b",
-        "ids": ",us6000is7b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 2.16,
-        "rms": 0.75,
-        "gap": 283,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.1419,
-          43.6299,
-          10
-        ]
-      },
-      "id": "us6000is7b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1665285878724,
-        "updated": 1665287685141,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ttrc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ttrc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "tx",
-        "code": "2022ttrc",
-        "ids": ",us6000is7a,tx2022ttrc,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.03111799849,
-        "rms": 0.2,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2965113,
-          31.65607164,
-          7.725463867
-        ]
-      },
-      "id": "tx2022ttrc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "63 km NE of Calama, Chile",
-        "time": 1665284879006,
-        "updated": 1665286678040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000is76",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000is76.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000is76",
-        "ids": ",us6000is76,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.769,
-        "rms": 0.85,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 63 km NE of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4662,
-          -22.0666,
-          121.285
-        ]
-      },
-      "id": "us6000is76"
     }
   ],
   "bbox": [
@@ -1495,7 +1255,7 @@
     -26.2583,
     2.6,
     178.0096,
-    62.6327,
+    58.7208,
     583.029
   ]
 }
