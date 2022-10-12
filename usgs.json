@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665538120000,
+    "generated": 1665543272000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "149 km WSW of Tual, Indonesia",
+        "time": 1665540567992,
+        "updated": 1665541640040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iswc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iswc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000iswc",
+        "ids": ",us6000iswc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 1.84,
+        "rms": 0.59,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 149 km WSW of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.5083,
+          -6.1424,
+          68.749
+        ]
+      },
+      "id": "us6000iswc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "south of the Fiji Islands",
+        "time": 1665537772533,
+        "updated": 1665538828040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isw5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isw5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000isw5",
+        "ids": ",us6000isw5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 5.798,
+        "rms": 0.86,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.841,
+          -23.7021,
+          521.209
+        ]
+      },
+      "id": "us6000isw5"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "1km E of Carson, CA",
         "time": 1665537693290,
-        "updated": 1665538018824,
+        "updated": 1665541254352,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40359472",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40359472.geojson",
-        "felt": 3,
-        "cdi": 2.7,
+        "felt": 33,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 97,
+        "sig": 107,
         "net": "ci",
         "code": "40359472",
         "ids": ",ci40359472,",
         "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 58,
         "dmin": 0.06205,
         "rms": 0.31,
@@ -94,27 +174,27 @@
       "properties": {
         "mag": 3.54,
         "place": "5km NE of Walker, CA",
-        "time": 1665534516760,
-        "updated": 1665536988602,
+        "time": 1665534516750,
+        "updated": 1665543234799,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73792396",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73792396.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 4,
-        "mmi": 3.674,
+        "mmi": 3.654,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 196,
+        "sig": 197,
         "net": "nc",
         "code": "73792396",
         "ids": ",nc73792396,nn00849053,us6000isvw,",
         "sources": ",nc,nn,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 17,
-        "dmin": 0.04635,
-        "rms": 0.11,
-        "gap": 91,
+        "nst": 30,
+        "dmin": 0.04552,
+        "rms": 0.07,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.5 - 5km NE of Walker, CA"
@@ -122,9 +202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.4473343,
-          38.5501671,
-          7.07
+          -119.4411667,
+          38.5498333,
+          7.27
         ]
       },
       "id": "nc73792396"
@@ -648,46 +728,6 @@
         ]
       },
       "id": "hv73174777"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.72,
-        "place": "28 km E of Honaunau-Napoopoo, Hawaii",
-        "time": 1665510271430,
-        "updated": 1665510601380,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73174772",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73174772.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 114,
-        "net": "hv",
-        "code": "73174772",
-        "ids": ",hv73174772,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": null,
-        "rms": 0.159999996,
-        "gap": 118,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 28 km E of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.591995239258,
-          19.4549999237061,
-          0.779999971389771
-        ]
-      },
-      "id": "hv73174772"
     },
     {
       "type": "Feature",
@@ -1728,166 +1768,6 @@
         ]
       },
       "id": "pr2022284001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.49,
-        "place": "67 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1665455621850,
-        "updated": 1665460056932,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022284000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022284000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 187,
-        "net": "pr",
-        "code": "2022284000",
-        "ids": ",pr2022284000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.6767,
-        "rms": 0.61,
-        "gap": 294,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 67 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.5553,
-          18.8973,
-          29
-        ]
-      },
-      "id": "pr2022284000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "33 km NNW of Skagway, Alaska",
-        "time": 1665455100072,
-        "updated": 1665524096040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d1pysd3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d1pysd3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "022d1pysd3",
-        "ids": ",us6000islw,ak022d1pysd3,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.84,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 33 km NNW of Skagway, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -135.5558,
-          59.7281,
-          0
-        ]
-      },
-      "id": "ak022d1pysd3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "77 km SSW of Unalaska, Alaska",
-        "time": 1665454594166,
-        "updated": 1665524006040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000islv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000islv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.488,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000islv",
-        "ids": ",ak022d1pwxqb,us6000islv,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 59,
-        "dmin": 0.577,
-        "rms": 0.72,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 77 km SSW of Unalaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -166.9259,
-          53.2185,
-          51.26
-        ]
-      },
-      "id": "us6000islv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "16 km ESE of Fritz Creek, Alaska",
-        "time": 1665454553107,
-        "updated": 1665534120441,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d1pwr8z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d1pwr8z.geojson",
-        "felt": 32,
-        "cdi": 2.8,
-        "mmi": 2.786,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 220,
-        "net": "ak",
-        "code": "022d1pwr8z",
-        "ids": ",ak022d1pwr8z,at00rjkgyg,us6000islu,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 16 km ESE of Fritz Creek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.0148,
-          59.7043,
-          46
-        ]
-      },
-      "id": "ak022d1pwr8z"
     }
   ],
   "bbox": [
