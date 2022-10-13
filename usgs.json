@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665645077000,
+    "generated": 1665648043000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "66 km ENE of Pedro Bay, Alaska",
+        "time": 1665646209641,
+        "updated": 1665646974553,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d541qpu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d541qpu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "022d541qpu",
+        "ids": ",ak022d541qpu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.02,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 66 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.0049,
+          60.0184,
+          114.4
+        ]
+      },
+      "id": "ak022d541qpu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.47,
         "place": "26 km E of Honaunau-Napoopoo, Hawaii",
         "time": 1665644571680,
-        "updated": 1665644901510,
+        "updated": 1665646258040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73176742",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73176742.geojson",
@@ -28,8 +68,8 @@
         "sig": 94,
         "net": "hv",
         "code": "73176742",
-        "ids": ",hv73176742,",
-        "sources": ",hv,",
+        "ids": ",us6000it8g,hv73176742,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 37,
         "dmin": null,
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Southern Alaska",
+        "place": "7 km S of Tatitlek, Alaska",
         "time": 1665635546564,
         "updated": 1665636281957,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Southern Alaska"
+        "title": "M 2.6 - 7 km S of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -415,12 +455,12 @@
         "mag": 4.1,
         "place": "196 km SSW of Kaş, Turkey",
         "time": 1665616162873,
-        "updated": 1665617452040,
+        "updated": 1665647277197,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000it5z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000it5z.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +470,7 @@
         "code": "6000it5z",
         "ids": ",us6000it5z,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 30,
         "dmin": 1.785,
         "rms": 0.73,
@@ -1408,53 +1448,13 @@
         ]
       },
       "id": "pr71376433"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "75 km E of Greymouth, New Zealand",
-        "time": 1665559970101,
-        "updated": 1665568699614,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isy5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isy5.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 247,
-        "net": "us",
-        "code": "6000isy5",
-        "ids": ",us6000isy5,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.444,
-        "rms": 0.53,
-        "gap": 107,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.0 - 75 km E of Greymouth, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.1014,
-          -42.3558,
-          10
-        ]
-      },
-      "id": "us6000isy5"
     }
   ],
   "bbox": [
     -178.8071,
     -53.1167,
     -2.0899999141693,
-    172.1014,
+    157.9569,
     60.7951,
     566.135
   ]
