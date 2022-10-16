@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665954006000,
+    "generated": 1665957602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 30
   },
   "features": [
     {
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "169 km SSW of Akhiok, Alaska",
-        "time": 1665948995653,
-        "updated": 1665952466040,
+        "mag": 3.2,
+        "place": "167 km SSW of Akhiok, Alaska",
+        "time": 1665948998172,
+        "updated": 1665954428249,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022da9ubl4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022da9ubl4.geojson",
@@ -63,9 +63,9 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 158,
         "net": "ak",
         "code": "022da9ubl4",
         "ids": ",us6000iu5u,ak022da9ubl4,",
@@ -73,18 +73,18 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.72,
+        "rms": 0.68,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 169 km SSW of Akhiok, Alaska"
+        "title": "M 3.2 - 167 km SSW of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.649,
-          55.6639,
-          23.5
+          -155.6421,
+          55.6793,
+          5
         ]
       },
       "id": "ak022da9ubl4"
@@ -415,12 +415,12 @@
         "mag": 6.3,
         "place": "off the coast of Central America",
         "time": 1665924501991,
-        "updated": 1665932231394,
+        "updated": 1665956983043,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu4b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu4b.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": 3.699,
         "alert": "green",
         "status": "reviewed",
@@ -430,7 +430,7 @@
         "code": "6000iu4b",
         "ids": ",us6000iu4b,pt22289000,at00rjtp1a,",
         "sources": ",us,pt,at,",
-        "types": ",ground-failure,impact-link,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,origin,phase-data,shakemap,",
         "nst": 50,
         "dmin": 5.731,
         "rms": 1.49,
@@ -495,12 +495,12 @@
         "mag": 2.97,
         "place": "73 km N of San Juan, Puerto Rico",
         "time": 1665915589730,
-        "updated": 1665917380220,
+        "updated": 1665956438939,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71377383",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71377383.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -510,7 +510,7 @@
         "code": "71377383",
         "ids": ",pr71377383,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 13,
         "dmin": null,
         "rms": 0.21,
@@ -1208,86 +1208,6 @@
         ]
       },
       "id": "us6000iu1q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "76 km W of San Antonio de los Cobres, Argentina",
-        "time": 1665870321466,
-        "updated": 1665873086040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu0l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu0l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000iu0l",
-        "ids": ",us6000iu0l,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.696,
-        "rms": 0.88,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 76 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0627,
-          -24.311,
-          172.001
-        ]
-      },
-      "id": "us6000iu0l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Sumbawa region, Indonesia",
-        "time": 1665868969030,
-        "updated": 1665870123040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu0d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu0d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000iu0d",
-        "ids": ",us6000iu0d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 1.068,
-        "rms": 1.18,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Sumbawa region, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.8308,
-          -8.5914,
-          142.339
-        ]
-      },
-      "id": "us6000iu0d"
     }
   ],
   "bbox": [
