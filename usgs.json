@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665982077000,
+    "generated": 1665984487000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45,
-        "place": "4km W of Cobb, CA",
-        "time": 1665981656060,
-        "updated": 1665982039986,
+        "mag": 2.96,
+        "place": "3km WNW of Aguanga, CA",
+        "time": 1665984328900,
+        "updated": 1665984458258,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73794746",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73794746.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40362256",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40362256.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 135,
+        "net": "ci",
+        "code": "40362256",
+        "ids": ",ci40362256,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 105,
+        "dmin": 0.03462,
+        "rms": 0.22,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 3km WNW of Aguanga, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.890831,
+          33.4516678,
+          11.48
+        ]
+      },
+      "id": "ci40362256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Kepulauan Babar, Indonesia",
+        "time": 1665982621277,
+        "updated": 1665983789040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu8d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu8d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000iu8d",
+        "ids": ",us6000iu8d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 1.89,
+        "rms": 0.73,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Kepulauan Babar, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.5672,
+          -7.1858,
+          158.259
+        ]
+      },
+      "id": "us6000iu8d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "4km W of Cobb, CA",
+        "time": 1665981656060,
+        "updated": 1665982932074,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73794746",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73794746.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
         "net": "nc",
         "code": "73794746",
         "ids": ",nc73794746,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.007069,
         "rms": 0.05,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "nc73794746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "2 km SSW of Guánica, Puerto Rico",
+        "time": 1665981506850,
+        "updated": 1665982712040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71377658",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71377658.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71377658",
+        "ids": ",pr71377658,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.04113,
+        "rms": 0.09,
+        "gap": 207,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9135,
+          17.9498333333333,
+          14.92
+        ]
+      },
+      "id": "pr71377658"
     },
     {
       "type": "Feature",
@@ -93,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.18,
-        "place": "Mona Passage",
+        "place": "7 km SE of Guaymate, Dominican Republic",
         "time": 1665976291130,
         "updated": 1665978943429,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": 151,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.2 - Mona Passage"
+        "title": "M 4.2 - 7 km SE of Guaymate, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "18 km SSW of Balangiga, Philippines",
+        "place": "Leyte, Philippines",
         "time": 1665971869007,
         "updated": 1665974031040,
         "tz": null,
@@ -277,7 +397,7 @@
         "gap": 106,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 18 km SSW of Balangiga, Philippines"
+        "title": "M 4.7 - Leyte, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "28 km NNW of Challis, Idaho",
+        "place": "southern Idaho",
         "time": 1665968675164,
         "updated": 1665970188040,
         "tz": null,
@@ -437,7 +557,7 @@
         "gap": 73,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 28 km NNW of Challis, Idaho"
+        "title": "M 2.6 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "45 km SW of Sandgerði, Iceland",
+        "place": "Iceland region",
         "time": 1665963252593,
         "updated": 1665966178040,
         "tz": null,
@@ -517,7 +637,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 45 km SW of Sandgerði, Iceland"
+        "title": "M 4.5 - Iceland region"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Mindoro, Philippines",
+        "place": "10 km SSE of Hukay, Philippines",
         "time": 1665959178874,
         "updated": 1665968106040,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Mindoro, Philippines"
+        "title": "M 4.4 - 10 km SSE of Hukay, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "82 km ENE of Mutsu, Japan",
+        "place": "Hokkaido, Japan region",
         "time": 1665945945378,
         "updated": 1665951028040,
         "tz": null,
@@ -877,7 +997,7 @@
         "gap": 159,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 82 km ENE of Mutsu, Japan"
+        "title": "M 4.2 - Hokkaido, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "western Texas",
+        "place": "54 km NW of Toyah, Texas",
         "time": 1665942276419,
         "updated": 1665947533040,
         "tz": null,
@@ -917,7 +1037,7 @@
         "gap": 104,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - western Texas"
+        "title": "M 2.5 - 54 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.96,
-        "place": "Virgin Islands region",
+        "place": "Virgin Islands",
         "time": 1665914854120,
         "updated": 1665917815830,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 274,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Virgin Islands region"
+        "title": "M 3.0 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1488,46 +1608,6 @@
         ]
       },
       "id": "hv73181372"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "7 km S of Pāhala, Hawaii",
-        "time": 1665896857340,
-        "updated": 1665897640040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73181327",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73181327.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "hv",
-        "code": "73181327",
-        "ids": ",us6000iu2t,hv73181327,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": null,
-        "rms": 0.270000011,
-        "gap": 161,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.492004394531,
-          19.1354999542236,
-          6.55000019073486
-        ]
-      },
-      "id": "hv73181327"
     }
   ],
   "bbox": [
