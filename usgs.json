@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666396981000,
+    "generated": 1666402106000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 49
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.15,
         "place": "8 km S of Pāhala, Hawaii",
         "time": 1666395605770,
-        "updated": 1666396473086,
+        "updated": 1666400430373,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73189922",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73189922.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.866,
+        "felt": 1,
+        "cdi": 2,
+        "mmi": 3.873,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 153,
         "net": "hv",
         "code": "73189922",
-        "ids": ",us6000ivnc,hv73189922,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",hv73189922,us6000ivnc,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 42,
         "dmin": null,
         "rms": 0.180000007,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "hv73189922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "4 km S of Magas Arriba, Puerto Rico",
+        "time": 1666395605710,
+        "updated": 1666396998880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71378873",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71378873.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "pr",
+        "code": "71378873",
+        "ids": ",pr71378873,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.03334,
+        "rms": 0.16,
+        "gap": 156,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km S of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7765,
+          17.9798333333333,
+          11.41
+        ]
+      },
+      "id": "pr71378873"
     },
     {
       "type": "Feature",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "205 km WSW of Bandar Lampung, Indonesia",
+        "place": "southwest of Sumatra, Indonesia",
         "time": 1666389844282,
         "updated": 1666393299040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 205 km WSW of Bandar Lampung, Indonesia"
+        "title": "M 4.7 - southwest of Sumatra, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the coast of northern Peru",
+        "place": "104 km W of Mórrope, Peru",
         "time": 1666376752704,
         "updated": 1666389472543,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 163,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the coast of northern Peru"
+        "title": "M 4.6 - 104 km W of Mórrope, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "90 km NNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1666376624528,
         "updated": 1666377854040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 90 km NNW of Tobelo, Indonesia"
+        "title": "M 4.6 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "135 km WSW of Adak, Alaska",
         "time": 1666360088337,
         "updated": 1666374052335,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 179,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 4.2 - 135 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Strait of Gibraltar",
+        "place": "12 km WNW of Tirhanimîne, Morocco",
         "time": 1666356359030,
         "updated": 1666357840664,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 116,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Strait of Gibraltar"
+        "title": "M 4.4 - 12 km WNW of Tirhanimîne, Morocco"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "40 km WSW of Pangai, Tonga",
+        "place": "Tonga",
         "time": 1666343915724,
         "updated": 1666345079040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 130,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 40 km WSW of Pangai, Tonga"
+        "title": "M 5.2 - Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "247 km WSW of Adak, Alaska",
+        "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1666342507737,
         "updated": 1666373185804,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 247 km WSW of Adak, Alaska"
+        "title": "M 2.6 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "29 km ESE of Namie, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1666333189260,
         "updated": 1666359700905,
         "tz": null,
@@ -1557,7 +1597,7 @@
         "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 29 km ESE of Namie, Japan"
+        "title": "M 4.9 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47,
-        "place": "Mona Passage",
+        "place": "1 km SSE of Palmarejo, Puerto Rico",
         "time": 1666325814680,
         "updated": 1666330475470,
         "tz": null,
@@ -1717,7 +1757,7 @@
         "gap": 83,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Mona Passage"
+        "title": "M 2.5 - 1 km SSE of Palmarejo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1928,166 +1968,6 @@
         ]
       },
       "id": "us6000ivek"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "49 km NW of Iwanai, Japan",
-        "time": 1666314008473,
-        "updated": 1666315604040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ive9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ive9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000ive9",
-        "ids": ",us6000ive9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 1.949,
-        "rms": 0.64,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 49 km NW of Iwanai, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.1377,
-          43.3244,
-          180.333
-        ]
-      },
-      "id": "us6000ive9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "3km SE of Tres Pinos, CA",
-        "time": 1666313744010,
-        "updated": 1666365817495,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73797121",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73797121.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "nc",
-        "code": "73797121",
-        "ids": ",nc73797121,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.07039,
-        "rms": 0.14,
-        "gap": 53,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3km SE of Tres Pinos, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.2890015,
-          36.7714996,
-          10.07
-        ]
-      },
-      "id": "nc73797121"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "61 km N of San Juan, Puerto Rico",
-        "time": 1666313413390,
-        "updated": 1666316067660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71378718",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71378718.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71378718",
-        "ids": ",pr71378718,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.7108,
-        "rms": 0.42,
-        "gap": 253,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 61 km N of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0743333333333,
-          19.0236666666667,
-          37.91
-        ]
-      },
-      "id": "pr71378718"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "time": 1666312625784,
-        "updated": 1666314072040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ive5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ive5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000ive5",
-        "ids": ",us6000ive5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 3.363,
-        "rms": 0.85,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1837,
-          -23.0963,
-          294.358
-        ]
-      },
-      "id": "us6000ive5"
     }
   ],
   "bbox": [
@@ -2096,6 +1976,6 @@
     1.07,
     179.9981,
     72.2917,
-    294.358
+    271.875
   ]
 }
