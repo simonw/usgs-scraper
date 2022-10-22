@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666415941000,
+    "generated": 1666418701000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "western Sichuan, China",
+        "time": 1666415826726,
+        "updated": 1666416940040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ivq1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ivq1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000ivq1",
+        "ids": ",us6000ivq1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 146,
+        "dmin": 8.434,
+        "rms": 0.78,
+        "gap": 16,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - western Sichuan, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0769,
+          29.6307,
+          38.954
+        ]
+      },
+      "id": "us6000ivq1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.98,
+        "place": "59 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1666415550190,
+        "updated": 1666417500868,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022295000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022295000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 244,
+        "net": "pr",
+        "code": "2022295000",
+        "ids": ",us6000ivq0,pr2022295000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.6217,
+        "rms": 0.4,
+        "gap": 290,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.0 - 59 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5278,
+          18.8026,
+          4
+        ]
+      },
+      "id": "pr2022295000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.4,
         "place": "25 km SE of Skwentna, Alaska",
         "time": 1666414955218,
-        "updated": 1666415633424,
+        "updated": 1666418433635,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022djyj1sr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022djyj1sr.geojson",
-        "felt": 73,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
+        "felt": 224,
+        "cdi": 3.2,
+        "mmi": 3.15,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 323,
+        "sig": 370,
         "net": "ak",
         "code": "022djyj1sr",
-        "ids": ",ak022djyj1sr,at00rk520b,",
-        "sources": ",ak,at,",
-        "types": ",dyfi,impact-link,origin,phase-data,",
+        "ids": ",ak022djyj1sr,at00rk520b,us6000ivpx,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.61,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak022djyj1sr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.35,
+        "place": "65 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1666413041210,
+        "updated": 1666417757010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71378938",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71378938.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 173,
+        "net": "pr",
+        "code": "71378938",
+        "ids": ",pr71378938,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.5754,
+        "rms": 0.17,
+        "gap": 301,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 65 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4335,
+          18.8116666666667,
+          5.34
+        ]
+      },
+      "id": "pr71378938"
     },
     {
       "type": "Feature",
@@ -172,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.69,
+        "mag": 2.61,
         "place": "5km NNE of Hydesville, CA",
-        "time": 1666402197380,
-        "updated": 1666404970413,
+        "time": 1666402197340,
+        "updated": 1666417994605,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73797716",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73797716.geojson",
@@ -183,28 +303,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 105,
         "net": "nc",
         "code": "73797716",
         "ids": ",nc73797716,",
         "sources": ",nc,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.1761,
-        "rms": 0.11,
-        "gap": 124,
+        "nst": 34,
+        "dmin": 0.1233,
+        "rms": 0.12,
+        "gap": 33,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 5km NNE of Hydesville, CA"
+        "title": "M 2.6 - 5km NNE of Hydesville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.0786667,
-          40.5904999,
-          22.2
+          -124.0748333,
+          40.5906667,
+          24.1
         ]
       },
       "id": "nc73797716"
@@ -772,10 +892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.65,
+        "mag": 2.53,
         "place": "8km NW of The Geysers, CA",
-        "time": 1666378462380,
-        "updated": 1666392437231,
+        "time": 1666378462400,
+        "updated": 1666418653082,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73797461",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73797461.geojson",
@@ -783,28 +903,28 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 108,
+        "sig": 99,
         "net": "nc",
         "code": "73797461",
         "ids": ",nc73797461,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.009223,
+        "nst": 75,
+        "dmin": 0.009862,
         "rms": 0.05,
         "gap": 29,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 8km NW of The Geysers, CA"
+        "title": "M 2.5 - 8km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.8216629,
-          38.8251648,
-          1.31
+          -122.8228333,
+          38.8256667,
+          1.28
         ]
       },
       "id": "nc73797461"
@@ -812,10 +932,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.93,
+        "mag": 2.78,
         "place": "8km NW of The Geysers, CA",
-        "time": 1666378226610,
-        "updated": 1666390094007,
+        "time": 1666378226600,
+        "updated": 1666417089516,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73797401",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73797401.geojson",
@@ -823,28 +943,28 @@
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 134,
+        "sig": 120,
         "net": "nc",
         "code": "73797401",
         "ids": ",nc73797401,us6000ivl3,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.009719,
-        "rms": 0.09,
-        "gap": 45,
+        "nst": 83,
+        "dmin": 0.01137,
+        "rms": 0.05,
+        "gap": 37,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 8km NW of The Geysers, CA"
+        "title": "M 2.8 - 8km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.8150024,
-          38.8323326,
-          1.07
+          -122.8171667,
+          38.8333333,
+          1.39
         ]
       },
       "id": "nc73797401"
@@ -1175,7 +1295,7 @@
         "mag": 3.4,
         "place": "29 km ENE of Susitna North, Alaska",
         "time": 1666364069663,
-        "updated": 1666412902040,
+        "updated": 1666416810075,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dignqmp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dignqmp.geojson",
@@ -1888,92 +2008,12 @@
         ]
       },
       "id": "us6000ivg6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.51,
-        "place": "60 km SE of Punta Cana, Dominican Republic",
-        "time": 1666332048480,
-        "updated": 1666335977606,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022294000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022294000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 190,
-        "net": "pr",
-        "code": "2022294000",
-        "ids": ",pr2022294000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1397,
-        "rms": 0.13,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 60 km SE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0041,
-          18.1961,
-          83
-        ]
-      },
-      "id": "pr2022294000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "97 km WSW of Prince Rupert, Canada",
-        "time": 1666330846264,
-        "updated": 1666388431980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ivft",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ivft.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 222,
-        "net": "us",
-        "code": "6000ivft",
-        "ids": ",at00rk393y,us6000ivft,",
-        "sources": ",at,us,",
-        "types": ",impact-link,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.748,
-        "rms": 0.76,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.8 - 97 km WSW of Prince Rupert, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -131.5802,
-          53.8534,
-          7.272
-        ]
-      },
-      "id": "us6000ivft"
     }
   ],
   "bbox": [
     -178.5227,
     -30.5535,
-    1.07,
+    1.28,
     179.5826,
     72.2917,
     345.487
