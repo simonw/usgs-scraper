@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666602397000,
+    "generated": 1666605745000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Hokkaido, Japan region",
+        "time": 1666601303238,
+        "updated": 1666603282040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iw1k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iw1k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000iw1k",
+        "ids": ",us6000iw1k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 70,
+        "dmin": 1.394,
+        "rms": 0.56,
+        "gap": 157,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Hokkaido, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0199,
+          41.9037,
+          10
+        ]
+      },
+      "id": "us6000iw1k"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.31,
         "place": "10 km E of Pāhala, Hawaii",
         "time": 1666601042910,
-        "updated": 1666602258105,
+        "updated": 1666604035824,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73192912",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73192912.geojson",
-        "felt": 14,
+        "felt": 19,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 173,
+        "sig": 175,
         "net": "hv",
         "code": "73192912",
         "ids": ",hv73192912,",
@@ -95,13 +135,13 @@
         "mag": 5.6,
         "place": "106 km NE of Hihifo, Tonga",
         "time": 1666597858054,
-        "updated": 1666601654434,
+        "updated": 1666605232339,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iw1e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iw1e.geojson",
         "felt": 1,
         "cdi": 3.4,
-        "mmi": 3.49,
+        "mmi": 3.608,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "ak022dlpc8zu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1666517729010,
-        "updated": 1666518109040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73191512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73191512.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "hv",
-        "code": "73191512",
-        "ids": ",us6000ivwl,hv73191512,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 119,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.494659423828,
-          19.1626663208008,
-          36.6100006103516
-        ]
-      },
-      "id": "hv73191512"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.27,
-        "place": "23km SSW of La Quinta, CA",
-        "time": 1666517098150,
-        "updated": 1666586633805,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40364760",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40364760.geojson",
-        "felt": 63,
-        "cdi": 3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 183,
-        "net": "ci",
-        "code": "40364760",
-        "ids": ",ci40364760,us6000ivwk,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 120,
-        "dmin": 0.04262,
-        "rms": 0.19,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 23km SSW of La Quinta, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4261667,
-          33.4806667,
-          5.79
-        ]
-      },
-      "id": "ci40364760"
     }
   ],
   "bbox": [
