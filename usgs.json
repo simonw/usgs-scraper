@@ -1,25 +1,145 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666774813000,
+    "generated": 1666778395000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "51 km SSE of Sand Point, Alaska",
+        "time": 1666776650719,
+        "updated": 1666778071976,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ikg1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ikg1.geojson",
+        "felt": 1,
+        "cdi": 4.3,
+        "mmi": 3.675,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 385,
+        "net": "us",
+        "code": "7000ikg1",
+        "ids": ",us7000ikg1,at00rkct3e,ak022dqn87rq,",
+        "sources": ",us,at,ak,",
+        "types": ",dyfi,impact-link,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 112,
+        "dmin": 0.363,
+        "rms": 0.83,
+        "gap": 128,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 51 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.2059,
+          54.9011,
+          41.075
+        ]
+      },
+      "id": "us7000ikg1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Hokkaido, Japan region",
+        "time": 1666776613072,
+        "updated": 1666777976040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ikg7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ikg7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000ikg7",
+        "ids": ",us7000ikg7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 1.495,
+        "rms": 0.48,
+        "gap": 193,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Hokkaido, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1619,
+          41.985,
+          10
+        ]
+      },
+      "id": "us7000ikg7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "22 km SSE of Padong, Philippines",
+        "time": 1666775564622,
+        "updated": 1666776869040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ikfz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ikfz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000ikfz",
+        "ids": ",us7000ikfz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 73,
+        "dmin": 4.915,
+        "rms": 0.54,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 22 km SSE of Padong, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8605,
+          17.8819,
+          36.251
+        ]
+      },
+      "id": "us7000ikfz"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.75,
         "place": "11km NNW of Anza, CA",
         "time": 1666772108300,
-        "updated": 1666774201732,
+        "updated": 1666777722702,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40365968",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40365968.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -55,7 +175,7 @@
         "mag": 3.31,
         "place": "11km NW of Anza, CA",
         "time": 1666772073990,
-        "updated": 1666773493706,
+        "updated": 1666776474040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40365960",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40365960.geojson",
@@ -68,8 +188,8 @@
         "sig": 172,
         "net": "ci",
         "code": "40365960",
-        "ids": ",ci40365960,",
-        "sources": ",ci,",
+        "ids": ",ci40365960,us7000ikfs,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 113,
         "dmin": 0.04491,
@@ -95,12 +215,12 @@
         "mag": 5.1,
         "place": "70 km WNW of San Antonio de los Cobres, Argentina",
         "time": 1666770734080,
-        "updated": 1666771562040,
+        "updated": 1666775309650,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ikfn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ikfn.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +230,7 @@
         "code": "7000ikfn",
         "ids": ",us7000ikfn,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 55,
         "dmin": 1.573,
         "rms": 1,
@@ -255,11 +375,11 @@
         "mag": 3.05,
         "place": "6km NW of Walker, CA",
         "time": 1666765459660,
-        "updated": 1666773105321,
+        "updated": 1666778354169,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799336",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799336.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -333,14 +453,14 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Peru-Ecuador border region",
+        "place": "1 km ESE of Salitral, Peru",
         "time": 1666753571678,
-        "updated": 1666757221040,
+        "updated": 1666778201352,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iker",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iker.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,14 +470,14 @@
         "code": "7000iker",
         "ids": ",us7000iker,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 41,
         "dmin": 1.44,
         "rms": 0.38,
         "gap": 144,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Peru-Ecuador border region"
+        "title": "M 4.4 - 1 km ESE of Salitral, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Kyushu, Japan",
+        "place": "57 km ESE of Koseda, Japan",
         "time": 1666738156180,
         "updated": 1666741703040,
         "tz": null,
@@ -637,7 +757,7 @@
         "gap": 122,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Kyushu, Japan"
+        "title": "M 4.9 - 57 km ESE of Koseda, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1015,11 +1135,11 @@
         "mag": 5.06,
         "place": "15km ESE of Alum Rock, CA",
         "time": 1666723322710,
-        "updated": 1666774749191,
+        "updated": 1666778306556,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799091",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799091.geojson",
-        "felt": 23457,
+        "felt": 23473,
         "cdi": 5,
         "mmi": 5.155,
         "alert": "green",
@@ -1133,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Mindanao, Philippines",
+        "place": "11 km E of Barcelona, Philippines",
         "time": 1666704043803,
         "updated": 1666711454969,
         "tz": null,
@@ -1157,7 +1277,7 @@
         "gap": 104,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - Mindanao, Philippines"
+        "title": "M 5.1 - 11 km E of Barcelona, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1168,6 +1288,46 @@
         ]
       },
       "id": "us6000iwdb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "76 km SW of Yonakuni, Japan",
+        "time": 1666701039620,
+        "updated": 1666778077040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iwbl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iwbl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000iwbl",
+        "ids": ",us6000iwbl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.697,
+        "rms": 0.46,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 76 km SW of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4665,
+          23.9772,
+          26.795
+        ]
+      },
+      "id": "us6000iwbl"
     },
     {
       "type": "Feature",
@@ -1332,6 +1492,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "58 km SSE of La Libertad, El Salvador",
+        "time": 1666693963891,
+        "updated": 1666777052040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iwb7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iwb7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000iwb7",
+        "ids": ",us6000iwb7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.725,
+        "rms": 0.45,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 58 km SSE of La Libertad, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1776,
+          12.9749,
+          51.847
+        ]
+      },
+      "id": "us6000iwb7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.72,
         "place": "2 km SSE of Guayanilla, Puerto Rico",
         "time": 1666692837920,
@@ -1368,46 +1568,6 @@
         ]
       },
       "id": "pr71379643"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "9 km ESE of Independence, Virginia",
-        "time": 1666689927730,
-        "updated": 1666770102076,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60413966",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60413966.geojson",
-        "felt": 132,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "se",
-        "code": "60413966",
-        "ids": ",se60413966,us6000iwav,",
-        "sources": ",se,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.5669,
-        "rms": 0.19,
-        "gap": 52,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km ESE of Independence, Virginia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.062,
-          36.5878333,
-          2.81
-        ]
-      },
-      "id": "se60413966"
     }
   ],
   "bbox": [
