@@ -1,43 +1,83 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666807216000,
+    "generated": 1666810816000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "16 km NE of Fowlerton, Texas",
+        "time": 1666807500548,
+        "updated": 1666809813483,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022uzvs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022uzvs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "tx",
+        "code": "2022uzvs",
+        "ids": ",us7000iki8,tx2022uzvs,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.2447791107,
+        "rms": 0.5,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 16 km NE of Fowlerton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.70013787,
+          28.58093262,
+          15.11303711
+        ]
+      },
+      "id": "tx2022uzvs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
-        "place": "34 km E of Saint George, Alaska",
+        "place": "Pribilof Islands, Alaska region",
         "time": 1666801528846,
-        "updated": 1666802821204,
+        "updated": 1666808277845,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dqrd4xv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dqrd4xv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.3,
         "mmi": 2.908,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "ak",
         "code": "022dqrd4xv",
         "ids": ",ak022dqrd4xv,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 1.06,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.2 - 34 km E of Saint George, Alaska"
+        "title": "M 4.2 - Pribilof Islands, Alaska region"
       },
       "geometry": {
         "type": "Point",
@@ -95,17 +135,17 @@
         "mag": 2.73,
         "place": "4 km NNE of Ridgely, Tennessee",
         "time": 1666789808530,
-        "updated": 1666800923765,
+        "updated": 1666810242809,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60414171",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60414171.geojson",
-        "felt": 7,
-        "cdi": 3.6,
+        "felt": 11,
+        "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 117,
+        "sig": 119,
         "net": "nm",
         "code": "60414171",
         "ids": ",nm60414171,",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "127 km SSE of Kushiro, Japan",
+        "place": "Hokkaido, Japan region",
         "time": 1666776613072,
         "updated": 1666777976040,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 193,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 127 km SSE of Kushiro, Japan"
+        "title": "M 4.4 - Hokkaido, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "Hokkaido, Japan region",
+        "place": "116 km SSE of Kushiro, Japan",
         "time": 1666767963104,
         "updated": 1666790561040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 99,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Hokkaido, Japan region"
+        "title": "M 5.3 - 116 km SSE of Kushiro, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "1 km ESE of Salitral, Peru",
+        "place": "Peru-Ecuador border region",
         "time": 1666753571678,
         "updated": 1666778566227,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 144,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 1 km ESE of Salitral, Peru"
+        "title": "M 4.4 - Peru-Ecuador border region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Kyushu, Japan",
+        "place": "57 km ESE of Koseda, Japan",
         "time": 1666738156180,
         "updated": 1666741703040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 122,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Kyushu, Japan"
+        "title": "M 4.9 - 57 km ESE of Koseda, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "pr71379683"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "15km E of Seven Trees, CA",
-        "time": 1666723640050,
-        "updated": 1666804383362,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799096",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799096.geojson",
-        "felt": 642,
-        "cdi": 4.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 435,
-        "net": "nc",
-        "code": "73799096",
-        "ids": ",nc73799096,us7000ikah,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 120,
-        "dmin": 0.04341,
-        "rms": 0.07,
-        "gap": 27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 15km E of Seven Trees, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.6731667,
-          37.3056667,
-          6.66
-        ]
-      },
-      "id": "nc73799096"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.06,
-        "place": "15km ESE of Alum Rock, CA",
-        "time": 1666723322710,
-        "updated": 1666806908541,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799091",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799091.geojson",
-        "felt": 23636,
-        "cdi": 5,
-        "mmi": 5.155,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 894,
-        "net": "nc",
-        "code": "73799091",
-        "ids": ",nc73799091,us7000ikad,ew1666723320,at00rkbny2,",
-        "sources": ",nc,us,ew,at,",
-        "types": ",dyfi,focal-mechanism,ground-failure,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 199,
-        "dmin": 0.03815,
-        "rms": 0.1,
-        "gap": 28,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 5.1 - 15km ESE of Alum Rock, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.672,
-          37.3115,
-          8.38
-        ]
-      },
-      "id": "nc73799091"
     }
   ],
   "bbox": [
