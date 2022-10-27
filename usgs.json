@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666838575000,
+    "generated": 1666841401000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kamchatka Peninsula, Russia",
-        "time": 1666837608787,
-        "updated": 1666838305040,
+        "place": "54 km S of Klyuchi, Russia",
+        "time": 1666837609169,
+        "updated": 1666841151040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ikl2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ikl2.geojson",
@@ -31,20 +31,20 @@
         "ids": ",us7000ikl2,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 3.182,
-        "rms": 0.29,
-        "gap": 122,
+        "nst": 83,
+        "dmin": 3.132,
+        "rms": 0.44,
+        "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kamchatka Peninsula, Russia"
+        "title": "M 4.5 - 54 km S of Klyuchi, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.9097,
-          55.9128,
-          134.282
+          160.9874,
+          55.8359,
+          143.319
         ]
       },
       "id": "us7000ikl2"
@@ -95,7 +95,7 @@
         "mag": 2.5,
         "place": "138 km SSE of McCarthy, Alaska",
         "time": 1666833656104,
-        "updated": 1666833782648,
+        "updated": 1666839658040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ds5xyei",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ds5xyei.geojson",
@@ -108,8 +108,8 @@
         "sig": 96,
         "net": "ak",
         "code": "022ds5xyei",
-        "ids": ",ak022ds5xyei,",
-        "sources": ",ak,",
+        "ids": ",us7000ikkq,ak022ds5xyei,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -455,17 +455,17 @@
         "mag": 4.7,
         "place": "31 km ENE of Saint George, Alaska",
         "time": 1666801529629,
-        "updated": 1666825556694,
+        "updated": 1666840945159,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ikhs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ikhs.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 4.3,
         "mmi": 2.908,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 341,
         "net": "us",
         "code": "7000ikhs",
         "ids": ",ak022dqrd4xv,us7000ikhs,",
@@ -695,22 +695,22 @@
         "mag": 2.58,
         "place": "5 km W of Maricao, Puerto Rico",
         "time": 1666779653710,
-        "updated": 1666780441750,
+        "updated": 1666839804807,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71379823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71379823.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 103,
         "net": "pr",
         "code": "71379823",
         "ids": ",pr71379823,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 0.04888,
         "rms": 0.2,
@@ -1288,53 +1288,13 @@
         ]
       },
       "id": "ak022dqktdr1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Peru-Ecuador border region",
-        "time": 1666753571678,
-        "updated": 1666778566227,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iker",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iker.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000iker",
-        "ids": ",us7000iker,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 41,
-        "dmin": 1.44,
-        "rms": 0.38,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Peru-Ecuador border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.6689,
-          -4.8653,
-          43.287
-        ]
-      },
-      "id": "us7000iker"
     }
   ],
   "bbox": [
     -178.3577,
     -59.5808,
     4.12,
-    160.9097,
+    160.9874,
     63.1316,
     551.981
   ]
