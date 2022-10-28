@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666966096000,
+    "generated": 1666969193000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "4 km ENE of Union City, Oklahoma",
+        "time": 1666967438403,
+        "updated": 1666968819449,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022vdfq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022vdfq.geojson",
+        "felt": 4,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "ok",
+        "code": "2022vdfq",
+        "ids": ",ok2022vdfq,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.02191038616,
+        "rms": 0.7504898177,
+        "gap": 47.72979736,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km ENE of Union City, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.89793396,
+          35.40667343,
+          0.2859991789
+        ]
+      },
+      "id": "ok2022vdfq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 2.96,
         "place": "12km NNE of Hollister, CA",
         "time": 1666953637010,
-        "updated": 1666965209608,
+        "updated": 1666968642620,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73800236",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73800236.geojson",
-        "felt": 16,
+        "felt": 20,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 142,
         "net": "nc",
         "code": "73800236",
         "ids": ",nc73800236,",
@@ -292,46 +332,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49,
-        "place": "5 km S of Katie, Oklahoma",
-        "time": 1666943467687,
-        "updated": 1666946544687,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022vcsl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022vcsl.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ok",
-        "code": "2022vcsl",
-        "ids": ",ok2022vcsl,us7000ikvw,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.0109268399,
-        "rms": 0.8302859087,
-        "gap": 70.93952942,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km S of Katie, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.36309052,
-          34.53436279,
-          0.686923027
-        ]
-      },
-      "id": "ok2022vcsl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.4,
         "place": "Fiji region",
         "time": 1666942235511,
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "Puerto Rico region",
+        "place": "5 km S of Indios, Puerto Rico",
         "time": 1666934279050,
         "updated": 1666936222370,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 214,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 5 km S of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.01,
-        "place": "2 km SW of Volcano, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1666909146030,
         "updated": 1666924764603,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 2 km SW of Volcano, Hawaii"
+        "title": "M 3.0 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "North Island of New Zealand",
+        "place": "11 km E of Taupo, New Zealand",
         "time": 1666905574104,
         "updated": 1666912920728,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 56,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.7 - North Island of New Zealand"
+        "title": "M 4.7 - 11 km E of Taupo, New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Halmahera, Indonesia",
+        "place": "122 km ENE of Tobelo, Indonesia",
         "time": 1666896675550,
         "updated": 1666900359040,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Halmahera, Indonesia"
+        "title": "M 4.8 - 122 km ENE of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1095,11 +1095,11 @@
         "mag": 3.66,
         "place": "7km WSW of Petrolia, CA",
         "time": 1666893262540,
-        "updated": 1666913231805,
+        "updated": 1666968527994,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799821",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799821.geojson",
-        "felt": 30,
+        "felt": 31,
         "cdi": 4.3,
         "mmi": 2.823,
         "alert": null,
@@ -1253,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.67,
-        "place": "Mona Passage",
+        "place": "29 km ESE of Miches, Dominican Republic",
         "time": 1666887745120,
         "updated": 1666915655490,
         "tz": null,
@@ -1277,7 +1277,7 @@
         "gap": 201,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Mona Passage"
+        "title": "M 3.7 - 29 km ESE of Miches, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -1368,86 +1368,6 @@
         ]
       },
       "id": "av91075808"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Izu Islands, Japan region",
-        "time": 1666881387479,
-        "updated": 1666884373040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ikpx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ikpx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000ikpx",
-        "ids": ",us7000ikpx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 5.723,
-        "rms": 0.34,
-        "gap": 189,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.9668,
-          32.2787,
-          10
-        ]
-      },
-      "id": "us7000ikpx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "89 km SSW of Kaktovik, Alaska",
-        "time": 1666880638767,
-        "updated": 1666884293040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dsdp8mc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dsdp8mc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "022dsdp8mc",
-        "ids": ",us7000ikpv,ak022dsdp8mc,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.86,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 89 km SSW of Kaktovik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.3068,
-          69.3645,
-          25.7
-        ]
-      },
-      "id": "ak022dsdp8mc"
     }
   ],
   "bbox": [
@@ -1455,7 +1375,7 @@
     -38.6865,
     -0.93,
     176.2185,
-    69.3645,
+    57.839,
     562.856
   ]
 }
