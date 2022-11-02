@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667398098000,
+    "generated": 1667401218000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "South Sandwich Islands region",
+        "time": 1667398671795,
+        "updated": 1667400796040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ilyk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ilyk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.79,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000ilyk",
+        "ids": ",us7000ilyk,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 53,
+        "dmin": 8.707,
+        "rms": 0.66,
+        "gap": 54,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.7 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.7347,
+          -60.7877,
+          10
+        ]
+      },
+      "id": "us7000ilyk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 2.83,
         "place": "14km E of Seven Trees, CA",
         "time": 1667387543440,
-        "updated": 1667397578579,
+        "updated": 1667398229840,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73802391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73802391.geojson",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "72 km NW of Ninilchik, Alaska",
+        "place": "Southern Alaska",
         "time": 1667380900770,
         "updated": 1667390743040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 72 km NW of Ninilchik, Alaska"
+        "title": "M 2.8 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -255,12 +295,12 @@
         "mag": 4.9,
         "place": "144 km SSW of Hami, China",
         "time": 1667380405218,
-        "updated": 1667381534040,
+        "updated": 1667401180461,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ilxs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ilxs.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +310,7 @@
         "code": "7000ilxs",
         "ids": ",us7000ilxs,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 81,
         "dmin": 9.008,
         "rms": 0.66,
@@ -288,6 +328,46 @@
         ]
       },
       "id": "us7000ilxs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "98 km ESE of Adak, Alaska",
+        "time": 1667378568149,
+        "updated": 1667399720273,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022e27grr0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022e27grr0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "022e27grr0",
+        "ids": ",ak022e27grr0,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.18,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 98 km ESE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.321,
+          51.5254,
+          14.2
+        ]
+      },
+      "id": "ak022e27grr0"
     },
     {
       "type": "Feature",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Arizona",
+        "place": "15 km SSE of Franklin, Arizona",
         "time": 1667367037595,
         "updated": 1667378433213,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 145,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Arizona"
+        "title": "M 3.1 - 15 km SSE of Franklin, Arizona"
       },
       "geometry": {
         "type": "Point",
@@ -575,11 +655,11 @@
         "mag": 6,
         "place": "North Pacific Ocean",
         "time": 1667364792763,
-        "updated": 1667397951707,
+        "updated": 1667400227040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ilwt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ilwt.geojson",
-        "felt": 66,
+        "felt": 67,
         "cdi": 3.8,
         "mmi": 0,
         "alert": "green",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Alaska Peninsula",
+        "place": "94 km E of Chignik, Alaska",
         "time": 1667333932138,
         "updated": 1667337291040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Alaska Peninsula"
+        "title": "M 2.6 - 94 km E of Chignik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Fiji region",
+        "place": "277 km WNW of Haveluloto, Tonga",
         "time": 1667328282066,
         "updated": 1667331033040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 28,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Fiji region"
+        "title": "M 4.5 - 277 km WNW of Haveluloto, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1135,12 +1215,12 @@
         "mag": 2.95,
         "place": "0 km SSW of Rincón, Puerto Rico",
         "time": 1667323210860,
-        "updated": 1667325962430,
+        "updated": 1667399271883,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71380448",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71380448.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1150,7 +1230,7 @@
         "code": "71380448",
         "ids": ",pr71380448,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 0.005044,
         "rms": 0.28,
@@ -1208,51 +1288,11 @@
         ]
       },
       "id": "us7000ilrg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "29 km NW of Valdez, Alaska",
-        "time": 1667314289639,
-        "updated": 1667314814040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022e0njww3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022e0njww3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "022e0njww3",
-        "ids": ",us7000ilpw,ak022e0njww3,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.4,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 29 km NW of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.7962,
-          61.2793,
-          25.3
-        ]
-      },
-      "id": "ak022e0njww3"
     }
   ],
   "bbox": [
     -179.9973,
-    -41.166,
+    -60.7877,
     3.03,
     145.0536,
     72.0085,
