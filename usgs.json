@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667595630000,
+    "generated": 1667599237000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Melville Island region, Nunavut, Canada",
+        "time": 1667597480000,
+        "updated": 1667598148310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00rkueg8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00rkueg8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 1,
+        "sig": 354,
+        "net": "at",
+        "code": "00rkueg8",
+        "ids": ",at00rkueg8,",
+        "sources": ",at,",
+        "types": ",impact-link,origin,",
+        "nst": 32,
+        "dmin": 8.982255,
+        "rms": 1.61,
+        "gap": 111.59999107200072,
+        "magType": "Mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Melville Island region, Nunavut, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.002,
+          76.164,
+          20
+        ]
+      },
+      "id": "at00rkueg8"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.61,
         "place": "7km NW of The Geysers, CA",
         "time": 1667593755420,
-        "updated": 1667595431207,
+        "updated": 1667598078488,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73803366",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73803366.geojson",
@@ -52,39 +92,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.43,
-        "place": "6km WNW of Cobb, CA",
+        "mag": 3.19,
+        "place": "6km W of Cobb, CA",
         "time": 1667593592930,
-        "updated": 1667595253067,
+        "updated": 1667599073585,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73803326",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73803326.geojson",
-        "felt": 12,
+        "felt": 15,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 186,
+        "sig": 163,
         "net": "nc",
         "code": "73803326",
-        "ids": ",nc73803326,",
-        "sources": ",nc,",
+        "ids": ",nc73803326,us7000imkp,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.006006,
+        "nst": 90,
+        "dmin": 0.006934,
         "rms": 0.05,
-        "gap": 44,
+        "gap": 22,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 6km WNW of Cobb, CA"
+        "title": "M 3.2 - 6km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.7953339,
-          38.8338318,
-          2.22
+          -122.7961667,
+          38.8331667,
+          2.47
         ]
       },
       "id": "nc73803326"
@@ -93,13 +133,13 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Southern Alaska",
+        "place": "35 km NW of Willow, Alaska",
         "time": 1667593129776,
-        "updated": 1667594463629,
+        "updated": 1667598959645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022e5pjixd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022e5pjixd.geojson",
-        "felt": 3,
+        "felt": 7,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -108,8 +148,8 @@
         "sig": 149,
         "net": "ak",
         "code": "022e5pjixd",
-        "ids": ",ak022e5pjixd,",
-        "sources": ",ak,",
+        "ids": ",ak022e5pjixd,us7000imkm,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -117,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Southern Alaska"
+        "title": "M 3.1 - 35 km NW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -255,12 +295,12 @@
         "mag": 2.73,
         "place": "27 km SSW of Leilani Estates, Hawaii",
         "time": 1667579209960,
-        "updated": 1667579541000,
+        "updated": 1667596456888,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73207767",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73207767.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -270,7 +310,7 @@
         "code": "73207767",
         "ids": ",hv73207767,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": null,
         "rms": 0.280000001,
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "near the coast of Tarapaca, Chile",
+        "place": "64 km W of Iquique, Chile",
         "time": 1667572742705,
         "updated": 1667588151179,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 66,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - near the coast of Tarapaca, Chile"
+        "title": "M 5.0 - 64 km W of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "22 km E of Ishinomaki, Japan",
         "time": 1667559051627,
         "updated": 1667576159040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 131,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - near the east coast of Honshu, Japan"
+        "title": "M 4.3 - 22 km E of Ishinomaki, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "64 km NNE of Luquillo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1667557980020,
         "updated": 1667559414560,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 255,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 64 km NNE of Luquillo, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "2 km WNW of Gurabo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1667555673090,
         "updated": 1667559881300,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 84,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 2 km WNW of Gurabo, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "south of Sumbawa, Indonesia",
+        "place": "168 km WSW of Waingapu, Indonesia",
         "time": 1667546327620,
         "updated": 1667547582040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - south of Sumbawa, Indonesia"
+        "title": "M 4.4 - 168 km WSW of Waingapu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "El Salvador",
+        "place": "42 km SW of La Libertad, El Salvador",
         "time": 1667543453268,
         "updated": 1667576460683,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - El Salvador"
+        "title": "M 4.2 - 42 km SW of La Libertad, El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Southern Texas",
+        "place": "3 km SE of Falls City, Texas",
         "time": 1667527763887,
         "updated": 1667584240979,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Southern Texas"
+        "title": "M 2.8 - 3 km SE of Falls City, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Chile-Bolivia border region",
+        "place": "85 km NNE of Calama, Chile",
         "time": 1667522278751,
         "updated": 1667523885040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Chile-Bolivia border region"
+        "title": "M 4.8 - 85 km NNE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1328,134 +1368,14 @@
         ]
       },
       "id": "us7000imbm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "80 km WSW of Ternate, Indonesia",
-        "time": 1667510988996,
-        "updated": 1667511691040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000imb1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000imb1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000imb1",
-        "ids": ",us7000imb1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.701,
-        "rms": 0.99,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 80 km WSW of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.7061,
-          0.5353,
-          66.373
-        ]
-      },
-      "id": "us7000imb1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "1 km WNW of Falls City, Texas",
-        "time": 1667510757820,
-        "updated": 1667588825104,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022vosj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022vosj.geojson",
-        "felt": 4,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 140,
-        "net": "tx",
-        "code": "2022vosj",
-        "ids": ",us7000imaz,tx2022vosj,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.06341651031,
-        "rms": 0.3,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 1 km WNW of Falls City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.03527114,
-          28.98834229,
-          2.469930013
-        ]
-      },
-      "id": "tx2022vosj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": 1667509727143,
-        "updated": 1667514485040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000imbc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000imbc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000imbc",
-        "ids": ",us7000imbc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 18.714,
-        "rms": 0.63,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - southern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.5639,
-          -41.1095,
-          10
-        ]
-      },
-      "id": "us7000imbc"
     }
   ],
   "bbox": [
     -178.7072,
-    -41.1095,
+    -21.7794,
     -3.5,
     167.4579,
-    75.7809,
+    76.164,
     537.006
   ]
 }
