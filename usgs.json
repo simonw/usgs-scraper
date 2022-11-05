@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667649611000,
+    "generated": 1667653631000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "South Africa",
+        "time": 1667651529273,
+        "updated": 1667653344992,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000impz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000impz.geojson",
+        "felt": 6,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 328,
+        "net": "us",
+        "code": "7000impz",
+        "ids": ",us7000impz,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 24,
+        "dmin": 4.912,
+        "rms": 0.37,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - South Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8441,
+          -28.7196,
+          9.779
+        ]
+      },
+      "id": "us7000impz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "39 km SSW of San Martín, Argentina",
+        "time": 1667650359559,
+        "updated": 1667653327317,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000impk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000impk.geojson",
+        "felt": 24,
+        "cdi": 6.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000impk",
+        "ids": ",us7000impk,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 101,
+        "dmin": 1.3,
+        "rms": 0.94,
+        "gap": 37,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 39 km SSW of San Martín, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5789,
+          -33.4224,
+          27.322
+        ]
+      },
+      "id": "us7000impk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "67 km N of Petersville, Alaska",
         "time": 1667649375520,
-        "updated": 1667649515697,
+        "updated": 1667650242040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022e77y1jf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022e77y1jf.geojson",
@@ -28,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "022e77y1jf",
-        "ids": ",ak022e77y1jf,",
-        "sources": ",ak,",
+        "ids": ",us7000imph,ak022e77y1jf,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Ceram Sea, Indonesia",
+        "place": "69 km NNW of Amahai, Indonesia",
         "time": 1667630970019,
         "updated": 1667632125040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Ceram Sea, Indonesia"
+        "title": "M 4.6 - 69 km NNW of Amahai, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -375,12 +455,12 @@
         "mag": 2.45,
         "place": "8 km WSW of Volcano, Hawaii",
         "time": 1667630392350,
-        "updated": 1667630723220,
+        "updated": 1667653084765,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73208647",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73208647.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -390,7 +470,7 @@
         "code": "73208647",
         "ids": ",hv73208647,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 41,
         "dmin": null,
         "rms": 0.330000013,
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Puerto Rico region",
+        "place": "5 km S of Indios, Puerto Rico",
         "time": 1667617674390,
         "updated": 1667621261310,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 202,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 5 km S of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Guam region",
+        "place": "18 km NW of Agat Village, Guam",
         "time": 1667580655292,
         "updated": 1667621425413,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 63,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Guam region"
+        "title": "M 4.5 - 18 km NW of Agat Village, Guam"
       },
       "geometry": {
         "type": "Point",
