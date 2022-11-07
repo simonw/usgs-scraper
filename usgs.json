@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667836794000,
+    "generated": 1667840754000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "64 km SE of Kieta, Papua New Guinea",
+        "time": 1667836585203,
+        "updated": 1667838606040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000in31",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000in31.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000in31",
+        "ids": ",us7000in31,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 4.538,
+        "rms": 0.98,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 64 km SE of Kieta, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.9921,
+          -6.6705,
+          191.569
+        ]
+      },
+      "id": "us7000in31"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -495,7 +535,7 @@
         "mag": 2.51,
         "place": "85km ESE of Maneadero, B.C., MX",
         "time": 1667798036760,
-        "updated": 1667799052240,
+        "updated": 1667836985040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129879",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129879.geojson",
@@ -508,8 +548,8 @@
         "sig": 97,
         "net": "ci",
         "code": "40129879",
-        "ids": ",ci40129879,",
-        "sources": ",ci,",
+        "ids": ",ci40129879,us7000in0c,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 7,
         "dmin": 0.1899,
@@ -1212,10 +1252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.62,
-        "place": "3 km NE of Wardville, Oklahoma",
-        "time": 1667775248504,
-        "updated": 1667827174563,
+        "mag": 2.55,
+        "place": "2 km ENE of Wardville, Oklahoma",
+        "time": 1667775248509,
+        "updated": 1667839166129,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022vuhu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022vuhu.geojson",
@@ -1223,28 +1263,28 @@
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
+        "sig": 100,
         "net": "ok",
         "code": "2022vuhu",
         "ids": ",ok2022vuhu,us7000imyn,",
         "sources": ",ok,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.3272431195,
-        "rms": 0.6209114136,
-        "gap": 110.0841866,
+        "nst": 74,
+        "dmin": 0.3212369623,
+        "rms": 0.29,
+        "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 3 km NE of Wardville, Oklahoma"
+        "title": "M 2.6 - 2 km ENE of Wardville, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.99621582,
-          34.67611694,
-          6.385765553
+          -96.0045,
+          34.66583333,
+          23.54
         ]
       },
       "id": "ok2022vuhu"
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000imxv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "2 km S of Mayagüez, Puerto Rico",
-        "time": 1667752662850,
-        "updated": 1667753787490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71380998",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71380998.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71380998",
-        "ids": ",pr71380998,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.03447,
-        "rms": 0.09,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km S of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1366666666667,
-          18.1748333333333,
-          25.01
-        ]
-      },
-      "id": "pr71380998"
     }
   ],
   "bbox": [
@@ -1456,6 +1456,6 @@
     -0.2,
     174.5268,
     63.1977,
-    103.081
+    191.569
   ]
 }
