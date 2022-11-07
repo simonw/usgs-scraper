@@ -1,36 +1,156 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667797623000,
+    "generated": 1667800794000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "Babuyan Islands region, Philippines",
+        "time": 1667799245921,
+        "updated": 1667800344040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000in0d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000in0d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000in0d",
+        "ids": ",us7000in0d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 3.77,
+        "rms": 0.6,
+        "gap": 80,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - Babuyan Islands region, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1919,
+          19.0307,
+          40.205
+        ]
+      },
+      "id": "us7000in0d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "85km ESE of Maneadero, B.C., MX",
+        "time": 1667798036760,
+        "updated": 1667799052240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129879",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129879.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "ci",
+        "code": "40129879",
+        "ids": ",ci40129879,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.1899,
+        "rms": 0.14,
+        "gap": 207,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 85km ESE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.69,
+          31.564,
+          -0.2
+        ]
+      },
+      "id": "ci40129879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.68,
+        "place": "84km ESE of Maneadero, B.C., MX",
+        "time": 1667797826980,
+        "updated": 1667798908061,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129871",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129871.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.15,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 208,
+        "net": "ci",
+        "code": "40129871",
+        "ids": ",ci40129871,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 21,
+        "dmin": 0.1788,
+        "rms": 0.3,
+        "gap": 87,
+        "magType": "mlr",
+        "type": "earthquake",
+        "title": "M 3.7 - 84km ESE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6968307,
+          31.5545006,
+          2.47
+        ]
+      },
+      "id": "ci40129871"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.08,
         "place": "82km ESE of Maneadero, B.C., MX",
         "time": 1667797142810,
-        "updated": 1667797505377,
+        "updated": 1667799021791,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129847.geojson",
-        "felt": 4,
+        "felt": 7,
         "cdi": 3.4,
-        "mmi": 4.474,
-        "alert": null,
+        "mmi": 4.396,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 257,
+        "sig": 258,
         "net": "ci",
         "code": "40129847",
-        "ids": ",ci40129847,ew1667797160,",
-        "sources": ",ci,ew,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "ids": ",ci40129847,us7000in07,ew1667797160,",
+        "sources": ",ci,us,ew,",
+        "types": ",dyfi,focal-mechanism,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 20,
         "dmin": 0.1641,
         "rms": 0.29,
@@ -55,21 +175,21 @@
         "mag": 3.62,
         "place": "83km ESE of Maneadero, B.C., MX",
         "time": 1667796775240,
-        "updated": 1667797449160,
+        "updated": 1667800594860,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129839",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129839.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": 3.989,
+        "felt": 0,
+        "cdi": 1,
+        "mmi": 3.995,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 202,
         "net": "ci",
         "code": "40129839",
-        "ids": ",ci40129839,",
-        "sources": ",ci,",
+        "ids": ",ci40129839,us7000in05,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 17,
         "dmin": 0.1731,
@@ -95,7 +215,7 @@
         "mag": 3.19,
         "place": "76km ESE of Maneadero, B.C., MX",
         "time": 1667796632980,
-        "updated": 1667797279040,
+        "updated": 1667798849040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129831.geojson",
@@ -132,42 +252,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "Puerto Rico region",
-        "time": 1667794875617,
-        "updated": 1667796621040,
+        "mag": 3.92,
+        "place": "140 km N of Suárez, Puerto Rico",
+        "time": 1667794871020,
+        "updated": 1667799553978,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000in02",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000in02.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022311002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022311002.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000in02",
-        "ids": ",us7000in02,",
-        "sources": ",us,",
+        "sig": 236,
+        "net": "pr",
+        "code": "2022311002",
+        "ids": ",us7000in02,pr2022311002,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.917,
-        "rms": 0.58,
-        "gap": 218,
-        "magType": "ml",
+        "nst": 20,
+        "dmin": 1.4299,
+        "rms": 0.41,
+        "gap": 265,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 3.9 - 140 km N of Suárez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.9817,
-          19.2374,
-          37.347
+          -65.7233,
+          19.6928,
+          41
         ]
       },
-      "id": "us7000in02"
+      "id": "pr2022311002"
     },
     {
       "type": "Feature",
@@ -215,7 +335,7 @@
         "mag": 5.4,
         "place": "32 km ENE of Jurm, Afghanistan",
         "time": 1667791524586,
-        "updated": 1667793768616,
+        "updated": 1667798917596,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000imzu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000imzu.geojson",
@@ -415,11 +535,11 @@
         "mag": 2.49,
         "place": "16km WNW of Lake Pillsbury, CA",
         "time": 1667786731500,
-        "updated": 1667796912766,
+        "updated": 1667798465157,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73804561",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73804561.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -493,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.95,
-        "place": "1 km WNW of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1667782335190,
         "updated": 1667793206383,
         "tz": null,
@@ -517,7 +637,7 @@
         "gap": 148,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 1 km WNW of Indios, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "119 km NW of Koliganek, Alaska",
+        "place": "Southern Alaska",
         "time": 1667778646750,
         "updated": 1667782558040,
         "tz": null,
@@ -557,7 +677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 119 km NW of Koliganek, Alaska"
+        "title": "M 3.1 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.43,
-        "place": "71 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Puerto Rico region",
         "time": 1667776754050,
         "updated": 1667779604860,
         "tz": null,
@@ -637,7 +757,7 @@
         "gap": 262,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 71 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.4 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "49 km SSW of Jurm, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1667718326048,
         "updated": 1667720789040,
         "tz": null,
@@ -1397,7 +1517,7 @@
         "gap": 92,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 49 km SSW of Jurm, Afghanistan"
+        "title": "M 4.4 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1448,52 +1568,12 @@
         ]
       },
       "id": "hv73209932"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1667712527902,
-        "updated": 1667794165804,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022vszh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022vszh.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2022vszh",
-        "ids": ",tx2022vszh,",
-        "sources": ",tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.04721424646,
-        "rms": 0.2,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3795304,
-          31.6711975,
-          8.702368164
-        ]
-      },
-      "id": "tx2022vszh"
     }
   ],
   "bbox": [
     -175.9836,
     -60.6288,
-    1.227203012,
+    -0.2,
     174.5268,
     61.7015,
     245.258
