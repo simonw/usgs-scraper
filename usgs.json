@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668060043000,
+    "generated": 1668063583000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 5.4,
         "place": "13 km S of Shi Yomi, India",
         "time": 1668056467520,
-        "updated": 1668059831788,
+        "updated": 1668062013040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000inqd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000inqd.geojson",
@@ -30,7 +30,7 @@
         "code": "7000inqd",
         "ids": ",us7000inqd,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 92,
         "dmin": 6.683,
         "rms": 0.65,
@@ -95,11 +95,11 @@
         "mag": 3.58,
         "place": "21 km E of Honaunau-Napoopoo, Hawaii",
         "time": 1668054080560,
-        "updated": 1668055720488,
+        "updated": 1668062711437,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73214847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73214847.geojson",
-        "felt": 14,
+        "felt": 16,
         "cdi": 3.1,
         "mmi": 4.299,
         "alert": null,
@@ -132,14 +132,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.92,
+        "place": "18 km WNW of Rincón, Puerto Rico",
+        "time": 1668048397100,
+        "updated": 1668060378770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71381643",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71381643.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "pr",
+        "code": "71381643",
+        "ids": ",pr71381643,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.06044,
+        "rms": 0.39,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 18 km WNW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4155,
+          18.3845,
+          6.72
+        ]
+      },
+      "id": "pr71381643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.3,
         "place": "Southern Alaska",
         "time": 1668044264305,
-        "updated": 1668059570673,
+        "updated": 1668061241649,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022efbkfka",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022efbkfka.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
@@ -892,42 +932,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.77,
+        "mag": 3,
         "place": "Andreanof Islands, Aleutian Islands, Alaska",
-        "time": 1667995750710,
-        "updated": 1668026944710,
+        "time": 1667995749459,
+        "updated": 1668062402040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91712676",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91712676.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000inmz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000inmz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 118,
-        "net": "av",
-        "code": "91712676",
-        "ids": ",av91712676,",
-        "sources": ",av,",
+        "sig": 138,
+        "net": "us",
+        "code": "7000inmz",
+        "ids": ",av91712676,us7000inmz,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 216,
+        "nst": 18,
+        "dmin": 0.08,
+        "rms": 0.42,
+        "gap": 192,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.0 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.780333333333,
-          51.54,
-          11.52
+          -178.7779,
+          51.4773,
+          15.458
         ]
       },
-      "id": "av91712676"
+      "id": "us7000inmz"
     },
     {
       "type": "Feature",
@@ -1408,50 +1448,10 @@
         ]
       },
       "id": "pr71381428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "22 km NE of Marotta, Italy",
-        "time": 1667974047036,
-        "updated": 1668047274990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000infp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000infp.geojson",
-        "felt": 179,
-        "cdi": 8.7,
-        "mmi": 5.577,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 638,
-        "net": "us",
-        "code": "7000infp",
-        "ids": ",us7000infp,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 132,
-        "dmin": 0.877,
-        "rms": 1.03,
-        "gap": 14,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 22 km NE of Marotta, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3098,
-          43.9297,
-          10
-        ]
-      },
-      "id": "us7000infp"
     }
   ],
   "bbox": [
-    -178.78033333333,
+    -178.7779,
     -26.0659,
     2.05,
     178.5721,
