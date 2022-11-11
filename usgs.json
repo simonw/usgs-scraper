@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668121185000,
+    "generated": 1668124923000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "3 km ESE of Medicine Park, Oklahoma",
+        "time": 1668122749310,
+        "updated": 1668123759359,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022wbqv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022wbqv.geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "ok",
+        "code": "2022wbqv",
+        "ids": ",ok2022wbqv,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 55,
+        "dmin": 0.299185425,
+        "rms": 0.655031477,
+        "gap": 48.68795776,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 3 km ESE of Medicine Park, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.469841,
+          34.72053909,
+          4.668661118
+        ]
+      },
+      "id": "ok2022wbqv"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.8,
         "place": "30 km NNE of Pilot Point, Alaska",
         "time": 1668119800141,
-        "updated": 1668120987820,
+        "updated": 1668124264040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022efo2p1a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022efo2p1a.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 4.672,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 222,
         "net": "ak",
         "code": "022efo2p1a",
-        "ids": ",ak022efo2p1a,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",us7000inx7,ak022efo2p1a,",
+        "sources": ",us,ak,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 1.47,
@@ -92,6 +132,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "south of the Fiji Islands",
+        "time": 1668117020534,
+        "updated": 1668123215040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000inwr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000inwr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000inwr",
+        "ids": ",us7000inwr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 4.353,
+        "rms": 0.94,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.2237,
+          -23.4377,
+          454.128
+        ]
+      },
+      "id": "us7000inwr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.27,
         "place": "99 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1668116160930,
@@ -135,17 +215,17 @@
         "mag": 2.7,
         "place": "1 km ENE of Tanaina, Alaska",
         "time": 1668108004683,
-        "updated": 1668119374040,
+        "updated": 1668122629963,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022efm6i8k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022efm6i8k.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 113,
         "net": "ak",
         "code": "022efm6i8k",
         "ids": ",ak022efm6i8k,us7000invu,",
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "49 km WSW of Rabaul, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1668106695487,
         "updated": 1668110659040,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 209,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 49 km WSW of Rabaul, Papua New Guinea"
+        "title": "M 4.5 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "1 km NW of Magas Arriba, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1668105429480,
         "updated": 1668115462950,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 159,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km NW of Magas Arriba, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Banda Sea",
+        "place": "192 km WSW of Ambon, Indonesia",
         "time": 1668103128086,
         "updated": 1668118075040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 50,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Banda Sea"
+        "title": "M 4.3 - 192 km WSW of Ambon, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "26 km NE of Senigallia, Italy",
+        "place": "central Italy",
         "time": 1668102851376,
         "updated": 1668118442617,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 34,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 26 km NE of Senigallia, Italy"
+        "title": "M 4.4 - central Italy"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Vanuatu",
+        "place": "64 km SSE of Port-Vila, Vanuatu",
         "time": 1668087178153,
         "updated": 1668094495040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 113,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Vanuatu"
+        "title": "M 4.6 - 64 km SSE of Port-Vila, Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "eastern Turkey",
+        "place": "9 km SE of Ahlat, Turkey",
         "time": 1668056253821,
         "updated": 1668057199040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 54,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - eastern Turkey"
+        "title": "M 4.2 - 9 km SE of Ahlat, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1328,54 +1408,14 @@
         ]
       },
       "id": "nn00850964"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Nepal",
-        "time": 1668036482709,
-        "updated": 1668057586788,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000innz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000innz.geojson",
-        "felt": 1,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000innz",
-        "ids": ",us7000innz,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 3.949,
-        "rms": 0.52,
-        "gap": 186,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - Nepal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.1644,
-          29.3886,
-          10
-        ]
-      },
-      "id": "us7000innz"
     }
   ],
   "bbox": [
-    -176.9048,
+    -179.2237,
     -25.5513,
     0,
     168.5877,
     66.3815,
-    276.47
+    454.128
   ]
 }
