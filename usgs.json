@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668196825000,
+    "generated": 1668200385000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.59,
+        "place": "9 km E of Pāhala, Hawaii",
+        "time": 1668198578560,
+        "updated": 1668200354390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73217217",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73217217.geojson",
+        "felt": 5,
+        "cdi": 2.7,
+        "mmi": 3.915,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 200,
+        "net": "hv",
+        "code": "73217217",
+        "ids": ",hv73217217,us7000ip50,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": 158,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 9 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.389333333333,
+          19.2068333333333,
+          31.8
+        ]
+      },
+      "id": "hv73217217"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
         "place": "42 km NNW of Bandar Abbas, Iran",
         "time": 1668192248824,
-        "updated": 1668194176040,
+        "updated": 1668200263589,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ip4k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ip4k.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000ip4k",
         "ids": ",us7000ip4k,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 84,
         "dmin": 2.583,
         "rms": 0.48,
@@ -412,10 +452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.79,
-        "place": "16km ESE of Little Lake, CA",
-        "time": 1668168335890,
-        "updated": 1668170228040,
+        "mag": 2.8,
+        "place": "17km ESE of Little Lake, CA",
+        "time": 1668168335820,
+        "updated": 1668197455220,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40131063",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40131063.geojson",
@@ -423,28 +463,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 120,
+        "sig": 121,
         "net": "ci",
         "code": "40131063",
         "ids": ",ci40131063,us7000ip1e,",
         "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.08445,
-        "rms": 0.13,
-        "gap": 106,
+        "nst": 35,
+        "dmin": 0.08685,
+        "rms": 0.15,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 16km ESE of Little Lake, CA"
+        "title": "M 2.8 - 17km ESE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.7373333,
-          35.8901667,
-          2.65
+          -117.7288333,
+          35.8905,
+          2.73
         ]
       },
       "id": "ci40131063"
@@ -572,6 +612,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.45,
+        "place": "15km WSW of Searles Valley, CA",
+        "time": 1668165514870,
+        "updated": 1668196970130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40131055",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40131055.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "ci",
+        "code": "40131055",
+        "ids": ",ci40131055,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.07953,
+        "rms": 0.13,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 15km WSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5646667,
+          35.7406667,
+          4.22
+        ]
+      },
+      "id": "ci40131055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.19,
         "place": "15km W of Searles Valley, CA",
         "time": 1668165379920,
@@ -655,7 +735,7 @@
         "mag": 7.3,
         "place": "211 km ESE of Neiafu, Tonga",
         "time": 1668163725102,
-        "updated": 1668190664264,
+        "updated": 1668199076933,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ip0l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ip0l.geojson",
@@ -815,7 +895,7 @@
         "mag": 3.7,
         "place": "12 km WNW of Petersville, Alaska",
         "time": 1668158390534,
-        "updated": 1668194747834,
+        "updated": 1668199293119,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022eh3regx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022eh3regx.geojson",
