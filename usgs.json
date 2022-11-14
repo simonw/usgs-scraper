@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668396471000,
+    "generated": 1668399051000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.68,
         "place": "5 km WSW of Minco, Oklahoma",
         "time": 1668395711718,
-        "updated": 1668395909899,
+        "updated": 1668398434040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022whkx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022whkx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 111,
         "net": "ok",
         "code": "2022whkx",
-        "ids": ",ok2022whkx,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2022whkx,us7000ipju,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 64,
         "dmin": 0.09393610805,
         "rms": 0.7160359147,
@@ -55,7 +55,7 @@
         "mag": 2.73,
         "place": "10km SSW of Mariposa, CA",
         "time": 1668394380190,
-        "updated": 1668395547397,
+        "updated": 1668398531190,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73804855",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73804855.geojson",
@@ -412,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "8 km SSE of Chiniot, Pakistan",
-        "time": 1668377537046,
-        "updated": 1668382028878,
+        "mag": 4.4,
+        "place": "10 km S of Chiniot, Pakistan",
+        "time": 1668377536465,
+        "updated": 1668398572875,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ipim",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ipim.geojson",
@@ -425,29 +425,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 273,
+        "sig": 299,
         "net": "us",
         "code": "7000ipim",
         "ids": ",us7000ipim,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 18,
-        "dmin": 2.003,
-        "rms": 0.5,
-        "gap": 188,
+        "nst": 38,
+        "dmin": 2.033,
+        "rms": 0.72,
+        "gap": 174,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 8 km SSE of Chiniot, Pakistan"
+        "title": "M 4.4 - 10 km S of Chiniot, Pakistan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          73.0221,
-          31.6529,
+          72.9836,
+          31.6261,
           10
         ]
       },
       "id": "us7000ipim"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Off the coast of Valparaiso, Chile",
+        "time": 1668377140452,
+        "updated": 1668397575040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ipii",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ipii.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000ipii",
+        "ids": ",us7000ipii,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.956,
+        "rms": 0.63,
+        "gap": 104,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.2 - Off the coast of Valparaiso, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0446,
+          -32.125,
+          19.125
+        ]
+      },
+      "id": "us7000ipii"
     },
     {
       "type": "Feature",
@@ -655,17 +695,17 @@
         "mag": 3,
         "place": "4 km SSW of Mooringsport, Louisiana",
         "time": 1668364991714,
-        "updated": 1668395111085,
+        "updated": 1668397978811,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iphl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iphl.geojson",
-        "felt": 10,
-        "cdi": 4.5,
+        "felt": 12,
+        "cdi": 4.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 143,
+        "sig": 144,
         "net": "us",
         "code": "7000iphl",
         "ids": ",us7000iphl,",
@@ -1528,132 +1568,12 @@
         ]
       },
       "id": "tx2022wfry"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "113 km E of Hihifo, Tonga",
-        "time": 1668311737236,
-        "updated": 1668312977040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ipek",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ipek.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000ipek",
-        "ids": ",us7000ipek,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 2.663,
-        "rms": 1.07,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 113 km E of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.7384,
-          -15.8943,
-          10
-        ]
-      },
-      "id": "us7000ipek"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56999993,
-        "place": "38 km SSE of Waimea, Hawaii",
-        "time": 1668310134050,
-        "updated": 1668362705390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73219282",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73219282.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "hv",
-        "code": "73219282",
-        "ids": ",hv73219282,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.140000001,
-        "gap": 327,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 38 km SSE of Waimea, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.506332397461,
-          19.7161674499512,
-          5.67999982833862
-        ]
-      },
-      "id": "hv73219282"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "26 km E of Honaunau-Napoopoo, Hawaii",
-        "time": 1668310130960,
-        "updated": 1668310463720,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73219277",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73219277.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "73219277",
-        "ids": ",hv73219277,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": null,
-        "rms": 0.330000013,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 26 km E of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.61149597168,
-          19.4500007629395,
-          -1.12000000476837
-        ]
-      },
-      "id": "hv73219277"
     }
   ],
   "bbox": [
     -179.1199,
     -37.5022,
-    -1.1200000047684,
+    0.06063052639,
     158.8432,
     67.5119,
     574.981
