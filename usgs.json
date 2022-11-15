@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668509999000,
+    "generated": 1668513659000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -15,21 +15,21 @@
         "mag": 3.28,
         "place": "Oklahoma",
         "time": 1668509354025,
-        "updated": 1668509920483,
+        "updated": 1668511291722,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022wjvk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022wjvk.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 3,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 166,
+        "sig": 167,
         "net": "ok",
         "code": "2022wjvk",
-        "ids": ",ok2022wjvk,",
-        "sources": ",ok,",
+        "ids": ",ok2022wjvk,us7000ipup,",
+        "sources": ",ok,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 91,
         "dmin": 0.08032247424,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ok2022wjvk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "40 km NW of Toyah, Texas",
+        "time": 1668508853304,
+        "updated": 1668513245508,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022wjvc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022wjvc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2022wjvc",
+        "ids": ",tx2022wjvc,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.02548645478,
+        "rms": 0.2,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 40 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.1038136,
+          31.56097224,
+          7.057055663999999
+        ]
+      },
+      "id": "tx2022wjvc"
     },
     {
       "type": "Feature",
@@ -615,17 +655,17 @@
         "mag": 3,
         "place": "5 km NE of Bois-des-Filion, Canada",
         "time": 1668479013739,
-        "updated": 1668509873630,
+        "updated": 1668512962113,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iprx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iprx.geojson",
-        "felt": 589,
+        "felt": 595,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 392,
+        "sig": 394,
         "net": "us",
         "code": "7000iprx",
         "ids": ",us7000iprx,",
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "us7000ipln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.46,
-        "place": "5 km WSW of Guánica, Puerto Rico",
-        "time": 1668426567840,
-        "updated": 1668430676362,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022318003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022318003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 184,
-        "net": "pr",
-        "code": "2022318003",
-        "ids": ",us7000iplj,pr2022318003,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.0797,
-        "rms": 0.1,
-        "gap": 208,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 5 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.954,
-          17.9476,
-          9
-        ]
-      },
-      "id": "pr2022318003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "5 km WSW of Guánica, Puerto Rico",
-        "time": 1668426409050,
-        "updated": 1668433735106,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022318002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022318002.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": 2.904,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 201,
-        "net": "pr",
-        "code": "2022318002",
-        "ids": ",us7000ipli,pr2022318002,",
-        "sources": ",us,pr,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 22,
-        "dmin": 0.0789,
-        "rms": 0.12,
-        "gap": 208,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 5 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.953,
-          17.9471,
-          9
-        ]
-      },
-      "id": "pr2022318002"
     }
   ],
   "bbox": [
