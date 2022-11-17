@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668664810000,
+    "generated": 1668668446000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,21 +55,21 @@
         "mag": 2.51,
         "place": "4km SE of Loma Linda, CA",
         "time": 1668662145960,
-        "updated": 1668663956999,
+        "updated": 1668666891114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40133599",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40133599.geojson",
-        "felt": 4,
-        "cdi": 3.1,
+        "felt": 7,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 99,
         "net": "ci",
         "code": "40133599",
-        "ids": ",ci40133599,",
-        "sources": ",ci,",
+        "ids": ",ci40133599,us7000iqbq,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 83,
         "dmin": 0.09425,
@@ -95,17 +95,17 @@
         "mag": 3.86,
         "place": "5 km SSW of Pāhala, Hawaii",
         "time": 1668660994460,
-        "updated": 1668664647076,
+        "updated": 1668668317099,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73224992",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73224992.geojson",
-        "felt": 69,
+        "felt": 73,
         "cdi": 3.7,
         "mmi": 4.016,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 255,
+        "sig": 256,
         "net": "hv",
         "code": "73224992",
         "ids": ",hv73224992,us7000iqbj,",
@@ -175,7 +175,7 @@
         "mag": 3.8,
         "place": "37 km WSW of Mentone, Texas",
         "time": 1668659912190,
-        "updated": 1668662251109,
+        "updated": 1668667361876,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022wnac",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022wnac.geojson",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "22 km SSW of Palora, Ecuador",
+        "place": "Ecuador",
         "time": 1668658791570,
         "updated": 1668664130912,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 22 km SSW of Palora, Ecuador"
+        "title": "M 5.2 - Ecuador"
       },
       "geometry": {
         "type": "Point",
@@ -293,9 +293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "101 km SSE of Belyashi, Russia",
-        "time": 1668653230918,
-        "updated": 1668654087040,
+        "place": "91 km SSE of Belyashi, Russia",
+        "time": 1668653231680,
+        "updated": 1668665629040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iqa9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iqa9.geojson",
@@ -311,23 +311,63 @@
         "ids": ",us7000iqa9,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 4.307,
-        "rms": 1.07,
-        "gap": 159,
+        "nst": 44,
+        "dmin": 4.293,
+        "rms": 0.55,
+        "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 101 km SSE of Belyashi, Russia"
+        "title": "M 4.4 - 91 km SSE of Belyashi, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.9033,
-          48.8556,
+          87.8219,
+          48.9303,
           10
         ]
       },
       "id": "us7000iqa9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "Tarapaca-Antofagasta border region, Chile",
+        "time": 1668649371420,
+        "updated": 1668665244040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iq9v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iq9v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000iq9v",
+        "ids": ",us7000iq9v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.009,
+        "rms": 0.67,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - Tarapaca-Antofagasta border region, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.9052,
+          -21.3212,
+          48.205
+        ]
+      },
+      "id": "us7000iq9v"
     },
     {
       "type": "Feature",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.62,
-        "place": "114 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Puerto Rico region",
         "time": 1668639782010,
         "updated": 1668642627530,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 291,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 114 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -775,11 +815,11 @@
         "mag": 5.3,
         "place": "39 km WSW of Mentone, Texas",
         "time": 1668634364356,
-        "updated": 1668664503035,
+        "updated": 1668667959815,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022wmmd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022wmmd.geojson",
-        "felt": 1965,
+        "felt": 1981,
         "cdi": 6.3,
         "mmi": 6.666,
         "alert": "green",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Taiwan region",
+        "place": "62 km NE of Hengchun, Taiwan",
         "time": 1668611261450,
         "updated": 1668644864040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Taiwan region"
+        "title": "M 4.7 - 62 km NE of Hengchun, Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -1293,19 +1333,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "4 km ENE of Ravalli, Montana",
+        "place": "western Montana",
         "time": 1668606464447,
-        "updated": 1668659891098,
+        "updated": 1668667475532,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iq4e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iq4e.geojson",
-        "felt": 351,
+        "felt": 352,
         "cdi": 4.6,
         "mmi": 3.995,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 372,
+        "sig": 373,
         "net": "us",
         "code": "7000iq4e",
         "ids": ",us7000iq4e,",
@@ -1317,7 +1357,7 @@
         "gap": 50,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 3.7 - 4 km ENE of Ravalli, Montana"
+        "title": "M 3.7 - western Montana"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.04,
-        "place": "18 km NNW of Taylor, Wyoming",
+        "place": "southern Idaho",
         "time": 1668594590960,
         "updated": 1668608158020,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 100,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 18 km NNW of Taylor, Wyoming"
+        "title": "M 3.0 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "17 km NNW of Taylor, Wyoming",
+        "place": "southern Idaho",
         "time": 1668592734140,
         "updated": 1668641729758,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 100,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 17 km NNW of Taylor, Wyoming"
+        "title": "M 3.6 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.73,
-        "place": "12 km S of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1668582476170,
         "updated": 1668585206410,
         "tz": null,
@@ -1677,7 +1717,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 12 km S of Guánica, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1728,6 @@
         ]
       },
       "id": "pr71382683"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "196 km WSW of Bengkulu, Indonesia",
-        "time": 1668578492279,
-        "updated": 1668641468396,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iq2d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iq2d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.021,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000iq2d",
-        "ids": ",us7000iq2d,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 87,
-        "dmin": 2.211,
-        "rms": 0.98,
-        "gap": 93,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 196 km WSW of Bengkulu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          100.7715,
-          -4.7464,
-          8.951
-        ]
-      },
-      "id": "us7000iq2d"
     }
   ],
   "bbox": [
