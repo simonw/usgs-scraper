@@ -1,50 +1,130 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1669166815000,
+    "generated": 1669170554000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 48
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.1,
-        "place": "16 km W of Düzce, Turkey",
-        "time": 1669165694639,
-        "updated": 1669166716206,
+        "mag": 3.6,
+        "place": "53 km SSW of Whites City, New Mexico",
+        "time": 1669168677820,
+        "updated": 1669170482015,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irp8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000irp8.geojson",
-        "felt": 7,
-        "cdi": 4.1,
-        "mmi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022wxtx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022wxtx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.943,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 575,
-        "net": "us",
-        "code": "7000irp8",
-        "ids": ",us7000irp8,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 106,
-        "dmin": 0.411,
-        "rms": 0.93,
-        "gap": 30,
-        "magType": "mww",
+        "sig": 199,
+        "net": "tx",
+        "code": "2022wxtx",
+        "ids": ",us7000irph,tx2022wxtx,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 25,
+        "dmin": 0.02546249951,
+        "rms": 0.2,
+        "gap": 84,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 6.1 - 16 km W of Düzce, Turkey"
+        "title": "M 3.6 - 53 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.9695,
-          40.8437,
-          3.944
+          -104.5581962,
+          31.71635872,
+          7.828295898
+        ]
+      },
+      "id": "tx2022wxtx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "12 km N of Meadow Lakes, Alaska",
+        "time": 1669167402867,
+        "updated": 1669170335000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f0tjq2y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f0tjq2y.geojson",
+        "felt": 45,
+        "cdi": 3.4,
+        "mmi": 3.106,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 274,
+        "net": "ak",
+        "code": "022f0tjq2y",
+        "ids": ",ak022f0tjq2y,at00rls1t6,us7000irpe,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 12 km N of Meadow Lakes, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6076,
+          61.7388,
+          37.4
+        ]
+      },
+      "id": "ak022f0tjq2y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.1,
+        "place": "Western Turkey",
+        "time": 1669165695522,
+        "updated": 1669170486181,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irp8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000irp8.geojson",
+        "felt": 237,
+        "cdi": 7.9,
+        "mmi": 8.09,
+        "alert": "orange",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 1187,
+        "net": "us",
+        "code": "7000irp8",
+        "ids": ",us7000irp8,",
+        "sources": ",us,",
+        "types": ",dyfi,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 114,
+        "dmin": 0.414,
+        "rms": 0.99,
+        "gap": 30,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.1 - Western Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.967,
+          40.8471,
+          10
         ]
       },
       "id": "us7000irp8"
@@ -55,7 +135,7 @@
         "mag": 2.6,
         "place": "72 km WSW of Karluk, Alaska",
         "time": 1669165376301,
-        "updated": 1669165833731,
+        "updated": 1669166841040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f0tcgwc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f0tcgwc.geojson",
@@ -68,8 +148,8 @@
         "sig": 104,
         "net": "ak",
         "code": "022f0tcgwc",
-        "ids": ",ak022f0tcgwc,",
-        "sources": ",ak,",
+        "ids": ",us7000irp6,ak022f0tcgwc,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1055,7 +1135,7 @@
         "mag": 3.7,
         "place": "10 km N of Meadow Lakes, Alaska",
         "time": 1669107007289,
-        "updated": 1669162264264,
+        "updated": 1669170222086,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022eza9c3z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022eza9c3z.geojson",
@@ -1848,126 +1928,6 @@
         ]
       },
       "id": "us7000irfm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "52 km SW of Calingasta, Argentina",
-        "time": 1669083086469,
-        "updated": 1669153722040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irfc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000irfc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000irfc",
-        "ids": ",us7000irfc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.159,
-        "rms": 0.58,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 52 km SW of Calingasta, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.7714,
-          -31.6954,
-          148.616
-        ]
-      },
-      "id": "us7000irfc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Azores Islands region",
-        "time": 1669082938088,
-        "updated": 1669089141040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irfd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000irfd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000irfd",
-        "ids": ",us7000irfd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 8.013,
-        "rms": 0.89,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - Azores Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.7775,
-          34.855,
-          10
-        ]
-      },
-      "id": "us7000irfd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 7,
-        "place": "19 km SW of Malango, Solomon Islands",
-        "time": 1669082587033,
-        "updated": 1669153871238,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irfb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000irfb.geojson",
-        "felt": 14,
-        "cdi": 8.4,
-        "mmi": 7.037,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 766,
-        "net": "us",
-        "code": "7000irfb",
-        "ids": ",at00rlq8db,pt22326000,us7000irfb,",
-        "sources": ",at,pt,us,",
-        "types": ",dyfi,finite-fault,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 94,
-        "dmin": 0.513,
-        "rms": 0.49,
-        "gap": 22,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 7.0 - 19 km SW of Malango, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.5871,
-          -9.8114,
-          14
-        ]
-      },
-      "id": "us7000irfb"
     }
   ],
   "bbox": [
@@ -1975,7 +1935,7 @@
     -59.9111,
     -0.59,
     166.0684,
-    61.7172,
+    61.7388,
     549.735
   ]
 }
