@@ -1,43 +1,123 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1669579224000,
+    "generated": 1669582830000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "7 km SSE of Ester, Alaska",
-        "time": 1669578993805,
-        "updated": 1669579097702,
+        "mag": 3.62,
+        "place": "Puerto Rico region",
+        "time": 1669580394770,
+        "updated": 1669582383365,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f7qj6no",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f7qj6no.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022331002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022331002.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 202,
+        "net": "pr",
+        "code": "2022331002",
+        "ids": ",pr2022331002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.7775,
+        "rms": 0.17,
+        "gap": 286,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4598,
+          19.0645,
+          44
+        ]
+      },
+      "id": "pr2022331002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "141 km W of Kashgar, China",
+        "time": 1669579122492,
+        "updated": 1669580907102,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000issn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000issn.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "7000issn",
+        "ids": ",us7000issn,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 52,
+        "dmin": 1.808,
+        "rms": 1.07,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 141 km W of Kashgar, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3448,
+          39.5316,
+          10
+        ]
+      },
+      "id": "us7000issn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "Central Alaska",
+        "time": 1669578993805,
+        "updated": 1669582105040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f7qj6no",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f7qj6no.geojson",
+        "felt": 49,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 111,
         "net": "ak",
         "code": "022f7qj6no",
-        "ids": ",ak022f7qj6no,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak022f7qj6no,us7000issk,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.5,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km SSE of Ester, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak022f7qj6no"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "80 km ESE of Adak, Alaska",
+        "time": 1669578901163,
+        "updated": 1669580473040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000issm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000issm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.364,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000issm",
+        "ids": ",us7000issm,ak022f7qit8o,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 22,
+        "dmin": 0.632,
+        "rms": 0.8,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 80 km ESE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.6184,
+          51.5244,
+          56.966
+        ]
+      },
+      "id": "us7000issm"
     },
     {
       "type": "Feature",
@@ -332,46 +452,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49,
-        "place": "2km ENE of Lopez Point, CA",
-        "time": 1669552391280,
-        "updated": 1669572451796,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73812031",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73812031.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "nc",
-        "code": "73812031",
-        "ids": ",nc73812031,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.1161,
-        "rms": 0.11,
-        "gap": 194,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2km ENE of Lopez Point, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.5511703,
-          36.027668,
-          8.02
-        ]
-      },
-      "id": "nc73812031"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.3,
         "place": "63 km N of Pagudpud, Philippines",
         "time": 1669552311513,
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kepulauan Mentawai region, Indonesia",
+        "place": "95 km SSW of Padang, Indonesia",
         "time": 1669549045383,
         "updated": 1669550374040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 152,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kepulauan Mentawai region, Indonesia"
+        "title": "M 4.5 - 95 km SSW of Padang, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "66 km S of Ust’-Kamchatsk Staryy, Russia",
+        "place": "near the east coast of the Kamchatka Peninsula, Russia",
         "time": 1669546411426,
         "updated": 1669547650040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 54,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 66 km S of Ust’-Kamchatsk Staryy, Russia"
+        "title": "M 4.7 - near the east coast of the Kamchatka Peninsula, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "31 km SW of Masachapa, Nicaragua",
+        "place": "near the coast of Nicaragua",
         "time": 1669537957330,
         "updated": 1669565019239,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 102,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 5.0 - 31 km SW of Masachapa, Nicaragua"
+        "title": "M 5.0 - near the coast of Nicaragua"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Chile-Argentina border region",
+        "place": "109 km W of San Antonio de los Cobres, Argentina",
         "time": 1669522127145,
         "updated": 1669523630040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 111,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.2 - Chile-Argentina border region"
+        "title": "M 4.2 - 109 km W of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Western Turkey",
+        "place": "14 km W of Düzce, Turkey",
         "time": 1669521465682,
         "updated": 1669559316534,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 46,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Western Turkey"
+        "title": "M 4.1 - 14 km W of Düzce, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "24 km NNW of Norsup, Vanuatu",
+        "place": "Vanuatu",
         "time": 1669514361670,
         "updated": 1669518663040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 24 km NNW of Norsup, Vanuatu"
+        "title": "M 5.0 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "156 km SE of Hihifo, Tonga",
+        "place": "Tonga region",
         "time": 1669514234122,
         "updated": 1669515762040,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 156 km SE of Hihifo, Tonga"
+        "title": "M 5.0 - Tonga region"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.05,
-        "place": "76 km NNE of Punta Cana, Dominican Republic",
+        "place": "Dominican Republic region",
         "time": 1669512439280,
         "updated": 1669521792997,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 196,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - 76 km NNE of Punta Cana, Dominican Republic"
+        "title": "M 4.1 - Dominican Republic region"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Atacama-Coquimbo border region, Chile",
+        "place": "72 km N of Vicuña, Chile",
         "time": 1669507253046,
         "updated": 1669508843040,
         "tz": null,
@@ -1437,7 +1517,7 @@
         "gap": 113,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Atacama-Coquimbo border region, Chile"
+        "title": "M 4.1 - 72 km N of Vicuña, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1528,166 +1608,6 @@
         ]
       },
       "id": "hv73237222"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "3 km E of Magas Arriba, Puerto Rico",
-        "time": 1669495265790,
-        "updated": 1669496477840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71384148",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71384148.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "pr",
-        "code": "71384148",
-        "ids": ",pr71384148,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.02967,
-        "rms": 0.09,
-        "gap": 176,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km E of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.739,
-          18.016,
-          12.39
-        ]
-      },
-      "id": "pr71384148"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "125 km W of Lebu, Chile",
-        "time": 1669495120056,
-        "updated": 1669505834040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000islq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000islq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000islq",
-        "ids": ",us7000islq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 1.816,
-        "rms": 1.18,
-        "gap": 197,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 125 km W of Lebu, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.0566,
-          -37.7904,
-          10
-        ]
-      },
-      "id": "us7000islq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "3 km N of Tago, Philippines",
-        "time": 1669494276046,
-        "updated": 1669504913040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000isln",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000isln.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000isln",
-        "ids": ",us7000isln,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 2.075,
-        "rms": 0.66,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 3 km N of Tago, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.229,
-          9.0549,
-          74.713
-        ]
-      },
-      "id": "us7000isln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "52 km ESE of Karpathos, Greece",
-        "time": 1669493375107,
-        "updated": 1669504393040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000isll",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000isll.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000isll",
-        "ids": ",us7000isll,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.953,
-        "rms": 0.64,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 52 km ESE of Karpathos, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.7423,
-          35.31,
-          35
-        ]
-      },
-      "id": "us7000isll"
     }
   ],
   "bbox": [
