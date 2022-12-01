@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1669914037000,
+    "generated": 1669917630000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 34
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 3.82,
         "place": "12km NNW of Ocotillo, CA",
         "time": 1669908509660,
-        "updated": 1669913924580,
+        "updated": 1669917576341,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40383192",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40383192.geojson",
-        "felt": 227,
+        "felt": 239,
         "cdi": 4,
         "mmi": 4.19,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 315,
+        "sig": 320,
         "net": "ci",
         "code": "40383192",
         "ids": ",ci40383192,us6000j61g,ew1669908510,",
@@ -92,8 +92,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "35 km WSW of Mentone, Texas",
+        "time": 1669906789534,
+        "updated": 1669915616040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j61f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j61f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000j61f",
+        "ids": ",us6000j61f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.03,
+        "rms": 0.47,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 35 km WSW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.9603,
+          31.6213,
+          7.972
+        ]
+      },
+      "id": "us6000j61f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
-        "place": "Antofagasta, Chile",
+        "place": "50 km W of San Pedro de Atacama, Chile",
         "time": 1669903161992,
         "updated": 1669908896040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 87,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - Antofagasta, Chile"
+        "title": "M 4.3 - 50 km W of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -615,17 +655,17 @@
         "mag": 3.73,
         "place": "3 km SSW of Pāhala, Hawaii",
         "time": 1669881750420,
-        "updated": 1669913637640,
+        "updated": 1669917136001,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73248877",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73248877.geojson",
-        "felt": 65,
+        "felt": 67,
         "cdi": 3.4,
         "mmi": 3.578,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 236,
+        "sig": 237,
         "net": "hv",
         "code": "73248877",
         "ids": ",hv73248877,us6000j5yr,",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "New Mexico",
+        "place": "3 km SW of Luis Lopez, New Mexico",
         "time": 1669880510896,
         "updated": 1669883389205,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - New Mexico"
+        "title": "M 2.7 - 3 km SW of Luis Lopez, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "27 km NW of Muisne, Ecuador",
+        "place": "near the coast of Ecuador",
         "time": 1669877548299,
         "updated": 1669879254040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 160,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 27 km NW of Muisne, Ecuador"
+        "title": "M 4.2 - near the coast of Ecuador"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1669868623670,
         "updated": 1669874499040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 103,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "186 km ENE of Miyako, Japan",
+        "place": "off the east coast of Honshu, Japan",
         "time": 1669865821406,
         "updated": 1669871649040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 186 km ENE of Miyako, Japan"
+        "title": "M 4.8 - off the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "52 km W of Happy Valley, Alaska",
+        "place": "Southern Alaska",
         "time": 1669842331657,
         "updated": 1669852274040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 52 km W of Happy Valley, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "60 km ESE of Hachinohe, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1669831831030,
         "updated": 1669834597040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 182,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 60 km ESE of Hachinohe, Japan"
+        "title": "M 4.6 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1328,166 +1368,6 @@
         ]
       },
       "id": "us6000j5ui"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "6 km WNW of Santo Domingo, Puerto Rico",
-        "time": 1669831136140,
-        "updated": 1669833552309,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022334001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022334001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "pr",
-        "code": "2022334001",
-        "ids": ",pr2022334001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1326,
-        "rms": 0.16,
-        "gap": 58,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 6 km WNW of Santo Domingo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8101,
-          18.0883,
-          2
-        ]
-      },
-      "id": "pr2022334001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "Puerto Rico region",
-        "time": 1669830614660,
-        "updated": 1669833937170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71384758",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71384758.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "pr",
-        "code": "71384758",
-        "ids": ",pr71384758,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01619,
-        "rms": 0.08,
-        "gap": 97,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7796666666667,
-          18.0261666666667,
-          14.76
-        ]
-      },
-      "id": "pr71384758"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "278 km WNW of Haveluloto, Tonga",
-        "time": 1669830557585,
-        "updated": 1669847236040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j5uw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j5uw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000j5uw",
-        "ids": ",us6000j5uw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.517,
-        "rms": 0.75,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 278 km WNW of Haveluloto, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.6818,
-          -20.1884,
-          497.411
-        ]
-      },
-      "id": "us6000j5uw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "44 km NE of Bandar-e Lengeh, Iran",
-        "time": 1669828684342,
-        "updated": 1669835501040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j5ua",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j5ua.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000j5ua",
-        "ids": ",us6000j5ua,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 2.118,
-        "rms": 0.76,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 44 km NE of Bandar-e Lengeh, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.1776,
-          26.8592,
-          17.467
-        ]
-      },
-      "id": "us6000j5ua"
     }
   ],
   "bbox": [
