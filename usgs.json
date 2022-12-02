@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670000442000,
+    "generated": 1670004030000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.5,
         "place": "36 km WSW of Mentone, Texas",
         "time": 1669995104996,
-        "updated": 1669996939602,
+        "updated": 1670000952040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xpgg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xpgg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +68,9 @@
         "sig": 96,
         "net": "tx",
         "code": "2022xpgg",
-        "ids": ",tx2022xpgg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2022xpgg,us6000j6b7,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.00403470903,
         "rms": 0.1,
@@ -255,11 +255,11 @@
         "mag": 2.59,
         "place": "4km WSW of Ojai, CA",
         "time": 1669986486010,
-        "updated": 1669996249604,
+        "updated": 1670001416074,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40383632",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40383632.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -412,39 +412,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.98,
-        "place": "7km W of Big Pine, CA",
-        "time": 1669983708620,
-        "updated": 1669999782180,
+        "mag": 3.91,
+        "place": "4km WSW of Big Pine, CA",
+        "time": 1669983708910,
+        "updated": 1670004010783,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73813816",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73813816.geojson",
-        "felt": 35,
-        "cdi": 3.5,
-        "mmi": 3.634,
+        "felt": 36,
+        "cdi": 3.6,
+        "mmi": 3.64,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 256,
+        "sig": 248,
         "net": "nc",
         "code": "73813816",
         "ids": ",ew1669983710,nc73813816,nn00852419,us6000j6a1,",
         "sources": ",ew,nc,nn,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 20,
-        "dmin": 0.09763,
-        "rms": 0.07,
-        "gap": 96,
+        "nst": 29,
+        "dmin": 0.08622,
+        "rms": 0.06,
+        "gap": 109,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.0 - 7km W of Big Pine, CA"
+        "title": "M 3.9 - 4km WSW of Big Pine, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.3636703,
-          37.1571655,
-          -1.79
+          -118.338,
+          37.1563333,
+          8.17
         ]
       },
       "id": "nc73813816"
@@ -532,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.42,
+        "place": "Mona Passage",
+        "time": 1669980358640,
+        "updated": 1670000688270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71385168",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71385168.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 180,
+        "net": "pr",
+        "code": "71385168",
+        "ids": ",pr71385168,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1663,
+        "rms": 0.27,
+        "gap": 233,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - Mona Passage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8833333333333,
+          18.2378333333333,
+          114.6
+        ]
+      },
+      "id": "pr71385168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.63,
         "place": "1 km ESE of Guayanilla, Puerto Rico",
         "time": 1669978973620,
@@ -575,7 +615,7 @@
         "mag": 2.78,
         "place": "4km E of Round Valley, CA",
         "time": 1669977372110,
-        "updated": 1669990136273,
+        "updated": 1670002320789,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73813776",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73813776.geojson",
@@ -588,8 +628,8 @@
         "sig": 120,
         "net": "nc",
         "code": "73813776",
-        "ids": ",nc73813776,",
-        "sources": ",nc,",
+        "ids": ",nc73813776,nn00852416,",
+        "sources": ",nc,nn,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 27,
         "dmin": 0.2596,
@@ -808,46 +848,6 @@
         ]
       },
       "id": "us6000j68r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "88 km NW of Karluk, Alaska",
-        "time": 1669960057809,
-        "updated": 1669960193187,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ffrty0w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ffrty0w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "022ffrty0w",
-        "ids": ",ak022ffrty0w,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.89,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 88 km NW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.3351,
-          58.2126,
-          51.3
-        ]
-      },
-      "id": "ak022ffrty0w"
     },
     {
       "type": "Feature",
@@ -1608,92 +1608,12 @@
         ]
       },
       "id": "us6000j64t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Vanuatu",
-        "time": 1669915710355,
-        "updated": 1669919139040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j64p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j64p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000j64p",
-        "ids": ",us6000j64p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 4.347,
-        "rms": 0.5,
-        "gap": 192,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          169.4155,
-          -18.6565,
-          9.786
-        ]
-      },
-      "id": "us6000j64p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "103 km N of Isangel, Vanuatu",
-        "time": 1669915246191,
-        "updated": 1669918743040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j64l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j64l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000j64l",
-        "ids": ",us6000j64l,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 4.382,
-        "rms": 0.61,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 103 km N of Isangel, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          169.4076,
-          -18.614,
-          11.271
-        ]
-      },
-      "id": "us6000j64l"
     }
   ],
   "bbox": [
     -179.2769,
     -53.954,
-    -1.79,
+    2.82,
     176.0527,
     59.4222,
     573.497
