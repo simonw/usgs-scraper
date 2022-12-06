@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670360434000,
+    "generated": 1670364034000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.13,
+        "place": "9 km S of Dibble, Oklahoma",
+        "time": 1670363430933,
+        "updated": 1670363956040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022xxau",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022xxau.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "ok",
+        "code": "2022xxau",
+        "ids": ",us6000j7g5,ok2022xxau,",
+        "sources": ",us,ok,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 0.03761323541,
+        "rms": 0.7756699447,
+        "gap": 23.90618896,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 9 km S of Dibble, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61831665,
+          34.94980621,
+          1.828747749
+        ]
+      },
+      "id": "ok2022xxau"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -572,38 +612,38 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
+        "mag": 5.5,
         "place": "Mid-Indian Ridge",
-        "time": 1670319291909,
-        "updated": 1670320704040,
+        "time": 1670319291861,
+        "updated": 1670360922193,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7at",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7at.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 465,
         "net": "us",
         "code": "6000j7at",
         "ids": ",us6000j7at,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 29,
-        "dmin": 3.181,
-        "rms": 1.01,
+        "dmin": 3.126,
+        "rms": 0.96,
         "gap": 67,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - Mid-Indian Ridge"
+        "title": "M 5.5 - Mid-Indian Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          78.6213,
-          -40.8751,
+          78.6359,
+          -40.8149,
           10
         ]
       },
@@ -895,7 +935,7 @@
         "mag": 5.9,
         "place": "269 km S of Kencong, Indonesia",
         "time": 1670306868325,
-        "updated": 1670315011443,
+        "updated": 1670363317989,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j77l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j77l.geojson",
@@ -1052,42 +1092,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "11 km SE of Lazy Mountain, Alaska",
-        "time": 1670301090721,
-        "updated": 1670316299458,
+        "mag": 3,
+        "place": "252 km SE of Akutan, Alaska",
+        "time": 1670301448325,
+        "updated": 1670363855531,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022fmdafw0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022fmdafw0.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022fmdbsf5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022fmdbsf5.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 138,
         "net": "ak",
-        "code": "022fmdafw0",
-        "ids": ",ak022fmdafw0,",
+        "code": "022fmdbsf5",
+        "ids": ",ak022fmdbsf5,",
         "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.34,
+        "rms": 0.8,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 11 km SE of Lazy Mountain, Alaska"
+        "title": "M 3.0 - 252 km SE of Akutan, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.7826,
-          61.5613,
-          33.7
+          -163.3999,
+          52.3729,
+          41.4
         ]
       },
-      "id": "ak022fmdafw0"
+      "id": "ak022fmdbsf5"
     },
     {
       "type": "Feature",
@@ -1541,7 +1581,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73814971.geojson",
         "felt": 46,
         "cdi": 4.1,
-        "mmi": 4.134,
+        "mmi": 4.002,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1655,11 +1695,11 @@
         "mag": 3.59,
         "place": "13km ESE of Alum Rock, CA",
         "time": 1670281996710,
-        "updated": 1670359417353,
+        "updated": 1670363135751,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73814941",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73814941.geojson",
-        "felt": 1244,
+        "felt": 1246,
         "cdi": 4.1,
         "mmi": 3.56,
         "alert": null,
@@ -1812,7 +1852,7 @@
   ],
   "bbox": [
     -178.9557,
-    -40.8751,
+    -40.8149,
     -2.01,
     124.7294,
     62.8764,
