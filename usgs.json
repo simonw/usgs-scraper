@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670432400000,
+    "generated": 1670436034000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.03,
-        "place": "8 km NW of Pocasset, Oklahoma",
-        "time": 1670431864004,
-        "updated": 1670432069000,
+        "mag": 5.1,
+        "place": "Taiwan",
+        "time": 1670432066749,
+        "updated": 1670436012779,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022xymk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022xymk.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7n2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7n2.geojson",
+        "felt": 3,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 141,
-        "net": "ok",
-        "code": "2022xymk",
-        "ids": ",ok2022xymk,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 79,
-        "dmin": 0.0560120903,
-        "rms": 0.866202882,
-        "gap": 20.73526001,
-        "magType": "ml",
+        "sig": 401,
+        "net": "us",
+        "code": "6000j7n2",
+        "ids": ",us6000j7n2,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 75,
+        "dmin": 0.447,
+        "rms": 0.55,
+        "gap": 86,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 3.0 - 8 km NW of Pocasset, Oklahoma"
+        "title": "M 5.1 - Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.020401,
-          35.25118637,
-          5
+          121.6368,
+          23.7147,
+          30.828
+        ]
+      },
+      "id": "us6000j7n2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "9 km SW of Minco, Oklahoma",
+        "time": 1670431863669,
+        "updated": 1670433031844,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022xymk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022xymk.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "ok",
+        "code": "2022xymk",
+        "ids": ",ok2022xymk,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 96,
+        "dmin": 0.05578905228,
+        "rms": 0.28,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 9 km SW of Minco, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.02716667,
+          35.2575,
+          6.75
         ]
       },
       "id": "ok2022xymk"
@@ -55,17 +95,17 @@
         "mag": 3.7,
         "place": "43 km SSW of South Van Horn, Alaska",
         "time": 1670430106036,
-        "updated": 1670432372662,
+        "updated": 1670435879247,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022fo7wvld",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022fo7wvld.geojson",
-        "felt": 61,
+        "felt": 69,
         "cdi": 2.7,
         "mmi": 2.774,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 227,
+        "sig": 229,
         "net": "ak",
         "code": "022fo7wvld",
         "ids": ",ak022fo7wvld,us6000j7mv,",
@@ -175,17 +215,17 @@
         "mag": 3.59,
         "place": "13km SE of Bodfish, CA",
         "time": 1670422402690,
-        "updated": 1670431766271,
+        "updated": 1670435637634,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40142983",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40142983.geojson",
-        "felt": 56,
+        "felt": 59,
         "cdi": 3.8,
         "mmi": 3.849,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 220,
+        "sig": 221,
         "net": "ci",
         "code": "40142983",
         "ids": ",ci40142983,",
@@ -208,6 +248,46 @@
         ]
       },
       "id": "ci40142983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "243 km E of Attu Station, Alaska",
+        "time": 1670420089770,
+        "updated": 1670433631316,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022fo67cgd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022fo67cgd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "022fo67cgd",
+        "ids": ",ak022fo67cgd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.51,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 243 km E of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7869,
+          52.7086,
+          49.8
+        ]
+      },
+      "id": "ak022fo67cgd"
     },
     {
       "type": "Feature",
@@ -288,6 +368,46 @@
         ]
       },
       "id": "us6000j7l2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "118 km SSE of Chignik, Alaska",
+        "time": 1670414092683,
+        "updated": 1670433381529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022fo54wi5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022fo54wi5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022fo54wi5",
+        "ids": ",us6000j7kx,ak022fo54wi5,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 118 km SSE of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.5405,
+          55.3458,
+          5
+        ]
+      },
+      "id": "ak022fo54wi5"
     },
     {
       "type": "Feature",
@@ -775,17 +895,17 @@
         "mag": 2.47,
         "place": "3 km E of Kimmswick, Missouri",
         "time": 1670380360780,
-        "updated": 1670432333272,
+        "updated": 1670435838044,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60501696",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60501696.geojson",
-        "felt": 260,
+        "felt": 265,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 203,
         "net": "nm",
         "code": "60501696",
         "ids": ",nm60501696,us6000j7i4,",
@@ -1368,53 +1488,13 @@
         ]
       },
       "id": "hv73262252"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Fiji region",
-        "time": 1670349324488,
-        "updated": 1670357526040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7eq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7eq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000j7eq",
-        "ids": ",us6000j7eq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 83,
-        "dmin": 3.158,
-        "rms": 1.15,
-        "gap": 48,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.6741,
-          -19.0186,
-          412.846
-        ]
-      },
-      "id": "us6000j7eq"
     }
   ],
   "bbox": [
     -179.5253,
     -60.9204,
     -0.46,
-    166.5779,
+    176.7869,
     71.5328,
     586.275
   ]
