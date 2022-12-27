@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672149586000,
+    "generated": 1672153189000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.98,
+        "place": "17km NNE of Lucerne Valley, CA",
+        "time": 1672152646760,
+        "updated": 1672153077567,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40150599",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40150599.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "ci",
+        "code": "40150599",
+        "ids": ",ci40150599,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 124,
+        "dmin": 0.1377,
+        "rms": 0.14,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 17km NNE of Lucerne Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8891678,
+          34.5796661,
+          1.06
+        ]
+      },
+      "id": "ci40150599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.16,
+        "place": "14 km S of Fern Forest, Hawaii",
+        "time": 1672151603310,
+        "updated": 1672152950640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73284662",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73284662.geojson",
+        "felt": 22,
+        "cdi": 3.2,
+        "mmi": 4.04,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 161,
+        "net": "hv",
+        "code": "73284662",
+        "ids": ",hv73284662,us6000jbz6,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 41,
+        "dmin": null,
+        "rms": 0.189999998,
+        "gap": 124,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 14 km S of Fern Forest, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.117004394531,
+          19.3351669311523,
+          2.15000009536743
+        ]
+      },
+      "id": "hv73284662"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Banda Sea",
+        "place": "224 km W of Tual, Indonesia",
         "time": 1672128044558,
         "updated": 1672129133040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Banda Sea"
+        "title": "M 5.0 - 224 km W of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -775,12 +855,12 @@
         "mag": 2.45000005,
         "place": "10 km S of Pāhala, Hawaii",
         "time": 1672104350360,
-        "updated": 1672104737040,
+        "updated": 1672152553129,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73284187",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73284187.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -788,9 +868,9 @@
         "sig": 92,
         "net": "hv",
         "code": "73284187",
-        "ids": ",us6000jbw2,hv73284187,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv73284187,us6000jbw2,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 33,
         "dmin": null,
         "rms": 0.270000011,
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "177 km WSW of Bandar Lampung, Indonesia",
+        "place": "southwest of Sumatra, Indonesia",
         "time": 1672098491169,
         "updated": 1672100113040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 181,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 177 km WSW of Bandar Lampung, Indonesia"
+        "title": "M 4.7 - southwest of Sumatra, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1488,46 +1568,6 @@
         ]
       },
       "id": "us6000jbt6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Peru-Bolivia border region",
-        "time": 1672065007119,
-        "updated": 1672065763040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbsy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbsy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000jbsy",
-        "ids": ",us6000jbsy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.225,
-        "rms": 0.45,
-        "gap": 189,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Peru-Bolivia border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.713,
-          -17.622,
-          167.538
-        ]
-      },
-      "id": "us6000jbsy"
     }
   ],
   "bbox": [
