@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672343994000,
+    "generated": 1672347589000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 29
   },
   "features": [
     {
@@ -452,10 +452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48,
+        "mag": 2.83,
         "place": "15 km S of Fern Forest, Hawaii",
-        "time": 1672309338020,
-        "updated": 1672310398040,
+        "time": 1672309338190,
+        "updated": 1672345080870,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73286307",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73286307.geojson",
@@ -463,28 +463,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 123,
         "net": "hv",
         "code": "73286307",
         "ids": ",us7000j0tc,hv73286307,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 15,
+        "nst": 31,
         "dmin": null,
-        "rms": 0.25,
-        "gap": 146,
+        "rms": 0.1,
+        "gap": 104,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 15 km S of Fern Forest, Hawaii"
+        "title": "M 2.8 - 15 km S of Fern Forest, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.143493652344,
-          19.3295001983643,
-          0.550000011920929
+          -155.133666666667,
+          19.3288333333333,
+          2.67
         ]
       },
       "id": "hv73286307"
@@ -492,42 +492,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "16 km S of Fern Forest, Hawaii",
-        "time": 1672309315031,
-        "updated": 1672310145040,
+        "mag": 2.54,
+        "place": "15 km S of Fern Forest, Hawaii",
+        "time": 1672309315380,
+        "updated": 1672344472470,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j0ta",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j0ta.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73286302",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73286302.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000j0ta",
-        "ids": ",us7000j0ta,",
-        "sources": ",us,",
+        "sig": 99,
+        "net": "hv",
+        "code": "73286302",
+        "ids": ",us7000j0ta,hv73286302,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.03,
-        "rms": 0.14,
-        "gap": 158,
+        "nst": 31,
+        "dmin": null,
+        "rms": 0.1,
+        "gap": 112,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 16 km S of Fern Forest, Hawaii"
+        "title": "M 2.5 - 15 km S of Fern Forest, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.1177,
-          19.3142,
-          10.633
+          -155.128166666667,
+          19.329,
+          5.82
         ]
       },
-      "id": "us7000j0ta"
+      "id": "hv73286302"
     },
     {
       "type": "Feature",
@@ -535,12 +535,12 @@
         "mag": 2.5,
         "place": "55 km WNW of Tatitlek, Alaska",
         "time": 1672301713189,
-        "updated": 1672317581040,
+        "updated": 1672346890259,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gogxouu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gogxouu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -548,9 +548,9 @@
         "sig": 96,
         "net": "ak",
         "code": "022gogxouu",
-        "ids": ",us7000j0sw,ak022gogxouu,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak022gogxouu,us7000j0sw,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.68,
@@ -1168,134 +1168,14 @@
         ]
       },
       "id": "us7000j0ps"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "10 km WSW of Ovalle, Chile",
-        "time": 1672259889152,
-        "updated": 1672260649040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j0pf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j0pf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000j0pf",
-        "ids": ",us7000j0pf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.294,
-        "rms": 1.12,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 10 km WSW of Ovalle, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.2959,
-          -30.6459,
-          57.383
-        ]
-      },
-      "id": "us7000j0pf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "13 km WSW of Big Lake, Alaska",
-        "time": 1672259852793,
-        "updated": 1672265636852,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gn0oaxr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gn0oaxr.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "022gn0oaxr",
-        "ids": ",ak022gn0oaxr,us7000j0pe,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 13 km WSW of Big Lake, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1689,
-          61.4598,
-          16.5
-        ]
-      },
-      "id": "ak022gn0oaxr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "2 km SSE of Monte Grande, Puerto Rico",
-        "time": 1672257752080,
-        "updated": 1672258672060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71389428",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71389428.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "pr",
-        "code": "71389428",
-        "ids": ",pr71389428,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.0447,
-        "rms": 0.12,
-        "gap": 126,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km SSE of Monte Grande, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1023333333333,
-          18.0651666666667,
-          19.24
-        ]
-      },
-      "id": "pr71389428"
     }
   ],
   "bbox": [
     -177.5466,
-    -30.6459,
+    -23.5885,
     0,
     169.3023,
-    61.4598,
+    60.9836,
     623.671
   ]
 }
