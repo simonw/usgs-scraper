@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672423195000,
+    "generated": 1672426795000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "Puerto Rico region",
+        "time": 1672426164000,
+        "updated": 1672426703589,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt22364050",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt22364050.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "pt",
+        "code": "22364050",
+        "ids": ",pt22364050,",
+        "sources": ",pt,",
+        "types": ",dyfi,origin,",
+        "nst": 27,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "Ml",
+        "type": "earthquake",
+        "title": "M 4.1 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.122,
+          18.641,
+          116
+        ]
+      },
+      "id": "pt22364050"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.11,
         "place": "7 km E of Pāhala, Hawaii",
         "time": 1672422589480,
-        "updated": 1672422987457,
+        "updated": 1672424172076,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73287947",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73287947.geojson",
-        "felt": 2,
+        "felt": 7,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 149,
+        "sig": 151,
         "net": "hv",
         "code": "73287947",
         "ids": ",hv73287947,",
@@ -652,6 +692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.47,
+        "place": "Puerto Rico",
+        "time": 1672372129260,
+        "updated": 1672423488730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71389673",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71389673.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "pr",
+        "code": "71389673",
+        "ids": ",pr71389673,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.05625,
+        "rms": 0.12,
+        "gap": 212,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9585,
+          17.9418333333333,
+          9.77
+        ]
+      },
+      "id": "pr71389673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "Atacama, Chile",
         "time": 1672364958893,
@@ -1128,46 +1208,6 @@
         ]
       },
       "id": "ak022gonjn3o"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "3 km WSW of Fuig, Puerto Rico",
-        "time": 1672338878330,
-        "updated": 1672350046040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71389588",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71389588.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "pr",
-        "code": "71389588",
-        "ids": ",us7000j0w1,pr71389588,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.03534,
-        "rms": 0.21,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9448333333333,
-          17.9801666666667,
-          9.73
-        ]
-      },
-      "id": "pr71389588"
     }
   ],
   "bbox": [
