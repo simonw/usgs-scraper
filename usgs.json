@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672585197000,
+    "generated": 1672588805000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "43 km NW of Beluga, Alaska",
+        "time": 1672587953250,
+        "updated": 1672588150777,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231wqlwd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231wqlwd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0231wqlwd",
+        "ids": ",ak0231wqlwd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 43 km NW of Beluga, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5625,
+          61.4574,
+          96.3
+        ]
+      },
+      "id": "ak0231wqlwd"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 4.4,
         "place": "10 km WNW of Claveria, Philippines",
         "time": 1672569305609,
-        "updated": 1672572442040,
+        "updated": 1672585588272,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j1eg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j1eg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "7000j1eg",
         "ids": ",us7000j1eg,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 37,
         "dmin": 4.153,
         "rms": 0.35,
@@ -375,17 +415,17 @@
         "mag": 4.04,
         "place": "9km NW of Pinnacles, CA",
         "time": 1672555750190,
-        "updated": 1672579071015,
+        "updated": 1672588607778,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73827436",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73827436.geojson",
-        "felt": 247,
+        "felt": 253,
         "cdi": 4.1,
         "mmi": 4.36,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 352,
+        "sig": 355,
         "net": "nc",
         "code": "73827436",
         "ids": ",ew1672555750,nc73827436,us7000j1cv,",
@@ -968,90 +1008,10 @@
         ]
       },
       "id": "us7000j1a0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "20 km SSW of La Esperanza (El Zapotal), Mexico",
-        "time": 1672501135856,
-        "updated": 1672502115040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j19l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j19l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000j19l",
-        "ids": ",us7000j19l,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 2.479,
-        "rms": 0.81,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 20 km SSW of La Esperanza (El Zapotal), Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.2399,
-          15.2819,
-          97.789
-        ]
-      },
-      "id": "us7000j19l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "88 km SE of Hihifo, Tonga",
-        "time": 1672499435127,
-        "updated": 1672500772040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j19e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j19e.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000j19e",
-        "ids": ",us7000j19e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 3.492,
-        "rms": 0.68,
-        "gap": 165,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 88 km SE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.1833,
-          -16.4956,
-          10
-        ]
-      },
-      "id": "us7000j19e"
     }
   ],
   "bbox": [
-    -173.1833,
+    -151.5625,
     -58.8341,
     0,
     155.1723,
