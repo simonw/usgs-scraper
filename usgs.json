@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673182989000,
+    "generated": 1673186411000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,25 +12,65 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "17 km WSW of Port-Olry, Vanuatu",
+        "time": 1673184270153,
+        "updated": 1673186340040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j2ze",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j2ze.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000j2ze",
+        "ids": ",us7000j2ze,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 5.968,
+        "rms": 0.53,
+        "gap": 63,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 17 km WSW of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.9271,
+          -15.1082,
+          35
+        ]
+      },
+      "id": "us7000j2ze"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 7,
         "place": "23 km WNW of Port-Olry, Vanuatu",
         "time": 1673181162219,
-        "updated": 1673182922169,
+        "updated": 1673186378726,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j2yw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j2yw.geojson",
-        "felt": 6,
+        "felt": 12,
         "cdi": 8.1,
         "mmi": 7.172,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 759,
+        "sig": 764,
         "net": "us",
         "code": "7000j2yw",
         "ids": ",at00ro62ul,us7000j2yw,pt23008051,",
         "sources": ",at,us,pt,",
-        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 111,
         "dmin": 6.103,
         "rms": 0.59,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000j2t9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "15km WNW of Laytonville, CA",
-        "time": 1673097865830,
-        "updated": 1673141899582,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73829671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73829671.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "73829671",
-        "ids": ",nc73829671,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.1144,
-        "rms": 0.11,
-        "gap": 143,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 15km WNW of Laytonville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.6413345,
-          39.7366676,
-          0.38
-        ]
-      },
-      "id": "nc73829671"
     }
   ],
   "bbox": [
