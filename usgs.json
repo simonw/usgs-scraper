@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673546407000,
+    "generated": 1673550012000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Halmahera, Indonesia",
+        "time": 1673544943074,
+        "updated": 1673549645040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3ys",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3ys.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000j3ys",
+        "ids": ",us7000j3ys,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.674,
+        "rms": 0.5,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Halmahera, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3134,
+          2.1619,
+          165.729
+        ]
+      },
+      "id": "us7000j3ys"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "south of the Fiji Islands",
         "time": 1673540931299,
-        "updated": 1673542354385,
+        "updated": 1673548361114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3xh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3xh.geojson",
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "153 km SE of Perryville, Alaska",
-        "time": 1673535923721,
-        "updated": 1673536099104,
+        "mag": 2.7,
+        "place": "190 km SE of Perryville, Alaska",
+        "time": 1673535923588,
+        "updated": 1673548703482,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023k3eses",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023k3eses.geojson",
@@ -103,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 112,
         "net": "ak",
         "code": "023k3eses",
-        "ids": ",ak023k3eses,",
-        "sources": ",ak,",
+        "ids": ",us7000j3x5,ak023k3eses,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.37,
+        "rms": 0.56,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 153 km SE of Perryville, Alaska"
+        "title": "M 2.7 - 190 km SE of Perryville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -157.3589,
-          54.9814,
-          0
+          -156.8943,
+          54.7757,
+          31.6
         ]
       },
       "id": "ak023k3eses"
@@ -132,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.9,
+        "place": "197 km SE of Perryville, Alaska",
+        "time": 1673535890000,
+        "updated": 1673549235040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3z0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3z0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000j3z0",
+        "ids": ",us7000j3z0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 0,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 197 km SE of Perryville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.86,
+          54.71,
+          10
+        ]
+      },
+      "id": "us7000j3z0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "19km S of Trona, CA",
-        "time": 1673533636120,
-        "updated": 1673534288920,
+        "time": 1673533636560,
+        "updated": 1673547034572,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40402032",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40402032.geojson",
@@ -143,7 +223,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "ci",
@@ -151,10 +231,10 @@
         "ids": ",ci40402032,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.06677,
-        "rms": 0.16,
-        "gap": 78,
+        "nst": 32,
+        "dmin": 0.0687,
+        "rms": 0.11,
+        "gap": 77,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 19km S of Trona, CA"
@@ -162,9 +242,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3776667,
-          35.591,
-          0.18
+          -117.3818333,
+          35.5923333,
+          6.82
         ]
       },
       "id": "ci40402032"
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "215 km S of ‘Ohonua, Tonga",
+        "place": "Tonga region",
         "time": 1673526513653,
         "updated": 1673527706040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 87,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 215 km S of ‘Ohonua, Tonga"
+        "title": "M 5.3 - Tonga region"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "54 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1673522969300,
         "updated": 1673537963348,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 54 km S of Whites City, New Mexico"
+        "title": "M 2.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "Tonga region",
+        "place": "211 km S of ‘Ohonua, Tonga",
         "time": 1673521915714,
         "updated": 1673523104040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 120,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Tonga region"
+        "title": "M 5.3 - 211 km S of ‘Ohonua, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Tonga region",
+        "place": "225 km S of ‘Ohonua, Tonga",
         "time": 1673511079936,
         "updated": 1673512364040,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Tonga region"
+        "title": "M 4.8 - 225 km S of ‘Ohonua, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -655,17 +735,17 @@
         "mag": 2.64,
         "place": "4 km E of Burgin, Kentucky",
         "time": 1673510847610,
-        "updated": 1673546337449,
+        "updated": 1673547637118,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60500283",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60500283.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 108,
+        "sig": 109,
         "net": "se",
         "code": "60500283",
         "ids": ",se60500283,",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "Near the coast of Coquimbo, Chile",
+        "place": "4 km SW of Ovalle, Chile",
         "time": 1673504351474,
         "updated": 1673536829019,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 41,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - Near the coast of Coquimbo, Chile"
+        "title": "M 5.5 - 4 km SW of Ovalle, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.82,
-        "place": "Puerto Rico region",
+        "place": "3 km W of Miranda, Puerto Rico",
         "time": 1673490748840,
         "updated": 1673493505050,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 193,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
+        "title": "M 2.8 - 3 km W of Miranda, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.01,
-        "place": "6 km ENE of La Romana, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1673472082090,
         "updated": 1673477140185,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 160,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.0 - 6 km ENE of La Romana, Dominican Republic"
+        "title": "M 4.0 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.05,
-        "place": "Puerto Rico region",
+        "place": "44 km NW of San Antonio, Puerto Rico",
         "time": 1673470722710,
         "updated": 1673473537710,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 278,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
+        "title": "M 3.1 - 44 km NW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1208,54 +1288,14 @@
         ]
       },
       "id": "tx2023attf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "6km SW of Idyllwild, CA",
-        "time": 1673463560030,
-        "updated": 1673529639797,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40401704",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40401704.geojson",
-        "felt": 182,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 230,
-        "net": "ci",
-        "code": "40401704",
-        "ids": ",ci40401704,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 123,
-        "dmin": 0.04091,
-        "rms": 0.19,
-        "gap": 14,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 6km SW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7613333,
-          33.6998333,
-          15.82
-        ]
-      },
-      "id": "ci40401704"
     }
   ],
   "bbox": [
     -178.6425,
     -55.381,
-    0,
+    6.131567383,
     179.7517,
-    54.9814,
+    54.7757,
     624.212
   ]
 }
