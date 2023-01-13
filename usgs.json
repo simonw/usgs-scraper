@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673589626000,
+    "generated": 1673593213000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "9 km E of Pāhala, Hawaii",
+        "time": 1673591200720,
+        "updated": 1673591531450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73302572",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73302572.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "hv",
+        "code": "73302572",
+        "ids": ",hv73302572,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": null,
+        "rms": 0.140000001,
+        "gap": 157,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 9 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.391159057617,
+          19.2096672058105,
+          32.4099998474121
+        ]
+      },
+      "id": "hv73302572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "8 km E of Pāhala, Hawaii",
+        "time": 1673590285550,
+        "updated": 1673591929819,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73302552",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73302552.geojson",
+        "felt": 16,
+        "cdi": 4.1,
+        "mmi": 3.758,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "hv",
+        "code": "73302552",
+        "ids": ",hv73302552,us7000j42q,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 57,
+        "dmin": null,
+        "rms": 0.14,
+        "gap": 157,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 8 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.397333333333,
+          19.205,
+          30.75
+        ]
+      },
+      "id": "hv73302552"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
         "place": "34 km SE of Calingasta, Argentina",
         "time": 1673583443055,
-        "updated": 1673584724040,
+        "updated": 1673591253546,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j420",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j420.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "7000j420",
         "ids": ",us7000j420,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.443,
         "rms": 0.81,
@@ -1168,46 +1248,6 @@
         ]
       },
       "id": "se60500283"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Near the coast of Coquimbo, Chile",
-        "time": 1673504351474,
-        "updated": 1673536829019,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3ty",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3ty.geojson",
-        "felt": 20,
-        "cdi": 4.9,
-        "mmi": 4.515,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 475,
-        "net": "us",
-        "code": "7000j3ty",
-        "ids": ",us7000j3ty,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 93,
-        "dmin": 0.352,
-        "rms": 0.77,
-        "gap": 41,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - Near the coast of Coquimbo, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.2294,
-          -30.636,
-          56.702
-        ]
-      },
-      "id": "us7000j3ty"
     }
   ],
   "bbox": [
