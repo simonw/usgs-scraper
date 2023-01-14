@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673704825000,
+    "generated": 1673708407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "18km WNW of Santa Barbara Is., CA",
+        "time": 1673707677810,
+        "updated": 1673707898831,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40402544",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40402544.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ci",
+        "code": "40402544",
+        "ids": ",ci40402544,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.5791,
+        "rms": 0.23,
+        "gap": 309,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 18km WNW of Santa Barbara Is., CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2338333,
+          33.5461667,
+          1
+        ]
+      },
+      "id": "ci40402544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "56 km W of Port-Olry, Vanuatu",
+        "time": 1673706687236,
+        "updated": 1673707870040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4e1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4e1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000j4e1",
+        "ids": ",us7000j4e1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 8.533,
+        "rms": 0.79,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 56 km W of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.5451,
+          -15.0637,
+          10
+        ]
+      },
+      "id": "us7000j4e1"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.2,
         "place": "33 km SSW of Kastrí, Greece",
         "time": 1673700189389,
-        "updated": 1673703152040,
+        "updated": 1673706054736,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4dn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4dn.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "7000j4dn",
         "ids": ",us7000j4dn,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 53,
         "dmin": 3.062,
         "rms": 0.7,
@@ -335,17 +415,17 @@
         "mag": 3.3,
         "place": "6 km ESE of Dedham, Maine",
         "time": 1673677642078,
-        "updated": 1673704726032,
+        "updated": 1673707975125,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4c9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4c9.geojson",
-        "felt": 92,
+        "felt": 101,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 209,
+        "sig": 213,
         "net": "us",
         "code": "7000j4c9",
         "ids": ",us7000j4c9,",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "Puerto Rico region",
+        "place": "1 km NNE of Maria Antonia, Puerto Rico",
         "time": 1673669025150,
         "updated": 1673669866560,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 105,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 1 km NNE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1213,8 +1293,8 @@
   "bbox": [
     -179.7264,
     -37.3547,
-    3.21,
-    149.3575,
+    1,
+    166.5451,
     58.1546,
     529.543
   ]
