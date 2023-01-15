@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673802015000,
+    "generated": 1673805632000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "75 km NE of Levuka, Fiji",
+        "time": 1673804207018,
+        "updated": 1673805367040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4js",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4js.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000j4js",
+        "ids": ",us7000j4js,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 1.744,
+        "rms": 0.87,
+        "gap": 52,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 75 km NE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.8797,
+          -17.6557,
+          609.975
+        ]
+      },
+      "id": "us7000j4js"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "south of the Fiji Islands",
+        "time": 1673802578409,
+        "updated": 1673803688040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4jq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4jq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000j4jq",
+        "ids": ",us7000j4jq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 63,
+        "dmin": 5.463,
+        "rms": 0.82,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.1899,
+          -22.8473,
+          573.36
+        ]
+      },
+      "id": "us7000j4jq"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "33 km WSW of Womens Bay, Alaska",
         "time": 1673801822957,
-        "updated": 1673801971238,
+        "updated": 1673805110376,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023p2xd4w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023p2xd4w.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +108,9 @@
         "sig": 168,
         "net": "ak",
         "code": "023p2xd4w",
-        "ids": ",ak023p2xd4w,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak023p2xd4w,us7000j4jp,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.48,
@@ -53,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Hokkaido, Japan region",
+        "place": "93 km E of Mutsu, Japan",
         "time": 1673799927570,
         "updated": 1673801640040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Hokkaido, Japan region"
+        "title": "M 4.9 - 93 km E of Mutsu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Santa Cruz Islands",
+        "place": "96 km SE of Lata, Solomon Islands",
         "time": 1673769099185,
         "updated": 1673770649040,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Santa Cruz Islands"
+        "title": "M 4.7 - 96 km SE of Lata, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1095,17 +1175,17 @@
         "mag": 3.28,
         "place": "5 km NW of Pāhala, Hawaii",
         "time": 1673746120000,
-        "updated": 1673767065779,
+        "updated": 1673803013351,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73303932",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73303932.geojson",
-        "felt": 20,
+        "felt": 21,
         "cdi": 3.4,
         "mmi": 3.669,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 172,
+        "sig": 173,
         "net": "hv",
         "code": "73303932",
         "ids": ",hv73303932,us7000j4g7,",
@@ -1448,54 +1528,14 @@
         ]
       },
       "id": "us7000j4es"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "34 km WSW of Mentone, Texas",
-        "time": 1673718946692,
-        "updated": 1673723717040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4ep",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4ep.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000j4ep",
-        "ids": ",us7000j4ep,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.033,
-        "rms": 0.53,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 34 km WSW of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.9476,
-          31.6109,
-          7.505
-        ]
-      },
-      "id": "us7000j4ep"
     }
   ],
   "bbox": [
     -164.1066,
-    -17.9034,
+    -22.8473,
     4.6,
-    168.4539,
+    179.8797,
     61.6343,
-    396.19
+    609.975
   ]
 }
