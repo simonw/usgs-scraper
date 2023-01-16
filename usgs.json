@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673838020000,
+    "generated": 1673841632000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.68,
+        "place": "10km WSW of Toms Place, CA",
+        "time": 1673840617950,
+        "updated": 1673841197530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73832651",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73832651.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "nc",
+        "code": "73832651",
+        "ids": ",nc73832651,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.0744,
+        "rms": 0.05,
+        "gap": 162,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 10km WSW of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7873306,
+          37.5233345,
+          6.13
+        ]
+      },
+      "id": "nc73832651"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +95,22 @@
         "mag": 2.68,
         "place": "10 km S of Indios, Puerto Rico",
         "time": 1673832289440,
-        "updated": 1673835739530,
+        "updated": 1673838563322,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71392848",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71392848.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 111,
         "net": "pr",
         "code": "71392848",
         "ids": ",pr71392848,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 0.09215,
         "rms": 0.2,
@@ -255,17 +295,17 @@
         "mag": 3.38,
         "place": "21km ENE of Le Grand, CA",
         "time": 1673823095920,
-        "updated": 1673837875249,
+        "updated": 1673841247137,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73832526",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73832526.geojson",
-        "felt": 187,
-        "cdi": 3.8,
+        "felt": 193,
+        "cdi": 4.8,
         "mmi": 3.256,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 247,
+        "sig": 268,
         "net": "nc",
         "code": "73832526",
         "ids": ",nc73832526,us7000j4la,",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us7000j4gk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "14 km NE of Doğanyol, Turkey",
-        "time": 1673753788193,
-        "updated": 1673810449543,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4gh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4gh.geojson",
-        "felt": 5,
-        "cdi": 4.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 342,
-        "net": "us",
-        "code": "7000j4gh",
-        "ids": ",us7000j4gh,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 63,
-        "dmin": 0.917,
-        "rms": 0.88,
-        "gap": 65,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 14 km NE of Doğanyol, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          39.1302,
-          38.4173,
-          10
-        ]
-      },
-      "id": "us7000j4gh"
     }
   ],
   "bbox": [
