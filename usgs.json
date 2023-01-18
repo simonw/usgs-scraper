@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674035995000,
+    "generated": 1674039643000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "Turkey-Iran border region",
+        "time": 1674036492816,
+        "updated": 1674039117737,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j56z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j56z.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": 7.223,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 651,
+        "net": "us",
+        "code": "7000j56z",
+        "ids": ",us7000j56z,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": 159,
+        "dmin": 1.478,
+        "rms": 0.86,
+        "gap": 59,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - Turkey-Iran border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9348,
+          38.4114,
+          10
+        ]
+      },
+      "id": "us7000j56z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Molucca Sea",
+        "time": 1674034747545,
+        "updated": 1674039245040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j56y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j56y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000j56y",
+        "ids": ",us7000j56y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 1.935,
+        "rms": 0.58,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Molucca Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9773,
+          2.6799,
+          71.166
+        ]
+      },
+      "id": "us7000j56y"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.53,
         "place": "18 km E of Naalehu, Hawaii",
         "time": 1674032945480,
-        "updated": 1674033277150,
+        "updated": 1674038924040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73306517",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73306517.geojson",
@@ -28,8 +108,8 @@
         "sig": 98,
         "net": "hv",
         "code": "73306517",
-        "ids": ",hv73306517,",
-        "sources": ",hv,",
+        "ids": ",us7000j56v,hv73306517,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 50,
         "dmin": null,
@@ -55,7 +135,7 @@
         "mag": 5.5,
         "place": "143 km NW of Tobelo, Indonesia",
         "time": 1674028886730,
-        "updated": 1674030817357,
+        "updated": 1674036292040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j56g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j56g.geojson",
@@ -1608,46 +1688,6 @@
         ]
       },
       "id": "ak023sasjvo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "48 km ESE of Port Alsworth, Alaska",
-        "time": 1673951729924,
-        "updated": 1673951840088,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023saaswd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023saaswd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "023saaswd",
-        "ids": ",ak023saaswd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.46,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 48 km ESE of Port Alsworth, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.4663,
-          60.1071,
-          175.3
-        ]
-      },
-      "id": "ak023saaswd"
     }
   ],
   "bbox": [
@@ -1656,6 +1696,6 @@
     1.407245874,
     178.6992,
     63.0486,
-    175.3
+    157.862
   ]
 }
