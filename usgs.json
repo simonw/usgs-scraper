@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674005228000,
+    "generated": 1674008574000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.6,
         "place": "34 km NE of Mercedes, Philippines",
         "time": 1674003396983,
-        "updated": 1674005220040,
+        "updated": 1674005288067,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j52g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j52g.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000j52g",
         "ids": ",us7000j52g,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 9.249,
         "rms": 0.66,
@@ -52,39 +52,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.1,
-        "place": "65 km SSE of Gorontalo, Indonesia",
-        "time": 1674002083559,
-        "updated": 1674005066889,
+        "mag": 6,
+        "place": "61 km SSE of Gorontalo, Indonesia",
+        "time": 1674002084767,
+        "updated": 1674006504987,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j511.geojson",
         "felt": 1,
         "cdi": 3.8,
-        "mmi": 4.24,
+        "mmi": 4.137,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 573,
+        "sig": 554,
         "net": "us",
         "code": "7000j511",
         "ids": ",us7000j511,",
         "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 60,
-        "dmin": 4.266,
-        "rms": 0.62,
-        "gap": 45,
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 130,
+        "dmin": 1.113,
+        "rms": 0.95,
+        "gap": 18,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - 65 km SSE of Gorontalo, Indonesia"
+        "title": "M 6.0 - 61 km SSE of Gorontalo, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.1784,
-          -0.0461,
-          147.066
+          123.1832,
+          -0.0007,
+          152.529
         ]
       },
       "id": "us7000j511"
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "57 km SW of Jiquilisco, El Salvador",
+        "place": "off the coast of Central America",
         "time": 1674001204413,
         "updated": 1674002356040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 188,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 57 km SW of Jiquilisco, El Salvador"
+        "title": "M 4.1 - off the coast of Central America"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.89,
-        "place": "Oklahoma",
+        "place": "5 km E of Hennessey, Oklahoma",
         "time": 1674001035022,
         "updated": 1674001676676,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 29.91387939,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Oklahoma"
+        "title": "M 2.9 - 5 km E of Hennessey, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Mindanao, Philippines",
+        "place": "13 km SW of Pondaguitan, Philippines",
         "time": 1673993111580,
         "updated": 1673994351040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 118,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Mindanao, Philippines"
+        "title": "M 4.5 - 13 km SW of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Atacama, Chile",
+        "place": "121 km ENE of Diego de Almagro, Chile",
         "time": 1673982513087,
         "updated": 1673986525040,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Atacama, Chile"
+        "title": "M 4.3 - 121 km ENE of Diego de Almagro, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Antofagasta, Chile",
+        "place": "96 km NNE of Taltal, Chile",
         "time": 1673978742309,
         "updated": 1673980552040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Antofagasta, Chile"
+        "title": "M 4.4 - 96 km NNE of Taltal, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "northern Iran",
+        "place": "14 km S of Jūybār, Iran",
         "time": 1673977386181,
         "updated": 1674005156432,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 153,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - northern Iran"
+        "title": "M 4.5 - 14 km S of Jūybār, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.67,
-        "place": "50 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1673964753380,
         "updated": 1673966696040,
         "tz": null,
@@ -837,7 +837,7 @@
         "gap": 274,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 50 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 2.7 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Off the coast of Araucania, Chile",
+        "place": "69 km SW of Cañete, Chile",
         "time": 1673956406414,
         "updated": 1673961128040,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 160,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Off the coast of Araucania, Chile"
+        "title": "M 4.4 - 69 km SW of Cañete, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Acre, Brazil",
+        "place": "63 km W of Tarauacá, Brazil",
         "time": 1673949565642,
         "updated": 1673951079040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Acre, Brazil"
+        "title": "M 4.3 - 63 km W of Tarauacá, Brazil"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "119 km NE of Hihifo, Tonga",
+        "place": "Samoa Islands region",
         "time": 1673948328034,
         "updated": 1673950164040,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 119,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 119 km NE of Hihifo, Tonga"
+        "title": "M 4.9 - Samoa Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "14 km SSW of Pole Ojea, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1673942868550,
         "updated": 1673944092130,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 287,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 14 km SSW of Pole Ojea, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1455,7 +1455,7 @@
         "mag": 4.4,
         "place": "Southeastern Alaska",
         "time": 1673930895283,
-        "updated": 1673977677049,
+        "updated": 1674008370040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023s6syd5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023s6syd5.geojson",
@@ -1468,8 +1468,8 @@
         "sig": 301,
         "net": "ak",
         "code": "023s6syd5",
-        "ids": ",ak023s6syd5,at00rom5cf,",
-        "sources": ",ak,at,",
+        "ids": ",ak023s6syd5,at00rom5cf,us7000j4u3,",
+        "sources": ",ak,at,us,",
         "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
@@ -1492,10 +1492,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "135 km SSW of Dampit, Indonesia",
-        "time": 1673930171074,
-        "updated": 1673931182648,
+        "mag": 5.1,
+        "place": "96 km SSW of Dampit, Indonesia",
+        "time": 1673930172910,
+        "updated": 1674006916451,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4u0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4u0.geojson",
@@ -1505,26 +1505,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 355,
+        "sig": 401,
         "net": "us",
         "code": "7000j4u0",
         "ids": ",us7000j4u0,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.898,
-        "rms": 0.98,
-        "gap": 141,
+        "nst": 61,
+        "dmin": 1.711,
+        "rms": 1.05,
+        "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 135 km SSW of Dampit, Indonesia"
+        "title": "M 5.1 - 96 km SSW of Dampit, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          112.4785,
-          -9.4083,
-          35
+          112.5219,
+          -9.05,
+          67.045
         ]
       },
       "id": "us7000j4u0"
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.37,
-        "place": "37 km NNE of Culebra, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1673925551430,
         "updated": 1674002230040,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 232,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 37 km NNE of Culebra, Puerto Rico"
+        "title": "M 3.4 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1608,86 +1608,6 @@
         ]
       },
       "id": "us7000j4tp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "36 km ESE of Ambon, Indonesia",
-        "time": 1673921375487,
-        "updated": 1673999537040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4ti",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4ti.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000j4ti",
-        "ids": ",us7000j4ti,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 3.903,
-        "rms": 0.52,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 36 km ESE of Ambon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.458,
-          -3.8791,
-          124.627
-        ]
-      },
-      "id": "us7000j4ti"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "11km SSW of Rio Dell, CA",
-        "time": 1673920149000,
-        "updated": 1673999452040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73832996",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73832996.geojson",
-        "felt": 7,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "nc",
-        "code": "73832996",
-        "ids": ",nc73832996,us7000j4te,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.01981,
-        "rms": 0.11,
-        "gap": 60,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 11km SSW of Rio Dell, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.1363333,
-          40.4013333,
-          23.93
-        ]
-      },
-      "id": "nc73832996"
     }
   ],
   "bbox": [
