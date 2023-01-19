@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674165613000,
+    "generated": 1674169248000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "241 km SE of Chiniak, Alaska",
+        "time": 1674163281433,
+        "updated": 1674167908768,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023vru8lw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023vru8lw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "023vru8lw",
+        "ids": ",ak023vru8lw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.86,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 241 km SE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2261,
+          56.228,
+          5
+        ]
+      },
+      "id": "ak023vru8lw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak023vrfukt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "152 km NW of Tobelo, Indonesia",
+        "time": 1674160520484,
+        "updated": 1674168700040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5ls",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5ls.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000j5ls",
+        "ids": ",us7000j5ls,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 1.981,
+        "rms": 0.72,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 152 km NW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0847,
+          2.7461,
+          56.648
+        ]
+      },
+      "id": "us7000j5ls"
     },
     {
       "type": "Feature",
@@ -95,12 +175,12 @@
         "mag": 2.5,
         "place": "5km SSE of San Juan Bautista, CA",
         "time": 1674158974560,
-        "updated": 1674161770460,
+        "updated": 1674167097116,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834106",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834106.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -110,7 +190,7 @@
         "code": "73834106",
         "ids": ",nc73834106,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 40,
         "dmin": 0.02089,
         "rms": 0.18,
@@ -135,11 +215,11 @@
         "mag": 3.26,
         "place": "4km S of San Juan Bautista, CA",
         "time": 1674156101770,
-        "updated": 1674164464871,
+        "updated": 1674169158717,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834081",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834081.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
@@ -148,8 +228,8 @@
         "sig": 169,
         "net": "nc",
         "code": "73834081",
-        "ids": ",nc73834081,",
-        "sources": ",nc,",
+        "ids": ",nc73834081,us7000j5ld,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 57,
         "dmin": 0.02752,
@@ -168,6 +248,86 @@
         ]
       },
       "id": "nc73834081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "164 km NW of Tobelo, Indonesia",
+        "time": 1674154298143,
+        "updated": 1674167416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5kz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5kz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000j5kz",
+        "ids": ",us7000j5kz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.924,
+        "rms": 0.63,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 164 km NW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8351,
+          2.6331,
+          65.929
+        ]
+      },
+      "id": "us7000j5kz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "El Salvador",
+        "time": 1674152776494,
+        "updated": 1674167012040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5kw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5kw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000j5kw",
+        "ids": ",us7000j5kw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.178,
+        "rms": 1.21,
+        "gap": 204,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.9523,
+          13.841,
+          7.141
+        ]
+      },
+      "id": "us7000j5kw"
     },
     {
       "type": "Feature",
@@ -252,6 +412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "off the coast of Ecuador",
+        "time": 1674150225011,
+        "updated": 1674166600040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5kj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5kj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000j5kj",
+        "ids": ",us7000j5kj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 5.617,
+        "rms": 0.95,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - off the coast of Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.258,
+          1.146,
+          39.223
+        ]
+      },
+      "id": "us7000j5kj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.47,
         "place": "3km ESE of Grayson, CA",
         "time": 1674148595340,
@@ -295,21 +495,21 @@
         "mag": 3.56,
         "place": "4km S of San Juan Bautista, CA",
         "time": 1674148555930,
-        "updated": 1674164525272,
+        "updated": 1674168975110,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834041",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834041.geojson",
-        "felt": 204,
-        "cdi": 4.2,
+        "felt": 205,
+        "cdi": 4.3,
         "mmi": 4.11,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 281,
+        "sig": 283,
         "net": "nc",
         "code": "73834041",
-        "ids": ",nc73834041,",
-        "sources": ",nc,",
+        "ids": ",nc73834041,us7000j5kf,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 90,
         "dmin": 0.02379,
@@ -493,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "135 km N of Suárez, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1674140484830,
         "updated": 1674145130907,
         "tz": null,
@@ -517,7 +717,7 @@
         "gap": 285,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 135 km N of Suárez, Puerto Rico"
+        "title": "M 3.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1448,86 +1648,6 @@
         ]
       },
       "id": "us7000j5dk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.42,
-        "place": "16 km ESE of La Romana, Dominican Republic",
-        "time": 1674080289600,
-        "updated": 1674083084117,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023018000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023018000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 301,
-        "net": "pr",
-        "code": "2023018000",
-        "ids": ",us7000j5ct,pr2023018000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.4662,
-        "rms": 0.34,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.4 - 16 km ESE of La Romana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8271,
-          18.3773,
-          151
-        ]
-      },
-      "id": "pr2023018000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "49 km W of Manokwari, Indonesia",
-        "time": 1674079287838,
-        "updated": 1674083808040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5cr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5cr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000j5cr",
-        "ids": ",us7000j5cr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.454,
-        "rms": 0.47,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 49 km W of Manokwari, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          133.6173,
-          -0.8678,
-          35.541
-        ]
-      },
-      "id": "us7000j5cr"
     }
   ],
   "bbox": [
