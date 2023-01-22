@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674345652000,
+    "generated": 1674350808000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 70
+    "count": 71
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.58,
-        "place": "18km W of Cape Vizcaino, CA",
-        "time": 1674345535070,
-        "updated": 1674345632864,
+        "mag": 2.55,
+        "place": "6 km E of Hennessey, Oklahoma",
+        "time": 1674349489717,
+        "updated": 1674350321040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73835521",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73835521.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023bmls",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023bmls.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 100,
+        "net": "ok",
+        "code": "2023bmls",
+        "ids": ",us7000j65j,ok2023bmls,",
+        "sources": ",us,ok,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 0.1100522503,
+        "rms": 0.5920504624,
+        "gap": 35.72915649,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 6 km E of Hennessey, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83058167,
+          36.1103363,
+          2.052367449
+        ]
+      },
+      "id": "ok2023bmls"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "18km W of Cape Vizcaino, CA",
+        "time": 1674345535070,
+        "updated": 1674347367676,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73835521",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73835521.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
         "net": "nc",
         "code": "73835521",
         "ids": ",nc73835521,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.2875,
         "rms": 0.2,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73835521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "12 km SSE of La Parguera, Puerto Rico",
+        "time": 1674345143980,
+        "updated": 1674346470200,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71393758",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71393758.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "pr",
+        "code": "71393758",
+        "ids": ",pr71393758,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1064,
+        "rms": 0.15,
+        "gap": 263,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 12 km SSE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0093333333333,
+          17.8678333333333,
+          11.81
+        ]
+      },
+      "id": "pr71393758"
     },
     {
       "type": "Feature",
@@ -332,6 +412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "northern Sumatra, Indonesia",
+        "time": 1674329119793,
+        "updated": 1674348049040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j63x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j63x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000j63x",
+        "ids": ",us7000j63x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 2.014,
+        "rms": 0.78,
+        "gap": 169,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - northern Sumatra, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0354,
+          4.5702,
+          56.006
+        ]
+      },
+      "id": "us7000j63x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
         "place": "Reykjanes Ridge",
         "time": 1674328940669,
@@ -408,6 +528,46 @@
         ]
       },
       "id": "us7000j63w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "16 km S of Sector H Tres, Mexico",
+        "time": 1674327603269,
+        "updated": 1674346177875,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j656",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j656.geojson",
+        "felt": 2,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "7000j656",
+        "ids": ",us7000j656,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 24,
+        "dmin": 3.003,
+        "rms": 1.04,
+        "gap": 225,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 16 km S of Sector H Tres, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1666,
+          15.6225,
+          21.558
+        ]
+      },
+      "id": "us7000j656"
     },
     {
       "type": "Feature",
@@ -2688,126 +2848,6 @@
         ]
       },
       "id": "us7000j5zk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "159 km WNW of Tobelo, Indonesia",
-        "time": 1674263677030,
-        "updated": 1674271754040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5zi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5zi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000j5zi",
-        "ids": ",us7000j5zi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.791,
-        "rms": 0.51,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 159 km WNW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.7826,
-          2.4765,
-          43.449
-        ]
-      },
-      "id": "us7000j5zi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "1km ESE of Portola Valley, CA",
-        "time": 1674262549700,
-        "updated": 1674323490030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834856",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834856.geojson",
-        "felt": 111,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "nc",
-        "code": "73834856",
-        "ids": ",nc73834856,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 59,
-        "dmin": 0.02602,
-        "rms": 0.12,
-        "gap": 49,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 1km ESE of Portola Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2251663,
-          37.3800011,
-          6.55
-        ]
-      },
-      "id": "nc73834856"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "4 km W of Lucien, Oklahoma",
-        "time": 1674262220522,
-        "updated": 1674314784018,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023bkps",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023bkps.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ok",
-        "code": "2023bkps",
-        "ids": ",ok2023bkps,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.06787914038,
-        "rms": 0.5608945134,
-        "gap": 26.77935028,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km W of Lucien, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.50495911,
-          36.2809906,
-          1.931678534
-        ]
-      },
-      "id": "ok2023bkps"
     }
   ],
   "bbox": [
