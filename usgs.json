@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674378002000,
+    "generated": 1674381596000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 60
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "8km SE of Valle Vista, CA",
+        "time": 1674380325930,
+        "updated": 1674381489840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40404856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40404856.geojson",
+        "felt": 5,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "ci",
+        "code": "40404856",
+        "ids": ",ci40404856,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 94,
+        "dmin": 0.07568,
+        "rms": 0.21,
+        "gap": 18,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 8km SE of Valle Vista, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8216667,
+          33.7026667,
+          13.45
+        ]
+      },
+      "id": "ci40404856"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.49000001,
         "place": "southeastern Missouri",
         "time": 1674377609050,
-        "updated": 1674377861250,
+        "updated": 1674379592040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60507521",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60507521.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 4,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 97,
         "net": "nm",
         "code": "60507521",
-        "ids": ",nm60507521,",
-        "sources": ",nm,",
-        "types": ",origin,phase-data,",
+        "ids": ",nm60507521,us7000j676,",
+        "sources": ",nm,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 0.095,
         "rms": 0.270000011,
@@ -52,25 +92,105 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.59,
+        "place": "5 km WSW of Guánica, Puerto Rico",
+        "time": 1674377530530,
+        "updated": 1674380333360,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71393833",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71393833.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "pr",
+        "code": "71393833",
+        "ids": ",pr71393833,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.05228,
+        "rms": 0.11,
+        "gap": 206,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km WSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9586666666667,
+          17.9505,
+          9.56
+        ]
+      },
+      "id": "pr71393833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "near the north coast of New Guinea, Papua New Guinea",
+        "time": 1674376517993,
+        "updated": 1674378715040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j673",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j673.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000j673",
+        "ids": ",us7000j673,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 6.431,
+        "rms": 0.46,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - near the north coast of New Guinea, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1303,
+          -3.6832,
+          10
+        ]
+      },
+      "id": "us7000j673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.12,
         "place": "16 km E of Naalehu, Hawaii",
         "time": 1674376050600,
-        "updated": 1674376820670,
+        "updated": 1674380891341,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73309987",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73309987.geojson",
         "felt": 2,
         "cdi": 2.7,
-        "mmi": null,
+        "mmi": 3.053,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 150,
         "net": "hv",
         "code": "73309987",
-        "ids": ",hv73309987,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv73309987,us7000j66z,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 47,
         "dmin": null,
         "rms": 0.150000006,
@@ -1773,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "106 km NNE of Calama, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1674311872364,
         "updated": 1674319650040,
         "tz": null,
@@ -1797,7 +1917,7 @@
         "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.1 - 106 km NNE of Calama, Chile"
+        "title": "M 4.1 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -2288,46 +2408,6 @@
         ]
       },
       "id": "ak023yw8n23"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Molucca Sea",
-        "time": 1674293081305,
-        "updated": 1674294966040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j61s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j61s.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000j61s",
-        "ids": ",us7000j61s,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 2.032,
-        "rms": 0.68,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Molucca Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.097,
-          2.7991,
-          48.918
-        ]
-      },
-      "id": "us7000j61s"
     }
   ],
   "bbox": [
