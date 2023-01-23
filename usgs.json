@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674464397000,
+    "generated": 1674468007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3,
         "place": "23 km SW of Port Lions, Alaska",
         "time": 1674461437610,
-        "updated": 1674461663584,
+        "updated": 1674464629060,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231266o9d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231266o9d.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "0231266o9d",
         "ids": ",ak0231266o9d,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.43,
@@ -92,6 +92,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.52,
+        "place": "Puerto Rico",
+        "time": 1674460498660,
+        "updated": 1674466581589,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023023004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023023004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 191,
+        "net": "pr",
+        "code": "2023023004",
+        "ids": ",pr2023023004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.047,
+        "rms": 0.12,
+        "gap": 213,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1566,
+          18.007,
+          7
+        ]
+      },
+      "id": "pr2023023004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.91,
+        "place": "88 km N of Suárez, Puerto Rico",
+        "time": 1674455994770,
+        "updated": 1674466427109,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023023003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023023003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 235,
+        "net": "pr",
+        "code": "2023023003",
+        "ids": ",pr2023023003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.9567,
+        "rms": 0.58,
+        "gap": 265,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 88 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.8093,
+          19.2256,
+          122
+        ]
+      },
+      "id": "pr2023023003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.93,
         "place": "123 km N of Suárez, Puerto Rico",
         "time": 1674455823770,
@@ -135,7 +215,7 @@
         "mag": 3.95,
         "place": "Puerto Rico region",
         "time": 1674452262960,
-        "updated": 1674459457357,
+        "updated": 1674467312040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023023002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023023002.geojson",
@@ -148,8 +228,8 @@
         "sig": 240,
         "net": "pr",
         "code": "2023023002",
-        "ids": ",pr2023023002,",
-        "sources": ",pr,",
+        "ids": ",us7000j6bl,pr2023023002,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 1.2111,
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "13 km SSW of Nueva Concepción, Guatemala",
+        "place": "Guatemala",
         "time": 1674425336488,
         "updated": 1674447352040,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 189,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 13 km SSW of Nueva Concepción, Guatemala"
+        "title": "M 4.6 - Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -1528,46 +1608,6 @@
         ]
       },
       "id": "ak02310js80y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "3 km ESE of Abepura, Indonesia",
-        "time": 1674380687287,
-        "updated": 1674382062040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j67f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j67f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000j67f",
-        "ids": ",us7000j67f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 8.402,
-        "rms": 0.45,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 3 km ESE of Abepura, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.6554,
-          -2.6107,
-          29.072
-        ]
-      },
-      "id": "us7000j67f"
     }
   ],
   "bbox": [
