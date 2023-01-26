@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674752401000,
+    "generated": 1674756019000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "203 km SSE of Atka, Alaska",
+        "time": 1674751296589,
+        "updated": 1674755883524,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jjid",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jjid.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.388,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000jjid",
+        "ids": ",us6000jjid,ak023179qu1r,",
+        "sources": ",us,ak,",
+        "types": ",moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 104,
+        "dmin": 2.596,
+        "rms": 0.88,
+        "gap": 136,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 203 km SSE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.6081,
+          50.6613,
+          10
+        ]
+      },
+      "id": "us6000jjid"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,12 +255,12 @@
         "mag": 3.2,
         "place": "15 km NE of Hermleigh, Texas",
         "time": 1674730998202,
-        "updated": 1674732256733,
+        "updated": 1674752467199,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023bunm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023bunm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -228,9 +268,9 @@
         "sig": 158,
         "net": "tx",
         "code": "2023bunm",
-        "ids": ",us6000jjd2,tx2023bunm,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023bunm,us6000jjd2,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.08126137193,
         "rms": 0.2,
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "Cape Verde",
+        "place": "74 km SW of Porto Novo, Cabo Verde",
         "time": 1674706565490,
         "updated": 1674737727255,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 43,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - Cape Verde"
+        "title": "M 5.3 - 74 km SW of Porto Novo, Cabo Verde"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Ecuador",
+        "place": "4 km SSW of El Triunfo, Ecuador",
         "time": 1674702981954,
         "updated": 1674712193040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Ecuador"
+        "title": "M 4.6 - 4 km SSW of El Triunfo, Ecuador"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "64 km SSE of Farkhār, Afghanistan",
         "time": 1674697316653,
         "updated": 1674711883040,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Hindu Kush region, Afghanistan"
+        "title": "M 4.1 - 64 km SSE of Farkhār, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1255,17 +1295,17 @@
         "mag": 5.5,
         "place": "27 km SSE of Kangding, China",
         "time": 1674676185325,
-        "updated": 1674745895560,
+        "updated": 1674754106645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jj8s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jj8s.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 7.2,
         "mmi": 6.436,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 654,
+        "sig": 655,
         "net": "us",
         "code": "6000jj8s",
         "ids": ",us6000jj8s,",
@@ -1288,86 +1328,6 @@
         ]
       },
       "id": "us6000jj8s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "6km NW of The Geysers, CA",
-        "time": 1674668637450,
-        "updated": 1674709566298,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73837161",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73837161.geojson",
-        "felt": 10,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 131,
-        "net": "nc",
-        "code": "73837161",
-        "ids": ",nc73837161,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 61,
-        "dmin": null,
-        "rms": 0.09,
-        "gap": 29,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 6km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7963333,
-          38.8226662,
-          1.57
-        ]
-      },
-      "id": "nc73837161"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "Island of Hawaii, Hawaii",
-        "time": 1674667063240,
-        "updated": 1674705046929,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73312697",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73312697.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "hv",
-        "code": "73312697",
-        "ids": ",hv73312697,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 202,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - Island of Hawaii, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.4255,
-          19.0496666666667,
-          37.08
-        ]
-      },
-      "id": "hv73312697"
     }
   ],
   "bbox": [
