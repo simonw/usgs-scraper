@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674928812000,
+    "generated": 1674932422000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "23 km S of South Naknek, Alaska",
-        "time": 1674927664920,
-        "updated": 1674928313400,
+        "mag": 5.9,
+        "place": "14 km SSW of Khowy, Iran",
+        "time": 1674929684998,
+        "updated": 1674932369748,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jk0t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jk0t.geojson",
+        "felt": 6,
+        "cdi": 8.7,
+        "mmi": 6.599,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 655,
+        "net": "us",
+        "code": "6000jk0t",
+        "ids": ",us6000jk0t,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 184,
+        "dmin": 1.451,
+        "rms": 0.81,
+        "gap": 31,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - 14 km SSW of Khowy, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.8991,
+          38.4246,
+          10
+        ]
+      },
+      "id": "us6000jk0t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "25 km SSW of King Salmon, Alaska",
+        "time": 1674927665771,
+        "updated": 1674930311826,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231alevuk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231alevuk.geojson",
@@ -23,9 +63,9 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 130,
         "net": "ak",
         "code": "0231alevuk",
         "ids": ",ak0231alevuk,",
@@ -33,18 +73,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.31,
+        "rms": 0.57,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 23 km S of South Naknek, Alaska"
+        "title": "M 2.9 - 25 km SSW of King Salmon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.9238,
-          58.5066,
-          18.6
+          -156.8404,
+          58.4775,
+          0.2
         ]
       },
       "id": "ak0231alevuk"
@@ -52,15 +92,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "100 km SW of Paratunka, Russia",
+        "time": 1674927355248,
+        "updated": 1674929142040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jk0q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jk0q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000jk0q",
+        "ids": ",us6000jk0q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.894,
+        "rms": 0.75,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 100 km SW of Paratunka, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157.3806,
+          52.2371,
+          140.436
+        ]
+      },
+      "id": "us6000jk0q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.4,
         "place": "32 km SE of Mina, Nevada",
         "time": 1674926174136,
-        "updated": 1674928768040,
+        "updated": 1674929378716,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00855432",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00855432.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -68,9 +148,9 @@
         "sig": 178,
         "net": "nn",
         "code": "00855432",
-        "ids": ",us6000jk0h,nn00855432,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00855432,us6000jk0h,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 48,
         "dmin": 0.139,
         "rms": 0.3926,
@@ -1368,173 +1448,13 @@
         ]
       },
       "id": "us6000jjt4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "71 km ESE of Adak, Alaska",
-        "time": 1674845757864,
-        "updated": 1674857720040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jjt9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jjt9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.745,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "6000jjt9",
-        "ids": ",ak02318yk2x4,us6000jjt9,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 70,
-        "dmin": 0.472,
-        "rms": 1.02,
-        "gap": 183,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - 71 km ESE of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.7586,
-          51.5271,
-          48.618
-        ]
-      },
-      "id": "us6000jjt9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "127 km WSW of Nikolski, Alaska",
-        "time": 1674844556517,
-        "updated": 1674856560040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jjtb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jjtb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.238,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "6000jjtb",
-        "ids": ",ak02318yfslg,us6000jjtb,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 37,
-        "dmin": 0.606,
-        "rms": 1.05,
-        "gap": 206,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.6 - 127 km WSW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -170.4742,
-          52.3429,
-          46.396
-        ]
-      },
-      "id": "us6000jjtb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "54 km N of Petersville, Alaska",
-        "time": 1674843521778,
-        "updated": 1674855857040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02318yc4as",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02318yc4as.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "02318yc4as",
-        "ids": ",us6000jjsy,ak02318yc4as,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 54 km N of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.5749,
-          62.979,
-          95.6
-        ]
-      },
-      "id": "ak02318yc4as"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "95 km NE of Amahai, Indonesia",
-        "time": 1674843480454,
-        "updated": 1674851514040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jjsz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jjsz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000jjsz",
-        "ids": ",us6000jjsz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 92,
-        "dmin": 2.628,
-        "rms": 0.6,
-        "gap": 62,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 95 km NE of Amahai, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.6184,
-          -2.8446,
-          20.664
-        ]
-      },
-      "id": "us6000jjsz"
     }
   ],
   "bbox": [
     -179.7587,
     -34.8219,
     0,
-    156.3272,
+    157.3806,
     63.9513,
     506.61
   ]
