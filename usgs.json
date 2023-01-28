@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674943222000,
+    "generated": 1674946813000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "35 km SE of Mina, Nevada",
         "time": 1674939451491,
-        "updated": 1674939572559,
+        "updated": 1674944859909,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00855438",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00855438.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "00855438",
         "ids": ",nn00855438,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.124,
         "rms": 0.2975,
@@ -92,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "12 km WSW of Khowy, Iran",
+        "time": 1674936598816,
+        "updated": 1674945160040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jk1j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jk1j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000jk1j",
+        "ids": ",us6000jk1j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 1.4,
+        "rms": 0.91,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 12 km WSW of Khowy, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.8234,
+          38.5084,
+          10
+        ]
+      },
+      "id": "us6000jk1j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.3,
         "place": "35 km WSW of Skwentna, Alaska",
         "time": 1674933354667,
-        "updated": 1674933491730,
+        "updated": 1674944084040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231amga7c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231amga7c.geojson",
@@ -108,8 +148,8 @@
         "sig": 168,
         "net": "ak",
         "code": "0231amga7c",
-        "ids": ",ak0231amga7c,",
-        "sources": ",ak,",
+        "ids": ",us6000jk17,ak0231amga7c,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "hv73314147"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "Puerto Rico region",
-        "time": 1674859003090,
-        "updated": 1674860299980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71394683",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71394683.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71394683",
-        "ids": ",pr71394683,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.03183,
-        "rms": 0.16,
-        "gap": 179,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0108333333333,
-          17.9711666666667,
-          8.55
-        ]
-      },
-      "id": "pr71394683"
     }
   ],
   "bbox": [
