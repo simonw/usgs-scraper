@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1675241982000,
+    "generated": 1675245628000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.27,
+        "place": "14km ENE of Thousand Palms, CA",
+        "time": 1675242302360,
+        "updated": 1675245213691,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40164927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40164927.geojson",
+        "felt": 39,
+        "cdi": 3.9,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 180,
+        "net": "ci",
+        "code": "40164927",
+        "ids": ",ci40164927,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 113,
+        "dmin": 0.1139,
+        "rms": 0.18,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 14km ENE of Thousand Palms, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2591629,
+          33.8868332,
+          3.09
+        ]
+      },
+      "id": "ci40164927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "14 km SSW of Palora, Ecuador",
+        "time": 1675241907787,
+        "updated": 1675245465040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jkpi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jkpi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000jkpi",
+        "ids": ",us6000jkpi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.927,
+        "rms": 1.04,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 14 km SSW of Palora, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.0029,
+          -1.8267,
+          159.755
+        ]
+      },
+      "id": "us6000jkpi"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "48 km WNW of Ninilchik, Alaska",
         "time": 1675238191785,
-        "updated": 1675238306040,
+        "updated": 1675242410040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231h1p7kg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231h1p7kg.geojson",
@@ -28,8 +108,8 @@
         "sig": 112,
         "net": "ak",
         "code": "0231h1p7kg",
-        "ids": ",ak0231h1p7kg,",
-        "sources": ",ak,",
+        "ids": ",us6000jkp7,ak0231h1p7kg,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -135,12 +215,12 @@
         "mag": 3.1,
         "place": "5 km W of El Moro, Colorado",
         "time": 1675233397554,
-        "updated": 1675236011567,
+        "updated": 1675242682906,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jknv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jknv.geojson",
-        "felt": 11,
-        "cdi": 3.4,
+        "felt": 12,
+        "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "ak0231ffmf51"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "0 km S of Maricao, Puerto Rico",
-        "time": 1675155725480,
-        "updated": 1675156622320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71394938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71394938.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "pr",
-        "code": "71394938",
-        "ids": ",pr71394938,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2071,
-        "rms": 0.12,
-        "gap": 120,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 0 km S of Maricao, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.979,
-          18.173,
-          19.04
-        ]
-      },
-      "id": "pr71394938"
     }
   ],
   "bbox": [
