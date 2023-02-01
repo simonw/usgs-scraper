@@ -1,25 +1,145 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1675245628000,
+    "generated": 1675249228000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
+        "place": "2km NE of The Geysers, CA",
+        "time": 1675247045590,
+        "updated": 1675247596011,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73840491",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73840491.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "nc",
+        "code": "73840491",
+        "ids": ",nc73840491,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.01079,
+        "rms": 0.08,
+        "gap": 48,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 2km NE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7421646,
+          38.7931671,
+          1.04
+        ]
+      },
+      "id": "nc73840491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "7 km SE of Indios, Puerto Rico",
+        "time": 1675246152480,
+        "updated": 1675248753880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71395068",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71395068.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "pr",
+        "code": "71395068",
+        "ids": ",pr71395068,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1052,
+        "rms": 0.08,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 7 km SE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7758333333333,
+          17.9376666666667,
+          7.18
+        ]
+      },
+      "id": "pr71395068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "139 km S of Pagar Alam, Indonesia",
+        "time": 1675244026694,
+        "updated": 1675247228040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jkpj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jkpj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000jkpj",
+        "ids": ",us6000jkpj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.979,
+        "rms": 0.33,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 139 km S of Pagar Alam, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.2831,
+          -5.2898,
+          60.049
+        ]
+      },
+      "id": "us6000jkpj"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.27,
         "place": "14km ENE of Thousand Palms, CA",
         "time": 1675242302360,
-        "updated": 1675245213691,
+        "updated": 1675247674041,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40164927",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40164927.geojson",
-        "felt": 39,
+        "felt": 41,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
@@ -28,8 +148,8 @@
         "sig": 180,
         "net": "ci",
         "code": "40164927",
-        "ids": ",ci40164927,",
-        "sources": ",ci,",
+        "ids": ",ci40164927,us6000jkpd,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 113,
         "dmin": 0.1139,
@@ -93,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "48 km WNW of Ninilchik, Alaska",
+        "place": "Southern Alaska",
         "time": 1675238191785,
         "updated": 1675242410040,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 48 km WNW of Ninilchik, Alaska"
+        "title": "M 2.7 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -215,12 +335,12 @@
         "mag": 3.1,
         "place": "5 km W of El Moro, Colorado",
         "time": 1675233397554,
-        "updated": 1675242682906,
+        "updated": 1675247012056,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jknv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jknv.geojson",
-        "felt": 12,
-        "cdi": 3.5,
+        "felt": 13,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -293,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "58 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1675223661737,
         "updated": 1675229687040,
         "tz": null,
@@ -317,7 +437,7 @@
         "gap": 117,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 58 km S of Whites City, New Mexico"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "2 km SSE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1675221248330,
         "updated": 1675228255040,
         "tz": null,
@@ -437,7 +557,7 @@
         "gap": 104,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 2 km SSE of Pāhala, Hawaii"
+        "title": "M 2.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.67,
-        "place": "Virgin Islands region",
+        "place": "98 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1675213712670,
         "updated": 1675224309040,
         "tz": null,
@@ -557,7 +677,7 @@
         "gap": 293,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Virgin Islands region"
+        "title": "M 3.7 - 98 km N of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Central Alaska",
+        "place": "28 km NNE of Paxson, Alaska",
         "time": 1675207759643,
         "updated": 1675208533040,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Central Alaska"
+        "title": "M 2.5 - 28 km NNE of Paxson, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "168 km WNW of Colchani, Bolivia",
+        "place": "Chile-Bolivia border region",
         "time": 1675194310475,
         "updated": 1675200532040,
         "tz": null,
@@ -917,7 +1037,7 @@
         "gap": 48,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 168 km WNW of Colchani, Bolivia"
+        "title": "M 4.6 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Tonga",
+        "place": "75 km ENE of Hihifo, Tonga",
         "time": 1675191731595,
         "updated": 1675193991040,
         "tz": null,
@@ -957,7 +1077,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Tonga"
+        "title": "M 5.0 - 75 km ENE of Hihifo, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "offshore Guatemala",
+        "place": "57 km S of Puerto San José, Guatemala",
         "time": 1675168451846,
         "updated": 1675171415040,
         "tz": null,
@@ -1517,7 +1637,7 @@
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - offshore Guatemala"
+        "title": "M 4.1 - 57 km S of Puerto San José, Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "north of Halmahera, Indonesia",
+        "place": "245 km NNE of Tobelo, Indonesia",
         "time": 1675168338934,
         "updated": 1675173452040,
         "tz": null,
@@ -1557,7 +1677,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - north of Halmahera, Indonesia"
+        "title": "M 4.5 - 245 km NNE of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Gulf of Maine",
+        "place": "130 km SW of Yarmouth, Canada",
         "time": 1675167028855,
         "updated": 1675236889040,
         "tz": null,
@@ -1597,7 +1717,7 @@
         "gap": 184,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Gulf of Maine"
+        "title": "M 2.6 - 130 km SW of Yarmouth, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "188 km SSE of Atka, Alaska",
         "time": 1675166934345,
         "updated": 1675178210390,
         "tz": null,
@@ -1677,7 +1797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.6 - 188 km SSE of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1728,86 +1848,6 @@
         ]
       },
       "id": "us6000jkid"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.67000008,
-        "place": "Hawaii region, Hawaii",
-        "time": 1675162488080,
-        "updated": 1675162691470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73316342",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73316342.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "hv",
-        "code": "73316342",
-        "ids": ",hv73316342,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": null,
-        "rms": 0.159999996,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - Hawaii region, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.494338989258,
-          19.1464996337891,
-          32.2200012207031
-        ]
-      },
-      "id": "hv73316342"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "83 km NE of Chalkyitsik, Alaska",
-        "time": 1675159312699,
-        "updated": 1675159626415,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231ffmf51",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231ffmf51.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "0231ffmf51",
-        "ids": ",ak0231ffmf51,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 83 km NE of Chalkyitsik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -142.1857,
-          67.0967,
-          3.7
-        ]
-      },
-      "id": "ak0231ffmf51"
     }
   ],
   "bbox": [
@@ -1815,7 +1855,7 @@
     -23.6585,
     0.8,
     159.7367,
-    67.0967,
+    63.3377,
     515.625
   ]
 }
