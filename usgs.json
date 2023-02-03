@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1675440035000,
+    "generated": 1675443598000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.2,
         "place": "70 km SE of Chignik, Alaska",
         "time": 1675437855981,
-        "updated": 1675438082775,
+        "updated": 1675441957040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231khchmq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231khchmq.geojson",
@@ -28,8 +28,8 @@
         "sig": 158,
         "net": "ak",
         "code": "0231khchmq",
-        "ids": ",ak0231khchmq,",
-        "sources": ",ak,",
+        "ids": ",us6000jl76,ak0231khchmq,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -175,14 +175,14 @@
         "mag": 5.1,
         "place": "northern Qinghai, China",
         "time": 1675425859653,
-        "updated": 1675427010040,
+        "updated": 1675442856074,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jl5t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jl5t.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 6.277,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 400,
@@ -190,7 +190,7 @@
         "code": "6000jl5t",
         "ids": ",us6000jl5t,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 99,
         "dmin": 12.397,
         "rms": 0.48,
@@ -695,7 +695,7 @@
         "mag": 4.2,
         "place": "80 km SSW of Nikolski, Alaska",
         "time": 1675407906525,
-        "updated": 1675412450040,
+        "updated": 1675442065580,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jl4r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jl4r.geojson",
@@ -708,8 +708,8 @@
         "sig": 271,
         "net": "us",
         "code": "6000jl4r",
-        "ids": ",us6000jl4r,",
-        "sources": ",us,",
+        "ids": ",ak0231kcgxgs,us6000jl4r,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
         "nst": 49,
         "dmin": 0.751,
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "us6000jl0g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "10km NW of Pinnacles, CA",
-        "time": 1675353831340,
-        "updated": 1675389598800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73841026",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73841026.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "73841026",
-        "ids": ",nc73841026,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.03493,
-        "rms": 0.07,
-        "gap": 66,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 10km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.208168,
-          36.6015015,
-          8.66
-        ]
-      },
-      "id": "nc73841026"
     }
   ],
   "bbox": [
