@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1675540839000,
+    "generated": 1675544397000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.7,
         "place": "37 km WSW of Mentone, Texas",
         "time": 1675539620272,
-        "updated": 1675540381909,
+        "updated": 1675543313263,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023clqb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023clqb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": 4.172,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "tx",
         "code": "2023clqb",
-        "ids": ",tx2023clqb,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023clqb,us6000jlg3,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 22,
         "dmin": 0.01408549174,
         "rms": 0.1,
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "159 km S of Cordova, Alaska",
-        "time": 1675538674457,
-        "updated": 1675538811837,
+        "mag": 3.5,
+        "place": "162 km SE of Chenega, Alaska",
+        "time": 1675538678959,
+        "updated": 1675541398731,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231m79lqk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231m79lqk.geojson",
@@ -63,9 +63,9 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 188,
         "net": "ak",
         "code": "0231m79lqk",
         "ids": ",ak0231m79lqk,",
@@ -73,18 +73,18 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.58,
+        "rms": 0.7,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 159 km S of Cordova, Alaska"
+        "title": "M 3.5 - 162 km SE of Chenega, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.8788,
-          59.1087,
-          4.9
+          -145.9091,
+          59.0756,
+          12
         ]
       },
       "id": "ak0231m79lqk"
@@ -132,42 +132,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
-        "place": "66 km WSW of Adak, Alaska",
-        "time": 1675534188439,
-        "updated": 1675540239514,
+        "mag": 3.3,
+        "place": "116 km E of McCarthy, Alaska",
+        "time": 1675534408268,
+        "updated": 1675543450040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231m6kzf6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231m6kzf6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlfn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlfn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 234,
-        "net": "ak",
-        "code": "0231m6kzf6",
-        "ids": ",ak0231m6kzf6,",
-        "sources": ",ak,",
+        "sig": 168,
+        "net": "us",
+        "code": "6000jlfn",
+        "ids": ",us6000jlfn,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
+        "nst": 38,
+        "dmin": 0.647,
+        "rms": 0.69,
+        "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 66 km WSW of Adak, Alaska"
+        "title": "M 3.3 - 116 km E of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -177.5117,
-          51.6302,
-          67.1
+          -140.7406,
+          61.5276,
+          5
         ]
       },
-      "id": "ak0231m6kzf6"
+      "id": "us6000jlfn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "64 km WSW of Adak, Alaska",
+        "time": 1675534188805,
+        "updated": 1675541269040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlfm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlfm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000jlfm",
+        "ids": ",ak0231m6kzf6,us6000jlfm,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 0.2,
+        "rms": 0.47,
+        "gap": 176,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 64 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.5035,
+          51.6516,
+          71.644
+        ]
+      },
+      "id": "us6000jlfm"
     },
     {
       "type": "Feature",
@@ -535,17 +575,17 @@
         "mag": 5.7,
         "place": "37 km ESE of Kainantu, Papua New Guinea",
         "time": 1675513356508,
-        "updated": 1675520778603,
+        "updated": 1675543512623,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlds.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 5.4,
         "mmi": 4.723,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 507,
+        "sig": 508,
         "net": "us",
         "code": "6000jlds",
         "ids": ",us6000jlds,",
@@ -1568,94 +1608,14 @@
         ]
       },
       "id": "us6000jl9j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "16 km NE of Hermleigh, Texas",
-        "time": 1675457819191,
-        "updated": 1675458945079,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023cjxc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023cjxc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "tx",
-        "code": "2023cjxc",
-        "ids": ",us6000jl94,tx2023cjxc,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.07230142005,
-        "rms": 0.2,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 16 km NE of Hermleigh, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.6465558,
-          32.75299072,
-          8.73034668
-        ]
-      },
-      "id": "tx2023cjxc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "7 km SW of Guánica, Puerto Rico",
-        "time": 1675456060240,
-        "updated": 1675456918810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71395323",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71395323.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71395323",
-        "ids": ",pr71395323,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.06598,
-        "rms": 0.06,
-        "gap": 251,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9493333333333,
-          17.9185,
-          12.39
-        ]
-      },
-      "id": "pr71395323"
     }
   ],
   "bbox": [
-    -177.5117,
+    -177.5035,
     -40.7315,
     0.51,
     175.8628,
-    59.8707,
+    61.5276,
     219.586
   ]
 }
