@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1675627213000,
+    "generated": 1675630813000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "55 km E of Port Alsworth, Alaska",
+        "time": 1675629347576,
+        "updated": 1675630484040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0231nvgrjn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0231nvgrjn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "0231nvgrjn",
+        "ids": ",us6000jlks,ak0231nvgrjn,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.5,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 55 km E of Port Alsworth, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.3122,
+          60.2198,
+          162.2
+        ]
+      },
+      "id": "ak0231nvgrjn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "45 km NNE of Otra Banda, Dominican Republic",
+        "time": 1675628862260,
+        "updated": 1675630133040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlkr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlkr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000jlkr",
+        "ids": ",us6000jlkr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.501,
+        "rms": 0.35,
+        "gap": 197,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 45 km NNE of Otra Banda, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4588,
+          19.0128,
+          35
+        ]
+      },
+      "id": "us6000jlkr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -975,12 +1055,12 @@
         "mag": 2.5,
         "place": "53 km W of Mentone, Texas",
         "time": 1675558101969,
-        "updated": 1675560089040,
+        "updated": 1675630795815,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlhc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlhc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -990,7 +1070,7 @@
         "code": "6000jlhc",
         "ids": ",us6000jlhc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 0.209,
         "rms": 0.19,
@@ -1295,7 +1375,7 @@
     -32.7538,
     5,
     162.6442,
-    59.7758,
+    60.2198,
     569.43
   ]
 }
