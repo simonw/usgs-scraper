@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1675641673000,
+    "generated": 1675646822000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "165 km W of Ferndale, California",
+        "time": 1675643244108,
+        "updated": 1675644325040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlls",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlls.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000jlls",
+        "ids": ",us6000jlls,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 1.592,
+        "rms": 0.94,
+        "gap": 252,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 165 km W of Ferndale, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.2056,
+          40.4281,
+          15.583
+        ]
+      },
+      "id": "us6000jlls"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.59,
         "place": "13km NNW of San Simeon, CA",
         "time": 1675641348710,
-        "updated": 1675641536722,
+        "updated": 1675642299946,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73842386",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73842386.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "73842386",
         "ids": ",nc73842386,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 39,
         "dmin": 0.105,
         "rms": 0.13,
@@ -95,7 +135,7 @@
         "mag": 3.2,
         "place": "138 km SE of Akutan, Alaska",
         "time": 1675636991315,
-        "updated": 1675640931040,
+        "updated": 1675641770446,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jllk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jllk.geojson",
@@ -1248,213 +1288,13 @@
         ]
       },
       "id": "pr71395403"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "41 km SSE of Ust’-Kamchatsk Staryy, Russia",
-        "time": 1675559662508,
-        "updated": 1675560809040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlhk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlhk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000jlhk",
-        "ids": ",us6000jlhk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 3.682,
-        "rms": 0.92,
-        "gap": 112,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 41 km SSE of Ust’-Kamchatsk Staryy, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          162.6442,
-          55.8678,
-          54.278
-        ]
-      },
-      "id": "us6000jlhk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "28 km N of La Serena, Chile",
-        "time": 1675558965925,
-        "updated": 1675597862360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlhg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlhg.geojson",
-        "felt": 11,
-        "cdi": 4.1,
-        "mmi": 4.143,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 470,
-        "net": "us",
-        "code": "6000jlhg",
-        "ids": ",us6000jlhg,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 73,
-        "dmin": 0.273,
-        "rms": 0.95,
-        "gap": 100,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 28 km N of La Serena, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.2485,
-          -29.6451,
-          68.019
-        ]
-      },
-      "id": "us6000jlhg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "53 km W of Mentone, Texas",
-        "time": 1675558101969,
-        "updated": 1675630795815,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlhc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlhc.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000jlhc",
-        "ids": ",us6000jlhc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.209,
-        "rms": 0.19,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 53 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.1673,
-          31.7056,
-          5
-        ]
-      },
-      "id": "us6000jlhc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "39 km ENE of Narrogin, Australia",
-        "time": 1675557601366,
-        "updated": 1675606982989,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlhb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlhb.geojson",
-        "felt": 11,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 316,
-        "net": "us",
-        "code": "6000jlhb",
-        "ids": ",us6000jlhb,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.307,
-        "rms": 0.54,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 39 km ENE of Narrogin, Australia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          117.5406,
-          -32.7538,
-          10
-        ]
-      },
-      "id": "us6000jlhb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "Izu Islands, Japan region",
-        "time": 1675555399589,
-        "updated": 1675575439572,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlh9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlh9.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": 2.763,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "6000jlh9",
-        "ids": ",us6000jlh9,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 176,
-        "dmin": 1.698,
-        "rms": 0.85,
-        "gap": 72,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.7624,
-          32.6723,
-          10
-        ]
-      },
-      "id": "us6000jlh9"
     }
   ],
   "bbox": [
     -179.5812,
-    -32.7538,
+    -32.7405,
     4.75,
-    162.6442,
+    157.3246,
     60.2198,
     569.43
   ]
