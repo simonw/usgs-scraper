@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1675929604000,
+    "generated": 1675933207000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.56,
+        "place": "22km W of Petrolia, CA",
+        "time": 1675930123120,
+        "updated": 1675932036998,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73843826",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73843826.geojson",
+        "felt": 5,
+        "cdi": 2.2,
+        "mmi": 2.033,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 196,
+        "net": "nc",
+        "code": "73843826",
+        "ids": ",nc73843826,us6000jmp1,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 37,
+        "dmin": 0.1996,
+        "rms": 0.13,
+        "gap": 237,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 22km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.541832,
+          40.2895012,
+          18.56
+        ]
+      },
+      "id": "nc73843826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "11 km E of Göksun, Turkey",
+        "time": 1675928529215,
+        "updated": 1675929679040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jmnx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jmnx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000jmnx",
+        "ids": ",us6000jmnx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.96,
+        "rms": 0.95,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 11 km E of Göksun, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6317,
+          38.0166,
+          10
+        ]
+      },
+      "id": "us6000jmnx"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.8,
         "place": "Turkey-Syria border region",
         "time": 1675927096806,
-        "updated": 1675928958653,
+        "updated": 1675930397005,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jmnp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jmnp.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -615,11 +695,11 @@
         "mag": 4.2,
         "place": "16 km N of Baalbek, Lebanon",
         "time": 1675882733997,
-        "updated": 1675928602306,
+        "updated": 1675932202378,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jmjy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jmjy.geojson",
-        "felt": 28,
+        "felt": 29,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1408,6 +1488,46 @@
         ]
       },
       "id": "us6000jmg9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "88 km S of Point Hope, Alaska",
+        "time": 1675849199921,
+        "updated": 1675930792040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jmh1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jmh1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000jmh1",
+        "ids": ",us6000jmh1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 1.508,
+        "rms": 0.65,
+        "gap": 204,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 88 km S of Point Hope, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.6541,
+          67.5578,
+          10.092
+        ]
+      },
+      "id": "us6000jmh1"
     }
   ],
   "bbox": [
@@ -1415,7 +1535,7 @@
     -21.975,
     3.4,
     166.6974,
-    59.9454,
+    67.5578,
     580.126
   ]
 }
