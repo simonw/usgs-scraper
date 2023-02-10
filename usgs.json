@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676008810000,
+    "generated": 1676012407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "21 km ESE of Naalehu, Hawaii",
+        "time": 1676011121040,
+        "updated": 1676011451390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73322347",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73322347.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "hv",
+        "code": "73322347",
+        "ids": ",hv73322347,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": null,
+        "rms": 0.280000001,
+        "gap": 219,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 21 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.391494750977,
+          19.0026664733887,
+          15.8800001144409
+        ]
+      },
+      "id": "hv73322347"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.2,
         "place": "45 km WNW of Nikolski, Alaska",
         "time": 1676006525941,
-        "updated": 1676008609040,
+        "updated": 1676010615830,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jn0n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jn0n.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": 2.83,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "us",
         "code": "6000jn0n",
-        "ids": ",ak0231vw54ky,us6000jn0n,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",us6000jn0n,ak0231vw54ky,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 51,
         "dmin": 0.349,
         "rms": 0.67,
@@ -95,22 +135,22 @@
         "mag": 4.8,
         "place": "15 km SSW of Yeşilyurt, Turkey",
         "time": 1676004624897,
-        "updated": 1676008753040,
+        "updated": 1676012348092,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jn0h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jn0h.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 355,
         "net": "us",
         "code": "6000jn0h",
         "ids": ",us6000jn0h,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 55,
         "dmin": 1.255,
         "rms": 0.76,
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "29 km ESE of Jurm, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1676004051870,
         "updated": 1676006558040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 79,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 29 km ESE of Jurm, Afghanistan"
+        "title": "M 4.2 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -335,12 +375,12 @@
         "mag": 2.56,
         "place": "6km SSW of Palo Cedro, CA",
         "time": 1676001352530,
-        "updated": 1676007850870,
+        "updated": 1676011035191,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73844351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73844351.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -350,7 +390,7 @@
         "code": "73844351",
         "ids": ",nc73844351,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 10,
         "dmin": 0.09765,
         "rms": 0.06,
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "16 km NE of Hermleigh, Texas",
         "time": 1676001077630,
         "updated": 1676006108040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 49,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 16 km NE of Hermleigh, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -453,19 +493,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "7 km S of Catron, Missouri",
+        "place": "southeastern Missouri",
         "time": 1675998658530,
-        "updated": 1676008531775,
+        "updated": 1676011405711,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60509971",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60509971.geojson",
-        "felt": 46,
+        "felt": 48,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 161,
+        "sig": 162,
         "net": "nm",
         "code": "60509971",
         "ids": ",nm60509971,us6000jmzt,",
@@ -477,7 +517,7 @@
         "gap": 26,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 7 km S of Catron, Missouri"
+        "title": "M 3.0 - southeastern Missouri"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "22 km SSE of Göksun, Turkey",
+        "place": "central Turkey",
         "time": 1675993860509,
         "updated": 1675995329040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 22 km SSE of Göksun, Turkey"
+        "title": "M 4.9 - central Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Turkey-Syria border region",
+        "place": "21 km SE of Hasanbeyli, Turkey",
         "time": 1675980399722,
         "updated": 1675981910040,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Turkey-Syria border region"
+        "title": "M 4.2 - 21 km SE of Hasanbeyli, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "112 km W of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1675959927800,
         "updated": 1675969536040,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 112 km W of San Antonio de los Cobres, Argentina"
+        "title": "M 3.9 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "97 km ENE of Nagqu, China",
+        "place": "Eastern Xizang",
         "time": 1675958793828,
         "updated": 1675967326040,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 97 km ENE of Nagqu, China"
+        "title": "M 4.1 - Eastern Xizang"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.07,
-        "place": "17 km E of Naalehu, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1675953121480,
         "updated": 1675987445260,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": 204,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 17 km E of Naalehu, Hawaii"
+        "title": "M 3.1 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.67,
-        "place": "Puerto Rico region",
+        "place": "7 km S of Corozal, Puerto Rico",
         "time": 1675949820240,
         "updated": 1675954249180,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 119,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 7 km S of Corozal, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "45 km SW of Kirakira, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1675939997268,
         "updated": 1675980446878,
         "tz": null,
@@ -1517,7 +1557,7 @@
         "gap": 31,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 45 km SW of Kirakira, Solomon Islands"
+        "title": "M 5.5 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "Puerto Rico region",
+        "place": "0 km SSW of Yauco, Puerto Rico",
         "time": 1675938063820,
         "updated": 1675939876570,
         "tz": null,
@@ -1677,7 +1717,7 @@
         "gap": 173,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 0 km SSW of Yauco, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1853,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "2 km S of Sincik, Turkey",
+        "place": "eastern Turkey",
         "time": 1675936016179,
         "updated": 1675974861991,
         "tz": null,
@@ -1877,7 +1917,7 @@
         "gap": 121,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 2 km S of Sincik, Turkey"
+        "title": "M 4.3 - eastern Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -2013,7 +2053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Turkey-Syria border region",
+        "place": "18 km NNE of Aşağı Karafakılı, Turkey",
         "time": 1675927096806,
         "updated": 1675930397005,
         "tz": null,
@@ -2037,7 +2077,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Turkey-Syria border region"
+        "title": "M 4.8 - 18 km NNE of Aşağı Karafakılı, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -2048,86 +2088,6 @@
         ]
       },
       "id": "us6000jmnp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "near the north coast of Papua, Indonesia",
-        "time": 1675924080519,
-        "updated": 1675940718198,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jmnk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jmnk.geojson",
-        "felt": 4,
-        "cdi": 5.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 402,
-        "net": "us",
-        "code": "6000jmnk",
-        "ids": ",us6000jmnk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 84,
-        "dmin": 8.303,
-        "rms": 0.65,
-        "gap": 35,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - near the north coast of Papua, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.557,
-          -2.6349,
-          21.974
-        ]
-      },
-      "id": "us6000jmnk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Molucca Sea",
-        "time": 1675922970734,
-        "updated": 1675926925040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jmni",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jmni.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000jmni",
-        "ids": ",us6000jmni,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.451,
-        "rms": 0.56,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Molucca Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.0306,
-          2.1932,
-          108.053
-        ]
-      },
-      "id": "us6000jmni"
     }
   ],
   "bbox": [
