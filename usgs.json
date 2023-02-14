@@ -1,26 +1,26 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676401225000,
+    "generated": 1676404841000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Atacama-Coquimbo border region, Chile",
+        "place": "86 km SE of Vallenar, Chile",
         "time": 1676397731867,
-        "updated": 1676401072040,
+        "updated": 1676402241855,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jny5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jny5.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,14 +30,14 @@
         "code": "6000jny5",
         "ids": ",us6000jny5,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 86,
         "dmin": 0.578,
         "rms": 1.09,
         "gap": 75,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.7 - Atacama-Coquimbo border region, Chile"
+        "title": "M 4.7 - 86 km SE of Vallenar, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +55,7 @@
         "mag": 3.18,
         "place": "38km S of Hayfork, CA",
         "time": 1676396499380,
-        "updated": 1676398637260,
+        "updated": 1676403282040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73846356",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73846356.geojson",
@@ -68,8 +68,8 @@
         "sig": 156,
         "net": "nc",
         "code": "73846356",
-        "ids": ",nc73846356,",
-        "sources": ",nc,",
+        "ids": ",nc73846356,us6000jny3,",
+        "sources": ",nc,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.1933,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "nc73846356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "170 km W of Crescent City, California",
+        "time": 1676396447249,
+        "updated": 1676402324040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jny2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jny2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "6000jny2",
+        "ids": ",us6000jny2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 1.787,
+        "rms": 0.45,
+        "gap": 238,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 170 km W of Crescent City, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.22,
+          41.4983,
+          16.392
+        ]
+      },
+      "id": "us6000jny2"
     },
     {
       "type": "Feature",
@@ -575,17 +615,17 @@
         "mag": 5.6,
         "place": "2 km NW of Leleşti, Romania",
         "time": 1676380611072,
-        "updated": 1676401206395,
+        "updated": 1676404345233,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnqz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnqz.geojson",
-        "felt": 401,
+        "felt": 411,
         "cdi": 7.8,
         "mmi": 6.532,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 795,
+        "sig": 803,
         "net": "us",
         "code": "6000jnqz",
         "ids": ",us6000jnqz,",
@@ -1208,86 +1248,6 @@
         ]
       },
       "id": "pr71396223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "6 km W of Göksun, Turkey",
-        "time": 1676316027585,
-        "updated": 1676348256723,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnmc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnmc.geojson",
-        "felt": 5,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 356,
-        "net": "us",
-        "code": "6000jnmc",
-        "ids": ",us6000jnmc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 81,
-        "dmin": 0.944,
-        "rms": 0.74,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 6 km W of Göksun, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.4179,
-          38.0201,
-          4.929
-        ]
-      },
-      "id": "us6000jnmc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.05,
-        "place": "Mona Passage",
-        "time": 1676315299860,
-        "updated": 1676316723040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71396208",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71396208.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 143,
-        "net": "pr",
-        "code": "71396208",
-        "ids": ",pr71396208,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.2115,
-        "rms": 0.39,
-        "gap": 137,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3615,
-          18.1691666666667,
-          6.24
-        ]
-      },
-      "id": "pr71396208"
     }
   ],
   "bbox": [
