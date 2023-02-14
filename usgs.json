@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676368781000,
+    "generated": 1676372441000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 31
   },
   "features": [
     {
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "6 km W of Göksun, Turkey",
+        "place": "Central Turkey",
         "time": 1676316027585,
         "updated": 1676348256723,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 6 km W of Göksun, Turkey"
+        "title": "M 4.8 - Central Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -855,7 +855,7 @@
         "mag": 5,
         "place": "0 km S of Dobrița, Romania",
         "time": 1676300285854,
-        "updated": 1676368569330,
+        "updated": 1676369623487,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnl6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnl6.geojson",
@@ -1015,12 +1015,12 @@
         "mag": 3.15,
         "place": "11 km SE of Pāhala, Hawaii",
         "time": 1676295255480,
-        "updated": 1676327521040,
+        "updated": 1676369493329,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73323747",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73323747.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.5,
         "mmi": 3.257,
         "alert": null,
         "status": "reviewed",
@@ -1028,9 +1028,9 @@
         "sig": 153,
         "net": "hv",
         "code": "73323747",
-        "ids": ",us6000jnl1,hv73323747,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",hv73323747,us6000jnl1,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 50,
         "dmin": null,
         "rms": 0.13,
@@ -1248,86 +1248,6 @@
         ]
       },
       "id": "ak02320y9mk3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "26km SE of Ocotillo Wells, CA",
-        "time": 1676282986070,
-        "updated": 1676359501040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40414104",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40414104.geojson",
-        "felt": 22,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 171,
-        "net": "ci",
-        "code": "40414104",
-        "ids": ",ci40414104,us6000jnkf,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 79,
-        "dmin": 0.09067,
-        "rms": 0.25,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 26km SE of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.9256667,
-          32.9858333,
-          11.07
-        ]
-      },
-      "id": "ci40414104"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "53 km S of Ten Sleep, Wyoming",
-        "time": 1676282868372,
-        "updated": 1676328524382,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnke",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnke.geojson",
-        "felt": 1,
-        "cdi": 5.5,
-        "mmi": 4.139,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000jnke",
-        "ids": ",us6000jnke,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 21,
-        "dmin": 1.107,
-        "rms": 0.58,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 53 km S of Ten Sleep, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -107.3955,
-          43.5553,
-          11.104
-        ]
-      },
-      "id": "us6000jnke"
     }
   ],
   "bbox": [
