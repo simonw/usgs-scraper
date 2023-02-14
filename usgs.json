@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676350841000,
+    "generated": 1676354484000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 40
   },
   "features": [
     {
@@ -92,39 +92,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "36 km ENE of Luganville, Vanuatu",
-        "time": 1676340197245,
-        "updated": 1676347598444,
+        "mag": 5.2,
+        "place": "45 km ENE of Luganville, Vanuatu",
+        "time": 1676340196344,
+        "updated": 1676353591757,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnpc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnpc.geojson",
         "felt": 1,
         "cdi": 5.4,
-        "mmi": 4.057,
+        "mmi": 3.825,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 483,
+        "sig": 417,
         "net": "us",
         "code": "6000jnpc",
         "ids": ",us6000jnpc,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 48,
-        "dmin": 0.261,
-        "rms": 0.43,
-        "gap": 52,
-        "magType": "mb",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 120,
+        "dmin": 0.347,
+        "rms": 0.73,
+        "gap": 20,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 36 km ENE of Luganville, Vanuatu"
+        "title": "M 5.2 - 45 km ENE of Luganville, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          167.4614,
-          -15.3692,
-          117.787
+          167.547,
+          -15.3437,
+          119.615
         ]
       },
       "id": "us6000jnpc"
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.05,
-        "place": "20 km SW of Stella, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1676315299860,
         "updated": 1676316723040,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": 137,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 20 km SW of Stella, Puerto Rico"
+        "title": "M 3.1 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -773,19 +773,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "0 km S of Dobrița, Romania",
+        "place": "Romania",
         "time": 1676300285854,
-        "updated": 1676346311791,
+        "updated": 1676353708668,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnl6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnl6.geojson",
-        "felt": 238,
+        "felt": 239,
         "cdi": 5.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 525,
+        "sig": 526,
         "net": "us",
         "code": "6000jnl6",
         "ids": ",us6000jnl6,",
@@ -797,7 +797,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 0 km S of Dobrița, Romania"
+        "title": "M 5.0 - Romania"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "10 km N of Sincik, Turkey",
+        "place": "eastern Turkey",
         "time": 1676298497062,
         "updated": 1676309099040,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 108,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 10 km N of Sincik, Turkey"
+        "title": "M 4.3 - eastern Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -941,7 +941,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73323747.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.257,
+        "mmi": 3.27,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "5 km SSW of Potala Pastillo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1676271610800,
         "updated": 1676272455680,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 167,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km SSW of Potala Pastillo, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1608,173 +1608,13 @@
         ]
       },
       "id": "hv73323592"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Kuril Islands",
-        "time": 1676267822239,
-        "updated": 1676269526040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnjc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnjc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000jnjc",
-        "ids": ",us6000jnjc,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 119,
-        "dmin": 6.077,
-        "rms": 0.56,
-        "gap": 26,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.5935,
-          46.611,
-          98.535
-        ]
-      },
-      "id": "us6000jnjc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "Puerto Rico region",
-        "time": 1676267753880,
-        "updated": 1676270374850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71396118",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71396118.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71396118",
-        "ids": ",pr71396118,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.0739,
-        "rms": 0.06,
-        "gap": 204,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.038,
-          17.9311666666667,
-          11.79
-        ]
-      },
-      "id": "pr71396118"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "7 km ESE of La Parguera, Puerto Rico",
-        "time": 1676267277540,
-        "updated": 1676270329620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71396108",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71396108.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "pr",
-        "code": "71396108",
-        "ids": ",pr71396108,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.06035,
-        "rms": 0.1,
-        "gap": 222,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9865,
-          17.9443333333333,
-          9.55
-        ]
-      },
-      "id": "pr71396108"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.72,
-        "place": "114 km N of Suárez, Puerto Rico",
-        "time": 1676266695230,
-        "updated": 1676314441040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023044000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023044000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 213,
-        "net": "pr",
-        "code": "2023044000",
-        "ids": ",us6000jnjl,pr2023044000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 1.1905,
-        "rms": 0.17,
-        "gap": 267,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 114 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7931,
-          19.4635,
-          37
-        ]
-      },
-      "id": "pr2023044000"
     }
   ],
   "bbox": [
     -177.9727,
     -52.4217,
     2.97,
-    167.4614,
+    167.547,
     67.8008,
     374.033
   ]
