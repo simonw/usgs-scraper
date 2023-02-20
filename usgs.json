@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676916012000,
+    "generated": 1676919634000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "Solomon Islands",
+        "time": 1676915613971,
+        "updated": 1676919240219,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqdb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jqdb.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 401,
+        "net": "us",
+        "code": "6000jqdb",
+        "ids": ",us6000jqdb,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.481,
+        "rms": 0.72,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.2368,
+          -9.8286,
+          11.992
+        ]
+      },
+      "id": "us6000jqdb"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6.3,
         "place": "3 km SW of Uzunbağ, Turkey",
         "time": 1676912668647,
-        "updated": 1676915802381,
+        "updated": 1676919606561,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqcn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jqcn.geojson",
-        "felt": 163,
-        "cdi": 8.7,
-        "mmi": 7.486,
-        "alert": "yellow",
+        "felt": 405,
+        "cdi": 9.1,
+        "mmi": 8.577,
+        "alert": "red",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 792,
+        "sig": 2369,
         "net": "us",
         "code": "6000jqcn",
         "ids": ",us6000jqcn,",
@@ -488,6 +528,46 @@
         ]
       },
       "id": "us6000jq9j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1676882779718,
+        "updated": 1676916585040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jq9g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jq9g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000jq9g",
+        "ids": ",us6000jq9g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 5.237,
+        "rms": 0.64,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.9311,
+          -24.3502,
+          509.049
+        ]
+      },
+      "id": "us6000jq9g"
     },
     {
       "type": "Feature",
@@ -1848,53 +1928,13 @@
         ]
       },
       "id": "us6000jq5f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Hokkaido, Japan region",
-        "time": 1676832942802,
-        "updated": 1676834685040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jq5d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jq5d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000jq5d",
-        "ids": ",us6000jq5d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 144,
-        "dmin": 0.782,
-        "rms": 0.77,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Hokkaido, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.1312,
-          42.7977,
-          130.444
-        ]
-      },
-      "id": "us6000jq5d"
     }
   ],
   "bbox": [
     -178.0312,
     -34.287,
     0,
-    160.6941,
+    179.9311,
     63.5537,
     561.902
   ]
