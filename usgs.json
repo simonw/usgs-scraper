@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677189601000,
+    "generated": 1677193195000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47000003,
+        "place": "11 km ENE of Pāhala, Hawaii",
+        "time": 1677191560860,
+        "updated": 1677191817710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73329612",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73329612.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "hv",
+        "code": "73329612",
+        "ids": ",hv73329612,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": null,
+        "rms": 0.150000006,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.383163452148,
+          19.2504997253418,
+          33.8199996948242
+        ]
+      },
+      "id": "hv73329612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "offshore Guatemala",
+        "time": 1677190317543,
+        "updated": 1677192370040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jr4l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jr4l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000jr4l",
+        "ids": ",us6000jr4l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 1.298,
+        "rms": 0.62,
+        "gap": 194,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - offshore Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.536,
+          13.7082,
+          35
+        ]
+      },
+      "id": "us6000jr4l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 6.3,
         "place": "177 km N of Tobelo, Indonesia",
         "time": 1677182568400,
-        "updated": 1677189328785,
+        "updated": 1677190648078,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jr32",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jr32.geojson",
@@ -128,6 +208,46 @@
         ]
       },
       "id": "us6000jr2v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "Antofagasta, Chile",
+        "time": 1677177489212,
+        "updated": 1677190879040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jr2q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jr2q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "6000jr2q",
+        "ids": ",us6000jr2q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.533,
+        "rms": 0.78,
+        "gap": 124,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - Antofagasta, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6872,
+          -23.2078,
+          95.027
+        ]
+      },
+      "id": "us6000jr2q"
     },
     {
       "type": "Feature",
@@ -415,12 +535,12 @@
         "mag": 5.3,
         "place": "61 km WNW of San Antonio de los Cobres, Argentina",
         "time": 1677157280909,
-        "updated": 1677161316040,
+        "updated": 1677190775203,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jr0f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jr0f.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +550,7 @@
         "code": "6000jr0f",
         "ids": ",us6000jr0f,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 53,
         "dmin": 1.603,
         "rms": 0.77,
@@ -1248,46 +1368,6 @@
         ]
       },
       "id": "us6000jqx2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "6 km WNW of Liloan, Philippines",
-        "time": 1677103553566,
-        "updated": 1677126316518,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqwn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jqwn.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000jqwn",
-        "ids": ",us6000jqwn,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 3.131,
-        "rms": 0.46,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 6 km WNW of Liloan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.0633,
-          10.1791,
-          10
-        ]
-      },
-      "id": "us6000jqwn"
     }
   ],
   "bbox": [
