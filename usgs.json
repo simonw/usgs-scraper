@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677288461000,
+    "generated": 1677291901000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Central Turkey",
+        "time": 1677287540990,
+        "updated": 1677288660040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrgg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrgg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000jrgg",
+        "ids": ",us6000jrgg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.438,
+        "rms": 0.96,
+        "gap": 161,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Central Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9336,
+          36.1631,
+          10
+        ]
+      },
+      "id": "us6000jrgg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -575,12 +615,12 @@
         "mag": 4.5,
         "place": "114 km W of San Antonio de los Cobres, Argentina",
         "time": 1677254350959,
-        "updated": 1677262861040,
+        "updated": 1677289413781,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrcg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrcg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -590,7 +630,7 @@
         "code": "6000jrcg",
         "ids": ",us6000jrcg,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 1.565,
         "rms": 0.81,
@@ -1015,7 +1055,7 @@
         "mag": 4.5,
         "place": "52 km NNW of Sandy Ground Village, Anguilla",
         "time": 1677222178599,
-        "updated": 1677271704537,
+        "updated": 1677288844625,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jr7i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jr7i.geojson",
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us6000jr67"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.93,
-        "place": "Mona Passage",
-        "time": 1677202240960,
-        "updated": 1677205701083,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023055000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023055000.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 238,
-        "net": "pr",
-        "code": "2023055000",
-        "ids": ",pr2023055000,us6000jr62,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.2191,
-        "rms": 0.01,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.587,
-          18.5895,
-          156
-        ]
-      },
-      "id": "pr2023055000"
     }
   ],
   "bbox": [
