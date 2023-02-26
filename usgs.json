@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677416624000,
+    "generated": 1677420008000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "45 km NW of Venetie, Alaska",
+        "time": 1677418832636,
+        "updated": 1677419029069,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232mhm25u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232mhm25u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0232mhm25u",
+        "ids": ",ak0232mhm25u,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.49,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 45 km NW of Venetie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.1044,
+          67.3285,
+          4
+        ]
+      },
+      "id": "ak0232mhm25u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Panama-Costa Rica border region",
+        "time": 1677416604206,
+        "updated": 1677419112613,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrqi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrqi.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000jrqi",
+        "ids": ",us6000jrqi,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.516,
+        "rms": 0.6,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Panama-Costa Rica border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7986,
+          8.4375,
+          6.339
+        ]
+      },
+      "id": "us6000jrqi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.58,
-        "place": "Puerto Rico region",
+        "place": "6 km ESE of La Parguera, Puerto Rico",
         "time": 1677413044120,
         "updated": 1677413858580,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 202,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 6 km ESE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1768,46 +1848,6 @@
         ]
       },
       "id": "us6000jrk2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "61 km ESE of Kushiro, Japan",
-        "time": 1677331662966,
-        "updated": 1677413983763,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrjl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrjl.geojson",
-        "felt": 17,
-        "cdi": 7.7,
-        "mmi": 4.629,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 567,
-        "net": "us",
-        "code": "6000jrjl",
-        "ids": ",us6000jrjl,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 157,
-        "dmin": 1.612,
-        "rms": 0.91,
-        "gap": 49,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 61 km ESE of Kushiro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0736,
-          42.7801,
-          50.181
-        ]
-      },
-      "id": "us6000jrjl"
     }
   ],
   "bbox": [
@@ -1815,7 +1855,7 @@
     -43.6228,
     -0.66000002622604,
     172.6536,
-    65.2591,
+    67.3285,
     231.681
   ]
 }
