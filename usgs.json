@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677524394000,
+    "generated": 1677527994000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "near the east coast of Honshu, Japan",
+        "time": 1677524169265,
+        "updated": 1677527043040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jg2q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jg2q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000jg2q",
+        "ids": ",us7000jg2q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 2.355,
+        "rms": 0.72,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - near the east coast of Honshu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.079,
+          38.5655,
+          48.169
+        ]
+      },
+      "id": "us7000jg2q"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "Southern Alaska",
         "time": 1677524148194,
-        "updated": 1677524236882,
+        "updated": 1677526622040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232o87tmr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232o87tmr.geojson",
@@ -28,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0232o87tmr",
-        "ids": ",ak0232o87tmr,",
-        "sources": ",ak,",
+        "ids": ",us7000jg2p,ak0232o87tmr,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak0232o87tmr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "near the coast of Nicaragua",
+        "time": 1677523566627,
+        "updated": 1677527455142,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jg2l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jg2l.geojson",
+        "felt": 7,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 434,
+        "net": "us",
+        "code": "7000jg2l",
+        "ids": ",us7000jg2l,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.908,
+        "rms": 1.02,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - near the coast of Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9497,
+          12.6515,
+          77.254
+        ]
+      },
+      "id": "us7000jg2l"
     },
     {
       "type": "Feature",
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "pr2023057003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "15km SSW of Searles Valley, CA",
-        "time": 1677439575550,
-        "updated": 1677510590616,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40418976",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40418976.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "ci",
-        "code": "40418976",
-        "ids": ",ci40418976,us6000jrs6,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.0546,
-        "rms": 0.12,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 15km SSW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4561667,
-          35.641,
-          6.92
-        ]
-      },
-      "id": "ci40418976"
     }
   ],
   "bbox": [
