@@ -1,28 +1,68 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677481222000,
+    "generated": 1677484822000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "61 km NW of Venetie, Alaska",
+        "time": 1677482886273,
+        "updated": 1677483229397,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232o1i6er",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232o1i6er.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0232o1i6er",
+        "ids": ",ak0232o1i6er,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 61 km NW of Venetie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.3246,
+          67.4364,
+          0
+        ]
+      },
+      "id": "ak0232o1i6er"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.6,
         "place": "Fiji region",
         "time": 1677480059666,
-        "updated": 1677481185040,
+        "updated": 1677481841326,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrvn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrvn.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 1.691,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 482,
@@ -30,7 +70,7 @@
         "code": "6000jrvn",
         "ids": ",us6000jrvn,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 129,
         "dmin": 3.022,
         "rms": 0.57,
@@ -48,6 +88,86 @@
         ]
       },
       "id": "us6000jrvn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.56,
+        "place": "Puerto Rico region",
+        "time": 1677479508660,
+        "updated": 1677483899556,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023058000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023058000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 195,
+        "net": "pr",
+        "code": "2023058000",
+        "ids": ",pr2023058000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.2639,
+        "rms": 0.17,
+        "gap": 251,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0801,
+          18.5895,
+          77
+        ]
+      },
+      "id": "pr2023058000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "21 km SW of Ekinözü, Turkey",
+        "time": 1677478788892,
+        "updated": 1677483045040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrvk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrvk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000jrvk",
+        "ids": ",us6000jrvk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 92,
+        "dmin": 0.411,
+        "rms": 0.62,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 21 km SW of Ekinözü, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.0499,
+          37.899,
+          10
+        ]
+      },
+      "id": "us6000jrvk"
     },
     {
       "type": "Feature",
@@ -1808,54 +1928,14 @@
         ]
       },
       "id": "nc73851906"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "4 km SW of Pāhala, Hawaii",
-        "time": 1677396223170,
-        "updated": 1677399617040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73330902",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73330902.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "73330902",
-        "ids": ",us6000jrnz,hv73330902,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km SW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.505172729492,
-          19.1713333129883,
-          30.3799991607666
-        ]
-      },
-      "id": "hv73330902"
     }
   ],
   "bbox": [
     -178.8538,
     -43.6176,
-    1.02,
+    0,
     172.6754,
-    67.3285,
+    67.4364,
     548.13
   ]
 }
