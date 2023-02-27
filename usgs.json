@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677492022000,
+    "generated": 1677495594000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.83999991,
+        "place": "34 km WNW of Puako, Hawaii",
+        "time": 1677494050510,
+        "updated": 1677494989603,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73331392",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73331392.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "hv",
+        "code": "73331392",
+        "ids": ",hv73331392,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 41,
+        "dmin": null,
+        "rms": 0.280000001,
+        "gap": 307,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 34 km WNW of Puako, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.154830932617,
+          20.0628337860107,
+          10.4499998092651
+        ]
+      },
+      "id": "hv73331392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "80 km SE of Lata, Solomon Islands",
+        "time": 1677491442907,
+        "updated": 1677492916834,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrwn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrwn.geojson",
+        "felt": 1,
+        "cdi": 6.1,
+        "mmi": 4.14,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 466,
+        "net": "us",
+        "code": "6000jrwn",
+        "ids": ",us6000jrwn,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 108,
+        "dmin": 4.249,
+        "rms": 0.42,
+        "gap": 33,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.5 - 80 km SE of Lata, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.2826,
+          -11.2688,
+          83.403
+        ]
+      },
+      "id": "us6000jrwn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 3,
         "place": "western Texas",
         "time": 1677488722468,
-        "updated": 1677491780948,
+        "updated": 1677492384040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023eavt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023eavt.geojson",
@@ -68,8 +148,8 @@
         "sig": 138,
         "net": "tx",
         "code": "2023eavt",
-        "ids": ",tx2023eavt,",
-        "sources": ",tx,",
+        "ids": ",us6000jrwp,tx2023eavt,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 24,
         "dmin": 0.07751132601,
@@ -135,22 +215,22 @@
         "mag": 3,
         "place": "51 km NW of Toyah, Texas",
         "time": 1677488675783,
-        "updated": 1677489824040,
+        "updated": 1677493361567,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023eavq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023eavq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "tx",
         "code": "2023eavq",
-        "ids": ",us6000jrw2,tx2023eavq,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023eavq,us6000jrw2,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.07974654993,
         "rms": 0.3,
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "118 km NNW of Naisano Dua, Indonesia",
+        "place": "Flores region, Indonesia",
         "time": 1677429675756,
         "updated": 1677430577040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 118 km NNW of Naisano Dua, Indonesia"
+        "title": "M 5.1 - Flores region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1928,93 +2008,13 @@
         ]
       },
       "id": "us6000jrqe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "100 km W of Elfin Cove, Alaska",
-        "time": 1677407482459,
-        "updated": 1677423613423,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232mfrt2l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232mfrt2l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "0232mfrt2l",
-        "ids": ",us6000jrpn,ak0232mfrt2l,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.82,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 100 km W of Elfin Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -138.0463,
-          58.1732,
-          5.1
-        ]
-      },
-      "id": "ak0232mfrt2l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "7 km E of La Parguera, Puerto Rico",
-        "time": 1677406190060,
-        "updated": 1677408916810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71397458",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71397458.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "pr",
-        "code": "71397458",
-        "ids": ",pr71397458,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.06029,
-        "rms": 0.09,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km E of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9811666666667,
-          17.9636666666667,
-          7.44
-        ]
-      },
-      "id": "pr71397458"
     }
   ],
   "bbox": [
     -178.8538,
     -32.8633,
     0,
-    155.7843,
+    166.2826,
     67.4364,
     548.13
   ]
