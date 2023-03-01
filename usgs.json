@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677664815000,
+    "generated": 1677668425000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 63
+    "count": 61
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.32,
         "place": "Puerto Rico region",
         "time": 1677660840170,
-        "updated": 1677661737730,
+        "updated": 1677667135230,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71397913",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71397913.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71397913",
         "ids": ",pr71397913,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.3458,
         "rms": 0.27,
@@ -135,7 +135,7 @@
         "mag": 4.7,
         "place": "7 km NW of Günyazı, Turkey",
         "time": 1677655223368,
-        "updated": 1677658071780,
+        "updated": 1677668278840,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jgic",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jgic.geojson",
@@ -175,17 +175,17 @@
         "mag": 3.43,
         "place": "8km NW of The Geysers, CA",
         "time": 1677654580830,
-        "updated": 1677664034412,
+        "updated": 1677665937828,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73853396",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73853396.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 182,
+        "sig": 183,
         "net": "nc",
         "code": "73853396",
         "ids": ",nc73853396,us7000jgib,",
@@ -2448,90 +2448,10 @@
         ]
       },
       "id": "us7000jg86"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.44,
-        "place": "Puerto Rico region",
-        "time": 1677581993230,
-        "updated": 1677604422471,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023059000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023059000.geojson",
-        "felt": 4,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 304,
-        "net": "pr",
-        "code": "2023059000",
-        "ids": ",us7000jg83,pr2023059000,",
-        "sources": ",us,pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 1.2612,
-        "rms": 0.41,
-        "gap": 282,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.4 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3656,
-          19.566,
-          62
-        ]
-      },
-      "id": "pr2023059000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Fiji region",
-        "time": 1677581508378,
-        "updated": 1677585883040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jg82",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jg82.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000jg82",
-        "ids": ",us7000jg82,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.889,
-        "rms": 0.64,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.9223,
-          -17.5793,
-          536.404
-        ]
-      },
-      "id": "us7000jg82"
     }
   ],
   "bbox": [
-    -178.9223,
+    -177.97133333333,
     -22.1651,
     -0.97,
     149.487,
