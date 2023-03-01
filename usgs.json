@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677686425000,
+    "generated": 1677690025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 55
   },
   "features": [
     {
@@ -252,39 +252,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8280069828033447,
+        "mag": 2.73,
         "place": "7 km WNW of Orcas, Washington",
-        "time": 1677670543810,
-        "updated": 1677686267134,
+        "time": 1677670543760,
+        "updated": 1677689222224,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61900332",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61900332.geojson",
-        "felt": 36,
-        "cdi": 2.5,
+        "felt": 43,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 132,
+        "sig": 129,
         "net": "uw",
         "code": "61900332",
         "ids": ",uw61900332,us7000jgjc,",
         "sources": ",uw,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 35,
-        "dmin": null,
-        "rms": 0.150000006,
-        "gap": 100,
+        "nst": 20,
+        "dmin": 0.01791,
+        "rms": 0.17,
+        "gap": 126,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km WNW of Orcas, Washington"
+        "title": "M 2.7 - 7 km WNW of Orcas, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.04299926757812,
-          48.617000579833984,
-          13.3800001144409
+          -123.03966666666666,
+          48.6185,
+          14.23
         ]
       },
       "id": "uw61900332"
@@ -735,7 +735,7 @@
         "mag": 4,
         "place": "50 km SE of Port Graham, Alaska",
         "time": 1677650279415,
-        "updated": 1677661677212,
+        "updated": 1677688257897,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232rbkc00",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232rbkc00.geojson",
@@ -1135,22 +1135,22 @@
         "mag": 2.5,
         "place": "western Texas",
         "time": 1677642060393,
-        "updated": 1677648453040,
+        "updated": 1677688433057,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jgej",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jgej.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "us",
         "code": "7000jgej",
         "ids": ",us7000jgej,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.217,
         "rms": 0.49,
@@ -1972,6 +1972,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "13 km ENE of Tidman, Philippines",
+        "time": 1677615118015,
+        "updated": 1677687051040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jgbt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jgbt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000jgbt",
+        "ids": ",us7000jgbt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 91,
+        "dmin": 1.529,
+        "rms": 0.84,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 13 km ENE of Tidman, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4593,
+          8.3336,
+          88.951
+        ]
+      },
+      "id": "us7000jgbt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "70 km NE of Calama, Chile",
         "time": 1677615034225,
@@ -2168,126 +2208,6 @@
         ]
       },
       "id": "us7000jgan"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "western Honshu, Japan",
-        "time": 1677603110264,
-        "updated": 1677604958040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jgak",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jgak.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000jgak",
-        "ids": ",us7000jgak,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 70,
-        "dmin": 0.185,
-        "rms": 0.65,
-        "gap": 50,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - western Honshu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.8073,
-          35.3133,
-          301.702
-        ]
-      },
-      "id": "us7000jgak"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "131 km NNE of Vieques, Puerto Rico",
-        "time": 1677602070250,
-        "updated": 1677603798990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71397743",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71397743.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "pr",
-        "code": "71397743",
-        "ids": ",pr71397743,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 3,
-        "dmin": 1.454,
-        "rms": 0.22,
-        "gap": 328,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 131 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4501666666667,
-          19.556,
-          17.13
-        ]
-      },
-      "id": "pr71397743"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Fiji region",
-        "time": 1677600854405,
-        "updated": 1677602058040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jg9h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jg9h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000jg9h",
-        "ids": ",us7000jg9h,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 3.24,
-        "rms": 0.97,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.1965,
-          -17.5226,
-          374.982
-        ]
-      },
-      "id": "us7000jg9h"
     }
   ],
   "bbox": [
