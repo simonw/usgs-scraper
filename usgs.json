@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677913238000,
+    "generated": 1677916795000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "13 km SW of Piedecuesta, Colombia",
+        "time": 1677914402909,
+        "updated": 1677916737040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jhah",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jhah.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000jhah",
+        "ids": ",us7000jhah,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.987,
+        "rms": 0.86,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 13 km SW of Piedecuesta, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1219,
+          6.8851,
+          149.046
+        ]
+      },
+      "id": "us7000jhah"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6.9,
         "place": "Kermadec Islands, New Zealand",
         "time": 1677912082369,
-        "updated": 1677913088040,
+        "updated": 1677914383722,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jh99",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jh99.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 4.79,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 732,
+        "sig": 733,
         "net": "us",
         "code": "7000jh99",
-        "ids": ",pt23063002,us7000jh99,",
-        "sources": ",pt,us,",
-        "types": ",impact-link,moment-tensor,origin,phase-data,",
+        "ids": ",us7000jh99,pt23063002,at00rqzh8w,",
+        "sources": ",us,pt,at,",
+        "types": ",associate,dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 108,
         "dmin": 0.784,
         "rms": 0.92,
@@ -52,79 +92,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.9,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1677912040000,
-        "updated": 1677912987600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00rqzh8w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00rqzh8w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 732,
-        "net": "at",
-        "code": "00rqzh8w",
-        "ids": ",at00rqzh8w,",
-        "sources": ",at,",
-        "types": ",impact-link,origin,",
-        "nst": 7,
-        "dmin": 0,
-        "rms": 0.15,
-        "gap": 233.9999812800015,
-        "magType": "Mi",
-        "type": "earthquake",
-        "title": "M 6.9 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.4,
-          -29.9,
-          152
-        ]
-      },
-      "id": "at00rqzh8w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "0 km SW of Volcano, Hawaii",
-        "time": 1677911748660,
-        "updated": 1677913080195,
+        "mag": 3.17,
+        "place": "0 km SSW of Volcano, Hawaii",
+        "time": 1677911748750,
+        "updated": 1677916291992,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73333112",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73333112.geojson",
-        "felt": 54,
-        "cdi": 4.1,
-        "mmi": 3.933,
+        "felt": 65,
+        "cdi": 3.4,
+        "mmi": 3.942,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 168,
+        "sig": 177,
         "net": "hv",
         "code": "73333112",
         "ids": ",hv73333112,us7000jh96,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 44,
+        "nst": 45,
         "dmin": null,
-        "rms": 0.140000001,
-        "gap": 69,
+        "rms": 0.12,
+        "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 0 km SW of Volcano, Hawaii"
+        "title": "M 3.2 - 0 km SSW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.234329223633,
-          19.4424991607666,
-          28.3600006103516
+          -155.236833333333,
+          19.4381666666667,
+          27.76
         ]
       },
       "id": "hv73333112"
@@ -1292,6 +1292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "19 km ENE of Yilan, Taiwan",
+        "time": 1677854924141,
+        "updated": 1677914525040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jh2m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jh2m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000jh2m",
+        "ids": ",us7000jh2m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.429,
+        "rms": 0.6,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 19 km ENE of Yilan, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9385,
+          24.8196,
+          112.002
+        ]
+      },
+      "id": "us7000jh2m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.64,
         "place": "82 km N of Arecibo, Puerto Rico",
         "time": 1677853770420,
@@ -1455,17 +1495,17 @@
         "mag": 3.06,
         "place": "9 km SSE of Volcano, Hawaii",
         "time": 1677849740680,
-        "updated": 1677912706059,
+        "updated": 1677914187455,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73332782",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73332782.geojson",
-        "felt": 6,
+        "felt": 5,
         "cdi": 2.7,
         "mmi": 3.549,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 146,
+        "sig": 145,
         "net": "hv",
         "code": "73332782",
         "ids": ",hv73332782,us7000jh1j,",
@@ -1808,86 +1848,6 @@
         ]
       },
       "id": "ak0232uoa4te"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "43 km W of Cartagena, Chile",
-        "time": 1677827994968,
-        "updated": 1677832847040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jgzl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jgzl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000jgzl",
-        "ids": ",us7000jgzl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.397,
-        "rms": 0.63,
-        "gap": 168,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 43 km W of Cartagena, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.0727,
-          -33.5499,
-          22.31
-        ]
-      },
-      "id": "us7000jgzl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "86 km WSW of Poso, Indonesia",
-        "time": 1677826947773,
-        "updated": 1677828495040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jgzk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jgzk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000jgzk",
-        "ids": ",us7000jgzk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 2.81,
-        "rms": 0.8,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 86 km WSW of Poso, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.0337,
-          -1.6825,
-          10
-        ]
-      },
-      "id": "us7000jgzk"
     }
   ],
   "bbox": [
