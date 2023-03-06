@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678103987000,
+    "generated": 1678107939000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "72 km ESE of Sand Point, Alaska",
+        "time": 1678105857820,
+        "updated": 1678106686040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jhm9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jhm9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000jhm9",
+        "ids": ",us7000jhm9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 2.344,
+        "rms": 0.53,
+        "gap": 206,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 72 km ESE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.388,
+          55.1856,
+          35
+        ]
+      },
+      "id": "us7000jhm9"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "51 km W of Lake Minchumina, Alaska",
         "time": 1678102014349,
-        "updated": 1678102187382,
+        "updated": 1678105552040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232zon0ka",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232zon0ka.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0232zon0ka",
-        "ids": ",ak0232zon0ka,",
-        "sources": ",ak,",
+        "ids": ",us7000jhlz,ak0232zon0ka,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak0232zon0ka"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "5 km WNW of Toygarlı, Turkey",
+        "time": 1678100577035,
+        "updated": 1678105114040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jhlx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jhlx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000jhlx",
+        "ids": ",us7000jhlx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 1.345,
+        "rms": 0.34,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 5 km WNW of Toygarlı, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0127,
+          36.2306,
+          10
+        ]
+      },
+      "id": "us7000jhlx"
     },
     {
       "type": "Feature",
@@ -1568,46 +1648,6 @@
         ]
       },
       "id": "us7000jhgu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "1 km WSW of Guánica, Puerto Rico",
-        "time": 1678019688790,
-        "updated": 1678035130900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71398373",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71398373.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "pr",
-        "code": "71398373",
-        "ids": ",pr71398373,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.01435,
-        "rms": 0.11,
-        "gap": 196,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 1 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.922,
-          17.9655,
-          10.52
-        ]
-      },
-      "id": "pr71398373"
     }
   ],
   "bbox": [
