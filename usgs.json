@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678806022000,
+    "generated": 1678809622000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 2.83,
         "place": "15km N of Deep Springs, CA",
         "time": 1678805502600,
-        "updated": 1678805965884,
+        "updated": 1678809368040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856750",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856750.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 123,
         "net": "nc",
         "code": "73856750",
-        "ids": ",nc73856750,nn00856988,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73856750,nn00856988,us7000jjv6,",
+        "sources": ",nc,nn,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.3622,
         "rms": 0.21,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nc73856750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "11 km NE of Çağlayancerit, Turkey",
+        "time": 1678805389755,
+        "updated": 1678806758040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjv5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjv5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000jjv5",
+        "ids": ",us7000jjv5,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 87,
+        "dmin": 0.652,
+        "rms": 1.05,
+        "gap": 55,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.6 - 11 km NE of Çağlayancerit, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.3889,
+          37.8097,
+          10
+        ]
+      },
+      "id": "us7000jjv5"
     },
     {
       "type": "Feature",
@@ -92,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "18 km SSE of Dyer, Nevada",
-        "time": 1678804766235,
-        "updated": 1678804963068,
+        "mag": 2.8,
+        "place": "21 km SSE of Dyer, Nevada",
+        "time": 1678804765519,
+        "updated": 1678807370040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00856985",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00856985.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjv2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjv2.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "nn",
-        "code": "00856985",
-        "ids": ",nn00856985,",
-        "sources": ",nn,",
+        "sig": 121,
+        "net": "us",
+        "code": "7000jjv2",
+        "ids": ",nn00856985,us7000jjv2,",
+        "sources": ",nn,us,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.385,
-        "rms": 0.3212,
-        "gap": 94.37,
+        "nst": 50,
+        "dmin": 0.353,
+        "rms": 0.83,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 18 km SSE of Dyer, Nevada"
+        "title": "M 2.8 - 21 km SSE of Dyer, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9662,
-          37.5214,
-          6.7
+          -117.9345,
+          37.5015,
+          5
         ]
       },
-      "id": "nn00856985"
+      "id": "us7000jjv2"
     },
     {
       "type": "Feature",
@@ -1655,7 +1695,7 @@
         "mag": 3.09,
         "place": "5km SSW of Big Bear Lake, CA",
         "time": 1678745642480,
-        "updated": 1678776443244,
+        "updated": 1678807736104,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40184319",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40184319.geojson",
@@ -2128,46 +2168,6 @@
         ]
       },
       "id": "ak0233bc8mwa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "western Texas",
-        "time": 1678720599128,
-        "updated": 1678723575040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjjh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjjh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000jjjh",
-        "ids": ",us7000jjjh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.066,
-        "rms": 0.51,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - western Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4259,
-          31.6537,
-          7.089
-        ]
-      },
-      "id": "us7000jjjh"
     }
   ],
   "bbox": [
