@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678933159000,
+    "generated": 1678935631000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 66
+    "count": 65
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.19,
         "place": "9 km ESE of Canadian, Oklahoma",
         "time": 1678931460490,
-        "updated": 1678931682900,
+        "updated": 1678934739817,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023ffix",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023ffix.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "2023ffix",
         "ids": ",ok2023ffix,",
         "sources": ",ok,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 0.09186146408,
         "rms": 0.7843153595,
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.98,
-        "place": "24 km SSW of Laupāhoehoe, Hawaii",
-        "time": 1678929691950,
-        "updated": 1678932152619,
+        "mag": 2.71,
+        "place": "23 km SW of Laupāhoehoe, Hawaii",
+        "time": 1678929691820,
+        "updated": 1678933653441,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73340757",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73340757.geojson",
@@ -103,28 +103,28 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 137,
+        "sig": 114,
         "net": "hv",
         "code": "73340757",
         "ids": ",hv73340757,",
         "sources": ",hv,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 42,
+        "nst": 45,
         "dmin": null,
-        "rms": 0.129999995,
-        "gap": 211,
+        "rms": 0.11,
+        "gap": 215,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 24 km SSW of Laupāhoehoe, Hawaii"
+        "title": "M 2.7 - 23 km SW of Laupāhoehoe, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.365661621094,
-          19.8023338317871,
-          30.8299999237061
+          -155.3685,
+          19.816,
+          31.6
         ]
       },
       "id": "hv73340757"
@@ -255,13 +255,13 @@
         "mag": 7,
         "place": "Kermadec Islands region",
         "time": 1678928162207,
-        "updated": 1678932887040,
+        "updated": 1678935613927,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jkbd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jkbd.geojson",
         "felt": 1,
         "cdi": 8.2,
-        "mmi": 4.254,
+        "mmi": 4.603,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -2608,46 +2608,6 @@
         ]
       },
       "id": "us7000jjzy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "268 km SSE of Hotan, China",
-        "time": 1678847541226,
-        "updated": 1678916129040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjzm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjzm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000jjzm",
-        "ids": ",us7000jjzm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 6.831,
-        "rms": 0.6,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 268 km SSE of Hotan, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.3674,
-          34.9812,
-          15.942
-        ]
-      },
-      "id": "us7000jjzm"
     }
   ],
   "bbox": [
