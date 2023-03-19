@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679255977000,
+    "generated": 1679259604000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
     {
@@ -335,11 +335,11 @@
         "mag": 5.4,
         "place": "19 km SSW of Anchor Point, Alaska",
         "time": 1679238387280,
-        "updated": 1679255901527,
+        "updated": 1679259300602,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233l8vwxa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233l8vwxa.geojson",
-        "felt": 1183,
+        "felt": 1201,
         "cdi": 5.7,
         "mmi": 5.151,
         "alert": "green",
@@ -350,7 +350,7 @@
         "code": "0233l8vwxa",
         "ids": ",ak0233l8vwxa,at00rrrwmq,us7000jl9p,",
         "sources": ",ak,at,us,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,oaf,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,groundmotion-packet,impact-link,losspager,oaf,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.49,
@@ -375,12 +375,12 @@
         "mag": 2.7,
         "place": "83km E of Maneadero, B.C., MX",
         "time": 1679235241850,
-        "updated": 1679251723939,
+        "updated": 1679259175055,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40187079",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40187079.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +390,7 @@
         "code": "40187079",
         "ids": ",ci40187079,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
         "dmin": 0.1888,
         "rms": 0.25,
@@ -1448,86 +1448,6 @@
         ]
       },
       "id": "us7000jl5i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "6 km SW of Guánica, Puerto Rico",
-        "time": 1679171747110,
-        "updated": 1679175022040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023077000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023077000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "2023077000",
-        "ids": ",us7000jl59,pr2023077000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.0877,
-        "rms": 0.1,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 6 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.959,
-          17.9388,
-          6
-        ]
-      },
-      "id": "pr2023077000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "73 km S of Calama, Chile",
-        "time": 1679171407619,
-        "updated": 1679173437040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jl58",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jl58.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000jl58",
-        "ids": ",us7000jl58,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.691,
-        "rms": 0.88,
-        "gap": 81,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.6 - 73 km S of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9075,
-          -23.1182,
-          97.39
-        ]
-      },
-      "id": "us7000jl58"
     }
   ],
   "bbox": [
