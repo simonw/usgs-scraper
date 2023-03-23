@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679529646000,
+    "generated": 1679534805000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "69 km W of Happy Valley, Alaska",
+        "time": 1679532547247,
+        "updated": 1679532661307,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233rmcz50",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233rmcz50.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0233rmcz50",
+        "ids": ",ak0233rmcz50,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.31,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 69 km W of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.9639,
+          60.0534,
+          108.7
+        ]
+      },
+      "id": "ak0233rmcz50"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "8km N of Bay Point, CA",
+        "time": 1679530995670,
+        "updated": 1679533751532,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73860830",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73860830.geojson",
+        "felt": 3,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "nc",
+        "code": "73860830",
+        "ids": ",nc73860830,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.1992,
+        "rms": 0.15,
+        "gap": 191,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8km N of Bay Point, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9680023,
+          38.1036682,
+          4.83
+        ]
+      },
+      "id": "nc73860830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "44 km SSE of Angoram, Papua New Guinea",
+        "time": 1679530659688,
+        "updated": 1679532886281,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jm28",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jm28.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": 4.153,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000jm28",
+        "ids": ",us7000jm28,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 114,
+        "dmin": 5.73,
+        "rms": 0.89,
+        "gap": 22,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 44 km SSE of Angoram, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2648,
+          -4.4149,
+          131.627
+        ]
+      },
+      "id": "us7000jm28"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.6,
         "place": "71 km N of Namuac, Philippines",
         "time": 1679527915803,
-        "updated": 1679529227415,
+        "updated": 1679530209040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jm20",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jm20.geojson",
@@ -30,7 +150,7 @@
         "code": "7000jm20",
         "ids": ",us7000jm20,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 112,
         "dmin": 3.548,
         "rms": 0.83,
@@ -55,22 +175,22 @@
         "mag": 4.9,
         "place": "58 km ENE of Peterborough, Australia",
         "time": 1679527389045,
-        "updated": 1679529251040,
+        "updated": 1679533689247,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jm1z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jm1z.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 8,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 372,
         "net": "us",
         "code": "7000jm1z",
         "ids": ",us7000jm1z,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 34,
         "dmin": 2.055,
         "rms": 0.54,
@@ -132,39 +252,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.65,
-        "place": "25 km NNW of Leavenworth, Washington",
-        "time": 1679522880590,
-        "updated": 1679525263632,
+        "mag": 2.6,
+        "place": "Washington",
+        "time": 1679522880560,
+        "updated": 1679534157467,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61904267",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61904267.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 106,
         "net": "uw",
         "code": "61904267",
         "ids": ",uw61904267,us7000jm1i,",
         "sources": ",uw,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.06914,
-        "rms": 0.2,
-        "gap": 65,
+        "nst": 25,
+        "dmin": 0.07182,
+        "rms": 0.18,
+        "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 25 km NNW of Leavenworth, Washington"
+        "title": "M 2.6 - Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.83866666666667,
-          47.794333333333334,
-          5.41
+          -120.8405,
+          47.79083333333333,
+          5.55
         ]
       },
       "id": "uw61904267"
@@ -255,17 +375,17 @@
         "mag": 5.9,
         "place": "51 km NNW of Novobod, Tajikistan",
         "time": 1679515664018,
-        "updated": 1679526862097,
+        "updated": 1679534603328,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jm0r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jm0r.geojson",
-        "felt": 50,
-        "cdi": 4.1,
+        "felt": 52,
+        "cdi": 5.3,
         "mmi": 7.682,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 670,
+        "sig": 678,
         "net": "us",
         "code": "7000jm0r",
         "ids": ",us7000jm0r,",
@@ -293,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "eastern Turkey",
+        "place": "15 km WNW of Çelikhan, Turkey",
         "time": 1679514205332,
         "updated": 1679515305040,
         "tz": null,
@@ -317,7 +437,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - eastern Turkey"
+        "title": "M 4.1 - 15 km WNW of Çelikhan, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "2 km NE of Blamont, France",
+        "place": "France",
         "time": 1679496633977,
         "updated": 1679526812194,
         "tz": null,
@@ -477,7 +597,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 2 km NE of Blamont, France"
+        "title": "M 4.2 - France"
       },
       "geometry": {
         "type": "Point",
@@ -501,7 +621,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233q72h6o.geojson",
         "felt": 2,
         "cdi": 2,
-        "mmi": 2.042,
+        "mmi": 2.561,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -613,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Turkmenistan-Iran border region",
+        "place": "39 km NNE of Qarnābād, Iran",
         "time": 1679481527719,
         "updated": 1679506373692,
         "tz": null,
@@ -637,7 +757,7 @@
         "gap": 138,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - Turkmenistan-Iran border region"
+        "title": "M 5.1 - 39 km NNE of Qarnābād, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "99 km ESE of Perryville, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1679467896105,
         "updated": 1679468056659,
         "tz": null,
@@ -877,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 99 km ESE of Perryville, Alaska"
+        "title": "M 2.8 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -893,9 +1013,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "0 km SSW of La Union, Philippines",
-        "time": 1679459294974,
-        "updated": 1679473334397,
+        "place": "0 km WNW of Talisay, Philippines",
+        "time": 1679459294733,
+        "updated": 1679530930088,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jlvr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jlvr.geojson",
@@ -911,20 +1031,20 @@
         "ids": ",us7000jlvr,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.623,
-        "rms": 0.65,
-        "gap": 142,
+        "nst": 57,
+        "dmin": 0.619,
+        "rms": 0.68,
+        "gap": 116,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 0 km SSW of La Union, Philippines"
+        "title": "M 4.8 - 0 km WNW of Talisay, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.0848,
-          6.6979,
-          66.168
+          126.0963,
+          6.7221,
+          68.279
         ]
       },
       "id": "us7000jlvr"
@@ -933,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "6 km SSW of Lamboglia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1679456540100,
         "updated": 1679459280940,
         "tz": null,
@@ -957,7 +1077,7 @@
         "gap": 234,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 6 km SSW of Lamboglia, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -973,9 +1093,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "23 km SSW of Trapper Creek, Alaska",
+        "place": "Central Alaska",
         "time": 1679456424492,
-        "updated": 1679514152395,
+        "updated": 1679530507040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233q0k1av",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233q0k1av.geojson",
@@ -988,8 +1108,8 @@
         "sig": 193,
         "net": "ak",
         "code": "0233q0k1av",
-        "ids": ",ak0233q0k1av,",
-        "sources": ",ak,",
+        "ids": ",ak0233q0k1av,us7000jlvl,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
@@ -997,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 23 km SSW of Trapper Creek, Alaska"
+        "title": "M 3.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "101 km W of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1679455491974,
         "updated": 1679529563040,
         "tz": null,
@@ -1037,7 +1157,7 @@
         "gap": 114,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 101 km W of Adak, Alaska"
+        "title": "M 2.5 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Ceram Sea, Indonesia",
+        "place": "257 km E of Amahai, Indonesia",
         "time": 1679451328348,
         "updated": 1679525294040,
         "tz": null,
@@ -1237,7 +1357,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Ceram Sea, Indonesia"
+        "title": "M 4.5 - 257 km E of Amahai, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Ryukyu Islands, Japan",
+        "place": "104 km S of Yudomari, Japan",
         "time": 1679449601456,
         "updated": 1679524520040,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Ryukyu Islands, Japan"
+        "title": "M 4.6 - 104 km S of Yudomari, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1288,93 +1408,13 @@
         ]
       },
       "id": "us7000jlv0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "off the coast of Oregon",
-        "time": 1679447906437,
-        "updated": 1679523913213,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jluq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jluq.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "7000jluq",
-        "ids": ",us7000jluq,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 61,
-        "dmin": 2.243,
-        "rms": 0.51,
-        "gap": 281,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.2173,
-          43.5505,
-          10
-        ]
-      },
-      "id": "us7000jluq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.14,
-        "place": "35 km W of Puerto Real, Puerto Rico",
-        "time": 1679447301640,
-        "updated": 1679449015710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71401063",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71401063.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 152,
-        "net": "pr",
-        "code": "71401063",
-        "ids": ",pr71401063,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.3205,
-        "rms": 0.21,
-        "gap": 267,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 35 km W of Puerto Real, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5191666666667,
-          18.0645,
-          41.1
-        ]
-      },
-      "id": "pr71401063"
     }
   ],
   "bbox": [
     -178.1058,
     -59.5861,
     0,
-    143.0358,
+    144.2648,
     62.1192,
     341.52
   ]
