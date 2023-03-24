@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679621216000,
+    "generated": 1679624096000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "14 km WSW of Göksun, Turkey",
+        "time": 1679618393594,
+        "updated": 1679622859040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmay",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmay.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000jmay",
+        "ids": ",us7000jmay,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 116,
+        "dmin": 0.371,
+        "rms": 1,
+        "gap": 20,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.6 - 14 km WSW of Göksun, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3559,
+          37.9518,
+          10
+        ]
+      },
+      "id": "us7000jmay"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.1,
         "place": "24km ESE of Ridgecrest, CA",
         "time": 1679617820890,
-        "updated": 1679620848418,
+        "updated": 1679622057211,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40188871",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40188871.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -135,17 +175,17 @@
         "mag": 2.64,
         "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1679609263580,
-        "updated": 1679617370990,
+        "updated": 1679622111812,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73347397",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73347397.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 107,
+        "sig": 108,
         "net": "hv",
         "code": "73347397",
         "ids": ",hv73347397,us7000jma0,",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "100 km SW of Atiquipa, Peru",
+        "place": "off the coast of southern Peru",
         "time": 1679551703747,
         "updated": 1679554159040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 166,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 100 km SW of Atiquipa, Peru"
+        "title": "M 4.2 - off the coast of southern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Santa Cruz Islands region",
+        "place": "124 km W of Lata, Solomon Islands",
         "time": 1679550738379,
         "updated": 1679551879040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - Santa Cruz Islands region"
+        "title": "M 5.2 - 124 km W of Lata, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Chile-Argentina border region",
+        "place": "36 km ENE of Machalí, Chile",
         "time": 1679550234698,
         "updated": 1679551330040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 92,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Chile-Argentina border region"
+        "title": "M 4.1 - 36 km ENE of Machalí, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1055,7 +1095,7 @@
         "mag": 2.5,
         "place": "57 km SE of Lowell Point, Alaska",
         "time": 1679542742898,
-        "updated": 1679542908048,
+        "updated": 1679621368040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233ro34gh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233ro34gh.geojson",
@@ -1068,8 +1108,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0233ro34gh",
-        "ids": ",ak0233ro34gh,",
-        "sources": ",ak,",
+        "ids": ",us7000jm3k,ak0233ro34gh,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1288,126 +1328,6 @@
         ]
       },
       "id": "us7000jm3d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "Greece-Albania border region",
-        "time": 1679537374557,
-        "updated": 1679607948040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jm39",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jm39.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000jm39",
-        "ids": ",us7000jm39,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.748,
-        "rms": 0.9,
-        "gap": 62,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - Greece-Albania border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.6939,
-          40.4066,
-          10
-        ]
-      },
-      "id": "us7000jm39"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "55 km W of Sardinal, Costa Rica",
-        "time": 1679535881503,
-        "updated": 1679606868040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jm31",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jm31.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000jm31",
-        "ids": ",us7000jm31,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.904,
-        "rms": 0.72,
-        "gap": 175,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 55 km W of Sardinal, Costa Rica"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.1547,
-          10.4715,
-          34.508
-        ]
-      },
-      "id": "us7000jm31"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Albania",
-        "time": 1679535800540,
-        "updated": 1679604575040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jm2z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jm2z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000jm2z",
-        "ids": ",us7000jm2z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.796,
-        "rms": 0.8,
-        "gap": 36,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Albania"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.7119,
-          40.4612,
-          14.298
-        ]
-      },
-      "id": "us7000jm2z"
     }
   ],
   "bbox": [
