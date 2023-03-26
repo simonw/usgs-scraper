@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679814020000,
+    "generated": 1679817647000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "59 km S of Whites City, New Mexico",
+        "time": 1679814687633,
+        "updated": 1679816239985,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023fyan",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023fyan.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "tx",
+        "code": "2023fyan",
+        "ids": ",us7000jmtm,tx2023fyan,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.07250576178,
+        "rms": 0.3,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 59 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3496446,
+          31.63829301,
+          6.697143555000001
+        ]
+      },
+      "id": "tx2023fyan"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.46,
         "place": "48km E of Trona, CA",
         "time": 1679811645060,
-        "updated": 1679813729885,
+        "updated": 1679816741120,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40189967",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40189967.geojson",
@@ -30,7 +70,7 @@
         "code": "40189967",
         "ids": ",ci40189967,us7000jmtb,",
         "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,focal-mechanism,groundmotion-packet,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 42,
         "dmin": 0.3653,
         "rms": 0.14,
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.77,
-        "place": "4 km SSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1679810929070,
         "updated": 1679812270200,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 4 km SSW of Guánica, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "south of Alaska",
+        "place": "117 km SSE of Sand Point, Alaska",
         "time": 1679803608245,
         "updated": 1679804662040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 199,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - south of Alaska"
+        "title": "M 3.3 - 117 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "94 km WSW of Banda Aceh, Indonesia",
+        "place": "northern Sumatra, Indonesia",
         "time": 1679799208468,
         "updated": 1679801366040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 169,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 94 km WSW of Banda Aceh, Indonesia"
+        "title": "M 4.5 - northern Sumatra, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.04,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1679797504060,
         "updated": 1679798788973,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Hawaii region, Hawaii"
+        "title": "M 3.0 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "near the coast of Oaxaca, Mexico",
+        "place": "98 km SSW of Cabeza de Toro, Mexico",
         "time": 1679797068517,
         "updated": 1679799089040,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 227,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - near the coast of Oaxaca, Mexico"
+        "title": "M 4.2 - 98 km SSW of Cabeza de Toro, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -452,82 +492,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.93,
-        "place": "79 km NE of Punta Cana, Dominican Republic",
-        "time": 1679791266700,
+        "mag": 3.5,
+        "place": "92 km NE of Punta Cana, Dominican Republic",
+        "time": 1679791265184,
         "updated": 1679799030492,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023085001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023085001.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmrp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmrp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 238,
-        "net": "pr",
-        "code": "2023085001",
+        "sig": 188,
+        "net": "us",
+        "code": "7000jmrp",
         "ids": ",us7000jmrp,pr2023085001,",
         "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.7756,
-        "rms": 0.45,
-        "gap": 262,
-        "magType": "md",
+        "nst": 17,
+        "dmin": 0.875,
+        "rms": 0.38,
+        "gap": 192,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 79 km NE of Punta Cana, Dominican Republic"
+        "title": "M 3.5 - 92 km NE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.9486,
-          19.1575,
-          72
+          -67.8825,
+          19.2553,
+          35
         ]
       },
-      "id": "pr2023085001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "62 km WNW of Abra Pampa, Argentina",
-        "time": 1679791192628,
-        "updated": 1679792506040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmrn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmrn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000jmrn",
-        "ids": ",us7000jmrn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 1.904,
-        "rms": 0.65,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 62 km WNW of Abra Pampa, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2018,
-          -22.4089,
-          267.943
-        ]
-      },
-      "id": "us7000jmrn"
+      "id": "us7000jmrp"
     },
     {
       "type": "Feature",
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "63 km SW of Port-Vila, Vanuatu",
+        "place": "Vanuatu",
         "time": 1679774276941,
         "updated": 1679777804040,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 63 km SW of Port-Vila, Vanuatu"
+        "title": "M 4.8 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.21,
-        "place": "Virgin Islands region",
+        "place": "17 km NNW of Cruz Bay, U.S. Virgin Islands",
         "time": 1679771233290,
         "updated": 1679772243330,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Virgin Islands region"
+        "title": "M 3.2 - 17 km NNW of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kenai Peninsula, Alaska",
+        "place": "26 km W of Cohoe, Alaska",
         "time": 1679766175191,
         "updated": 1679772546040,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Kenai Peninsula, Alaska"
+        "title": "M 2.5 - 26 km W of Cohoe, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.85,
-        "place": "5 km WSW of Fuig, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1679745008840,
         "updated": 1679746703030,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 188,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 5 km WSW of Fuig, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1448,171 +1448,11 @@
         ]
       },
       "id": "nc73861995"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "40 km WNW of Skwentna, Alaska",
-        "time": 1679730855091,
-        "updated": 1679732955040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233v1mskc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233v1mskc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "0233v1mskc",
-        "ids": ",us7000jmnc,ak0233v1mskc,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.48,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 40 km WNW of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.0746,
-          62.1632,
-          105.6
-        ]
-      },
-      "id": "ak0233v1mskc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "55 km ESE of Chenega, Alaska",
-        "time": 1679729892707,
-        "updated": 1679732565040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233v1jcwm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233v1jcwm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0233v1jcwm",
-        "ids": ",us7000jmn7,ak0233v1jcwm,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.86,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 55 km ESE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.0436,
-          59.9656,
-          0.7
-        ]
-      },
-      "id": "ak0233v1jcwm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "54 km E of Chenega, Alaska",
-        "time": 1679729483168,
-        "updated": 1679731967040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233v1hvp8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233v1hvp8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0233v1hvp8",
-        "ids": ",us7000jmn6,ak0233v1hvp8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.85,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 54 km E of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.0461,
-          59.9795,
-          3.8
-        ]
-      },
-      "id": "ak0233v1hvp8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "51 km SSE of Calama, Chile",
-        "time": 1679729414759,
-        "updated": 1679730559040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmn5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmn5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000jmn5",
-        "ids": ",us7000jmn5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 0.582,
-        "rms": 0.98,
-        "gap": 65,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.6 - 51 km SSE of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8085,
-          -22.909,
-          114.256
-        ]
-      },
-      "id": "us7000jmn5"
     }
   ],
   "bbox": [
     -178.0834,
-    -22.909,
+    -21.0439,
     -0.21,
     173.485,
     63.4697,
