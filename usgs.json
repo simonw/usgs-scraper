@@ -1,59 +1,139 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679893209000,
+    "generated": 1679896809000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "Hawaii region, Hawaii",
-        "time": 1679891955248,
-        "updated": 1679892654272,
+        "mag": 4,
+        "place": "200 km W of Bandon, Oregon",
+        "time": 1679892793028,
+        "updated": 1679894003857,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmyl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmyl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmyr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmyr.geojson",
         "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000jmyr",
+        "ids": ",us7000jmyr,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 50,
+        "dmin": 1.557,
+        "rms": 0.78,
+        "gap": 192,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 200 km W of Bandon, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.8521,
+          43.3548,
+          10
+        ]
+      },
+      "id": "us7000jmyr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "time": 1679892600624,
+        "updated": 1679894412040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmyq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmyq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.019,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000jmyq",
+        "ids": ",us7000jmyq,ak0233yaw7lq,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 41,
+        "dmin": 1.189,
+        "rms": 0.81,
+        "gap": 130,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Fox Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.5969,
+          53.5347,
+          204.207
+        ]
+      },
+      "id": "us7000jmyq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.12,
+        "place": "52 km ESE of Naalehu, Hawaii",
+        "time": 1679891956340,
+        "updated": 1679896587717,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73350092",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73350092.geojson",
+        "felt": 4,
         "cdi": 3.4,
         "mmi": 2.863,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000jmyl",
-        "ids": ",pt23086001,us7000jmyl,",
-        "sources": ",pt,us,",
+        "sig": 263,
+        "net": "hv",
+        "code": "73350092",
+        "ids": ",pt23086001,us7000jmyl,hv73350092,",
+        "sources": ",pt,us,hv,",
         "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 18,
-        "dmin": 0.444,
-        "rms": 1.07,
-        "gap": 272,
+        "nst": 27,
+        "dmin": null,
+        "rms": 0.14,
+        "gap": 276,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.4 - Hawaii region, Hawaii"
+        "title": "M 4.1 - 52 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.1649,
-          18.8381,
-          20.782
+          -155.160333333333,
+          18.8155,
+          7.79
         ]
       },
-      "id": "us7000jmyl"
+      "id": "hv73350092"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Salta, Argentina",
+        "place": "100 km W of San Antonio de los Cobres, Argentina",
         "time": 1679890938302,
         "updated": 1679891809040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 125,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Salta, Argentina"
+        "title": "M 4.1 - 100 km W of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -255,7 +335,7 @@
         "mag": 5.5,
         "place": "262 km E of Levuka, Fiji",
         "time": 1679884161602,
-        "updated": 1679891541598,
+        "updated": 1679894861040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmy4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmy4.geojson",
@@ -270,7 +350,7 @@
         "code": "7000jmy4",
         "ids": ",us7000jmy4,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 94,
         "dmin": 3.505,
         "rms": 0.66,
@@ -292,10 +372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.14,
-        "place": "48 km ESE of Naalehu, Hawaii",
-        "time": 1679882351770,
-        "updated": 1679883760040,
+        "mag": 3.01,
+        "place": "49 km ESE of Naalehu, Hawaii",
+        "time": 1679882351570,
+        "updated": 1679894151570,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73350032",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73350032.geojson",
@@ -303,28 +383,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 152,
+        "sig": 139,
         "net": "hv",
         "code": "73350032",
         "ids": ",us7000jmy0,hv73350032,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 38,
+        "nst": 42,
         "dmin": null,
-        "rms": 0.209999993,
-        "gap": 266,
+        "rms": 0.15,
+        "gap": 281,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 48 km ESE of Naalehu, Hawaii"
+        "title": "M 3.0 - 49 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.176666259766,
-          18.8479995727539,
-          9
+          -155.180333333333,
+          18.836,
+          8.29
         ]
       },
       "id": "hv73350032"
@@ -335,12 +415,12 @@
         "mag": 3.4,
         "place": "34 km SE of Malaga, New Mexico",
         "time": 1679882101794,
-        "updated": 1679883357647,
+        "updated": 1679895567481,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023fzlo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023fzlo.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -348,9 +428,9 @@
         "sig": 178,
         "net": "tx",
         "code": "2023fzlo",
-        "ids": ",us7000jmxy,tx2023fzlo,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023fzlo,us7000jmxy,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 0.01114873466,
         "rms": 0.2,
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "15 km ENE of Zapatoca, Colombia",
+        "place": "northern Colombia",
         "time": 1679871641611,
         "updated": 1679873148040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 15 km ENE of Zapatoca, Colombia"
+        "title": "M 4.4 - northern Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "1 km S of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1679869143310,
         "updated": 1679869741880,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 203,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km S of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.36,
-        "place": "Virgin Islands region",
+        "place": "Virgin Islands",
         "time": 1679843425320,
         "updated": 1679849301040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Virgin Islands region"
+        "title": "M 3.4 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "113 km NW of Tual, Indonesia",
+        "place": "Banda Sea",
         "time": 1679834471396,
         "updated": 1679835434040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 38,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 113 km NW of Tual, Indonesia"
+        "title": "M 5.1 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Kepulauan Tanimbar, Indonesia",
+        "place": "Pulau Pulau Tanimbar, Indonesia",
         "time": 1679827424822,
         "updated": 1679828452040,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Kepulauan Tanimbar, Indonesia"
+        "title": "M 4.9 - Pulau Pulau Tanimbar, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "59 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1679814687633,
         "updated": 1679816239985,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 59 km S of Whites City, New Mexico"
+        "title": "M 3.3 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.77,
-        "place": "Puerto Rico region",
+        "place": "4 km SSW of Guánica, Puerto Rico",
         "time": 1679810929070,
         "updated": 1679812270200,
         "tz": null,
@@ -1437,7 +1517,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
+        "title": "M 2.8 - 4 km SSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
