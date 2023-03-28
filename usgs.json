@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680022792000,
+    "generated": 1680026403000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "16km WNW of Biggs, CA",
+        "time": 1680022832430,
+        "updated": 1680025156333,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863620",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863620.geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "nc",
+        "code": "73863620",
+        "ids": ",nc73863620,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.2468,
+        "rms": 0.18,
+        "gap": 179,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 16km WNW of Biggs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8714981,
+          39.4804993,
+          2.87
+        ]
+      },
+      "id": "nc73863620"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,69 +132,29 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.59,
-        "place": "1km NE of Pacifica, CA",
-        "time": 1680008640500,
-        "updated": 1680022444488,
+        "mag": 2.6,
+        "place": "1km ENE of Pacifica, CA",
+        "time": 1680008640490,
+        "updated": 1680025934543,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863525",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863525.geojson",
-        "felt": 144,
+        "felt": 152,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 165,
+        "sig": 169,
         "net": "nc",
         "code": "73863525",
         "ids": ",nc73863525,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.03698,
-        "rms": 0.05,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 1km NE of Pacifica, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4788361,
-          37.6184998,
-          8.94
-        ]
-      },
-      "id": "nc73863525"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "1km ENE of Pacifica, CA",
-        "time": 1680008588960,
-        "updated": 1680022305456,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863520",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863520.geojson",
-        "felt": 69,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 134,
-        "net": "nc",
-        "code": "73863520",
-        "ids": ",nc73863520,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.03486,
-        "rms": 0.06,
-        "gap": 71,
+        "nst": 108,
+        "dmin": 0.01707,
+        "rms": 0.08,
+        "gap": 65,
         "magType": "md",
         "type": "earthquake",
         "title": "M 2.6 - 1km ENE of Pacifica, CA"
@@ -162,9 +162,49 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4798355,
-          37.6165009,
-          9.19
+          -122.474,
+          37.6181667,
+          8.7
+        ]
+      },
+      "id": "nc73863525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "1km ENE of Pacifica, CA",
+        "time": 1680008588920,
+        "updated": 1680025934405,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863520",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863520.geojson",
+        "felt": 73,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 134,
+        "net": "nc",
+        "code": "73863520",
+        "ids": ",nc73863520,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 109,
+        "dmin": 0.02146,
+        "rms": 0.07,
+        "gap": 70,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 1km ENE of Pacifica, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4793333,
+          37.616,
+          8.99
         ]
       },
       "id": "nc73863520"
@@ -175,11 +215,11 @@
         "mag": 3.4,
         "place": "1km ENE of Pacifica, CA",
         "time": 1680008478360,
-        "updated": 1680022669122,
+        "updated": 1680026178090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863515",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863515.geojson",
-        "felt": 2368,
+        "felt": 2434,
         "cdi": 3.6,
         "mmi": 3.939,
         "alert": null,
@@ -288,6 +328,46 @@
         ]
       },
       "id": "us6000k0a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "35 km WSW of Mentone, Texas",
+        "time": 1679996700250,
+        "updated": 1680024243620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023gbwn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023gbwn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2023gbwn",
+        "ids": ",tx2023gbwn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.00962140967,
+        "rms": 0.1,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 35 km WSW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.9600927,
+          31.61676374,
+          5.270349121
+        ]
+      },
+      "id": "tx2023gbwn"
     },
     {
       "type": "Feature",
@@ -452,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "western Texas",
+        "time": 1679991901079,
+        "updated": 1680025521325,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023gbtz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023gbtz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2023gbtz",
+        "ids": ",tx2023gbtz,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.1436995489,
+        "rms": 0.1,
+        "gap": 88,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0185071,
+          32.46551514,
+          8.583618164
+        ]
+      },
+      "id": "tx2023gbtz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.25,
         "place": "82 km N of San Juan, Puerto Rico",
         "time": 1679989629640,
@@ -568,6 +688,86 @@
         ]
       },
       "id": "us6000k09e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "97 km W of Adak, Alaska",
+        "time": 1679983012300,
+        "updated": 1680023541630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91096228",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91096228.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "av",
+        "code": "91096228",
+        "ids": ",av91096228,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 121,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 97 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.051,
+          51.8423333333333,
+          2.95
+        ]
+      },
+      "id": "av91096228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "97 km W of Adak, Alaska",
+        "time": 1679982964850,
+        "updated": 1680023359590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91822611",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91822611.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "av",
+        "code": "91822611",
+        "ids": ",av91822611,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": null,
+        "rms": 0.19,
+        "gap": 121,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 97 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.055166666667,
+          51.8453333333333,
+          2.53
+        ]
+      },
+      "id": "av91822611"
     },
     {
       "type": "Feature",
@@ -775,17 +975,17 @@
         "mag": 2.54,
         "place": "2km E of Willits, CA",
         "time": 1679976300070,
-        "updated": 1680020707047,
+        "updated": 1680023773876,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863345",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863345.geojson",
-        "felt": 33,
+        "felt": 34,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 113,
+        "sig": 114,
         "net": "nc",
         "code": "73863345",
         "ids": ",nc73863345,",
@@ -855,17 +1055,17 @@
         "mag": 3.25,
         "place": "8km WSW of Petrolia, CA",
         "time": 1679970388730,
-        "updated": 1679988197422,
+        "updated": 1680026216516,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863320",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863320.geojson",
-        "felt": 2,
+        "felt": 4,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 163,
+        "sig": 164,
         "net": "nc",
         "code": "73863320",
         "ids": ",nc73863320,us6000k08b,",
@@ -1328,46 +1528,6 @@
         ]
       },
       "id": "us6000k03l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "2km ESE of The Geysers, CA",
-        "time": 1679936406540,
-        "updated": 1680012644100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863085",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863085.geojson",
-        "felt": 1,
-        "cdi": 2.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "nc",
-        "code": "73863085",
-        "ids": ",nc73863085,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 51,
-        "dmin": 0.01374,
-        "rms": 0.1,
-        "gap": 36,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2km ESE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7376633,
-          38.7695007,
-          1.15
-        ]
-      },
-      "id": "nc73863085"
     }
   ],
   "bbox": [
