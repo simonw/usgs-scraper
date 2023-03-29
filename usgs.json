@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680116420000,
+    "generated": 1680120004000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "68 km NNE of Suárez, Puerto Rico",
+        "time": 1680115864540,
+        "updated": 1680118048730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71402018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71402018.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "pr",
+        "code": "71402018",
+        "ids": ",pr71402018,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.8396,
+        "rms": 0.05,
+        "gap": 275,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 68 km NNE of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.722,
+          19.0403333333333,
+          30.18
+        ]
+      },
+      "id": "pr71402018"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 5.4,
         "place": "108 km NE of Hihifo, Tonga",
         "time": 1680114409386,
-        "updated": 1680116306176,
+        "updated": 1680117401904,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0pe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0pe.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": 3.314,
         "alert": "green",
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "6000k0pe",
         "ids": ",us6000k0pe,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 54,
         "dmin": 2.622,
         "rms": 0.93,
@@ -135,22 +175,22 @@
         "mag": 4.9,
         "place": "28 km NNE of Labuan Lombok, Indonesia",
         "time": 1680113419540,
-        "updated": 1680115710040,
+        "updated": 1680118208994,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0p7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0p7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 370,
         "net": "us",
         "code": "6000k0p7",
         "ids": ",us6000k0p7,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 75,
         "dmin": 1.184,
         "rms": 0.63,
@@ -1728,46 +1768,6 @@
         ]
       },
       "id": "ak023408bwt8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Halmahera, Indonesia",
-        "time": 1680031627043,
-        "updated": 1680033796040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0ex",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0ex.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000k0ex",
-        "ids": ",us6000k0ex,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.168,
-        "rms": 0.43,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Halmahera, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.7992,
-          2.4101,
-          35
-        ]
-      },
-      "id": "us6000k0ex"
     }
   ],
   "bbox": [
