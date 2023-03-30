@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680195620000,
+    "generated": 1680199220000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.3,
+        "place": "108 km WSW of Constitución, Chile",
+        "time": 1680197586638,
+        "updated": 1680199156882,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0xf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0xf.geojson",
+        "felt": 4,
+        "cdi": 5.2,
+        "mmi": 4.321,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 613,
+        "net": "us",
+        "code": "6000k0xf",
+        "ids": ",us6000k0xf,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 142,
+        "dmin": 1.121,
+        "rms": 0.48,
+        "gap": 71,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.3 - 108 km WSW of Constitución, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5365,
+          -35.6602,
+          13.105
+        ]
+      },
+      "id": "us6000k0xf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "8 km WSW of Hoback, Wyoming",
+        "time": 1680196735731,
+        "updated": 1680199111518,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0x6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0x6.geojson",
+        "felt": 15,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 174,
+        "net": "us",
+        "code": "6000k0x6",
+        "ids": ",us6000k0x6,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.216,
+        "rms": 0.64,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 8 km WSW of Hoback, Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8848,
+          43.2655,
+          5
+        ]
+      },
+      "id": "us6000k0x6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "40 km WNW of Karluk, Alaska",
         "time": 1680190588247,
-        "updated": 1680190703574,
+        "updated": 1680199039040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02343fz5yg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02343fz5yg.geojson",
@@ -28,8 +108,8 @@
         "sig": 168,
         "net": "ak",
         "code": "02343fz5yg",
-        "ids": ",ak02343fz5yg,",
-        "sources": ",ak,",
+        "ids": ",us6000k0wf,ak02343fz5yg,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak02343fz5yg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "107 km SE of Shingū, Japan",
+        "time": 1680190161157,
+        "updated": 1680196456040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0wq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0wq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000k0wq",
+        "ids": ",us6000k0wq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 2.023,
+        "rms": 0.44,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 107 km SE of Shingū, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.7762,
+          33.0242,
+          408.496
+        ]
+      },
+      "id": "us6000k0wq"
     },
     {
       "type": "Feature",
@@ -932,10 +1052,10 @@
   ],
   "bbox": [
     -173.0504,
-    -15.2968,
+    -35.6602,
     0,
     141.4912,
     67.3507,
-    115.289
+    408.496
   ]
 }
