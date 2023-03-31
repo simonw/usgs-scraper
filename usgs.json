@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680231609000,
+    "generated": 1680235221000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "20 km WSW of Brookings, Oregon",
+        "time": 1680233689359,
+        "updated": 1680234623040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k110",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k110.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000k110",
+        "ids": ",us6000k110,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.508,
+        "rms": 0.69,
+        "gap": 217,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 20 km WSW of Brookings, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.5195,
+          41.9977,
+          20.145
+        ]
+      },
+      "id": "us6000k110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "9km E of Primo Tapia, B.C., MX",
+        "time": 1680233335760,
+        "updated": 1680233559516,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39507946",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39507946.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ci",
+        "code": "39507946",
+        "ids": ",ci39507946,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.1661,
+        "rms": 0.2,
+        "gap": 273,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 9km E of Primo Tapia, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.824,
+          32.2173333,
+          0.56
+        ]
+      },
+      "id": "ci39507946"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -613,19 +693,19 @@
       "type": "Feature",
       "properties": {
         "mag": 6.3,
-        "place": "Off the coast of Maule, Chile",
+        "place": "108 km WSW of Constitución, Chile",
         "time": 1680197586366,
-        "updated": 1680217283955,
+        "updated": 1680234034146,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0xf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0xf.geojson",
-        "felt": 33,
+        "felt": 34,
         "cdi": 5,
         "mmi": 4.109,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 627,
+        "sig": 628,
         "net": "us",
         "code": "6000k0xf",
         "ids": ",us6000k0xf,",
@@ -637,7 +717,7 @@
         "gap": 71,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.3 - Off the coast of Maule, Chile"
+        "title": "M 6.3 - 108 km WSW of Constitución, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -655,11 +735,11 @@
         "mag": 3.3,
         "place": "9 km W of Hoback, Wyoming",
         "time": 1680196735798,
-        "updated": 1680229536577,
+        "updated": 1680232317285,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0x6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0x6.geojson",
-        "felt": 45,
+        "felt": 46,
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
@@ -935,12 +1015,12 @@
         "mag": 2.74,
         "place": "3km NE of Round Valley, CA",
         "time": 1680163542770,
-        "updated": 1680195240809,
+        "updated": 1680234927219,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73864375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73864375.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -950,7 +1030,7 @@
         "code": "73864375",
         "ids": ",nc73864375,nn00857649,",
         "sources": ",nc,nn,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 32,
         "dmin": 0.1845,
         "rms": 0.06,
@@ -1128,86 +1208,6 @@
         ]
       },
       "id": "pr71402063"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "25 km WNW of Nikiski, Alaska",
-        "time": 1680148018908,
-        "updated": 1680221219040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023438w68y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023438w68y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "023438w68y",
-        "ids": ",us6000k0t2,ak023438w68y,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.24,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 25 km WNW of Nikiski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.7304,
-          60.7767,
-          70.3
-        ]
-      },
-      "id": "ak023438w68y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "86 km W of Murghob, Tajikistan",
-        "time": 1680147098731,
-        "updated": 1680221814040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0t1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0t1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000k0t1",
-        "ids": ",us6000k0t1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.547,
-        "rms": 0.48,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 86 km W of Murghob, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          72.9818,
-          38.2349,
-          141.682
-        ]
-      },
-      "id": "us6000k0t1"
     }
   ],
   "bbox": [
