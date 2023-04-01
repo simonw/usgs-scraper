@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680303621000,
+    "generated": 1680307237000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -14,15 +14,15 @@
       "properties": {
         "mag": 5.6,
         "place": "southeast Indian Ridge",
-        "time": 1680302171879,
-        "updated": 1680303591040,
+        "time": 1680302171513,
+        "updated": 1680304294746,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k18y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k18y.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 482,
@@ -30,11 +30,11 @@
         "code": "6000k18y",
         "ids": ",us6000k18y,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 30,
-        "dmin": 50.678,
-        "rms": 0.7,
-        "gap": 67,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 33,
+        "dmin": 50.901,
+        "rms": 0.56,
+        "gap": 76,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.6 - southeast Indian Ridge"
@@ -42,8 +42,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8323,
-          -50.0512,
+          113.9109,
+          -50.0285,
           10
         ]
       },
@@ -1568,51 +1568,11 @@
         ]
       },
       "id": "us6000k10i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "88 km NNW of Karluk, Alaska",
-        "time": 1680219181346,
-        "updated": 1680219557040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02343kpxla",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02343kpxla.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "02343kpxla",
-        "ids": ",us6000k103,ak02343kpxla,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 88 km NNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.0037,
-          58.3103,
-          0
-        ]
-      },
-      "id": "ak02343kpxla"
     }
   ],
   "bbox": [
     -178.4089,
-    -50.0512,
+    -50.0285,
     -0.48,
     149.3147,
     66.3339,
