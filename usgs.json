@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680562824000,
+    "generated": 1680566489000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -135,7 +135,7 @@
         "mag": 5.5,
         "place": "Owen Fracture Zone region",
         "time": 1680558254711,
-        "updated": 1680560317112,
+        "updated": 1680565618859,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1u1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1u1.geojson",
@@ -215,12 +215,12 @@
         "mag": 2.5,
         "place": "57 km S of Whites City, New Mexico",
         "time": 1680556312215,
-        "updated": 1680557904040,
+        "updated": 1680565845301,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1tq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1tq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +230,7 @@
         "code": "6000k1tq",
         "ids": ",us6000k1tq,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.058,
         "rms": 0.5,
@@ -413,19 +413,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "30 km S of Amlapura, Indonesia",
+        "place": "Bali region, Indonesia",
         "time": 1680546406362,
-        "updated": 1680562797620,
+        "updated": 1680566093645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1ss",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1ss.geojson",
-        "felt": 32,
+        "felt": 37,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 309,
+        "sig": 311,
         "net": "us",
         "code": "6000k1ss",
         "ids": ",us6000k1ss,",
@@ -437,7 +437,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 30 km S of Amlapura, Indonesia"
+        "title": "M 4.4 - Bali region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -815,17 +815,17 @@
         "mag": 3.8,
         "place": "Southern Alaska",
         "time": 1680524834484,
-        "updated": 1680562443296,
+        "updated": 1680565975917,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234a0aako",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234a0aako.geojson",
-        "felt": 274,
+        "felt": 277,
         "cdi": 3.1,
         "mmi": 2.822,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 307,
+        "sig": 308,
         "net": "ak",
         "code": "0234a0aako",
         "ids": ",ak0234a0aako,at00rsjh9d,us6000k1pc,",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "pr71402383"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "New Guinea, Papua New Guinea",
-        "time": 1680477185592,
-        "updated": 1680522005521,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1lt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1lt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000k1lt",
-        "ids": ",us6000k1lt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 6.397,
-        "rms": 0.71,
-        "gap": 145,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - New Guinea, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.0407,
-          -4.4517,
-          99.379
-        ]
-      },
-      "id": "us6000k1lt"
     }
   ],
   "bbox": [
