@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680830699000,
+    "generated": 1680833512000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.84,
         "place": "0 km SSW of San Juan, Puerto Rico",
         "time": 1680828761990,
-        "updated": 1680830220700,
+        "updated": 1680831708851,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71402778",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71402778.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71402778",
         "ids": ",pr71402778,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.1499,
         "rms": 0.38,
@@ -135,22 +135,22 @@
         "mag": 2.63,
         "place": "2 km SW of Palomas, Puerto Rico",
         "time": 1680826777320,
-        "updated": 1680829019680,
+        "updated": 1680833089294,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71402743",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71402743.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
+        "sig": 107,
         "net": "pr",
         "code": "71402743",
         "ids": ",pr71402743,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": 0.02555,
         "rms": 0.12,
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Sumbawa region, Indonesia",
+        "place": "54 km NE of Pototano, Indonesia",
         "time": 1680817450910,
         "updated": 1680820393040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Sumbawa region, Indonesia"
+        "title": "M 4.3 - 54 km NE of Pototano, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -295,12 +295,12 @@
         "mag": 3.93,
         "place": "138 km N of Suárez, Puerto Rico",
         "time": 1680817296670,
-        "updated": 1680821020040,
+        "updated": 1680831590150,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023096001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023096001.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -308,9 +308,9 @@
         "sig": 238,
         "net": "pr",
         "code": "2023096001",
-        "ids": ",us6000k2j5,pr2023096001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2023096001,us6000k2j5,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": 1.4095,
         "rms": 0.11,
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.91,
-        "place": "20 km SSE of La Romana, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1680800597850,
         "updated": 1680803229040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 183,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - 20 km SSE of La Romana, Dominican Republic"
+        "title": "M 3.9 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "7 km W of Rotan, Texas",
+        "place": "western Texas",
         "time": 1680776978473,
         "updated": 1680807959473,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 89,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 7 km W of Rotan, Texas"
+        "title": "M 2.9 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "80 km SW of Jiquilillo, Nicaragua",
+        "place": "off the coast of Central America",
         "time": 1680775417036,
         "updated": 1680776567040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 129,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 80 km SW of Jiquilillo, Nicaragua"
+        "title": "M 4.6 - off the coast of Central America"
       },
       "geometry": {
         "type": "Point",
@@ -1095,17 +1095,17 @@
         "mag": 3.24,
         "place": "3 km ESE of Carney, Oklahoma",
         "time": 1680772616829,
-        "updated": 1680818588445,
+        "updated": 1680831412819,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023gshe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023gshe.geojson",
-        "felt": 103,
+        "felt": 104,
         "cdi": 5.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 215,
+        "sig": 216,
         "net": "ok",
         "code": "2023gshe",
         "ids": ",ok2023gshe,us6000k2bl,",
@@ -1135,11 +1135,11 @@
         "mag": 4,
         "place": "4 km ESE of Carney, Oklahoma",
         "time": 1680771436809,
-        "updated": 1680829094134,
+        "updated": 1680832915325,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023gsgn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023gsgn.geojson",
-        "felt": 1113,
+        "felt": 1114,
         "cdi": 4.8,
         "mmi": 4.898,
         "alert": "green",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Chile-Argentina border region",
+        "place": "Salta, Argentina",
         "time": 1680751689961,
         "updated": 1680753124040,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 85,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Chile-Argentina border region"
+        "title": "M 4.3 - Salta, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1568,46 +1568,6 @@
         ]
       },
       "id": "ak0234etdq4d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "274 km NW of Ozernovskiy, Russia",
-        "time": 1680745369307,
-        "updated": 1680746420040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k29x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k29x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000k29x",
-        "ids": ",us6000k29x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 3.111,
-        "rms": 0.94,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 274 km NW of Ozernovskiy, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.4949,
-          53.1352,
-          501.326
-        ]
-      },
-      "id": "us6000k29x"
     }
   ],
   "bbox": [
@@ -1616,6 +1576,6 @@
     1.809651693,
     179.2378,
     63.3032,
-    501.326
+    212.638
   ]
 }
