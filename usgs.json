@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680962425000,
+    "generated": 1680965998000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "48 km WNW of Aitape, Papua New Guinea",
+        "time": 1680963114636,
+        "updated": 1680964047040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k2vd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k2vd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000k2vd",
+        "ids": ",us6000k2vd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 8.238,
+        "rms": 1,
+        "gap": 96,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 48 km WNW of Aitape, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9484,
+          -2.9561,
+          28.863
+        ]
+      },
+      "id": "us6000k2vd"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,12 +375,12 @@
         "mag": 3.95,
         "place": "34 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1680936434170,
-        "updated": 1680938375421,
+        "updated": 1680964020044,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023098001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023098001.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +390,7 @@
         "code": "2023098001",
         "ids": ",pr2023098001,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": 0.6004,
         "rms": 0.58,
@@ -375,11 +415,11 @@
         "mag": 3.05,
         "place": "8km W of Cobb, CA",
         "time": 1680930478560,
-        "updated": 1680947600726,
+        "updated": 1680965156939,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73868965",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73868965.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1168,93 +1208,13 @@
         ]
       },
       "id": "us6000k2pc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "3 km ESE of Carney, Oklahoma",
-        "time": 1680878683649,
-        "updated": 1680880037537,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023gunm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023gunm.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "ok",
-        "code": "2023gunm",
-        "ids": ",ok2023gunm,us6000k2ns,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 86,
-        "dmin": 0,
-        "rms": 0.21,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km ESE of Carney, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.97616667,
-          35.79383333,
-          7.09
-        ]
-      },
-      "id": "ok2023gunm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "106 km SW of Severo-Kuril’sk, Russia",
-        "time": 1680878510362,
-        "updated": 1680932927040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k2nt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k2nt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000k2nt",
-        "ids": ",us6000k2nt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 3.545,
-        "rms": 0.38,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 106 km SW of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.1602,
-          49.9421,
-          120.832
-        ]
-      },
-      "id": "us6000k2nt"
     }
   ],
   "bbox": [
     -179.8573,
     -24.1123,
     2.09,
-    155.1602,
+    145.7459,
     62.6545,
     508.53
   ]
