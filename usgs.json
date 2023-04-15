@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681588776000,
+    "generated": 1681592410000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
     {
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "150 km SSE of Sinabang, Indonesia",
+        "time": 1681584656844,
+        "updated": 1681591783040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4sb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4sb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000k4sb",
+        "ids": ",us6000k4sb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.742,
+        "rms": 0.64,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 150 km SSE of Sinabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.8409,
+          1.197,
+          21.495
+        ]
+      },
+      "id": "us6000k4sb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "south of the Fiji Islands",
         "time": 1681578825733,
-        "updated": 1681588734040,
+        "updated": 1681588855040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4rw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4rw.geojson",
@@ -135,22 +175,22 @@
         "mag": 5.5,
         "place": "97 km SSW of Pagar Alam, Indonesia",
         "time": 1681571226934,
-        "updated": 1681578620457,
+        "updated": 1681591508768,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4pf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4pf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": 3.944,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 465,
+        "sig": 466,
         "net": "us",
         "code": "6000k4pf",
         "ids": ",us6000k4pf,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 159,
         "dmin": 0.501,
         "rms": 0.9,
@@ -1048,86 +1088,6 @@
         ]
       },
       "id": "us6000k4kd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "66 km SSE of Cantwell, Alaska",
-        "time": 1681504252266,
-        "updated": 1681571192040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234sbzaxp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234sbzaxp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "0234sbzaxp",
-        "ids": ",us6000k4jz,ak0234sbzaxp,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.67,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 66 km SSE of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.369,
-          62.8569,
-          49.3
-        ]
-      },
-      "id": "ak0234sbzaxp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "22 km NNW of Aratichanguío, Mexico",
-        "time": 1681502688073,
-        "updated": 1681507663040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4js",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4js.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000k4js",
-        "ids": ",us6000k4js,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 96,
-        "dmin": 0.984,
-        "rms": 0.66,
-        "gap": 212,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 22 km NNW of Aratichanguío, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.4102,
-          18.6725,
-          83.618
-        ]
-      },
-      "id": "us6000k4js"
     }
   ],
   "bbox": [
@@ -1135,7 +1095,7 @@
     -33.7603,
     1.071,
     167.5355,
-    62.8569,
+    61.3196,
     537.497
   ]
 }
