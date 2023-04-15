@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681521965000,
+    "generated": 1681524785000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "Puerto Rico",
+        "time": 1681523042920,
+        "updated": 1681524053070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71404998",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71404998.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "pr",
+        "code": "71404998",
+        "ids": ",pr71404998,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.05389,
+        "rms": 0.11,
+        "gap": 215,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9566666666667,
+          17.9435,
+          9.71
+        ]
+      },
+      "id": "pr71404998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "16 km WNW of Rincón, Puerto Rico",
+        "time": 1681520654540,
+        "updated": 1681523004330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71404988",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71404988.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "pr",
+        "code": "71404988",
+        "ids": ",pr71404988,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.0892,
+        "rms": 0.12,
+        "gap": 180,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 16 km WNW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3876666666667,
+          18.4048333333333,
+          17.75
+        ]
+      },
+      "id": "pr71404988"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.61,
-        "place": "12 km SE of Pāhala, Hawaii",
-        "time": 1681513995430,
-        "updated": 1681515131040,
+        "mag": 2.68,
+        "place": "11 km SE of Pāhala, Hawaii",
+        "time": 1681513995540,
+        "updated": 1681523969390,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73363932",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73363932.geojson",
@@ -103,28 +183,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 110,
         "net": "hv",
         "code": "73363932",
         "ids": ",us6000k4kw,hv73363932,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 40,
+        "nst": 44,
         "dmin": null,
-        "rms": 0.109999999,
-        "gap": 190,
+        "rms": 0.12,
+        "gap": 182,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 12 km SE of Pāhala, Hawaii"
+        "title": "M 2.7 - 11 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.403167724609,
-          19.1193332672119,
-          31.5499992370605
+          -155.407833333333,
+          19.1273333333333,
+          31.18
         ]
       },
       "id": "hv73363932"
@@ -173,14 +253,14 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "26 km SSW of Madang, Papua New Guinea",
+        "place": "eastern New Guinea region, Papua New Guinea",
         "time": 1681510124308,
-        "updated": 1681514164040,
+        "updated": 1681523352077,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4kl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4kl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,14 +270,14 @@
         "code": "6000k4kl",
         "ids": ",us6000k4kl,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 4.184,
         "rms": 0.33,
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 26 km SSW of Madang, Papua New Guinea"
+        "title": "M 4.4 - eastern New Guinea region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the coast of Chiapas, Mexico",
+        "place": "79 km SW of Puerto Madero, Mexico",
         "time": 1681507633544,
         "updated": 1681508922040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 139,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the coast of Chiapas, Mexico"
+        "title": "M 4.6 - 79 km SW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "126 km E of McCarthy, Alaska",
+        "place": "Southern Yukon Territory, Canada",
         "time": 1681507044540,
         "updated": 1681508156040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 126 km E of McCarthy, Alaska"
+        "title": "M 2.9 - Southern Yukon Territory, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "245 km SE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1681497112458,
         "updated": 1681520376328,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 219,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 245 km SE of Chiniak, Alaska"
+        "title": "M 3.4 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "near the coast of Chiapas, Mexico",
+        "place": "offshore Guatemala",
         "time": 1681491979242,
         "updated": 1681500269040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 182,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - near the coast of Chiapas, Mexico"
+        "title": "M 4.4 - offshore Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "262 km W of Bandon, Oregon",
+        "place": "off the coast of Oregon",
         "time": 1681458134830,
         "updated": 1681459609040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 287,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 262 km W of Bandon, Oregon"
+        "title": "M 2.9 - off the coast of Oregon"
       },
       "geometry": {
         "type": "Point",
@@ -1052,42 +1132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "224 km SE of Chiniak, Alaska",
-        "time": 1681447820010,
-        "updated": 1681465595513,
+        "mag": 2.7,
+        "place": "213 km SE of Chiniak, Alaska",
+        "time": 1681447816268,
+        "updated": 1681521987040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234s2krmk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234s2krmk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k49i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k49i.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0234s2krmk",
-        "ids": ",ak0234s2krmk,",
-        "sources": ",ak,",
+        "sig": 112,
+        "net": "us",
+        "code": "6000k49i",
+        "ids": ",ak0234s2krmk,us6000k49i,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.67,
-        "gap": null,
+        "nst": 19,
+        "dmin": 2.155,
+        "rms": 0.43,
+        "gap": 267,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 224 km SE of Chiniak, Alaska"
+        "title": "M 2.7 - 213 km SE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.549,
-          56.2569,
+          -149.4975,
+          56.4406,
           10
         ]
       },
-      "id": "ak0234s2krmk"
+      "id": "us6000k49i"
     },
     {
       "type": "Feature",
