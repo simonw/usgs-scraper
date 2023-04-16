@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681660810000,
+    "generated": 1681664410000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "160 km SW of Severo-Kuril’sk, Russia",
+        "time": 1681662134895,
+        "updated": 1681663614040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4wx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4wx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000k4wx",
+        "ids": ",us6000k4wx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 3.978,
+        "rms": 0.4,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 160 km SW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.5187,
+          49.6688,
+          125.068
+        ]
+      },
+      "id": "us6000k4wx"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "30 km SSE of Mina, Nevada",
         "time": 1681658607389,
-        "updated": 1681660137767,
+        "updated": 1681664124040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00858273",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00858273.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +68,9 @@
         "sig": 168,
         "net": "nn",
         "code": "00858273",
-        "ids": ",nn00858273,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00858273,us6000k4wl,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 17,
         "dmin": 0.057,
         "rms": 0.2159,
@@ -175,7 +215,7 @@
         "mag": 5.1,
         "place": "3 km SSE of Grand-Bourg, Guadeloupe",
         "time": 1681644141910,
-        "updated": 1681657876489,
+        "updated": 1681662991895,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4vv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4vv.geojson",
@@ -1614,7 +1654,7 @@
     -179.4776,
     -53.971,
     1.915454102,
-    152.8342,
+    154.5187,
     71.6995,
     537.497
   ]
