@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681793986000,
+    "generated": 1681797615000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 46
   },
   "features": [
     {
@@ -535,12 +535,12 @@
         "mag": 2.54,
         "place": "2km ENE of Pinnacles, CA",
         "time": 1681761109190,
-        "updated": 1681772775840,
+        "updated": 1681797166649,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73874850",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73874850.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -550,7 +550,7 @@
         "code": "73874850",
         "ids": ",nc73874850,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 51,
         "dmin": 0.06149,
         "rms": 0.21,
@@ -775,22 +775,22 @@
         "mag": 3.572780945,
         "place": "57 km S of Whites City, New Mexico",
         "time": 1681754621342,
-        "updated": 1681762062744,
+        "updated": 1681794767267,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023hnbc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023hnbc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": 4.12,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 196,
+        "sig": 197,
         "net": "tx",
         "code": "2023hnbc",
-        "ids": ",us6000k548,tx2023hnbc,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",tx2023hnbc,us6000k548,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 29,
         "dmin": 0.09596818792,
         "rms": 0.3,
@@ -1848,132 +1848,12 @@
         ]
       },
       "id": "us6000k500"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "98 km W of Adak, Alaska",
-        "time": 1681709859310,
-        "updated": 1681757821660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91852301",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91852301.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "av",
-        "code": "91852301",
-        "ids": ",av91852301,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": null,
-        "rms": 0.24,
-        "gap": 120,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 98 km W of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.059166666667,
-          51.849,
-          -1.8
-        ]
-      },
-      "id": "av91852301"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.61,
-        "place": "16 km WNW of Hawaiian Ocean View, Hawaii",
-        "time": 1681709233310,
-        "updated": 1681752398150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73366297",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73366297.geojson",
-        "felt": 57,
-        "cdi": 3.6,
-        "mmi": 4.549,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 221,
-        "net": "hv",
-        "code": "73366297",
-        "ids": ",hv73366297,us6000k4zf,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 47,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 237,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 16 km WNW of Hawaiian Ocean View, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.9125,
-          19.1306666666667,
-          44.05
-        ]
-      },
-      "id": "hv73366297"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "99 km W of Adak, Alaska",
-        "time": 1681708503610,
-        "updated": 1681757364600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91852281",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91852281.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "av",
-        "code": "91852281",
-        "ids": ",av91852281,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": null,
-        "rms": 0.24,
-        "gap": 139,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 99 km W of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.0825,
-          51.8303333333333,
-          -1.43
-        ]
-      },
-      "id": "av91852281"
     }
   ],
   "bbox": [
     -179.0336,
     -31.8945,
-    -1.8,
+    0,
     179.3905,
     56.2094,
     603.29
