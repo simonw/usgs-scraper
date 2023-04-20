@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681954005000,
+    "generated": 1681956797000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 2.87,
         "place": "11km S of Tres Pinos, CA",
         "time": 1681945309050,
-        "updated": 1681953850401,
+        "updated": 1681956491659,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73875615",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73875615.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "73875615",
         "ids": ",nc73875615,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 62,
         "dmin": 0.02405,
         "rms": 0.12,
@@ -215,7 +215,7 @@
         "mag": 2.62,
         "place": "27km SW of Hayfork, CA",
         "time": 1681944870780,
-        "updated": 1681952951310,
+        "updated": 1681955235535,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73875585",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73875585.geojson",
@@ -495,11 +495,11 @@
         "mag": 4.5,
         "place": "off the east coast of the United States",
         "time": 1681920421081,
-        "updated": 1681953877439,
+        "updated": 1681955736079,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k5k8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k5k8.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1055,7 +1055,7 @@
         "mag": 2.6,
         "place": "75 km WNW of Ninilchik, Alaska",
         "time": 1681880261237,
-        "updated": 1681885928263,
+        "updated": 1681954352040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02350cavdn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02350cavdn.geojson",
@@ -1068,8 +1068,8 @@
         "sig": 104,
         "net": "ak",
         "code": "02350cavdn",
-        "ids": ",ak02350cavdn,",
-        "sources": ",ak,",
+        "ids": ",ak02350cavdn,us6000k5fv,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "pr71405813"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "22 km N of Tasiilaq, Greenland",
-        "time": 1681867905333,
-        "updated": 1681946228040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k5f3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k5f3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000k5f3",
-        "ids": ",us6000k5f3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.205,
-        "rms": 0.62,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 22 km N of Tasiilaq, Greenland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -37.5733,
-          65.818,
-          10
-        ]
-      },
-      "id": "us6000k5f3"
     }
   ],
   "bbox": [
