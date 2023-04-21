@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1682103626000,
+    "generated": 1682107221000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 36
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.7,
         "place": "79 km NE of Adak, Alaska",
         "time": 1682101031033,
-        "updated": 1682102879040,
+        "updated": 1682104612611,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k662",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k662.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 2.365,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000k662",
         "ids": ",us6000k662,ak02353vgzrv,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 164,
         "dmin": 0.329,
         "rms": 1.15,
@@ -252,10 +252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
+        "mag": 2.7,
         "place": "44 km NW of Toyah, Texas",
-        "time": 1682088992894,
-        "updated": 1682090452963,
+        "time": 1682088992892,
+        "updated": 1682103933688,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023hucx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023hucx.geojson",
@@ -265,26 +265,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 112,
         "net": "tx",
         "code": "2023hucx",
         "ids": ",tx2023hucx,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.03014207973,
-        "rms": 0.3,
+        "nst": 23,
+        "dmin": 0.03303049169,
+        "rms": 0.2,
         "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 44 km NW of Toyah, Texas"
+        "title": "M 2.7 - 44 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.1559776,
-          31.56258031,
-          8.959448242
+          -104.1605551,
+          31.56370808,
+          8.470996094
         ]
       },
       "id": "tx2023hucx"
@@ -1448,131 +1448,11 @@
         ]
       },
       "id": "us6000k5vl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "South Island of New Zealand",
-        "time": 1682019455842,
-        "updated": 1682057870796,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k5uz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k5uz.geojson",
-        "felt": 16,
-        "cdi": 3.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 252,
-        "net": "us",
-        "code": "6000k5uz",
-        "ids": ",us6000k5uz,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.223,
-        "rms": 0.46,
-        "gap": 169,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - South Island of New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.8192,
-          -43.5186,
-          19.712
-        ]
-      },
-      "id": "us6000k5uz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "South Island of New Zealand",
-        "time": 1682019069182,
-        "updated": 1682028092178,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k5uv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k5uv.geojson",
-        "felt": 3,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "us",
-        "code": "6000k5uv",
-        "ids": ",us6000k5uv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.245,
-        "rms": 0.37,
-        "gap": 164,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - South Island of New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.7819,
-          -43.4799,
-          17.479
-        ]
-      },
-      "id": "us6000k5uv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "2 km SE of Meno, Oklahoma",
-        "time": 1682017440858,
-        "updated": 1682017629297,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023hspo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023hspo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "ok",
-        "code": "2023hspo",
-        "ids": ",ok2023hspo,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.1960365027,
-        "rms": 0.2956798002,
-        "gap": 82.69155502,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km SE of Meno, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.15712738,
-          36.36737823,
-          5.383137226
-        ]
-      },
-      "id": "ok2023hspo"
     }
   ],
   "bbox": [
     -178.0863,
-    -43.5186,
+    -40.7888,
     -1.8,
     176.5198,
     64.4063,
