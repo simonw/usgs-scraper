@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1682107221000,
+    "generated": 1682110821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 4.7,
         "place": "79 km NE of Adak, Alaska",
         "time": 1682101031033,
-        "updated": 1682104612611,
+        "updated": 1682109291418,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k662",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k662.geojson",
@@ -55,12 +55,12 @@
         "mag": 2.64,
         "place": "7 km SW of Volcano, Hawaii",
         "time": 1682097405490,
-        "updated": 1682097736940,
+        "updated": 1682108700071,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73371567",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73371567.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +70,7 @@
         "code": "73371567",
         "ids": ",hv73371567,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 32,
         "dmin": null,
         "rms": 0.280000001,
@@ -415,17 +415,17 @@
         "mag": 4.6,
         "place": "Guam region",
         "time": 1682083098411,
-        "updated": 1682103526503,
+        "updated": 1682109467204,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k64k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k64k.geojson",
-        "felt": 10,
-        "cdi": 3.9,
+        "felt": 11,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 329,
+        "sig": 330,
         "net": "us",
         "code": "6000k64k",
         "ids": ",us6000k64k,",
@@ -812,10 +812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
+        "mag": 3.16,
         "place": "11km NNW of Hollister, CA",
-        "time": 1682068436080,
-        "updated": 1682102283615,
+        "time": 1682068436100,
+        "updated": 1682110212487,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73876195",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73876195.geojson",
@@ -823,18 +823,18 @@
         "cdi": 5,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 172,
+        "sig": 168,
         "net": "nc",
         "code": "73876195",
         "ids": ",nc73876195,us6000k5yz,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 65,
-        "dmin": 0.0685,
-        "rms": 0.12,
-        "gap": 44,
+        "nst": 109,
+        "dmin": 0.06798,
+        "rms": 0.14,
+        "gap": 35,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.2 - 11km NNW of Hollister, CA"
@@ -842,9 +842,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.4371643,
-          36.9370003,
-          3.34
+          -121.4398333,
+          36.938,
+          3.88
         ]
       },
       "id": "nc73876195"
@@ -1368,86 +1368,6 @@
         ]
       },
       "id": "us6000k5xk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "Near the coast of Atacama, Chile",
-        "time": 1682022088067,
-        "updated": 1682025565040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k5vh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k5vh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000k5vh",
-        "ids": ",us6000k5vh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.825,
-        "rms": 0.86,
-        "gap": 185,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - Near the coast of Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.6417,
-          -28.9815,
-          35
-        ]
-      },
-      "id": "us6000k5vh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "163 km SSE of Mata-Utu, Wallis and Futuna",
-        "time": 1682021007152,
-        "updated": 1682024251040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k5vl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k5vl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000k5vl",
-        "ids": ",us6000k5vl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.485,
-        "rms": 1.58,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 163 km SSE of Mata-Utu, Wallis and Futuna"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.5787,
-          -14.6396,
-          10
-        ]
-      },
-      "id": "us6000k5vl"
     }
   ],
   "bbox": [
