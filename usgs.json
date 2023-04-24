@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1682330429000,
+    "generated": 1682334034000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.2,
+        "place": "93 km SSE of Old Harbor, Alaska",
+        "time": 1682330353774,
+        "updated": 1682330555780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02358oz5b7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02358oz5b7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "02358oz5b7",
+        "ids": ",ak02358oz5b7,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 93 km SSE of Old Harbor, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4545,
+          56.5006,
+          0
+        ]
+      },
+      "id": "ak02358oz5b7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "Mindanao, Philippines",
         "time": 1682328727840,
-        "updated": 1682329936040,
+        "updated": 1682331003846,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k6qt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k6qt.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000k6qt",
         "ids": ",us6000k6qt,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": 2.22,
         "rms": 1.35,
@@ -1135,11 +1175,11 @@
         "mag": 3.6,
         "place": "1 km WNW of Adams Center, New York",
         "time": 1682273408207,
-        "updated": 1682330121326,
+        "updated": 1682333821422,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k6kx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k6kx.geojson",
-        "felt": 1607,
+        "felt": 1625,
         "cdi": 4.6,
         "mmi": 4.417,
         "alert": null,
@@ -1568,46 +1608,6 @@
         ]
       },
       "id": "us6000k6jg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "11km NNW of Hollister, CA",
-        "time": 1682246165080,
-        "updated": 1682262260826,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73876905",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73876905.geojson",
-        "felt": 6,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 114,
-        "net": "nc",
-        "code": "73876905",
-        "ids": ",nc73876905,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.07265,
-        "rms": 0.1,
-        "gap": 48,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 11km NNW of Hollister, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.4400024,
-          36.9438324,
-          2.21
-        ]
-      },
-      "id": "nc73876905"
     }
   ],
   "bbox": [
