@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1682895594000,
+    "generated": 1682899247000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 46
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.4,
         "place": "3 km S of Funaishikawa, Japan",
         "time": 1682885062274,
-        "updated": 1682887355040,
+        "updated": 1682897909673,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jx8m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jx8m.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000jx8m",
         "ids": ",us7000jx8m,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": 1.906,
         "rms": 0.63,
@@ -655,7 +655,7 @@
         "mag": 4.25,
         "place": "7km WSW of Niland, CA",
         "time": 1682841499380,
-        "updated": 1682887498680,
+        "updated": 1682898532327,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40215735",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40215735.geojson",
@@ -815,7 +815,7 @@
         "mag": 4.29,
         "place": "9km SW of Niland, CA",
         "time": 1682838610180,
-        "updated": 1682892058579,
+        "updated": 1682898475564,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40215583",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40215583.geojson",
@@ -1848,90 +1848,10 @@
         ]
       },
       "id": "us7000jx2q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "197 km W of Hihifo, Tonga",
-        "time": 1682812829360,
-        "updated": 1682816008040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jx2j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jx2j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000jx2j",
-        "ids": ",us7000jx2j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 2.781,
-        "rms": 0.49,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 197 km W of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.6148,
-          -15.6827,
-          349.568
-        ]
-      },
-      "id": "us7000jx2j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "27 km ESE of Alamo, Nevada",
-        "time": 1682809688506,
-        "updated": 1682810892040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00858896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00858896.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "nn",
-        "code": "00858896",
-        "ids": ",nn00858896,us7000jx2d,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.197,
-        "rms": 0.3799,
-        "gap": 182.85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 27 km ESE of Alamo, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.8744,
-          37.2686,
-          11.9
-        ]
-      },
-      "id": "nn00858896"
     }
   ],
   "bbox": [
-    -175.6148,
+    -155.46899414062,
     -25.3216,
     -0.14,
     178.586,
