@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683504055000,
+    "generated": 1683509232000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,8 +12,88 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "off the coast of Michoacan, Mexico",
+        "time": 1683507603360,
+        "updated": 1683508623040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kaaq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kaaq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000kaaq",
+        "ids": ",us6000kaaq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 3.648,
+        "rms": 1.15,
+        "gap": 236,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - off the coast of Michoacan, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.0048,
+          17.1125,
+          18.044
+        ]
+      },
+      "id": "us6000kaaq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "Ecuador",
+        "time": 1683507116696,
+        "updated": 1683509169042,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kaam",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kaam.geojson",
+        "felt": 3,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 417,
+        "net": "us",
+        "code": "6000kaam",
+        "ids": ",us6000kaam,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 101,
+        "dmin": 1.22,
+        "rms": 0.96,
+        "gap": 56,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9691,
+          -2.718,
+          92.501
+        ]
+      },
+      "id": "us6000kaam"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.49,
-        "place": "0 km W of Magas Arriba, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1683497330630,
         "updated": 1683498234880,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 168,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 0 km W of Magas Arriba, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -455,12 +535,12 @@
         "mag": 2.6,
         "place": "58 km S of Whites City, New Mexico",
         "time": 1683455883176,
-        "updated": 1683456918857,
+        "updated": 1683507168618,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ixal",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ixal.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -468,9 +548,9 @@
         "sig": 104,
         "net": "tx",
         "code": "2023ixal",
-        "ids": ",us6000ka6z,tx2023ixal,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023ixal,us6000ka6z,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.03554746236,
         "rms": 0.2,
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.84,
-        "place": "Oklahoma",
+        "place": "10 km NW of Pocasset, Oklahoma",
         "time": 1683448103329,
         "updated": 1683498683945,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Oklahoma"
+        "title": "M 2.8 - 10 km NW of Pocasset, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "5 km NNW of Taltal, Chile",
+        "place": "near the coast of Antofagasta, Chile",
         "time": 1683440940792,
         "updated": 1683467306040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 74,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 5 km NNW of Taltal, Chile"
+        "title": "M 5.2 - near the coast of Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -928,86 +1008,6 @@
         ]
       },
       "id": "us6000ka4m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "79 km NNE of Vieques, Puerto Rico",
-        "time": 1683420387600,
-        "updated": 1683421804860,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71408363",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71408363.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 173,
-        "net": "pr",
-        "code": "71408363",
-        "ids": ",pr71408363,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.7776,
-        "rms": 0.12,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 79 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4946666666667,
-          19.0626666666667,
-          34.87
-        ]
-      },
-      "id": "pr71408363"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "62 km S of Acajutla, El Salvador",
-        "time": 1683419161632,
-        "updated": 1683497510040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ka43",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ka43.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000ka43",
-        "ids": ",us6000ka43,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.739,
-        "rms": 0.65,
-        "gap": 169,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 62 km S of Acajutla, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.8658,
-          13.0328,
-          35
-        ]
-      },
-      "id": "us6000ka43"
     }
   ],
   "bbox": [
