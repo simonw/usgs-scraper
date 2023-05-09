@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683648023000,
+    "generated": 1683651597000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "29 km WSW of Ölüdeniz, Turkey",
+        "time": 1683645727602,
+        "updated": 1683649374040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kan7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kan7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000kan7",
+        "ids": ",us6000kan7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 0.63,
+        "rms": 0.91,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 29 km WSW of Ölüdeniz, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8639,
+          36.4302,
+          24.786
+        ]
+      },
+      "id": "us6000kan7"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.05,
         "place": "13 km E of Pāhala, Hawaii",
         "time": 1683645037790,
-        "updated": 1683647807302,
+        "updated": 1683651452016,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73394007",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73394007.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.883,
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 3.905,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 143,
         "net": "hv",
         "code": "73394007",
-        "ids": ",us6000kan1,hv73394007,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",hv73394007,us6000kan1,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 48,
         "dmin": null,
         "rms": 0.140000001,
@@ -95,7 +135,7 @@
         "mag": 5,
         "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1683641444451,
-        "updated": 1683645054267,
+        "updated": 1683649257240,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kamj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kamj.geojson",
@@ -1128,86 +1168,6 @@
         ]
       },
       "id": "pr71408568"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "244 km SSW of Prince Rupert, Canada",
-        "time": 1683562206391,
-        "updated": 1683597951550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kaf3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kaf3.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 285,
-        "net": "us",
-        "code": "6000kaf3",
-        "ids": ",us6000kaf3,at00ruckwv,",
-        "sources": ",us,at,",
-        "types": ",dyfi,impact-link,origin,phase-data,",
-        "nst": 146,
-        "dmin": 0.474,
-        "rms": 0.7,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 244 km SSW of Prince Rupert, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -131.9642,
-          52.3511,
-          10
-        ]
-      },
-      "id": "us6000kaf3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "87 km SSE of Mwinilunga, Zambia",
-        "time": 1683561904239,
-        "updated": 1683642945672,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kaf2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kaf2.geojson",
-        "felt": 2,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 341,
-        "net": "us",
-        "code": "6000kaf2",
-        "ids": ",us6000kaf2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 62,
-        "dmin": 4.371,
-        "rms": 0.45,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 87 km SSE of Mwinilunga, Zambia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.7218,
-          -12.4734,
-          10
-        ]
-      },
-      "id": "us6000kaf2"
     }
   ],
   "bbox": [
