@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683936085000,
+    "generated": 1683941185000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 61
+    "count": 55
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "Kansas",
+        "time": 1683937354350,
+        "updated": 1683940672029,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbl9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbl9.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000kbl9",
+        "ids": ",us6000kbl9,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.46,
+        "rms": 0.51,
+        "gap": 119,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.5 - Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.4995,
+          39.2354,
+          3.69
+        ]
+      },
+      "id": "us6000kbl9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
-        "place": "California-Nevada border region",
+        "place": "28 km WSW of Hawthorne, Nevada",
         "time": 1683930554464,
         "updated": 1683935028040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 64.37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - California-Nevada border region"
+        "title": "M 2.8 - 28 km WSW of Hawthorne, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.59,
-        "place": "Puerto Rico region",
+        "place": "6 km WSW of Guánica, Puerto Rico",
         "time": 1683922377440,
         "updated": 1683925522770,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 216,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 6 km WSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "60 km NNE of Isangel, Vanuatu",
+        "place": "Vanuatu",
         "time": 1683921734497,
         "updated": 1683925147040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 60 km NNE of Isangel, Vanuatu"
+        "title": "M 4.6 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "90 km S of Hualien City, Taiwan",
+        "place": "Taiwan",
         "time": 1683912621311,
         "updated": 1683915244040,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 102,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 90 km S of Hualien City, Taiwan"
+        "title": "M 4.5 - Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -492,46 +532,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.85,
-        "place": "8 km E of Pāhala, Hawaii",
-        "time": 1683905307550,
-        "updated": 1683905638440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73398347",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73398347.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "hv",
-        "code": "73398347",
-        "ids": ",hv73398347,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 205,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 8 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.397994995117,
-          19.2158336639404,
-          31.4799995422363
-        ]
-      },
-      "id": "hv73398347"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.06,
         "place": "4km ESE of Prattville, CA",
         "time": 1683905055610,
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.39,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1683901587310,
         "updated": 1683906010843,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 134,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Island of Hawaii, Hawaii"
+        "title": "M 3.4 - 10 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -695,7 +695,7 @@
         "mag": 2.88,
         "place": "4km NNW of Canyondam, CA",
         "time": 1683899447030,
-        "updated": 1683927976293,
+        "updated": 1683936614155,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73887146",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73887146.geojson",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.76,
-        "place": "72 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1683898697360,
         "updated": 1683900424625,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 263,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 72 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.8 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "5 km W of Yawatahama, Japan",
+        "place": "Shikoku, Japan",
         "time": 1683895505729,
         "updated": 1683896522610,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 5 km W of Yawatahama, Japan"
+        "title": "M 4.3 - Shikoku, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -935,7 +935,7 @@
         "mag": 3.09,
         "place": "3km NNW of Canyondam, CA",
         "time": 1683895371930,
-        "updated": 1683935055003,
+        "updated": 1683939314398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73887101",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73887101.geojson",
@@ -1175,11 +1175,11 @@
         "mag": 5.16,
         "place": "4km NW of Canyondam, CA",
         "time": 1683886721310,
-        "updated": 1683935952482,
+        "updated": 1683939232768,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73887046",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73887046.geojson",
-        "felt": 1315,
+        "felt": 1321,
         "cdi": 6.2,
         "mmi": 6.511,
         "alert": "green",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "northern Colombia",
+        "place": "12 km WNW of Peque, Colombia",
         "time": 1683884728530,
         "updated": 1683905861643,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - northern Colombia"
+        "title": "M 4.6 - 12 km WNW of Peque, Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -1255,17 +1255,17 @@
         "mag": 3.3,
         "place": "4 km S of Lazy Mountain, Alaska",
         "time": 1683880784509,
-        "updated": 1683929808860,
+        "updated": 1683941044457,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02362fxqb6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02362fxqb6.geojson",
-        "felt": 117,
+        "felt": 118,
         "cdi": 3.4,
         "mmi": 2.672,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 207,
+        "sig": 208,
         "net": "ak",
         "code": "02362fxqb6",
         "ids": ",ak02362fxqb6,us6000kbct,",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Guam region",
+        "place": "108 km SSW of Merizo Village, Guam",
         "time": 1683878551722,
         "updated": 1683926053978,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.4 - Guam region"
+        "title": "M 5.4 - 108 km SSW of Merizo Village, Guam"
       },
       "geometry": {
         "type": "Point",
@@ -1568,46 +1568,6 @@
         ]
       },
       "id": "pr71408993"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.67,
-        "place": "7 km SSW of Pāhala, Hawaii",
-        "time": 1683874909630,
-        "updated": 1683875240400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73397712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73397712.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "hv",
-        "code": "73397712",
-        "ids": ",hv73397712,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": null,
-        "rms": 0.140000001,
-        "gap": 221,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.498001098633,
-          19.1348323822021,
-          32.3699989318848
-        ]
-      },
-      "id": "hv73397712"
     },
     {
       "type": "Feature",
@@ -1933,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "Puerto Rico region",
+        "place": "66 km N of Hatillo, Puerto Rico",
         "time": 1683864644310,
         "updated": 1683867898242,
         "tz": null,
@@ -1957,7 +1917,7 @@
         "gap": 207,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Puerto Rico region"
+        "title": "M 3.8 - 66 km N of Hatillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.67,
-        "place": "63 km ENE of Pedro Bay, Alaska",
+        "place": "Southern Alaska",
         "time": 1683858933360,
         "updated": 1683860586830,
         "tz": null,
@@ -2157,7 +2117,7 @@
         "gap": 100,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 63 km ENE of Pedro Bay, Alaska"
+        "title": "M 2.7 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2213,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Gulf of Aden",
+        "place": "130 km SSE of Aden, Yemen",
         "time": 1683857314520,
         "updated": 1683858541040,
         "tz": null,
@@ -2237,7 +2197,7 @@
         "gap": 147,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Gulf of Aden"
+        "title": "M 4.4 - 130 km SSE of Aden, Yemen"
       },
       "geometry": {
         "type": "Point",
@@ -2248,206 +2208,6 @@
         ]
       },
       "id": "us6000kbai"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Peru-Bolivia border region",
-        "time": 1683854607800,
-        "updated": 1683856356040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbad",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbad.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000kbad",
-        "ids": ",us6000kbad,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.231,
-        "rms": 0.45,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Peru-Bolivia border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.721,
-          -17.6075,
-          163.176
-        ]
-      },
-      "id": "us6000kbad"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "61 km NE of Aleneva, Alaska",
-        "time": 1683854447190,
-        "updated": 1683855359040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02362bnmr3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02362bnmr3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "02362bnmr3",
-        "ids": ",us6000kbab,ak02362bnmr3,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.39,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 61 km NE of Aleneva, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.2162,
-          58.4727,
-          17
-        ]
-      },
-      "id": "ak02362bnmr3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.03,
-        "place": "33 km SSW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1683853329100,
-        "updated": 1683862204727,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71408963",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71408963.geojson",
-        "felt": 1,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 142,
-        "net": "pr",
-        "code": "71408963",
-        "ids": ",pr71408963,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.3293,
-        "rms": 0.26,
-        "gap": 127,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 33 km SSW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0488333333333,
-          18.0631666666667,
-          7.65
-        ]
-      },
-      "id": "pr71408963"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "2km NNE of Prattville, CA",
-        "time": 1683851926720,
-        "updated": 1683922460643,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73886796",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73886796.geojson",
-        "felt": 5,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "nc",
-        "code": "73886796",
-        "ids": ",nc73886796,nn00859398,us6000kba0,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.028,
-        "rms": 0.12,
-        "gap": 48,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 2km NNE of Prattville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1493333,
-          40.2198333,
-          5.2
-        ]
-      },
-      "id": "nc73886796"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.99,
-        "place": "1km N of Prattville, CA",
-        "time": 1683850015900,
-        "updated": 1683879553357,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73886766",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73886766.geojson",
-        "felt": 17,
-        "cdi": 4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 144,
-        "net": "nc",
-        "code": "73886766",
-        "ids": ",nc73886766,nn00859395,us6000kb9s,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.03448,
-        "rms": 0.13,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 1km N of Prattville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1551667,
-          40.214,
-          5.46
-        ]
-      },
-      "id": "nc73886766"
     }
   ],
   "bbox": [
