@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684188030000,
+    "generated": 1684191630000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "99 km WNW of Murghob, Tajikistan",
+        "time": 1684187077681,
+        "updated": 1684191572040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kc5m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kc5m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000kc5m",
+        "ids": ",us6000kc5m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.36,
+        "rms": 0.86,
+        "gap": 161,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 99 km WNW of Murghob, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.862,
+          38.3975,
+          119.629
+        ]
+      },
+      "id": "us6000kc5m"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.98,
         "place": "8 km NW of Prague, Oklahoma",
         "time": 1684186220910,
-        "updated": 1684187504039,
+        "updated": 1684188739270,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023jmlz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023jmlz.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -52,50 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.52,
-        "place": "10 km WNW of Pocasset, Oklahoma",
-        "time": 1684185286432,
-        "updated": 1684185449493,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023jmlm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023jmlm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "ok",
-        "code": "2023jmlm",
-        "ids": ",ok2023jmlm,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.03215340525,
-        "rms": 0.8870935353,
-        "gap": 47.29425049,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 10 km WNW of Pocasset, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.05176544,
-          35.24348068,
-          5
-        ]
-      },
-      "id": "ok2023jmlm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.61,
         "place": "3 km SSW of Volcano, Hawaii",
         "time": 1684184789410,
-        "updated": 1684186288040,
+        "updated": 1684189330050,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73403822",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73403822.geojson",
@@ -108,9 +108,9 @@
         "sig": 105,
         "net": "hv",
         "code": "73403822",
-        "ids": ",hv73403822,us6000kc5d,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv73403822,hv73403827,us6000kc5d,",
+        "sources": ",hv,hv,us,",
+        "types": ",associate,dyfi,origin,phase-data,",
         "nst": 35,
         "dmin": null,
         "rms": 0.11,
@@ -128,46 +128,6 @@
         ]
       },
       "id": "hv73403822"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.84,
-        "place": "13 km WNW of Volcano, Hawaii",
-        "time": 1684184788880,
-        "updated": 1684185227315,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73403827",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73403827.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 124,
-        "net": "hv",
-        "code": "73403827",
-        "ids": ",hv73403827,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.180000007,
-        "gap": 134,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 13 km WNW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.360992431641,
-          19.4673328399658,
-          9.76000022888184
-        ]
-      },
-      "id": "hv73403827"
     },
     {
       "type": "Feature",
@@ -335,12 +295,12 @@
         "mag": 2.6,
         "place": "3km NNE of Prattville, CA",
         "time": 1684172338740,
-        "updated": 1684182614355,
+        "updated": 1684190050144,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73888511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73888511.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -348,9 +308,9 @@
         "sig": 104,
         "net": "nc",
         "code": "73888511",
-        "ids": ",nc73888511,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73888511,nn00859567,",
+        "sources": ",nc,nn,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 36,
         "dmin": 0.01564,
         "rms": 0.18,
@@ -493,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "85 km SE of Modisi, Indonesia",
+        "place": "Molucca Sea",
         "time": 1684167003128,
         "updated": 1684168747040,
         "tz": null,
@@ -517,7 +477,7 @@
         "gap": 41,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 85 km SE of Modisi, Indonesia"
+        "title": "M 4.8 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "271 km WSW of Adak, Alaska",
+        "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1684157560403,
         "updated": 1684176882040,
         "tz": null,
@@ -597,7 +557,7 @@
         "gap": 253,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 271 km WSW of Adak, Alaska"
+        "title": "M 2.8 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.67,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "8 km SW of Volcano, Hawaii",
         "time": 1684149992520,
         "updated": 1684173475004,
         "tz": null,
@@ -757,7 +717,7 @@
         "gap": 159,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Island of Hawaii, Hawaii"
+        "title": "M 2.7 - 8 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Windward Islands",
+        "place": "Barbados region, Windward Islands",
         "time": 1684115271510,
         "updated": 1684115978040,
         "tz": null,
@@ -1277,7 +1237,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Windward Islands"
+        "title": "M 4.2 - Barbados region, Windward Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1335,7 +1295,7 @@
         "mag": 3.63,
         "place": "30km S of Ocotillo, CA",
         "time": 1684109619290,
-        "updated": 1684171451269,
+        "updated": 1684191578397,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40225231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40225231.geojson",
@@ -1375,7 +1335,7 @@
         "mag": 3.43,
         "place": "8km WSW of Tecate, B.C., MX",
         "time": 1684109618030,
-        "updated": 1684171473153,
+        "updated": 1684191421338,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40225223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40225223.geojson",
