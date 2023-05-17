@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684350053000,
+    "generated": 1684353593000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 26
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.84,
         "place": "42km W of Ferndale, CA",
         "time": 1684339850600,
-        "updated": 1684341493733,
+        "updated": 1684350610761,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889196",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889196.geojson",
@@ -135,12 +135,12 @@
         "mag": 4.7,
         "place": "82 km NE of Lashio, Myanmar",
         "time": 1684337033209,
-        "updated": 1684347870040,
+        "updated": 1684353159118,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kcik",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kcik.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "6000kcik",
         "ids": ",us6000kcik,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 30,
         "dmin": 2.326,
         "rms": 1.25,
@@ -212,50 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.56,
-        "place": "16km SSE of Tres Pinos, CA",
-        "time": 1684333565450,
-        "updated": 1684342151110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889156",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889156.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "73889156",
-        "ids": ",nc73889156,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.05317,
-        "rms": 0.08,
-        "gap": 129,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 16km SSE of Tres Pinos, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.2669983,
-          36.6523323,
-          1.5
-        ]
-      },
-      "id": "nc73889156"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.54,
         "place": "16km SSE of Tres Pinos, CA",
         "time": 1684333505270,
-        "updated": 1684349591639,
+        "updated": 1684350373854,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889151",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889151.geojson",
@@ -1088,46 +1048,6 @@
         ]
       },
       "id": "us6000kcdw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "50 km NE of San Pedro de Atacama, Chile",
-        "time": 1684264685900,
-        "updated": 1684267641040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kcd9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kcd9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000kcd9",
-        "ids": ",us6000kcd9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.479,
-        "rms": 0.88,
-        "gap": 49,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.2 - 50 km NE of San Pedro de Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.9158,
-          -22.5374,
-          172.931
-        ]
-      },
-      "id": "us6000kcd9"
     }
   ],
   "bbox": [
