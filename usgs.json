@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684346435000,
+    "generated": 1684350053000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 28
   },
   "features": [
     {
@@ -135,7 +135,7 @@
         "mag": 4.7,
         "place": "82 km NE of Lashio, Myanmar",
         "time": 1684337033209,
-        "updated": 1684342733040,
+        "updated": 1684347870040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kcik",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kcik.geojson",
@@ -150,7 +150,7 @@
         "code": "6000kcik",
         "ids": ",us6000kcik,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 30,
         "dmin": 2.326,
         "rms": 1.25,
@@ -252,10 +252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
+        "mag": 2.54,
         "place": "16km SSE of Tres Pinos, CA",
-        "time": 1684333505100,
-        "updated": 1684341190703,
+        "time": 1684333505270,
+        "updated": 1684349591639,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889151",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889151.geojson",
@@ -263,28 +263,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 99,
         "net": "nc",
         "code": "73889151",
         "ids": ",nc73889151,",
         "sources": ",nc,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.05337,
-        "rms": 0.1,
-        "gap": 127,
+        "nst": 59,
+        "dmin": 0.05078,
+        "rms": 0.11,
+        "gap": 105,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 16km SSE of Tres Pinos, CA"
+        "title": "M 2.5 - 16km SSE of Tres Pinos, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.2701645,
-          36.6525002,
-          1.33
+          -121.2738333,
+          36.6496667,
+          3.5
         ]
       },
       "id": "nc73889151"
@@ -1128,46 +1128,6 @@
         ]
       },
       "id": "us6000kcd9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "18 km NNW of Lázaro Cárdenas, Mexico",
-        "time": 1684261332258,
-        "updated": 1684266432845,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kccg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kccg.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000kccg",
-        "ids": ",us6000kccg,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 113,
-        "dmin": 2.282,
-        "rms": 0.71,
-        "gap": 64,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 18 km NNW of Lázaro Cárdenas, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.1216,
-          23.1234,
-          10
-        ]
-      },
-      "id": "us6000kccg"
     }
   ],
   "bbox": [
