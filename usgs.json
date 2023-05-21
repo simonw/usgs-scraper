@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684674009000,
+    "generated": 1684677595000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "15 km ESE of Saimbeyli, Turkey",
+        "time": 1684673173478,
+        "updated": 1684675345529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdm0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdm0.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "6000kdm0",
+        "ids": ",us6000kdm0,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 75,
+        "dmin": 0.35,
+        "rms": 0.38,
+        "gap": 51,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.9 - 15 km ESE of Saimbeyli, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.2534,
+          37.9232,
+          5.682
+        ]
+      },
+      "id": "us6000kdm0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.15,
+        "place": "88 km N of Culebra, Puerto Rico",
+        "time": 1684672750140,
+        "updated": 1684674427710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71410203",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71410203.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "pr",
+        "code": "71410203",
+        "ids": ",pr71410203,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.7894,
+        "rms": 0.37,
+        "gap": 262,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 88 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3555,
+          19.098,
+          24.74
+        ]
+      },
+      "id": "pr71410203"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 2.8,
         "place": "California-Nevada border region",
         "time": 1684669295444,
-        "updated": 1684670254040,
+        "updated": 1684675946398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00859950",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00859950.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -68,9 +148,9 @@
         "sig": 121,
         "net": "nn",
         "code": "00859950",
-        "ids": ",us6000kdll,nn00859950,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00859950,us6000kdll,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 36,
         "dmin": 0.078,
         "rms": 0.2499,
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.33,
-        "place": "71 km NW of San Antonio, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1684665495110,
         "updated": 1684668836800,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 71 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Gulf of Alaska",
+        "place": "163 km SSE of Cordova, Alaska",
         "time": 1684663210577,
         "updated": 1684664077040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Gulf of Alaska"
+        "title": "M 3.7 - 163 km SSE of Cordova, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Kuril Islands",
+        "place": "32 km SE of Shikotan, Russia",
         "time": 1684661985607,
         "updated": 1684662960040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Kuril Islands"
+        "title": "M 4.9 - 32 km SE of Shikotan, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "Tonga",
+        "place": "109 km SE of Neiafu, Tonga",
         "time": 1684646591387,
         "updated": 1684654073725,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 76,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - Tonga"
+        "title": "M 5.8 - 109 km SE of Neiafu, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.15,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1684634912140,
         "updated": 1684645483490,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Island of Hawaii, Hawaii"
+        "title": "M 3.2 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "103 km SSW of Jucuarán, El Salvador",
+        "place": "off the coast of Central America",
         "time": 1684631736148,
         "updated": 1684632843040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 200,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 103 km SSW of Jucuarán, El Salvador"
+        "title": "M 4.3 - off the coast of Central America"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "110 km S of Puerto El Triunfo, El Salvador",
+        "place": "offshore El Salvador",
         "time": 1684629017732,
         "updated": 1684631008040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 110 km S of Puerto El Triunfo, El Salvador"
+        "title": "M 4.6 - offshore El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.83,
-        "place": "Kentucky-Tennessee border region",
+        "place": "14 km WSW of New Tazewell, Tennessee",
         "time": 1684619732230,
         "updated": 1684647552071,
         "tz": null,
@@ -1437,7 +1517,7 @@
         "gap": 48,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Kentucky-Tennessee border region"
+        "title": "M 2.8 - 14 km WSW of New Tazewell, Tennessee"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "65 km ENE of Yazd, Iran",
+        "place": "central Iran",
         "time": 1684607552604,
         "updated": 1684616398040,
         "tz": null,
@@ -1517,7 +1597,7 @@
         "gap": 118,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 65 km ENE of Yazd, Iran"
+        "title": "M 4.1 - central Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Alaska Peninsula",
+        "place": "57 km ESE of Egegik, Alaska",
         "time": 1684606848707,
         "updated": 1684663753446,
         "tz": null,
@@ -1597,7 +1677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Alaska Peninsula"
+        "title": "M 2.7 - 57 km ESE of Egegik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "20 km NE of Sama Grande, Peru",
+        "place": "Southern Peru",
         "time": 1684599936487,
         "updated": 1684606210040,
         "tz": null,
@@ -1757,7 +1837,7 @@
         "gap": 161,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 20 km NE of Sama Grande, Peru"
+        "title": "M 4.5 - Southern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1888,126 +1968,6 @@
         ]
       },
       "id": "us6000kdgi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1684590620878,
-        "updated": 1684606617040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdgf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdgf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000kdgf",
-        "ids": ",us6000kdgf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 2.992,
-        "rms": 0.48,
-        "gap": 225,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.6373,
-          -23.1579,
-          10
-        ]
-      },
-      "id": "us6000kdgf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1684589367068,
-        "updated": 1684590840040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdgb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdgb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000kdgb",
-        "ids": ",us6000kdgb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 3.061,
-        "rms": 0.6,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.7303,
-          -23.0514,
-          38.459
-        ]
-      },
-      "id": "us6000kdgb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1684589237169,
-        "updated": 1684590335040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdg5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdg5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000kdg5",
-        "ids": ",us6000kdg5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.068,
-        "rms": 0.57,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.7324,
-          -23.0901,
-          29.59
-        ]
-      },
-      "id": "us6000kdg5"
     }
   ],
   "bbox": [
