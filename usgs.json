@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684821618000,
+    "generated": 1684825211000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "284 km E of Vao, New Caledonia",
+        "time": 1684824120034,
+        "updated": 1684825151040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k36n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k36n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 536,
+        "net": "us",
+        "code": "7000k36n",
+        "ids": ",us7000k36n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 89,
+        "dmin": 2.613,
+        "rms": 1.02,
+        "gap": 47,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - 284 km E of Vao, New Caledonia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.2473,
+          -22.9996,
+          17.502
+        ]
+      },
+      "id": "us7000k36n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1684822934145,
+        "updated": 1684823962040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k36l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k36l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000k36l",
+        "ids": ",us7000k36l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 2.991,
+        "rms": 0.68,
+        "gap": 82,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.6168,
+          -23.2515,
+          32.825
+        ]
+      },
+      "id": "us7000k36l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,12 +375,12 @@
         "mag": 2.99,
         "place": "10 km W of Volcano, Hawaii",
         "time": 1684801297790,
-        "updated": 1684801997770,
+        "updated": 1684824964857,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73416507",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73416507.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -308,9 +388,9 @@
         "sig": 138,
         "net": "hv",
         "code": "73416507",
-        "ids": ",us7000k34h,hv73416507,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv73416507,us7000k34h,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": null,
         "rms": 0.15,
@@ -1055,11 +1135,11 @@
         "mag": 4.2,
         "place": "6 km S of Fântânele, Romania",
         "time": 1684777602747,
-        "updated": 1684814941248,
+        "updated": 1684822998212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k30y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k30y.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
@@ -1815,7 +1895,7 @@
         "mag": 3.1,
         "place": "19 km SSE of Point Possession, Alaska",
         "time": 1684738848940,
-        "updated": 1684777046115,
+        "updated": 1684825149040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236iyhf3i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236iyhf3i.geojson",
@@ -1828,8 +1908,8 @@
         "sig": 150,
         "net": "ak",
         "code": "0236iyhf3i",
-        "ids": ",ak0236iyhf3i,",
-        "sources": ",ak,",
+        "ids": ",ak0236iyhf3i,us6000kdtz,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1848,133 +1928,13 @@
         ]
       },
       "id": "ak0236iyhf3i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1684738367409,
-        "updated": 1684777551040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdty",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdty.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000kdty",
-        "ids": ",us6000kdty,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 39,
-        "dmin": 4.053,
-        "rms": 0.3,
-        "gap": 125,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.6763,
-          -23.7485,
-          30.492
-        ]
-      },
-      "id": "us6000kdty"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "102 km E of Yakutat, Alaska",
-        "time": 1684737318145,
-        "updated": 1684775080040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdtx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdtx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000kdtx",
-        "ids": ",us6000kdtx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.334,
-        "rms": 0.32,
-        "gap": 127,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 102 km E of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -137.9255,
-          59.6323,
-          10
-        ]
-      },
-      "id": "us6000kdtx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "Hawaii region, Hawaii",
-        "time": 1684736832190,
-        "updated": 1684737164270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73415192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73415192.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "hv",
-        "code": "73415192",
-        "ids": ",hv73415192,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": null,
-        "rms": 0.0599999987,
-        "gap": 308,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.450836181641,
-          19.1528339385986,
-          28.5900001525879
-        ]
-      },
-      "id": "hv73415192"
     }
   ],
   "bbox": [
     -173.5745,
-    -23.7485,
+    -23.3077,
     0.76,
-    171.6763,
+    170.9663,
     62.0976,
     613.114
   ]
