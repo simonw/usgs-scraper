@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684947610000,
+    "generated": 1684951210000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 41
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 6.2,
         "place": "Banda Sea",
         "time": 1684943374919,
-        "updated": 1684947363237,
+        "updated": 1684951003542,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3h5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3h5.geojson",
-        "felt": 14,
-        "cdi": 3.6,
+        "felt": 15,
+        "cdi": 4.6,
         "mmi": 4.231,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 596,
+        "sig": 598,
         "net": "us",
         "code": "7000k3h5",
         "ids": ",us7000k3h5,",
@@ -55,7 +55,7 @@
         "mag": 2.57,
         "place": "6km SW of Salton City, CA",
         "time": 1684942435510,
-        "updated": 1684944002885,
+        "updated": 1684949350635,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40232887",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40232887.geojson",
@@ -63,7 +63,7 @@
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 103,
         "net": "ci",
@@ -71,10 +71,10 @@
         "ids": ",ci40232887,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 64,
-        "dmin": 0.08461,
-        "rms": 0.19,
-        "gap": 31,
+        "nst": 80,
+        "dmin": 0.02662,
+        "rms": 0.17,
+        "gap": 18,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 6km SW of Salton City, CA"
@@ -83,8 +83,8 @@
         "type": "Point",
         "coordinates": [
           -115.9995,
-          33.2563333,
-          3.63
+          33.256,
+          4.74
         ]
       },
       "id": "ci40232887"
@@ -212,8 +212,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "80 km WNW of Nagata, Japan",
+        "time": 1684935214148,
+        "updated": 1684949261040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3gc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3gc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000k3gc",
+        "ids": ",us7000k3gc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 1.121,
+        "rms": 0.55,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 80 km WNW of Nagata, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.6367,
+          30.6307,
+          222.938
+        ]
+      },
+      "id": "us7000k3gc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
-        "place": "New Ireland region, Papua New Guinea",
+        "place": "101 km ESE of Kokopo, Papua New Guinea",
         "time": 1684934106870,
         "updated": 1684935199040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 83,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - New Ireland region, Papua New Guinea"
+        "title": "M 5.0 - 101 km ESE of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "4 km SSE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1684926404930,
         "updated": 1684926738060,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 256,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km SSE of Pāhala, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -375,7 +415,7 @@
         "mag": 5.5,
         "place": "Pacific-Antarctic Ridge",
         "time": 1684924399587,
-        "updated": 1684946426144,
+        "updated": 1684950983040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3fh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3fh.geojson",
@@ -390,7 +430,7 @@
         "code": "7000k3fh",
         "ids": ",us7000k3fh,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 80,
         "dmin": 27.407,
         "rms": 1.04,
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Mindanao, Philippines",
+        "place": "36 km SSE of Pondaguitan, Philippines",
         "time": 1684918557445,
         "updated": 1684919935040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 112,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Mindanao, Philippines"
+        "title": "M 4.6 - 36 km SSE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Vanuatu",
+        "place": "47 km SW of Port-Vila, Vanuatu",
         "time": 1684917022360,
         "updated": 1684926711040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 152,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Vanuatu"
+        "title": "M 4.4 - 47 km SW of Port-Vila, Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -975,17 +1015,17 @@
         "mag": 2.96,
         "place": "3km NNE of Almanor, CA",
         "time": 1684894542450,
-        "updated": 1684943539109,
+        "updated": 1684950386480,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889245",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889245.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 142,
         "net": "nc",
         "code": "73889245",
         "ids": ",nc73889245,nn00860238,",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "113 km NNE of Sape, Indonesia",
+        "place": "Flores Sea",
         "time": 1684876324659,
         "updated": 1684879449040,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 137,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 113 km NNE of Sape, Indonesia"
+        "title": "M 4.3 - Flores Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Mindanao, Philippines",
+        "place": "33 km SSW of Kiamba, Philippines",
         "time": 1684866184025,
         "updated": 1684887370974,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 76,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Mindanao, Philippines"
+        "title": "M 4.8 - 33 km SSW of Kiamba, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1608,166 +1648,6 @@
         ]
       },
       "id": "us7000k3b3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "54 km S of Silver Peak, Nevada",
-        "time": 1684863214171,
-        "updated": 1684865941040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3av",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3av.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000k3av",
-        "ids": ",nn00860199,us7000k3av,",
-        "sources": ",nn,us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 0.063,
-        "rms": 0.48,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 54 km S of Silver Peak, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5813,
-          37.2695,
-          12.485
-        ]
-      },
-      "id": "us7000k3av"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "22 km SW of Tambilil, Philippines",
-        "time": 1684861916279,
-        "updated": 1684865109265,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3aq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3aq.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000k3aq",
-        "ids": ",us7000k3aq,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 91,
-        "dmin": 1.627,
-        "rms": 0.7,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 22 km SW of Tambilil, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.5511,
-          5.7954,
-          76.132
-        ]
-      },
-      "id": "us7000k3aq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "200 km SW of Nikolski, Alaska",
-        "time": 1684861827064,
-        "updated": 1684875850040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3b9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3b9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000k3b9",
-        "ids": ",ak0236ks175u,us7000k3b9,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 66,
-        "dmin": 1.285,
-        "rms": 1.08,
-        "gap": 180,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.7 - 200 km SW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -171.1534,
-          51.8019,
-          35
-        ]
-      },
-      "id": "us7000k3b9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "26 km SSW of Tambilil, Philippines",
-        "time": 1684861441483,
-        "updated": 1684865087857,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3an",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3an.geojson",
-        "felt": 3,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "7000k3an",
-        "ids": ",us7000k3an,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 155,
-        "dmin": 1.658,
-        "rms": 0.66,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 26 km SSW of Tambilil, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.5428,
-          5.7618,
-          73.433
-        ]
-      },
-      "id": "us7000k3an"
     }
   ],
   "bbox": [
