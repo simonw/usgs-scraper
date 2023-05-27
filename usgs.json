@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685221231000,
+    "generated": 1685224825000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 37
   },
   "features": [
     {
@@ -224,13 +224,13 @@
         "mmi": 2.917,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 1,
+        "tsunami": 0,
         "sig": 301,
         "net": "ak",
         "code": "0236rdtjd6",
-        "ids": ",ak0236rdtjd6,at00rvbtea,",
-        "sources": ",ak,at,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "ids": ",ak0236rdtjd6,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.49,
@@ -264,13 +264,13 @@
         "mmi": 2.249,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 0,
+        "tsunami": 1,
         "sig": 326,
         "net": "us",
         "code": "7000k4hp",
-        "ids": ",ak0236rdti6b,us7000k4hp,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "ids": ",ak0236rdti6b,at00rvbtea,us7000k4hp,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
         "nst": 91,
         "dmin": 0.18,
         "rms": 0.52,
@@ -1488,126 +1488,6 @@
         ]
       },
       "id": "us7000k4cr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Banda Sea",
-        "time": 1685136841517,
-        "updated": 1685138960040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4cm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4cm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000k4cm",
-        "ids": ",us7000k4cm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 1.449,
-        "rms": 0.86,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.2458,
-          -5.0859,
-          68.395
-        ]
-      },
-      "id": "us7000k4cm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Prince Edward Islands region",
-        "time": 1685136827470,
-        "updated": 1685137880040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4cn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4cn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000k4cn",
-        "ids": ",us7000k4cn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 9.58,
-        "rms": 0.71,
-        "gap": 41,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Prince Edward Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          39.1871,
-          -43.1719,
-          10
-        ]
-      },
-      "id": "us7000k4cn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.42,
-        "place": "37 km ESE of Boca de Yuma, Dominican Republic",
-        "time": 1685135885620,
-        "updated": 1685136765390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71411103",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71411103.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 180,
-        "net": "pr",
-        "code": "71411103",
-        "ids": ",us7000k4cj,pr71411103,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2759,
-        "rms": 0.31,
-        "gap": 181,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 37 km ESE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.28,
-          18.2543333333333,
-          95.38
-        ]
-      },
-      "id": "pr71411103"
     }
   ],
   "bbox": [
