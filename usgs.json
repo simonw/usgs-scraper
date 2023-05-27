@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685170818000,
+    "generated": 1685174415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "3 km S of Guánica, Puerto Rico",
+        "time": 1685172311472,
+        "updated": 1685172642040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4fa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4fa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "7000k4fa",
+        "ids": ",us7000k4fa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.13,
+        "rms": 0.49,
+        "gap": 188,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 3 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9118,
+          17.9393,
+          10
+        ]
+      },
+      "id": "us7000k4fa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "220 km SSE of Ust’-Kamchatsk Staryy, Russia",
+        "time": 1685170091784,
+        "updated": 1685171222040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4f4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4f4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000k4f4",
+        "ids": ",us7000k4f4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 3.34,
+        "rms": 0.6,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 220 km SSE of Ust’-Kamchatsk Staryy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          163.7772,
+          54.3893,
+          10
+        ]
+      },
+      "id": "us7000k4f4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1335,12 +1415,12 @@
         "mag": 3.07,
         "place": "92km W of Petrolia, CA",
         "time": 1685093596810,
-        "updated": 1685138591354,
+        "updated": 1685170887152,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73890120",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73890120.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1350,7 +1430,7 @@
         "code": "73890120",
         "ids": ",nc73890120,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 35,
         "dmin": 0.7848,
         "rms": 0.23,
