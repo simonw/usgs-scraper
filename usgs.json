@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685217631000,
+    "generated": 1685221231000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.81,
+        "place": "Virgin Islands",
+        "time": 1685218288960,
+        "updated": 1685221037040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023147004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023147004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 223,
+        "net": "pr",
+        "code": "2023147004",
+        "ids": ",us7000k4id,pr2023147004,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 1.3141,
+        "rms": 0.16,
+        "gap": 317,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.296,
+          19.4885,
+          50
+        ]
+      },
+      "id": "pr2023147004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
-        "place": "261 km WSW of Tual, Indonesia",
+        "place": "Banda Sea",
         "time": 1685216196021,
         "updated": 1685217175040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 261 km WSW of Tual, Indonesia"
+        "title": "M 5.2 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -184,13 +224,13 @@
         "mmi": 2.917,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 0,
+        "tsunami": 1,
         "sig": 301,
         "net": "ak",
         "code": "0236rdtjd6",
-        "ids": ",ak0236rdtjd6,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "ids": ",ak0236rdtjd6,at00rvbtea,",
+        "sources": ",ak,at,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.49,
@@ -224,13 +264,13 @@
         "mmi": 2.249,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 1,
+        "tsunami": 0,
         "sig": 326,
         "net": "us",
         "code": "7000k4hp",
-        "ids": ",ak0236rdti6b,at00rvbtea,us7000k4hp,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "ids": ",ak0236rdti6b,us7000k4hp,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 91,
         "dmin": 0.18,
         "rms": 0.52,
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "60 km NW of Kandrian, Papua New Guinea",
         "time": 1685193930953,
         "updated": 1685198208040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 113,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - New Britain region, Papua New Guinea"
+        "title": "M 4.4 - 60 km NW of Kandrian, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "Mona Passage",
+        "place": "20 km SW of Stella, Puerto Rico",
         "time": 1685189135610,
         "updated": 1685190184840,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 213,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Mona Passage"
+        "title": "M 2.7 - 20 km SW of Stella, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "29 km WNW of Challis, Idaho",
+        "place": "southern Idaho",
         "time": 1685183833090,
         "updated": 1685199310090,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 29 km WNW of Challis, Idaho"
+        "title": "M 2.5 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "79 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1685173515459,
         "updated": 1685174734040,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 79 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.2 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.97,
-        "place": "6 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1685172311660,
         "updated": 1685174494530,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 6 km SW of Guánica, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.89,
-        "place": "118 km N of Brenas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1685165088460,
         "updated": 1685167969223,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 245,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - 118 km N of Brenas, Puerto Rico"
+        "title": "M 3.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.69,
-        "place": "8 km SSE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1685155478700,
         "updated": 1685176535920,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 233,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 8 km SSE of Maria Antonia, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "south of Panama",
+        "place": "185 km SSE of Cambutal, Panama",
         "time": 1685148996542,
         "updated": 1685151854040,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": 137,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - south of Panama"
+        "title": "M 4.4 - 185 km SSE of Cambutal, Panama"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "144 km WSW of Nikolski, Alaska",
         "time": 1685143431687,
         "updated": 1685155863460,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 2.9 - 144 km WSW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "177 km WNW of Tual, Indonesia",
+        "place": "Banda Sea",
         "time": 1685136841517,
         "updated": 1685138960040,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 177 km WNW of Tual, Indonesia"
+        "title": "M 5.1 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1568,126 +1608,6 @@
         ]
       },
       "id": "pr71411103"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "6km SSE of Markleeville, CA",
-        "time": 1685133948640,
-        "updated": 1685151912675,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73890320",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73890320.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "73890320",
-        "ids": ",nc73890320,nn00860390,",
-        "sources": ",nc,nn,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.2087,
-        "rms": 0.15,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 6km SSE of Markleeville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.7776667,
-          38.6386667,
-          -1.24
-        ]
-      },
-      "id": "nc73890320"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "6km SSE of Markleeville, CA",
-        "time": 1685133541380,
-        "updated": 1685199867582,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73890315",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73890315.geojson",
-        "felt": 4,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 147,
-        "net": "nc",
-        "code": "73890315",
-        "ids": ",nc73890315,nn00860377,us7000k4cb,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 57,
-        "dmin": 0.208,
-        "rms": 0.2,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 6km SSE of Markleeville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.777,
-          38.6376667,
-          -1.28
-        ]
-      },
-      "id": "nc73890315"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "19 km N of Stanton, Texas",
-        "time": 1685131619661,
-        "updated": 1685198950746,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023kglu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023kglu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2023kglu",
-        "ids": ",tx2023kglu,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.0374915005,
-        "rms": 0.3,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 19 km N of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.7934213,
-          32.30255127,
-          7.214152018
-        ]
-      },
-      "id": "tx2023kglu"
     }
   ],
   "bbox": [
