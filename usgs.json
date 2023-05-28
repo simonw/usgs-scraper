@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685246431000,
+    "generated": 1685249980000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "Puerto Rico region",
+        "time": 1685248512920,
+        "updated": 1685249039610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71411328",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71411328.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "pr",
+        "code": "71411328",
+        "ids": ",pr71411328,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.07583,
+        "rms": 0.1,
+        "gap": 213,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9521666666667,
+          17.9443333333333,
+          9.83
+        ]
+      },
+      "id": "pr71411328"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.93,
         "place": "4 km SSW of Pāhala, Hawaii",
         "time": 1685245344460,
-        "updated": 1685246341204,
+        "updated": 1685246672303,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73425617",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73425617.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.6,
         "mmi": 3.691,
         "alert": null,
@@ -54,14 +94,14 @@
       "properties": {
         "mag": 5.6,
         "place": "Solomon Islands",
-        "time": 1685244595796,
-        "updated": 1685245971791,
+        "time": 1685244595344,
+        "updated": 1685248370653,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4jy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4jy.geojson",
         "felt": 1,
         "cdi": 3.8,
-        "mmi": 4.213,
+        "mmi": 4.23,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -70,11 +110,11 @@
         "code": "7000k4jy",
         "ids": ",us7000k4jy,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 86,
-        "dmin": 1.417,
-        "rms": 0.48,
-        "gap": 89,
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 113,
+        "dmin": 1.443,
+        "rms": 0.71,
+        "gap": 31,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.6 - Solomon Islands"
@@ -82,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          161.1942,
-          -10.1488,
-          103.855
+          161.2191,
+          -10.1579,
+          101.649
         ]
       },
       "id": "us7000k4jy"
@@ -92,8 +132,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.96,
+        "place": "135 km N of Suárez, Puerto Rico",
+        "time": 1685243889330,
+        "updated": 1685247921324,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023148000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023148000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 241,
+        "net": "pr",
+        "code": "2023148000",
+        "ids": ",pr2023148000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 1.3718,
+        "rms": 0.48,
+        "gap": 289,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.0 - 135 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6281,
+          19.6351,
+          91
+        ]
+      },
+      "id": "pr2023148000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "Near the coast of Antofagasta, Chile",
+        "place": "42 km NE of Antofagasta, Chile",
         "time": 1685239579111,
         "updated": 1685244215670,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 128,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - Near the coast of Antofagasta, Chile"
+        "title": "M 4.6 - 42 km NE of Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "near the east coast of the Kamchatka Peninsula, Russia",
+        "place": "186 km SE of Atlasovo, Russia",
         "time": 1685236662975,
         "updated": 1685237495040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - near the east coast of the Kamchatka Peninsula, Russia"
+        "title": "M 4.4 - 186 km SE of Atlasovo, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.81,
-        "place": "Virgin Islands",
+        "place": "138 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1685218288960,
         "updated": 1685221037040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 317,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Virgin Islands"
+        "title": "M 3.8 - 138 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Banda Sea",
+        "place": "261 km WSW of Tual, Indonesia",
         "time": 1685216196021,
         "updated": 1685217175040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - Banda Sea"
+        "title": "M 5.2 - 261 km WSW of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "60 km NW of Kandrian, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1685193930953,
         "updated": 1685198208040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 113,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 60 km NW of Kandrian, Papua New Guinea"
+        "title": "M 4.4 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "20 km SW of Stella, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1685189135610,
         "updated": 1685190184840,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 213,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 20 km SW of Stella, Puerto Rico"
+        "title": "M 2.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "southern Idaho",
+        "place": "29 km WNW of Challis, Idaho",
         "time": 1685183833090,
         "updated": 1685199310090,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - southern Idaho"
+        "title": "M 2.5 - 29 km WNW of Challis, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Chile-Argentina border region",
+        "place": "79 km WNW of San Antonio de los Cobres, Argentina",
         "time": 1685173515459,
         "updated": 1685174734040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Chile-Argentina border region"
+        "title": "M 4.2 - 79 km WNW of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.97,
-        "place": "Puerto Rico",
+        "place": "6 km SW of Guánica, Puerto Rico",
         "time": 1685172311660,
         "updated": 1685174494530,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico"
+        "title": "M 3.0 - 6 km SW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.89,
-        "place": "Puerto Rico region",
+        "place": "118 km N of Brenas, Puerto Rico",
         "time": 1685165088460,
         "updated": 1685167969223,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 245,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - Puerto Rico region"
+        "title": "M 3.9 - 118 km N of Brenas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1368,46 +1448,6 @@
         ]
       },
       "id": "us7000k4es"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.69,
-        "place": "127 km N of Brenas, Puerto Rico",
-        "time": 1685163100700,
-        "updated": 1685167949870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023147001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023147001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 209,
-        "net": "pr",
-        "code": "2023147001",
-        "ids": ",pr2023147001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.1616,
-        "rms": 0.31,
-        "gap": 276,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 127 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3206,
-          19.6198,
-          30
-        ]
-      },
-      "id": "pr2023147001"
     }
   ],
   "bbox": [
