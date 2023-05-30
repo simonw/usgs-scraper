@@ -1,31 +1,151 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685419182000,
+    "generated": 1685422782000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "50 km WNW of Nanwalek, Alaska",
+        "time": 1685422035607,
+        "updated": 1685422130018,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236w59w1s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236w59w1s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0236w59w1s",
+        "ids": ",ak0236w59w1s,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.31,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 50 km WNW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.7024,
+          59.5659,
+          73.9
+        ]
+      },
+      "id": "ak0236w59w1s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "59 km SE of Adak, Alaska",
+        "time": 1685420059778,
+        "updated": 1685421097040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4x6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4x6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.899,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "7000k4x6",
+        "ids": ",us7000k4x6,ak0236w52txu,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 29,
+        "dmin": 0.561,
+        "rms": 0.84,
+        "gap": 214,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 59 km SE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.0915,
+          51.4599,
+          39.317
+        ]
+      },
+      "id": "us7000k4x6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "206 km SE of Hihifo, Tonga",
+        "time": 1685419293443,
+        "updated": 1685420654040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4x4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4x4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000k4x4",
+        "ids": ",us7000k4x4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 2.112,
+        "rms": 0.71,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 206 km SE of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.3631,
+          -17.2147,
+          10
+        ]
+      },
+      "id": "us7000k4x4"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "6 km W of Calhoun, Kentucky",
         "time": 1685414720990,
-        "updated": 1685418925295,
+        "updated": 1685421364064,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60500758",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60500758.geojson",
-        "felt": 8,
-        "cdi": 4.6,
+        "felt": 19,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 147,
         "net": "nm",
         "code": "60500758",
         "ids": ",us7000k4wr,nm60500758,",
@@ -134,8 +254,8 @@
       "properties": {
         "mag": 5.7,
         "place": "southwest of Africa",
-        "time": 1685397124953,
-        "updated": 1685404548021,
+        "time": 1685397124854,
+        "updated": 1685421084353,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4ug",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4ug.geojson",
@@ -151,10 +271,10 @@
         "ids": ",us7000k4ug,",
         "sources": ",us,",
         "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 92,
-        "dmin": 19.747,
-        "rms": 0.6,
-        "gap": 44,
+        "nst": 98,
+        "dmin": 19.746,
+        "rms": 0.48,
+        "gap": 36,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.7 - southwest of Africa"
@@ -162,8 +282,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.4898,
-          -52.8887,
+          10.4709,
+          -52.887,
           10
         ]
       },
@@ -808,54 +928,14 @@
         ]
       },
       "id": "tx2023kkyg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Northern Peru",
-        "time": 1685336253108,
-        "updated": 1685384832014,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4qj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4qj.geojson",
-        "felt": 1,
-        "cdi": 5.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 401,
-        "net": "us",
-        "code": "7000k4qj",
-        "ids": ",us7000k4qj,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 95,
-        "dmin": 1.691,
-        "rms": 0.71,
-        "gap": 102,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - Northern Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.3944,
-          -7.974,
-          147.434
-        ]
-      },
-      "id": "us7000k4qj"
     }
   ],
   "bbox": [
-    -161.7015,
-    -52.8887,
+    -176.0915,
+    -52.887,
     5.4,
     178.9092,
-    54.4499,
+    59.5659,
     616.675
   ]
 }
