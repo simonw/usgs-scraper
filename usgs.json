@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685707238000,
+    "generated": 1685711103000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.69,
         "place": "13km SE of Bodfish, CA",
         "time": 1685706887460,
-        "updated": 1685707111133,
+        "updated": 1685710733724,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40475704",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40475704.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 6,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 113,
         "net": "ci",
         "code": "40475704",
-        "ids": ",ci40475704,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40475704,us7000k5qz,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 39,
         "dmin": 0.1914,
         "rms": 0.2,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ci40475704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1685706392533,
+        "updated": 1685707567040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k5qy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k5qy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000k5qy",
+        "ids": ",us7000k5qy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 3.667,
+        "rms": 0.37,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.3181,
+          -23.4687,
+          22.353
+        ]
+      },
+      "id": "us7000k5qy"
     },
     {
       "type": "Feature",
@@ -132,8 +172,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "176 km S of Kokopo, Papua New Guinea",
+        "time": 1685701615353,
+        "updated": 1685708268040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k5qj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k5qj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000k5qj",
+        "ids": ",us7000k5qj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.739,
+        "rms": 0.45,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 176 km S of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2526,
+          -5.9395,
+          10
+        ]
+      },
+      "id": "us7000k5qj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.91,
-        "place": "108 km N of Suárez, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1685695507500,
         "updated": 1685697578869,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 275,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - 108 km N of Suárez, Puerto Rico"
+        "title": "M 3.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -173,19 +253,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "10 km SSE of Saratoga, Wyoming",
+        "place": "Wyoming",
         "time": 1685693687756,
-        "updated": 1685705387814,
+        "updated": 1685710881841,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k5pl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k5pl.geojson",
-        "felt": 13,
+        "felt": 15,
         "cdi": 3.4,
         "mmi": 4.094,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 238,
+        "sig": 239,
         "net": "us",
         "code": "7000k5pl",
         "ids": ",us7000k5pl,",
@@ -197,7 +277,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.9 - 10 km SSE of Saratoga, Wyoming"
+        "title": "M 3.9 - Wyoming"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.81,
-        "place": "Puerto Rico region",
+        "place": "143 km N of Suárez, Puerto Rico",
         "time": 1685684618690,
         "updated": 1685686597283,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 288,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Puerto Rico region"
+        "title": "M 3.8 - 143 km N of Suárez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -412,10 +492,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.74,
-        "place": "5 km NNW of Douglas, Oklahoma",
-        "time": 1685672137788,
-        "updated": 1685672694040,
+        "mag": 2.48,
+        "place": "4 km NNW of Douglas, Oklahoma",
+        "time": 1685672137100,
+        "updated": 1685707807851,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023krwy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023krwy.geojson",
@@ -423,28 +503,28 @@
         "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 95,
         "net": "ok",
         "code": "2023krwy",
         "ids": ",ok2023krwy,us7000k5nf,",
         "sources": ",ok,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 79,
-        "dmin": 0.1708996296,
-        "rms": 0.8040430385,
-        "gap": 26.33483887,
+        "nst": 86,
+        "dmin": 0,
+        "rms": 0.25,
+        "gap": 34,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 5 km NNW of Douglas, Oklahoma"
+        "title": "M 2.5 - 4 km NNW of Douglas, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.69397736,
-          36.30355453,
-          0.6683353186
+          -97.69466667,
+          36.296,
+          5
         ]
       },
       "id": "ok2023krwy"
@@ -455,7 +535,7 @@
         "mag": 3.1,
         "place": "6 km S of Cold Springs, Nevada",
         "time": 1685665687561,
-        "updated": 1685706408349,
+        "updated": 1685709464377,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00860645",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00860645.geojson",
@@ -495,17 +575,17 @@
         "mag": 4,
         "place": "7 km S of Cold Springs, Nevada",
         "time": 1685665385353,
-        "updated": 1685705030053,
+        "updated": 1685710795945,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00860639",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00860639.geojson",
-        "felt": 670,
+        "felt": 673,
         "cdi": 4,
         "mmi": 4.207,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 514,
+        "sig": 515,
         "net": "nn",
         "code": "00860639",
         "ids": ",ew1685665390,nn00860639,nc73895196,us7000k5mw,",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.39,
-        "place": "99 km N of Isabela, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1685664360700,
         "updated": 1685666875720,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 307,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 99 km N of Isabela, Puerto Rico"
+        "title": "M 3.4 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.62,
-        "place": "7 km SW of Volcano, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1685646008590,
         "updated": 1685648881034,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 7 km SW of Volcano, Hawaii"
+        "title": "M 2.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "5 km SW of Tallaboa, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1685645324060,
         "updated": 1685645740400,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SW of Tallaboa, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1128,46 +1208,6 @@
         ]
       },
       "id": "us7000k5iz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "33 km NW of Saint Croix, U.S. Virgin Islands",
-        "time": 1685623705560,
-        "updated": 1685625205070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71411958",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71411958.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "pr",
-        "code": "71411958",
-        "ids": ",pr71411958,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.2714,
-        "rms": 0.15,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 33 km NW of Saint Croix, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9726666666667,
-          17.9388333333333,
-          11.46
-        ]
-      },
-      "id": "pr71411958"
     }
   ],
   "bbox": [
