@@ -1,28 +1,68 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685934199000,
+    "generated": 1685937590000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "89 km S of Lowell Point, Alaska",
+        "time": 1685937006014,
+        "updated": 1685937139341,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023761x649",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023761x649.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "023761x649",
+        "ids": ",ak023761x649,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.73,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 89 km S of Lowell Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.3317,
+          59.2698,
+          4.6
+        ]
+      },
+      "id": "ak023761x649"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.8,
         "place": "Balleny Islands region",
         "time": 1685933158419,
-        "updated": 1685934189040,
+        "updated": 1685935930040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k6bx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k6bx.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 518,
@@ -30,7 +70,7 @@
         "code": "7000k6bx",
         "ids": ",us7000k6bx,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 56,
         "dmin": 15.408,
         "rms": 0.62,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000k6bx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "79 km E of Onagawa Chō, Japan",
+        "time": 1685932506224,
+        "updated": 1685935011040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k6bw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k6bw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000k6bw",
+        "ids": ",us7000k6bw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 2.53,
+        "rms": 0.85,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 79 km E of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3542,
+          38.4606,
+          39.148
+        ]
+      },
+      "id": "us7000k6bw"
     },
     {
       "type": "Feature",
@@ -975,17 +1055,17 @@
         "mag": 3.24,
         "place": "3 km N of West Canton, North Carolina",
         "time": 1685873375060,
-        "updated": 1685933376535,
+        "updated": 1685937233967,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60500788",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60500788.geojson",
-        "felt": 604,
+        "felt": 610,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 373,
+        "sig": 375,
         "net": "se",
         "code": "60500788",
         "ids": ",us7000k68h,se60500788,",
@@ -1648,46 +1728,6 @@
         ]
       },
       "id": "us7000k679"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "107 km NE of Hihifo, Tonga",
-        "time": 1685848617335,
-        "updated": 1685849794040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k676",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k676.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000k676",
-        "ids": ",us7000k676,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 2.641,
-        "rms": 1.28,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 107 km NE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.0868,
-          -15.2616,
-          35
-        ]
-      },
-      "id": "us7000k676"
     }
   ],
   "bbox": [
@@ -1695,7 +1735,7 @@
     -62.3246,
     -1.35,
     179.7521,
-    58.2489,
+    59.2698,
     560.69
   ]
 }
