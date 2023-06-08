@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686218392000,
+    "generated": 1686222007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.54,
+        "place": "3km ESE of Carson, CA",
+        "time": 1686220290840,
+        "updated": 1686221823677,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40480440",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40480440.geojson",
+        "felt": 94,
+        "cdi": 3.6,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "ci",
+        "code": "40480440",
+        "ids": ",ci40480440,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 66,
+        "dmin": 0.05362,
+        "rms": 0.31,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 3km ESE of Carson, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.253,
+          33.8193333,
+          11.19
+        ]
+      },
+      "id": "ci40480440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.7,
         "place": "southeast of the Loyalty Islands",
         "time": 1686215968575,
-        "updated": 1686218237567,
+        "updated": 1686218641512,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k73m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k73m.geojson",
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "ci40479848"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "western Texas",
-        "time": 1686135348024,
-        "updated": 1686176284412,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023lbro",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023lbro.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2023lbro",
-        "ids": ",us7000k6ux,tx2023lbro,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.03978515698,
-        "rms": 0.1,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - western Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.3367116,
-          31.95073992,
-          6.902807617
-        ]
-      },
-      "id": "tx2023lbro"
     }
   ],
   "bbox": [
