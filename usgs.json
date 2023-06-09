@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686326407000,
+    "generated": 1686330034000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.67,
         "place": "8km W of Cobb, CA",
         "time": 1686324410460,
-        "updated": 1686325454577,
+        "updated": 1686327635725,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73899136",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73899136.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +70,7 @@
         "code": "73899136",
         "ids": ",nc73899136,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 60,
         "dmin": 0.01207,
         "rms": 0.06,
@@ -95,7 +95,7 @@
         "mag": 2.6,
         "place": "24 km S of Denali National Park, Alaska",
         "time": 1686323424238,
-        "updated": 1686323535211,
+        "updated": 1686327188040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237cuz849",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237cuz849.geojson",
@@ -108,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0237cuz849",
-        "ids": ",ak0237cuz849,",
-        "sources": ",ak,",
+        "ids": ",us7000k7fj,ak0237cuz849,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "ak0237cuz849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "4 km W of Ashkāsham, Afghanistan",
+        "time": 1686323325110,
+        "updated": 1686328256040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7fk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7fk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000k7fk",
+        "ids": ",us7000k7fk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.786,
+        "rms": 0.45,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 4 km W of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4834,
+          36.6783,
+          171.403
+        ]
+      },
+      "id": "us7000k7fk"
     },
     {
       "type": "Feature",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.15,
-        "place": "Puerto Rico region",
+        "place": "69 km N of Culebra, Puerto Rico",
         "time": 1686311455340,
         "updated": 1686315430710,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 248,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 69 km N of Culebra, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "85 km SE of Kirakira, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1686299726813,
         "updated": 1686302534040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 148,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 85 km SE of Kirakira, Solomon Islands"
+        "title": "M 4.3 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -488,6 +528,46 @@
         ]
       },
       "id": "us7000k7b9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1686297823550,
+        "updated": 1686329940508,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237cqrqf9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237cqrqf9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.002,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "0237cqrqf9",
+        "ids": ",ak0237cqrqf9,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.7558,
+          51.9566,
+          4.8
+        ]
+      },
+      "id": "ak0237cqrqf9"
     },
     {
       "type": "Feature",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "107 km SSE of Ust’-Kamchatsk Staryy, Russia",
+        "place": "off the east coast of the Kamchatka Peninsula, Russia",
         "time": 1686272693136,
         "updated": 1686273918040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 122,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 107 km SSE of Ust’-Kamchatsk Staryy, Russia"
+        "title": "M 4.5 - off the east coast of the Kamchatka Peninsula, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47,
-        "place": "Puerto Rico region",
+        "place": "7 km SSE of Maria Antonia, Puerto Rico",
         "time": 1686261903570,
         "updated": 1686264149730,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 232,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 7 km SSE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
