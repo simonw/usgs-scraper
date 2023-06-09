@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686265207000,
+    "generated": 1686268857000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "2 km SW of Pāhala, Hawaii",
+        "time": 1686265191970,
+        "updated": 1686265972040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73446332",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73446332.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "hv",
+        "code": "73446332",
+        "ids": ",us7000k78y,hv73446332,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": null,
+        "rms": 0.109999999,
+        "gap": 88,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 2 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.495498657227,
+          19.183500289917,
+          35.9599990844727
+        ]
+      },
+      "id": "hv73446332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "40 km WNW of Ust’-Barguzin, Russia",
+        "time": 1686265035071,
+        "updated": 1686266352040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k78z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k78z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000k78z",
+        "ids": ",us7000k78z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 3.504,
+        "rms": 0.73,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 40 km WNW of Ust’-Barguzin, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.482,
+          53.5717,
+          10
+        ]
+      },
+      "id": "us7000k78z"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.56,
         "place": "6km NE of Sierra Madre, CA",
         "time": 1686262142710,
-        "updated": 1686265007675,
+        "updated": 1686267518681,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40481072",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40481072.geojson",
-        "felt": 14,
-        "cdi": 3.1,
+        "felt": 17,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 107,
         "net": "ci",
         "code": "40481072",
         "ids": ",ci40481072,",
@@ -52,39 +132,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.24,
+        "mag": 3.07,
         "place": "6km NE of Sierra Madre, CA",
-        "time": 1686262128890,
-        "updated": 1686265195769,
+        "time": 1686262128820,
+        "updated": 1686268753194,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40481064",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40481064.geojson",
-        "felt": 92,
+        "felt": 105,
         "cdi": 3.1,
-        "mmi": 2.694,
+        "mmi": 2.732,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 190,
+        "sig": 178,
         "net": "ci",
         "code": "40481064",
         "ids": ",ci40481064,us7000k78r,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 106,
-        "dmin": 0.03894,
-        "rms": 0.22,
-        "gap": 21,
+        "nst": 163,
+        "dmin": 0.04123,
+        "rms": 0.2,
+        "gap": 16,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 6km NE of Sierra Madre, CA"
+        "title": "M 3.1 - 6km NE of Sierra Madre, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.0151672,
-          34.208168,
-          13.79
+          -118.0125,
+          34.2075,
+          14.07
         ]
       },
       "id": "ci40481064"
@@ -368,6 +448,46 @@
         ]
       },
       "id": "us7000k782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "92km W of Petrolia, CA",
+        "time": 1686253280170,
+        "updated": 1686267317886,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73898801",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73898801.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nc",
+        "code": "73898801",
+        "ids": ",nc73898801,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.7871,
+        "rms": 0.31,
+        "gap": 272,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 92km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.3641667,
+          40.3875,
+          23.98
+        ]
+      },
+      "id": "nc73898801"
     },
     {
       "type": "Feature",
@@ -775,17 +895,17 @@
         "mag": 2.54,
         "place": "3km ESE of Carson, CA",
         "time": 1686220290710,
-        "updated": 1686263811906,
+        "updated": 1686266374446,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40480440",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40480440.geojson",
-        "felt": 211,
+        "felt": 212,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 175,
+        "sig": 176,
         "net": "ci",
         "code": "40480440",
         "ids": ",ci40480440,",
@@ -1328,46 +1448,6 @@
         ]
       },
       "id": "hv73445337"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "66 km S of Atiquipa, Peru",
-        "time": 1686179299265,
-        "updated": 1686180106040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k70z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k70z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000k70z",
-        "ids": ",us7000k70z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 4.26,
-        "rms": 1.1,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 66 km S of Atiquipa, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.3025,
-          -16.398,
-          21.815
-        ]
-      },
-      "id": "us7000k70z"
     }
   ],
   "bbox": [
