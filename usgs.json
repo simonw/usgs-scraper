@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686434408000,
+    "generated": 1686437998000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.69,
+        "place": "30 km NNE of Otra Banda, Dominican Republic",
+        "time": 1686436329710,
+        "updated": 1686437921604,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023161001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023161001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 209,
+        "net": "pr",
+        "code": "2023161001",
+        "ids": ",pr2023161001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.4189,
+        "rms": 0.64,
+        "gap": 159,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 30 km NNE of Otra Banda, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5478,
+          18.8983,
+          27
+        ]
+      },
+      "id": "pr2023161001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1686435704774,
+        "updated": 1686437561040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7pp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7pp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000k7pp",
+        "ids": ",us7000k7pp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 4.938,
+        "rms": 0.48,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.8783,
+          -23.5605,
+          518.463
+        ]
+      },
+      "id": "us7000k7pp"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.91,
         "place": "1km SW of Pinnacles, CA",
         "time": 1686432004540,
-        "updated": 1686434291012,
+        "updated": 1686436317772,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73899691",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73899691.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "73899691",
         "ids": ",nc73899691,us7000k7pi,",
         "sources": ",nc,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 41,
         "dmin": null,
         "rms": 0.18,
@@ -53,14 +133,14 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "5 km WSW of Happy Valley, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1686431618718,
-        "updated": 1686433372040,
+        "updated": 1686434463619,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237em3ui7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237em3ui7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -68,16 +148,16 @@
         "sig": 158,
         "net": "ak",
         "code": "0237em3ui7",
-        "ids": ",us7000k7ph,ak0237em3ui7,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0237em3ui7,us7000k7ph,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.29,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 5 km WSW of Happy Valley, Alaska"
+        "title": "M 3.2 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "47 km NE of Circle, Alaska",
+        "place": "northern Alaska",
         "time": 1686426301035,
         "updated": 1686431581040,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 47 km NE of Circle, Alaska"
+        "title": "M 3.1 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -335,12 +415,12 @@
         "mag": 4.6,
         "place": "1 km SW of Inami, Japan",
         "time": 1686414053779,
-        "updated": 1686420892040,
+        "updated": 1686434820564,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7nk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7nk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +430,7 @@
         "code": "7000k7nk",
         "ids": ",us7000k7nk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 1.111,
         "rms": 0.57,
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.16,
-        "place": "36 km N of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1686407669840,
         "updated": 1686414769040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 36 km N of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.2 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.03,
-        "place": "Puerto Rico region",
+        "place": "13 km N of Loíza, Puerto Rico",
         "time": 1686405043070,
         "updated": 1686411855856,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 198,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 13 km N of Loíza, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "38 km WSW of Ovalle, Chile",
+        "place": "Coquimbo, Chile",
         "time": 1686403266706,
         "updated": 1686404371040,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 38 km WSW of Ovalle, Chile"
+        "title": "M 4.8 - Coquimbo, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "166 km ENE of Labasa, Fiji",
+        "place": "Fiji region",
         "time": 1686388370868,
         "updated": 1686395801463,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 49,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 166 km ENE of Labasa, Fiji"
+        "title": "M 5.8 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Southern Alaska",
+        "place": "42 km WNW of Salamatof, Alaska",
         "time": 1686386696115,
         "updated": 1686387233040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Southern Alaska"
+        "title": "M 3.1 - 42 km WNW of Salamatof, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Colombia",
+        "place": "7 km E of Restrepo, Colombia",
         "time": 1686380037681,
         "updated": 1686432263462,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Colombia"
+        "title": "M 4.3 - 7 km E of Restrepo, Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "New Guinea, Papua New Guinea",
+        "place": "81 km NNE of Porgera, Papua New Guinea",
         "time": 1686374003397,
         "updated": 1686376236040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 112,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - New Guinea, Papua New Guinea"
+        "title": "M 4.3 - 81 km NNE of Porgera, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1252,82 +1332,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "138 km N of Saipan, Northern Mariana Islands",
-        "time": 1686350780746,
-        "updated": 1686354666040,
+        "mag": 2.5,
+        "place": "53 km S of Whites City, New Mexico",
+        "time": 1686359525885,
+        "updated": 1686437047040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7jw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7jw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7kc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7kc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 96,
         "net": "us",
-        "code": "7000k7jw",
-        "ids": ",us7000k7jw,",
+        "code": "7000k7kc",
+        "ids": ",us7000k7kc,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 1.214,
-        "rms": 0.47,
-        "gap": 80,
-        "magType": "mb",
+        "nst": 20,
+        "dmin": 0.107,
+        "rms": 0.53,
+        "gap": 132,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.5 - 138 km N of Saipan, Northern Mariana Islands"
+        "title": "M 2.5 - 53 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.7167,
-          16.4597,
-          144.538
-        ]
-      },
-      "id": "us7000k7jw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "61 km NNE of Masohi, Indonesia",
-        "time": 1686349500902,
-        "updated": 1686353361040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7je",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7je.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000k7je",
-        "ids": ",us7000k7je,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 1.827,
-        "rms": 0.6,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 61 km NNE of Masohi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.2318,
-          -2.8117,
+          -104.3787,
+          31.6919,
           10
         ]
       },
-      "id": "us7000k7je"
+      "id": "us7000k7kc"
     }
   ],
   "bbox": [
@@ -1336,6 +1376,6 @@
     -0.07,
     160.3509,
     66.1382,
-    510.126
+    518.463
   ]
 }
