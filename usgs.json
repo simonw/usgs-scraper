@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686599994000,
+    "generated": 1686603594000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 18
+    "count": 20
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "3 km SW of Guánica, Puerto Rico",
+        "time": 1686601690800,
+        "updated": 1686602631580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71413163",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71413163.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71413163",
+        "ids": ",pr71413163,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.02687,
+        "rms": 0.1,
+        "gap": 198,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9296666666667,
+          17.9541666666667,
+          9.28
+        ]
+      },
+      "id": "pr71413163"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,11 +215,11 @@
         "mag": 2.61,
         "place": "6km SW of Gilroy, CA",
         "time": 1686577674140,
-        "updated": 1686599638719,
+        "updated": 1686600662193,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73900336",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73900336.geojson",
-        "felt": 53,
+        "felt": 54,
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
@@ -692,47 +732,87 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "Antofagasta, Chile",
-        "time": 1686515723413,
-        "updated": 1686517833040,
+        "mag": 4.5,
+        "place": "Bougainville region, Papua New Guinea",
+        "time": 1686523797857,
+        "updated": 1686603444040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7w6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7w6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7ws",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7ws.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 312,
         "net": "us",
-        "code": "7000k7w6",
-        "ids": ",us7000k7w6,",
+        "code": "7000k7ws",
+        "ids": ",us7000k7ws,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 109,
-        "dmin": 0.897,
-        "rms": 0.58,
-        "gap": 41,
-        "magType": "mwr",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 4.103,
+        "rms": 0.5,
+        "gap": 127,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Antofagasta, Chile"
+        "title": "M 4.5 - Bougainville region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.787,
-          -22.0201,
-          105.989
+          155.4774,
+          -6.6479,
+          255.188
         ]
       },
-      "id": "us7000k7w6"
+      "id": "us7000k7ws"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "8 km SW of Atalánti, Greece",
+        "time": 1686522564346,
+        "updated": 1686602425040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7wn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7wn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000k7wn",
+        "ids": ",us7000k7wn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.535,
+        "rms": 0.8,
+        "gap": 55,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 8 km SW of Atalánti, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9285,
+          38.6044,
+          10
+        ]
+      },
+      "id": "us7000k7wn"
     }
   ],
   "bbox": [
     -178.7632,
-    -22.0201,
+    -20.7987,
     0,
     157.261,
     61.3601,
