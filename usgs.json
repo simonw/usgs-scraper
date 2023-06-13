@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686654000000,
+    "generated": 1686657657000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 28
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "27 km SSW of White Mountain, Alaska",
-        "time": 1686653422280,
-        "updated": 1686653677300,
+        "mag": 2.56,
+        "place": "8km WNW of Pinnacles, CA",
+        "time": 1686657193180,
+        "updated": 1686657610546,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237jee0j7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237jee0j7.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73900666",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73900666.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 259,
-        "net": "ak",
-        "code": "0237jee0j7",
-        "ids": ",ak0237jee0j7,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
+        "sig": 101,
+        "net": "nc",
+        "code": "73900666",
+        "ids": ",nc73900666,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 49,
         "dmin": null,
-        "rms": 0.79,
-        "gap": null,
-        "magType": "ml",
+        "rms": 0.24,
+        "gap": 33,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - 27 km SSW of White Mountain, Alaska"
+        "title": "M 2.6 - 8km WNW of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -163.6943,
-          64.465,
-          10
+          -121.2236633,
+          36.5686684,
+          2.89
+        ]
+      },
+      "id": "nc73900666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "30 km WSW of Golovin, Alaska",
+        "time": 1686653422494,
+        "updated": 1686654752647,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237jee0j7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237jee0j7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.995,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "0237jee0j7",
+        "ids": ",us7000k85d,ak0237jee0j7,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 30 km WSW of Golovin, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.5968,
+          64.4155,
+          19.4
         ]
       },
       "id": "ak0237jee0j7"
@@ -55,17 +95,17 @@
         "mag": 5,
         "place": "21 km NE of Bhadarwāh, India",
         "time": 1686643420485,
-        "updated": 1686653897727,
+        "updated": 1686656137490,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k850",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k850.geojson",
-        "felt": 48,
+        "felt": 51,
         "cdi": 6.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 417,
+        "sig": 419,
         "net": "us",
         "code": "7000k850",
         "ids": ",us7000k850,",
@@ -92,10 +132,130 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "Volcano Islands, Japan region",
+        "time": 1686642357429,
+        "updated": 1686656659040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k853",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k853.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000k853",
+        "ids": ",us7000k853,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 12.312,
+        "rms": 1.09,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9676,
+          24.1275,
+          28.24
+        ]
+      },
+      "id": "us7000k853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "79 km SSW of Puerto El Triunfo, El Salvador",
+        "time": 1686641774031,
+        "updated": 1686656327040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k84v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k84v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000k84v",
+        "ids": ",us7000k84v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 1.11,
+        "rms": 0.74,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 79 km SSW of Puerto El Triunfo, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7946,
+          12.6053,
+          49.66
+        ]
+      },
+      "id": "us7000k84v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "51 km SSW of Andalgalá, Argentina",
+        "time": 1686641718336,
+        "updated": 1686657429040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k84u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k84u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000k84u",
+        "ids": ",us7000k84u,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 2.518,
+        "rms": 0.78,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 51 km SSW of Andalgalá, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5988,
+          -27.9716,
+          175.946
+        ]
+      },
+      "id": "us7000k84u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.61,
         "place": "50 km W of Stella, Puerto Rico",
         "time": 1686641143120,
-        "updated": 1686643936355,
+        "updated": 1686656854040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023164001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023164001.geojson",
@@ -108,8 +268,8 @@
         "sig": 200,
         "net": "pr",
         "code": "2023164001",
-        "ids": ",pr2023164001,",
-        "sources": ",pr,",
+        "ids": ",us7000k84s,pr2023164001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 22,
         "dmin": 0.2797,
@@ -972,10 +1132,10 @@
   ],
   "bbox": [
     -178.7632,
-    -20.7987,
-    6.295,
+    -27.9716,
+    2.89,
     162.1042,
-    64.465,
+    64.4155,
     607.923
   ]
 }
