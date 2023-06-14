@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686744009000,
+    "generated": 1686747720000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1686744933949,
+        "updated": 1686745928040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8df",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8df.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.219,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000k8df",
+        "ids": ",us7000k8df,ak0237l2wrbz,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 46,
+        "dmin": 1.102,
+        "rms": 1,
+        "gap": 180,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.9846,
+          50.2965,
+          10
+        ]
+      },
+      "id": "us7000k8df"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,12 +495,12 @@
         "mag": 2.97,
         "place": "Puerto Rico region",
         "time": 1686712423940,
-        "updated": 1686719419300,
+        "updated": 1686744685249,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71413373",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71413373.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +510,7 @@
         "code": "71413373",
         "ids": ",pr71413373,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 30,
         "dmin": 0.06906,
         "rms": 0.22,
@@ -1688,86 +1728,6 @@
         ]
       },
       "id": "us7000k85z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "12 km WNW of Cabra, Philippines",
-        "time": 1686661068293,
-        "updated": 1686672107683,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k85s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k85s.geojson",
-        "felt": 2,
-        "cdi": 4.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "7000k85s",
-        "ids": ",us7000k85s,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 114,
-        "dmin": 8.786,
-        "rms": 0.56,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 12 km WNW of Cabra, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.9487,
-          13.9371,
-          10
-        ]
-      },
-      "id": "us7000k85s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "Bismarck Sea",
-        "time": 1686659415360,
-        "updated": 1686666806527,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k85q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k85q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.778,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000k85q",
-        "ids": ",us7000k85q,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 65,
-        "dmin": 6.785,
-        "rms": 0.87,
-        "gap": 64,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - Bismarck Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.4609,
-          -3.2125,
-          10
-        ]
-      },
-      "id": "us7000k85q"
     }
   ],
   "bbox": [
