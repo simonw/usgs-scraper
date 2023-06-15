@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686826805000,
+    "generated": 1686830411000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "4km NNE of Prattville, CA",
+        "time": 1686829913420,
+        "updated": 1686830351086,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73901331",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73901331.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "nc",
+        "code": "73901331",
+        "ids": ",nc73901331,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.3116,
+        "rms": 0.39,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 4km NNE of Prattville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1425018,
+          40.2425003,
+          -1.33
+        ]
+      },
+      "id": "nc73901331"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,17 +295,17 @@
         "mag": 6.2,
         "place": "11 km SSE of Hukay, Philippines",
         "time": 1686795563315,
-        "updated": 1686826073528,
+        "updated": 1686830155296,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8jz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8jz.geojson",
-        "felt": 195,
+        "felt": 197,
         "cdi": 6.1,
         "mmi": 4.944,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 710,
+        "sig": 712,
         "net": "us",
         "code": "7000k8jz",
         "ids": ",us7000k8jz,",
@@ -928,52 +968,12 @@
         ]
       },
       "id": "us7000k8df"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "Island of Hawaii, Hawaii",
-        "time": 1686741446540,
-        "updated": 1686784750350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73450772",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73450772.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "hv",
-        "code": "73450772",
-        "ids": ",us7000k8dc,hv73450772,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 133,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - Island of Hawaii, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.372,
-          19.2681666666667,
-          31.85
-        ]
-      },
-      "id": "hv73450772"
     }
   ],
   "bbox": [
     -178.1496,
     -29.2983,
-    1.479,
+    -1.33,
     179.3747,
     62.8097,
     564.036
