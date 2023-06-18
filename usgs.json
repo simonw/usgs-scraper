@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687122006000,
+    "generated": 1687125612000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 42
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.59,
         "place": "10 km SW of El Reno, Oklahoma",
         "time": 1687121859313,
-        "updated": 1687121974570,
+        "updated": 1687122534562,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023lwoa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023lwoa.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 104,
         "net": "ok",
         "code": "2023lwoa",
         "ids": ",ok2023lwoa,",
         "sources": ",ok,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 33,
         "dmin": 0.04007096589,
         "rms": 1.012313801,
@@ -135,22 +135,22 @@
         "mag": 6.3,
         "place": "98 km ESE of La Rivera, Mexico",
         "time": 1687120223636,
-        "updated": 1687121837772,
+        "updated": 1687125121195,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9f0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9f0.geojson",
-        "felt": 6,
+        "felt": 16,
         "cdi": 3.8,
         "mmi": 4.667,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 613,
+        "sig": 617,
         "net": "us",
         "code": "7000k9f0",
         "ids": ",at00rwguar,us7000k9f0,pt23169001,",
         "sources": ",at,us,pt,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 54,
         "dmin": 5.163,
         "rms": 1.47,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "us7000k9f0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "43 km SSE of Kivalina, Alaska",
+        "time": 1687119665796,
+        "updated": 1687122129040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9ez",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9ez.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000k9ez",
+        "ids": ",us7000k9ez,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.783,
+        "rms": 0.38,
+        "gap": 200,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 43 km SSE of Kivalina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.01,
+          67.3965,
+          10
+        ]
+      },
+      "id": "us7000k9ez"
     },
     {
       "type": "Feature",
@@ -1015,7 +1055,7 @@
         "mag": 5,
         "place": "59 km N of Karluk, Alaska",
         "time": 1687079671472,
-        "updated": 1687116125481,
+        "updated": 1687123484813,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237rn9mb0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237rn9mb0.geojson",
@@ -1215,17 +1255,17 @@
         "mag": 4.35,
         "place": "8km SE of Talmage, CA",
         "time": 1687059899090,
-        "updated": 1687121209745,
+        "updated": 1687124049173,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73902356",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73902356.geojson",
-        "felt": 462,
+        "felt": 464,
         "cdi": 4.3,
         "mmi": 4.19,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 490,
+        "sig": 491,
         "net": "nc",
         "code": "73902356",
         "ids": ",ew1687059900,at00rwfjqz,nc73902356,us7000k9ai,",
@@ -1648,126 +1688,6 @@
         ]
       },
       "id": "us7000k999"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "south of Alaska",
-        "time": 1687039089334,
-        "updated": 1687047402282,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237q74wn5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237q74wn5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0237q74wn5",
-        "ids": ",ak0237q74wn5,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.72,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - south of Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.2382,
-          55.5505,
-          3
-        ]
-      },
-      "id": "ak0237q74wn5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "68 km ENE of Kimbe, Papua New Guinea",
-        "time": 1687036918956,
-        "updated": 1687038856040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k995",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k995.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000k995",
-        "ids": ",us7000k995,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.814,
-        "rms": 0.61,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 68 km ENE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.6543,
-          -5.2111,
-          189.398
-        ]
-      },
-      "id": "us7000k995"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "26km SSW of Ludlow, CA",
-        "time": 1687036503500,
-        "updated": 1687111362688,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40487888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40487888.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "ci",
-        "code": "40487888",
-        "ids": ",ci40487888,us7000k993,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.1949,
-        "rms": 0.12,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 26km SSW of Ludlow, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.2313333,
-          34.499,
-          1.99
-        ]
-      },
-      "id": "ci40487888"
     }
   ],
   "bbox": [
@@ -1775,7 +1695,7 @@
     -34.8795,
     1.107857466,
     167.5109,
-    58.0955,
+    67.3965,
     226.463
   ]
 }
