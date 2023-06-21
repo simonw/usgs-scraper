@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687366820000,
+    "generated": 1687370381000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 3.8,
         "place": "13 km SE of Petersville, Alaska",
         "time": 1687357568512,
-        "updated": 1687363599883,
+        "updated": 1687370006040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237woxclz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237woxclz.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.1,
         "mmi": 2.746,
         "alert": null,
@@ -70,7 +70,7 @@
         "code": "0237woxclz",
         "ids": ",ak0237woxclz,",
         "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 1.22,
@@ -95,17 +95,17 @@
         "mag": 2.8,
         "place": "Nevada",
         "time": 1687357105249,
-        "updated": 1687366489765,
+        "updated": 1687367214395,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00861503",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00861503.geojson",
-        "felt": 13,
-        "cdi": 3.7,
+        "felt": 15,
+        "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 125,
+        "sig": 126,
         "net": "nn",
         "code": "00861503",
         "ids": ",nn00861503,",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "nn00861503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "12km SW of Searles Valley, CA",
+        "time": 1687355939970,
+        "updated": 1687368127480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40490864",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40490864.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "ci",
+        "code": "40490864",
+        "ids": ",ci40490864,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.05213,
+        "rms": 0.14,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 12km SW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.483,
+          35.6848333,
+          7.82
+        ]
+      },
+      "id": "ci40490864"
     },
     {
       "type": "Feature",
@@ -1208,86 +1248,6 @@
         ]
       },
       "id": "tx2023lzzf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "280 km SSW of ‘Ohonua, Tonga",
-        "time": 1687280877444,
-        "updated": 1687282416040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9wu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9wu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000k9wu",
-        "ids": ",us7000k9wu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 2.621,
-        "rms": 0.79,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 280 km SSW of ‘Ohonua, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.8598,
-          -23.7314,
-          10
-        ]
-      },
-      "id": "us7000k9wu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1687280572319,
-        "updated": 1687282122040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9wt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9wt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000k9wt",
-        "ids": ",us7000k9wt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 14.719,
-        "rms": 0.75,
-        "gap": 50,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -28.2937,
-          0.9087,
-          14.323
-        ]
-      },
-      "id": "us7000k9wt"
     }
   ],
   "bbox": [
