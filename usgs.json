@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687348790000,
+    "generated": 1687352561000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.32,
         "place": "68 km NE of Punta Cana, Dominican Republic",
         "time": 1687345133990,
-        "updated": 1687348178080,
+        "updated": 1687351786664,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71414248",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71414248.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71414248",
         "ids": ",pr71414248,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 8,
         "dmin": 0.7937,
         "rms": 0.36,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000ka1z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "20 km N of Stanton, Texas",
+        "time": 1687335758832,
+        "updated": 1687349411409,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023mbbq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023mbbq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2023mbbq",
+        "ids": ",tx2023mbbq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.0238795576,
+        "rms": 0.2,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 20 km N of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8170017,
+          32.31536865,
+          6.431599935
+        ]
+      },
+      "id": "tx2023mbbq"
     },
     {
       "type": "Feature",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "near the south coast of Myanmar",
+        "place": "88 km SE of Pyapon, Myanmar",
         "time": 1687315640051,
         "updated": 1687316729040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 173,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - near the south coast of Myanmar"
+        "title": "M 4.7 - 88 km SE of Pyapon, Myanmar"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53,
-        "place": "Puerto Rico",
+        "place": "7 km E of Mayagüez, Puerto Rico",
         "time": 1687311439330,
         "updated": 1687312137480,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 71,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico"
+        "title": "M 2.5 - 7 km E of Mayagüez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -855,7 +895,7 @@
         "mag": 5.7,
         "place": "215 km ENE of Levuka, Fiji",
         "time": 1687291155598,
-        "updated": 1687298558865,
+        "updated": 1687351921040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9xm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9xm.geojson",
@@ -870,7 +910,7 @@
         "code": "7000k9xm",
         "ids": ",us7000k9xm,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 102,
         "dmin": 3.049,
         "rms": 0.92,
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Puerto Rico region",
+        "place": "13 km S of Guánica, Puerto Rico",
         "time": 1687290115840,
         "updated": 1687297290040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 250,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 13 km S of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "southern Idaho",
+        "place": "11 km WNW of Stanley, Idaho",
         "time": 1687279211541,
         "updated": 1687285379040,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - southern Idaho"
+        "title": "M 2.8 - 11 km WNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "near the north coast of New Guinea, Papua New Guinea",
+        "place": "114 km ESE of Angoram, Papua New Guinea",
         "time": 1687271929660,
         "updated": 1687284227040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - near the north coast of New Guinea, Papua New Guinea"
+        "title": "M 4.5 - 114 km ESE of Angoram, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "287 km E of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1687267976867,
         "updated": 1687270050040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 41,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 287 km E of Levuka, Fiji"
+        "title": "M 4.4 - Fiji region"
       },
       "geometry": {
         "type": "Point",
