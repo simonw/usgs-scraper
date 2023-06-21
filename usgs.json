@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687352561000,
+    "generated": 1687356041000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,11 +15,11 @@
         "mag": 3.32,
         "place": "68 km NE of Punta Cana, Dominican Republic",
         "time": 1687345133990,
-        "updated": 1687351786664,
+        "updated": 1687354734934,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71414248",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71414248.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -532,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.52,
+        "place": "Tennessee",
+        "time": 1687308228420,
+        "updated": 1687354304223,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60530516",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60530516.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "se",
+        "code": "60530516",
+        "ids": ",se60530516,",
+        "sources": ",se,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.07767,
+        "rms": 0.17,
+        "gap": 79,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Tennessee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.8858333333333,
+          35.148,
+          8.73
+        ]
+      },
+      "id": "se60530516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "49 km SE of Naalehu, Hawaii",
         "time": 1687305663330,
@@ -893,15 +933,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "215 km ENE of Levuka, Fiji",
-        "time": 1687291155598,
-        "updated": 1687351921040,
+        "place": "Fiji region",
+        "time": 1687291156082,
+        "updated": 1687355848697,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9xm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9xm.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.825,
+        "mmi": 1.795,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -911,20 +951,20 @@
         "ids": ",us7000k9xm,",
         "sources": ",us,",
         "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 102,
-        "dmin": 3.049,
-        "rms": 0.92,
-        "gap": 37,
+        "nst": 239,
+        "dmin": 3.046,
+        "rms": 0.75,
+        "gap": 33,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 215 km ENE of Levuka, Fiji"
+        "title": "M 5.7 - Fiji region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.7689,
-          -17.4169,
-          547.751
+          -178.7693,
+          -17.4401,
+          553.354
         ]
       },
       "id": "us7000k9xm"
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "pr71414153"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Fiji region",
-        "time": 1687267976867,
-        "updated": 1687270050040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9uq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9uq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000k9uq",
-        "ids": ",us7000k9uq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 87,
-        "dmin": 3.877,
-        "rms": 0.89,
-        "gap": 41,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9733,
-          -18.2046,
-          607.562
-        ]
-      },
-      "id": "us7000k9uq"
     }
   ],
   "bbox": [
@@ -1336,6 +1336,6 @@
     -1.26,
     163.0111,
     63.1422,
-    607.562
+    567.817
   ]
 }
