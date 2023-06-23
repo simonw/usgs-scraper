@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687554007000,
+    "generated": 1687557628000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "38 km ENE of Chase, Alaska",
+        "time": 1687553950303,
+        "updated": 1687554874040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023803rpyq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023803rpyq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "023803rpyq",
+        "ids": ",us7000kaq8,ak023803rpyq,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.77,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 38 km ENE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.3674,
+          62.5321,
+          2.3
+        ]
+      },
+      "id": "ak023803rpyq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,7 +255,7 @@
         "mag": 5.6,
         "place": "Tonga",
         "time": 1687547171825,
-        "updated": 1687549169720,
+        "updated": 1687554574274,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kap9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kap9.geojson",
@@ -252,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.89,
-        "place": "1km SSW of Pinnacles, CA",
-        "time": 1687546351830,
-        "updated": 1687551013040,
+        "mag": 2.84,
+        "place": "1km NNW of Pinnacles, CA",
+        "time": 1687546351700,
+        "updated": 1687557258071,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73904321",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73904321.geojson",
@@ -263,28 +303,28 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 124,
         "net": "nc",
         "code": "73904321",
         "ids": ",nc73904321,us7000kanz,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 50,
+        "nst": 57,
         "dmin": null,
-        "rms": 0.3,
-        "gap": 100,
+        "rms": 0.11,
+        "gap": 115,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 1km SSW of Pinnacles, CA"
+        "title": "M 2.8 - 1km NNW of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.1451645,
-          36.5246658,
-          4.88
+          -121.145,
+          36.538,
+          2.65
         ]
       },
       "id": "nc73904321"
@@ -335,22 +375,22 @@
         "mag": 5.6,
         "place": "94 km NE of Hamatonbetsu, Japan",
         "time": 1687541953508,
-        "updated": 1687549482711,
+        "updated": 1687555298608,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kane",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kane.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 2.997,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 483,
         "net": "us",
         "code": "7000kane",
         "ids": ",us7000kane,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 132,
         "dmin": 1.178,
         "rms": 0.95,
@@ -1333,9 +1373,9 @@
   "bbox": [
     -178.449,
     -27.0984,
-    4.88,
+    2.3,
     143.1243,
-    61.4848,
+    62.5321,
     317.625
   ]
 }
