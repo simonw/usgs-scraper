@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687536005000,
+    "generated": 1687539602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.6,
         "place": "73 km NNE of Aleneva, Alaska",
         "time": 1687532946472,
-        "updated": 1687534530276,
+        "updated": 1687538775040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023800htxz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023800htxz.geojson",
@@ -68,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "023800htxz",
-        "ids": ",ak023800htxz,",
-        "sources": ",ak,",
+        "ids": ",ak023800htxz,us7000kami,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1055,7 +1055,7 @@
         "mag": 2.52,
         "place": "1km ESE of Bella Vista, CA",
         "time": 1687460792650,
-        "updated": 1687514172720,
+        "updated": 1687537333040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73903996",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73903996.geojson",
@@ -1068,8 +1068,8 @@
         "sig": 98,
         "net": "nc",
         "code": "73903996",
-        "ids": ",nc73903996,",
-        "sources": ",nc,",
+        "ids": ",nc73903996,us7000kaek,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.02716,
@@ -1088,6 +1088,46 @@
         ]
       },
       "id": "nc73903996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "southwest of Sumatra, Indonesia",
+        "time": 1687460343119,
+        "updated": 1687536915040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kaen",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kaen.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000kaen",
+        "ids": ",us7000kaen,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 2.283,
+        "rms": 0.88,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - southwest of Sumatra, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6933,
+          -4.0119,
+          10
+        ]
+      },
+      "id": "us7000kaen"
     },
     {
       "type": "Feature",
@@ -1168,94 +1208,14 @@
         ]
       },
       "id": "us7000kae2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "111 km WNW of Chauk, Myanmar",
-        "time": 1687452162324,
-        "updated": 1687535991040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kaec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kaec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000kaec",
-        "ids": ",us7000kaec,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 2.626,
-        "rms": 1.08,
-        "gap": 183,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 111 km WNW of Chauk, Myanmar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.8082,
-          21.2446,
-          41.552
-        ]
-      },
-      "id": "us7000kaec"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "46 km ESE of Luganville, Vanuatu",
-        "time": 1687451862474,
-        "updated": 1687454252040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kadr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kadr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000kadr",
-        "ids": ",us7000kadr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 5.815,
-        "rms": 0.87,
-        "gap": 162,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 46 km ESE of Luganville, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.5798,
-          -15.6248,
-          138.753
-        ]
-      },
-      "id": "us7000kadr"
     }
   ],
   "bbox": [
     -178.449,
     -28.7244,
     5,
-    167.5798,
+    141.4387,
     62.1758,
-    138.753
+    120.279
   ]
 }
