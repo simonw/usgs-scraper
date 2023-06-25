@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687676413000,
+    "generated": 1687680013000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "south of Tonga",
+        "time": 1687677419490,
+        "updated": 1687679305309,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kayb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kayb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 554,
+        "net": "us",
+        "code": "7000kayb",
+        "ids": ",us7000kayb,",
+        "sources": ",us,",
+        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": 65,
+        "dmin": 2.875,
+        "rms": 0.94,
+        "gap": 43,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - south of Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.6262,
+          -24.0318,
+          7.087
+        ]
+      },
+      "id": "us7000kayb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.46,
         "place": "7km NW of The Geysers, CA",
         "time": 1687670495220,
-        "updated": 1687674793287,
+        "updated": 1687678048225,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73904921",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73904921.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "73904921",
         "ids": ",nc73904921,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 42,
         "dmin": 0.008336,
         "rms": 0.06,
@@ -1408,86 +1448,6 @@
         ]
       },
       "id": "us7000kasx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "65 km W of Tyonek, Alaska",
-        "time": 1687591313239,
-        "updated": 1687592469403,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02381jcdsr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02381jcdsr.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "ak",
-        "code": "02381jcdsr",
-        "ids": ",ak02381jcdsr,us7000kast,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.77,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 65 km W of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.3544,
-          61.0458,
-          7
-        ]
-      },
-      "id": "ak02381jcdsr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.39,
-        "place": "Mona Passage",
-        "time": 1687591024780,
-        "updated": 1687592286380,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71414508",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71414508.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 177,
-        "net": "pr",
-        "code": "71414508",
-        "ids": ",pr71414508,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.5102,
-        "rms": 0.31,
-        "gap": 270,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3945,
-          18.0016666666667,
-          102.51
-        ]
-      },
-      "id": "pr71414508"
     }
   ],
   "bbox": [
