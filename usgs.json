@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687791584000,
+    "generated": 1687795242000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "6km NE of Fontana, CA",
+        "time": 1687793483820,
+        "updated": 1687795215588,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40495808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40495808.geojson",
+        "felt": 75,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 141,
+        "net": "ci",
+        "code": "40495808",
+        "ids": ",ci40495808,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 103,
+        "dmin": 0.04019,
+        "rms": 0.23,
+        "gap": 16,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 6km NE of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4213333,
+          34.1371667,
+          6.39
+        ]
+      },
+      "id": "ci40495808"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.12,
-        "place": "4 km WNW of Santa Clara, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1687785226140,
         "updated": 1687787332500,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 147,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 4 km WNW of Santa Clara, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "122 km WSW of Ternate, Indonesia",
+        "place": "Molucca Sea",
         "time": 1687768762422,
         "updated": 1687771794040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 81,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 122 km WSW of Ternate, Indonesia"
+        "title": "M 4.8 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "northern Alaska",
+        "place": "38 km NW of Hughes, Alaska",
         "time": 1687766490821,
         "updated": 1687790014040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - northern Alaska"
+        "title": "M 3.4 - 38 km NW of Hughes, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,15 +413,15 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "35 km SSW of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1687764918322,
-        "updated": 1687769016940,
+        "updated": 1687792875396,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kb3f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kb3f.geojson",
         "felt": 3,
         "cdi": 4.1,
-        "mmi": 3.105,
+        "mmi": 2.964,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -397,7 +437,7 @@
         "gap": 175,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 35 km SSW of Adak, Alaska"
+        "title": "M 4.6 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -452,8 +492,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "Turkey-Iraq border region",
+        "time": 1687761691369,
+        "updated": 1687792844040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kb3b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kb3b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000kb3b",
+        "ids": ",us7000kb3b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.474,
+        "rms": 0.6,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Turkey-Iraq border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.3614,
+          37.1204,
+          10
+        ]
+      },
+      "id": "us7000kb3b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.23,
-        "place": "Puerto Rico region",
+        "place": "80 km SE of Boca de Yuma, Dominican Republic",
         "time": 1687750587690,
         "updated": 1687752096590,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 217,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 80 km SE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.66,
-        "place": "3 km WSW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1687749278770,
         "updated": 1687750816810,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 245,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 3 km WSW of La Parguera, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Alaska Peninsula",
+        "place": "34 km WNW of Karluk, Alaska",
         "time": 1687749254439,
         "updated": 1687750108040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Alaska Peninsula"
+        "title": "M 2.5 - 34 km WNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -773,19 +853,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "4 km E of Spanish Springs, Nevada",
+        "place": "Nevada",
         "time": 1687744247821,
-        "updated": 1687791383969,
+        "updated": 1687795134798,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00861727",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00861727.geojson",
-        "felt": 462,
+        "felt": 464,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 390,
+        "sig": 391,
         "net": "nn",
         "code": "00861727",
         "ids": ",nn00861727,us7000kb2d,",
@@ -797,7 +877,7 @@
         "gap": 68.53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 4 km E of Spanish Springs, Nevada"
+        "title": "M 3.4 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "276 km SSW of Sanana, Indonesia",
+        "place": "Banda Sea",
         "time": 1687743228302,
         "updated": 1687744281040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 276 km SSW of Sanana, Indonesia"
+        "title": "M 4.1 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "60 km S of Sumberpucung, Indonesia",
+        "place": "Java, Indonesia",
         "time": 1687742175247,
         "updated": 1687743572040,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 60 km S of Sumberpucung, Indonesia"
+        "title": "M 4.2 - Java, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.76,
-        "place": "Leeward Islands",
+        "place": "94 km NNW of Sandy Ground Village, Anguilla",
         "time": 1687734060170,
         "updated": 1687737326458,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 242,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Leeward Islands"
+        "title": "M 3.8 - 94 km NNW of Sandy Ground Village, Anguilla"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "53 km SSW of Ollagüe, Chile",
+        "place": "Antofagasta, Chile",
         "time": 1687729227887,
         "updated": 1687730397040,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 62,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 53 km SSW of Ollagüe, Chile"
+        "title": "M 4.3 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1215,11 +1295,11 @@
         "mag": 2.7,
         "place": "6km NW of San Jacinto, CA",
         "time": 1687721715960,
-        "updated": 1687752837342,
+        "updated": 1687794427474,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40495112",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40495112.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "70 km SSE of Fīrūzābād, Iran",
+        "place": "southern Iran",
         "time": 1687718932824,
         "updated": 1687720230040,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 70 km SSE of Fīrūzābād, Iran"
+        "title": "M 4.2 - southern Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.66000009,
-        "place": "46 km SE of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1687713463440,
         "updated": 1687714282040,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 272,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 46 km SE of Naalehu, Hawaii"
+        "title": "M 2.7 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1408,133 +1488,13 @@
         ]
       },
       "id": "ak02383cfm19"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "68 km ENE of Sola, Vanuatu",
-        "time": 1687708718143,
-        "updated": 1687712441040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kb07",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kb07.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000kb07",
-        "ids": ",us7000kb07,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 7.832,
-        "rms": 0.98,
-        "gap": 252,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 68 km ENE of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.1142,
-          -13.5872,
-          10
-        ]
-      },
-      "id": "us7000kb07"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "central Afghanistan",
-        "time": 1687708203566,
-        "updated": 1687712749040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kb05",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kb05.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000kb05",
-        "ids": ",us7000kb05,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 3.167,
-        "rms": 0.82,
-        "gap": 176,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - central Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          69.634,
-          34.6243,
-          57.954
-        ]
-      },
-      "id": "us7000kb05"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "114 km SSE of Lata, Solomon Islands",
-        "time": 1687707007924,
-        "updated": 1687708017040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kazy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kazy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000kazy",
-        "ids": ",us7000kazy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 6.587,
-        "rms": 0.96,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 114 km SSE of Lata, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.2631,
-          -11.6507,
-          87.329
-        ]
-      },
-      "id": "us7000kazy"
     }
   ],
   "bbox": [
     -176.9157,
     -30.1195,
     0,
-    168.1142,
+    126.3246,
     66.3141,
     433.237
   ]
