@@ -1,27 +1,107 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687856430000,
+    "generated": 1687860030000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.22,
+        "place": "34 km NNW of Culebra, Puerto Rico",
+        "time": 1687857696170,
+        "updated": 1687859728690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71414828",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71414828.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "pr",
+        "code": "71414828",
+        "ids": ",pr71414828,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.3071,
+        "rms": 0.11,
+        "gap": 214,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 34 km NNW of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.393,
+          18.5976666666667,
+          74.57
+        ]
+      },
+      "id": "pr71414828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "south of the Fiji Islands",
+        "time": 1687856317127,
+        "updated": 1687857546040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kncy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kncy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000kncy",
+        "ids": ",us6000kncy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 4.675,
+        "rms": 1.69,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.6986,
+          -25.0793,
+          508.539
+        ]
+      },
+      "id": "us6000kncy"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "Southern Alaska",
         "time": 1687852907708,
-        "updated": 1687854737424,
+        "updated": 1687857322295,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02386ifk6z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02386ifk6z.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 3.4,
-        "mmi": null,
+        "mmi": 2.33,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -30,7 +110,7 @@
         "code": "02386ifk6z",
         "ids": ",ak02386ifk6z,us6000kncr,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.82,
@@ -133,9 +213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "Central Alaska",
+        "place": "26 km NE of Skwentna, Alaska",
         "time": 1687847316367,
-        "updated": 1687854729480,
+        "updated": 1687858224536,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02386hegbs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02386hegbs.geojson",
@@ -157,7 +237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - Central Alaska"
+        "title": "M 3.8 - 26 km NE of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.12,
-        "place": "Puerto Rico",
+        "place": "4 km WNW of Santa Clara, Puerto Rico",
         "time": 1687785226140,
         "updated": 1687787332500,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 147,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico"
+        "title": "M 3.1 - 4 km WNW of Santa Clara, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -932,10 +1012,10 @@
   ],
   "bbox": [
     -175.9623,
-    -24.045,
+    -25.0793,
     6.61,
-    98.9818,
+    179.6986,
     62.1874,
-    249.919
+    508.539
   ]
 }
