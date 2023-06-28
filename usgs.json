@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687953653000,
+    "generated": 1687957553000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 28
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.5,
         "place": "Auckland Islands, New Zealand region",
         "time": 1687952412388,
-        "updated": 1687953256040,
+        "updated": 1687957029855,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knlv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knlv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000knlv",
         "ids": ",us6000knlv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 4.273,
         "rms": 0.72,
@@ -95,7 +95,7 @@
         "mag": 5.4,
         "place": "87 km NW of Fangale’ounga, Tonga",
         "time": 1687949653299,
-        "updated": 1687951533453,
+        "updated": 1687957039964,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knle",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knle.geojson",
@@ -215,7 +215,7 @@
         "mag": 2.95,
         "place": "19km ESE of Anderson, CA",
         "time": 1687947068150,
-        "updated": 1687951570784,
+        "updated": 1687957454381,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73906296",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73906296.geojson",
@@ -332,10 +332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "4 km ESE of Big Lake, Alaska",
-        "time": 1687931387907,
-        "updated": 1687934661040,
+        "mag": 2.7,
+        "place": "9 km SSW of Willow, Alaska",
+        "time": 1687931385828,
+        "updated": 1687955399452,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023884gw7a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023884gw7a.geojson",
@@ -343,9 +343,9 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 112,
         "net": "ak",
         "code": "023884gw7a",
         "ids": ",us6000knkb,ak023884gw7a,",
@@ -353,18 +353,18 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.34,
+        "rms": 1.03,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 4 km ESE of Big Lake, Alaska"
+        "title": "M 2.7 - 9 km SSW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.8807,
-          61.5095,
-          33.6
+          -150.1153,
+          61.6686,
+          20.6
         ]
       },
       "id": "ak023884gw7a"
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southern Alaska",
+        "place": "47 km ESE of Port Alsworth, Alaska",
         "time": 1687919754560,
         "updated": 1687919872933,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southern Alaska"
+        "title": "M 2.5 - 47 km ESE of Port Alsworth, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "14 km N of Snyder, Texas",
+        "place": "western Texas",
         "time": 1687909617395,
         "updated": 1687933551671,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 14 km N of Snyder, Texas"
+        "title": "M 3.3 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "Primor'ye, Russia",
+        "place": "91 km S of Preobrazheniye, Russia",
         "time": 1687909101454,
         "updated": 1687916627232,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 19,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - Primor'ye, Russia"
+        "title": "M 5.8 - 91 km S of Preobrazheniye, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "1 km SE of Yacuiba, Bolivia",
+        "place": "Salta, Argentina",
         "time": 1687897131743,
         "updated": 1687902283364,
         "tz": null,
@@ -837,7 +837,7 @@
         "gap": 19,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 1 km SE of Yacuiba, Bolivia"
+        "title": "M 4.4 - Salta, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "near the coast of Ecuador",
+        "place": "4 km SE of Muisne, Ecuador",
         "time": 1687874848437,
         "updated": 1687920295529,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 142,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - near the coast of Ecuador"
+        "title": "M 5.1 - 4 km SE of Muisne, Ecuador"
       },
       "geometry": {
         "type": "Point",
@@ -1128,46 +1128,6 @@
         ]
       },
       "id": "pr71414903"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "14 km WNW of Sivrice, Turkey",
-        "time": 1687869608299,
-        "updated": 1687933290040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kndx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kndx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000kndx",
-        "ids": ",us6000kndx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.873,
-        "rms": 0.85,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 14 km WNW of Sivrice, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          39.1573,
-          38.5,
-          10.116
-        ]
-      },
-      "id": "us6000kndx"
     }
   ],
   "bbox": [
