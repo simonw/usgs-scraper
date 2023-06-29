@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688054396000,
+    "generated": 1688058032000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "36 km SSW of Los Ybanez, Texas",
-        "time": 1688052504207,
-        "updated": 1688054277157,
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": 1688055318904,
+        "updated": 1688057007040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023mqfs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023mqfs.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knwm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knwm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 326,
+        "net": "us",
+        "code": "6000knwm",
+        "ids": ",us6000knwm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 3.053,
+        "rms": 1.08,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.8331,
+          -23.8378,
+          104.271
+        ]
+      },
+      "id": "us6000knwm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "36 km SSW of Los Ybanez, Texas",
+        "time": 1688052504207,
+        "updated": 1688057602967,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023mqfs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023mqfs.geojson",
+        "felt": 2,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
         "net": "tx",
         "code": "2023mqfs",
-        "ids": ",us6000knwc,tx2023mqfs,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023mqfs,us6000knwc,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.0620641217,
         "rms": 0.1,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "tx2023mqfs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "41 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1688052291340,
+        "updated": 1688055756280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71415118",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71415118.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "pr",
+        "code": "71415118",
+        "ids": ",pr71415118,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3533,
+        "rms": 0.22,
+        "gap": 247,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 41 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0243333333333,
+          18.7016666666667,
+          70.57
+        ]
+      },
+      "id": "pr71415118"
     },
     {
       "type": "Feature",
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us6000knpb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "western Xizang",
-        "time": 1687970613858,
-        "updated": 1687994068040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knp8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knp8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000knp8",
-        "ids": ",us6000knp8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 7.254,
-        "rms": 0.88,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - western Xizang"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          88.9262,
-          34.3665,
-          10
-        ]
-      },
-      "id": "us6000knp8"
     }
   ],
   "bbox": [
