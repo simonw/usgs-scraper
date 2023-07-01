@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688241598000,
+    "generated": 1688245198000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -95,11 +95,11 @@
         "mag": 2.57,
         "place": "8km NNW of Rancho Cucamonga, CA",
         "time": 1688235228840,
-        "updated": 1688236959213,
+        "updated": 1688243161040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40501680",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40501680.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -108,8 +108,8 @@
         "sig": 103,
         "net": "ci",
         "code": "40501680",
-        "ids": ",ci40501680,",
-        "sources": ",ci,",
+        "ids": ",ci40501680,us6000kphg,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 94,
         "dmin": 0.06605,
@@ -135,7 +135,7 @@
         "mag": 2.6,
         "place": "66 km NNE of Chalkyitsik, Alaska",
         "time": 1688233699208,
-        "updated": 1688233847038,
+        "updated": 1688242974040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0238da7v0d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0238da7v0d.geojson",
@@ -148,8 +148,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0238da7v0d",
-        "ids": ",ak0238da7v0d,",
-        "sources": ",ak,",
+        "ids": ",us6000kpha,ak0238da7v0d,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "ak0238da7v0d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1688230849832,
+        "updated": 1688242700040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kpht",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kpht.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000kpht",
+        "ids": ",ak0238d9xl66,us6000kpht,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.26,
+        "rms": 0.27,
+        "gap": 263,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.9456,
+          51.2468,
+          40.724
+        ]
+      },
+      "id": "us6000kpht"
     },
     {
       "type": "Feature",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "36 km SE of Hasaki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1688222334915,
         "updated": 1688223314040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 36 km SE of Hasaki, Japan"
+        "title": "M 4.8 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "14 km E of Arriaga, Mexico",
+        "place": "Chiapas, Mexico",
         "time": 1688218990469,
         "updated": 1688224407040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 166,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 14 km E of Arriaga, Mexico"
+        "title": "M 4.1 - Chiapas, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "Puerto Rico region",
+        "place": "3 km WSW of La Parguera, Puerto Rico",
         "time": 1688209429250,
         "updated": 1688210110680,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 239,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 3 km WSW of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Southeastern Alaska",
+        "place": "66 km E of Juneau, Alaska",
         "time": 1688204463976,
         "updated": 1688207074040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Southeastern Alaska"
+        "title": "M 2.7 - 66 km E of Juneau, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "121 km SW of Severo-Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1688202901183,
         "updated": 1688203867040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 73,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 121 km SW of Severo-Kuril’sk, Russia"
+        "title": "M 5.1 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "7 km SSE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1688187581930,
         "updated": 1688188165090,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 225,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 7 km SSE of Maria Antonia, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "21 km SSW of Bowangshan, China",
+        "place": "Sichuan-Guizhou border region, China",
         "time": 1688183767118,
         "updated": 1688186654040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 21 km SSW of Bowangshan, China"
+        "title": "M 4.4 - Sichuan-Guizhou border region, China"
       },
       "geometry": {
         "type": "Point",
@@ -1253,13 +1293,13 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "21 km WSW of Pocito, Argentina",
+        "place": "San Juan, Argentina",
         "time": 1688182165534,
-        "updated": 1688196548304,
+        "updated": 1688244521324,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kpcb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kpcb.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1277,7 +1317,7 @@
         "gap": 42,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - 21 km WSW of Pocito, Argentina"
+        "title": "M 5.3 - San Juan, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.83,
-        "place": "124 km N of Suárez, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1688173294370,
         "updated": 1688174985210,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 279,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 124 km N of Suárez, Puerto Rico"
+        "title": "M 3.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "92 km ESE of Yakutat, Alaska",
+        "place": "Southeastern Alaska",
         "time": 1688169548831,
         "updated": 1688170242040,
         "tz": null,
@@ -1517,7 +1557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 92 km ESE of Yakutat, Alaska"
+        "title": "M 2.9 - Southeastern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1608,93 +1648,13 @@
         ]
       },
       "id": "pr71415328"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "2km NNE of Prattville, CA",
-        "time": 1688158781310,
-        "updated": 1688168654182,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73907241",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73907241.geojson",
-        "felt": 8,
-        "cdi": 3.4,
-        "mmi": 3.034,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "nc",
-        "code": "73907241",
-        "ids": ",nc73907241,nn00861999,us6000kpam,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 44,
-        "dmin": 0.02487,
-        "rms": 0.18,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 2km NNE of Prattville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1495,
-          40.223,
-          5.48
-        ]
-      },
-      "id": "nc73907241"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.03,
-        "place": "14km W of Delta, B.C., MX",
-        "time": 1688155730530,
-        "updated": 1688163629232,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40500864",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40500864.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "ci",
-        "code": "40500864",
-        "ids": ",ci40500864,us6000kpaa,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.07139,
-        "rms": 0.29,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 14km W of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.3461667,
-          32.357,
-          14.62
-        ]
-      },
-      "id": "ci40500864"
     }
   ],
   "bbox": [
     -178.4415,
     -31.7703,
     0,
-    155.0031,
+    178.9456,
     67.1773,
     606.07
   ]
