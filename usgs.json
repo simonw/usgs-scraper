@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688662841000,
+    "generated": 1688666446000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "Kepulauan Babar, Indonesia",
+        "time": 1688663599319,
+        "updated": 1688664579040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kqj5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kqj5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000kqj5",
+        "ids": ",us6000kqj5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 2.532,
+        "rms": 0.87,
+        "gap": 62,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - Kepulauan Babar, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.4749,
+          -7.0351,
+          124.939
+        ]
+      },
+      "id": "us6000kqj5"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "62 km SSW of Kaktovik, Alaska",
         "time": 1688660186378,
-        "updated": 1688660377384,
+        "updated": 1688663678040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0238lj4biv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0238lj4biv.geojson",
@@ -28,8 +68,8 @@
         "sig": 168,
         "net": "ak",
         "code": "0238lj4biv",
-        "ids": ",ak0238lj4biv,",
-        "sources": ",ak,",
+        "ids": ",us6000kqgw,ak0238lj4biv,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.64,
-        "place": "4 km SW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1688653349630,
         "updated": 1688655077330,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 251,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km SW of La Parguera, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -132,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "65 km SSW of Whites City, New Mexico",
+        "time": 1688650211878,
+        "updated": 1688664007747,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ncwh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ncwh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2023ncwh",
+        "ids": ",tx2023ncwh,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.07561981443,
+        "rms": 0.2,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 65 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5244617,
+          31.59576416,
+          8.681437174
+        ]
+      },
+      "id": "tx2023ncwh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.9,
         "place": "Balleny Islands region",
         "time": 1688639470751,
-        "updated": 1688641931040,
+        "updated": 1688664556040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kqez",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kqez.geojson",
@@ -150,7 +230,7 @@
         "code": "6000kqez",
         "ids": ",us6000kqez,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 67,
         "dmin": 7.066,
         "rms": 1.36,
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "South Island of New Zealand",
+        "place": "15 km WSW of Wakefield, New Zealand",
         "time": 1688629633869,
         "updated": 1688638344418,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - South Island of New Zealand"
+        "title": "M 4.2 - 15 km WSW of Wakefield, New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Vanuatu",
+        "place": "152 km WNW of Sola, Vanuatu",
         "time": 1688620771390,
         "updated": 1688623736040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Vanuatu"
+        "title": "M 4.6 - 152 km WNW of Sola, Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "23 km S of Ribeira Grande, Portugal",
+        "place": "Azores Islands, Portugal",
         "time": 1688618463099,
         "updated": 1688633021762,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 169,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 23 km S of Ribeira Grande, Portugal"
+        "title": "M 4.3 - Azores Islands, Portugal"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "Puerto Rico region",
+        "place": "4 km SW of La Parguera, Puerto Rico",
         "time": 1688613944660,
         "updated": 1688615279297,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 238,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 4 km SW of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -688,6 +768,46 @@
         ]
       },
       "id": "us6000kqcr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "14 km WNW of Pioche, Nevada",
+        "time": 1688607330389,
+        "updated": 1688663662864,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00862209",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00862209.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "nn",
+        "code": "00862209",
+        "ids": ",nn00862209,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.698,
+        "rms": 0.1124,
+        "gap": 80.99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 14 km WNW of Pioche, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5931,
+          38.0028,
+          1.5
+        ]
+      },
+      "id": "nn00862209"
     },
     {
       "type": "Feature",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "Antofagasta, Chile",
+        "place": "116 km SSE of San Pedro de Atacama, Chile",
         "time": 1688603515831,
         "updated": 1688657335040,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 55,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - Antofagasta, Chile"
+        "title": "M 5.8 - 116 km SSE of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1048,86 +1168,6 @@
         ]
       },
       "id": "pr71416388"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "6 km SSW of Álftanes, Iceland",
-        "time": 1688579599894,
-        "updated": 1688599537302,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kq9v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kq9v.geojson",
-        "felt": 4,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 313,
-        "net": "us",
-        "code": "6000kq9v",
-        "ids": ",us6000kq9v,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.776,
-        "rms": 0.67,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 6 km SSW of Álftanes, Iceland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -22.0652,
-          64.0443,
-          10
-        ]
-      },
-      "id": "us6000kq9v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "52 km W of Mentone, Texas",
-        "time": 1688578662746,
-        "updated": 1688592711702,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023nbiz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023nbiz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2023nbiz",
-        "ids": ",us6000kq9u,tx2023nbiz,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.07003078887,
-        "rms": 0.2,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 52 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.1530049,
-          31.68714375,
-          8.496704102000002
-        ]
-      },
-      "id": "tx2023nbiz"
     }
   ],
   "bbox": [
