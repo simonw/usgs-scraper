@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688767194000,
+    "generated": 1688770829000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "97 km SSW of Boca de Yuma, Dominican Republic",
+        "time": 1688769625318,
+        "updated": 1688770317040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kqw4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kqw4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000kqw4",
+        "ids": ",us6000kqw4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.078,
+        "rms": 0.4,
+        "gap": 225,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 97 km SSW of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8349,
+          17.5214,
+          10
+        ]
+      },
+      "id": "us6000kqw4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "50 km ESE of Nikolski, Alaska",
+        "time": 1688759133732,
+        "updated": 1688767849202,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0238n8m7aj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0238n8m7aj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.278,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "ak",
+        "code": "0238n8m7aj",
+        "ids": ",ak0238n8m7aj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.4,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 50 km ESE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.2047,
+          52.7141,
+          25.6
+        ]
+      },
+      "id": "ak0238n8m7aj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "11km N of Brooktrails, CA",
         "time": 1688756889260,
-        "updated": 1688764811409,
+        "updated": 1688768055040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73909976",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73909976.geojson",
@@ -108,8 +188,8 @@
         "sig": 135,
         "net": "nc",
         "code": "73909976",
-        "ids": ",nc73909976,",
-        "sources": ",nc,",
+        "ids": ",nc73909976,us6000kqu6,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 48,
         "dmin": 0.07515,
@@ -255,11 +335,11 @@
         "mag": 2.72,
         "place": "5km NE of Anza, CA",
         "time": 1688745749250,
-        "updated": 1688752969204,
+        "updated": 1688768505559,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39606682",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39606682.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -368,6 +448,46 @@
         ]
       },
       "id": "pr2023188000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "7km NE of Ensenada, B.C., MX",
+        "time": 1688742205190,
+        "updated": 1688768356511,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39606594",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39606594.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ci",
+        "code": "39606594",
+        "ids": ",ci39606594,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.415,
+        "rms": 0.2,
+        "gap": 185,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7km NE of Ensenada, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5581667,
+          31.9066667,
+          10.95
+        ]
+      },
+      "id": "ci39606594"
     },
     {
       "type": "Feature",
@@ -1175,12 +1295,12 @@
         "mag": 4.2,
         "place": "12 km WNW of Grindavík, Iceland",
         "time": 1688688371399,
-        "updated": 1688709219309,
+        "updated": 1688768455686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kqm4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kqm4.geojson",
-        "felt": 1,
-        "cdi": 3.4,
+        "felt": 2,
+        "cdi": 2.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
