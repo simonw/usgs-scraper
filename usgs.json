@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689048029000,
+    "generated": 1689051629000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "Puerto Rico region",
+        "time": 1689047849590,
+        "updated": 1689050032900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71417328",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71417328.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "pr",
+        "code": "71417328",
+        "ids": ",pr71417328,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.5552,
+        "rms": 0.74,
+        "gap": 186,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6725,
+          18.9113333333333,
+          38.86
+        ]
+      },
+      "id": "pr71417328"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,46 +288,6 @@
         ]
       },
       "id": "pr71417288"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "13 km S of Tres Pinos, CA",
-        "time": 1689037270170,
-        "updated": 1689042624972,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73911246",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73911246.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "nc",
-        "code": "73911246",
-        "ids": ",nc73911246,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": null,
-        "rms": 0.1,
-        "gap": 129,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km S of Tres Pinos, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.3008347,
-          36.6735001,
-          2.41
-        ]
-      },
-      "id": "nc73911246"
     },
     {
       "type": "Feature",
@@ -1613,7 +1613,7 @@
   "bbox": [
     -179.4805,
     -60.2643,
-    2.41,
+    2.6,
     179.8145,
     81.1362,
     580.75
