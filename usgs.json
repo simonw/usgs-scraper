@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689317996000,
+    "generated": 1689321637000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Jujuy, Argentina",
+        "time": 1689320281745,
+        "updated": 1689321102040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kfn3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kfn3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000kfn3",
+        "ids": ",us7000kfn3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 1.609,
+        "rms": 0.77,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Jujuy, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7063,
+          -23.8262,
+          201.958
+        ]
+      },
+      "id": "us7000kfn3"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "9 km N of Puako, Hawaii",
         "time": 1689314165890,
-        "updated": 1689317985490,
+        "updated": 1689320213653,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73481007",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73481007.geojson",
-        "felt": 35,
+        "felt": 37,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 124,
+        "sig": 125,
         "net": "hv",
         "code": "73481007",
         "ids": ",hv73481007,",
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "47 km SSE of Nelchina, Alaska",
+        "place": "Southern Alaska",
         "time": 1689303398413,
         "updated": 1689309268040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 47 km SSE of Nelchina, Alaska"
+        "title": "M 2.7 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,13 +413,13 @@
       "type": "Feature",
       "properties": {
         "mag": 3.54,
-        "place": "4 km W of Boquerón, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1689291708830,
-        "updated": 1689299884172,
+        "updated": 1689318698672,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023194008",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023194008.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 4.1,
         "mmi": 2.291,
         "alert": null,
@@ -397,7 +437,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 4 km W of Boquerón, Puerto Rico"
+        "title": "M 3.5 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "Central Alaska",
+        "place": "55 km NNE of Petersville, Alaska",
         "time": 1689253198191,
         "updated": 1689273448622,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - Central Alaska"
+        "title": "M 3.6 - 55 km NNE of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "132 km SSW of Abepura, Indonesia",
+        "place": "Papua, Indonesia",
         "time": 1689239301848,
         "updated": 1689240721040,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 104,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 132 km SSW of Abepura, Indonesia"
+        "title": "M 4.7 - Papua, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.92,
-        "place": "Puerto Rico",
+        "place": "1 km WSW of Indios, Puerto Rico",
         "time": 1689236800460,
         "updated": 1689237952740,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 163,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico"
+        "title": "M 2.9 - 1 km WSW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1208,126 +1248,6 @@
         ]
       },
       "id": "pr71417673"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.57,
-        "place": "100 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1689235048520,
-        "updated": 1689236699530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023194007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023194007.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 196,
-        "net": "pr",
-        "code": "2023194007",
-        "ids": ",pr2023194007,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.9352,
-        "rms": 0.57,
-        "gap": 298,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 100 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.606,
-          19.2195,
-          54
-        ]
-      },
-      "id": "pr2023194007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "San Juan, Argentina",
-        "time": 1689234024410,
-        "updated": 1689236808040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kfcx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kfcx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000kfcx",
-        "ids": ",us7000kfcx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.655,
-        "rms": 0.87,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - San Juan, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.9505,
-          -31.7382,
-          4.182
-        ]
-      },
-      "id": "us7000kfcx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "northern East Pacific Rise",
-        "time": 1689231614438,
-        "updated": 1689233117040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kfch",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kfch.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000kfch",
-        "ids": ",us7000kfch,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 9.424,
-        "rms": 0.6,
-        "gap": 185,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - northern East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3002,
-          9.9131,
-          10
-        ]
-      },
-      "id": "us7000kfch"
     }
   ],
   "bbox": [
