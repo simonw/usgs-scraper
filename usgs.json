@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689886829000,
+    "generated": 1689890418000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 29
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.99,
+        "place": "33 km WNW of Rincón, Puerto Rico",
+        "time": 1689884696220,
+        "updated": 1689890120880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71418638",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71418638.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "pr",
+        "code": "71418638",
+        "ids": ",pr71418638,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1116,
+        "rms": 0.14,
+        "gap": 301,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 33 km WNW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5251666666667,
+          18.4876666666667,
+          16.96
+        ]
+      },
+      "id": "pr71418638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "82 km S of Nikolai, Alaska",
+        "place": "Central Alaska",
         "time": 1689884079585,
         "updated": 1689884807040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 82 km S of Nikolai, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Kepulauan Sula, Indonesia",
+        "place": "100 km NE of Sanana, Indonesia",
         "time": 1689877820505,
         "updated": 1689881418040,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Kepulauan Sula, Indonesia"
+        "title": "M 4.9 - 100 km NE of Sanana, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -172,42 +212,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.98,
-        "place": "4 km SSW of Palermo, CA",
-        "time": 1689872480820,
-        "updated": 1689878774712,
+        "mag": 4.6,
+        "place": "113 km W of Ternate, Indonesia",
+        "time": 1689866346859,
+        "updated": 1689890175040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73915011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73915011.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kh5t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kh5t.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 137,
-        "net": "nc",
-        "code": "73915011",
-        "ids": ",nc73915011,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 4,
-        "dmin": 0.03687,
-        "rms": 0.22,
-        "gap": 139,
-        "magType": "md",
+        "sig": 326,
+        "net": "us",
+        "code": "7000kh5t",
+        "ids": ",us7000kh5t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 70,
+        "dmin": 1.001,
+        "rms": 0.51,
+        "gap": 50,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.0 - 4 km SSW of Palermo, CA"
+        "title": "M 4.6 - 113 km W of Ternate, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.5608368,
-          39.4025002,
-          0.74
+          126.3725,
+          0.6573,
+          5.913
         ]
       },
-      "id": "nc73915011"
+      "id": "us7000kh5t"
     },
     {
       "type": "Feature",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.05,
-        "place": "Virgin Islands",
+        "place": "146 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1689836182500,
         "updated": 1689838826040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 309,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - Virgin Islands"
+        "title": "M 4.1 - 146 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -692,8 +732,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "Chile-Bolivia border region",
+        "time": 1689825471447,
+        "updated": 1689888998040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kh0x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kh0x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000kh0x",
+        "ids": ",us7000kh0x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.056,
+        "rms": 0.77,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Chile-Bolivia border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2914,
+          -22.2841,
+          168.924
+        ]
+      },
+      "id": "us7000kh0x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
-        "place": "Pulau-Pulau Sula, Indonesia",
+        "place": "85 km NE of Sanana, Indonesia",
         "time": 1689823893715,
         "updated": 1689825198040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 76,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - Pulau-Pulau Sula, Indonesia"
+        "title": "M 5.1 - 85 km NE of Sanana, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Chile-Bolivia border region",
+        "place": "124 km NE of San Pedro de Atacama, Chile",
         "time": 1689814193228,
         "updated": 1689815143040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Chile-Bolivia border region"
+        "title": "M 4.3 - 124 km NE of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
   "bbox": [
     -175.53,
     -28.5602,
-    0.74,
+    2.65,
     178.4211,
     62.2737,
     218.379
