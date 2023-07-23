@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690120825000,
+    "generated": 1690124415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "183 km NW of Neiafu, Tonga",
+        "time": 1690121660751,
+        "updated": 1690123637040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khtl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khtl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000khtl",
+        "ids": ",us7000khtl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 3.831,
+        "rms": 0.26,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 183 km NW of Neiafu, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.0199,
+          -17.3225,
+          275.719
+        ]
+      },
+      "id": "us7000khtl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,11 +95,11 @@
         "mag": 5.1,
         "place": "Java, Indonesia",
         "time": 1690115608990,
-        "updated": 1690118531621,
+        "updated": 1690123775844,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khss",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khss.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -295,12 +335,12 @@
         "mag": 2.7,
         "place": "18 km W of Anchor Point, Alaska",
         "time": 1690105085480,
-        "updated": 1690105720040,
+        "updated": 1690122572166,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239dj7utg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239dj7utg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -308,9 +348,9 @@
         "sig": 112,
         "net": "ak",
         "code": "0239dj7utg",
-        "ids": ",us7000khs7,ak0239dj7utg,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0239dj7utg,us7000khs7,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.13,
@@ -1328,54 +1368,14 @@
         ]
       },
       "id": "us7000khmu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.86,
-        "place": "Virgin Islands",
-        "time": 1690034443110,
-        "updated": 1690041365040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023203001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023203001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 229,
-        "net": "pr",
-        "code": "2023203001",
-        "ids": ",us7000khms,pr2023203001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.4258,
-        "rms": 0.32,
-        "gap": 318,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3275,
-          19.632,
-          37
-        ]
-      },
-      "id": "pr2023203001"
     }
   ],
   "bbox": [
-    -157.6805,
+    -175.0199,
     -57.9422,
     3.64,
     178.8726,
     69.6222,
-    242.448
+    275.719
   ]
 }
