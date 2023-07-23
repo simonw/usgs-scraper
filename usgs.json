@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690066815000,
+    "generated": 1690070475000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "136 km SE of Perryville, Alaska",
+        "time": 1690069225973,
+        "updated": 1690069584770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239c4120l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239c4120l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "0239c4120l",
+        "ids": ",ak0239c4120l,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.73,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 136 km SE of Perryville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.6365,
+          55.0321,
+          3.1
+        ]
+      },
+      "id": "ak0239c4120l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "158 km W of Illapel, Chile",
-        "time": 1690059883057,
-        "updated": 1690060933040,
+        "mag": 3.9,
+        "place": "Off the coast of Coquimbo, Chile",
+        "time": 1690059883281,
+        "updated": 1690067598040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khp7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khp7.geojson",
@@ -65,29 +105,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 234,
         "net": "us",
         "code": "7000khp7",
         "ids": ",us7000khp7,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 34,
-        "dmin": 1.489,
-        "rms": 0.53,
-        "gap": 110,
-        "magType": "mb",
+        "dmin": 1.463,
+        "rms": 0.54,
+        "gap": 109,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.3 - 158 km W of Illapel, Chile"
+        "title": "M 3.9 - Off the coast of Coquimbo, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.8145,
-          -31.9039,
+          -72.7833,
+          -31.916,
           10
         ]
       },
       "id": "us7000khp7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "western Montana",
+        "time": 1690056654229,
+        "updated": 1690067085040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khny",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khny.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "7000khny",
+        "ids": ",us7000khny,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.269,
+        "rms": 0.4,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - western Montana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.7528,
+          45.088,
+          10.649
+        ]
+      },
+      "id": "us7000khny"
     },
     {
       "type": "Feature",
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us7000khiq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "2 km SE of Palmarejo, Puerto Rico",
-        "time": 1689981497710,
-        "updated": 1689983432370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71418778",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71418778.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71418778",
-        "ids": ",pr71418778,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.05059,
-        "rms": 0.08,
-        "gap": 129,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km SE of Palmarejo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0591666666667,
-          18.0225,
-          7.69
-        ]
-      },
-      "id": "pr71418778"
     }
   ],
   "bbox": [
