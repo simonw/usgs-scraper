@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690088432000,
+    "generated": 1690092023000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1690089025814,
+        "updated": 1690090135040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khqz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khqz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.028,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "7000khqz",
+        "ids": ",us7000khqz,ak0239dgo5w1,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 38,
+        "dmin": 0.562,
+        "rms": 0.59,
+        "gap": 211,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.8726,
+          51.4264,
+          48.907
+        ]
+      },
+      "id": "us7000khqz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1055,17 +1095,17 @@
         "mag": 3.6,
         "place": "10 km NNE of Odessa, Texas",
         "time": 1690017862027,
-        "updated": 1690084346588,
+        "updated": 1690090188298,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ofue",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ofue.geojson",
-        "felt": 124,
+        "felt": 126,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 250,
+        "sig": 251,
         "net": "tx",
         "code": "2023ofue",
         "ids": ",us7000khkx,tx2023ofue,",
@@ -1288,53 +1328,13 @@
         ]
       },
       "id": "us7000khk9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "Central Alaska",
-        "time": 1690002910019,
-        "updated": 1690003706040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239bt5uwg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239bt5uwg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0239bt5uwg",
-        "ids": ",us7000khk5,ak0239bt5uwg,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - Central Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7511,
-          63.0096,
-          117.6
-        ]
-      },
-      "id": "ak0239bt5uwg"
     }
   ],
   "bbox": [
     -178.8852,
     -57.9422,
     0,
-    159.9707,
+    178.8726,
     69.6222,
     522.301
   ]
