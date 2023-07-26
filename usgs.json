@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690390787000,
+    "generated": 1690394415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 26
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.2,
+        "place": "16 km E of Crescent Valley, Nevada",
+        "time": 1690391403888,
+        "updated": 1690393928040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00863318",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00863318.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "nn",
+        "code": "00863318",
+        "ids": ",us6000kvqg,nn00863318,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.524,
+        "rms": 0.4186,
+        "gap": 65.19,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 16 km E of Crescent Valley, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3796,
+          40.4198,
+          5
+        ]
+      },
+      "id": "nn00863318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
-        "place": "144 km NNW of Maumere, Indonesia",
+        "place": "Flores Sea",
         "time": 1690388432328,
         "updated": 1690389507040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 144 km NNW of Maumere, Indonesia"
+        "title": "M 5.1 - Flores Sea"
       },
       "geometry": {
         "type": "Point",
@@ -52,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.79,
+        "mag": 2.61,
         "place": "10 km N of Lake Pillsbury, CA",
-        "time": 1690385714690,
-        "updated": 1690387690510,
+        "time": 1690385714700,
+        "updated": 1690392436984,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73917006",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73917006.geojson",
@@ -63,28 +103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 120,
+        "sig": 105,
         "net": "nc",
         "code": "73917006",
         "ids": ",nc73917006,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.1893,
-        "rms": 0.12,
-        "gap": 57,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 41,
+        "dmin": 0.1845,
+        "rms": 0.1,
+        "gap": 56,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 10 km N of Lake Pillsbury, CA"
+        "title": "M 2.6 - 10 km N of Lake Pillsbury, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.9463348,
-          39.5003319,
-          4.18
+          -122.9483333,
+          39.4948333,
+          6.77
         ]
       },
       "id": "nc73917006"
@@ -95,12 +135,12 @@
         "mag": 4.7,
         "place": "82 km SSW of Sand Point, Alaska",
         "time": 1690385357885,
-        "updated": 1690386345040,
+        "updated": 1690392258579,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvnt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvnt.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": 2.439,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "6000kvnt",
         "ids": ",us6000kvnt,ak0239ilclar,",
         "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 114,
         "dmin": 0.712,
         "rms": 1.1,
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "108 km SE of Sola, Vanuatu",
+        "place": "Vanuatu",
         "time": 1690379997173,
         "updated": 1690381154040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 108 km SE of Sola, Vanuatu"
+        "title": "M 5.0 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -373,12 +413,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "63 km NNE of Van Horn, Texas",
-        "time": 1690369572050,
-        "updated": 1690370142040,
+        "place": "65 km S of Whites City, New Mexico",
+        "time": 1690369573156,
+        "updated": 1690394341478,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvm9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvm9.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023onfp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023onfp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -386,28 +426,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
-        "net": "us",
-        "code": "6000kvm9",
-        "ids": ",us6000kvm9,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2023onfp",
+        "ids": ",us6000kvm9,tx2023onfp,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.119,
-        "rms": 0.44,
-        "gap": 81,
+        "nst": 11,
+        "dmin": 0.06997037284,
+        "rms": 0.1,
+        "gap": 144,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 63 km NNE of Van Horn, Texas"
+        "title": "M 2.7 - 65 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.5765,
-          31.5678,
-          5
+          -104.5055696,
+          31.59886894,
+          6.157275391
         ]
       },
-      "id": "us6000kvm9"
+      "id": "tx2023onfp"
     },
     {
       "type": "Feature",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Kyushu, Japan",
+        "place": "23 km E of Miyazaki, Japan",
         "time": 1690351166593,
         "updated": 1690352658040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Kyushu, Japan"
+        "title": "M 4.6 - 23 km E of Miyazaki, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.35,
-        "place": "74 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1690340270880,
         "updated": 1690340848480,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 284,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 74 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.4 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "118 km SW of El Palmarcito, Mexico",
+        "place": "off the coast of Chiapas, Mexico",
         "time": 1690336962417,
         "updated": 1690363224033,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 197,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 118 km SW of El Palmarcito, Mexico"
+        "title": "M 4.7 - off the coast of Chiapas, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -853,9 +893,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "142 km ESE of Kirakira, Solomon Islands",
-        "time": 1690313407731,
-        "updated": 1690314554040,
+        "place": "140 km ESE of Kirakira, Solomon Islands",
+        "time": 1690313407829,
+        "updated": 1690394145040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvis",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvis.geojson",
@@ -871,20 +911,20 @@
         "ids": ",us6000kvis,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 77,
-        "dmin": 3.471,
-        "rms": 0.51,
-        "gap": 123,
+        "nst": 134,
+        "dmin": 3.455,
+        "rms": 0.64,
+        "gap": 47,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 142 km ESE of Kirakira, Solomon Islands"
+        "title": "M 5.0 - 140 km ESE of Kirakira, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          163.0509,
-          -11.0978,
-          45.609
+          163.0439,
+          -11.0765,
+          47.676
         ]
       },
       "id": "us6000kvis"
@@ -895,7 +935,7 @@
         "mag": 2.51,
         "place": "13km SSW of Searles Valley, CA",
         "time": 1690311135080,
-        "updated": 1690318035350,
+        "updated": 1690391451040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39621810",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39621810.geojson",
@@ -908,8 +948,8 @@
         "sig": 97,
         "net": "ci",
         "code": "39621810",
-        "ids": ",ci39621810,",
-        "sources": ",ci,",
+        "ids": ",ci39621810,us6000kvib,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 39,
         "dmin": 0.04915,
