@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690376551000,
+    "generated": 1690380031000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "110 km E of Port-Olry, Vanuatu",
+        "time": 1690376570693,
+        "updated": 1690377512040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvmw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvmw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000kvmw",
+        "ids": ",us6000kvmw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 6.724,
+        "rms": 0.62,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 110 km E of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0858,
+          -14.8533,
+          10
+        ]
+      },
+      "id": "us6000kvmw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6.4,
         "place": "95 km ENE of Port-Olry, Vanuatu",
         "time": 1690375475545,
-        "updated": 1690376367040,
+        "updated": 1690378038676,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvmq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvmq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "felt": 3,
+        "cdi": 4.7,
+        "mmi": 6.15,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 630,
+        "sig": 632,
         "net": "us",
         "code": "6000kvmq",
         "ids": ",pt23207000,us6000kvmq,",
         "sources": ",pt,us,",
-        "types": ",impact-link,moment-tensor,origin,phase-data,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 90,
         "dmin": 6.718,
         "rms": 0.73,
@@ -295,11 +335,11 @@
         "mag": 2.58,
         "place": "5 km WNW of Walker, CA",
         "time": 1690348361730,
-        "updated": 1690353139650,
+        "updated": 1690378402824,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73916801",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73916801.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -848,134 +888,14 @@
         ]
       },
       "id": "us6000kvhw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "115 km NW of Batang, Indonesia",
-        "time": 1690293384403,
-        "updated": 1690294857040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ki7m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ki7m.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000ki7m",
-        "ids": ",us7000ki7m,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 120,
-        "dmin": 3.031,
-        "rms": 0.82,
-        "gap": 29,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 115 km NW of Batang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          110.097,
-          -5.6402,
-          553.106
-        ]
-      },
-      "id": "us7000ki7m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "east of the Kuril Islands",
-        "time": 1690293103830,
-        "updated": 1690294438040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ki7j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ki7j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000ki7j",
-        "ids": ",us7000ki7j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 150,
-        "dmin": 5.429,
-        "rms": 0.78,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - east of the Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.3432,
-          47.8977,
-          10
-        ]
-      },
-      "id": "us7000ki7j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "87km ESE of Maneadero, B.C., MX",
-        "time": 1690290375520,
-        "updated": 1690306790816,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39621490",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39621490.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "ci",
-        "code": "39621490",
-        "ids": ",ci39621490,us7000ki7e,",
-        "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.1792,
-        "rms": 0.14,
-        "gap": 99,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 87km ESE of Maneadero, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.675,
-          31.545,
-          6.45
-        ]
-      },
-      "id": "ci39621490"
     }
   ],
   "bbox": [
     -161.1932,
     -57.9809,
     1.19,
-    167.9113,
+    168.0858,
     57.2367,
-    553.106
+    74.831
   ]
 }
