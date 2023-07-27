@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690416091000,
+    "generated": 1690420592000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "118 km SE of Sola, Vanuatu",
+        "time": 1690418472328,
+        "updated": 1690419560040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvtn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvtn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000kvtn",
+        "ids": ",us6000kvtn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 6.986,
+        "rms": 0.85,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 118 km SE of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.2928,
+          -14.6691,
+          10
+        ]
+      },
+      "id": "us6000kvtn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "109 km ESE of Hihifo, Tonga",
+        "time": 1690417737609,
+        "updated": 1690419553306,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvtk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvtk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.376,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000kvtk",
+        "ids": ",us6000kvtk,pt23208000,",
+        "sources": ",us,pt,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 94,
+        "dmin": 2.996,
+        "rms": 1.42,
+        "gap": 38,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 109 km ESE of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.8365,
+          -16.2997,
+          10
+        ]
+      },
+      "id": "us6000kvtk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 2.69,
         "place": "18 km SSW of Stony Gorge Reservoir, CA",
         "time": 1690414235610,
-        "updated": 1690415711284,
+        "updated": 1690417133025,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73917151",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73917151.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -1095,7 +1175,7 @@
         "mag": 2.52,
         "place": "5 km NW of Walker, CA",
         "time": 1690348361700,
-        "updated": 1690412050906,
+        "updated": 1690416912417,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73916801",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73916801.geojson",
@@ -1248,50 +1328,10 @@
         ]
       },
       "id": "us6000kvkf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "6 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1690330632320,
-        "updated": 1690331302290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71419268",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71419268.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "pr",
-        "code": "71419268",
-        "ids": ",pr71419268,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.05048,
-        "rms": 0.11,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 6 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8771666666667,
-          17.9243333333333,
-          14.54
-        ]
-      },
-      "id": "pr71419268"
     }
   ],
   "bbox": [
-    -164.0156,
+    -172.8365,
     -57.9809,
     0.9,
     171.4313,
