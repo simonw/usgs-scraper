@@ -1,50 +1,130 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690477247000,
+    "generated": 1690480818000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 29
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
+        "mag": 2.7,
+        "place": "Alaska Peninsula",
+        "time": 1690480231193,
+        "updated": 1690480348391,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239ka7c7j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239ka7c7j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0239ka7c7j",
+        "ids": ",ak0239ka7c7j,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.78,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.1682,
+          56.899,
+          0
+        ]
+      },
+      "id": "ak0239ka7c7j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77999997,
+        "place": "5 km NNW of Laupāhoehoe, Hawaii",
+        "time": 1690479656440,
+        "updated": 1690479854500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73499362",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73499362.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 119,
+        "net": "hv",
+        "code": "73499362",
+        "ids": ",hv73499362,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": null,
+        "rms": 0.170000002,
+        "gap": 199,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 5 km NNW of Laupāhoehoe, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.250671386719,
+          20.0343341827393,
+          32.4199981689453
+        ]
+      },
+      "id": "hv73499362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
         "place": "south of the Fiji Islands",
-        "time": 1690458228922,
-        "updated": 1690459200040,
+        "time": 1690458229963,
+        "updated": 1690479766206,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvvs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvvs.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 2.213,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 449,
         "net": "us",
         "code": "6000kvvs",
         "ids": ",us6000kvvs,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 4.554,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 110,
+        "dmin": 4.536,
         "rms": 0.95,
-        "gap": 105,
-        "magType": "mb",
+        "gap": 42,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - south of the Fiji Islands"
+        "title": "M 5.4 - south of the Fiji Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -179.2667,
-          -24.8512,
-          384.361
+          -179.2369,
+          -24.8633,
+          397.536
         ]
       },
       "id": "us6000kvvs"
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.88,
-        "place": "58 km N of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1690446471320,
         "updated": 1690447544754,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 280,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - 58 km N of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.9 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "western Texas",
+        "place": "37 km NW of Toyah, Texas",
         "time": 1690443727430,
         "updated": 1690462704719,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - western Texas"
+        "title": "M 2.5 - 37 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -335,17 +415,17 @@
         "mag": 2.63,
         "place": "3 km N of Piedmont, CA",
         "time": 1690443501710,
-        "updated": 1690476988655,
+        "updated": 1690480178389,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73917236",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73917236.geojson",
-        "felt": 316,
+        "felt": 321,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 214,
+        "sig": 216,
         "net": "nc",
         "code": "73917236",
         "ids": ",nc73917236,",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "Vanuatu",
+        "place": "100 km ENE of Port-Olry, Vanuatu",
         "time": 1690441380234,
         "updated": 1690448881118,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 51,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Vanuatu"
+        "title": "M 5.3 - 100 km ENE of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -648,6 +728,46 @@
         ]
       },
       "id": "us6000kvts"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "33 km NNW of Challis, Idaho",
+        "time": 1690420262630,
+        "updated": 1690479697040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90022678",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90022678.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "mb",
+        "code": "90022678",
+        "ids": ",mb90022678,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.4505,
+        "rms": 0.21,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 33 km NNW of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.41,
+          44.7786666666667,
+          11.51
+        ]
+      },
+      "id": "mb90022678"
     },
     {
       "type": "Feature",
@@ -1013,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Southern Alaska",
+        "place": "5 km N of Big Lake, Alaska",
         "time": 1690398950024,
         "updated": 1690476801320,
         "tz": null,
@@ -1037,7 +1157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Southern Alaska"
+        "title": "M 2.6 - 5 km N of Big Lake, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1048,173 +1168,13 @@
         ]
       },
       "id": "ak0239innebe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "101 km SW of Sarangani, Philippines",
-        "time": 1690393677561,
-        "updated": 1690394871040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvqq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvqq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000kvqq",
-        "ids": ",us6000kvqq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 2.458,
-        "rms": 0.66,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 101 km SW of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.8829,
-          4.6958,
-          10
-        ]
-      },
-      "id": "us6000kvqq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "Nevada",
-        "time": 1690392370020,
-        "updated": 1690405443271,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00863322",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00863322.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00863322",
-        "ids": ",nn00863322,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.672,
-        "rms": 0.1232,
-        "gap": 263.09,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.3615,
-          36.3016,
-          0.9
-        ]
-      },
-      "id": "nn00863322"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1690391476234,
-        "updated": 1690399281040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvrc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvrc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000kvrc",
-        "ids": ",us6000kvrc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 3.746,
-        "rms": 0.66,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.4313,
-          -23.3562,
-          10
-        ]
-      },
-      "id": "us6000kvrc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "16 km E of Crescent Valley, Nevada",
-        "time": 1690391403888,
-        "updated": 1690477110878,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00863318",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00863318.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "nn",
-        "code": "00863318",
-        "ids": ",nn00863318,us6000kvqg,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.524,
-        "rms": 0.4186,
-        "gap": 65.19,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 16 km E of Crescent Valley, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3796,
-          40.4198,
-          5
-        ]
-      },
-      "id": "nn00863318"
     }
   ],
   "bbox": [
     -179.5276,
     -26.8213,
-    0.9,
-    171.4313,
+    0,
+    168.0724,
     63.5776,
     575.562
   ]
