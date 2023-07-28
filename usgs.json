@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690577990000,
+    "generated": 1690581590000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.54,
         "place": "4 km N of Canyondam, CA",
         "time": 1690577556570,
-        "updated": 1690577952586,
+        "updated": 1690580953067,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73917731",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73917731.geojson",
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.8,
+        "place": "66 km NNE of Chalkyitsik, Alaska",
+        "time": 1690574130263,
+        "updated": 1690580986040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwci",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwci.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000kwci",
+        "ids": ",us6000kwci,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 1.057,
+        "rms": 0.92,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 66 km NNE of Chalkyitsik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.1048,
+          67.2028,
+          9.394
+        ]
+      },
+      "id": "us6000kwci"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.6,
         "place": "South Sandwich Islands region",
         "time": 1690572898238,
-        "updated": 1690574628133,
+        "updated": 1690580544531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwb4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwb4.geojson",
@@ -93,31 +133,31 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "Andaman Islands, India region",
+        "place": "150 km SSE of Port Blair, India",
         "time": 1690572226225,
-        "updated": 1690573657268,
+        "updated": 1690579709299,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwam",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwam.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.897,
+        "felt": 2,
+        "cdi": 2.9,
+        "mmi": 3.895,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 483,
         "net": "us",
         "code": "6000kwam",
         "ids": ",us6000kwam,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 171,
         "dmin": 6.279,
         "rms": 0.89,
         "gap": 27,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - Andaman Islands, India region"
+        "title": "M 5.6 - 150 km SSE of Port Blair, India"
       },
       "geometry": {
         "type": "Point",
@@ -135,17 +175,17 @@
         "mag": 5,
         "place": "67 km SE of Kokhanok, Alaska",
         "time": 1690571482375,
-        "updated": 1690577592256,
+        "updated": 1690581138822,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239lyp68s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239lyp68s.geojson",
-        "felt": 181,
+        "felt": 184,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 453,
+        "sig": 455,
         "net": "ak",
         "code": "0239lyp68s",
         "ids": ",ak0239lyp68s,us6000kwad,",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "238 km E of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1690565880513,
         "updated": 1690567044040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 37,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 238 km E of Levuka, Fiji"
+        "title": "M 5.0 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.92,
-        "place": "6 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1690516255310,
         "updated": 1690517171670,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 6 km SW of Guánica, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Eastern Xizang",
+        "place": "eastern Xizang",
         "time": 1690514430374,
         "updated": 1690515874040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Eastern Xizang"
+        "title": "M 4.6 - eastern Xizang"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.72,
-        "place": "4 km SSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1690514118970,
         "updated": 1690514738520,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 4 km SSW of Guánica, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "south of the Mariana Islands",
+        "place": "282 km SW of Merizo Village, Guam",
         "time": 1690510007277,
         "updated": 1690511970040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 131,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - south of the Mariana Islands"
+        "title": "M 4.9 - 282 km SW of Merizo Village, Guam"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "75 km S of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1690503016025,
         "updated": 1690503502040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 327,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 75 km S of Naalehu, Hawaii"
+        "title": "M 2.8 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1295,7 +1335,7 @@
     -58.7917,
     -1.4,
     167.9779,
-    59.0003,
+    67.2028,
     590.672
   ]
 }
