@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690545597000,
+    "generated": 1690549309000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "25 km WSW of Ashkāsham, Afghanistan",
+        "time": 1690547989206,
+        "updated": 1690548902040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kw7a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kw7a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000kw7a",
+        "ids": ",us6000kw7a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 2.74,
+        "rms": 0.34,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 25 km WSW of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.2695,
+          36.598,
+          219.178
+        ]
+      },
+      "id": "us6000kw7a"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
         "place": "117 km SW of Akhiok, Alaska",
         "time": 1690543948372,
-        "updated": 1690544854040,
+        "updated": 1690547139749,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239lu27ma",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239lu27ma.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 3.114,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +68,9 @@
         "sig": 312,
         "net": "ak",
         "code": "0239lu27ma",
-        "ids": ",us6000kw76,ak0239lu27ma,",
-        "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "ids": ",ak0239lu27ma,us6000kw76,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.48,
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.92,
-        "place": "6 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1690516255310,
         "updated": 1690517171670,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 6 km SW of Guánica, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Eastern Xizang",
+        "place": "eastern Xizang",
         "time": 1690514430374,
         "updated": 1690515874040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Eastern Xizang"
+        "title": "M 4.6 - eastern Xizang"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.72,
-        "place": "4 km SSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1690514118970,
         "updated": 1690514738520,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 4 km SSW of Guánica, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "south of the Mariana Islands",
+        "place": "282 km SW of Merizo Village, Guam",
         "time": 1690510007277,
         "updated": 1690511970040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 131,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - south of the Mariana Islands"
+        "title": "M 4.9 - 282 km SW of Merizo Village, Guam"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "75 km S of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1690503016025,
         "updated": 1690503502040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 327,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 75 km S of Naalehu, Hawaii"
+        "title": "M 2.8 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "68 km NNE of Chignik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1690480231193,
         "updated": 1690515292740,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 68 km NNE of Chignik, Alaska"
+        "title": "M 2.7 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "Washington",
+        "place": "Strait of Georgia, Washington",
         "time": 1690473515080,
         "updated": 1690510593384,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 104,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Washington"
+        "title": "M 2.5 - Strait of Georgia, Washington"
       },
       "geometry": {
         "type": "Point",
