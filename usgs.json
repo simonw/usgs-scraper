@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690779591000,
+    "generated": 1690783220000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 25
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "Alaska Peninsula",
+        "time": 1690780885716,
+        "updated": 1690780980538,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239qp1aq4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239qp1aq4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0239qp1aq4",
+        "ids": ",ak0239qp1aq4,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.0397,
+          57.9037,
+          78.5
+        ]
+      },
+      "id": "ak0239qp1aq4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
-        "place": "Off the coast of Aisen, Chile",
+        "place": "285 km WSW of Cochrane, Chile",
         "time": 1690776479206,
         "updated": 1690777479040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 166,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Off the coast of Aisen, Chile"
+        "title": "M 4.8 - 285 km WSW of Cochrane, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -95,12 +135,12 @@
         "mag": 4.5,
         "place": "15 km E of Kandrian, Papua New Guinea",
         "time": 1690774814786,
-        "updated": 1690775840040,
+        "updated": 1690780501052,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwsm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwsm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "6000kwsm",
         "ids": ",us6000kwsm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 4.048,
         "rms": 0.83,
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "Puerto Rico region",
+        "place": "10 km SW of Guánica, Puerto Rico",
         "time": 1690773501540,
         "updated": 1690774113890,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 243,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 10 km SW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "Puerto Rico region",
+        "place": "2 km SW of Indios, Puerto Rico",
         "time": 1690745482460,
         "updated": 1690746269450,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 196,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 2 km SW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -732,6 +772,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "126 km S of Puerto San José, Guatemala",
+        "time": 1690717199578,
+        "updated": 1690780782040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwpf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwpf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000kwpf",
+        "ids": ",us6000kwpf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 1.538,
+        "rms": 0.77,
+        "gap": 217,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 126 km S of Puerto San José, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8709,
+          12.7831,
+          10
+        ]
+      },
+      "id": "us6000kwpf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "8 km WNW of Paekakariki, New Zealand",
         "time": 1690713668668,
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.84,
-        "place": "28 km S of Boca de Yuma, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1690710719210,
         "updated": 1690714868203,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 239,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 28 km S of Boca de Yuma, Dominican Republic"
+        "title": "M 3.8 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -928,214 +1008,14 @@
         ]
       },
       "id": "us6000kwn5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Libertador General Bernardo O'Higgins, Chile",
-        "time": 1690696403826,
-        "updated": 1690778346647,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwmr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwmr.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 299,
-        "net": "us",
-        "code": "6000kwmr",
-        "ids": ",us6000kwmr,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.801,
-        "rms": 0.36,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Libertador General Bernardo O'Higgins, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.7467,
-          -34.9012,
-          53.524
-        ]
-      },
-      "id": "us6000kwmr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "175 km N of Gili Trawangan, Indonesia",
-        "time": 1690695595375,
-        "updated": 1690696550040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwmp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwmp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000kwmp",
-        "ids": ",us6000kwmp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 2.56,
-        "rms": 0.6,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 175 km N of Gili Trawangan, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.0906,
-          -6.766,
-          525.088
-        ]
-      },
-      "id": "us6000kwmp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "123 km S of Puerto San José, Guatemala",
-        "time": 1690695549733,
-        "updated": 1690697208040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwmq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwmq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000kwmq",
-        "ids": ",us6000kwmq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.546,
-        "rms": 0.54,
-        "gap": 213,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 123 km S of Puerto San José, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.9186,
-          12.8182,
-          10
-        ]
-      },
-      "id": "us6000kwmq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "4 km WSW of Volcano, Hawaii",
-        "time": 1690694917770,
-        "updated": 1690755871784,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73503132",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73503132.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "hv",
-        "code": "73503132",
-        "ids": ",hv73503132,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 103,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km WSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.271333333333,
-          19.4285,
-          0.23
-        ]
-      },
-      "id": "hv73503132"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.53,
-        "place": "121 km N of San Juan, Puerto Rico",
-        "time": 1690694002710,
-        "updated": 1690695772538,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023211000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023211000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 192,
-        "net": "pr",
-        "code": "2023211000",
-        "ids": ",pr2023211000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 1.4139,
-        "rms": 0.55,
-        "gap": 288,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 121 km N of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9498,
-          19.5541,
-          52
-        ]
-      },
-      "id": "pr2023211000"
     }
   ],
   "bbox": [
     -178.9923,
     -55.9427,
-    0.23,
+    2.45,
     174.8679,
     63.216,
-    525.088
+    397.969
   ]
 }
