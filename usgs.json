@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690862396000,
+    "generated": 1690866025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 3.7,
         "place": "79 km S of Sand Point, Alaska",
         "time": 1690858560556,
-        "updated": 1690859556020,
+        "updated": 1690864989020,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwz2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwz2.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.9,
         "mmi": 1.576,
         "alert": null,
@@ -132,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.58,
+        "mag": 2.6,
         "place": "14 km N of Morgan Hill, CA",
-        "time": 1690857135590,
-        "updated": 1690860635219,
+        "time": 1690857135610,
+        "updated": 1690864273643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73918891",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73918891.geojson",
@@ -143,18 +143,18 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 105,
         "net": "nc",
         "code": "73918891",
         "ids": ",nc73918891,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.03182,
-        "rms": 0.07,
-        "gap": 45,
+        "nst": 90,
+        "dmin": 0.03127,
+        "rms": 0.09,
+        "gap": 42,
         "magType": "md",
         "type": "earthquake",
         "title": "M 2.6 - 14 km N of Morgan Hill, CA"
@@ -162,9 +162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.6338348,
-          37.2535019,
-          4.99
+          -121.6341667,
+          37.2555,
+          5.52
         ]
       },
       "id": "nc73918891"
@@ -1008,51 +1008,11 @@
         ]
       },
       "id": "ak0239qp1aq4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "291 km WSW of Cochrane, Chile",
-        "time": 1690776478572,
-        "updated": 1690843608040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kwsq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kwsq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000kwsq",
-        "ids": ",us6000kwsq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 2.614,
-        "rms": 0.74,
-        "gap": 166,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 291 km WSW of Cochrane, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.1495,
-          -48.2864,
-          10
-        ]
-      },
-      "id": "us6000kwsq"
     }
   ],
   "bbox": [
     -179.7529,
-    -48.2864,
+    -24.2957,
     0,
     179.1871,
     65.4316,
