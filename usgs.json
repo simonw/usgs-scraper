@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691198774000,
+    "generated": 1691201499000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "25 km WNW of Nanwalek, Alaska",
+        "time": 1691200253273,
+        "updated": 1691200349696,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239ywikn4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239ywikn4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0239ywikn4",
+        "ids": ",ak0239ywikn4,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.33,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 25 km WNW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.3302,
+          59.4502,
+          83.5
+        ]
+      },
+      "id": "ak0239ywikn4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.7,
         "place": "Texas-Chihuahua border region",
-        "time": 1691193931794,
-        "updated": 1691195302514,
+        "time": 1691193935121,
+        "updated": 1691201243016,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kxzu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kxzu.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023peqx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023peqx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 3.485,
@@ -26,15 +66,15 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
-        "net": "us",
-        "code": "6000kxzu",
-        "ids": ",us6000kxzu,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2023peqx",
+        "ids": ",us6000kxzu,tx2023peqx,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 15,
-        "dmin": 0.349,
-        "rms": 0.52,
-        "gap": 199,
+        "nst": 22,
+        "dmin": 0.2255536446,
+        "rms": 0.2,
+        "gap": 142,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.7 - Texas-Chihuahua border region"
@@ -42,12 +82,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.331,
-          29.1438,
-          10.189
+          -103.3997013,
+          29.31976318,
+          0.0244547526
         ]
       },
-      "id": "us6000kxzu"
+      "id": "tx2023peqx"
     },
     {
       "type": "Feature",
@@ -855,7 +895,7 @@
         "mag": 2.45,
         "place": "12 km WSW of Toms Place, CA",
         "time": 1691159380170,
-        "updated": 1691170722271,
+        "updated": 1691201057460,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73920141",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73920141.geojson",
@@ -1295,7 +1335,7 @@
         "mag": 3.03,
         "place": "16 km WSW of Toms Place, CA",
         "time": 1691136901870,
-        "updated": 1691166258619,
+        "updated": 1691201054816,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73920066",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73920066.geojson",
@@ -1653,9 +1693,9 @@
   "bbox": [
     -173.1239,
     -32.7847,
-    2.2,
+    0.0244547526,
     178.2245,
-    57.0865,
+    59.4502,
     370.968
   ]
 }
