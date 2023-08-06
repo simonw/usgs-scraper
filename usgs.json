@@ -1,43 +1,83 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691355595000,
+    "generated": 1691359209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.69,
+        "place": "Mona Passage",
+        "time": 1691357018590,
+        "updated": 1691357835810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71420693",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71420693.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "pr",
+        "code": "71420693",
+        "ids": ",pr71420693,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.01277,
+        "rms": 0.12,
+        "gap": 127,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - Mona Passage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2406666666667,
+          18.3283333333333,
+          19.55
+        ]
+      },
+      "id": "pr71420693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
-        "place": "159 km E of McCarthy, Alaska",
+        "place": "Southern Yukon Territory, Canada",
         "time": 1691353325897,
-        "updated": 1691355306379,
+        "updated": 1691358371809,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kybs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kybs.geojson",
-        "felt": 2,
+        "felt": 4,
         "cdi": 3.4,
         "mmi": 6.127,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 355,
+        "sig": 356,
         "net": "us",
         "code": "6000kybs",
-        "ids": ",us6000kybs,ak023a0v71tt,",
-        "sources": ",us,ak,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "ids": ",us6000kybs,ak023a0v7bec,ak023a0v71tt,",
+        "sources": ",us,ak,ak,",
+        "types": ",associate,dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 127,
         "dmin": 0.708,
         "rms": 1.04,
         "gap": 79,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - 159 km E of McCarthy, Alaska"
+        "title": "M 4.8 - Southern Yukon Territory, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -48,46 +88,6 @@
         ]
       },
       "id": "us6000kybs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Southern Yukon Territory, Canada",
-        "time": 1691353324812,
-        "updated": 1691355379009,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023a0v7bec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023a0v7bec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "ak",
-        "code": "023a0v7bec",
-        "ids": ",ak023a0v7bec,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.24,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.7 - Southern Yukon Territory, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.9292,
-          61.367,
-          7.4
-        ]
-      },
-      "id": "ak023a0v7bec"
     },
     {
       "type": "Feature",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "6 km NE of Labuan Lombok, Indonesia",
+        "place": "Lombok region, Indonesia",
         "time": 1691345662551,
         "updated": 1691347302040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 6 km NE of Labuan Lombok, Indonesia"
+        "title": "M 4.8 - Lombok region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Rota region, Northern Mariana Islands",
+        "place": "54 km N of Yigo Village, Guam",
         "time": 1691330474682,
         "updated": 1691331832040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Rota region, Northern Mariana Islands"
+        "title": "M 4.4 - 54 km N of Yigo Village, Guam"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "38 km SSE of Jurm, Afghanistan",
         "time": 1691328193960,
         "updated": 1691329187040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 57,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - Hindu Kush region, Afghanistan"
+        "title": "M 5.2 - 38 km SSE of Jurm, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.22,
-        "place": "Mona Passage",
+        "place": "Puerto Rico region",
         "time": 1691317737550,
         "updated": 1691319093280,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 197,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Mona Passage"
+        "title": "M 3.2 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "New Mexico",
+        "place": "24 km S of Weston, Colorado",
         "time": 1691317679052,
         "updated": 1691336940748,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 27,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - New Mexico"
+        "title": "M 3.8 - 24 km S of Weston, Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -894,16 +894,16 @@
       "properties": {
         "mag": 3.7,
         "place": "Alaska Peninsula",
-        "time": 1691314389517,
-        "updated": 1691314810040,
+        "time": 1691314389060,
+        "updated": 1691357404398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023a0opngn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023a0opngn.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.715,
+        "mmi": 2.43,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "ak",
@@ -913,7 +913,7 @@
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.75,
+        "rms": 0.56,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -922,9 +922,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.4799,
-          56.6558,
-          48.3
+          -155.2974,
+          56.5988,
+          25.8
         ]
       },
       "id": "ak023a0opngn"
@@ -1293,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "54 km WNW of Toyah, Texas",
         "time": 1691295978135,
         "updated": 1691296613040,
         "tz": null,
@@ -1317,7 +1317,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 54 km WNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "southern Idaho",
+        "place": "37 km NNW of Challis, Idaho",
         "time": 1691294620638,
         "updated": 1691332015369,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - southern Idaho"
+        "title": "M 3.9 - 37 km NNW of Challis, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southern Alaska",
+        "place": "131 km NW of Yakutat, Alaska",
         "time": 1691293260975,
         "updated": 1691294745040,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southern Alaska"
+        "title": "M 2.5 - 131 km NW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "54 km ESE of Palu, Indonesia",
+        "place": "Sulawesi, Indonesia",
         "time": 1691286275306,
         "updated": 1691287385040,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 62,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 54 km ESE of Palu, Indonesia"
+        "title": "M 5.2 - Sulawesi, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "52 km SSW of Jurm, Afghanistan",
         "time": 1691281968680,
         "updated": 1691321830993,
         "tz": null,
@@ -1597,7 +1597,7 @@
         "gap": 27,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Hindu Kush region, Afghanistan"
+        "title": "M 5.3 - 52 km SSW of Jurm, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "76 km S of Challapata, Bolivia",
+        "place": "Oruro-Potosi border region, Bolivia",
         "time": 1691281192600,
         "updated": 1691291547040,
         "tz": null,
@@ -1637,7 +1637,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 76 km S of Challapata, Bolivia"
+        "title": "M 4.3 - Oruro-Potosi border region, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1728,6 @@
         ]
       },
       "id": "ak0239z9nrbi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "69 km E of Katanning, Australia",
-        "time": 1691271283409,
-        "updated": 1691352618620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky6d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky6d.geojson",
-        "felt": 248,
-        "cdi": 4.4,
-        "mmi": 6.547,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 525,
-        "net": "us",
-        "code": "6000ky6d",
-        "ids": ",us6000ky6d,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 39,
-        "dmin": 8.789,
-        "rms": 0.42,
-        "gap": 59,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 69 km E of Katanning, Australia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.3,
-          -33.7872,
-          10
-        ]
-      },
-      "id": "us6000ky6d"
     }
   ],
   "bbox": [
