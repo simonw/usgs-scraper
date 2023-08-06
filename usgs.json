@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691308817000,
+    "generated": 1691312417000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "Kodiak Island region, Alaska",
+        "time": 1691310729737,
+        "updated": 1691310889550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023a0o405p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023a0o405p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "023a0o405p",
+        "ids": ",ak023a0o405p,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.65,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - Kodiak Island region, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.1643,
+          58.4357,
+          9.3
+        ]
+      },
+      "id": "ak023a0o405p"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.59,
         "place": "4 km NNE of Prattville, CA",
         "time": 1691308312410,
-        "updated": 1691308691314,
+        "updated": 1691310611496,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73920956",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73920956.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 103,
         "net": "nc",
         "code": "73920956",
-        "ids": ",nc73920956,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73920956,us6000ky8l,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 18,
         "dmin": 0.2227,
         "rms": 0.18,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73920956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "24 km N of Ovando, Montana",
+        "time": 1691307130356,
+        "updated": 1691309287040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky8e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky8e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000ky8e",
+        "ids": ",us6000ky8e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.335,
+        "rms": 0.44,
+        "gap": 93,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 24 km N of Ovando, Montana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.1586,
+          47.2433,
+          10
+        ]
+      },
+      "id": "us6000ky8e"
     },
     {
       "type": "Feature",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "54 km WNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1691295978135,
         "updated": 1691296613040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.6 - 54 km WNW of Toyah, Texas"
+        "title": "M 2.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "131 km NW of Yakutat, Alaska",
+        "place": "Southern Alaska",
         "time": 1691293260975,
         "updated": 1691294745040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 131 km NW of Yakutat, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Sulawesi, Indonesia",
+        "place": "54 km ESE of Palu, Indonesia",
         "time": 1691286275306,
         "updated": 1691287385040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 62,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Sulawesi, Indonesia"
+        "title": "M 5.2 - 54 km ESE of Palu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Oruro-Potosi border region, Bolivia",
+        "place": "76 km S of Challapata, Bolivia",
         "time": 1691281192600,
         "updated": 1691291547040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Oruro-Potosi border region, Bolivia"
+        "title": "M 4.3 - 76 km S of Challapata, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -655,17 +735,17 @@
         "mag": 5.2,
         "place": "69 km E of Katanning, Australia",
         "time": 1691271283409,
-        "updated": 1691308133722,
+        "updated": 1691310481513,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky6d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky6d.geojson",
-        "felt": 242,
+        "felt": 243,
         "cdi": 4.4,
         "mmi": 6.547,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 522,
+        "sig": 523,
         "net": "us",
         "code": "6000ky6d",
         "ids": ",us6000ky6d,",
@@ -733,19 +813,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Hebei-Shandong border region, China",
+        "place": "26 km S of Dezhou, China",
         "time": 1691260438135,
-        "updated": 1691295351782,
+        "updated": 1691309819823,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky5l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky5l.geojson",
-        "felt": 35,
+        "felt": 37,
         "cdi": 7.6,
         "mmi": 7.17,
         "alert": "red",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 2027,
+        "sig": 2028,
         "net": "us",
         "code": "6000ky5l",
         "ids": ",us6000ky5l,",
@@ -757,7 +837,7 @@
         "gap": 27,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Hebei-Shandong border region, China"
+        "title": "M 5.4 - 26 km S of Dezhou, China"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Southern Yukon Territory, Canada",
+        "place": "62 km NNW of Yakutat, Alaska",
         "time": 1691259032440,
         "updated": 1691270990040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Southern Yukon Territory, Canada"
+        "title": "M 2.7 - 62 km NNW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "85 km W of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1691254118229,
         "updated": 1691260956040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 85 km W of San Antonio de los Cobres, Argentina"
+        "title": "M 4.4 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "71 km E of McCarthy, Alaska",
+        "place": "Southern Alaska",
         "time": 1691237229825,
         "updated": 1691261460173,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 71 km E of McCarthy, Alaska"
+        "title": "M 2.7 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "173 km SE of Chignik, Alaska",
+        "place": "south of Alaska",
         "time": 1691228235309,
         "updated": 1691299253040,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 173 km SE of Chignik, Alaska"
+        "title": "M 3.0 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
