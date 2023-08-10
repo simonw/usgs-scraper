@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691636433000,
+    "generated": 1691640020000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "157 km SSE of Sarangani, Philippines",
+        "time": 1691637076231,
+        "updated": 1691638260040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kz05",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kz05.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000kz05",
+        "ids": ",us6000kz05,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 3.035,
+        "rms": 0.81,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 157 km SSE of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.8168,
+          4.0238,
+          116.45
+        ]
+      },
+      "id": "us6000kz05"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,12 +335,12 @@
         "mag": 4.1,
         "place": "12 km N of Masjed Soleymān, Iran",
         "time": 1691618252856,
-        "updated": 1691619102040,
+        "updated": 1691637140445,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyyh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyyh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +350,7 @@
         "code": "6000kyyh",
         "ids": ",us6000kyyh,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 7.17,
         "rms": 0.44,
@@ -855,7 +895,7 @@
         "mag": 5.6,
         "place": "59 km W of Agat Village, Guam",
         "time": 1691572829562,
-        "updated": 1691621898260,
+        "updated": 1691638234052,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kytu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kytu.geojson",
@@ -1088,86 +1128,6 @@
         ]
       },
       "id": "tx2023pmhk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "southern Idaho",
-        "time": 1691552460819,
-        "updated": 1691622377496,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kysm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kysm.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000kysm",
-        "ids": ",us6000kysm,mb90024003,",
-        "sources": ",us,mb,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.361,
-        "rms": 0.75,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - southern Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.3659,
-          44.6575,
-          10
-        ]
-      },
-      "id": "us6000kysm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "5 km NNW of Sabana Grande, Puerto Rico",
-        "time": 1691550511080,
-        "updated": 1691551083550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71420948",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71420948.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71420948",
-        "ids": ",pr71420948,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.05744,
-        "rms": 0.28,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km NNW of Sabana Grande, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.981,
-          18.1261666666667,
-          11.7
-        ]
-      },
-      "id": "pr71420948"
     }
   ],
   "bbox": [
