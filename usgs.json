@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691661574000,
+    "generated": 1691665220000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 30
   },
   "features": [
     {
@@ -535,22 +535,22 @@
         "mag": 4.3,
         "place": "22 km E of Yilan, Taiwan",
         "time": 1691632937049,
-        "updated": 1691635822040,
+        "updated": 1691662288965,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyzt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyzt.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "6000kyzt",
         "ids": ",us6000kyzt,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 30,
         "dmin": 0.549,
         "rms": 0.81,
@@ -1208,86 +1208,6 @@
         ]
       },
       "id": "hv73516737"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "7 km W of Point MacKenzie, Alaska",
-        "time": 1691578629235,
-        "updated": 1691604078732,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023a5o29my",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023a5o29my.geojson",
-        "felt": 9,
-        "cdi": 3.4,
-        "mmi": 1.495,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "ak",
-        "code": "023a5o29my",
-        "ids": ",ak023a5o29my,us6000kyul,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 7 km W of Point MacKenzie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1266,
-          61.3587,
-          35.6
-        ]
-      },
-      "id": "ak023a5o29my"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "234 km W of Bandon, Oregon",
-        "time": 1691576772334,
-        "updated": 1691577643040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyui",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyui.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000kyui",
-        "ids": ",us6000kyui,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 2.366,
-        "rms": 0.8,
-        "gap": 232,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 234 km W of Bandon, Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -127.2699,
-          43.4064,
-          10
-        ]
-      },
-      "id": "us6000kyui"
     }
   ],
   "bbox": [
@@ -1295,7 +1215,7 @@
     -55.6653,
     2.25,
     153.1519,
-    61.3587,
+    60.3117,
     137.466
   ]
 }
