@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691816426000,
+    "generated": 1691820020000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "22 km SSW of Cantwell, Alaska",
+        "time": 1691816556689,
+        "updated": 1691817066040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023aajdevl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023aajdevl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "023aajdevl",
+        "ids": ",us6000kzi7,ak023aajdevl,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 22 km SSW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.148,
+          63.2106,
+          76.2
+        ]
+      },
+      "id": "ak023aajdevl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 2.67,
         "place": "9 km SW of Brentwood, CA",
         "time": 1691803194900,
-        "updated": 1691811555804,
+        "updated": 1691819947599,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73923216",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73923216.geojson",
-        "felt": 8,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 113,
         "net": "nc",
         "code": "73923216",
         "ids": ",nc73923216,",
@@ -412,6 +452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "central Turkey",
+        "time": 1691771047928,
+        "updated": 1691819478738,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzia",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzia.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "us",
+        "code": "6000kzia",
+        "ids": ",us6000kzia,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.219,
+        "rms": 0.51,
+        "gap": 114,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - central Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.1711,
+          37.3895,
+          10
+        ]
+      },
+      "id": "us6000kzia"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "115 km W of Abra Pampa, Argentina",
         "time": 1691768182771,
@@ -528,6 +608,46 @@
         ]
       },
       "id": "ak023a91bmgs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "St. Lawrence Valley region, Quebec, Canada",
+        "time": 1691762360363,
+        "updated": 1691817926040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kz8v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kz8v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000kz8v",
+        "ids": ",us6000kz8v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.209,
+        "rms": 0.3,
+        "gap": 109,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - St. Lawrence Valley region, Quebec, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0349,
+          47.6194,
+          11.816
+        ]
+      },
+      "id": "us6000kz8v"
     },
     {
       "type": "Feature",
@@ -855,7 +975,7 @@
     -22.7914,
     4.32,
     142.5387,
-    62.8844,
+    63.2106,
     202.916
   ]
 }
