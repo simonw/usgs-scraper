@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691892265000,
+    "generated": 1691895596000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.76999998,
+        "mag": 2.5,
+        "place": "Nevada",
+        "time": 1691892493783,
+        "updated": 1691895118040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzmq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzmq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000kzmq",
+        "ids": ",us6000kzmq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.128,
+        "rms": 0.66,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7352,
+          38.2029,
+          10
+        ]
+      },
+      "id": "us6000kzmq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1691892014079,
+        "updated": 1691892904842,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ptkr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ptkr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "tx",
+        "code": "2023ptkr",
+        "ids": ",us6000kzmn,tx2023ptkr,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.02113097982,
+        "rms": 0.2,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4128911,
+          31.66960263,
+          8.342456055
+        ]
+      },
+      "id": "tx2023ptkr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
         "place": "1 km E of Ridgely, Tennessee",
-        "time": 1691891814360,
-        "updated": 1691892199970,
+        "time": 1691891814350,
+        "updated": 1691893809040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60544561",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60544561.geojson",
@@ -25,26 +105,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 97,
         "net": "nm",
         "code": "60544561",
-        "ids": ",nm60544561,",
-        "sources": ",nm,",
+        "ids": ",us6000kzmm,nm60544561,",
+        "sources": ",us,nm,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.03262,
-        "rms": 0.159999996,
-        "gap": 49,
+        "nst": 40,
+        "dmin": 0.0337,
+        "rms": 0.14,
+        "gap": 41,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 1 km E of Ridgely, Tennessee"
+        "title": "M 2.5 - 1 km E of Ridgely, Tennessee"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.4725036621094,
-          36.2658348083496,
-          6.01000022888184
+          -89.47,
+          36.2621666666667,
+          6.51
         ]
       },
       "id": "nm60544561"
@@ -55,14 +135,14 @@
         "mag": 5.4,
         "place": "Batan Islands region, Philippines",
         "time": 1691890990609,
-        "updated": 1691892158040,
+        "updated": 1691892748204,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzml",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzml.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 4.004,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 449,
@@ -70,7 +150,7 @@
         "code": "6000kzml",
         "ids": ",us6000kzml,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 106,
         "dmin": 2.357,
         "rms": 1.01,
