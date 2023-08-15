@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692133231000,
+    "generated": 1692136803000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1692135459610,
+        "updated": 1692136412906,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73528192",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73528192.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "hv",
+        "code": "73528192",
+        "ids": ",hv73528192,us7000knjp,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 7 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.277166666667,
+          19.3908333333333,
+          1.73
+        ]
+      },
+      "id": "hv73528192"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.73,
         "place": "18 km NW of Parkfield, CA",
         "time": 1692128594250,
-        "updated": 1692129911822,
+        "updated": 1692135082040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73924491",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73924491.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 115,
         "net": "nc",
         "code": "73924491",
-        "ids": ",nc73924491,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73924491,us7000knj1,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 47,
         "dmin": null,
         "rms": 0.11,
@@ -48,6 +88,86 @@
         ]
       },
       "id": "nc73924491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "237 km W of Langlois, Oregon",
+        "time": 1692128263564,
+        "updated": 1692134539040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000knj7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000knj7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000knj7",
+        "ids": ",us7000knj7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 2.406,
+        "rms": 0.69,
+        "gap": 252,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 237 km W of Langlois, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.3175,
+          43.3208,
+          15.776
+        ]
+      },
+      "id": "us7000knj7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "77 km SSW of Sand Point, Alaska",
+        "time": 1692122976094,
+        "updated": 1692134595957,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000knip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000knip.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.243,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000knip",
+        "ids": ",ak023afprl1f,us7000knip,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 20,
+        "dmin": 0.719,
+        "rms": 0.5,
+        "gap": 198,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 77 km SSW of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.1395,
+          54.7407,
+          45.135
+        ]
+      },
+      "id": "us7000knip"
     },
     {
       "type": "Feature",
@@ -175,12 +295,12 @@
         "mag": 2.55,
         "place": "7 km SW of Volcano, Hawaii",
         "time": 1692111191140,
-        "updated": 1692111521400,
+        "updated": 1692136039033,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73527452",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73527452.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -190,7 +310,7 @@
         "code": "73527452",
         "ids": ",hv73527452,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 33,
         "dmin": null,
         "rms": 0.189999998,
@@ -215,11 +335,11 @@
         "mag": 3.04,
         "place": "2 km NW of Alamo, CA",
         "time": 1692110664220,
-        "updated": 1692133217330,
+        "updated": 1692136474176,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73924411",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73924411.geojson",
-        "felt": 1705,
+        "felt": 1725,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -375,7 +495,7 @@
         "mag": 4.4,
         "place": "215 km SSW of Prince Rupert, Canada",
         "time": 1692101691207,
-        "updated": 1692132660686,
+        "updated": 1692134509753,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000l02p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000l02p.geojson",
@@ -455,7 +575,7 @@
         "mag": 2.95,
         "place": "1 km NNE of Prattville, CA",
         "time": 1692093210360,
-        "updated": 1692125051493,
+        "updated": 1692133455185,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73924331",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73924331.geojson",
@@ -928,46 +1048,6 @@
         ]
       },
       "id": "us6000kzz0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1692047370090,
-        "updated": 1692110006691,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023pwsb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023pwsb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2023pwsb",
-        "ids": ",us6000kzyr,tx2023pwsb,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.03530717906,
-        "rms": 0.2,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4071038,
-          31.68434774,
-          6.080151367
-        ]
-      },
-      "id": "tx2023pwsb"
     }
   ],
   "bbox": [
