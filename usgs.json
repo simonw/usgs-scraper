@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692100831000,
+    "generated": 1692104442000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "Southern Alaska",
+        "time": 1692101854441,
+        "updated": 1692102126158,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023afm8p6s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023afm8p6s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "023afm8p6s",
+        "ids": ",ak023afm8p6s,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.05,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - Southern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.6498,
+          61.6204,
+          174.6
+        ]
+      },
+      "id": "ak023afm8p6s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "215 km SSW of Prince Rupert, Canada",
+        "time": 1692101691207,
+        "updated": 1692103596937,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000l02p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000l02p.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 298,
+        "net": "us",
+        "code": "6000l02p",
+        "ids": ",at00rzfm0u,us6000l02p,",
+        "sources": ",at,us,",
+        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,",
+        "nst": 77,
+        "dmin": 0.493,
+        "rms": 0.71,
+        "gap": 157,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - 215 km SSW of Prince Rupert, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -131.9715,
+          52.6519,
+          12.916
+        ]
+      },
+      "id": "us6000l02p"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 3.8,
         "place": "133 km NNE of Vieques, Puerto Rico",
         "time": 1692083237060,
-        "updated": 1692085256318,
+        "updated": 1692104391040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023227000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023227000.geojson",
@@ -68,8 +148,8 @@
         "sig": 222,
         "net": "pr",
         "code": "2023227000",
-        "ids": ",pr2023227000,",
-        "sources": ",pr,",
+        "ids": ",us6000l01q,pr2023227000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": 1.2422,
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "Flores region, Indonesia",
+        "place": "53 km NNW of Ende, Indonesia",
         "time": 1692071642565,
         "updated": 1692079020487,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 23,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - Flores region, Indonesia"
+        "title": "M 5.5 - 53 km NNW of Ende, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -288,46 +368,6 @@
         ]
       },
       "id": "us6000kzzt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "Illinois",
-        "time": 1692061873496,
-        "updated": 1692100423504,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzzq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzzq.geojson",
-        "felt": 13,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "us",
-        "code": "6000kzzq",
-        "ids": ",us6000kzzq,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.386,
-        "rms": 0.37,
-        "gap": 38,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.5 - Illinois"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.607,
-          38.7031,
-          1.97
-        ]
-      },
-      "id": "us6000kzzq"
     },
     {
       "type": "Feature",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "67 km WSW of Karluk, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1692051276155,
         "updated": 1692051835018,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 67 km WSW of Karluk, Alaska"
+        "title": "M 3.7 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Unimak Island region, Alaska",
+        "place": "96 km ESE of Akutan, Alaska",
         "time": 1692051193087,
         "updated": 1692094998239,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 139,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Unimak Island region, Alaska"
+        "title": "M 5.0 - 96 km ESE of Akutan, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -608,46 +648,6 @@
         ]
       },
       "id": "ak023ae3nf1z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "15 km ENE of Thomas, Oklahoma",
-        "time": 1692045948144,
-        "updated": 1692046133587,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023pwrh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023pwrh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "ok",
-        "code": "2023pwrh",
-        "ids": ",ok2023pwrh,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.2003068477,
-        "rms": 0.6303157767,
-        "gap": 153.8171539,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 15 km ENE of Thomas, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.58822632,
-          35.78265381,
-          3.101119518
-        ]
-      },
-      "id": "ok2023pwrh"
     },
     {
       "type": "Feature",
@@ -855,11 +855,11 @@
         "mag": 6.1,
         "place": "271 km SE of San Jose Village, Northern Mariana Islands",
         "time": 1692021114267,
-        "updated": 1692086965188,
+        "updated": 1692100956601,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzv3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzv3.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 4.6,
         "mmi": 3.242,
         "alert": "green",
@@ -928,126 +928,6 @@
         ]
       },
       "id": "ak023adzdqwo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1692016788686,
-        "updated": 1692017975055,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023pwbg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023pwbg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2023pwbg",
-        "ids": ",us6000kzuv,tx2023pwbg,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.04371647849,
-        "rms": 0.3,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3893013,
-          31.68032698,
-          6.234399414
-        ]
-      },
-      "id": "tx2023pwbg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "115 km NNE of Lospalos, Timor Leste",
-        "time": 1692016241573,
-        "updated": 1692017747040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzuu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzuu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000kzuu",
-        "ids": ",us6000kzuu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 3.845,
-        "rms": 0.53,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 115 km NNE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.496,
-          -7.5985,
-          166.368
-        ]
-      },
-      "id": "us6000kzuu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1692014660133,
-        "updated": 1692025381270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023pwac",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023pwac.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2023pwac",
-        "ids": ",us6000kzur,tx2023pwac,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.04474047983,
-        "rms": 0.2,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.390949,
-          31.68399314,
-          6.234399414
-        ]
-      },
-      "id": "tx2023pwac"
     }
   ],
   "bbox": [
@@ -1055,7 +935,7 @@
     -23.7139,
     -0.68,
     147.5429,
-    61.3456,
+    61.6204,
     532.717
   ]
 }
