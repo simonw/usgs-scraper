@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692514781000,
+    "generated": 1692518406000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.31,
+        "place": "9 km NNW of Big Bear City, CA",
+        "time": 1692516076430,
+        "updated": 1692518281109,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645178",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645178.geojson",
+        "felt": 27,
+        "cdi": 3.6,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ci",
+        "code": "39645178",
+        "ids": ",ci39645178,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 129,
+        "dmin": 0.03467,
+        "rms": 0.18,
+        "gap": 22,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 9 km NNW of Big Bear City, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8690033,
+          34.3434982,
+          0.92
+        ]
+      },
+      "id": "ci39645178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.88,
+        "place": "13 km ESE of Pāhala, Hawaii",
+        "time": 1692515718130,
+        "updated": 1692516070946,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73534367",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73534367.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "hv",
+        "code": "73534367",
+        "ids": ",hv73534367,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 49,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 182,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 13 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.363159179688,
+          19.1518325805664,
+          29.25
+        ]
+      },
+      "id": "hv73534367"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.07,
         "place": "1 km S of Guadalupe Victoria, B.C., MX",
         "time": 1692512666530,
-        "updated": 1692513295440,
+        "updated": 1692516253040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645170",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645170.geojson",
@@ -28,8 +108,8 @@
         "sig": 145,
         "net": "ci",
         "code": "39645170",
-        "ids": ",ci39645170,",
-        "sources": ",ci,",
+        "ids": ",ci39645170,us7000kpki,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 26,
         "dmin": 0.1665,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ci39645170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "100 km ESE of Adak, Alaska",
+        "time": 1692508521209,
+        "updated": 1692517364040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpkm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpkm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.815,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "7000kpkm",
+        "ids": ",us7000kpkm,ak023anrqxwc,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 40,
+        "dmin": 0.752,
+        "rms": 0.77,
+        "gap": 196,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.7 - 100 km ESE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.3145,
+          51.5023,
+          35
+        ]
+      },
+      "id": "us7000kpkm"
     },
     {
       "type": "Feature",
@@ -175,7 +295,7 @@
         "mag": 5.2,
         "place": "178 km SE of Nikolski, Alaska",
         "time": 1692496134945,
-        "updated": 1692511149173,
+        "updated": 1692518340641,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpjf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpjf.geojson",
@@ -1288,46 +1408,6 @@
         ]
       },
       "id": "ak023am5zisp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "12 km WSW of Neijiang, China",
-        "time": 1692430309698,
-        "updated": 1692431138040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpfg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpfg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000kpfg",
-        "ids": ",us7000kpfg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 6.49,
-        "rms": 0.44,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 12 km WSW of Neijiang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          104.9513,
-          29.5353,
-          10
-        ]
-      },
-      "id": "us7000kpfg"
     }
   ],
   "bbox": [
