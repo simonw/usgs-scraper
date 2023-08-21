@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692651593000,
+    "generated": 1692655178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Fiji region",
+        "time": 1692652542998,
+        "updated": 1692654580040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpz0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpz0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000kpz0",
+        "ids": ",us7000kpz0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 2.934,
+        "rms": 0.49,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.3475,
+          -21.1398,
+          548.265
+        ]
+      },
+      "id": "us7000kpz0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 4.3,
         "place": "9 km SW of İçmeler, Turkey",
         "time": 1692632757469,
-        "updated": 1692650588845,
+        "updated": 1692653039559,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpx5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpx5.geojson",
@@ -135,12 +175,12 @@
         "mag": 4.6,
         "place": "126 km NNE of Tobelo, Indonesia",
         "time": 1692629701105,
-        "updated": 1692634762040,
+        "updated": 1692651834588,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpww",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpww.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "7000kpww",
         "ids": ",us7000kpww,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 53,
         "dmin": 2.283,
         "rms": 0.81,
@@ -295,17 +335,17 @@
         "mag": 2.46,
         "place": "8 km ESE of Ojai, CA",
         "time": 1692622335270,
-        "updated": 1692651327613,
+        "updated": 1692655126593,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39646434",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39646434.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 99,
         "net": "ci",
         "code": "39646434",
         "ids": ",ci39646434,",
@@ -652,10 +692,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48,
-        "place": "17 km S of Honoka‘a, Hawaii",
-        "time": 1692605493150,
-        "updated": 1692612355434,
+        "mag": 2.66,
+        "place": "13 km S of Honoka‘a, Hawaii",
+        "time": 1692605492790,
+        "updated": 1692653351782,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73535902",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73535902.geojson",
@@ -663,28 +703,28 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 109,
         "net": "hv",
         "code": "73535902",
         "ids": ",hv73535902,us7000kpu3,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
+        "nst": 52,
         "dmin": null,
-        "rms": 0.180000007,
-        "gap": 229,
+        "rms": 0.12,
+        "gap": 122,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 17 km S of Honoka‘a, Hawaii"
+        "title": "M 2.7 - 13 km S of Honoka‘a, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.490997314453,
-          19.9243335723877,
-          37.7700004577637
+          -155.490333333333,
+          19.9561666666667,
+          38.57
         ]
       },
       "id": "hv73535902"
@@ -1255,7 +1295,7 @@
         "mag": 3.13,
         "place": "7 km WNW of Walker, CA",
         "time": 1692585022330,
-        "updated": 1692638284261,
+        "updated": 1692654505040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73926586",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73926586.geojson",
@@ -1293,9 +1333,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "133 km WNW of Barview, Oregon",
-        "time": 1692584049773,
-        "updated": 1692647518916,
+        "place": "121 km WNW of Barview, Oregon",
+        "time": 1692584051397,
+        "updated": 1692654156012,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kps0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kps0.geojson",
@@ -1311,19 +1351,19 @@
         "ids": ",us7000kps0,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.369,
-        "rms": 0.62,
-        "gap": 256,
+        "nst": 40,
+        "dmin": 1.258,
+        "rms": 0.32,
+        "gap": 254,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 133 km WNW of Barview, Oregon"
+        "title": "M 2.9 - 121 km WNW of Barview, Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125.9262,
-          43.6134,
+          -125.7729,
+          43.6121,
           10
         ]
       },
@@ -1335,7 +1375,7 @@
         "mag": 2.66,
         "place": "7 km E of Ojai, CA",
         "time": 1692582214280,
-        "updated": 1692651507200,
+        "updated": 1692653578040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645914",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645914.geojson",
@@ -1348,8 +1388,8 @@
         "sig": 112,
         "net": "ci",
         "code": "39645914",
-        "ids": ",ci39645914,",
-        "sources": ",ci,",
+        "ids": ",ci39645914,us7000kprw,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 71,
         "dmin": 0.02118,
@@ -1815,7 +1855,7 @@
         "mag": 3.66,
         "place": "7 km ESE of Ojai, CA",
         "time": 1692569332590,
-        "updated": 1692585739282,
+        "updated": 1692654482442,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645586",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645586.geojson",
@@ -1928,494 +1968,14 @@
         ]
       },
       "id": "ci39645554"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "262 km WNW of Houma, Tonga",
-        "time": 1692568666567,
-        "updated": 1692569852040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpqm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpqm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000kpqm",
-        "ids": ",us7000kpqm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 2.434,
-        "rms": 1.06,
-        "gap": 62,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 262 km WNW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.4649,
-          -19.9651,
-          374.067
-        ]
-      },
-      "id": "us7000kpqm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "7 km SE of Ojai, CA",
-        "time": 1692568561800,
-        "updated": 1692650252602,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645490",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645490.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "ci",
-        "code": "39645490",
-        "ids": ",ci39645490,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 4,
-        "dmin": 0.04616,
-        "rms": 0.05,
-        "gap": 136,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km SE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1823333,
-          34.4093333,
-          10.05
-        ]
-      },
-      "id": "ci39645490"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "7 km ESE of Ojai, CA",
-        "time": 1692568542300,
-        "updated": 1692647898560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645506",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645506.geojson",
-        "felt": 182,
-        "cdi": 5.2,
-        "mmi": 3.839,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 257,
-        "net": "ci",
-        "code": "39645506",
-        "ids": ",ci39645506,us7000kpqg,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 107,
-        "dmin": 0.02919,
-        "rms": 0.35,
-        "gap": 26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 7 km ESE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1715,
-          34.429,
-          2
-        ]
-      },
-      "id": "ci39645506"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "5 km E of Ojai, CA",
-        "time": 1692568067010,
-        "updated": 1692632380962,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci37566364",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci37566364.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ci",
-        "code": "37566364",
-        "ids": ",ci37566364,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.04182,
-        "rms": 0.32,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 5 km E of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1873333,
-          34.4441667,
-          1.37
-        ]
-      },
-      "id": "ci37566364"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "6 km SE of Ojai, CA",
-        "time": 1692568053710,
-        "updated": 1692632659467,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645434",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645434.geojson",
-        "felt": 111,
-        "cdi": 4.3,
-        "mmi": 3.663,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 208,
-        "net": "ci",
-        "code": "39645434",
-        "ids": ",ci39645434,us7000kpqe,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 87,
-        "dmin": 0.05209,
-        "rms": 0.35,
-        "gap": 29,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 6 km SE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1945,
-          34.4146667,
-          6.14
-        ]
-      },
-      "id": "ci39645434"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "6 km ESE of Ojai, CA",
-        "time": 1692568005230,
-        "updated": 1692638968377,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645410",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645410.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": 3.66,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ci",
-        "code": "39645410",
-        "ids": ",ci39645410,us7000kpqd,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 62,
-        "dmin": 0.04662,
-        "rms": 0.31,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 6 km ESE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1896667,
-          34.4191667,
-          0.94
-        ]
-      },
-      "id": "ci39645410"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.52,
-        "place": "6 km ESE of Ojai, CA",
-        "time": 1692567926350,
-        "updated": 1692621606132,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645402",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645402.geojson",
-        "felt": 261,
-        "cdi": 6.3,
-        "mmi": 4.473,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "ci",
-        "code": "39645402",
-        "ids": ",ci39645402,ew1692567930,us7000kpqc,",
-        "sources": ",ci,ew,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 86,
-        "dmin": 0.03814,
-        "rms": 0.32,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 6 km ESE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1821667,
-          34.4273333,
-          2.08
-        ]
-      },
-      "id": "ci39645402"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "5 km ESE of Ojai, CA",
-        "time": 1692567786750,
-        "updated": 1692647818523,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645394",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645394.geojson",
-        "felt": 40,
-        "cdi": 4.1,
-        "mmi": 3.495,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "ci",
-        "code": "39645394",
-        "ids": ",ci39645394,us7000kpqb,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 35,
-        "dmin": 0.04858,
-        "rms": 0.35,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 5 km ESE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1943333,
-          34.4245,
-          2.12
-        ]
-      },
-      "id": "ci39645394"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.73,
-        "place": "4 km E of Ojai, CA",
-        "time": 1692567766530,
-        "updated": 1692594007641,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci37565916",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci37565916.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 115,
-        "net": "ci",
-        "code": "37565916",
-        "ids": ",ci37565916,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.05174,
-        "rms": 0.27,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km E of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1996667,
-          34.443,
-          0.81
-        ]
-      },
-      "id": "ci37565916"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.08,
-        "place": "7 km SE of Ojai, CA",
-        "time": 1692567660970,
-        "updated": 1692651447281,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39645386",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39645386.geojson",
-        "felt": 13948,
-        "cdi": 5.4,
-        "mmi": 6.635,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 937,
-        "net": "ci",
-        "code": "39645386",
-        "ids": ",ci39645386,at00rzplkc,us7000kpq8,ew1692567660,",
-        "sources": ",ci,at,us,ew,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 115,
-        "dmin": 0.05069,
-        "rms": 0.35,
-        "gap": 27,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 5.1 - 7 km SE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1883333,
-          34.4085,
-          4.84
-        ]
-      },
-      "id": "ci39645386"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "2 km SSW of Leleşti, Romania",
-        "time": 1692567567861,
-        "updated": 1692594257440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpq7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpq7.geojson",
-        "felt": 1,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "7000kpq7",
-        "ids": ",us7000kpq7,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 1.222,
-        "rms": 1,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 2 km SSW of Leleşti, Romania"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.1933,
-          45.0774,
-          9.25
-        ]
-      },
-      "id": "us7000kpq7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "68 km WSW of Akhiok, Alaska",
-        "time": 1692566926922,
-        "updated": 1692567331040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ao1cpxw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ao1cpxw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "023ao1cpxw",
-        "ids": ",us7000kpq0,ak023ao1cpxw,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.53,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 68 km WSW of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.2648,
-          56.7983,
-          0
-        ]
-      },
-      "id": "ak023ao1cpxw"
     }
   ],
   "bbox": [
-    -177.4961,
+    -178.3475,
     -38.9508,
     -0.40000000596046,
     179.9787,
-    56.7983,
-    511.161
+    55.4952,
+    548.265
   ]
 }
