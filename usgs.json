@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692676828000,
+    "generated": 1692680393000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "7 km ENE of Pāhala, Hawaii",
+        "time": 1692677907560,
+        "updated": 1692678239300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73537197",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73537197.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "hv",
+        "code": "73537197",
+        "ids": ",hv73537197,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": null,
+        "rms": 0.109999999,
+        "gap": 218,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.410003662109,
+          19.2240009307861,
+          10.4499998092651
+        ]
+      },
+      "id": "hv73537197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "32 km WSW of Ackerly, Texas",
+        "time": 1692677499812,
+        "updated": 1692680005040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023qkal",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023qkal.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "tx",
+        "code": "2023qkal",
+        "ids": ",us7000kq0y,tx2023qkal,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.361200734,
+        "rms": 0.2,
+        "gap": 202,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 32 km WSW of Ackerly, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0292254,
+          32.41241455,
+          7.507609049
+        ]
+      },
+      "id": "tx2023qkal"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.73,
         "place": "13 km NE of Coalinga, CA",
         "time": 1692676620450,
-        "updated": 1692676790072,
+        "updated": 1692679094090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73926931",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73926931.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "73926931",
         "ids": ",nc73926931,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 37,
         "dmin": null,
         "rms": 0.12,
@@ -52,8 +132,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.2,
+        "place": "53 km SSW of Whites City, New Mexico",
+        "time": 1692676291346,
+        "updated": 1692680026913,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023qjzv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023qjzv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.536,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "tx",
+        "code": "2023qjzv",
+        "ids": ",us7000kq0u,tx2023qjzv,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 20,
+        "dmin": 0.00617588502,
+        "rms": 0.2,
+        "gap": 131,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 53 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5253074,
+          31.71293206,
+          4.486254883
+        ]
+      },
+      "id": "tx2023qjzv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
-        "place": "Banda Sea",
+        "place": "296 km WSW of Tual, Indonesia",
         "time": 1692670104474,
         "updated": 1692671130040,
         "tz": null,
@@ -77,7 +197,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Banda Sea"
+        "title": "M 4.4 - 296 km WSW of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1692663431880,
         "updated": 1692665308620,
         "tz": null,
@@ -157,7 +277,7 @@
         "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -215,11 +335,11 @@
         "mag": 3.46,
         "place": "6 km SE of Ojai, CA",
         "time": 1692661825340,
-        "updated": 1692674741281,
+        "updated": 1692679481445,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39646898",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39646898.geojson",
-        "felt": 137,
+        "felt": 139,
         "cdi": 3.1,
         "mmi": 3.501,
         "alert": null,
@@ -253,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Pulau-Pulau Sula, Indonesia",
+        "place": "75 km NE of Sanana, Indonesia",
         "time": 1692658534384,
         "updated": 1692659583040,
         "tz": null,
@@ -277,7 +397,7 @@
         "gap": 81,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Pulau-Pulau Sula, Indonesia"
+        "title": "M 4.6 - 75 km NE of Sanana, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -655,21 +775,21 @@
         "mag": 2.46,
         "place": "8 km ESE of Ojai, CA",
         "time": 1692622335270,
-        "updated": 1692662807234,
+        "updated": 1692677978786,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39646434",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39646434.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 99,
+        "sig": 100,
         "net": "ci",
         "code": "39646434",
-        "ids": ",ci39646434,",
-        "sources": ",ci,",
+        "ids": ",ci39646434,us7000kpw1,",
+        "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.1216,
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "181 km WSW of Fakfak, Indonesia",
+        "place": "Seram, Indonesia",
         "time": 1692614464010,
         "updated": 1692625079040,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 181 km WSW of Fakfak, Indonesia"
+        "title": "M 4.6 - Seram, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1368,172 +1488,12 @@
         ]
       },
       "id": "us7000kpt4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "107 km ESE of Palora, Ecuador",
-        "time": 1692593339862,
-        "updated": 1692661645040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpsv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpsv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000kpsv",
-        "ids": ",us7000kpsv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.091,
-        "rms": 0.54,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 107 km ESE of Palora, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.0216,
-          -1.9245,
-          162.523
-        ]
-      },
-      "id": "us7000kpsv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "6 km SE of Ojai, CA",
-        "time": 1692593306280,
-        "updated": 1692662947873,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39646050",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39646050.geojson",
-        "felt": 33,
-        "cdi": 4.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "ci",
-        "code": "39646050",
-        "ids": ",ci39646050,us7000kpst,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 77,
-        "dmin": 0.05222,
-        "rms": 0.31,
-        "gap": 29,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 6 km SE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1958333,
-          34.4168333,
-          1.81
-        ]
-      },
-      "id": "ci39646050"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "38 km SSE of Jurm, Afghanistan",
-        "time": 1692592802574,
-        "updated": 1692658906040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpsr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpsr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000kpsr",
-        "ids": ",us7000kpsr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 2.506,
-        "rms": 0.66,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 38 km SSE of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.9253,
-          36.5257,
-          179.946
-        ]
-      },
-      "id": "us7000kpsr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "7 km SW of Volcano, Hawaii",
-        "time": 1692592700900,
-        "updated": 1692633026069,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73535747",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73535747.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "hv",
-        "code": "73535747",
-        "ids": ",hv73535747,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": null,
-        "rms": 0.370000005,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.280838012695,
-          19.3974990844727,
-          -0.400000005960464
-        ]
-      },
-      "id": "hv73535747"
     }
   ],
   "bbox": [
     -178.3475,
     -38.9508,
-    -0.40000000596046,
+    0.92,
     179.9787,
     55.4952,
     548.265
