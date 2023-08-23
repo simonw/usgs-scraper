@@ -1,26 +1,26 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692809981000,
+    "generated": 1692813606000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 6.2,
-        "place": "15 km NW of El Hoyo, Argentina",
+        "place": "Santiago del Estero, Argentina",
         "time": 1692800563928,
-        "updated": 1692808130322,
+        "updated": 1692811458040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kqbl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kqbl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": 2.224,
         "alert": "green",
         "status": "reviewed",
@@ -30,14 +30,14 @@
         "code": "7000kqbl",
         "ids": ",us7000kqbl,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 111,
         "dmin": 5.409,
         "rms": 1.06,
         "gap": 34,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.2 - 15 km NW of El Hoyo, Argentina"
+        "title": "M 6.2 - Santiago del Estero, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -55,17 +55,17 @@
         "mag": 5.3,
         "place": "53 km E of La Tirana, Chile",
         "time": 1692799329263,
-        "updated": 1692806833716,
+        "updated": 1692810980828,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kqbg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kqbg.geojson",
-        "felt": 11,
+        "felt": 13,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 437,
+        "sig": 438,
         "net": "us",
         "code": "7000kqbg",
         "ids": ",us7000kqbg,",
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Central Alaska",
+        "place": "57 km S of Cantwell, Alaska",
         "time": 1692795355894,
         "updated": 1692795458913,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Central Alaska"
+        "title": "M 3.0 - 57 km S of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southern Alaska",
+        "place": "87 km S of Alcan Border, Alaska",
         "time": 1692784055492,
         "updated": 1692789586040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southern Alaska"
+        "title": "M 2.5 - 87 km S of Alcan Border, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -532,8 +532,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.19,
+        "place": "21 km NNW of Challis, Idaho",
+        "time": 1692772328520,
+        "updated": 1692812528840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90025233",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90025233.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 157,
+        "net": "mb",
+        "code": "90025233",
+        "ids": ",mb90025233,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.5479,
+        "rms": 0.23,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 21 km NNW of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.382666666667,
+          44.6671666666667,
+          10.22
+        ]
+      },
+      "id": "mb90025233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.59,
-        "place": "Missouri",
+        "place": "3 km ENE of Wilson City, Missouri",
         "time": 1692767250020,
         "updated": 1692808996389,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 115,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Missouri"
+        "title": "M 2.6 - 3 km ENE of Wilson City, Missouri"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "Puerto Rico region",
+        "place": "65 km N of Culebra, Puerto Rico",
         "time": 1692759809000,
         "updated": 1692760728870,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 254,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - Puerto Rico region"
+        "title": "M 3.9 - 65 km N of Culebra, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "52 km SSW of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1692740375255,
         "updated": 1692751816040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 252,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 52 km SSW of Nikolski, Alaska"
+        "title": "M 3.2 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Fiji region",
+        "place": "106 km SSE of Alo, Wallis and Futuna",
         "time": 1692740363893,
         "updated": 1692743671040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Fiji region"
+        "title": "M 4.3 - 106 km SSE of Alo, Wallis and Futuna"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "eastern Xizang",
+        "place": "239 km WSW of Qamdo, China",
         "time": 1692738590947,
         "updated": 1692744473040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 228,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - eastern Xizang"
+        "title": "M 4.2 - 239 km WSW of Qamdo, China"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "24 km ENE of Healy, Alaska",
+        "place": "Central Alaska",
         "time": 1692737792117,
         "updated": 1692737913100,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 24 km ENE of Healy, Alaska"
+        "title": "M 3.2 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "54 km NNW of Isangel, Vanuatu",
+        "place": "Vanuatu",
         "time": 1692729814774,
         "updated": 1692730852040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 61,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 54 km NNW of Isangel, Vanuatu"
+        "title": "M 4.5 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kepulauan Sangihe, Indonesia",
+        "place": "222 km NNE of Bitung, Indonesia",
         "time": 1692729476807,
         "updated": 1692732320040,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kepulauan Sangihe, Indonesia"
+        "title": "M 4.5 - 222 km NNE of Bitung, Indonesia"
       },
       "geometry": {
         "type": "Point",
