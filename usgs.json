@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692795690000,
+    "generated": 1692799181000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
@@ -293,14 +293,14 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "5 km SSW of Friendsville, Tennessee",
-        "time": 1692782498890,
-        "updated": 1692793743700,
+        "place": "5 km NNE of Greenback, Tennessee",
+        "time": 1692782499080,
+        "updated": 1692799069399,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60501053",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60501053.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,21 +310,21 @@
         "code": "60501053",
         "ids": ",se60501053,",
         "sources": ",se,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.0496,
-        "rms": 0.11,
-        "gap": 116,
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.0482,
+        "rms": 0.18,
+        "gap": 79,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SSW of Friendsville, Tennessee"
+        "title": "M 2.5 - 5 km NNE of Greenback, Tennessee"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.16,
-          35.7135,
-          10.51
+          -84.1528333333333,
+          35.7061666666667,
+          9.33
         ]
       },
       "id": "se60501053"
@@ -455,17 +455,17 @@
         "mag": 2.59,
         "place": "3 km ENE of Wilson City, Missouri",
         "time": 1692767250020,
-        "updated": 1692791642634,
+        "updated": 1692798082298,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60546071",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60546071.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 105,
         "net": "nm",
         "code": "60546071",
         "ids": ",nm60546071,",
@@ -1288,46 +1288,6 @@
         ]
       },
       "id": "us7000kq4g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "7 km SSE of Valdez, Alaska",
-        "time": 1692711247235,
-        "updated": 1692717523040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ar7p59a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ar7p59a.geojson",
-        "felt": 3,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "023ar7p59a",
-        "ids": ",ak023ar7p59a,us7000kq48,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.81,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 7 km SSE of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.3023,
-          61.067,
-          17.7
-        ]
-      },
-      "id": "ak023ar7p59a"
     }
   ],
   "bbox": [
