@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692889232000,
+    "generated": 1692892832000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 23
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.39,
-        "place": "7 km ESE of Ojai, CA",
-        "time": 1692889023020,
-        "updated": 1692889224216,
+        "mag": 3.25,
+        "place": "6 km SE of Ojai, CA",
+        "time": 1692889022670,
+        "updated": 1692892547190,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39649538",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39649538.geojson",
-        "felt": 2,
-        "cdi": 3.6,
-        "mmi": null,
+        "felt": 92,
+        "cdi": 4.7,
+        "mmi": 3.969,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 206,
         "net": "ci",
         "code": "39649538",
-        "ids": ",ci39649538,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 91,
-        "dmin": 0.04121,
-        "rms": 0.32,
-        "gap": 26,
+        "ids": ",ci39649538,us7000kqn8,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 87,
+        "dmin": 0.0467,
+        "rms": 0.33,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 7 km ESE of Ojai, CA"
+        "title": "M 3.3 - 6 km SE of Ojai, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.1815033,
-          34.4174995,
-          10.17
+          -119.189,
+          34.4176667,
+          2.26
         ]
       },
       "id": "ci39649538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Azores Islands region",
+        "time": 1692886418432,
+        "updated": 1692889698040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kqn5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kqn5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000kqn5",
+        "ids": ",us7000kqn5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 21.501,
+        "rms": 0.85,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Azores Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.2165,
+          42.3325,
+          10
+        ]
+      },
+      "id": "us7000kqn5"
     },
     {
       "type": "Feature",
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.85,
-        "place": "7 km SW of Volcano, Hawaii",
-        "time": 1692880224680,
-        "updated": 1692880554760,
+        "mag": 2.73,
+        "place": "8 km SW of Volcano, Hawaii",
+        "time": 1692880224820,
+        "updated": 1692890513750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73541897",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73541897.geojson",
@@ -103,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 125,
+        "sig": 115,
         "net": "hv",
         "code": "73541897",
         "ids": ",hv73541897,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 36,
+        "nst": 40,
         "dmin": null,
-        "rms": 0.319999993,
-        "gap": 59,
+        "rms": 0.11,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 7 km SW of Volcano, Hawaii"
+        "title": "M 2.7 - 8 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.280166625977,
-          19.3916664123535,
-          -0.689999997615814
+          -155.281166666667,
+          19.3841666666667,
+          1.38
         ]
       },
       "id": "hv73541897"
@@ -893,7 +933,7 @@
   "bbox": [
     -171.3378,
     -55.9095,
-    -0.68999999761581,
+    0.21999999880791,
     145.9063,
     59.9265,
     160.6
