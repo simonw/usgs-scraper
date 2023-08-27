@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693162789000,
+    "generated": 1693166396000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,22 +15,22 @@
         "mag": 3.1,
         "place": "5 km W of Big Lake, Alaska",
         "time": 1693161556399,
-        "updated": 1693162270957,
+        "updated": 1693166256365,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023azke53r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023azke53r.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2,
-        "mmi": null,
+        "mmi": 2.022,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 149,
         "net": "ak",
         "code": "023azke53r",
-        "ids": ",ak023azke53r,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",ak023azke53r,us7000krdf,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.22,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak023azke53r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "15 km SSE of Stonewall Gap, Colorado",
+        "time": 1693159266903,
+        "updated": 1693164761040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000krda",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000krda.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000krda",
+        "ids": ",us7000krda,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.204,
+        "rms": 0.35,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15 km SSE of Stonewall Gap, Colorado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0025,
+          37.0186,
+          5
+        ]
+      },
+      "id": "us7000krda"
     },
     {
       "type": "Feature",
@@ -375,11 +415,11 @@
         "mag": 3.7,
         "place": "14 km SW of Susitna, Alaska",
         "time": 1693135620008,
-        "updated": 1693156785118,
+        "updated": 1693164400289,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023azg5evm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023azg5evm.geojson",
-        "felt": 46,
+        "felt": 47,
         "cdi": 3.1,
         "mmi": 2.489,
         "alert": null,
@@ -1288,52 +1328,12 @@
         ]
       },
       "id": "us7000kr8d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
-        "time": 1693079205210,
-        "updated": 1693084983040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kr82",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kr82.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.332,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000kr82",
-        "ids": ",ak023axxhsxn,us7000kr82,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 30,
-        "dmin": 0.774,
-        "rms": 0.27,
-        "gap": 215,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - Fox Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.7623,
-          52.2017,
-          35
-        ]
-      },
-      "id": "us7000kr82"
     }
   ],
   "bbox": [
     -179.3382,
     -58.6897,
-    8.045613607,
+    5,
     155.9565,
     61.5127,
     578.049
