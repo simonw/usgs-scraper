@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693422001000,
+    "generated": 1693425601000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 25
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.89,
-        "place": "19 km S of Stony Gorge Reservoir, CA",
-        "time": 1693417849580,
-        "updated": 1693421988367,
+        "mag": 5.1,
+        "place": "63 km ESE of King Cove, Alaska",
+        "time": 1693421965717,
+        "updated": 1693423765390,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73931011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73931011.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ks64",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ks64.geojson",
+        "felt": 2,
+        "cdi": 3.4,
+        "mmi": 3.258,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "nc",
-        "code": "73931011",
-        "ids": ",nc73931011,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.4103,
-        "rms": 0.23,
-        "gap": 174,
-        "magType": "ml",
+        "sig": 401,
+        "net": "us",
+        "code": "7000ks64",
+        "ids": ",us7000ks64,ak023b4j4hh1,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 88,
+        "dmin": 0.653,
+        "rms": 0.77,
+        "gap": 153,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 2.9 - 19 km S of Stony Gorge Reservoir, CA"
+        "title": "M 5.1 - 63 km ESE of King Cove, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.5124969,
-          39.411335,
-          17.99
+          -161.3526,
+          54.9345,
+          51.282
         ]
       },
-      "id": "nc73931011"
+      "id": "us7000ks64"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.17,
+        "place": "123 km N of Suárez, Puerto Rico",
+        "time": 1693421022340,
+        "updated": 1693422591382,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023242001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023242001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 268,
+        "net": "pr",
+        "code": "2023242001",
+        "ids": ",pr2023242001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.3638,
+        "rms": 0.62,
+        "gap": 213,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.2 - 123 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.669,
+          19.5353,
+          92
+        ]
+      },
+      "id": "pr2023242001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Bering Strait",
+        "time": 1693418326351,
+        "updated": 1693424815099,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023b4iivvc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023b4iivvc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.678,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "ak",
+        "code": "023b4iivvc",
+        "ids": ",ak023b4iivvc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 2.44,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.7 - Bering Strait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.714,
+          67.5325,
+          51.3
+        ]
+      },
+      "id": "ak023b4iivvc"
     },
     {
       "type": "Feature",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "Puerto Rico region",
+        "place": "2 km S of Liborio Negron Torres, Puerto Rico",
         "time": 1693402540370,
         "updated": 1693404567300,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 176,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 2 km S of Liborio Negron Torres, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.84,
-        "place": "4 km E of La Parguera, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1693384505360,
         "updated": 1693385629450,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 164,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 4 km E of La Parguera, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47,
-        "place": "3 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1693374657010,
         "updated": 1693379738670,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 203,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km SW of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "198 km WSW of Bandar Lampung, Indonesia",
+        "place": "southwest of Sumatra, Indonesia",
         "time": 1693361825308,
         "updated": 1693371416040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 152,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 198 km WSW of Bandar Lampung, Indonesia"
+        "title": "M 5.0 - southwest of Sumatra, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "87 km W of Akhiok, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1693349846578,
         "updated": 1693349926289,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 87 km W of Akhiok, Alaska"
+        "title": "M 2.6 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -931,11 +1011,11 @@
     }
   ],
   "bbox": [
-    -155.5855,
+    -169.714,
     -36.324,
     5,
     170.0327,
-    60.7148,
+    67.5325,
     141
   ]
 }
