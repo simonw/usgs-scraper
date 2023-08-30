@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693393199000,
+    "generated": 1693396790000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,25 +12,65 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "37 km NNW of Valparaíso, Chile",
-        "time": 1693386436115,
-        "updated": 1693390819040,
+        "mag": 2.7,
+        "place": "western Texas",
+        "time": 1693395638119,
+        "updated": 1693396719040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ks19",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ks19.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ks1k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ks1k.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 112,
+        "net": "us",
+        "code": "7000ks1k",
+        "ids": ",us7000ks1k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.106,
+        "rms": 0.64,
+        "gap": 78,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.8012,
+          31.9967,
+          5
+        ]
+      },
+      "id": "us7000ks1k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "37 km NNW of Valparaíso, Chile",
+        "time": 1693386436115,
+        "updated": 1693394200557,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ks19",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ks19.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
         "net": "us",
         "code": "7000ks19",
         "ids": ",us7000ks19,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 35,
         "dmin": 0.321,
         "rms": 0.68,
@@ -1048,52 +1088,12 @@
         ]
       },
       "id": "ak023b2ru5uz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "32 km NW of Nikiski, Alaska",
-        "time": 1693309887987,
-        "updated": 1693309992372,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023b2rdedz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023b2rdedz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "023b2rdedz",
-        "ids": ",ak023b2rdedz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.4,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 32 km NW of Nikiski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.6977,
-          60.9068,
-          87.4
-        ]
-      },
-      "id": "ak023b2rdedz"
     }
   ],
   "bbox": [
     -163.3015,
     -43.5033,
-    6.63,
+    5,
     178.4065,
     61.3178,
     493.155
