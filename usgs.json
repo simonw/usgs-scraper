@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693728038000,
+    "generated": 1693731578000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 29
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
-        "place": "80 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1693727383000,
-        "updated": 1693728022994,
+        "mag": 2.68,
+        "place": "2 km N of Minco, Oklahoma",
+        "time": 1693728137170,
+        "updated": 1693729175040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt23246050",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt23246050.geojson",
-        "felt": 20,
-        "cdi": 4.8,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023rgge",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023rgge.geojson",
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 442,
-        "net": "pt",
-        "code": "23246050",
-        "ids": ",pt23246050,",
-        "sources": ",pt,",
-        "types": ",dyfi,origin,",
-        "nst": 19,
-        "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "Mi",
+        "sig": 111,
+        "net": "ok",
+        "code": "2023rgge",
+        "ids": ",ok2023rgge,us7000ksz8,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 63,
+        "dmin": 0.06139500812,
+        "rms": 0.7345536144,
+        "gap": 40.75735474,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.3 - 80 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 2.7 - 2 km N of Minco, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.496,
-          19.001,
-          1
+          -97.94405365,
+          35.33330154,
+          0.7944366932
         ]
       },
-      "id": "pt23246050"
+      "id": "ok2023rgge"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "74 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1693727381521,
+        "updated": 1693731547703,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ksz3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ksz3.geojson",
+        "felt": 94,
+        "cdi": 4.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000ksz3",
+        "ids": ",pt23246050,us7000ksz3,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 108,
+        "dmin": 0.736,
+        "rms": 0.91,
+        "gap": 32,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.8 - 74 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4814,
+          18.9376,
+          26.558
+        ]
+      },
+      "id": "us7000ksz3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "32 km NNW of Toyah, Texas",
+        "time": 1693727325636,
+        "updated": 1693729875040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ksz2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ksz2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000ksz2",
+        "ids": ",us7000ksz2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.057,
+        "rms": 0.27,
+        "gap": 65,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.7 - 32 km NNW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.9267,
+          31.5855,
+          5
+        ]
+      },
+      "id": "us7000ksz2"
     },
     {
       "type": "Feature",
@@ -1093,7 +1173,7 @@
   "bbox": [
     -178.8219,
     -59.2024,
-    1,
+    0.7944366932,
     179.7668,
     64.639,
     465.788
