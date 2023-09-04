@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693785639000,
+    "generated": 1693790500000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "7 km ENE of Pāhala, Hawaii",
+        "time": 1693789210980,
+        "updated": 1693789541170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73560637",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73560637.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "73560637",
+        "ids": ",hv73560637,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 138,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.410827636719,
+          19.2266674041748,
+          34.4700012207031
+        ]
+      },
+      "id": "hv73560637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "New Britain region, Papua New Guinea",
+        "time": 1693785474777,
+        "updated": 1693786389040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kt33",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kt33.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000kt33",
+        "ids": ",us7000kt33,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 2.214,
+        "rms": 0.92,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - New Britain region, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1745,
+          -5.1825,
+          260.415
+        ]
+      },
+      "id": "us7000kt33"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.65,
         "place": "9 km S of Lake Pillsbury, CA",
         "time": 1693783714660,
-        "updated": 1693785015395,
+        "updated": 1693788646255,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73932756",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73932756.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "73932756",
         "ids": ",nc73932756,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 7,
         "dmin": 0.664,
         "rms": 0.25,
