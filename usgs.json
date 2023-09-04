@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693799980000,
+    "generated": 1693803623000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "191 km SSE of Alo, Wallis and Futuna",
+        "time": 1693801209287,
+        "updated": 1693802190040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kt47",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kt47.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000kt47",
+        "ids": ",us7000kt47,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 4.275,
+        "rms": 0.75,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 191 km SSE of Alo, Wallis and Futuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.4582,
+          -15.9194,
+          427.02
+        ]
+      },
+      "id": "us7000kt47"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "4 km N of Tyonek, Alaska",
         "time": 1693799350771,
-        "updated": 1693799941040,
+        "updated": 1693800058936,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bcjtjpp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bcjtjpp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 121,
         "net": "ak",
         "code": "023bcjtjpp",
-        "ids": ",us7000kt41,ak023bcjtjpp,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak023bcjtjpp,us7000kt41,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.42,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak023bcjtjpp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "76 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1693798453180,
+        "updated": 1693801246250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71423558",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71423558.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "pr",
+        "code": "71423558",
+        "ids": ",pr71423558,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.7026,
+        "rms": 0.11,
+        "gap": 296,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 76 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7113333333333,
+          19.019,
+          4.01
+        ]
+      },
+      "id": "pr71423558"
     },
     {
       "type": "Feature",
@@ -168,6 +248,46 @@
         ]
       },
       "id": "pr71423528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "30 km SE of Lowman, Idaho",
+        "time": 1693792126426,
+        "updated": 1693802312040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kt3i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kt3i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000kt3i",
+        "ids": ",us7000kt3i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.75,
+        "rms": 0.87,
+        "gap": 115,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 30 km SE of Lowman, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.3353,
+          43.9044,
+          17.44
+        ]
+      },
+      "id": "us7000kt3i"
     },
     {
       "type": "Feature",
@@ -1413,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Southern Alaska",
+        "place": "2 km NW of Anchorage, Alaska",
         "time": 1693734221520,
         "updated": 1693770052140,
         "tz": null,
@@ -1437,7 +1557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Southern Alaska"
+        "title": "M 2.6 - 2 km NW of Anchorage, Alaska"
       },
       "geometry": {
         "type": "Point",
