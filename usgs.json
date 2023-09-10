@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694300432000,
+    "generated": 1694304055000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 47
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.6,
         "place": "66 km SSE of Cantwell, Alaska",
         "time": 1694297595706,
-        "updated": 1694299370040,
+        "updated": 1694302257357,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bl4lt9e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bl4lt9e.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 104,
         "net": "ak",
         "code": "023bl4lt9e",
-        "ids": ",us7000kunx,ak023bl4lt9e,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak023bl4lt9e,us7000kunx,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.57,
@@ -135,17 +135,17 @@
         "mag": 4,
         "place": "near the coast of central Chile",
         "time": 1694289794066,
-        "updated": 1694295727558,
+        "updated": 1694301173997,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kunh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kunh.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
+        "sig": 247,
         "net": "us",
         "code": "7000kunh",
         "ids": ",us7000kunh,",
@@ -1888,86 +1888,6 @@
         ]
       },
       "id": "us7000kufx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.06,
-        "place": "8 km E of Yucaipa, CA",
-        "time": 1694216428210,
-        "updated": 1694282692302,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39661746",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39661746.geojson",
-        "felt": 58,
-        "cdi": 4.1,
-        "mmi": 2.971,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ci",
-        "code": "39661746",
-        "ids": ",ci39661746,us7000kuft,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 138,
-        "dmin": 0.06244,
-        "rms": 0.16,
-        "gap": 19,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 8 km E of Yucaipa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.9541667,
-          34.0328333,
-          6.9
-        ]
-      },
-      "id": "ci39661746"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "85 km NNW of Karluk, Alaska",
-        "time": 1694216104819,
-        "updated": 1694232038643,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bjhsl5l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bjhsl5l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.553,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "023bjhsl5l",
-        "ids": ",av92036186,us7000kufr,ak023bjhsl5l,",
-        "sources": ",av,us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.65,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 85 km NNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.1164,
-          58.2541,
-          1.2
-        ]
-      },
-      "id": "ak023bjhsl5l"
     }
   ],
   "bbox": [
