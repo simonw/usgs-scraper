@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694509199000,
+    "generated": 1694512787000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Ryukyu Islands, Japan",
+        "time": 1694509047193,
+        "updated": 1694510269040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kv8k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kv8k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000kv8k",
+        "ids": ",us7000kv8k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 2.178,
+        "rms": 0.61,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Ryukyu Islands, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.2821,
+          28.0882,
+          10
+        ]
+      },
+      "id": "us7000kv8k"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.36,
         "place": "10 km NE of Morgan Hill, CA",
         "time": 1694507541400,
-        "updated": 1694509154381,
+        "updated": 1694512579610,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73935981",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73935981.geojson",
-        "felt": 169,
-        "cdi": 3.8,
+        "felt": 185,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 238,
+        "sig": 250,
         "net": "nc",
         "code": "73935981",
         "ids": ",nc73935981,",
@@ -1208,126 +1248,6 @@
         ]
       },
       "id": "us7000kuzp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "18 km NNE of Upper Lake, CA",
-        "time": 1694424933460,
-        "updated": 1694483053693,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73935691",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73935691.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "73935691",
-        "ids": ",nc73935691,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 75,
-        "dmin": 0.1495,
-        "rms": 0.14,
-        "gap": 62,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 18 km NNE of Upper Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7956667,
-          39.3005,
-          6.14
-        ]
-      },
-      "id": "nc73935691"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1694424056792,
-        "updated": 1694431465807,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kuzd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kuzd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 536,
-        "net": "us",
-        "code": "7000kuzd",
-        "ids": ",us7000kuzd,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 75,
-        "dmin": 11.775,
-        "rms": 0.53,
-        "gap": 45,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -26.0892,
-          0.7478,
-          10
-        ]
-      },
-      "id": "us7000kuzd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "4 km SSE of Salinas, Puerto Rico",
-        "time": 1694422909140,
-        "updated": 1694424382140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71424543",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71424543.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71424543",
-        "ids": ",pr71424543,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1643,
-        "rms": 0.28,
-        "gap": 191,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km SSE of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2778333333333,
-          17.943,
-          7.54
-        ]
-      },
-      "id": "pr71424543"
     }
   ],
   "bbox": [
