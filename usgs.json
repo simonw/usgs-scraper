@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694617210000,
+    "generated": 1694620810000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 24
   },
   "features": [
     {
@@ -735,12 +735,12 @@
         "mag": 2.8,
         "place": "5 km W of Lemitar, New Mexico",
         "time": 1694556066488,
-        "updated": 1694615450854,
+        "updated": 1694620251604,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvdp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvdp.geojson",
-        "felt": 10,
-        "cdi": 4,
+        "felt": 11,
+        "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -812,6 +812,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "106 km N of Hicks Bay, New Zealand",
+        "time": 1694544952578,
+        "updated": 1694619822040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvcd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvcd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000kvcd",
+        "ids": ",us7000kvcd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.924,
+        "rms": 1,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 106 km N of Hicks Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.2497,
+          -36.6381,
+          101.809
+        ]
+      },
+      "id": "us7000kvcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "48 km WNW of San Antonio de los Cobres, Argentina",
         "time": 1694543938160,
@@ -855,17 +895,17 @@
         "mag": 2.73,
         "place": "4 km NW of Fairchild Air Force Base, Washington",
         "time": 1694539520030,
-        "updated": 1694604055629,
+        "updated": 1694618043640,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61950352",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61950352.geojson",
-        "felt": 95,
+        "felt": 96,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 157,
+        "sig": 158,
         "net": "uw",
         "code": "61950352",
         "ids": ",uw61950352,us7000kvbs,",
@@ -928,93 +968,13 @@
         ]
       },
       "id": "tx2023rxkc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "western Texas",
-        "time": 1694532849774,
-        "updated": 1694596526587,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023rxgp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023rxgp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2023rxgp",
-        "ids": ",tx2023rxgp,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.04119253899,
-        "rms": 0.2,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - western Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.691573,
-          32.68157959,
-          7.409790039
-        ]
-      },
-      "id": "tx2023rxgp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Flores Sea",
-        "time": 1694530874923,
-        "updated": 1694533960040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvac",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvac.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000kvac",
-        "ids": ",us7000kvac,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 2.872,
-        "rms": 1.11,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Flores Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5332,
-          -7.7974,
-          10
-        ]
-      },
-      "id": "us7000kvac"
     }
   ],
   "bbox": [
     -176.4521,
-    -36.2201,
+    -36.6381,
     1.104,
-    159.8583,
+    178.2497,
     70.5769,
     648.711
   ]
