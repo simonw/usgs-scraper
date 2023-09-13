@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694606404000,
+    "generated": 1694610124000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.1,
+        "place": "West Chile Rise",
+        "time": 1694605755926,
+        "updated": 1694607091316,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvhu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvhu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 572,
+        "net": "us",
+        "code": "7000kvhu",
+        "ids": ",us7000kvhu,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 117,
+        "dmin": 13.309,
+        "rms": 0.65,
+        "gap": 37,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.1 - West Chile Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9378,
+          -36.2201,
+          10
+        ]
+      },
+      "id": "us7000kvhu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.2,
         "place": "Solomon Islands",
         "time": 1694605014934,
-        "updated": 1694606068040,
+        "updated": 1694607772248,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvhq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvhq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 6,
+        "cdi": 4.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 419,
         "net": "us",
         "code": "7000kvhq",
         "ids": ",us7000kvhq,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 107,
         "dmin": 0.223,
         "rms": 0.46,
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Jujuy, Argentina",
+        "place": "78 km WSW of Abra Pampa, Argentina",
         "time": 1694591560466,
         "updated": 1694593258040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Jujuy, Argentina"
+        "title": "M 4.2 - 78 km WSW of Abra Pampa, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -373,12 +413,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "62 km WNW of Toyah, Texas",
-        "time": 1694582310903,
-        "updated": 1694583264040,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1694582311195,
+        "updated": 1694610058679,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvfj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvfj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ryhu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ryhu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -386,28 +426,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
-        "net": "us",
-        "code": "7000kvfj",
-        "ids": ",us7000kvfj,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2023ryhu",
+        "ids": ",us7000kvfj,tx2023ryhu,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.137,
-        "rms": 0.28,
-        "gap": 89,
+        "nst": 18,
+        "dmin": 0.06442958063,
+        "rms": 0.1,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 62 km WNW of Toyah, Texas"
+        "title": "M 2.7 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3617,
-          31.5991,
-          5
+          -104.3635558,
+          31.62901529,
+          6.851391602
         ]
       },
-      "id": "us7000kvfj"
+      "id": "tx2023ryhu"
     },
     {
       "type": "Feature",
@@ -1012,7 +1052,7 @@
   ],
   "bbox": [
     -176.4521,
-    -24.1161,
+    -36.2201,
     1.104,
     159.8583,
     70.5769,
