@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694764815000,
+    "generated": 1694768415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "3 km WSW of Indios, Puerto Rico",
+        "time": 1694765122990,
+        "updated": 1694765665320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71424798",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71424798.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "pr",
+        "code": "71424798",
+        "ids": ",pr71424798,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.02889,
+        "rms": 0.11,
+        "gap": 177,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8505,
+          17.9843333333333,
+          12.42
+        ]
+      },
+      "id": "pr71424798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Bonin Islands, Japan region",
+        "time": 1694762408879,
+        "updated": 1694765789040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvwt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvwt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000kvwt",
+        "ids": ",us7000kvwt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 4.808,
+        "rms": 0.54,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2696,
+          28.3076,
+          175.54
+        ]
+      },
+      "id": "us7000kvwt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 4.7,
         "place": "34 km NNE of Saipan, Northern Mariana Islands",
         "time": 1694752008132,
-        "updated": 1694756583040,
+        "updated": 1694766426726,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvwe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvwe.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "7000kvwe",
         "ids": ",us7000kvwe,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": 2.136,
         "rms": 0.46,
@@ -575,11 +655,11 @@
         "mag": 4,
         "place": "18 km NE of Falls City, Texas",
         "time": 1694717441793,
-        "updated": 1694755840457,
+        "updated": 1694767790617,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023sbec",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023sbec.geojson",
-        "felt": 71,
+        "felt": 72,
         "cdi": 4.7,
         "mmi": 4.662,
         "alert": "green",
@@ -808,46 +888,6 @@
         ]
       },
       "id": "ci39664754"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "6 km N of Huara, Chile",
-        "time": 1694681311182,
-        "updated": 1694698825575,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvps",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvps.geojson",
-        "felt": 2,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000kvps",
-        "ids": ",us7000kvps,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.472,
-        "rms": 0.27,
-        "gap": 114,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 6 km N of Huara, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.7691,
-          -19.9418,
-          67.671
-        ]
-      },
-      "id": "us7000kvps"
     }
   ],
   "bbox": [
@@ -856,6 +896,6 @@
     1.82,
     149.5966,
     59.314,
-    127.342
+    175.54
   ]
 }
