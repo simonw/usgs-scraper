@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694930390000,
+    "generated": 1694933989000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 38
   },
   "features": [
     {
@@ -215,12 +215,12 @@
         "mag": 4.4,
         "place": "Southern Qinghai, China",
         "time": 1694916026802,
-        "updated": 1694919398040,
+        "updated": 1694933974321,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kw9h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kw9h.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +230,7 @@
         "code": "7000kw9h",
         "ids": ",us7000kw9h,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 4.119,
         "rms": 0.87,
@@ -372,6 +372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.9,
+        "place": "69 km SSW of Nikolski, Alaska",
+        "time": 1694908760756,
+        "updated": 1694932670577,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bwq8jt3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bwq8jt3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.118,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "023bwq8jt3",
+        "ids": ",ak023bwq8jt3,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.69,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 69 km SSW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.4,
+          52.41,
+          25.7
+        ]
+      },
+      "id": "ak023bwq8jt3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "Caspian Sea",
         "time": 1694904684665,
@@ -415,17 +455,17 @@
         "mag": 2.54,
         "place": "1 km SSE of View Park-Windsor Hills, CA",
         "time": 1694900930160,
-        "updated": 1694927451155,
+        "updated": 1694933014234,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39667186",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39667186.geojson",
-        "felt": 218,
+        "felt": 219,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 184,
+        "sig": 185,
         "net": "ci",
         "code": "39667186",
         "ids": ",ci39667186,",
@@ -1488,130 +1528,10 @@
         ]
       },
       "id": "pr2023259000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "7 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1694847372520,
-        "updated": 1694849113770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71424918",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71424918.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "pr",
-        "code": "71424918",
-        "ids": ",pr71424918,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.0649,
-        "rms": 0.1,
-        "gap": 228,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 7 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8681666666667,
-          17.9106666666667,
-          11.67
-        ]
-      },
-      "id": "pr71424918"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "9 km N of New Madrid, Missouri",
-        "time": 1694846539240,
-        "updated": 1694917104834,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60551786",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60551786.geojson",
-        "felt": 4,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "nm",
-        "code": "60551786",
-        "ids": ",nm60551786,us7000kw54,",
-        "sources": ",nm,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.05463,
-        "rms": 0.17,
-        "gap": 49,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 9 km N of New Madrid, Missouri"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.534,
-          36.6708333333333,
-          11.55
-        ]
-      },
-      "id": "nm60551786"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "3 km WNW of Gura Teghii, Romania",
-        "time": 1694844960744,
-        "updated": 1694850410449,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kw5d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kw5d.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "7000kw5d",
-        "ids": ",us7000kw5d,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.308,
-        "rms": 0.5,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.8 - 3 km WNW of Gura Teghii, Romania"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.3831,
-          45.4967,
-          137.644
-        ]
-      },
-      "id": "us7000kw5d"
     }
   ],
   "bbox": [
-    -122.4248352,
+    -169.4,
     -57.9007,
     1.08,
     167.1791,
