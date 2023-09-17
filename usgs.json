@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694941189000,
+    "generated": 1694944793000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.6,
         "place": "6 km WNW of Happys Inn, Montana",
         "time": 1694936588623,
-        "updated": 1694938440040,
+        "updated": 1694941956151,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwae",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwae.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "7000kwae",
         "ids": ",us7000kwae,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 30,
         "dmin": 0.364,
         "rms": 0.43,
@@ -95,11 +95,11 @@
         "mag": 2.5,
         "place": "Washington",
         "time": 1694934533835,
-        "updated": 1694938855929,
+        "updated": 1694942510420,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwad",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwad.geojson",
-        "felt": 16,
+        "felt": 18,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "pr2023260001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "9 km WNW of Narsingdi, Bangladesh",
+        "time": 1694933389583,
+        "updated": 1694944174705,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwaj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwaj.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 247,
+        "net": "us",
+        "code": "7000kwaj",
+        "ids": ",us7000kwaj,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 23,
+        "dmin": 5.265,
+        "rms": 0.33,
+        "gap": 154,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 9 km WNW of Narsingdi, Bangladesh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.6356,
+          23.9566,
+          10
+        ]
+      },
+      "id": "us7000kwaj"
     },
     {
       "type": "Feature",
@@ -1408,126 +1448,6 @@
         ]
       },
       "id": "us7000kw5u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "138 km SW of Cabeza de Toro, Mexico",
-        "time": 1694858260697,
-        "updated": 1694861164040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kw5s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kw5s.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000kw5s",
-        "ids": ",us7000kw5s,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 2.676,
-        "rms": 0.99,
-        "gap": 151,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 138 km SW of Cabeza de Toro, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.5272,
-          14.9124,
-          10
-        ]
-      },
-      "id": "us7000kw5s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "10 km SSE of Guánica, Puerto Rico",
-        "time": 1694858020290,
-        "updated": 1694859328880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71424973",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71424973.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 142,
-        "net": "pr",
-        "code": "71424973",
-        "ids": ",pr71424973,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.08578,
-        "rms": 0.13,
-        "gap": 238,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 10 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8678333333333,
-          17.8895,
-          12.88
-        ]
-      },
-      "id": "pr71424973"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "9 km SSE of Guánica, Puerto Rico",
-        "time": 1694857158140,
-        "updated": 1694858416010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71424963",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71424963.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "pr",
-        "code": "71424963",
-        "ids": ",pr71424963,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.08008,
-        "rms": 0.13,
-        "gap": 236,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 9 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.872,
-          17.8948333333333,
-          12.3
-        ]
-      },
-      "id": "pr71424963"
     }
   ],
   "bbox": [
