@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694962793000,
+    "generated": 1694966390000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.28,
+        "place": "47 km N of Hatillo, Puerto Rico",
+        "time": 1694961017220,
+        "updated": 1694963883340,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425133",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425133.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "pr",
+        "code": "71425133",
+        "ids": ",pr71425133,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.5015,
+        "rms": 0.18,
+        "gap": 270,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 47 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7975,
+          18.9118333333333,
+          20.26
+        ]
+      },
+      "id": "pr71425133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "95 km ENE of Norsup, Vanuatu",
+        "place": "Vanuatu",
         "time": 1694955525533,
         "updated": 1694956736040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 95 km ENE of Norsup, Vanuatu"
+        "title": "M 4.6 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Solomon Islands",
+        "place": "74 km WNW of Kirakira, Solomon Islands",
         "time": 1694951640157,
         "updated": 1694953048276,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 120,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Solomon Islands"
+        "title": "M 5.0 - 74 km WNW of Kirakira, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -95,22 +135,22 @@
         "mag": 5.6,
         "place": "228 km W of Port McNeill, Canada",
         "time": 1694950091292,
-        "updated": 1694957569588,
+        "updated": 1694965181623,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwaz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwaz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": 3.458,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 482,
+        "sig": 483,
         "net": "us",
         "code": "7000kwaz",
-        "ids": ",at00s14nv3,us7000kwaz,",
-        "sources": ",at,us,",
-        "types": ",impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "ids": ",us7000kwaz,at00s14nv3,",
+        "sources": ",us,at,",
+        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 82,
         "dmin": 1.385,
         "rms": 0.77,
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "East Timor region",
+        "place": "94 km ENE of Lospalos, Timor Leste",
         "time": 1694948174763,
         "updated": 1694949526040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 119,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - East Timor region"
+        "title": "M 4.4 - 94 km ENE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -175,22 +215,22 @@
         "mag": 4.3,
         "place": "Vancouver Island, Canada region",
         "time": 1694944758000,
-        "updated": 1694945124905,
+        "updated": 1694963622543,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00s14jqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00s14jqu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "REVIEWED",
         "tsunami": 1,
-        "sig": 284,
+        "sig": 285,
         "net": "at",
         "code": "00s14jqu",
         "ids": ",at00s14jqu,",
         "sources": ",at,",
-        "types": ",impact-link,origin,",
+        "types": ",dyfi,impact-link,origin,",
         "nst": 45,
         "dmin": 4.064877,
         "rms": 1.42,
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Western Montana",
+        "place": "6 km WNW of Happys Inn, Montana",
         "time": 1694936588623,
         "updated": 1694957351680,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 109,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Western Montana"
+        "title": "M 2.6 - 6 km WNW of Happys Inn, Montana"
       },
       "geometry": {
         "type": "Point",
@@ -333,13 +373,13 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "3 km E of Carnation, Washington",
+        "place": "Washington",
         "time": 1694934533835,
-        "updated": 1694960608580,
+        "updated": 1694964093358,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwad",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwad.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -357,7 +397,7 @@
         "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km E of Carnation, Washington"
+        "title": "M 2.5 - Washington"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.64,
-        "place": "Puerto Rico region",
+        "place": "9 km SSE of Guánica, Puerto Rico",
         "time": 1694924914940,
         "updated": 1694925451810,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 238,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 9 km SSE of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "63 km N of Namuac, Philippines",
+        "place": "Babuyan Islands region, Philippines",
         "time": 1694919491893,
         "updated": 1694921800040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 114,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 63 km N of Namuac, Philippines"
+        "title": "M 4.5 - Babuyan Islands region, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Southern Qinghai, China",
+        "place": "202 km W of Oula Xiuma, China",
         "time": 1694916026802,
         "updated": 1694933974321,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 76,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Southern Qinghai, China"
+        "title": "M 4.4 - 202 km W of Oula Xiuma, China"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.77,
-        "place": "Mona Passage",
+        "place": "29 km ESE of Boca de Yuma, Dominican Republic",
         "time": 1694915505400,
         "updated": 1694918741040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Mona Passage"
+        "title": "M 3.8 - 29 km ESE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "69 km SSW of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1694908760756,
         "updated": 1694932670577,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 69 km SSW of Nikolski, Alaska"
+        "title": "M 3.9 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Caspian Sea",
+        "place": "123 km NW of Türkmenbaşy, Turkmenistan",
         "time": 1694904684665,
         "updated": 1694906457040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 116,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Caspian Sea"
+        "title": "M 4.6 - 123 km NW of Türkmenbaşy, Turkmenistan"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "117 km NNE of Lospalos, Timor Leste",
         "time": 1694898841902,
         "updated": 1694903877040,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 44,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.2 - 117 km NNE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1328,126 +1368,6 @@
         ]
       },
       "id": "ci39667082"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "26 km E of Atlasovo, Russia",
-        "time": 1694879808450,
-        "updated": 1694880643040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kw7f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kw7f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000kw7f",
-        "ids": ",us7000kw7f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 2.675,
-        "rms": 0.75,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 26 km E of Atlasovo, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.0484,
-          55.5644,
-          188.729
-        ]
-      },
-      "id": "us7000kw7f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "9 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1694877074330,
-        "updated": 1694881602040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425038",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425038.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "pr",
-        "code": "71425038",
-        "ids": ",us7000kw78,pr71425038,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.0789,
-        "rms": 0.15,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 9 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8618333333333,
-          17.8975,
-          12.42
-        ]
-      },
-      "id": "pr71425038"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "7 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1694876674380,
-        "updated": 1694877803970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425023",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425023.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71425023",
-        "ids": ",pr71425023,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.05739,
-        "rms": 0.24,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8623333333333,
-          17.9196666666667,
-          12.73
-        ]
-      },
-      "id": "pr71425023"
     }
   ],
   "bbox": [
@@ -1455,7 +1375,7 @@
     -57.9007,
     1.08,
     168.1502,
-    55.5644,
+    52.41,
     225.529
   ]
 }
