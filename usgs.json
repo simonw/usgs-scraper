@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695283222000,
+    "generated": 1695286825000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.51,
+        "place": "7 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1695285219540,
+        "updated": 1695286266920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425433",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425433.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "pr",
+        "code": "71425433",
+        "ids": ",pr71425433,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.06286,
+        "rms": 0.15,
+        "gap": 231,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8726666666667,
+          17.9121666666667,
+          12.81
+        ]
+      },
+      "id": "pr71425433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.96,
         "place": "Oklahoma",
         "time": 1695281067323,
-        "updated": 1695281404068,
+        "updated": 1695283327040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023snbz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023snbz.geojson",
@@ -28,8 +68,8 @@
         "sig": 135,
         "net": "ok",
         "code": "2023snbz",
-        "ids": ",ok2023snbz,",
-        "sources": ",ok,",
+        "ids": ",us7000kx1w,ok2023snbz,",
+        "sources": ",us,ok,",
         "types": ",origin,phase-data,",
         "nst": 75,
         "dmin": 0.1520605683,
@@ -55,21 +95,21 @@
         "mag": 2.91,
         "place": "4 km WSW of Cupertino, CA",
         "time": 1695280447510,
-        "updated": 1695283059695,
+        "updated": 1695286738643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73939716",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73939716.geojson",
-        "felt": 319,
-        "cdi": 3.4,
+        "felt": 1057,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 239,
+        "sig": 560,
         "net": "nc",
         "code": "73939716",
-        "ids": ",nc73939716,",
-        "sources": ",nc,",
+        "ids": ",nc73939716,us7000kx1u,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 75,
         "dmin": 0.02856,
@@ -1048,54 +1088,14 @@
         ]
       },
       "id": "us7000kwv0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Fiji region",
-        "time": 1695199826292,
-        "updated": 1695200909040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwux",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwux.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000kwux",
-        "ids": ",us7000kwux,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 3.162,
-        "rms": 0.83,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.6302,
-          -17.8609,
-          559.401
-        ]
-      },
-      "id": "us7000kwux"
     }
   ],
   "bbox": [
-    -178.6302,
+    -160.3721,
     -44.8387,
     4.78,
     178.454,
     65.0218,
-    559.401
+    339.781
   ]
 }
