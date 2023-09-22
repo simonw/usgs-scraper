@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695412835000,
+    "generated": 1695416401000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.9,
+        "place": "7 km NE of Hermleigh, Texas",
+        "time": 1695413758071,
+        "updated": 1695416298740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023spwx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023spwx.geojson",
+        "felt": 9,
+        "cdi": 4.7,
+        "mmi": 5.254,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 238,
+        "net": "tx",
+        "code": "2023spwx",
+        "ids": ",us7000kxif,tx2023spwx,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 27,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 54,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 3.9 - 7 km NE of Hermleigh, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.698,
+          32.683,
+          7.2142
+        ]
+      },
+      "id": "tx2023spwx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.49,
         "place": "11 km S of Wilson, Oklahoma",
-        "time": 1695410684080,
-        "updated": 1695410931585,
+        "time": 1695413544222,
+        "updated": 1695413887475,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023spvg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023spvg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023spwu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023spwu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,14 +67,14 @@
         "tsunami": 0,
         "sig": 95,
         "net": "ok",
-        "code": "2023spvg",
-        "ids": ",ok2023spvg,",
+        "code": "2023spwu",
+        "ids": ",ok2023spwu,",
         "sources": ",ok,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.1916702688,
-        "rms": 1.042569661,
-        "gap": 84.85006714,
+        "nst": 30,
+        "dmin": 0.1896961629,
+        "rms": 0.8489113718,
+        "gap": 83.47467041,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 11 km S of Wilson, Oklahoma"
@@ -42,12 +82,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.41622925,
-          34.05717087,
+          -97.41573334,
+          34.06218338,
           5
         ]
       },
-      "id": "ok2023spvg"
+      "id": "ok2023spwu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "117 km WNW of Suttsu, Japan",
+        "time": 1695410020573,
+        "updated": 1695416372040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxi2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxi2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000kxi2",
+        "ids": ",us7000kxi2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 66,
+        "dmin": 2.728,
+        "rms": 0.59,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 117 km WNW of Suttsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9871,
+          43.3373,
+          219.462
+        ]
+      },
+      "id": "us7000kxi2"
     },
     {
       "type": "Feature",
@@ -55,12 +135,12 @@
         "mag": 2.97,
         "place": "8 km NW of Prague, Oklahoma",
         "time": 1695408715609,
-        "updated": 1695410454040,
+        "updated": 1695416235933,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023spud",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023spud.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +148,9 @@
         "sig": 136,
         "net": "ok",
         "code": "2023spud",
-        "ids": ",us7000kxhs,ok2023spud,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2023spud,us7000kxhs,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 100,
         "dmin": 0.1169770451,
         "rms": 0.21,
@@ -95,21 +175,21 @@
         "mag": 2.84,
         "place": "4 km WSW of Cupertino, CA",
         "time": 1695405794430,
-        "updated": 1695412642292,
+        "updated": 1695416179865,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73940346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73940346.geojson",
-        "felt": 688,
+        "felt": 707,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 358,
+        "sig": 364,
         "net": "nc",
         "code": "73940346",
-        "ids": ",nc73940346,",
-        "sources": ",nc,",
+        "ids": ",nc73940346,us7000kxhl,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 70,
         "dmin": 0.02823,
@@ -215,17 +295,17 @@
         "mag": 5.8,
         "place": "Kepulauan Babar, Indonesia",
         "time": 1695394757151,
-        "updated": 1695403289128,
+        "updated": 1695414796704,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxe7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxe7.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 4.5,
         "mmi": 3.945,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 522,
+        "sig": 523,
         "net": "us",
         "code": "7000kxe7",
         "ids": ",us7000kxe7,",
@@ -373,14 +453,14 @@
       "type": "Feature",
       "properties": {
         "mag": 3.28,
-        "place": "4 km ENE of Guaynabo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1695382695180,
-        "updated": 1695384194280,
+        "updated": 1695414442007,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425538",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425538.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -388,16 +468,16 @@
         "sig": 166,
         "net": "pr",
         "code": "71425538",
-        "ids": ",us7000kxcc,pr71425538,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr71425538,us7000kxcc,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.05913,
         "rms": 0.2,
         "gap": 165,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 4 km ENE of Guaynabo, Puerto Rico"
+        "title": "M 3.3 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Alaska Peninsula",
+        "place": "39 km S of Sand Point, Alaska",
         "time": 1695373481626,
         "updated": 1695398513412,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 123,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Alaska Peninsula"
+        "title": "M 5.0 - 39 km S of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Alaska Peninsula",
+        "place": "87 km NNW of Karluk, Alaska",
         "time": 1695373091776,
         "updated": 1695373193995,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Alaska Peninsula"
+        "title": "M 2.7 - 87 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "192 km SE of Chignik, Alaska",
+        "place": "south of Alaska",
         "time": 1695364461624,
         "updated": 1695371477183,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 192 km SE of Chignik, Alaska"
+        "title": "M 3.6 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "63 km S of Corinto, Nicaragua",
+        "place": "near the coast of Nicaragua",
         "time": 1695359235960,
         "updated": 1695394884405,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 63 km S of Corinto, Nicaragua"
+        "title": "M 4.9 - near the coast of Nicaragua"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "35 km SW of Sangay, Philippines",
+        "place": "Moro Gulf, Mindanao, Philippines",
         "time": 1695352692479,
         "updated": 1695353599040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 35 km SW of Sangay, Philippines"
+        "title": "M 4.4 - Moro Gulf, Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Central Peru",
+        "place": "35 km E of Honoria, Peru",
         "time": 1695348715494,
         "updated": 1695350021040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Central Peru"
+        "title": "M 4.9 - 35 km E of Honoria, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "8 km S of Buff Bay, Jamaica",
+        "place": "Jamaica region",
         "time": 1695342672047,
         "updated": 1695410588678,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 41,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 8 km S of Buff Bay, Jamaica"
+        "title": "M 4.3 - Jamaica region"
       },
       "geometry": {
         "type": "Point",
@@ -1455,17 +1535,17 @@
         "mag": 6.1,
         "place": "41 km WSW of Sola, Vanuatu",
         "time": 1695330709950,
-        "updated": 1695401953040,
+        "updated": 1695415472141,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kx7j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kx7j.geojson",
-        "felt": 1,
-        "cdi": 4.3,
+        "felt": 2,
+        "cdi": 6.4,
         "mmi": 4.064,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 573,
+        "sig": 574,
         "net": "us",
         "code": "7000kx7j",
         "ids": ",us7000kx7j,",
