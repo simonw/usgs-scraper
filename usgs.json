@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695438026000,
+    "generated": 1695441626000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.49,
+        "place": "1 km WSW of Pāhala, Hawaii",
+        "time": 1695440358010,
+        "updated": 1695441156040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73583612",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73583612.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "73583612",
+        "ids": ",us7000kxks,hv73583612,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": null,
+        "rms": 0.0900000036,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km WSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.491500854492,
+          19.2003326416016,
+          32.810001373291
+        ]
+      },
+      "id": "hv73583612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "Tarapaca, Chile",
         "time": 1695435180074,
-        "updated": 1695436672040,
+        "updated": 1695440271287,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxkk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxkk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000kxkk",
         "ids": ",us7000kxkk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 0.162,
         "rms": 0.49,
@@ -655,17 +695,17 @@
         "mag": 2.84,
         "place": "4 km WSW of Cupertino, CA",
         "time": 1695405794430,
-        "updated": 1695437835785,
+        "updated": 1695440756775,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73940346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73940346.geojson",
-        "felt": 768,
+        "felt": 773,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 387,
         "net": "nc",
         "code": "73940346",
         "ids": ",nc73940346,us7000kxhl,",
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us7000kxan"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "35 km SW of Sangay, Philippines",
-        "time": 1695352692479,
-        "updated": 1695353599040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxac",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxac.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000kxac",
-        "ids": ",us7000kxac,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 1.957,
-        "rms": 0.66,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 35 km SW of Sangay, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.7894,
-          6.2467,
-          574.518
-        ]
-      },
-      "id": "us7000kxac"
     }
   ],
   "bbox": [
@@ -1496,6 +1496,6 @@
     1.1,
     179.8635,
     60.6999,
-    574.518
+    512.693
   ]
 }
