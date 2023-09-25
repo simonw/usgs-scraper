@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695664835000,
+    "generated": 1695668417000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "10 km S of Wilson, Oklahoma",
+        "time": 1695665411669,
+        "updated": 1695666307040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023svfh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023svfh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "ok",
+        "code": "2023svfh",
+        "ids": ",us7000ky0q,ok2023svfh,",
+        "sources": ",us,ok,",
+        "types": ",origin,phase-data,",
+        "nst": 77,
+        "dmin": 0,
+        "rms": 0.37,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 10 km S of Wilson, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43233333,
+          34.07033333,
+          6.31
+        ]
+      },
+      "id": "ok2023svfh"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1295,11 +1335,11 @@
         "mag": 3.68,
         "place": "9 km WNW of Velma, Oklahoma",
         "time": 1695602431129,
-        "updated": 1695655043137,
+        "updated": 1695667758984,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023stwr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023stwr.geojson",
-        "felt": 84,
+        "felt": 85,
         "cdi": 4.1,
         "mmi": 4.101,
         "alert": null,
@@ -1310,7 +1350,7 @@
         "code": "2023stwr",
         "ids": ",ok2023stwr,us7000kxwc,",
         "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 97,
         "dmin": 0,
         "rms": 0.36,
@@ -1528,53 +1568,13 @@
         ]
       },
       "id": "us7000kxvg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "278 km W of Adak, Alaska",
-        "time": 1695579615470,
-        "updated": 1695589465012,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxuq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxuq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.954,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "7000kxuq",
-        "ids": ",ak023c9vbs6m,us7000kxuq,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 40,
-        "dmin": 0.438,
-        "rms": 0.39,
-        "gap": 200,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - 278 km W of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.3543,
-          51.5855,
-          70.586
-        ]
-      },
-      "id": "us7000kxuq"
     }
   ],
   "bbox": [
     -178.5016,
     -55.9027,
     -0.66000002622604,
-    179.3543,
+    173.6373,
     67.4426,
     611.429
   ]
