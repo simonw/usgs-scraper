@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695924035000,
+    "generated": 1695927635000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 52
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.72,
         "place": "13 km WNW of Bridgeport, CA",
         "time": 1695923778980,
-        "updated": 1695923983552,
+        "updated": 1695927240565,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73943081",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73943081.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73943081",
         "ids": ",nc73943081,nn00866471,",
         "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 30,
         "dmin": 0.07621,
         "rms": 0.17,
@@ -55,14 +55,14 @@
         "mag": 5.8,
         "place": "123 km SSE of Kuril’sk, Russia",
         "time": 1695922804490,
-        "updated": 1695924007040,
+        "updated": 1695925106184,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbgs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbgs.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 3.718,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 518,
@@ -70,7 +70,7 @@
         "code": "6000lbgs",
         "ids": ",us6000lbgs,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 186,
         "dmin": 4.348,
         "rms": 0.72,
@@ -212,15 +212,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "65 km NNE of Van Horn, Texas",
+        "time": 1695916543631,
+        "updated": 1695925188040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbf7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbf7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000lbf7",
+        "ids": ",us6000lbf7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.096,
+        "rms": 0.49,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 65 km NNE of Van Horn, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.553,
+          31.5838,
+          4.636
+        ]
+      },
+      "id": "us6000lbf7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.1,
         "place": "60 km E of Luganville, Vanuatu",
         "time": 1695912026208,
-        "updated": 1695923373060,
+        "updated": 1695927277345,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbdi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbdi.geojson",
-        "felt": 6,
-        "cdi": 4.5,
+        "felt": 7,
+        "cdi": 4.2,
         "mmi": 4.461,
         "alert": "green",
         "status": "reviewed",
@@ -535,11 +575,11 @@
         "mag": 3.1,
         "place": "23 km E of Tanque Verde, Arizona",
         "time": 1695898220266,
-        "updated": 1695922599674,
+        "updated": 1695926437841,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbcm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbcm.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -2048,86 +2088,6 @@
         ]
       },
       "id": "tx2023syzg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "223 km E of Lospalos, Timor Leste",
-        "time": 1695841159833,
-        "updated": 1695842322040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lb6d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lb6d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000lb6d",
-        "ids": ",us6000lb6d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 5.042,
-        "rms": 0.88,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 223 km E of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.0028,
-          -8.228,
-          10
-        ]
-      },
-      "id": "us6000lb6d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "295 km ESE of Levuka, Fiji",
-        "time": 1695837640586,
-        "updated": 1695838654040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lb63",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lb63.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000lb63",
-        "ids": ",us6000lb63,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 3.467,
-        "rms": 0.56,
-        "gap": 48,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 295 km ESE of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.0347,
-          -18.9362,
-          613.082
-        ]
-      },
-      "id": "us6000lb63"
     }
   ],
   "bbox": [
@@ -2136,6 +2096,6 @@
     0.1,
     167.7222,
     66.485,
-    613.082
+    571.321
   ]
 }
