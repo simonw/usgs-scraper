@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695995986000,
+    "generated": 1695999587000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1695996212000,
+        "updated": 1695997514157,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73943336",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73943336.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "nc",
+        "code": "73943336",
+        "ids": ",nc73943336,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.009317,
+        "rms": 0.06,
+        "gap": 37,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8184967,
+          38.8300018,
+          1.79
+        ]
+      },
+      "id": "nc73943336"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1493,12 +1533,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "65 km NNE of Van Horn, Texas",
-        "time": 1695916543631,
-        "updated": 1695925188040,
+        "place": "western Texas",
+        "time": 1695916543483,
+        "updated": 1695997903217,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbf7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbf7.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023tanj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023tanj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -1506,155 +1546,35 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
-        "net": "us",
-        "code": "6000lbf7",
-        "ids": ",us6000lbf7,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2023tanj",
+        "ids": ",us6000lbf7,tx2023tanj,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.096,
-        "rms": 0.49,
-        "gap": 74,
-        "magType": "ml",
+        "nst": 23,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 77,
+        "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.7 - 65 km NNE of Van Horn, Texas"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.553,
-          31.5838,
-          4.636
+          -104.564,
+          31.603,
+          6.4658
         ]
       },
-      "id": "us6000lbf7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "60 km E of Luganville, Vanuatu",
-        "time": 1695912026208,
-        "updated": 1695937808170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbdi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbdi.geojson",
-        "felt": 8,
-        "cdi": 4.6,
-        "mmi": 4.461,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 576,
-        "net": "us",
-        "code": "6000lbdi",
-        "ids": ",us6000lbdi,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 114,
-        "dmin": 5.923,
-        "rms": 0.73,
-        "gap": 23,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - 60 km E of Luganville, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.7222,
-          -15.5835,
-          127.473
-        ]
-      },
-      "id": "us6000lbdi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "near the west coast of Honshu, Japan",
-        "time": 1695911388043,
-        "updated": 1695916213040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbdg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbdg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000lbdg",
-        "ids": ",us6000lbdg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.173,
-        "rms": 0.62,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - near the west coast of Honshu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          137.2433,
-          37.4327,
-          10
-        ]
-      },
-      "id": "us6000lbdg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Banda Sea",
-        "time": 1695909645712,
-        "updated": 1695910808040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbd8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbd8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000lbd8",
-        "ids": ",us6000lbd8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.824,
-        "rms": 0.66,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.1077,
-          -6.3468,
-          173.15
-        ]
-      },
-      "id": "us6000lbd8"
+      "id": "tx2023tanj"
     }
   ],
   "bbox": [
     -178.0632,
     -27.7378,
     0,
-    167.7222,
+    153.2187,
     69.5196,
     597.798
   ]
