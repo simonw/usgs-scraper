@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695985230000,
+    "generated": 1695988832000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "147 km NNE of Agats, Indonesia",
+        "time": 1695987672772,
+        "updated": 1695988805040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbnf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbnf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000lbnf",
+        "ids": ",us6000lbnf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 2.816,
+        "rms": 0.71,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 147 km NNE of Agats, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.4754,
+          -4.2537,
+          130.7
+        ]
+      },
+      "id": "us6000lbnf"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "70 km E of Chiniak, Alaska",
         "time": 1695984585475,
-        "updated": 1695984826152,
+        "updated": 1695986355040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ci0fbyr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ci0fbyr.geojson",
@@ -28,8 +68,8 @@
         "sig": 129,
         "net": "ak",
         "code": "023ci0fbyr",
-        "ids": ",ak023ci0fbyr,",
-        "sources": ",ak,",
+        "ids": ",us6000lbnc,ak023ci0fbyr,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -53,9 +93,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "64 km SW of Covenant Life, Alaska",
+        "place": "Southeastern Alaska",
         "time": 1695981063317,
-        "updated": 1695981222923,
+        "updated": 1695985558040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023chzu8jf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023chzu8jf.geojson",
@@ -68,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "023chzu8jf",
-        "ids": ",ak023chzu8jf,",
-        "sources": ",ak,",
+        "ids": ",us6000lbn3,ak023chzu8jf,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -77,7 +117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 64 km SW of Covenant Life, Alaska"
+        "title": "M 2.6 - Southeastern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -135,12 +175,12 @@
         "mag": 4.5,
         "place": "9 km N of Daigo, Japan",
         "time": 1695974271936,
-        "updated": 1695975468040,
+        "updated": 1695985402180,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbmk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbmk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "6000lbmk",
         "ids": ",us6000lbmk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 83,
         "dmin": 1.737,
         "rms": 0.93,
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "102 km WSW of Adak, Alaska",
         "time": 1695973256535,
         "updated": 1695976539040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 196,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.7 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.7 - 102 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "70 km SSW of Kaktovik, Alaska",
+        "place": "northern Alaska",
         "time": 1695972844309,
         "updated": 1695973044080,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 70 km SSW of Kaktovik, Alaska"
+        "title": "M 2.5 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.86,
-        "place": "1 km NNW of Magas Arriba, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1695957552920,
         "updated": 1695958270980,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 136,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 1 km NNW of Magas Arriba, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -812,46 +852,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "59 km S of Whites City, New Mexico",
-        "time": 1695938953995,
-        "updated": 1695939850040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbjc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbjc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000lbjc",
-        "ids": ",us6000lbjc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.047,
-        "rms": 0.32,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 59 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4566,
-          31.64,
-          9.217
-        ]
-      },
-      "id": "us6000lbjc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.3,
         "place": "117 km SSW of Kaktovik, Alaska",
         "time": 1695935310739,
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the coast of Guatemala",
+        "place": "56 km SW of Acajutla, El Salvador",
         "time": 1695930378256,
         "updated": 1695937475144,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 177,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the coast of Guatemala"
+        "title": "M 4.6 - 56 km SW of Acajutla, El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "37 km NE of Anamizu, Japan",
+        "place": "near the west coast of Honshu, Japan",
         "time": 1695911388043,
         "updated": 1695916213040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 37 km NE of Anamizu, Japan"
+        "title": "M 4.5 - near the west coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "6 km SSE of Monte Plata, Dominican Republic",
+        "place": "Dominican Republic",
         "time": 1695902700343,
         "updated": 1695919486228,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 119,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 6 km SSE of Monte Plata, Dominican Republic"
+        "title": "M 4.2 - Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -1488,166 +1488,6 @@
         ]
       },
       "id": "us6000lbd0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "18 km SW of Falls City, Texas",
-        "time": 1695902223693,
-        "updated": 1695906961040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023tafm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023tafm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2023tafm",
-        "ids": ",us6000lbcy,tx2023tafm,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 63,
-        "magType": "ml(texnet)",
-        "type": "earthquake",
-        "title": "M 2.9 - 18 km SW of Falls City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.137,
-          28.849,
-          2.1276
-        ]
-      },
-      "id": "tx2023tafm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "Virgin Islands",
-        "time": 1695900373010,
-        "updated": 1695908734421,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023271001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023271001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "pr",
-        "code": "2023271001",
-        "ids": ",pr2023271001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.7655,
-        "rms": 0.33,
-        "gap": 337,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3293,
-          18.7913,
-          35
-        ]
-      },
-      "id": "pr2023271001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Banda Sea",
-        "time": 1695899804404,
-        "updated": 1695907466040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbcv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbcv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000lbcv",
-        "ids": ",us6000lbcv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 2.078,
-        "rms": 0.72,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.6119,
-          -6.594,
-          153.495
-        ]
-      },
-      "id": "us6000lbcv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "64 km SSW of Whites City, New Mexico",
-        "time": 1695899603580,
-        "updated": 1695920373824,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023taec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023taec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2023taec",
-        "ids": ",us6000lbcu,tx2023taec,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 75,
-        "magType": "ml(texnet)",
-        "type": "earthquake",
-        "title": "M 2.6 - 64 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.541,
-          31.611,
-          5.7459
-        ]
-      },
-      "id": "tx2023taec"
     }
   ],
   "bbox": [
