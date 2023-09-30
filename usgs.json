@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696042787000,
+    "generated": 1696046424000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.17,
         "place": "12 km ESE of Pāhala, Hawaii",
         "time": 1696041759220,
-        "updated": 1696042484460,
+        "updated": 1696043415981,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73588382",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73588382.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +28,9 @@
         "sig": 155,
         "net": "hv",
         "code": "73588382",
-        "ids": ",us6000lbuf,hv73588382,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv73588382,us6000lbuf,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 62,
         "dmin": null,
         "rms": 0.12,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "hv73588382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "124 km WSW of Ternate, Indonesia",
+        "time": 1696039663682,
+        "updated": 1696045341040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbuc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbuc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000lbuc",
+        "ids": ",us6000lbuc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 1.096,
+        "rms": 1.13,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 124 km WSW of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.2962,
+          0.5359,
+          42.746
+        ]
+      },
+      "id": "us6000lbuc"
     },
     {
       "type": "Feature",
@@ -528,46 +568,6 @@
         ]
       },
       "id": "us6000lbrs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "19 km WNW of Biggs, CA",
-        "time": 1696006958030,
-        "updated": 1696008917290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73943431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73943431.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "73943431",
-        "ids": ",nc73943431,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.2767,
-        "rms": 0.16,
-        "gap": 182,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 19 km WNW of Biggs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.92733,
-          39.4519997,
-          20.88
-        ]
-      },
-      "id": "nc73943431"
     },
     {
       "type": "Feature",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us6000lbm5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "Puerto Rico region",
-        "time": 1695957552920,
-        "updated": 1695958270980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71426443",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71426443.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71426443",
-        "ids": ",pr71426443,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.02047,
-        "rms": 0.19,
-        "gap": 136,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.775,
-          18.0331666666667,
-          12.44
-        ]
-      },
-      "id": "pr71426443"
     }
   ],
   "bbox": [
