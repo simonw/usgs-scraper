@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696510993000,
+    "generated": 1696514413000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
     {
@@ -173,14 +173,14 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Southern Alaska",
+        "place": "47 km SSW of Glacier View, Alaska",
         "time": 1696500102282,
-        "updated": 1696500176062,
+        "updated": 1696512626170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023crxd4am",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023crxd4am.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -190,14 +190,14 @@
         "code": "023crxd4am",
         "ids": ",ak023crxd4am,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.58,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Southern Alaska"
+        "title": "M 2.7 - 47 km SSW of Glacier View, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "western Texas",
+        "place": "34 km WSW of Mentone, Texas",
         "time": 1696480544659,
         "updated": 1696502126333,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 49,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.7 - western Texas"
+        "title": "M 2.7 - 34 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kepulauan Sangihe, Indonesia",
+        "place": "123 km SSE of Sarangani, Philippines",
         "time": 1696477103401,
         "updated": 1696478203040,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 101,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kepulauan Sangihe, Indonesia"
+        "title": "M 4.5 - 123 km SSE of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "62 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1696467813558,
         "updated": 1696507148368,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 69,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.7 - 62 km S of Whites City, New Mexico"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1652,6 +1652,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "South Africa",
+        "time": 1696447440623,
+        "updated": 1696513397306,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ld3x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ld3x.geojson",
+        "felt": 4,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 212,
+        "net": "us",
+        "code": "6000ld3x",
+        "ids": ",us6000ld3x,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 8,
+        "dmin": 2.414,
+        "rms": 0.69,
+        "gap": 134,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - South Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8584,
+          -26.3093,
+          5
+        ]
+      },
+      "id": "us6000ld3x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "Izu Islands, Japan region",
         "time": 1696444217357,
@@ -1892,7 +1932,7 @@
   ],
   "bbox": [
     -178.4983,
-    -22.7079,
+    -26.3093,
     -0.73,
     169.3834,
     64.5002,
