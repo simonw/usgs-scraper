@@ -1,28 +1,148 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697079598000,
+    "generated": 1697083198000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Kermadec Islands region",
+        "time": 1697081431199,
+        "updated": 1697082858040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lezl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lezl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000lezl",
+        "ids": ",us6000lezl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 1.472,
+        "rms": 1.15,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.2373,
+          -29.3289,
+          10
+        ]
+      },
+      "id": "us6000lezl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "18 km S of Sunrise, Alaska",
+        "time": 1697079774599,
+        "updated": 1697079973762,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023d3dyut1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023d3dyut1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "023d3dyut1",
+        "ids": ",ak023d3dyut1,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.97,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 18 km S of Sunrise, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.3731,
+          60.7204,
+          0
+        ]
+      },
+      "id": "ak023d3dyut1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "Kenai Peninsula, Alaska",
+        "time": 1697079770209,
+        "updated": 1697082412330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023d3dyqv0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023d3dyqv0.geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": 2.685,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "023d3dyqv0",
+        "ids": ",ak023d3dyqv0,us6000lez1,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.26,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - Kenai Peninsula, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.7148,
+          60.3497,
+          63.4
+        ]
+      },
+      "id": "ak023d3dyqv0"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.6,
         "place": "162 km W of Nikolski, Alaska",
         "time": 1697078472874,
-        "updated": 1697079578022,
+        "updated": 1697082079670,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000leyu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000leyu.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": 3.856,
-        "alert": null,
+        "felt": 2,
+        "cdi": 3.8,
+        "mmi": 4.073,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
         "sig": 483,
@@ -30,7 +150,7 @@
         "code": "6000leyu",
         "ids": ",at00s2ea4o,ak023d3dlld2,us6000leyu,",
         "sources": ",at,ak,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "types": ",dyfi,impact-link,losspager,oaf,origin,phase-data,shakemap,",
         "nst": 131,
         "dmin": 0.757,
         "rms": 1.42,
@@ -93,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "Puerto Rico region",
+        "place": "10 km S of Emajagua, Puerto Rico",
         "time": 1697068124190,
         "updated": 1697068863550,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 10 km S of Emajagua, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "83 km NW of Phôngsali, Laos",
+        "place": "China-Laos border region",
         "time": 1697065331479,
         "updated": 1697068242040,
         "tz": null,
@@ -197,7 +317,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 83 km NW of Phôngsali, Laos"
+        "title": "M 4.4 - China-Laos border region"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Ryukyu Islands, Japan",
+        "place": "75 km NW of Uken, Japan",
         "time": 1697063593547,
         "updated": 1697064406040,
         "tz": null,
@@ -237,7 +357,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Ryukyu Islands, Japan"
+        "title": "M 4.6 - 75 km NW of Uken, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.86,
-        "place": "10 km NE of Garland, Tennessee",
+        "place": "Tennessee",
         "time": 1697026234500,
         "updated": 1697078681012,
         "tz": null,
@@ -637,7 +757,7 @@
         "gap": 71,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 10 km NE of Garland, Tennessee"
+        "title": "M 2.9 - Tennessee"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "off the coast of Jalisco, Mexico",
+        "place": "184 km SSW of Emiliano Zapata, Mexico",
         "time": 1697020132095,
         "updated": 1697021529040,
         "tz": null,
@@ -757,7 +877,7 @@
         "gap": 277,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - off the coast of Jalisco, Mexico"
+        "title": "M 4.2 - 184 km SSW of Emiliano Zapata, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "9 km NNE of Camiña, Chile",
+        "place": "Tarapaca, Chile",
         "time": 1697002190626,
         "updated": 1697070020676,
         "tz": null,
@@ -957,7 +1077,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 9 km NNE of Camiña, Chile"
+        "title": "M 4.9 - Tarapaca, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1168,214 +1288,14 @@
         ]
       },
       "id": "us6000lepk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Balleny Islands region",
-        "time": 1696996496152,
-        "updated": 1697003981748,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lepj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lepj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000lepj",
-        "ids": ",us6000lepj,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 26,
-        "dmin": 14.231,
-        "rms": 0.97,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.5 - Balleny Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.5028,
-          -63.8023,
-          10
-        ]
-      },
-      "id": "us6000lepj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Greenland Sea",
-        "time": 1696995733290,
-        "updated": 1696996814040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lepf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lepf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000lepf",
-        "ids": ",us6000lepf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 5.421,
-        "rms": 0.58,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Greenland Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.7797,
-          73.6146,
-          10
-        ]
-      },
-      "id": "us6000lepf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "south of the Fiji Islands",
-        "time": 1696995262571,
-        "updated": 1696996395040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lepe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lepe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000lepe",
-        "ids": ",us6000lepe,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 4.506,
-        "rms": 0.5,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.5904,
-          -25.322,
-          507.816
-        ]
-      },
-      "id": "us6000lepe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "31 km SE of Mina, Nevada",
-        "time": 1696994013498,
-        "updated": 1697042301782,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00867125",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00867125.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00867125",
-        "ids": ",nn00867125,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.078,
-        "rms": 0.1533,
-        "gap": 86.86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 31 km SE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8949,
-          38.1663,
-          11.9
-        ]
-      },
-      "id": "nn00867125"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "24 km N of Fox River, Alaska",
-        "time": 1696993435272,
-        "updated": 1696993583402,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023d1qfmhe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023d1qfmhe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "023d1qfmhe",
-        "ids": ",ak023d1qfmhe,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.63,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 24 km N of Fox River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.9233,
-          60.0772,
-          56.2
-        ]
-      },
-      "id": "ak023d1qfmhe"
     }
   ],
   "bbox": [
-    -173.9981,
-    -63.8023,
-    1.41,
+    -176.2373,
+    -58.2868,
+    0,
     179.789,
-    73.6146,
+    61.8159,
     511.03
   ]
 }
