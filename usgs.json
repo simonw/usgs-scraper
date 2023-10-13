@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697227228000,
+    "generated": 1697230840000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.51,
         "place": "13 km N of Wai‘ōhinu, Hawaii",
         "time": 1697225988200,
-        "updated": 1697226319830,
+        "updated": 1697227273789,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73607692",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73607692.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73607692",
         "ids": ",hv73607692,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 39,
         "dmin": null,
         "rms": 0.230000004,
@@ -248,6 +248,46 @@
         ]
       },
       "id": "us6000lfcl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "47 km ENE of Atka, Alaska",
+        "time": 1697206511675,
+        "updated": 1697229953764,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023d584l4j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023d584l4j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.506,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "023d584l4j",
+        "ids": ",ak023d584l4j,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 47 km ENE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.527,
+          52.2854,
+          121.7
+        ]
+      },
+      "id": "ak023d584l4j"
     },
     {
       "type": "Feature",
@@ -1408,86 +1448,6 @@
         ]
       },
       "id": "us6000lf7t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "40 km NE of Dipayal, Nepal",
-        "time": 1697141203920,
-        "updated": 1697208832040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lf7f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lf7f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000lf7f",
-        "ids": ",us6000lf7f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 3.969,
-        "rms": 0.81,
-        "gap": 168,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 40 km NE of Dipayal, Nepal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.2143,
-          29.5386,
-          10
-        ]
-      },
-      "id": "us6000lf7f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "13 km NNE of La Libertad, Honduras",
-        "time": 1697140840715,
-        "updated": 1697151925112,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lf7c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lf7c.geojson",
-        "felt": 7,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 328,
-        "net": "us",
-        "code": "6000lf7c",
-        "ids": ",us6000lf7c,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 93,
-        "dmin": 0.863,
-        "rms": 0.71,
-        "gap": 70,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 13 km NNE of La Libertad, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.5663,
-          14.8766,
-          10
-        ]
-      },
-      "id": "us6000lf7c"
     }
   ],
   "bbox": [
