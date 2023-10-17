@@ -1,28 +1,108 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697551234000,
+    "generated": 1697554805000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.82,
+        "place": "19 km E of Petrolia, CA",
+        "time": 1697553994170,
+        "updated": 1697554394307,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73948255",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73948255.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "nc",
+        "code": "73948255",
+        "ids": ",nc73948255,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.04411,
+        "rms": 0.09,
+        "gap": 70,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 19 km E of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.057663,
+          40.3185005,
+          30.8
+        ]
+      },
+      "id": "nc73948255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "29 km NE of Petersville, Alaska",
+        "time": 1697553310553,
+        "updated": 1697553395803,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dbue8jz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dbue8jz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "023dbue8jz",
+        "ids": ",ak023dbue8jz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.19,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 29 km NE of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.375,
+          62.6939,
+          74.1
+        ]
+      },
+      "id": "ak023dbue8jz"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.6,
         "place": "southeast of the Loyalty Islands",
         "time": 1697550032544,
-        "updated": 1697551178040,
+        "updated": 1697551401847,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lg4y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lg4y.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 482,
@@ -30,7 +110,7 @@
         "code": "6000lg4y",
         "ids": ",us6000lg4y,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 47,
         "dmin": 3.043,
         "rms": 0.95,
@@ -133,9 +213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.98,
-        "place": "45 km ENE of San Clemente Is. (SE tip), CA",
-        "time": 1697531388450,
-        "updated": 1697550093264,
+        "place": "46 km ENE of San Clemente Is. (SE tip), CA",
+        "time": 1697531388590,
+        "updated": 1697551423672,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40583304",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40583304.geojson",
@@ -143,7 +223,7 @@
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 138,
         "net": "ci",
@@ -151,20 +231,20 @@
         "ids": ",ci40583304,",
         "sources": ",ci,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 81,
-        "dmin": 0.4809,
-        "rms": 0.35,
-        "gap": 179,
+        "nst": 47,
+        "dmin": 0.4699,
+        "rms": 0.29,
+        "gap": 132,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 45 km ENE of San Clemente Is. (SE tip), CA"
+        "title": "M 3.0 - 46 km ENE of San Clemente Is. (SE tip), CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9163361,
-          32.9970016,
-          0.04
+          -117.9086667,
+          33.0058333,
+          0.75
         ]
       },
       "id": "ci40583304"
@@ -1088,46 +1168,6 @@
         ]
       },
       "id": "us6000lfxq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "11 km WNW of Humboldt Hill, CA",
-        "time": 1697465742130,
-        "updated": 1697514079283,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73947930",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73947930.geojson",
-        "felt": 21,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 140,
-        "net": "nc",
-        "code": "73947930",
-        "ids": ",nc73947930,us6000lfxb,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.08128,
-        "rms": 0.09,
-        "gap": 196,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 11 km WNW of Humboldt Hill, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.3113333,
-          40.755,
-          26.33
-        ]
-      },
-      "id": "nc73947930"
     }
   ],
   "bbox": [
@@ -1135,7 +1175,7 @@
     -41.7063,
     0,
     170.7083,
-    57.1373,
+    62.6939,
     595.112
   ]
 }
