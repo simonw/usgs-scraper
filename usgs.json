@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697634121000,
+    "generated": 1697637581000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,22 +15,22 @@
         "mag": 3,
         "place": "14 km SSW of Susitna, Alaska",
         "time": 1697633832993,
-        "updated": 1697633933692,
+        "updated": 1697637149486,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ddgvfs3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ddgvfs3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "023ddgvfs3",
         "ids": ",ak023ddgvfs3,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.48,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak023ddgvfs3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "1 km SE of Bayındır, Turkey",
+        "time": 1697633725181,
+        "updated": 1697634474040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lgcm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lgcm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000lgcm",
+        "ids": ",us6000lgcm,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.573,
+        "rms": 0.7,
+        "gap": 48,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.2 - 1 km SE of Bayındır, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6588,
+          38.2073,
+          9.688
+        ]
+      },
+      "id": "us6000lgcm"
     },
     {
       "type": "Feature",
@@ -1568,53 +1608,13 @@
         ]
       },
       "id": "ak023dbue8jz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1697550032544,
-        "updated": 1697557451940,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lg4y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lg4y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000lg4y",
-        "ids": ",us6000lg4y,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 47,
-        "dmin": 3.043,
-        "rms": 0.95,
-        "gap": 102,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.7083,
-          -22.2214,
-          15.736
-        ]
-      },
-      "id": "us6000lg4y"
     }
   ],
   "bbox": [
     -176.1218,
     -55.3107,
     1.4,
-    170.7083,
+    153.4218,
     63.0583,
     249.9
   ]
