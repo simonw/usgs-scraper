@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697619579000,
+    "generated": 1697623205000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1697621496420,
+        "updated": 1697622495977,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ukov",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ukov.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2023ukov",
+        "ids": ",tx2023ukov,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 57,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.365,
+          31.673,
+          3.8693
+        ]
+      },
+      "id": "tx2023ukov"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1697621396419,
+        "updated": 1697621955662,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ukot",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ukot.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "tx",
+        "code": "2023ukot",
+        "ids": ",us6000lgby,tx2023ukot,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 66,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 3.4 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.368,
+          31.669,
+          5.6688
+        ]
+      },
+      "id": "tx2023ukot"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "western Texas",
+        "time": 1697620937132,
+        "updated": 1697621903786,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ukol",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ukol.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 4.444,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "tx",
+        "code": "2023ukol",
+        "ids": ",us6000lgbw,tx2023ukol,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 12,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 69,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 3.8 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.374,
+          31.672,
+          4.9233
+        ]
+      },
+      "id": "tx2023ukol"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.2,
         "place": "146 km E of Yigo Village, Guam",
         "time": 1697616688828,
-        "updated": 1697619090040,
+        "updated": 1697620292514,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lgbq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lgbq.geojson",
@@ -135,12 +255,12 @@
         "mag": 2.56,
         "place": "6 km ESE of Marston, Missouri",
         "time": 1697612236300,
-        "updated": 1697614724040,
+        "updated": 1697622055034,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60555826",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60555826.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -148,9 +268,9 @@
         "sig": 101,
         "net": "nm",
         "code": "60555826",
-        "ids": ",us6000lgba,nm60555826,",
-        "sources": ",us,nm,",
-        "types": ",origin,phase-data,",
+        "ids": ",nm60555826,us6000lgba,",
+        "sources": ",nm,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": 0.04964,
         "rms": 0.12,
@@ -1372,6 +1492,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "117 km SSW of Manuel Ávila Camacho (Ponte Duro), Mexico",
+        "time": 1697544085414,
+        "updated": 1697620628040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lg4n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lg4n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000lg4n",
+        "ids": ",us6000lg4n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 145,
+        "dmin": 2.385,
+        "rms": 0.68,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 117 km SSW of Manuel Ávila Camacho (Ponte Duro), Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1611,
+          14.9025,
+          10
+        ]
+      },
+      "id": "us6000lg4n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.85,
         "place": "3 km WSW of Fuig, Puerto Rico",
         "time": 1697542497470,
@@ -1408,46 +1568,6 @@
         ]
       },
       "id": "pr71428983"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "121 km N of Labuan Bajo, Indonesia",
-        "time": 1697534968339,
-        "updated": 1697617045040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lg3u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lg3u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000lg3u",
-        "ids": ",us6000lg3u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.572,
-        "rms": 0.55,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 121 km N of Labuan Bajo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.9459,
-          -7.4036,
-          422.678
-        ]
-      },
-      "id": "us6000lg3u"
     }
   ],
   "bbox": [
@@ -1456,6 +1576,6 @@
     1.4,
     170.7083,
     63.0583,
-    422.678
+    249.9
   ]
 }
