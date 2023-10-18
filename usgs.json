@@ -1,49 +1,49 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697626816000,
+    "generated": 1697630405000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
+        "mag": 5.5,
         "place": "Pacific-Antarctic Ridge",
-        "time": 1697624969836,
-        "updated": 1697625861040,
+        "time": 1697624969719,
+        "updated": 1697628083216,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lgca",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lgca.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 465,
         "net": "us",
         "code": "6000lgca",
         "ids": ",us6000lgca,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 54,
-        "dmin": 30.282,
-        "rms": 0.47,
+        "dmin": 30.304,
+        "rms": 0.48,
         "gap": 103,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Pacific-Antarctic Ridge"
+        "title": "M 5.5 - Pacific-Antarctic Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -128.438,
-          -55.3265,
+          -128.4661,
+          -55.3107,
           10
         ]
       },
@@ -1608,51 +1608,11 @@
         ]
       },
       "id": "us6000lg4n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "3 km WSW of Fuig, Puerto Rico",
-        "time": 1697542497470,
-        "updated": 1697544362090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71428983",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71428983.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "pr",
-        "code": "71428983",
-        "ids": ",pr71428983,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.03643,
-        "rms": 0.14,
-        "gap": 184,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 3 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9468333333333,
-          17.9696666666667,
-          9.43
-        ]
-      },
-      "id": "pr71428983"
     }
   ],
   "bbox": [
     -176.1218,
-    -55.3265,
+    -55.3107,
     1.4,
     170.7083,
     63.0583,
