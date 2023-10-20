@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697835577000,
+    "generated": 1697839217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Tonga region",
+        "time": 1697836880411,
+        "updated": 1697838626040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lh14",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lh14.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000lh14",
+        "ids": ",us6000lh14,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 2.913,
+        "rms": 0.5,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Tonga region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.9717,
+          -18.6595,
+          10
+        ]
+      },
+      "id": "us6000lh14"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "8 km ENE of Alum Rock, CA",
+        "time": 1697836318220,
+        "updated": 1697838236078,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73949470",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73949470.geojson",
+        "felt": 6,
+        "cdi": 2.6,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "nc",
+        "code": "73949470",
+        "ids": ",nc73949470,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 61,
+        "dmin": 0.07864,
+        "rms": 0.08,
+        "gap": 35,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 8 km ENE of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7386703,
+          37.3888321,
+          5.67
+        ]
+      },
+      "id": "nc73949470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "23 km NNE of Atka, Alaska",
+        "time": 1697835288313,
+        "updated": 1697839028263,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lh10",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lh10.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.731,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000lh10",
+        "ids": ",ak023dgwp187,us6000lh10,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 55,
+        "dmin": 0.042,
+        "rms": 0.71,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 23 km NNE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.0331,
+          52.3848,
+          116.005
+        ]
+      },
+      "id": "us6000lh10"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.22,
         "place": "57 km W of Petrolia, CA",
         "time": 1697835014540,
-        "updated": 1697835523202,
+        "updated": 1697836408005,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73949465",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73949465.geojson",
@@ -28,8 +148,8 @@
         "sig": 160,
         "net": "nc",
         "code": "73949465",
-        "ids": ",nc73949465,",
-        "sources": ",nc,",
+        "ids": ",nc73949465,us6000lh0s,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 38,
         "dmin": 0.4724,
@@ -133,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "5 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1697831130050,
         "updated": 1697832205180,
         "tz": null,
@@ -157,7 +277,7 @@
         "gap": 202,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 5 km SW of Guánica, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "84 km SSW of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1697830781964,
         "updated": 1697832847557,
         "tz": null,
@@ -197,7 +317,7 @@
         "gap": 139,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 84 km SSW of Nikolski, Alaska"
+        "title": "M 4.3 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "14 km ENE of Kimbe, Papua New Guinea",
         "time": 1697830442111,
         "updated": 1697831284040,
         "tz": null,
@@ -237,7 +357,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - New Britain region, Papua New Guinea"
+        "title": "M 4.9 - 14 km ENE of Kimbe, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "La Paz, Bolivia",
+        "place": "Oruro, Bolivia",
         "time": 1697826867434,
         "updated": 1697827904040,
         "tz": null,
@@ -357,7 +477,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - La Paz, Bolivia"
+        "title": "M 4.2 - Oruro, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Kepulauan Batu, Indonesia",
+        "place": "155 km SSE of Teluk Dalam, Indonesia",
         "time": 1697824897899,
         "updated": 1697826353040,
         "tz": null,
@@ -437,7 +557,7 @@
         "gap": 147,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Kepulauan Batu, Indonesia"
+        "title": "M 4.9 - 155 km SSE of Teluk Dalam, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -575,11 +695,11 @@
         "mag": 3,
         "place": "6 km ESE of Spanish Springs, Nevada",
         "time": 1697817565571,
-        "updated": 1697834252534,
+        "updated": 1697838729672,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00867659",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00867659.geojson",
-        "felt": 90,
+        "felt": 91,
         "cdi": 2.8,
         "mmi": null,
         "alert": null,
@@ -773,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "8 km ENE of Fox, Alaska",
+        "place": "Central Alaska",
         "time": 1697795243466,
         "updated": 1697816140871,
         "tz": null,
@@ -797,7 +917,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 8 km ENE of Fox, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "98 km ENE of Masohi, Indonesia",
+        "place": "Seram, Indonesia",
         "time": 1697788649125,
         "updated": 1697790682040,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 98 km ENE of Masohi, Indonesia"
+        "title": "M 4.9 - Seram, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "256 km NNE of Hicks Bay, New Zealand",
+        "place": "off the east coast of the North Island of New Zealand",
         "time": 1697773788242,
         "updated": 1697777299040,
         "tz": null,
@@ -917,7 +1037,7 @@
         "gap": 106,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 256 km NNE of Hicks Bay, New Zealand"
+        "title": "M 4.6 - off the east coast of the North Island of New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.45,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "11 km NE of Pāhala, Hawaii",
         "time": 1697771353210,
         "updated": 1697781042838,
         "tz": null,
@@ -1037,7 +1157,7 @@
         "gap": 106,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - Island of Hawaii, Hawaii"
+        "title": "M 3.5 - 11 km NE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "92 km NNE of Arctic Village, Alaska",
+        "place": "northern Alaska",
         "time": 1697756310906,
         "updated": 1697757319040,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 129,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 92 km NNE of Arctic Village, Alaska"
+        "title": "M 2.7 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1328,46 +1448,6 @@
         ]
       },
       "id": "us6000lgre"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "Puerto Rico",
-        "time": 1697750613170,
-        "updated": 1697752334740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429278",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429278.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "71429278",
-        "ids": ",pr71429278,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1188,
-        "rms": 0.24,
-        "gap": 181,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8255,
-          18.3215,
-          16.93
-        ]
-      },
-      "id": "pr71429278"
     }
   ],
   "bbox": [
