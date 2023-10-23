@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698087593000,
+    "generated": 1698091177000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
+        "place": "Puerto Rico region",
+        "time": 1698089550330,
+        "updated": 1698090482050,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429623",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429623.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "pr",
+        "code": "71429623",
+        "ids": ",pr71429623,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.05151,
+        "rms": 0.19,
+        "gap": 180,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.808,
+          17.9706666666667,
+          15.95
+        ]
+      },
+      "id": "pr71429623"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,12 +255,12 @@
         "mag": 2.49,
         "place": "4 km SSE of Rio Vista, CA",
         "time": 1698076169810,
-        "updated": 1698085032431,
+        "updated": 1698090774277,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73950390",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73950390.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -228,9 +268,9 @@
         "sig": 95,
         "net": "nc",
         "code": "73950390",
-        "ids": ",nc73950390,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73950390,us6000lhj0,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 33,
         "dmin": null,
         "rms": 0.54,
@@ -255,17 +295,17 @@
         "mag": 2.88,
         "place": "4 km SE of Rio Vista, CA",
         "time": 1698072135350,
-        "updated": 1698086827182,
+        "updated": 1698090045578,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73950380",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73950380.geojson",
-        "felt": 93,
+        "felt": 94,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 156,
+        "sig": 157,
         "net": "nc",
         "code": "73950380",
         "ids": ",us6000lhhw,nc73950380,",
@@ -455,11 +495,11 @@
         "mag": 3.0500000000000003,
         "place": "Puget Sound region, Washington",
         "time": 1698028905820,
-        "updated": 1698086266096,
+        "updated": 1698090758383,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61958757",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61958757.geojson",
-        "felt": 171,
+        "felt": 172,
         "cdi": 3.8,
         "mmi": 2.352,
         "alert": null,
@@ -848,93 +888,13 @@
         ]
       },
       "id": "ak023dk7iyjo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "south of the Fiji Islands",
-        "time": 1698003103199,
-        "updated": 1698010478234,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhch",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhch.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.466,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000lhch",
-        "ids": ",us6000lhch,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 94,
-        "dmin": 5.58,
-        "rms": 1.05,
-        "gap": 56,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.3946,
-          -23.6632,
-          537.016
-        ]
-      },
-      "id": "us6000lhch"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "near the coast of Fujian, China",
-        "time": 1698002422741,
-        "updated": 1698030437717,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhcf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhcf.geojson",
-        "felt": 6,
-        "cdi": 4.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 387,
-        "net": "us",
-        "code": "6000lhcf",
-        "ids": ",us6000lhcf,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 74,
-        "dmin": 1.432,
-        "rms": 0.63,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - near the coast of Fujian, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          117.3952,
-          23.3525,
-          10
-        ]
-      },
-      "id": "us6000lhcf"
     }
   ],
   "bbox": [
     -155.7479,
     -23.7218,
     0.01,
-    179.3946,
+    179.0544,
     66.2807,
     542.401
   ]
