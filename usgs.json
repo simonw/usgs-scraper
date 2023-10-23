@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698091177000,
+    "generated": 1698094807000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.04,
+        "place": "43 km N of San Antonio, Puerto Rico",
+        "time": 1698091933130,
+        "updated": 1698093001610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429633",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429633.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 142,
+        "net": "pr",
+        "code": "71429633",
+        "ids": ",pr71429633,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.5671,
+        "rms": 0.12,
+        "gap": 272,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 43 km N of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1768333333333,
+          18.8763333333333,
+          20.77
+        ]
+      },
+      "id": "pr71429633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.57,
-        "place": "Puerto Rico region",
+        "place": "2 km SSE of Indios, Puerto Rico",
         "time": 1698089550330,
         "updated": 1698090482050,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 180,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 2 km SSE of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "10 km ESE of Esperanza, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1698086062250,
         "updated": 1698087392790,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 148,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 10 km ESE of Esperanza, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -135,12 +175,12 @@
         "mag": 4.6,
         "place": "57 km SE of Madang, Papua New Guinea",
         "time": 1698079621204,
-        "updated": 1698081283040,
+        "updated": 1698092913008,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l5sv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l5sv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "7000l5sv",
         "ids": ",us7000l5sv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 62,
         "dmin": 6.212,
         "rms": 1.09,
@@ -255,7 +295,7 @@
         "mag": 2.49,
         "place": "4 km SSE of Rio Vista, CA",
         "time": 1698076169810,
-        "updated": 1698090774277,
+        "updated": 1698091512610,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73950390",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73950390.geojson",
@@ -292,14 +332,94 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5,
+        "place": "61 km NW of Maba, Indonesia",
+        "time": 1698075022272,
+        "updated": 1698076490040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhiz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhiz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000lhiz",
+        "ids": ",us6000lhiz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.715,
+        "rms": 0.79,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 61 km NW of Maba, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9713,
+          1.1569,
+          10.53
+        ]
+      },
+      "id": "us6000lhiz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Fiji region",
+        "time": 1698073126668,
+        "updated": 1698074638040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhhz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhhz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000lhhz",
+        "ids": ",us6000lhhz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 4.911,
+        "rms": 0.62,
+        "gap": 41,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7113,
+          -17.5242,
+          549.219
+        ]
+      },
+      "id": "us6000lhhz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.88,
         "place": "4 km SE of Rio Vista, CA",
         "time": 1698072135350,
-        "updated": 1698090045578,
+        "updated": 1698092385757,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73950380",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73950380.geojson",
-        "felt": 94,
+        "felt": 95,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -308,8 +428,8 @@
         "sig": 157,
         "net": "nc",
         "code": "73950380",
-        "ids": ",us6000lhhw,nc73950380,",
-        "sources": ",us,nc,",
+        "ids": ",ew1698072140,us6000lhhw,nc73950380,",
+        "sources": ",ew,us,nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 70,
         "dmin": 0.04001,
@@ -332,10 +452,450 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.61,
+        "mag": 2.47,
+        "place": "8 km WNW of Walker, CA",
+        "time": 1698069104980,
+        "updated": 1698092890741,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73950350",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73950350.geojson",
+        "felt": 2,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "nc",
+        "code": "73950350",
+        "ids": ",nc73950350,nn00867776,",
+        "sources": ",nc,nn,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.04253,
+        "rms": 0.07,
+        "gap": 77,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km WNW of Walker, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.556,
+          38.5541667,
+          1.91
+        ]
+      },
+      "id": "nc73950350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "0 km NE of Indios, Puerto Rico",
+        "time": 1698068014860,
+        "updated": 1698068602420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429558",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429558.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "pr",
+        "code": "71429558",
+        "ids": ",pr71429558,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.202,
+        "rms": 0.14,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 0 km NE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8133333333333,
+          17.9981666666667,
+          10.45
+        ]
+      },
+      "id": "pr71429558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "95 km E of Yujing, Taiwan",
+        "time": 1698067160161,
+        "updated": 1698074563914,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhhc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhhc.geojson",
+        "felt": 5,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 299,
+        "net": "us",
+        "code": "6000lhhc",
+        "ids": ",us6000lhhc,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 92,
+        "dmin": 0.321,
+        "rms": 0.65,
+        "gap": 73,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - 95 km E of Yujing, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3762,
+          22.9863,
+          16.851
+        ]
+      },
+      "id": "us6000lhhc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "3 km NE of Yauco, Puerto Rico",
+        "time": 1698066991430,
+        "updated": 1698069996170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429548",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429548.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "pr",
+        "code": "71429548",
+        "ids": ",pr71429548,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.2063,
+        "rms": 0.12,
+        "gap": 157,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km NE of Yauco, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8228333333333,
+          18.0533333333333,
+          8.3
+        ]
+      },
+      "id": "pr71429548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "Puerto Rico",
+        "time": 1698066631320,
+        "updated": 1698069594730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429538",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429538.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71429538",
+        "ids": ",pr71429538,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.2024,
+        "rms": 0.05,
+        "gap": 186,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8141666666667,
+          17.9998333333333,
+          11.38
+        ]
+      },
+      "id": "pr71429538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.35,
+        "place": "1 km E of Indios, Puerto Rico",
+        "time": 1698066354050,
+        "updated": 1698072040040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429528",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429528.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 173,
+        "net": "pr",
+        "code": "71429528",
+        "ids": ",pr71429528,us6000lhhe,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1973,
+        "rms": 0.18,
+        "gap": 173,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 1 km E of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8066666666667,
+          17.9918333333333,
+          10.33
+        ]
+      },
+      "id": "pr71429528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.45,
+        "place": "1 km ENE of Indios, Puerto Rico",
+        "time": 1698065882440,
+        "updated": 1698094719959,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023296001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023296001.geojson",
+        "felt": 145,
+        "cdi": 5.4,
+        "mmi": 4.761,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 383,
+        "net": "pr",
+        "code": "2023296001",
+        "ids": ",pt23296001,us6000lhh6,pr2023296001,",
+        "sources": ",pt,us,pr,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 17,
+        "dmin": 0.239,
+        "rms": 0.19,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.5 - 1 km ENE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8058,
+          17.9988,
+          10
+        ]
+      },
+      "id": "pr2023296001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "7 km NNE of Sadovo, Bulgaria",
+        "time": 1698061639002,
+        "updated": 1698083442526,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhgt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhgt.geojson",
+        "felt": 3,
+        "cdi": 2.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 200,
+        "net": "us",
+        "code": "6000lhgt",
+        "ids": ",us6000lhgt,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.125,
+        "rms": 0.83,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 7 km NNE of Sadovo, Bulgaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9766,
+          42.1896,
+          7.718
+        ]
+      },
+      "id": "us6000lhgt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "82 km NE of San Felipe, Chile",
+        "time": 1698049037438,
+        "updated": 1698064306040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhfy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhfy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000lhfy",
+        "ids": ",us6000lhfy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.701,
+        "rms": 0.96,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 82 km NE of San Felipe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1631,
+          -32.1734,
+          107.144
+        ]
+      },
+      "id": "us6000lhfy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "48 km E of Port Alsworth, Alaska",
+        "time": 1698043832964,
+        "updated": 1698077146040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhfh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhfh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000lhfh",
+        "ids": ",us6000lhfh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.234,
+        "rms": 0.34,
+        "gap": 27,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 48 km E of Port Alsworth, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.4452,
+          60.1609,
+          144.949
+        ]
+      },
+      "id": "us6000lhfh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "13 km ESE of Khowy, Iran",
+        "time": 1698041116128,
+        "updated": 1698074854040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhfe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhfe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000lhfe",
+        "ids": ",us6000lhfe,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 1.118,
+        "rms": 0.71,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 13 km ESE of Khowy, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0917,
+          38.4942,
+          10
+        ]
+      },
+      "id": "us6000lhfe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
         "place": "8 km E of Coso Junction, CA",
-        "time": 1698040590440,
-        "updated": 1698040810284,
+        "time": 1698040590510,
+        "updated": 1698073099390,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40585144",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40585144.geojson",
@@ -343,31 +903,71 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 98,
         "net": "ci",
         "code": "40585144",
         "ids": ",ci40585144,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.06808,
-        "rms": 0.14,
-        "gap": 77,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.046,
+        "rms": 0.15,
+        "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 8 km E of Coso Junction, CA"
+        "title": "M 2.5 - 8 km E of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -117.8603333,
-          36.0495,
-          1.51
+          36.0468333,
+          1.97
         ]
       },
       "id": "ci40585144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "Colombia-Ecuador border region",
+        "time": 1698038611744,
+        "updated": 1698070583687,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhf4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhf4.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 200,
+        "net": "us",
+        "code": "6000lhf4",
+        "ids": ",us6000lhf4,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.11,
+        "rms": 0.71,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.6 - Colombia-Ecuador border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3038,
+          0.2419,
+          7.9
+        ]
+      },
+      "id": "us6000lhf4"
     },
     {
       "type": "Feature",
@@ -455,12 +1055,12 @@
         "mag": 2.85,
         "place": "3 km S of Monte Grande, Puerto Rico",
         "time": 1698032788040,
-        "updated": 1698033688530,
+        "updated": 1698066726533,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429463",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429463.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +1070,7 @@
         "code": "71429463",
         "ids": ",pr71429463,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.04309,
         "rms": 0.23,
@@ -493,19 +1093,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3.0500000000000003,
-        "place": "Puget Sound region, Washington",
+        "place": "5 km WSW of Burley, Washington",
         "time": 1698028905820,
-        "updated": 1698090758383,
+        "updated": 1698093822616,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61958757",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61958757.geojson",
-        "felt": 172,
+        "felt": 176,
         "cdi": 3.8,
         "mmi": 2.352,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 208,
+        "sig": 210,
         "net": "uw",
         "code": "61958757",
         "ids": ",uw61958757,us6000lhe7,",
@@ -517,7 +1117,7 @@
         "gap": 24,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Puget Sound region, Washington"
+        "title": "M 3.1 - 5 km WSW of Burley, Washington"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Mona Passage",
+        "place": "164 km N of San Antonio, Puerto Rico",
         "time": 1698024025526,
         "updated": 1698031990040,
         "tz": null,
@@ -637,7 +1237,7 @@
         "gap": 217,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Mona Passage"
+        "title": "M 3.4 - 164 km N of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "84 km WNW of Karluk, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1698021483806,
         "updated": 1698022271040,
         "tz": null,
@@ -677,7 +1277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 84 km WNW of Karluk, Alaska"
+        "title": "M 2.7 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "37 km W of Mentone, Texas",
+        "place": "western Texas",
         "time": 1698017111939,
         "updated": 1698017853040,
         "tz": null,
@@ -757,7 +1357,7 @@
         "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 37 km W of Mentone, Texas"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -852,50 +1452,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "57 km W of Nanwalek, Alaska",
-        "time": 1698005639977,
-        "updated": 1698018445011,
+        "mag": 2.45,
+        "place": "9 km SSE of McCall, Idaho",
+        "time": 1698011054370,
+        "updated": 1698071617470,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dk7iyjo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dk7iyjo.geojson",
-        "felt": 11,
-        "cdi": 3.8,
-        "mmi": 2.973,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90030568",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90030568.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 226,
-        "net": "ak",
-        "code": "023dk7iyjo",
-        "ids": ",ak023dk7iyjo,us6000lhcj,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.84,
-        "gap": null,
+        "sig": 92,
+        "net": "mb",
+        "code": "90030568",
+        "ids": ",mb90030568,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.2655,
+        "rms": 0.19,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 57 km W of Nanwalek, Alaska"
+        "title": "M 2.5 - 9 km SSE of McCall, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.9368,
-          59.3356,
-          81.1
+          -116.0605,
+          44.8255,
+          0.44
         ]
       },
-      "id": "ak023dk7iyjo"
+      "id": "mb90030568"
     }
   ],
   "bbox": [
-    -155.7479,
-    -23.7218,
+    -178.7113,
+    -32.1734,
     0.01,
     179.0544,
     66.2807,
-    542.401
+    549.219
   ]
 }
