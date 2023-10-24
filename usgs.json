@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698174020000,
+    "generated": 1698177579000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "7 km SSW of Holtville, CA",
+        "time": 1698177064720,
+        "updated": 1698177300194,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40586488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40586488.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "ci",
+        "code": "40586488",
+        "ids": ",ci40586488,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 27,
+        "dmin": 0.05421,
+        "rms": 0.27,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 7 km SSW of Holtville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.4201667,
+          32.7558333,
+          16.35
+        ]
+      },
+      "id": "ci40586488"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.59,
         "place": "2 km ENE of Berkeley, CA",
         "time": 1698170993910,
-        "updated": 1698173686967,
+        "updated": 1698176739257,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73950825",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73950825.geojson",
-        "felt": 112,
+        "felt": 120,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 140,
         "net": "nc",
         "code": "73950825",
         "ids": ",nc73950825,",
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73950825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "western Xizang",
+        "time": 1698170565917,
+        "updated": 1698176035040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l61c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l61c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000l61c",
+        "ids": ",us7000l61c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 136,
+        "dmin": 4.974,
+        "rms": 0.65,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - western Xizang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4205,
+          33.5556,
+          10.018
+        ]
+      },
+      "id": "us7000l61c"
     },
     {
       "type": "Feature",
@@ -1015,17 +1095,17 @@
         "mag": 5.9,
         "place": "57 km SW of Yonakuni, Japan",
         "time": 1698102325506,
-        "updated": 1698150895870,
+        "updated": 1698176925319,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l5vd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l5vd.geojson",
-        "felt": 50,
+        "felt": 51,
         "cdi": 5.7,
         "mmi": 4.308,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 564,
+        "sig": 565,
         "net": "us",
         "code": "7000l5vd",
         "ids": ",us7000l5vd,",
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us7000l5ug"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "2 km SSE of Indios, Puerto Rico",
-        "time": 1698089550330,
-        "updated": 1698090482050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429623.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71429623",
-        "ids": ",pr71429623,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.05151,
-        "rms": 0.19,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km SSE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.808,
-          17.9706666666667,
-          15.95
-        ]
-      },
-      "id": "pr71429623"
     }
   ],
   "bbox": [
