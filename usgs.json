@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698181185000,
+    "generated": 1698184820000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "3 km WSW of Guánica, Puerto Rico",
+        "time": 1698183657500,
+        "updated": 1698184381170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429758",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429758.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "pr",
+        "code": "71429758",
+        "ids": ",pr71429758,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.02661,
+        "rms": 0.15,
+        "gap": 190,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km WSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9348333333333,
+          17.9628333333333,
+          14.26
+        ]
+      },
+      "id": "pr71429758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "8 km ENE of Tapay, Peru",
+        "time": 1698178909793,
+        "updated": 1698181338040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l62h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l62h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000l62h",
+        "ids": ",us7000l62h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 3.058,
+        "rms": 1.28,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 8 km ENE of Tapay, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8631,
+          -15.5467,
+          122.291
+        ]
+      },
+      "id": "us7000l62h"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,21 +135,21 @@
         "mag": 2.59,
         "place": "2 km ENE of Berkeley, CA",
         "time": 1698170993910,
-        "updated": 1698179555202,
+        "updated": 1698184174040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73950825",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73950825.geojson",
-        "felt": 122,
-        "cdi": 3.1,
+        "felt": 124,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 140,
         "net": "nc",
         "code": "73950825",
-        "ids": ",nc73950825,",
-        "sources": ",nc,",
+        "ids": ",nc73950825,us7000l61g,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 70,
         "dmin": null,
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "4 km W of La Parguera, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1698138582120,
         "updated": 1698139240280,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 232,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 4 km W of La Parguera, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "217 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1698127100696,
         "updated": 1698139611291,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 146,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - 217 km W of Port McNeill, Canada"
+        "title": "M 4.5 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.82,
-        "place": "1 km SE of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1698115361520,
         "updated": 1698116267230,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 190,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 1 km SE of Indios, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.87,
-        "place": "Puerto Rico region",
+        "place": "Puerto Rico",
         "time": 1698108255720,
         "updated": 1698112023414,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 186,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "eastern Turkey",
+        "place": "13 km NNE of Sincik, Turkey",
         "time": 1698107972862,
         "updated": 1698108575040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - eastern Turkey"
+        "title": "M 4.2 - 13 km NNE of Sincik, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "13 km SSW of Volcano, Hawaii",
         "time": 1698106584280,
         "updated": 1698126427908,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 124,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 13 km SSW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Cook Strait, New Zealand",
+        "place": "26 km NNE of Waikawa, New Zealand",
         "time": 1698098865906,
         "updated": 1698103150232,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Cook Strait, New Zealand"
+        "title": "M 4.1 - 26 km NNE of Waikawa, New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -1248,46 +1328,6 @@
         ]
       },
       "id": "us7000l5v1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.47,
-        "place": "1 km SSE of Indios, Puerto Rico",
-        "time": 1698098344180,
-        "updated": 1698100361507,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023296002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023296002.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 185,
-        "net": "pr",
-        "code": "2023296002",
-        "ids": ",pr2023296002,us7000l5ux,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.2337,
-        "rms": 0.22,
-        "gap": 176,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 1 km SSE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8108,
-          17.9815,
-          9
-        ]
-      },
-      "id": "pr2023296002"
     }
   ],
   "bbox": [
