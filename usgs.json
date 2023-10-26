@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698343222000,
+    "generated": 1698346822000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "12 km SSW of Volcano, Hawaii",
+        "time": 1698345279310,
+        "updated": 1698346432040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73625727",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73625727.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "73625727",
+        "ids": ",us7000l6lf,hv73625727,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.280000001,
+        "gap": 81,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km SSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.296829223633,
+          19.3470001220703,
+          2.92000007629395
+        ]
+      },
+      "id": "hv73625727"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 3.8,
         "place": "44 km ENE of Fort Bidwell, California",
         "time": 1698338263155,
-        "updated": 1698342912177,
+        "updated": 1698344531317,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00867904",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00867904.geojson",
@@ -95,7 +135,7 @@
         "mag": 5.9,
         "place": "142 km E of Ust’-Kamchatsk Staryy, Russia",
         "time": 1698336311437,
-        "updated": 1698340306040,
+        "updated": 1698343946118,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l6k4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l6k4.geojson",
@@ -172,48 +212,88 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.92,
-        "place": "17 km NE of Star Valley Ranch, Wyoming",
-        "time": 1698331142660,
-        "updated": 1698332670320,
+        "mag": 2.8,
+        "place": "18 km NE of Star Valley Ranch, Wyoming",
+        "time": 1698331142088,
+        "updated": 1698343734040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90030888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90030888.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l6jc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l6jc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 131,
-        "net": "mb",
-        "code": "90030888",
-        "ids": ",mb90030888,",
-        "sources": ",mb,",
+        "sig": 121,
+        "net": "us",
+        "code": "7000l6jc",
+        "ids": ",mb90030888,us7000l6jc,",
+        "sources": ",mb,us,",
         "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.3828,
-        "rms": 0.25,
-        "gap": 88,
+        "nst": 37,
+        "dmin": 0.386,
+        "rms": 0.45,
+        "gap": 80,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 17 km NE of Star Valley Ranch, Wyoming"
+        "title": "M 2.8 - 18 km NE of Star Valley Ranch, Wyoming"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.789333333333,
-          43.0726666666667,
-          4.78
+          -110.7752,
+          43.0686,
+          5
         ]
       },
-      "id": "mb90030888"
+      "id": "us7000l6jc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1698327552700,
+        "updated": 1698344326996,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dqpnt9z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dqpnt9z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "023dqpnt9z",
+        "ids": ",ak023dqpnt9z,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.45,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.036,
+          51.8538,
+          136.9
+        ]
+      },
+      "id": "ak023dqpnt9z"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.24,
-        "place": "Puerto Rico region",
+        "place": "22 km SSE of Esperanza, Puerto Rico",
         "time": 1698319179990,
         "updated": 1698325792914,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 168,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 22 km SSE of Esperanza, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.79,
-        "place": "23 km NW of Stanley, Idaho",
+        "place": "southern Idaho",
         "time": 1698316291440,
         "updated": 1698330809570,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 23 km NW of Stanley, Idaho"
+        "title": "M 2.8 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "222 km E of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1698316045062,
         "updated": 1698318106040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 42,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 222 km E of Levuka, Fiji"
+        "title": "M 4.6 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "60 km SSW of La Gloria, Mexico",
+        "place": "near the coast of Oaxaca, Mexico",
         "time": 1698306837244,
         "updated": 1698307700040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 182,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 60 km SSW of La Gloria, Mexico"
+        "title": "M 4.2 - near the coast of Oaxaca, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -732,10 +812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.54,
+        "mag": 2.45,
         "place": "18 km NNW of Walker, CA",
-        "time": 1698304667230,
-        "updated": 1698341973982,
+        "time": 1698304667150,
+        "updated": 1698344531430,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73951495",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73951495.geojson",
@@ -743,18 +823,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 99,
+        "sig": 92,
         "net": "nc",
         "code": "73951495",
         "ids": ",nc73951495,nn00867893,",
         "sources": ",nc,nn,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.2318,
-        "rms": 0.07,
-        "gap": 167,
+        "nst": 18,
+        "dmin": 0.08246,
+        "rms": 0.09,
+        "gap": 104,
         "magType": "md",
         "type": "earthquake",
         "title": "M 2.5 - 18 km NNW of Walker, CA"
@@ -762,9 +842,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.5771637,
-          38.6629982,
-          3.5
+          -119.5618333,
+          38.6616667,
+          4.63
         ]
       },
       "id": "nc73951495"
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.55,
-        "place": "Puerto Rico region",
+        "place": "9 km ENE of Luis M. Cintron, Puerto Rico",
         "time": 1698300384570,
         "updated": 1698303062040,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 179,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
+        "title": "M 3.6 - 9 km ENE of Luis M. Cintron, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.24,
-        "place": "Puerto Rico region",
+        "place": "4 km SSE of Salinas, Puerto Rico",
         "time": 1698285039660,
         "updated": 1698286783191,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 193,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 4 km SSE of Salinas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Djibouti region",
+        "place": "16 km E of Tadjourah, Djibouti",
         "time": 1698274264457,
         "updated": 1698337065832,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 138,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Djibouti region"
+        "title": "M 4.4 - 16 km E of Tadjourah, Djibouti"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "Dominican Republic region",
+        "place": "44 km S of Boca de Yuma, Dominican Republic",
         "time": 1698271496830,
         "updated": 1698273694796,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 245,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Dominican Republic region"
+        "title": "M 3.6 - 44 km S of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -1254,7 +1334,7 @@
     -178.5976,
     -58.8739,
     0.85000002384186,
-    164.7466,
+    178.036,
     56.0543,
     545.564
   ]
