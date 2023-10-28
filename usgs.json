@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698526779000,
+    "generated": 1698530379000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 56
+    "count": 57
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.9,
         "place": "44 km SSW of Covenant Life, Alaska",
         "time": 1698525220860,
-        "updated": 1698525609187,
+        "updated": 1698528534040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023du4vaiu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023du4vaiu.geojson",
@@ -28,8 +28,8 @@
         "sig": 130,
         "net": "ak",
         "code": "023du4vaiu",
-        "ids": ",ak023du4vaiu,",
-        "sources": ",ak,",
+        "ids": ",ak023du4vaiu,us7000l78w,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -92,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "42 km W of Ollagüe, Chile",
+        "time": 1698524094283,
+        "updated": 1698529184040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l78s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l78s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000l78s",
+        "ids": ",us7000l78s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.784,
+        "rms": 0.57,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 42 km W of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6649,
+          -21.2047,
+          119.423
+        ]
+      },
+      "id": "us7000l78s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "western Afghanistan",
         "time": 1698521260065,
-        "updated": 1698526752040,
+        "updated": 1698526783728,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l78n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l78n.geojson",
@@ -212,10 +252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.83,
+        "mag": 2.5,
         "place": "5 km NNW of Walker, CA",
-        "time": 1698517033890,
-        "updated": 1698518888477,
+        "time": 1698517033820,
+        "updated": 1698530111534,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73952850",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73952850.geojson",
@@ -223,28 +263,28 @@
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 124,
+        "sig": 96,
         "net": "nc",
         "code": "73952850",
         "ids": ",nc73952850,nn00868101,",
         "sources": ",nc,nn,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 18,
-        "dmin": 0.03686,
-        "rms": 0.16,
-        "gap": 123,
+        "dmin": 0.03539,
+        "rms": 0.06,
+        "gap": 112,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 5 km NNW of Walker, CA"
+        "title": "M 2.5 - 5 km NNW of Walker, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.5066681,
-          38.550499,
-          2.96
+          -119.5068333,
+          38.552,
+          5.01
         ]
       },
       "id": "nc73952850"
@@ -892,6 +932,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "75 km SW of Adak, Alaska",
+        "time": 1698482333889,
+        "updated": 1698530204646,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dtxr6xd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dtxr6xd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.271,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "ak",
+        "code": "023dtxr6xd",
+        "ids": ",ak023dtxr6xd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.41,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 75 km SW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.4779,
+          51.4482,
+          53.2
+        ]
+      },
+      "id": "ak023dtxr6xd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "110 km SW of Jiquilillo, Nicaragua",
         "time": 1698481766837,
@@ -1452,10 +1532,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "52 km SSW of Covenant Life, Alaska",
-        "time": 1698469917538,
-        "updated": 1698475063873,
+        "mag": 3.5,
+        "place": "Southeastern Alaska",
+        "time": 1698469917353,
+        "updated": 1698528963356,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dtvt3ys",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dtvt3ys.geojson",
@@ -1463,9 +1543,9 @@
         "cdi": 2.7,
         "mmi": 4.4,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 224,
+        "sig": 190,
         "net": "ak",
         "code": "023dtvt3ys",
         "ids": ",ak023dtvt3ys,us7000l73t,",
@@ -1473,18 +1553,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.78,
+        "rms": 0.7,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 52 km SSW of Covenant Life, Alaska"
+        "title": "M 3.5 - Southeastern Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -136.3764,
-          58.9776,
-          2
+          -136.4581,
+          58.9788,
+          5.9
         ]
       },
       "id": "ak023dtvt3ys"
@@ -1695,17 +1775,17 @@
         "mag": 5.3,
         "place": "52 km SSW of Covenant Life, Alaska",
         "time": 1698464650817,
-        "updated": 1698524961007,
+        "updated": 1698530059314,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dtut7mp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dtut7mp.geojson",
-        "felt": 403,
+        "felt": 405,
         "cdi": 4.8,
         "mmi": 6.645,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 626,
+        "sig": 627,
         "net": "ak",
         "code": "023dtut7mp",
         "ids": ",ak023dtut7mp,at00s37zpm,us7000l72s,",
@@ -1732,10 +1812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.87,
+        "mag": 2.82,
         "place": "11 km ESE of Alum Rock, CA",
-        "time": 1698463273410,
-        "updated": 1698513669769,
+        "time": 1698463273400,
+        "updated": 1698529211450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73952515",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73952515.geojson",
@@ -1743,28 +1823,28 @@
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 154,
+        "sig": 150,
         "net": "nc",
         "code": "73952515",
         "ids": ",nc73952515,us7000l72h,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 78,
+        "nst": 117,
         "dmin": null,
-        "rms": 0.07,
-        "gap": 66,
+        "rms": 0.08,
+        "gap": 54,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 11 km ESE of Alum Rock, CA"
+        "title": "M 2.8 - 11 km ESE of Alum Rock, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.7023315,
-          37.3429985,
-          7.79
+          -121.701,
+          37.3436667,
+          8.2
         ]
       },
       "id": "nc73952515"
@@ -1855,11 +1935,11 @@
         "mag": 3.67,
         "place": "2 km NNE of Millbrae, CA",
         "time": 1698457111780,
-        "updated": 1698526648371,
+        "updated": 1698530244371,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73952475",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73952475.geojson",
-        "felt": 11861,
+        "felt": 11871,
         "cdi": 4.1,
         "mmi": 4.446,
         "alert": null,
@@ -1895,17 +1975,17 @@
         "mag": 3.0100000000000002,
         "place": "1 km NE of Gorst, Washington",
         "time": 1698456599450,
-        "updated": 1698525724496,
+        "updated": 1698528375178,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61959867",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61959867.geojson",
-        "felt": 308,
+        "felt": 311,
         "cdi": 4.6,
         "mmi": 2.886,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 281,
+        "sig": 282,
         "net": "uw",
         "code": "61959867",
         "ids": ",us7000l71s,uw61959867,",
@@ -2208,46 +2288,6 @@
         ]
       },
       "id": "us7000l70s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "178 km ESE of Modisi, Indonesia",
-        "time": 1698443429286,
-        "updated": 1698444441040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l70d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l70d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000l70d",
-        "ids": ",us7000l70d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.749,
-        "rms": 0.99,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 178 km ESE of Modisi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.9046,
-          -0.1936,
-          76.208
-        ]
-      },
-      "id": "us7000l70d"
     }
   ],
   "bbox": [
