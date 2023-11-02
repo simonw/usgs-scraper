@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698955178000,
+    "generated": 1698958826000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.3,
         "place": "18 km SE of Ackerly, Texas",
         "time": 1698953950865,
-        "updated": 1698954756543,
+        "updated": 1698958498273,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vmtn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vmtn.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +28,9 @@
         "sig": 168,
         "net": "tx",
         "code": "2023vmtn",
-        "ids": ",us7000l8f1,tx2023vmtn,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023vmtn,us7000l8f1,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 0,
         "rms": 0.2,
@@ -132,6 +132,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "188 km ENE of Levuka, Fiji",
+        "time": 1698948709492,
+        "updated": 1698956103040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l8ej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l8ej.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000l8ej",
+        "ids": ",us7000l8ej,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 5.046,
+        "rms": 0.97,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 188 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.9797,
+          -17.5794,
+          540.822
+        ]
+      },
+      "id": "us7000l8ej"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "southern Texas",
         "time": 1698947021182,
@@ -208,6 +248,46 @@
         ]
       },
       "id": "us7000l8eb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "264 km SE of Pondaguitan, Philippines",
+        "time": 1698944522009,
+        "updated": 1698955297040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l8dk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l8dk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000l8dk",
+        "ids": ",us7000l8dk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 3.297,
+        "rms": 0.78,
+        "gap": 124,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 264 km SE of Pondaguitan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6995,
+          4.5193,
+          131.726
+        ]
+      },
+      "id": "us7000l8dk"
     },
     {
       "type": "Feature",
@@ -292,42 +372,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.04,
-        "place": "9 km SSE of McCall, Idaho",
-        "time": 1698938000190,
-        "updated": 1698954726161,
+        "mag": 2.8,
+        "place": "Oregon-Idaho border region",
+        "time": 1698938000036,
+        "updated": 1698957609084,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90031638",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90031638.geojson",
-        "felt": 15,
-        "cdi": 3.7,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l8br",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l8br.geojson",
+        "felt": 16,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
-        "net": "mb",
-        "code": "90031638",
-        "ids": ",mb90031638,",
-        "sources": ",mb,",
+        "sig": 126,
+        "net": "us",
+        "code": "7000l8br",
+        "ids": ",mb90031638,us7000l8br,",
+        "sources": ",mb,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.2573,
-        "rms": 0.29,
-        "gap": 74,
+        "nst": 36,
+        "dmin": 0.259,
+        "rms": 0.7,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 9 km SSE of McCall, Idaho"
+        "title": "M 2.8 - Oregon-Idaho border region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.040166666667,
-          44.8318333333333,
-          0.3
+          -116.0933,
+          44.8369,
+          9.611
         ]
       },
-      "id": "mb90031638"
+      "id": "us7000l8br"
     },
     {
       "type": "Feature",
@@ -615,17 +695,17 @@
         "mag": 3.17,
         "place": "4 km NNE of Richfield, Utah",
         "time": 1698921921290,
-        "updated": 1698954832747,
+        "updated": 1698957489926,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60553437",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60553437.geojson",
-        "felt": 134,
+        "felt": 138,
         "cdi": 4.1,
         "mmi": 3.415,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 210,
+        "sig": 211,
         "net": "uu",
         "code": "60553437",
         "ids": ",uu60553437,us7000l8a5,",
@@ -1608,134 +1688,14 @@
         ]
       },
       "id": "us7000l85t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Fiji region",
-        "time": 1698872152518,
-        "updated": 1698874336040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l85q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l85q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000l85q",
-        "ids": ",us7000l85q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 3.706,
-        "rms": 0.71,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.1433,
-          -21.682,
-          583.685
-        ]
-      },
-      "id": "us7000l85q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
-        "time": 1698870441427,
-        "updated": 1698876218188,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023e0qz7j9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023e0qz7j9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.846,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "023e0qz7j9",
-        "ids": ",ak023e0qz7j9,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.71,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - Fox Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.1666,
-          52.7806,
-          22.8
-        ]
-      },
-      "id": "ak023e0qz7j9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "13 km W of Stanley, Idaho",
-        "time": 1698869023210,
-        "updated": 1698936458950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90031593",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90031593.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "mb",
-        "code": "90031593",
-        "ids": ",mb90031593,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.223,
-        "rms": 0.18,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km W of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.105,
-          44.2293333333333,
-          5.31
-        ]
-      },
-      "id": "mb90031593"
     }
   ],
   "bbox": [
     -179.525,
     -57.2285,
-    0.3,
+    2.453,
     130.7216,
     62.9757,
-    583.685
+    540.822
   ]
 }
