@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699307990000,
+    "generated": 1699311590000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.54,
         "place": "7 km NNW of Petrolia, CA",
         "time": 1699306263750,
-        "updated": 1699307294533,
+        "updated": 1699309587194,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73957010",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73957010.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73957010",
         "ids": ",nc73957010,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 15,
         "dmin": 0.0221,
         "rms": 0.11,
@@ -92,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "124 km WSW of Banda Aceh, Indonesia",
+        "time": 1699305172689,
+        "updated": 1699309442040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l986.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000l986",
+        "ids": ",us7000l986,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 2.691,
+        "rms": 1.06,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 124 km WSW of Banda Aceh, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.2452,
+          5.2796,
+          30.255
+        ]
+      },
+      "id": "us7000l986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
         "place": "western Texas",
         "time": 1699304504799,
-        "updated": 1699305160793,
+        "updated": 1699309075040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vueb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vueb.geojson",
@@ -108,8 +148,8 @@
         "sig": 121,
         "net": "tx",
         "code": "2023vueb",
-        "ids": ",tx2023vueb,",
-        "sources": ",tx,",
+        "ids": ",us7000l97y,tx2023vueb,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 18,
         "dmin": 0,
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Sucre, Venezuela",
+        "place": "6 km NNW of Güiria, Venezuela",
         "time": 1699297211305,
         "updated": 1699301923040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Sucre, Venezuela"
+        "title": "M 4.5 - 6 km NNW of Güiria, Venezuela"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "11 km E of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1699296938970,
         "updated": 1699302119925,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 157,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 11 km E of Pāhala, Hawaii"
+        "title": "M 3.7 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "66 km SW of Sand Point, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1699289731169,
         "updated": 1699295455040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 208,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 66 km SW of Sand Point, Alaska"
+        "title": "M 2.7 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "near the coast of central Chile",
+        "place": "33 km W of Valparaíso, Chile",
         "time": 1699278670713,
         "updated": 1699303906478,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 78,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - near the coast of central Chile"
+        "title": "M 5.2 - 33 km W of Valparaíso, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "42 km SE of Iztapa, Guatemala",
+        "place": "near the coast of Guatemala",
         "time": 1699253406955,
         "updated": 1699291651040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 194,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 42 km SE of Iztapa, Guatemala"
+        "title": "M 4.1 - near the coast of Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -1255,7 +1295,7 @@
         "mag": 3.35,
         "place": "6 km SW of Canyondam, CA",
         "time": 1699235465370,
-        "updated": 1699307773584,
+        "updated": 1699310180040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73956640",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73956640.geojson",
@@ -1268,8 +1308,8 @@
         "sig": 178,
         "net": "nc",
         "code": "73956640",
-        "ids": ",nc73956640,",
-        "sources": ",nc,",
+        "ids": ",nc73956640,us7000l937,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 59,
         "dmin": 0.1211,
@@ -1295,7 +1335,7 @@
         "mag": 2.76,
         "place": "7 km NW of Parkfield, CA",
         "time": 1699233061780,
-        "updated": 1699299014839,
+        "updated": 1699310533857,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73956620",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73956620.geojson",
@@ -1308,8 +1348,8 @@
         "sig": 117,
         "net": "nc",
         "code": "73956620",
-        "ids": ",nc73956620,",
-        "sources": ",nc,",
+        "ids": ",nc73956620,us7000l92z,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 67,
         "dmin": 0.01539,
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "26 km SSW of Esperanza, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1699227658190,
         "updated": 1699231721002,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 177,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 26 km SSW of Esperanza, Puerto Rico"
+        "title": "M 3.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "pr2023309000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "38 km NW of Gazli, Uzbekistan",
-        "time": 1699225066213,
-        "updated": 1699225775040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l92p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l92p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000l92p",
-        "ids": ",us7000l92p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 3.528,
-        "rms": 0.76,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 38 km NW of Gazli, Uzbekistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          63.1164,
-          40.366,
-          11.615
-        ]
-      },
-      "id": "us7000l92p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "18 km W of Point MacKenzie, Alaska",
-        "time": 1699222926122,
-        "updated": 1699277212857,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023e7eai3r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023e7eai3r.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "023e7eai3r",
-        "ids": ",ak023e7eai3r,us7000l92k,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km W of Point MacKenzie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.3191,
-          61.3526,
-          39.3
-        ]
-      },
-      "id": "ak023e7eai3r"
     }
   ],
   "bbox": [
