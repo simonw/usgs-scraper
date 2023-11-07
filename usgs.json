@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699354782000,
+    "generated": 1699358428000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "47 km W of Happy Valley, Alaska",
+        "time": 1699355349109,
+        "updated": 1699355452489,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023eaiqnd3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023eaiqnd3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "023eaiqnd3",
+        "ids": ",ak023eaiqnd3,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.41,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 47 km W of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.5746,
+          60.01,
+          101.2
+        ]
+      },
+      "id": "ak023eaiqnd3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +95,22 @@
         "mag": 2.49,
         "place": "3 km SW of Pāhala, Hawaii",
         "time": 1699350672670,
-        "updated": 1699351003130,
+        "updated": 1699355980758,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73640807",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73640807.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 96,
         "net": "hv",
         "code": "73640807",
         "ids": ",hv73640807,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 48,
         "dmin": null,
         "rms": 0.129999995,
@@ -492,10 +532,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1699335870237,
-        "updated": 1699336724458,
+        "mag": 2.6,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1699335870326,
+        "updated": 1699357912698,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vuvj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vuvj.geojson",
@@ -503,28 +543,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 104,
         "net": "tx",
         "code": "2023vuvj",
         "ids": ",us7000l9ah,tx2023vuvj,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 9,
+        "nst": 46,
         "dmin": 0,
         "rms": 0.2,
-        "gap": 104,
+        "gap": 65,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.5 - 60 km S of Whites City, New Mexico"
+        "title": "M 2.6 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.46,
-          31.637,
-          4.4085
+          -104.451,
+          31.655,
+          6.5429
         ]
       },
       "id": "tx2023vuvj"
@@ -655,12 +695,12 @@
         "mag": 5.1,
         "place": "6 km NNW of La Maná, Ecuador",
         "time": 1699328026371,
-        "updated": 1699354438530,
+        "updated": 1699356504196,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l99x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l99x.geojson",
-        "felt": 32,
-        "cdi": 5,
+        "felt": 34,
+        "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Sucre, Venezuela",
+        "place": "6 km NNW of Güiria, Venezuela",
         "time": 1699297211305,
         "updated": 1699301923040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Sucre, Venezuela"
+        "title": "M 4.5 - 6 km NNW of Güiria, Venezuela"
       },
       "geometry": {
         "type": "Point",
