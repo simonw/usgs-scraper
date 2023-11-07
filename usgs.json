@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699320170000,
+    "generated": 1699322930000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.5,
         "place": "17 km NNW of Islay (Matarani), Peru",
         "time": 1699319224742,
-        "updated": 1699319994040,
+        "updated": 1699320828763,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l99f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l99f.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000l99f",
         "ids": ",us7000l99f,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 2.307,
         "rms": 0.4,
@@ -295,7 +295,7 @@
         "mag": 2.5,
         "place": "7 km NNW of Petrolia, CA",
         "time": 1699306263550,
-        "updated": 1699317550560,
+        "updated": 1699320191815,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73957010",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73957010.geojson",
@@ -1568,46 +1568,6 @@
         ]
       },
       "id": "pr2023310000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "6 km SW of Canyondam, CA",
-        "time": 1699235465370,
-        "updated": 1699310180040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73956640",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73956640.geojson",
-        "felt": 15,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "nc",
-        "code": "73956640",
-        "ids": ",nc73956640,us7000l937,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 59,
-        "dmin": 0.1211,
-        "rms": 0.17,
-        "gap": 24,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 6 km SW of Canyondam, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1141667,
-          40.1288333,
-          0.87
-        ]
-      },
-      "id": "nc73956640"
     }
   ],
   "bbox": [
