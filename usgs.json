@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699406517000,
+    "generated": 1699409263000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "20 km S of Glomfjord, Norway",
+        "time": 1699408240264,
+        "updated": 1699409246040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9gm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9gm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000l9gm",
+        "ids": ",us7000l9gm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 5.238,
+        "rms": 0.99,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 20 km S of Glomfjord, Norway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.867,
+          66.6379,
+          10
+        ]
+      },
+      "id": "us7000l9gm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.38,
+        "place": "42 km NE of Luquillo, Puerto Rico",
+        "time": 1699407512400,
+        "updated": 1699408444120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71431038",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71431038.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 176,
+        "net": "pr",
+        "code": "71431038",
+        "ids": ",pr71431038,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.4515,
+        "rms": 0.09,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 42 km NE of Luquillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4608333333333,
+          18.6745,
+          66.05
+        ]
+      },
+      "id": "pr71431038"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.46,
         "place": "43 km E of Big Pine, CA",
         "time": 1699397304170,
-        "updated": 1699405504040,
+        "updated": 1699409103992,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39710146",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39710146.geojson",
@@ -335,12 +415,12 @@
         "mag": 4.4,
         "place": "Tarapaca, Chile",
         "time": 1699381531221,
-        "updated": 1699384299040,
+        "updated": 1699406816864,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9eh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9eh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +430,7 @@
         "code": "7000l9eh",
         "ids": ",us7000l9eh,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 0.378,
         "rms": 0.74,
@@ -493,9 +573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "20 km ESE of Schurz, Nevada",
+        "place": "California-Nevada border region",
         "time": 1699379839906,
-        "updated": 1699385123996,
+        "updated": 1699409091604,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00868546",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00868546.geojson",
@@ -517,7 +597,7 @@
         "gap": 65.21,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 20 km ESE of Schurz, Nevada"
+        "title": "M 3.0 - California-Nevada border region"
       },
       "geometry": {
         "type": "Point",
@@ -1535,11 +1615,11 @@
         "mag": 5.1,
         "place": "Ecuador",
         "time": 1699328026371,
-        "updated": 1699382972282,
+        "updated": 1699407162018,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l99x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l99x.geojson",
-        "felt": 37,
+        "felt": 38,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
@@ -1648,46 +1728,6 @@
         ]
       },
       "id": "ak023eadh6bc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "south of Panama",
-        "time": 1699320817598,
-        "updated": 1699405545040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l99k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l99k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000l99k",
-        "ids": ",us7000l99k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 3.457,
-        "rms": 0.59,
-        "gap": 182,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - south of Panama"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.667,
-          5.314,
-          10
-        ]
-      },
-      "id": "us7000l99k"
     }
   ],
   "bbox": [
@@ -1695,7 +1735,7 @@
     -23.1531,
     0,
     175.4341,
-    64.5483,
+    66.6379,
     623.202
   ]
 }
