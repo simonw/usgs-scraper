@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699567197000,
+    "generated": 1699570797000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 5.4,
         "place": "28 km SSE of Madang, Papua New Guinea",
         "time": 1699563226445,
-        "updated": 1699565856827,
+        "updated": 1699570627176,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9xx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9xx.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 4.6,
         "mmi": 4.193,
         "alert": "green",
@@ -30,7 +30,7 @@
         "code": "7000l9xx",
         "ids": ",us7000l9xx,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 106,
         "dmin": 5.961,
         "rms": 0.8,
@@ -652,6 +652,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "Alaska Peninsula",
+        "time": 1699522494186,
+        "updated": 1699569888040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9t6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9t6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000l9t6",
+        "ids": ",us7000l9t6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.841,
+        "rms": 0.43,
+        "gap": 190,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.7664,
+          56.0492,
+          54.665
+        ]
+      },
+      "id": "us7000l9t6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "282 km SSE of Amahai, Indonesia",
         "time": 1699521257574,
@@ -1255,17 +1295,17 @@
         "mag": 4.6,
         "place": "14 km NNE of Kırıkhan, Turkey",
         "time": 1699497134623,
-        "updated": 1699555940607,
+        "updated": 1699568481496,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9r5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9r5.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 6.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 331,
+        "sig": 332,
         "net": "us",
         "code": "7000l9r5",
         "ids": ",us7000l9r5,",
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "pr71431093"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Ryukyu Islands, Japan",
-        "time": 1699484033548,
-        "updated": 1699485685040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9qc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9qc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000l9qc",
-        "ids": ",us7000l9qc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.31,
-        "rms": 1.19,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Ryukyu Islands, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.8343,
-          26.586,
-          132.919
-        ]
-      },
-      "id": "us7000l9qc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "5 km S of Salinas, Puerto Rico",
-        "time": 1699481361280,
-        "updated": 1699482655290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71431078",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71431078.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71431078",
-        "ids": ",pr71431078,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1121,
-        "rms": 0.23,
-        "gap": 196,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km S of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2923333333333,
-          17.9306666666667,
-          9.21
-        ]
-      },
-      "id": "pr71431078"
     }
   ],
   "bbox": [
