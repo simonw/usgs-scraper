@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699642797000,
+    "generated": 1699646397000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
     {
@@ -52,20 +52,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "2 km W of Reykjanesbær, Iceland",
+        "time": 1699639567371,
+        "updated": 1699644703040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la6l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la6l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000la6l",
+        "ids": ",us7000la6l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 0.936,
+        "rms": 0.71,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 2 km W of Reykjanesbær, Iceland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.6072,
+          63.9985,
+          10
+        ]
+      },
+      "id": "us7000la6l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "7 km W of Grindavík, Iceland",
         "time": 1699639256626,
-        "updated": 1699642424756,
+        "updated": 1699644572889,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la69",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la69.geojson",
-        "felt": 2,
+        "felt": 4,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 401,
+        "sig": 402,
         "net": "us",
         "code": "7000la69",
         "ids": ",us7000la69,",
@@ -135,17 +175,17 @@
         "mag": 5,
         "place": "7 km WNW of Las Matas de Santa Cruz, Dominican Republic",
         "time": 1699636948150,
-        "updated": 1699642602711,
+        "updated": 1699646149702,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la5h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la5h.geojson",
-        "felt": 76,
+        "felt": 85,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 419,
         "net": "us",
         "code": "7000la5h",
         "ids": ",us7000la5h,",
@@ -575,22 +615,22 @@
         "mag": 4.3,
         "place": "Nevada",
         "time": 1699630244470,
-        "updated": 1699637675777,
+        "updated": 1699645114721,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00868733",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00868733.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 3.959,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "nn",
         "code": "00868733",
-        "ids": ",us7000la3f,nn00868733,",
-        "sources": ",us,nn,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "ids": ",nn00868733,us7000la3f,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 13,
         "dmin": 0.104,
         "rms": 0.1701,
@@ -1008,6 +1048,46 @@
         ]
       },
       "id": "nc73960836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "western Texas",
+        "time": 1699608904569,
+        "updated": 1699645284390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023wapl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023wapl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2023wapl",
+        "ids": ",us7000la0x,tx2023wapl,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 67,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 2.6 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.304,
+          31.668,
+          7.1085
+        ]
+      },
+      "id": "tx2023wapl"
     },
     {
       "type": "Feature",
@@ -1808,46 +1888,6 @@
         ]
       },
       "id": "us7000l9xx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "44 km WSW of Cantwell, Alaska",
-        "time": 1699559820680,
-        "updated": 1699605232044,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023edyv2w6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023edyv2w6.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": 2.413,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 200,
-        "net": "ak",
-        "code": "023edyv2w6",
-        "ids": ",ak023edyv2w6,us7000l9xk,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 44 km WSW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.7913,
-          63.2683,
-          96
-        ]
-      },
-      "id": "ak023edyv2w6"
     }
   ],
   "bbox": [
