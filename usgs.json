@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699610385000,
+    "generated": 1699613987000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "255 km ENE of Kuril’sk, Russia",
+        "time": 1699611004048,
+        "updated": 1699612291537,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la13",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la13.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": 4.232,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "7000la13",
+        "ids": ",us7000la13,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 125,
+        "dmin": 5.795,
+        "rms": 1.01,
+        "gap": 38,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - 255 km ENE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0027,
+          45.9031,
+          107.317
+        ]
+      },
+      "id": "us7000la13"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "Bering Strait",
+        "time": 1699610230533,
+        "updated": 1699610680040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la0z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la0z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "7000la0z",
+        "ids": ",us7000la0z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 1.963,
+        "rms": 0.63,
+        "gap": 239,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.7 - Bering Strait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.9346,
+          67.4722,
+          9.553
+        ]
+      },
+      "id": "us7000la0z"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.48,
         "place": "4 km NNW of Pinnacles, CA",
         "time": 1699610015010,
-        "updated": 1699610215716,
+        "updated": 1699610622727,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73960836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73960836.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "73960836",
         "ids": ",nc73960836,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 41,
         "dmin": 0.02119,
         "rms": 0.09,
@@ -48,46 +128,6 @@
         ]
       },
       "id": "nc73960836"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "59 km NW of Toyah, Texas",
-        "time": 1699608904280,
-        "updated": 1699609873040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la0x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la0x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000la0x",
-        "ids": ",us7000la0x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.176,
-        "rms": 0.51,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 59 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2997,
-          31.6272,
-          5
-        ]
-      },
-      "id": "us7000la0x"
     },
     {
       "type": "Feature",
@@ -175,11 +215,11 @@
         "mag": 4.5,
         "place": "Colombia",
         "time": 1699602484627,
-        "updated": 1699605511172,
+        "updated": 1699612719606,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la0s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la0s.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -208,46 +248,6 @@
         ]
       },
       "id": "us7000la0s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "8 km WNW of Walker, CA",
-        "time": 1699600106290,
-        "updated": 1699600570904,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73960796",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73960796.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "73960796",
-        "ids": ",nc73960796,nn00868723,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.05391,
-        "rms": 0.18,
-        "gap": 100,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km WNW of Walker, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.5656662,
-          38.5456657,
-          4.68
-        ]
-      },
-      "id": "nc73960796"
     },
     {
       "type": "Feature",
@@ -655,17 +655,17 @@
         "mag": 4.5,
         "place": "near the south coast of Honshu, Japan",
         "time": 1699578010888,
-        "updated": 1699596151840,
+        "updated": 1699612951602,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9yv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9yv.geojson",
-        "felt": 16,
+        "felt": 18,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 317,
+        "sig": 318,
         "net": "us",
         "code": "7000l9yv",
         "ids": ",us7000l9yv,",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "44 km WSW of Cantwell, Alaska",
+        "place": "Central Alaska",
         "time": 1699559820680,
         "updated": 1699605232044,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 44 km WSW of Cantwell, Alaska"
+        "title": "M 3.6 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1208,166 +1208,6 @@
         ]
       },
       "id": "us7000l9tr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "100 km SSE of Kirakira, Solomon Islands",
-        "time": 1699526362419,
-        "updated": 1699529391040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9tf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9tf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000l9tf",
-        "ids": ",us7000l9tf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.947,
-        "rms": 0.82,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 100 km SSE of Kirakira, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          162.2896,
-          -11.2877,
-          10
-        ]
-      },
-      "id": "us7000l9tf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "8 km NW of Bridgeport, California",
-        "time": 1699525521181,
-        "updated": 1699551384417,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00868657",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00868657.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "nn",
-        "code": "00868657",
-        "ids": ",nn00868657,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.23,
-        "rms": 0.1722,
-        "gap": 145.66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 8 km NW of Bridgeport, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.3044,
-          38.2996,
-          8.5
-        ]
-      },
-      "id": "nn00868657"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "8 km NW of Bridgeport, CA",
-        "time": 1699525502270,
-        "updated": 1699561332332,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73960401",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73960401.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "nc",
-        "code": "73960401",
-        "ids": ",nn00868642,nc73960401,",
-        "sources": ",nn,nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.2278,
-        "rms": 0.15,
-        "gap": 115,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km NW of Bridgeport, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.31,
-          38.2996667,
-          5.57
-        ]
-      },
-      "id": "nc73960401"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Banda Sea",
-        "time": 1699524776695,
-        "updated": 1699529976040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9tb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9tb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000l9tb",
-        "ids": ",us7000l9tb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 4.382,
-        "rms": 0.91,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.501,
-          -6.3633,
-          10
-        ]
-      },
-      "id": "us7000l9tb"
     }
   ],
   "bbox": [
@@ -1375,7 +1215,7 @@
     -24.3611,
     0,
     167.4497,
-    63.2683,
+    67.4722,
     259.176
   ]
 }
