@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699675197000,
+    "generated": 1699678790000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 65
+    "count": 64
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.82,
         "place": "56 km W of Ferndale, CA",
         "time": 1699675094770,
-        "updated": 1699675187294,
+        "updated": 1699675450194,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73961291",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73961291.geojson",
@@ -28,9 +28,9 @@
         "sig": 122,
         "net": "nc",
         "code": "73961291",
-        "ids": ",nc73961291,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc73961291,us7000laat,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 31,
         "dmin": 0.4688,
         "rms": 0.22,
@@ -55,12 +55,12 @@
         "mag": 4.1,
         "place": "158 km W of Ferndale, California",
         "time": 1699675079540,
-        "updated": 1699675108463,
+        "updated": 1699678158355,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1699675100",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ew1699675100.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +70,7 @@
         "code": "1699675100",
         "ids": ",ew1699675100,",
         "sources": ",ew,",
-        "types": ",origin,",
+        "types": ",dyfi,origin,shake-alert,",
         "nst": 5,
         "dmin": null,
         "rms": null,
@@ -95,11 +95,11 @@
         "mag": 2.98,
         "place": "49 km WNW of Petrolia, CA",
         "time": 1699674222640,
-        "updated": 1699675029087,
+        "updated": 1699675331714,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73961276",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73961276.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 1,
         "mmi": null,
         "alert": null,
@@ -132,20 +132,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.18,
+        "mag": 4.1,
         "place": "45 km WNW of Petrolia, CA",
         "time": 1699672525010,
-        "updated": 1699674878597,
+        "updated": 1699678572227,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73961261",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73961261.geojson",
-        "felt": 106,
-        "cdi": 3.1,
-        "mmi": 2.969,
+        "felt": 154,
+        "cdi": 2.6,
+        "mmi": 2.739,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 302,
+        "sig": 299,
         "net": "nc",
         "code": "73961261",
         "ids": ",ew1699672530,nc73961261,us7000laab,",
@@ -157,7 +157,7 @@
         "gap": 234,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.2 - 45 km WNW of Petrolia, CA"
+        "title": "M 4.1 - 45 km WNW of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
@@ -252,20 +252,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "12 km ESE of Vahdat, Tajikistan",
+        "time": 1699665867241,
+        "updated": 1699678631040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la9i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la9i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000la9i",
+        "ids": ",us7000la9i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.194,
+        "rms": 1.14,
+        "gap": 59,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 12 km ESE of Vahdat, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.1386,
+          38.4928,
+          10
+        ]
+      },
+      "id": "us7000la9i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4,
         "place": "2 km NW of Bennington, Kansas",
         "time": 1699661922258,
-        "updated": 1699674934106,
+        "updated": 1699678635410,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la9a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la9a.geojson",
-        "felt": 181,
+        "felt": 196,
         "cdi": 6.4,
         "mmi": 5.574,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 362,
+        "sig": 372,
         "net": "us",
         "code": "7000la9a",
         "ids": ",us7000la9a,",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "156 km WNW of Abepura, Indonesia",
+        "place": "near the north coast of Papua, Indonesia",
         "time": 1699661491482,
         "updated": 1699663592040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 156 km WNW of Abepura, Indonesia"
+        "title": "M 4.7 - near the north coast of Papua, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Iceland region",
+        "place": "5 km SSE of Reykjanesbær, Iceland",
         "time": 1699659700951,
         "updated": 1699662479040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Iceland region"
+        "title": "M 4.6 - 5 km SSE of Reykjanesbær, Iceland"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.61,
-        "place": "46 km NW of San Antonio, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1699655258380,
         "updated": 1699659433040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 208,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 46 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.6 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.37,
-        "place": "Puerto Rico region",
+        "place": "6 km ENE of La Parguera, Puerto Rico",
         "time": 1699654250970,
         "updated": 1699657475040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 131,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Puerto Rico region"
+        "title": "M 3.4 - 6 km ENE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "Banda Sea",
+        "place": "294 km WSW of Tual, Indonesia",
         "time": 1699651212107,
         "updated": 1699658594002,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 47,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - Banda Sea"
+        "title": "M 5.6 - 294 km WSW of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.08,
-        "place": "near the coast of Oregon",
+        "place": "offshore Oregon",
         "time": 1699648429550,
         "updated": 1699667345247,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 144,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - near the coast of Oregon"
+        "title": "M 3.1 - offshore Oregon"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "5 km NW of Grindavík, Iceland",
+        "place": "Iceland region",
         "time": 1699642004192,
         "updated": 1699646803040,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 92,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 5 km NW of Grindavík, Iceland"
+        "title": "M 4.7 - Iceland region"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Iceland",
+        "place": "5 km ENE of Garður, Iceland",
         "time": 1699637438347,
         "updated": 1699642215040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Iceland"
+        "title": "M 4.9 - 5 km ENE of Garður, Iceland"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "56 km S of Jurm, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1699637425188,
         "updated": 1699655820040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 56 km S of Jurm, Afghanistan"
+        "title": "M 4.0 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1375,11 +1415,11 @@
         "mag": 5,
         "place": "7 km WNW of Las Matas de Santa Cruz, Dominican Republic",
         "time": 1699636948150,
-        "updated": 1699674045675,
+        "updated": 1699676305606,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la5h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la5h.geojson",
-        "felt": 94,
+        "felt": 95,
         "cdi": 6.4,
         "mmi": null,
         "alert": null,
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.59,
-        "place": "133 km NNE of Punta Cana, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1699632360550,
         "updated": 1699656697617,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 239,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 133 km NNE of Punta Cana, Dominican Republic"
+        "title": "M 3.6 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1695,7 +1735,7 @@
         "mag": 5.2,
         "place": "29 km SE of Ābdānān, Iran",
         "time": 1699630589520,
-        "updated": 1699637442149,
+        "updated": 1699675635718,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la3j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la3j.geojson",
@@ -1733,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "31 km SE of Mina, Nevada",
+        "place": "Nevada",
         "time": 1699630411292,
         "updated": 1699655029044,
         "tz": null,
@@ -1757,7 +1797,7 @@
         "gap": 67.61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 31 km SE of Mina, Nevada"
+        "title": "M 2.6 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Nevada",
+        "place": "31 km SE of Mina, Nevada",
         "time": 1699630244470,
         "updated": 1699645114721,
         "tz": null,
@@ -1797,7 +1837,7 @@
         "gap": 43.65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - Nevada"
+        "title": "M 4.3 - 31 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -2053,7 +2093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kodiak Island region, Alaska",
+        "place": "85 km WSW of Nanwalek, Alaska",
         "time": 1699614587368,
         "updated": 1699614681084,
         "tz": null,
@@ -2077,7 +2117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Kodiak Island region, Alaska"
+        "title": "M 2.5 - 85 km WSW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "Kuril Islands",
+        "place": "255 km ENE of Kuril’sk, Russia",
         "time": 1699611004048,
         "updated": 1699618454330,
         "tz": null,
@@ -2117,7 +2157,7 @@
         "gap": 38,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - Kuril Islands"
+        "title": "M 5.8 - 255 km ENE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "134 km SW of Point Hope, Alaska",
+        "place": "Bering Strait",
         "time": 1699610227629,
         "updated": 1699638216045,
         "tz": null,
@@ -2157,7 +2197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 134 km SW of Point Hope, Alaska"
+        "title": "M 3.6 - Bering Strait"
       },
       "geometry": {
         "type": "Point",
@@ -2175,11 +2215,11 @@
         "mag": 2.48,
         "place": "4 km NNW of Pinnacles, CA",
         "time": 1699610015010,
-        "updated": 1699625258510,
+        "updated": 1699675793415,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73960836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73960836.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -2213,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "56 km S of Whites City, New Mexico",
         "time": 1699608904569,
         "updated": 1699645284390,
         "tz": null,
@@ -2237,7 +2277,7 @@
         "gap": 67,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -2253,7 +2293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Kodiak Island region, Alaska",
+        "place": "81 km S of Old Harbor, Alaska",
         "time": 1699606626145,
         "updated": 1699608198040,
         "tz": null,
@@ -2277,7 +2317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Kodiak Island region, Alaska"
+        "title": "M 2.7 - 81 km S of Old Harbor, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2333,7 +2373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "9 km N of Cumaral, Colombia",
+        "place": "Colombia",
         "time": 1699602484627,
         "updated": 1699632070347,
         "tz": null,
@@ -2357,7 +2397,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 9 km N of Cumaral, Colombia"
+        "title": "M 4.5 - Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -2413,7 +2453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.76,
-        "place": "Dominican Republic",
+        "place": "6 km NE of Guaymate, Dominican Republic",
         "time": 1699599661130,
         "updated": 1699641958797,
         "tz": null,
@@ -2437,7 +2477,7 @@
         "gap": 232,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Dominican Republic"
+        "title": "M 3.8 - 6 km NE of Guaymate, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -2453,7 +2493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Samoa Islands region",
+        "place": "189 km SSW of Vailoatai, American Samoa",
         "time": 1699598744549,
         "updated": 1699607738875,
         "tz": null,
@@ -2477,7 +2517,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - Samoa Islands region"
+        "title": "M 5.2 - 189 km SSW of Vailoatai, American Samoa"
       },
       "geometry": {
         "type": "Point",
@@ -2528,86 +2568,6 @@
         ]
       },
       "id": "pr2023314000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "39 km W of Mentone, Texas",
-        "time": 1699591514708,
-        "updated": 1699615548729,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023wafw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023wafw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2023wafw",
-        "ids": ",us7000l9zt,tx2023wafw,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 48,
-        "magType": "ml(texnet)",
-        "type": "earthquake",
-        "title": "M 2.8 - 39 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.008,
-          31.639,
-          5.5531
-        ]
-      },
-      "id": "tx2023wafw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "western Texas",
-        "time": 1699591451176,
-        "updated": 1699606655693,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023wafv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023wafv.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "tx",
-        "code": "2023wafv",
-        "ids": ",tx2023wafv,",
-        "sources": ",tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 197,
-        "magType": "mlv",
-        "type": "earthquake",
-        "title": "M 3.4 - western Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.974,
-          31.642,
-          7.1681
-        ]
-      },
-      "id": "tx2023wafv"
     }
   ],
   "bbox": [
