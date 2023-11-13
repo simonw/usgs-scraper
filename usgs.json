@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699847996000,
+    "generated": 1699851596000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.6,
         "place": "Tajikistan",
         "time": 1699846455888,
-        "updated": 1699847543040,
+        "updated": 1699849657074,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000laki",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000laki.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000laki",
         "ids": ",us7000laki,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 1.646,
         "rms": 0.62,
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kyrgyzstan-Tajikistan border region",
+        "place": "36 km W of Karakenja, Tajikistan",
         "time": 1699818868449,
         "updated": 1699820594040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kyrgyzstan-Tajikistan border region"
+        "title": "M 4.5 - 36 km W of Karakenja, Tajikistan"
       },
       "geometry": {
         "type": "Point",
@@ -1095,13 +1095,13 @@
         "mag": 4.6,
         "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1699777542939,
-        "updated": 1699821433433,
+        "updated": 1699821225502,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000laga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000laga.geojson",
         "felt": 5,
         "cdi": 3.1,
-        "mmi": 3.016,
+        "mmi": 3.019,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1568,86 +1568,6 @@
         ]
       },
       "id": "ak023eiovwcc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "New Ireland region, Papua New Guinea",
-        "time": 1699764701879,
-        "updated": 1699772129872,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000laff",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000laff.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.344,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 536,
-        "net": "us",
-        "code": "7000laff",
-        "ids": ",us7000laff,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 80,
-        "dmin": 1.008,
-        "rms": 0.95,
-        "gap": 72,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - New Ireland region, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.3248,
-          -3.625,
-          10
-        ]
-      },
-      "id": "us7000laff"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "114 km WNW of Rabaul, Papua New Guinea",
-        "time": 1699764478857,
-        "updated": 1699767376040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lafc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lafc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000lafc",
-        "ids": ",us7000lafc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.022,
-        "rms": 0.82,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 114 km WNW of Rabaul, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2235,
-          -3.7822,
-          10
-        ]
-      },
-      "id": "us7000lafc"
     }
   ],
   "bbox": [
