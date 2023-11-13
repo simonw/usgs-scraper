@@ -1,19 +1,139 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699912799000,
+    "generated": 1699916396000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.81,
+        "place": "11 km W of Alberto Oviedo Mota, B.C., MX",
+        "time": 1699915114950,
+        "updated": 1699915529176,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39712770",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39712770.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ci",
+        "code": "39712770",
+        "ids": ",ci39712770,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.1055,
+        "rms": 0.31,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 11 km W of Alberto Oviedo Mota, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2863333,
+          32.2408333,
+          2.14
+        ]
+      },
+      "id": "ci39712770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "58 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1699912152337,
+        "updated": 1699913888040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lat0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lat0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000lat0",
+        "ids": ",us7000lat0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.491,
+        "rms": 0.79,
+        "gap": 147,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 58 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.1689,
+          52.6475,
+          60.61
+        ]
+      },
+      "id": "us7000lat0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "116 km E of Chignik, Alaska",
+        "time": 1699909199852,
+        "updated": 1699912967040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lash",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lash.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000lash",
+        "ids": ",us7000lash,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 1.125,
+        "rms": 0.48,
+        "gap": 193,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 116 km E of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.5204,
+          56.3443,
+          35
+        ]
+      },
+      "id": "us7000lash"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
-        "place": "11 km NE of Atka, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1699902610017,
         "updated": 1699909982204,
         "tz": null,
@@ -37,7 +157,7 @@
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 11 km NE of Atka, Alaska"
+        "title": "M 4.4 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -175,21 +295,21 @@
         "mag": 3.25,
         "place": "10 km N of Big Pine, CA",
         "time": 1699898091060,
-        "updated": 1699908288482,
+        "updated": 1699914509040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73962521",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73962521.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 166,
+        "sig": 167,
         "net": "nc",
         "code": "73962521",
-        "ids": ",nc73962521,nn00868829,",
-        "sources": ",nc,nn,",
+        "ids": ",nc73962521,nn00868829,us7000lard,",
+        "sources": ",nc,nn,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 32,
         "dmin": 0.02015,
@@ -212,10 +332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45,
-        "place": "20 km SSE of Pāhala, Hawaii",
+        "mag": 2.57,
+        "place": "Hawaii region, Hawaii",
         "time": 1699897794060,
-        "updated": 1699898124830,
+        "updated": 1699915381510,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73646897",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73646897.geojson",
@@ -223,28 +343,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 102,
         "net": "hv",
         "code": "73646897",
-        "ids": ",hv73646897,",
-        "sources": ",hv,",
+        "ids": ",us7000laqe,hv73646897,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 50,
+        "nst": 55,
         "dmin": null,
-        "rms": 0.100000001,
-        "gap": 210,
+        "rms": 0.12,
+        "gap": 208,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 20 km SSE of Pāhala, Hawaii"
+        "title": "M 2.6 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.375671386719,
-          19.0429992675781,
-          32.2000007629395
+          -155.373,
+          19.047,
+          33.17
         ]
       },
       "id": "hv73646897"
@@ -252,8 +372,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "67 km W of Illapel, Chile",
+        "time": 1699897698786,
+        "updated": 1699914142040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000laq3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000laq3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000laq3",
+        "ids": ",us7000laq3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.849,
+        "rms": 0.73,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 67 km W of Illapel, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8759,
+          -31.6044,
+          33.094
+        ]
+      },
+      "id": "us7000laq3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.3,
-        "place": "Bering Strait",
+        "place": "129 km SW of Point Hope, Alaska",
         "time": 1699896796844,
         "updated": 1699909106040,
         "tz": null,
@@ -277,7 +437,7 @@
         "gap": 245,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.3 - Bering Strait"
+        "title": "M 3.3 - 129 km SW of Point Hope, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "129 km WNW of Rabaul, Papua New Guinea",
+        "place": "New Ireland region, Papua New Guinea",
         "time": 1699893576033,
         "updated": 1699896951040,
         "tz": null,
@@ -397,7 +557,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 129 km WNW of Rabaul, Papua New Guinea"
+        "title": "M 4.9 - New Ireland region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -652,8 +812,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.66,
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "time": 1699878573430,
+        "updated": 1699913120490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av92117431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av92117431.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "av",
+        "code": "92117431",
+        "ids": ",av92117431,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": null,
+        "rms": 0.19,
+        "gap": 328,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Andreanof Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.087166666667,
+          52.5811666666667,
+          2.49
+        ]
+      },
+      "id": "av92117431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.3,
-        "place": "Tajikistan",
+        "place": "106 km SE of Karakenja, Tajikistan",
         "time": 1699877801225,
         "updated": 1699879699910,
         "tz": null,
@@ -677,7 +877,7 @@
         "gap": 44,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Tajikistan"
+        "title": "M 5.3 - 106 km SE of Karakenja, Tajikistan"
       },
       "geometry": {
         "type": "Point",
@@ -975,7 +1175,7 @@
         "mag": 2.86,
         "place": "4 km SSE of Salinas, Puerto Rico",
         "time": 1699851377360,
-        "updated": 1699852494310,
+        "updated": 1699914847040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71431308",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71431308.geojson",
@@ -988,8 +1188,8 @@
         "sig": 126,
         "net": "pr",
         "code": "71431308",
-        "ids": ",pr71431308,",
-        "sources": ",pr,",
+        "ids": ",us7000lakv,pr71431308,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 30,
         "dmin": 0.1041,
@@ -1013,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "12 km SSW of Varzob, Tajikistan",
+        "place": "Tajikistan",
         "time": 1699846455888,
         "updated": 1699857340708,
         "tz": null,
@@ -1037,7 +1237,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 12 km SSW of Varzob, Tajikistan"
+        "title": "M 4.6 - Tajikistan"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.82,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "11 km SW of Volcano, Hawaii",
         "time": 1699845323410,
         "updated": 1699846143240,
         "tz": null,
@@ -1077,7 +1277,7 @@
         "gap": 108,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Island of Hawaii, Hawaii"
+        "title": "M 2.8 - 11 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "69 km NNW of Insrom, Indonesia",
+        "place": "Biak region, Indonesia",
         "time": 1699840458576,
         "updated": 1699841896040,
         "tz": null,
@@ -1117,7 +1317,7 @@
         "gap": 159,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 69 km NNW of Insrom, Indonesia"
+        "title": "M 4.5 - Biak region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "14 km SSW of Volcano, Hawaii",
         "time": 1699838512200,
         "updated": 1699845589730,
         "tz": null,
@@ -1157,7 +1357,7 @@
         "gap": 111,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 14 km SSW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "147 km WSW of Pistol River, Oregon",
+        "place": "off the coast of Northern California",
         "time": 1699834403917,
         "updated": 1699893712181,
         "tz": null,
@@ -1197,7 +1397,7 @@
         "gap": 233,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.9 - 147 km WSW of Pistol River, Oregon"
+        "title": "M 3.9 - off the coast of Northern California"
       },
       "geometry": {
         "type": "Point",
@@ -1248,93 +1448,13 @@
         ]
       },
       "id": "tx2023wfhu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.13,
-        "place": "Mona Passage",
-        "time": 1699827915640,
-        "updated": 1699830740369,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023316000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023316000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 262,
-        "net": "pr",
-        "code": "2023316000",
-        "ids": ",us7000laj7,pr2023316000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.3554,
-        "rms": 0.39,
-        "gap": 160,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.1 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7368,
-          18.513,
-          122
-        ]
-      },
-      "id": "pr2023316000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "83 km NW of Yakutat, Alaska",
-        "time": 1699826892354,
-        "updated": 1699828471040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023eiyyy1f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023eiyyy1f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "023eiyyy1f",
-        "ids": ",us7000laj4,ak023eiyyy1f,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.59,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 83 km NW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.68,
-          60.1215,
-          13
-        ]
-      },
-      "id": "ak023eiyyy1f"
     }
   ],
   "bbox": [
     -179.9245,
     -52.8658,
     0.62,
-    151.0216,
+    159.1689,
     67.5206,
     521.248
   ]
