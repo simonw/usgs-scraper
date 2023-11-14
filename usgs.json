@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699977599000,
+    "generated": 1699981199000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.05,
+        "place": "3 km WNW of San Lorenzo, Puerto Rico",
+        "time": 1699977332620,
+        "updated": 1699979025820,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71431388",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71431388.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "pr",
+        "code": "71431388",
+        "ids": ",pr71431388,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1333,
+        "rms": 0.44,
+        "gap": 120,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 3 km WNW of San Lorenzo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9941666666667,
+          18.2058333333333,
+          132.14
+        ]
+      },
+      "id": "pr71431388"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "43 km SSE of Perryville, Alaska",
         "time": 1699975822490,
-        "updated": 1699975929833,
+        "updated": 1699980810040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023em60cbt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023em60cbt.geojson",
@@ -28,8 +68,8 @@
         "sig": 112,
         "net": "ak",
         "code": "023em60cbt",
-        "ids": ",ak023em60cbt,",
-        "sources": ",ak,",
+        "ids": ",us6000lncc,ak023em60cbt,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -53,13 +93,13 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "3 km WNW of Pony, Montana",
+        "place": "western Montana",
         "time": 1699975125860,
-        "updated": 1699977179708,
+        "updated": 1699980867472,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90032793",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90032793.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -77,7 +117,7 @@
         "gap": 44,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 3 km WNW of Pony, Montana"
+        "title": "M 2.6 - western Montana"
       },
       "geometry": {
         "type": "Point",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "mb90032793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "114 km SSE of Sand Point, Alaska",
+        "time": 1699974530446,
+        "updated": 1699980323040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lnc6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lnc6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.042,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "6000lnc6",
+        "ids": ",us6000lnc6,ak023em5vogc,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 13,
+        "dmin": 1.037,
+        "rms": 0.45,
+        "gap": 224,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 114 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.7303,
+          54.4084,
+          35
+        ]
+      },
+      "id": "us6000lnc6"
     },
     {
       "type": "Feature",
@@ -175,7 +255,7 @@
         "mag": 2.85,
         "place": "1 km WSW of Pāhala, Hawaii",
         "time": 1699966948280,
-        "updated": 1699967325089,
+        "updated": 1699978984040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73647522",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73647522.geojson",
@@ -188,8 +268,8 @@
         "sig": 125,
         "net": "hv",
         "code": "73647522",
-        "ids": ",hv73647522,",
-        "sources": ",hv,",
+        "ids": ",hv73647522,us6000lnbk,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 55,
         "dmin": null,
@@ -215,11 +295,11 @@
         "mag": 5.9,
         "place": "66 km NE of Finschhafen, Papua New Guinea",
         "time": 1699966345336,
-        "updated": 1699973768865,
+        "updated": 1699979788266,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd00103z8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usd00103z8.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.4,
         "mmi": 4.876,
         "alert": "green",
@@ -452,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "36 km SSW of Los Ybanez, Texas",
+        "time": 1699947722727,
+        "updated": 1699977794298,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023whts",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023whts.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2023whts",
+        "ids": ",tx2023whts,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 87,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 2.6 - 36 km SSW of Los Ybanez, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.109,
+          32.433,
+          8.0945
+        ]
+      },
+      "id": "tx2023whts"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.1,
         "place": "South Indian Ocean",
         "time": 1699945256971,
@@ -573,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "22 km SSW of Covenant Life, Alaska",
+        "place": "Southeastern Alaska",
         "time": 1699938421453,
         "updated": 1699941239040,
         "tz": null,
@@ -597,7 +717,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 22 km SSW of Covenant Life, Alaska"
+        "title": "M 2.9 - Southeastern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "11 km NE of Atka, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1699902610017,
         "updated": 1699909982204,
         "tz": null,
@@ -997,7 +1117,7 @@
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 11 km NE of Atka, Alaska"
+        "title": "M 4.4 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1015,11 +1135,11 @@
         "mag": 4.9,
         "place": "35 km N of Yumbe, Uganda",
         "time": 1699901662232,
-        "updated": 1699956630450,
+        "updated": 1699980437647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000larp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000larp.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -1173,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.57,
-        "place": "20 km SSE of Pāhala, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1699897794060,
         "updated": 1699915381510,
         "tz": null,
@@ -1197,7 +1317,7 @@
         "gap": 208,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 20 km SSE of Pāhala, Hawaii"
+        "title": "M 2.6 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "Bering Strait",
+        "place": "129 km SW of Point Hope, Alaska",
         "time": 1699896796844,
         "updated": 1699909106040,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 245,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.3 - Bering Strait"
+        "title": "M 3.3 - 129 km SW of Point Hope, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1328,86 +1448,6 @@
         ]
       },
       "id": "nc73962476"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "128 km SSW of Point Hope, Alaska",
-        "time": 1699893836903,
-        "updated": 1699897219040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ekj5dy7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ekj5dy7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "023ekj5dy7",
-        "ids": ",us7000lans,ak023ekj5dy7,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.95,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 128 km SSW of Point Hope, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.1569,
-          67.3262,
-          13.8
-        ]
-      },
-      "id": "ak023ekj5dy7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "129 km WNW of Rabaul, Papua New Guinea",
-        "time": 1699893576033,
-        "updated": 1699896951040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lanw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lanw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000lanw",
-        "ids": ",us7000lanw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 1.162,
-        "rms": 1.25,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 129 km WNW of Rabaul, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0216,
-          -3.96,
-          10
-        ]
-      },
-      "id": "us7000lanw"
     }
   ],
   "bbox": [
