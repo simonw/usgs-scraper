@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699916396000,
+    "generated": 1699920061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.81,
         "place": "11 km W of Alberto Oviedo Mota, B.C., MX",
         "time": 1699915114950,
-        "updated": 1699915529176,
+        "updated": 1699916694040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39712770",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39712770.geojson",
@@ -28,8 +28,8 @@
         "sig": 121,
         "net": "ci",
         "code": "39712770",
-        "ids": ",ci39712770,",
-        "sources": ",ci,",
+        "ids": ",ci39712770,us7000latb,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.1055,
@@ -292,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.25,
-        "place": "10 km N of Big Pine, CA",
-        "time": 1699898091060,
-        "updated": 1699914509040,
+        "mag": 3.23,
+        "place": "9 km N of Big Pine, CA",
+        "time": 1699898091050,
+        "updated": 1699918993273,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73962521",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73962521.geojson",
@@ -303,28 +303,28 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 167,
+        "sig": 165,
         "net": "nc",
         "code": "73962521",
         "ids": ",nc73962521,nn00868829,us7000lard,",
         "sources": ",nc,nn,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.02015,
-        "rms": 0.05,
-        "gap": 80,
+        "nst": 38,
+        "dmin": 0.01773,
+        "rms": 0.08,
+        "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 10 km N of Big Pine, CA"
+        "title": "M 3.2 - 9 km N of Big Pine, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.274498,
-          37.2496681,
-          12.13
+          -118.2753333,
+          37.2473333,
+          12.75
         ]
       },
       "id": "nc73962521"
@@ -1293,9 +1293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Biak region, Indonesia",
-        "time": 1699840458576,
-        "updated": 1699841896040,
+        "place": "67 km NNW of Insrom, Indonesia",
+        "time": 1699840458863,
+        "updated": 1699917664040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lak9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lak9.geojson",
@@ -1311,19 +1311,19 @@
         "ids": ",us7000lak9,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 4.169,
-        "rms": 0.81,
+        "nst": 26,
+        "dmin": 4.144,
+        "rms": 0.86,
         "gap": 159,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Biak region, Indonesia"
+        "title": "M 4.5 - 67 km NNW of Insrom, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.7235,
-          -0.597,
+          135.7103,
+          -0.6219,
           35
         ]
       },
@@ -1375,7 +1375,7 @@
         "mag": 3.9,
         "place": "off the coast of Northern California",
         "time": 1699834403917,
-        "updated": 1699893712181,
+        "updated": 1699918571372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lajy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lajy.geojson",
@@ -1388,9 +1388,9 @@
         "sig": 235,
         "net": "us",
         "code": "7000lajy",
-        "ids": ",us7000lajy,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",us7000lajy,nc73962246,",
+        "sources": ",us,nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 1.651,
         "rms": 0.79,
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us7000lajy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "western Texas",
-        "time": 1699831316015,
-        "updated": 1699880056905,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023wfhu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023wfhu.geojson",
-        "felt": 7,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "tx",
-        "code": "2023wfhu",
-        "ids": ",us7000lajm,tx2023wfhu,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 72,
-        "magType": "ml(texnet)",
-        "type": "earthquake",
-        "title": "M 3.4 - western Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.997,
-          32.222,
-          9.0727
-        ]
-      },
-      "id": "tx2023wfhu"
     }
   ],
   "bbox": [
