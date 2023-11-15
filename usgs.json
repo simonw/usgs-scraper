@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700045984000,
+    "generated": 1700049605000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "Kansas",
+        "time": 1700046990896,
+        "updated": 1700047443040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lni4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lni4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000lni4",
+        "ids": ",us6000lni4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.156,
+        "rms": 0.32,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8428,
+          37.012,
+          5
+        ]
+      },
+      "id": "us6000lni4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "24 km SW of Coyanosa, Texas",
+        "time": 1700045912905,
+        "updated": 1700048945647,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023wjvs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023wjvs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.98,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "tx",
+        "code": "2023wjvs",
+        "ids": ",us6000lni0,tx2023wjvs,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 18,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 70,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 3.5 - 24 km SW of Coyanosa, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.265,
+          31.1,
+          0.0902
+        ]
+      },
+      "id": "tx2023wjvs"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.6,
         "place": "1 km SSE of Standard, Illinois",
         "time": 1700044915840,
-        "updated": 1700045955255,
+        "updated": 1700049388970,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lnhy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lnhy.geojson",
-        "felt": 17,
-        "cdi": 3.8,
-        "mmi": null,
+        "felt": 154,
+        "cdi": 5,
+        "mmi": 4.48,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 206,
+        "sig": 276,
         "net": "us",
         "code": "6000lnhy",
         "ids": ",us6000lnhy,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 64,
         "dmin": 0.69,
         "rms": 0.39,
@@ -52,8 +132,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "98 km NW of Hihifo, Tonga",
+        "time": 1700043516585,
+        "updated": 1700049306040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lnhx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lnhx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000lnhx",
+        "ids": ",us6000lnhx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 4.036,
+        "rms": 0.75,
+        "gap": 54,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 98 km NW of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.5523,
+          -15.4428,
+          190.76
+        ]
+      },
+      "id": "us6000lnhx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
-        "place": "22 km NW of Pukerua Bay, New Zealand",
+        "place": "Cook Strait, New Zealand",
         "time": 1700026841218,
         "updated": 1700031087187,
         "tz": null,
@@ -77,7 +197,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 22 km NW of Pukerua Bay, New Zealand"
+        "title": "M 4.1 - Cook Strait, New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "20 km SE of Tokoroa, New Zealand",
+        "place": "North Island of New Zealand",
         "time": 1700026403780,
         "updated": 1700031504040,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": 65,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 20 km SE of Tokoroa, New Zealand"
+        "title": "M 4.1 - North Island of New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Central Alaska",
+        "place": "15 km SW of Petersville, Alaska",
         "time": 1700020989225,
         "updated": 1700021098601,
         "tz": null,
@@ -197,7 +317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Central Alaska"
+        "title": "M 2.8 - 15 km SW of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "62 km W of San José de Jáchal, Argentina",
+        "place": "San Juan, Argentina",
         "time": 1700020752767,
         "updated": 1700021373040,
         "tz": null,
@@ -237,7 +357,7 @@
         "gap": 36,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 62 km W of San José de Jáchal, Argentina"
+        "title": "M 4.4 - San Juan, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "4 km WNW of Adjuntas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1700009584830,
         "updated": 1700011938670,
         "tz": null,
@@ -517,7 +637,7 @@
         "gap": 107,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km WNW of Adjuntas, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "46 km ESE of Ahar, Iran",
+        "place": "northwestern Iran",
         "time": 1699996396411,
         "updated": 1700003671130,
         "tz": null,
@@ -797,7 +917,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 46 km ESE of Ahar, Iran"
+        "title": "M 4.3 - northwestern Iran"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Pulau-Pulau Talaud, Indonesia",
+        "place": "127 km ESE of Sarangani, Philippines",
         "time": 1699986106793,
         "updated": 1700000612040,
         "tz": null,
@@ -917,7 +1037,7 @@
         "gap": 44,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Pulau-Pulau Talaud, Indonesia"
+        "title": "M 4.6 - 127 km ESE of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "36 km WSW of Mentone, Texas",
+        "place": "western Texas",
         "time": 1699982125643,
         "updated": 1699983068232,
         "tz": null,
@@ -1037,7 +1157,7 @@
         "gap": 117,
         "magType": "mlv",
         "type": "earthquake",
-        "title": "M 2.8 - 36 km WSW of Mentone, Texas"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1052,10 +1172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "37 km W of Mentone, Texas",
-        "time": 1699981577059,
-        "updated": 1699984036986,
+        "mag": 2.7,
+        "place": "western Texas",
+        "time": 1699981577027,
+        "updated": 1700046104260,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023wimi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023wimi.geojson",
@@ -1063,28 +1183,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 112,
         "net": "tx",
         "code": "2023wimi",
         "ids": ",tx2023wimi,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 20,
+        "nst": 16,
         "dmin": 0,
-        "rms": 0.5,
-        "gap": 58,
+        "rms": 0.1,
+        "gap": 52,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.6 - 37 km W of Mentone, Texas"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.983,
-          31.641,
-          4.3052
+          -103.977,
+          31.633,
+          4.859
         ]
       },
       "id": "tx2023wimi"
@@ -1093,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "3 km SW of Ninilchik, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1699981321350,
         "updated": 1700031205995,
         "tz": null,
@@ -1117,7 +1237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 3 km SW of Ninilchik, Alaska"
+        "title": "M 3.4 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Bali Sea",
+        "place": "33 km ENE of Panji, Indonesia",
         "time": 1699980331063,
         "updated": 1699983864040,
         "tz": null,
@@ -1157,7 +1277,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Bali Sea"
+        "title": "M 4.6 - 33 km ENE of Panji, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "western Montana",
+        "place": "3 km WNW of Pony, Montana",
         "time": 1699975125860,
         "updated": 1700005640870,
         "tz": null,
@@ -1357,7 +1477,7 @@
         "gap": 44,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Montana"
+        "title": "M 2.6 - 3 km WNW of Pony, Montana"
       },
       "geometry": {
         "type": "Point",
