@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700244006000,
+    "generated": 1700247622000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "south of the Kermadec Islands",
+        "time": 1700242814832,
+        "updated": 1700245856040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lp6s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lp6s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000lp6s",
+        "ids": ",us6000lp6s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 3.405,
+        "rms": 1.25,
+        "gap": 169,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0906,
+          -32.6751,
+          10
+        ]
+      },
+      "id": "us6000lp6s"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.98,
         "place": "6 km NNW of Delta, B.C., MX",
         "time": 1700233822310,
-        "updated": 1700234468480,
+        "updated": 1700246971945,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39714234",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39714234.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 7,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 137,
+        "sig": 139,
         "net": "ci",
         "code": "39714234",
         "ids": ",ci39714234,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.07871,
         "rms": 0.33,
@@ -92,6 +132,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.8,
+        "place": "29 km N of Adak, Alaska",
+        "time": 1700232802984,
+        "updated": 1700247407307,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023er45vsy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023er45vsy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.268,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "023er45vsy",
+        "ids": ",ak023er45vsy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 29 km N of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.6107,
+          52.1418,
+          127.1
+        ]
+      },
+      "id": "ak023er45vsy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "7 km NNW of Delta, B.C., MX",
         "time": 1700230280660,
@@ -132,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "13 km NNE of Houston, Alaska",
-        "time": 1700228112067,
-        "updated": 1700235542839,
+        "mag": 3.1,
+        "place": "14 km NNW of Meadow Lakes, Alaska",
+        "time": 1700228112597,
+        "updated": 1700244495903,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023er3gkda",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023er3gkda.geojson",
@@ -143,9 +223,9 @@
         "cdi": 3.4,
         "mmi": 2.196,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 160,
+        "sig": 150,
         "net": "ak",
         "code": "023er3gkda",
         "ids": ",ak023er3gkda,us6000lp39,",
@@ -157,14 +237,14 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 13 km NNE of Houston, Alaska"
+        "title": "M 3.1 - 14 km NNW of Meadow Lakes, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.7119,
-          61.7368,
-          40.3
+          -149.6953,
+          61.7515,
+          46
         ]
       },
       "id": "ak023er3gkda"
@@ -374,8 +454,8 @@
       "properties": {
         "mag": 3.3,
         "place": "7 km N of Delta, B.C., MX",
-        "time": 1700214028260,
-        "updated": 1700239153040,
+        "time": 1700214028200,
+        "updated": 1700247301380,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39714146",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39714146.geojson",
@@ -383,18 +463,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 168,
         "net": "ci",
         "code": "39714146",
         "ids": ",ci39714146,us6000lp2m,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.08273,
-        "rms": 0.37,
-        "gap": 52,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.08231,
+        "rms": 0.31,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.3 - 7 km N of Delta, B.C., MX"
@@ -402,9 +482,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.2001648,
-          32.4179993,
-          9.81
+          -115.1981667,
+          32.415,
+          11.43
         ]
       },
       "id": "ci39714146"
@@ -415,14 +495,14 @@
         "mag": 6.7,
         "place": "26 km WSW of Burias, Philippines",
         "time": 1700208853236,
-        "updated": 1700235953325,
+        "updated": 1700245722199,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lp12",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lp12.geojson",
         "felt": 48,
         "cdi": 7.9,
-        "mmi": 6.462,
-        "alert": "green",
+        "mmi": 7.57,
+        "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
         "sig": 729,
@@ -1015,17 +1095,17 @@
         "mag": 3.14,
         "place": "2 km SE of Stanwood, Washington",
         "time": 1700182060490,
-        "updated": 1700243333815,
+        "updated": 1700247063467,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61972566",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61972566.geojson",
-        "felt": 432,
+        "felt": 440,
         "cdi": 3.3,
         "mmi": 3.27,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 294,
+        "sig": 297,
         "net": "uw",
         "code": "61972566",
         "ids": ",uw61972566,us6000lnzy,",
@@ -1128,51 +1208,11 @@
         ]
       },
       "id": "ak023eplt1jy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "51 km W of Ollagüe, Chile",
-        "time": 1700158408548,
-        "updated": 1700171334040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lnxi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lnxi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000lnxi",
-        "ids": ",us6000lnxi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.706,
-        "rms": 0.81,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 51 km W of Ollagüe, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7446,
-          -21.1767,
-          121.701
-        ]
-      },
-      "id": "us6000lnxi"
     }
   ],
   "bbox": [
-    -169.8301,
-    -26.9995,
+    -178.0906,
+    -32.6751,
     5.1418,
     154.0707,
     62.5678,
