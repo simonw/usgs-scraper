@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700254816000,
+    "generated": 1700258406000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "66 km SSW of Sola, Vanuatu",
+        "time": 1700255145498,
+        "updated": 1700257090040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lp7t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lp7t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000lp7t",
+        "ids": ",us6000lp7t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 6.745,
+        "rms": 0.56,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 66 km SSW of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.3741,
+          -14.4486,
+          192.563
+        ]
+      },
+      "id": "us6000lp7t"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.49,
         "place": "12 km NNW of Lake Pillsbury, CA",
         "time": 1700247637340,
-        "updated": 1700248031103,
+        "updated": 1700258110910,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73963921",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73963921.geojson",
@@ -132,29 +172,29 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.98,
+        "mag": 2.95,
         "place": "6 km NNW of Delta, B.C., MX",
-        "time": 1700233822310,
-        "updated": 1700251074239,
+        "time": 1700233832760,
+        "updated": 1700257924248,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39714234",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39714234.geojson",
-        "felt": 9,
-        "cdi": 2.7,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci37591324",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci37591324.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 134,
         "net": "ci",
-        "code": "39714234",
-        "ids": ",ci39714234,",
+        "code": "37591324",
+        "ids": ",ci37591324,",
         "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.07871,
-        "rms": 0.33,
-        "gap": 61,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.08092,
+        "rms": 0.21,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.0 - 6 km NNW of Delta, B.C., MX"
@@ -162,9 +202,49 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.2129974,
-          32.4076653,
-          9.1
+          -115.2116667,
+          32.4016667,
+          6.51
+        ]
+      },
+      "id": "ci37591324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.86,
+        "place": "8 km NNW of Delta, B.C., MX",
+        "time": 1700233822240,
+        "updated": 1700257090990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39714234",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39714234.geojson",
+        "felt": 9,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "ci",
+        "code": "39714234",
+        "ids": ",ci39714234,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.07078,
+        "rms": 0.3,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 8 km NNW of Delta, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2213333,
+          32.418,
+          9.44
         ]
       },
       "id": "ci39714234"
@@ -372,6 +452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.45,
+        "place": "147 km WSW of Adak, Alaska",
+        "time": 1700224812800,
+        "updated": 1700257745930,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av92121486",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av92121486.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "av",
+        "code": "92121486",
+        "ids": ",av92121486,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": null,
+        "rms": 0.27,
+        "gap": 252,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 147 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.632666666667,
+          51.423,
+          4.47
+        ]
+      },
+      "id": "av92121486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "255 km S of Ambon, Indonesia",
         "time": 1700223211624,
@@ -575,17 +695,17 @@
         "mag": 6.7,
         "place": "26 km WSW of Burias, Philippines",
         "time": 1700208853236,
-        "updated": 1700251664405,
+        "updated": 1700254966070,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lp12",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lp12.geojson",
-        "felt": 49,
+        "felt": 50,
         "cdi": 7.9,
         "mmi": 7.57,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 729,
+        "sig": 730,
         "net": "us",
         "code": "6000lp12",
         "ids": ",pt23321001,us6000lp12,at00s49djq,",
@@ -852,42 +972,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
+        "mag": 3.6,
         "place": "122 km S of Sand Point, Alaska",
-        "time": 1700194261237,
-        "updated": 1700205882648,
+        "time": 1700194262167,
+        "updated": 1700257594040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023eqxyi52",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023eqxyi52.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lp0z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lp0z.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "023eqxyi52",
-        "ids": ",ak023eqxyi52,",
-        "sources": ",ak,",
+        "sig": 199,
+        "net": "us",
+        "code": "6000lp0z",
+        "ids": ",ak023eqxyi52,us6000lp0z,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
+        "nst": 40,
+        "dmin": 1.113,
+        "rms": 0.95,
+        "gap": 204,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 122 km S of Sand Point, Alaska"
+        "title": "M 3.6 - 122 km S of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.5295,
-          54.2373,
-          18.7
+          -160.5014,
+          54.2391,
+          29.09
         ]
       },
-      "id": "ak023eqxyi52"
+      "id": "us6000lp0z"
     },
     {
       "type": "Feature",
@@ -1175,11 +1295,11 @@
         "mag": 3.14,
         "place": "2 km SE of Stanwood, Washington",
         "time": 1700182060490,
-        "updated": 1700254373571,
+        "updated": 1700257848643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61972566",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61972566.geojson",
-        "felt": 442,
+        "felt": 444,
         "cdi": 3.3,
         "mmi": 3.27,
         "alert": null,
@@ -1291,10 +1411,10 @@
     }
   ],
   "bbox": [
-    -178.0906,
+    -178.63266666667,
     -32.6751,
     1.74,
-    154.0707,
+    167.3741,
     62.5678,
     322.978
   ]
