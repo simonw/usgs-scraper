@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700456409000,
+    "generated": 1700460009000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.76,
+        "place": "12 km NE of Burney, CA",
+        "time": 1700456842060,
+        "updated": 1700457194654,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73964836",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73964836.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 117,
+        "net": "nc",
+        "code": "73964836",
+        "ids": ",nc73964836,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.1584,
+        "rms": 0.11,
+        "gap": 37,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 12 km NE of Burney, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5623322,
+          40.954834,
+          15.62
+        ]
+      },
+      "id": "nc73964836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "7 km NNW of Mabini, Philippines",
+        "time": 1700456263833,
+        "updated": 1700459159501,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpjm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpjm.geojson",
+        "felt": 6,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 418,
+        "net": "us",
+        "code": "6000lpjm",
+        "ids": ",us6000lpjm,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 62,
+        "dmin": 4.399,
+        "rms": 0.83,
+        "gap": 54,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 7 km NNW of Mabini, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1311,
+          11.4746,
+          92.855
+        ]
+      },
+      "id": "us6000lpjm"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.4,
         "place": "243 km W of Ferndale, California",
         "time": 1700449021385,
-        "updated": 1700454813177,
+        "updated": 1700459654894,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpjc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpjc.geojson",
@@ -55,11 +135,11 @@
         "mag": 4.6,
         "place": "36 km WSW of Villa Basilio Nievas, Argentina",
         "time": 1700444830163,
-        "updated": 1700455851937,
+        "updated": 1700456551029,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpj5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpj5.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -735,11 +815,11 @@
         "mag": 2.6,
         "place": "9 km SSE of Okanagan Falls, Canada",
         "time": 1700409605700,
-        "updated": 1700448170536,
+        "updated": 1700457456353,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61973071",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61973071.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -935,7 +1015,7 @@
         "mag": 2.47,
         "place": "7 km WSW of Kenwood, CA",
         "time": 1700397826210,
-        "updated": 1700452931209,
+        "updated": 1700457211040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73964541",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73964541.geojson",
@@ -948,8 +1028,8 @@
         "sig": 109,
         "net": "nc",
         "code": "73964541",
-        "ids": ",nc73964541,",
-        "sources": ",nc,",
+        "ids": ",nc73964541,us6000lpfw,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 89,
         "dmin": 0.03571,
@@ -1248,46 +1328,6 @@
         ]
       },
       "id": "us6000lper"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "10 km E of Susitna North, Alaska",
-        "time": 1700373298808,
-        "updated": 1700375674040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023eu9vypi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023eu9vypi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "023eu9vypi",
-        "ids": ",us6000lpep,ak023eu9vypi,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 10 km E of Susitna North, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.6584,
-          62.1649,
-          35.1
-        ]
-      },
-      "id": "ak023eu9vypi"
     }
   ],
   "bbox": [
