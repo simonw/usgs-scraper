@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700600392000,
+    "generated": 1700604003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "63 km S of Kokopo, Papua New Guinea",
+        "time": 1700602254825,
+        "updated": 1700603952040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpx6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpx6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000lpx6",
+        "ids": ",us6000lpx6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.725,
+        "rms": 0.54,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 63 km S of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2128,
+          -4.919,
+          57.599
+        ]
+      },
+      "id": "us6000lpx6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,12 +495,12 @@
         "mag": 5.1,
         "place": "94 km NNE of Labasa, Fiji",
         "time": 1700580733879,
-        "updated": 1700581925040,
+        "updated": 1700602734122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpu1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpu1.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +510,7 @@
         "code": "6000lpu1",
         "ids": ",us6000lpu1,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 69,
         "dmin": 2.636,
         "rms": 1.26,
@@ -772,10 +812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "13 km NNW of San Simeon, CA",
-        "time": 1700561757420,
-        "updated": 1700588428470,
+        "mag": 2.46,
+        "place": "14 km NNW of San Simeon, CA",
+        "time": 1700561757430,
+        "updated": 1700603110401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73965251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73965251.geojson",
@@ -783,28 +823,28 @@
         "cdi": 2.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 97,
+        "sig": 94,
         "net": "nc",
         "code": "73965251",
         "ids": ",nc73965251,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.1066,
-        "rms": 0.1,
-        "gap": 182,
+        "nst": 69,
+        "dmin": 0.1061,
+        "rms": 0.08,
+        "gap": 175,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 13 km NNW of San Simeon, CA"
+        "title": "M 2.5 - 14 km NNW of San Simeon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.2503357,
-          35.7543335,
-          6.52
+          -121.2468333,
+          35.7566667,
+          5.68
         ]
       },
       "id": "nc73965251"
@@ -1215,11 +1255,11 @@
         "mag": 3.1,
         "place": "20 km WSW of Point MacKenzie, Alaska",
         "time": 1700526168036,
-        "updated": 1700598001277,
+        "updated": 1700601644093,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023exhslv2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023exhslv2.geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 3.9,
         "mmi": 2.282,
         "alert": null,
@@ -1408,206 +1448,6 @@
         ]
       },
       "id": "us6000lppx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "116 km WSW of Covenant Life, Alaska",
-        "time": 1700515624501,
-        "updated": 1700522519040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ew6scda",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ew6scda.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.285,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "023ew6scda",
-        "ids": ",us6000lppf,ak023ew6scda,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.64,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 116 km WSW of Covenant Life, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -137.9112,
-          59.0118,
-          4.1
-        ]
-      },
-      "id": "ak023ew6scda"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "103 km SE of Onagawa Chō, Japan",
-        "time": 1700515563725,
-        "updated": 1700520747040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lppk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lppk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000lppk",
-        "ids": ",us6000lppk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.189,
-        "rms": 0.57,
-        "gap": 179,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 103 km SE of Onagawa Chō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1878,
-          37.7174,
-          50.738
-        ]
-      },
-      "id": "us6000lppk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "19 km ESE of Zahedan, Iran",
-        "time": 1700514878075,
-        "updated": 1700599118307,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpp3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpp3.geojson",
-        "felt": 15,
-        "cdi": 4.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 333,
-        "net": "us",
-        "code": "6000lpp3",
-        "ids": ",us6000lpp3,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 72,
-        "dmin": 6.23,
-        "rms": 0.51,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 19 km ESE of Zahedan, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.0552,
-          29.4541,
-          10
-        ]
-      },
-      "id": "us6000lpp3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "14 km S of Fern Forest, Hawaii",
-        "time": 1700514390760,
-        "updated": 1700518563040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73654622",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73654622.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "73654622",
-        "ids": ",us6000lpnw,hv73654622,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": null,
-        "rms": 0.14,
-        "gap": 134,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 14 km S of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.108166666667,
-          19.3343333333333,
-          3.62
-        ]
-      },
-      "id": "hv73654622"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "28 km SW of Ovalle, Chile",
-        "time": 1700514189339,
-        "updated": 1700518239040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpnu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpnu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000lpnu",
-        "ids": ",us6000lpnu,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 78,
-        "dmin": 0.548,
-        "rms": 1.1,
-        "gap": 100,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.9 - 28 km SW of Ovalle, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.4101,
-          -30.7817,
-          47.804
-        ]
-      },
-      "id": "us6000lpnu"
     }
   ],
   "bbox": [
