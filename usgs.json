@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700546402000,
+    "generated": 1700550024000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "28 km WSW of Holy Cross, Alaska",
+        "time": 1700548446930,
+        "updated": 1700549193040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpre",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpre.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000lpre",
+        "ids": ",us6000lpre,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.379,
+        "rms": 0.58,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 28 km WSW of Holy Cross, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.3017,
+          62.125,
+          9.504
+        ]
+      },
+      "id": "us6000lpre"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
         "place": "central Mid-Atlantic Ridge",
         "time": 1700543426046,
-        "updated": 1700544399171,
+        "updated": 1700548632040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpra",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpra.geojson",
@@ -30,7 +70,7 @@
         "code": "6000lpra",
         "ids": ",us6000lpra,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 58,
         "dmin": 9.625,
         "rms": 0.8,
@@ -375,17 +415,17 @@
         "mag": 4.6,
         "place": "19 km ESE of Zahedan, Iran",
         "time": 1700514878075,
-        "updated": 1700543804402,
+        "updated": 1700546806105,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpp3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpp3.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 331,
+        "sig": 332,
         "net": "us",
         "code": "6000lpp3",
         "ids": ",us6000lpp3,",
@@ -1048,46 +1088,6 @@
         ]
       },
       "id": "us6000lpk6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "101 km SSW of Anacapri, Italy",
-        "time": 1700462788580,
-        "updated": 1700489870857,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpk2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpk2.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000lpk2",
-        "ids": ",us6000lpk2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 95,
-        "dmin": 1.457,
-        "rms": 0.67,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 101 km SSW of Anacapri, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.7268,
-          39.7218,
-          410.818
-        ]
-      },
-      "id": "us6000lpk2"
     }
   ],
   "bbox": [
@@ -1095,7 +1095,7 @@
     -32.2303,
     1,
     149.8679,
-    61.5015,
-    410.818
+    62.125,
+    221.831
   ]
 }
