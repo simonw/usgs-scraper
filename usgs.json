@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700629206000,
+    "generated": 1700632824000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 7,
-        "place": "98 km E of Port-Olry, Vanuatu",
-        "time": 1700628453000,
-        "updated": 1700629068931,
+        "mag": 2.93,
+        "place": "Island of Hawaii, Hawaii",
+        "time": 1700629542370,
+        "updated": 1700629875490,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00s4idb9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00s4idb9.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73656982",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73656982.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 754,
-        "net": "at",
-        "code": "00s4idb9",
-        "ids": ",pt23326001,at00s4idb9,",
-        "sources": ",pt,at,",
-        "types": ",impact-link,origin,",
-        "nst": 39,
-        "dmin": 0,
-        "rms": 0.94,
-        "gap": 57.599995392000366,
-        "magType": "Mi",
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "hv",
+        "code": "73656982",
+        "ids": ",hv73656982,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 186,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 7.0 - 98 km E of Port-Olry, Vanuatu"
+        "title": "M 2.9 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          167.991,
-          -15.019,
-          10
+          -155.351165771484,
+          19.1721668243408,
+          29
         ]
       },
-      "id": "at00s4idb9"
+      "id": "hv73656982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.7,
+        "place": "98 km E of Port-Olry, Vanuatu",
+        "time": 1700628453610,
+        "updated": 1700632794346,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lq00",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lq00.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 6.842,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 691,
+        "net": "us",
+        "code": "6000lq00",
+        "ids": ",us6000lq00,pt23326001,at00s4idb9,",
+        "sources": ",us,pt,at,",
+        "types": ",ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 96,
+        "dmin": 6.56,
+        "rms": 0.78,
+        "gap": 26,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.7 - 98 km E of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.9827,
+          -14.9854,
+          22.523
+        ]
+      },
+      "id": "us6000lq00"
     },
     {
       "type": "Feature",
@@ -255,7 +295,7 @@
         "mag": 2.53,
         "place": "8 km E of Mammoth Lakes, CA",
         "time": 1700616389990,
-        "updated": 1700617994912,
+        "updated": 1700632152149,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73965586",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73965586.geojson",
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "us6000lpre"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "10 km WSW of Acceglio, Italy",
-        "time": 1700545925211,
-        "updated": 1700564756040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lprc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lprc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000lprc",
-        "ids": ",us6000lprc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.618,
-        "rms": 0.68,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 10 km WSW of Acceglio, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8597,
-          44.4477,
-          6.936
-        ]
-      },
-      "id": "us6000lprc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1700543426046,
-        "updated": 1700550828221,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpra",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpra.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.066,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000lpra",
-        "ids": ",us6000lpra,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 58,
-        "dmin": 9.625,
-        "rms": 0.8,
-        "gap": 64,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -29.0181,
-          0.9561,
-          10
-        ]
-      },
-      "id": "us6000lpra"
     }
   ],
   "bbox": [
