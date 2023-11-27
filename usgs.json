@@ -1,59 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1701122395000,
+    "generated": 1701125986000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.6,
-        "place": "near the north coast of New Guinea, Papua New Guinea",
-        "time": 1701121610000,
-        "updated": 1701122381046,
+        "mag": 4.8,
+        "place": "central Peru",
+        "time": 1701123080261,
+        "updated": 1701124527040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00s4sxu2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00s4sxu2.geojson",
-        "felt": 1,
-        "cdi": 3.8,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000le73",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000le73.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 671,
-        "net": "at",
-        "code": "00s4sxu2",
-        "ids": ",at00s4sxu2,pt23331001,",
-        "sources": ",at,pt,",
-        "types": ",dyfi,impact-link,origin,",
-        "nst": 16,
-        "dmin": 8.10999,
-        "rms": 2.02,
-        "gap": 89.99999280000057,
-        "magType": "Mi",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000le73",
+        "ids": ",us7000le73,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 2.818,
+        "rms": 0.71,
+        "gap": 128,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 6.6 - near the north coast of New Guinea, Papua New Guinea"
+        "title": "M 4.8 - central Peru"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144,
-          -3.3,
-          44
+          -74.5839,
+          -13.7564,
+          84.847
         ]
       },
-      "id": "at00s4sxu2"
+      "id": "us7000le73"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.5,
+        "place": "near the north coast of New Guinea, Papua New Guinea",
+        "time": 1701121603171,
+        "updated": 1701124343231,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000le6w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000le6w.geojson",
+        "felt": 3,
+        "cdi": 4.6,
+        "mmi": 6.827,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 651,
+        "net": "us",
+        "code": "7000le6w",
+        "ids": ",at00s4sxu2,us7000le6w,pt23331001,",
+        "sources": ",at,us,pt,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 93,
+        "dmin": 3.472,
+        "rms": 1.09,
+        "gap": 32,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.5 - near the north coast of New Guinea, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.0199,
+          -3.5615,
+          12.332
+        ]
+      },
+      "id": "us7000le6w"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1701117960620,
         "updated": 1701119952270,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 104,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -172,13 +212,53 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "western Texas",
+        "time": 1701112025436,
+        "updated": 1701124277838,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023xgjw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023xgjw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2023xgjw",
+        "ids": ",tx2023xgjw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 66,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 2.5 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.425,
+          31.679,
+          7.0571
+        ]
+      },
+      "id": "tx2023xgjw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
         "place": "western Texas",
-        "time": 1701111953712,
-        "updated": 1701112854040,
+        "time": 1701111953786,
+        "updated": 1701124604872,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lr3n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lr3n.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023xgju",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023xgju.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,28 +266,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 121,
-        "net": "us",
-        "code": "6000lr3n",
-        "ids": ",us6000lr3n,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2023xgju",
+        "ids": ",us6000lr3n,tx2023xgju,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.089,
-        "rms": 0.67,
-        "gap": 62,
-        "magType": "ml",
+        "nst": 29,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 71,
+        "magType": "ml(texnet)",
         "type": "earthquake",
         "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3973,
-          31.6563,
-          5
+          -104.414,
+          31.681,
+          6.1701
         ]
       },
-      "id": "us6000lr3n"
+      "id": "tx2023xgju"
     },
     {
       "type": "Feature",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "103 km S of Yudomari, Japan",
+        "place": "Ryukyu Islands, Japan",
         "time": 1701098625027,
         "updated": 1701119047040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 127,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 103 km S of Yudomari, Japan"
+        "title": "M 4.5 - Ryukyu Islands, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "42 km NW of Toyah, Texas",
         "time": 1701087089156,
         "updated": 1701087943761,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 105,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 42 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "110 km E of Port-Olry, Vanuatu",
+        "place": "Vanuatu",
         "time": 1701085654330,
         "updated": 1701087426040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 110 km E of Port-Olry, Vanuatu"
+        "title": "M 4.8 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "128 km SE of Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1701081849061,
         "updated": 1701082798040,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 137,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 128 km SE of Kuril’sk, Russia"
+        "title": "M 4.7 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -655,11 +735,11 @@
         "mag": 3.47,
         "place": "12 km SE of Bodfish, CA",
         "time": 1701081460590,
-        "updated": 1701122138727,
+        "updated": 1701125016827,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39718330",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39718330.geojson",
-        "felt": 39,
+        "felt": 40,
         "cdi": 4.3,
         "mmi": 3.838,
         "alert": null,
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Near the coast of Antofagasta, Chile",
+        "place": "Antofagasta, Chile",
         "time": 1701079705112,
         "updated": 1701081323577,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 119,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 5.0 - Near the coast of Antofagasta, Chile"
+        "title": "M 5.0 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -812,14 +892,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.53,
+        "place": "16 km SW of Toms Place, CA",
+        "time": 1701073393950,
+        "updated": 1701125531055,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73968291",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73968291.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "nc",
+        "code": "73968291",
+        "ids": ",nc73968291,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.1122,
+        "rms": 0.04,
+        "gap": 61,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 16 km SW of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8191667,
+          37.4703333,
+          2.14
+        ]
+      },
+      "id": "nc73968291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
-        "place": "23 km E of Inarajan Village, Guam",
+        "place": "Guam region",
         "time": 1701070876727,
-        "updated": 1701111962993,
+        "updated": 1701123632405,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lr3l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lr3l.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
@@ -837,7 +957,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 23 km E of Inarajan Village, Guam"
+        "title": "M 4.9 - Guam region"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.27,
-        "place": "Puerto Rico region",
+        "place": "49 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1701061542470,
         "updated": 1701062781400,
         "tz": null,
@@ -997,7 +1117,7 @@
         "gap": 238,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Puerto Rico region"
+        "title": "M 3.3 - 49 km N of Tierras Nuevas Poniente, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Salta, Argentina",
+        "place": "71 km W of San Antonio de los Cobres, Argentina",
         "time": 1701052587775,
         "updated": 1701053540040,
         "tz": null,
@@ -1197,7 +1317,7 @@
         "gap": 102,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Salta, Argentina"
+        "title": "M 4.7 - 71 km W of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Near the coast of Atacama, Chile",
+        "place": "79 km WNW of Vallenar, Chile",
         "time": 1701045950373,
         "updated": 1701047384040,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 196,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 3.7 - Near the coast of Atacama, Chile"
+        "title": "M 3.7 - 79 km WNW of Vallenar, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "Southern Alaska",
+        "place": "61 km WSW of Nanwalek, Alaska",
         "time": 1701043891440,
         "updated": 1701047112254,
         "tz": null,
@@ -1317,7 +1437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - Southern Alaska"
+        "title": "M 3.6 - 61 km WSW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Puerto Rico",
+        "place": "1 km SW of Indios, Puerto Rico",
         "time": 1701042433190,
         "updated": 1701044382430,
         "tz": null,
@@ -1357,7 +1477,7 @@
         "gap": 186,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico"
+        "title": "M 2.5 - 1 km SW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "65 km WNW of Vallenar, Chile",
+        "place": "Near the coast of Atacama, Chile",
         "time": 1701039973745,
         "updated": 1701041724105,
         "tz": null,
@@ -1397,7 +1517,7 @@
         "gap": 179,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - 65 km WNW of Vallenar, Chile"
+        "title": "M 4.5 - Near the coast of Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1408,52 +1528,12 @@
         ]
       },
       "id": "us6000lqxj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": 1701039419567,
-        "updated": 1701041275040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lqxl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lqxl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000lqxl",
-        "ids": ",us6000lqxl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 26.294,
-        "rms": 0.67,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - southern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.5309,
-          -26.1686,
-          10
-        ]
-      },
-      "id": "us6000lqxl"
     }
   ],
   "bbox": [
     -156.6558,
     -57.5239,
-    3.26,
+    2.14,
     174.0241,
     59.0757,
     174.4
