@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1701104386000,
+    "generated": 1701107995000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
     {
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.23,
-        "place": "Virgin Islands region",
+        "place": "130 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1701099880090,
         "updated": 1701102315361,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 294,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.2 - Virgin Islands region"
+        "title": "M 4.2 - 130 km N of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1372,50 +1372,90 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "Central Alaska",
-        "time": 1701020729220,
-        "updated": 1701020874875,
+        "mag": 4.5,
+        "place": "near the east coast of Honshu, Japan",
+        "time": 1701023110283,
+        "updated": 1701106950040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023f61qlq2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023f61qlq2.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lqwl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lqwl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "023f61qlq2",
-        "ids": ",ak023f61qlq2,",
-        "sources": ",ak,",
+        "sig": 312,
+        "net": "us",
+        "code": "6000lqwl",
+        "ids": ",us6000lqwl,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.64,
-        "gap": null,
-        "magType": "ml",
+        "nst": 35,
+        "dmin": 3.085,
+        "rms": 1.02,
+        "gap": 106,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.5 - Central Alaska"
+        "title": "M 4.5 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.4768,
-          64.9249,
-          20
+          141.7967,
+          37.6803,
+          56.966
         ]
       },
-      "id": "ak023f61qlq2"
+      "id": "us6000lqwl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "31 km NNE of Cold Bay, Alaska",
+        "time": 1701023053850,
+        "updated": 1701105657040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lqwm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lqwm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000lqwm",
+        "ids": ",ak023f627i8s,us6000lqwm,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.35,
+        "rms": 0.43,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.7 - 31 km NNE of Cold Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.6091,
+          55.464,
+          156.875
+        ]
+      },
+      "id": "us6000lqwm"
     }
   ],
   "bbox": [
-    -156.6558,
+    -162.6091,
     -57.5239,
     3.6300001144409,
     174.0241,
-    64.9249,
+    59.0757,
     251.186
   ]
 }
