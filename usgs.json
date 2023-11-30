@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1701367214000,
+    "generated": 1701370814000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "62 km S of Whites City, New Mexico",
+        "time": 1701367576883,
+        "updated": 1701369981786,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023xluj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023xluj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2023xluj",
+        "ids": ",tx2023xluj,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 62 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.376,
+          31.611,
+          4.2915
+        ]
+      },
+      "id": "tx2023xluj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 5,
         "place": "49 km SSW of Adak, Alaska",
         "time": 1701361986056,
-        "updated": 1701365652185,
+        "updated": 1701369800126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000leuk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000leuk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": 3.445,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "7000leuk",
         "ids": ",us7000leuk,ak023fcn7xtk,",
         "sources": ",us,ak,",
-        "types": ",moment-tensor,oaf,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,oaf,origin,phase-data,shakemap,",
         "nst": 203,
         "dmin": 0.442,
         "rms": 0.8,
@@ -95,17 +135,17 @@
         "mag": 2.57,
         "place": "0 km NNW of View Park-Windsor Hills, CA",
         "time": 1701356815900,
-        "updated": 1701367165084,
+        "updated": 1701369495580,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39720234",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39720234.geojson",
-        "felt": 84,
+        "felt": 88,
         "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 143,
         "net": "ci",
         "code": "39720234",
         "ids": ",ci39720234,",
@@ -1208,46 +1248,6 @@
         ]
       },
       "id": "us7000lesa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "Puerto Rico",
-        "time": 1701281280270,
-        "updated": 1701282398110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71432573",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71432573.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "pr",
-        "code": "71432573",
-        "ids": ",pr71432573,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.04494,
-        "rms": 0.12,
-        "gap": 204,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8345,
-          17.9606666666667,
-          10
-        ]
-      },
-      "id": "pr71432573"
     }
   ],
   "bbox": [
