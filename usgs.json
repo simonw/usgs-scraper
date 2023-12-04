@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1701676817000,
+    "generated": 1701680419000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 104
+    "count": 100
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 5.1,
         "place": "7 km NNW of Mudanya, Turkey",
         "time": 1701675739839,
-        "updated": 1701676723528,
+        "updated": 1701680169335,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lg2l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lg2l.geojson",
-        "felt": 12,
-        "cdi": 4.1,
+        "felt": 76,
+        "cdi": 4.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 405,
+        "sig": 432,
         "net": "us",
         "code": "7000lg2l",
         "ids": ",us7000lg2l,",
@@ -55,7 +55,7 @@
         "mag": 3.09,
         "place": "11 km E of Ocotillo, CA",
         "time": 1701673068620,
-        "updated": 1701673760400,
+        "updated": 1701680034040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39722466",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39722466.geojson",
@@ -68,8 +68,8 @@
         "sig": 147,
         "net": "ci",
         "code": "39722466",
-        "ids": ",ci39722466,",
-        "sources": ",ci,",
+        "ids": ",ci39722466,us7000lg2j,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 93,
         "dmin": 0.09445,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000lg2d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "107 km S of Iztapa, Guatemala",
+        "time": 1701670832781,
+        "updated": 1701679339040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lg29",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lg29.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000lg29",
+        "ids": ",us7000lg29,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 1.231,
+        "rms": 0.63,
+        "gap": 161,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 107 km S of Iztapa, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6117,
+          12.9689,
+          28.805
+        ]
+      },
+      "id": "us7000lg29"
     },
     {
       "type": "Feature",
@@ -1652,46 +1692,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 7,
-        "place": "86 km E of Aras-asan, Philippines",
-        "time": 1701633043000,
-        "updated": 1701634897550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00s53wgj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00s53wgj.geojson",
-        "felt": 13,
-        "cdi": 6.2,
-        "mmi": null,
-        "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 762,
-        "net": "at",
-        "code": "00s53wgj",
-        "ids": ",at00s53wgj,",
-        "sources": ",at,",
-        "types": ",dyfi,impact-link,origin,",
-        "nst": 41,
-        "dmin": 2.062532,
-        "rms": 1.46,
-        "gap": 61.199995104000394,
-        "magType": "Mb",
-        "type": "earthquake",
-        "title": "M 7.0 - 86 km E of Aras-asan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.1,
-          8.9,
-          10
-        ]
-      },
-      "id": "at00s53wgj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 6.9,
         "place": "35 km ENE of Aras-asan, Philippines",
         "time": 1701632977281,
@@ -1708,8 +1708,8 @@
         "sig": 753,
         "net": "us",
         "code": "7000lfxx",
-        "ids": ",us7000lfxx,pt23337004,",
-        "sources": ",us,pt,",
+        "ids": ",us7000lfxx,pt23337004,at00s53wgj,",
+        "sources": ",us,pt,at,",
         "types": ",associate,dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 119,
         "dmin": 2.144,
@@ -4008,173 +4008,13 @@
         ]
       },
       "id": "us7000lft0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "139 km N of Lae, Papua New Guinea",
-        "time": 1701593743070,
-        "updated": 1701595401040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lfsv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lfsv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000lfsv",
-        "ids": ",us7000lfsv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 3.914,
-        "rms": 0.78,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 139 km N of Lae, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.1331,
-          -5.4651,
-          179.592
-        ]
-      },
-      "id": "us7000lfsv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "35 km NE of Barcelona, Philippines",
-        "time": 1701592916625,
-        "updated": 1701612471040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lfsw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lfsw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000lfsw",
-        "ids": ",us7000lfsw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 1.695,
-        "rms": 0.44,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 35 km NE of Barcelona, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.6666,
-          8.3863,
-          78.149
-        ]
-      },
-      "id": "us7000lfsw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "5 km NNW of Megalópoli, Greece",
-        "time": 1701592679355,
-        "updated": 1701594870040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lfsr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lfsr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000lfsr",
-        "ids": ",us7000lfsr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 0.316,
-        "rms": 0.5,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 5 km NNW of Megalópoli, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.129,
-          37.4505,
-          70.354
-        ]
-      },
-      "id": "us7000lfsr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Mindanao, Philippines",
-        "time": 1701592586921,
-        "updated": 1701609696040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lfss",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lfss.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000lfss",
-        "ids": ",us7000lfss,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 1.524,
-        "rms": 0.48,
-        "gap": 107,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Mindanao, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.7149,
-          8.1033,
-          80.663
-        ]
-      },
-      "id": "us7000lfss"
     }
   ],
   "bbox": [
     -167.1492,
     -58.7797,
     1.71,
-    147.1331,
+    145.544,
     63.205,
     262.838
   ]
