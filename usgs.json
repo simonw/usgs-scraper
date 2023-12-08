@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702029612000,
+    "generated": 1702033196000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "12 km W of Levan, Utah",
+        "time": 1702032108292,
+        "updated": 1702032852040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lhae",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lhae.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000lhae",
+        "ids": ",us7000lhae,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.383,
+        "rms": 0.71,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 12 km W of Levan, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.002,
+          39.5418,
+          10
+        ]
+      },
+      "id": "us7000lhae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "56 km E of Marihatag, Philippines",
+        "time": 1702031559328,
+        "updated": 1702032523040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lhac",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lhac.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000lhac",
+        "ids": ",us7000lhac,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 2.062,
+        "rms": 0.98,
+        "gap": 81,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 56 km E of Marihatag, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8061,
+          8.7456,
+          43.235
+        ]
+      },
+      "id": "us7000lhac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "108 km ESE of Fangale’ounga, Tonga",
+        "time": 1702029534931,
+        "updated": 1702030905040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lha7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lha7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000lha7",
+        "ids": ",us7000lha7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 2.059,
+        "rms": 1.36,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 108 km ESE of Fangale’ounga, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.345,
+          -20.0657,
+          10
+        ]
+      },
+      "id": "us7000lha7"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -495,12 +615,12 @@
         "mag": 3.47,
         "place": "0 km SSW of Bayamón, Puerto Rico",
         "time": 1702015696480,
-        "updated": 1702023462040,
+        "updated": 1702032911877,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023342000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023342000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -508,9 +628,9 @@
         "sig": 185,
         "net": "pr",
         "code": "2023342000",
-        "ids": ",us7000lh8u,pr2023342000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2023342000,us7000lh8u,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 0.1115,
         "rms": 0.07,
@@ -1213,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1701969216550,
         "updated": 1702010616466,
         "tz": null,
@@ -1237,7 +1357,7 @@
         "gap": 163,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - Island of Hawaii, Hawaii"
+        "title": "M 3.6 - 10 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "109 km ENE of Angoram, Papua New Guinea",
+        "place": "near the north coast of New Guinea, Papua New Guinea",
         "time": 1701961812494,
         "updated": 1701965392040,
         "tz": null,
@@ -1437,7 +1557,7 @@
         "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 109 km ENE of Angoram, Papua New Guinea"
+        "title": "M 5.0 - near the north coast of New Guinea, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "48 km SE of Port Graham, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1701954652211,
         "updated": 1701961706040,
         "tz": null,
@@ -1637,7 +1757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 48 km SE of Port Graham, Alaska"
+        "title": "M 2.9 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1808,6 @@
         ]
       },
       "id": "us7000lgwp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "New Ireland region, Papua New Guinea",
-        "time": 1701943863697,
-        "updated": 1701946378040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgvu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgvu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000lgvu",
-        "ids": ",us7000lgvu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.346,
-        "rms": 0.87,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - New Ireland region, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.2016,
-          -5.0584,
-          60.021
-        ]
-      },
-      "id": "us7000lgvu"
     }
   ],
   "bbox": [
