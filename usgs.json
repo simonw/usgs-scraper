@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702209617000,
+    "generated": 1702213223000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 57
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "65 km ENE of Chalkyitsik, Alaska",
+        "time": 1702209691125,
+        "updated": 1702210314040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ft40v94",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ft40v94.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "023ft40v94",
+        "ids": ",us7000lhwx,ak023ft40v94,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 65 km ENE of Chalkyitsik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.3564,
+          66.8878,
+          5.2
+        ]
+      },
+      "id": "ak023ft40v94"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "57 km SSW of Paracas, Peru",
+        "time": 1702209169306,
+        "updated": 1702213196496,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lhwv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lhwv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.969,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000lhwv",
+        "ids": ",us7000lhwv,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 78,
+        "dmin": 2.383,
+        "rms": 0.53,
+        "gap": 137,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 57 km SSW of Paracas, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.461,
+          -14.3552,
+          10
+        ]
+      },
+      "id": "us7000lhwv"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
         "place": "46 km SSW of Paracas, Peru",
         "time": 1702208433312,
-        "updated": 1702209470040,
+        "updated": 1702209790842,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lhws",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lhws.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "7000lhws",
         "ids": ",us7000lhws,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 62,
         "dmin": 2.325,
         "rms": 0.49,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "us7000lhws"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Reykjanes Ridge",
+        "time": 1702207911966,
+        "updated": 1702210674040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lhwu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lhwu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000lhwu",
+        "ids": ",us7000lhwu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 7.339,
+        "rms": 0.6,
+        "gap": 56,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.1238,
+          56.7234,
+          10
+        ]
+      },
+      "id": "us7000lhwu"
     },
     {
       "type": "Feature",
@@ -2095,7 +2215,7 @@
         "mag": 5.7,
         "place": "74 km NE of Cruz Bay, U.S. Virgin Islands",
         "time": 1702132042410,
-        "updated": 1702207206790,
+        "updated": 1702212444084,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023343002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023343002.geojson",
@@ -2168,46 +2288,6 @@
         ]
       },
       "id": "hv73679747"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "Reykjanes Ridge",
-        "time": 1702126719601,
-        "updated": 1702127839040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lhqt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lhqt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000lhqt",
-        "ids": ",us7000lhqt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 87,
-        "dmin": 7.259,
-        "rms": 0.49,
-        "gap": 68,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - Reykjanes Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.3769,
-          56.688,
-          10
-        ]
-      },
-      "id": "us7000lhqt"
     }
   ],
   "bbox": [
