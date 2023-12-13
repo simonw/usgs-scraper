@@ -1,35 +1,75 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702450825000,
+    "generated": 1702454425000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "144 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1702451832100,
+        "updated": 1702454037040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023347000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023347000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "pr",
+        "code": "2023347000",
+        "ids": ",us7000lil2,pr2023347000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.211,
+        "rms": 0.35,
+        "gap": 288,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.0 - 144 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.587,
+          19.6256,
+          62
+        ]
+      },
+      "id": "pr2023347000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.58,
         "place": "2 km NE of The Geysers, CA",
         "time": 1702450339500,
-        "updated": 1702450723857,
+        "updated": 1702454164006,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73975501",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73975501.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 3.783,
+        "felt": 19,
+        "cdi": 4.3,
+        "mmi": 3.865,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 197,
+        "sig": 205,
         "net": "nc",
         "code": "73975501",
-        "ids": ",nc73975501,",
-        "sources": ",nc,",
+        "ids": ",nc73975501,us7000likr,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 79,
         "dmin": 0.009759,
@@ -52,32 +92,32 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.57,
+        "mag": 2.94,
         "place": "2 km NNE of The Geysers, CA",
         "time": 1702450330550,
-        "updated": 1702450723798,
+        "updated": 1702454234444,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73975491",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73975491.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": 3.83,
+        "felt": 0,
+        "cdi": 1,
+        "mmi": 3.452,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 197,
+        "sig": 133,
         "net": "nc",
         "code": "73975491",
         "ids": ",nc73975491,",
         "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,shakemap,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 23,
         "dmin": 0.009969,
         "rms": 0.05,
         "gap": 56,
-        "magType": "ml",
+        "magType": "mh",
         "type": "earthquake",
-        "title": "M 3.6 - 2 km NNE of The Geysers, CA"
+        "title": "M 2.9 - 2 km NNE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "nc73975491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Volcano Islands, Japan region",
+        "time": 1702449607456,
+        "updated": 1702452029040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000likz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000likz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000likz",
+        "ids": ",us7000likz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 13.041,
+        "rms": 0.96,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.525,
+          23.0918,
+          10.36
+        ]
+      },
+      "id": "us7000likz"
     },
     {
       "type": "Feature",
@@ -741,7 +821,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023fwgyf9b.geojson",
         "felt": 26,
         "cdi": 3.1,
-        "mmi": 3.408,
+        "mmi": 3.701,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1248,134 +1328,14 @@
         ]
       },
       "id": "us7000lic7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Southwest Indian Ridge",
-        "time": 1702367099563,
-        "updated": 1702368418040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lic0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lic0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000lic0",
-        "ids": ",us7000lic0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 10.526,
-        "rms": 0.81,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - Southwest Indian Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.7325,
-          -31.5873,
-          10
-        ]
-      },
-      "id": "us7000lic0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "224 km E of Levuka, Fiji",
-        "time": 1702366933131,
-        "updated": 1702367857040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000libx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000libx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000libx",
-        "ids": ",us7000libx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 4.65,
-        "rms": 0.78,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 224 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5835,
-          -17.7668,
-          532.85
-        ]
-      },
-      "id": "us7000libx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.73,
-        "place": "3 km NE of The Geysers, CA",
-        "time": 1702364681760,
-        "updated": 1702448058621,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73975001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73975001.geojson",
-        "felt": 7,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "nc",
-        "code": "73975001",
-        "ids": ",nc73975001,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 61,
-        "dmin": 0.01162,
-        "rms": 0.06,
-        "gap": 46,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 3 km NE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.729332,
-          38.793335,
-          0.32
-        ]
-      },
-      "id": "nc73975001"
     }
   ],
   "bbox": [
-    -178.5835,
-    -31.5873,
+    -177.3468,
+    -25.5803,
     -0.91,
     169.4222,
     66.428,
-    532.85
+    430.134
   ]
 }
