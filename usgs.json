@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702433484000,
+    "generated": 1702436424000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
+        "mag": 2.6,
         "place": "65 km NNE of Van Horn, Texas",
-        "time": 1702432231951,
-        "updated": 1702433325330,
+        "time": 1702432231755,
+        "updated": 1702435083492,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023yiht",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023yiht.geojson",
@@ -65,26 +65,26 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 104,
         "net": "tx",
         "code": "2023yiht",
         "ids": ",tx2023yiht,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 8,
+        "nst": 18,
         "dmin": 0.1,
-        "rms": 0.2,
+        "rms": 0.4,
         "gap": 156,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 65 km NNE of Van Horn, Texas"
+        "title": "M 2.6 - 65 km NNE of Van Horn, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.536,
-          31.577,
-          3.5393
+          -104.535,
+          31.572,
+          3.7415
         ]
       },
       "id": "tx2023yiht"
@@ -1215,22 +1215,22 @@
         "mag": 2.9,
         "place": "57 km NW of Toyah, Texas",
         "time": 1702361249297,
-        "updated": 1702373248197,
+        "updated": 1702436263280,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ygur",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ygur.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 130,
         "net": "tx",
         "code": "2023ygur",
-        "ids": ",us7000libi,tx2023ygur,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023ygur,us7000libi,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.1,
         "rms": 0.1,
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "us7000lias"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.96,
-        "place": "159 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1702347999250,
-        "updated": 1702425481040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023346000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023346000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 241,
-        "net": "pr",
-        "code": "2023346000",
-        "ids": ",us7000liam,pr2023346000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.3352,
-        "rms": 0.26,
-        "gap": 291,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 159 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.5261,
-          19.747,
-          25
-        ]
-      },
-      "id": "pr2023346000"
     }
   ],
   "bbox": [
