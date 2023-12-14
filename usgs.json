@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702540833000,
+    "generated": 1702544395000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "10 km ENE of Petrolia, CA",
+        "time": 1702543273400,
+        "updated": 1702543637536,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73976006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73976006.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "nc",
+        "code": "73976006",
+        "ids": ",nc73976006,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.04656,
+        "rms": 0.09,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 10 km ENE of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1681671,
+          40.3515015,
+          22.93
+        ]
+      },
+      "id": "nc73976006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "2 km WSW of Indios, Puerto Rico",
+        "time": 1702543064250,
+        "updated": 1702543658680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71433883",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71433883.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "pr",
+        "code": "71433883",
+        "ids": ",pr71433883,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.03651,
+        "rms": 0.18,
+        "gap": 173,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 2 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8411666666667,
+          17.9895,
+          15.74
+        ]
+      },
+      "id": "pr71433883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "13 km SW of Khalmion, Kyrgyzstan",
+        "time": 1702540793045,
+        "updated": 1702542323040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000livf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000livf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000livf",
+        "ids": ",us7000livf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.539,
+        "rms": 0.6,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 13 km SW of Khalmion, Kyrgyzstan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.5122,
+          40.1392,
+          10
+        ]
+      },
+      "id": "us7000livf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +175,7 @@
         "mag": 2.79,
         "place": "6 km S of Volcano, Hawaii",
         "time": 1702537249740,
-        "updated": 1702537740317,
+        "updated": 1702540950040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73684747",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73684747.geojson",
@@ -68,8 +188,8 @@
         "sig": 120,
         "net": "hv",
         "code": "73684747",
-        "ids": ",hv73684747,",
-        "sources": ",hv,",
+        "ids": ",hv73684747,us7000liv7,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 33,
         "dmin": null,
@@ -815,7 +935,7 @@
         "mag": 5,
         "place": "255 km S of Vailoatai, American Samoa",
         "time": 1702498977042,
-        "updated": 1702521183935,
+        "updated": 1702542782126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lirg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lirg.geojson",
@@ -1368,46 +1488,6 @@
         ]
       },
       "id": "pr71433838"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "111 km NNE of Finschhafen, Papua New Guinea",
-        "time": 1702455206651,
-        "updated": 1702457134040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lil8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lil8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000lil8",
-        "ids": ",us7000lil8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 3.889,
-        "rms": 0.94,
-        "gap": 50,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 111 km NNE of Finschhafen, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.3144,
-          -5.6633,
-          170.313
-        ]
-      },
-      "id": "us7000lil8"
     }
   ],
   "bbox": [
