@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702659604000,
+    "generated": 1702663235000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "6 km S of Volcano, Hawaii",
+        "time": 1702661560510,
+        "updated": 1702661893110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73687012",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73687012.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "hv",
+        "code": "73687012",
+        "ids": ",hv73687012,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": null,
+        "rms": 0.270000011,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 6 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.244995117188,
+          19.3858337402344,
+          0.819999992847443
+        ]
+      },
+      "id": "hv73687012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "4 km WSW of El Roble, Colombia",
+        "time": 1702660516695,
+        "updated": 1702662587040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ljcs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ljcs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000ljcs",
+        "ids": ",us7000ljcs,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 69,
+        "dmin": 0.801,
+        "rms": 1.19,
+        "gap": 72,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.5 - 4 km WSW of El Roble, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2317,
+          9.0922,
+          11.792
+        ]
+      },
+      "id": "us7000ljcs"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "18 km NE of Willow, Alaska",
         "time": 1702659273310,
-        "updated": 1702659377534,
+        "updated": 1702660906874,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023g1gepai",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023g1gepai.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +108,9 @@
         "sig": 104,
         "net": "ak",
         "code": "023g1gepai",
-        "ids": ",ak023g1gepai,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak023g1gepai,us7000ljcq,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.86,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak023g1gepai"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "115 km E of Aras-asan, Philippines",
+        "time": 1702658115940,
+        "updated": 1702660438040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ljcr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ljcr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000ljcr",
+        "ids": ",us7000ljcr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 2.441,
+        "rms": 0.6,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 115 km E of Aras-asan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3572,
+          8.7704,
+          54.717
+        ]
+      },
+      "id": "us7000ljcr"
     },
     {
       "type": "Feature",
@@ -92,10 +212,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "119 km E of Aras-asan, Philippines",
+        "time": 1702654826615,
+        "updated": 1702659907040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ljas",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ljas.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000ljas",
+        "ids": ",us7000ljas,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 7.977,
+        "rms": 0.83,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 119 km E of Aras-asan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3965,
+          8.802,
+          46.526
+        ]
+      },
+      "id": "us7000ljas"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.99,
         "place": "6 km ESE of Big Bear City, CA",
         "time": 1702650498170,
-        "updated": 1702659218171,
+        "updated": 1702660997872,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40444983",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40444983.geojson",
@@ -248,46 +408,6 @@
         ]
       },
       "id": "hv73686822"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "29 km SSE of Mina, Nevada",
-        "time": 1702644452763,
-        "updated": 1702645297040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00870193",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00870193.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00870193",
-        "ids": ",us7000lja8,nn00870193,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.06,
-        "rms": 0.2281,
-        "gap": 85.72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 29 km SSE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9225,
-          38.164,
-          14.5
-        ]
-      },
-      "id": "nn00870193"
     },
     {
       "type": "Feature",
@@ -1448,86 +1568,6 @@
         ]
       },
       "id": "ak023fzuk6ig"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "28 km SSW of Nueva Concepción, Guatemala",
-        "time": 1702576501792,
-        "updated": 1702610270796,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lj39",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lj39.geojson",
-        "felt": 39,
-        "cdi": 3.8,
-        "mmi": 4.136,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 463,
-        "net": "us",
-        "code": "7000lj39",
-        "ids": ",us7000lj39,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 195,
-        "dmin": 1.569,
-        "rms": 0.86,
-        "gap": 136,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 28 km SSW of Nueva Concepción, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.3947,
-          13.9634,
-          78.198
-        ]
-      },
-      "id": "us7000lj39"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "288 km WSW of Tual, Indonesia",
-        "time": 1702576146335,
-        "updated": 1702587181040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lj36",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lj36.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000lj36",
-        "ids": ",us7000lj36,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 2.318,
-        "rms": 0.85,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 288 km WSW of Tual, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.4256,
-          -6.7964,
-          115.452
-        ]
-      },
-      "id": "us7000lj36"
     }
   ],
   "bbox": [
