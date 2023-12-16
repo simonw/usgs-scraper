@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702710030000,
+    "generated": 1702713581000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "11 km S of Indios, Puerto Rico",
-        "time": 1702708650001,
-        "updated": 1702709608040,
+        "mag": 5,
+        "place": "144 km WNW of Pariaman, Indonesia",
+        "time": 1702709156098,
+        "updated": 1702710126040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ljgd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ljgd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ljgg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ljgg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 385,
         "net": "us",
-        "code": "7000ljgd",
-        "ids": ",us7000ljgd,",
+        "code": "7000ljgg",
+        "ids": ",us7000ljgg,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.225,
-        "rms": 0.49,
-        "gap": 125,
-        "magType": "ml",
+        "nst": 103,
+        "dmin": 3.006,
+        "rms": 0.72,
+        "gap": 98,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 3.1 - 11 km S of Indios, Puerto Rico"
+        "title": "M 5.0 - 144 km WNW of Pariaman, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8242,
-          17.8864,
-          10
+          98.8504,
+          -0.332,
+          52.409
         ]
       },
-      "id": "us7000ljgd"
+      "id": "us7000ljgg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.01,
+        "place": "6 km SE of Maria Antonia, Puerto Rico",
+        "time": 1702708650560,
+        "updated": 1702711178030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71434078",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71434078.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "pr",
+        "code": "71434078",
+        "ids": ",us7000ljgd,pr71434078,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.05499,
+        "rms": 0.24,
+        "gap": 187,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 6 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.851,
+          17.9268333333333,
+          11.18
+        ]
+      },
+      "id": "pr71434078"
     },
     {
       "type": "Feature",
@@ -1608,86 +1648,6 @@
         ]
       },
       "id": "tx2023ymmj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "23 km SSW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1702626347840,
-        "updated": 1702627626770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71433973",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71433973.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 173,
-        "net": "pr",
-        "code": "71433973",
-        "ids": ",pr71433973,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2136,
-        "rms": 0.17,
-        "gap": 217,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 23 km SSW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9876666666667,
-          18.1396666666667,
-          84.13
-        ]
-      },
-      "id": "pr71433973"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "75 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1702626297758,
-        "updated": 1702643931040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lj7d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lj7d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000lj7d",
-        "ids": ",us7000lj7d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.662,
-        "rms": 0.48,
-        "gap": 219,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 75 km NNW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1887,
-          18.9803,
-          47.172
-        ]
-      },
-      "id": "us7000lj7d"
     }
   ],
   "bbox": [
