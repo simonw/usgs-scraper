@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702779126000,
+    "generated": 1702782006000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Maug Islands region, Northern Mariana Islands",
+        "time": 1702777783149,
+        "updated": 1702779841040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ljly",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ljly.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000ljly",
+        "ids": ",us7000ljly,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 4.668,
+        "rms": 1,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Maug Islands region, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4759,
+          19.9254,
+          91.746
+        ]
+      },
+      "id": "us7000ljly"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +95,22 @@
         "mag": 3,
         "place": "45 km NE of Chase, Alaska",
         "time": 1702773073954,
-        "updated": 1702773740040,
+        "updated": 1702780260264,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023g4hthlf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023g4hthlf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "023g4hthlf",
-        "ids": ",us7000ljlg,ak023g4hthlf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak023g4hthlf,us7000ljlg,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.64,
@@ -295,11 +335,11 @@
         "mag": 4.7,
         "place": "39 km E of Port Alsworth, Alaska",
         "time": 1702754679717,
-        "updated": 1702778420217,
+        "updated": 1702779482701,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023g35jxin",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023g35jxin.geojson",
-        "felt": 81,
+        "felt": 82,
         "cdi": 3.8,
         "mmi": 2.851,
         "alert": null,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "hv73687597"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "19 km E of Ninilchik, Alaska",
-        "time": 1702693593792,
-        "updated": 1702764365261,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023g2vfz9u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023g2vfz9u.geojson",
-        "felt": 6,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "ak",
-        "code": "023g2vfz9u",
-        "ids": ",ak023g2vfz9u,us7000ljfn,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.67,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 19 km E of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.3229,
-          60.0407,
-          50
-        ]
-      },
-      "id": "ak023g2vfz9u"
     }
   ],
   "bbox": [
