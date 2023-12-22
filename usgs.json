@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703224817000,
+    "generated": 1703228417000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "58 km WNW of Anchor Point, Alaska",
+        "time": 1703226535680,
+        "updated": 1703226644324,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023gcv29ry",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023gcv29ry.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "023gcv29ry",
+        "ids": ",ak023gcv29ry,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.38,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 58 km WNW of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.8139,
+          59.9522,
+          119.7
+        ]
+      },
+      "id": "ak023gcv29ry"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "228 km E of Levuka, Fiji",
+        "time": 1703224597143,
+        "updated": 1703225602040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lku1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lku1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000lku1",
+        "ids": ",us7000lku1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 97,
+        "dmin": 3.264,
+        "rms": 0.67,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 228 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5293,
+          -17.9825,
+          585.226
+        ]
+      },
+      "id": "us7000lku1"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.62,
         "place": "9 km WNW of Cobb, CA",
         "time": 1703223163630,
-        "updated": 1703224271310,
+        "updated": 1703226372869,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73979346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73979346.geojson",
@@ -535,12 +615,12 @@
         "mag": 3.24,
         "place": "48 km SW of Primo Tapia, B.C., MX",
         "time": 1703194167620,
-        "updated": 1703196149040,
+        "updated": 1703225147162,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40449327",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40449327.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -550,7 +630,7 @@
         "code": "40449327",
         "ids": ",ci40449327,us7000lkqy,",
         "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
         "dmin": 0.4819,
         "rms": 0.26,
@@ -1568,46 +1648,6 @@
         ]
       },
       "id": "pr71434653"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "1 km NE of Fuig, Puerto Rico",
-        "time": 1703139529300,
-        "updated": 1703140321820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71434643",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71434643.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "pr",
-        "code": "71434643",
-        "ids": ",pr71434643,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.02711,
-        "rms": 0.23,
-        "gap": 72,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 1 km NE of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9058333333333,
-          17.9993333333333,
-          10.03
-        ]
-      },
-      "id": "pr71434643"
     }
   ],
   "bbox": [
@@ -1616,6 +1656,6 @@
     -0.17,
     153.1427,
     62.5219,
-    563.531
+    585.226
   ]
 }
