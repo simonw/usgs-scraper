@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703221208000,
+    "generated": 1703224817000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "9 km WNW of Cobb, CA",
+        "time": 1703223163630,
+        "updated": 1703224271310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73979346",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73979346.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "nc",
+        "code": "73979346",
+        "ids": ",nc73979346,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.006691,
+        "rms": 0.11,
+        "gap": 29,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 9 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8161697,
+          38.8510017,
+          -0.17
+        ]
+      },
+      "id": "nc73979346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "89 km SE of Adak, Alaska",
+        "time": 1703222392689,
+        "updated": 1703224508040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lktu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lktu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.522,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000lktu",
+        "ids": ",us7000lktu,ak023gcuewej,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": 0.747,
+        "rms": 0.52,
+        "gap": 174,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 89 km SE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.5881,
+          51.4077,
+          51.342
+        ]
+      },
+      "id": "us7000lktu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "63 km NNE of Punta Cana, Dominican Republic",
+        "time": 1703220730430,
+        "updated": 1703221975060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71434783",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71434783.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71434783",
+        "ids": ",pr71434783,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.163,
+        "rms": 0.32,
+        "gap": 334,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 63 km NNE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1431666666667,
+          19.1011666666667,
+          28.75
+        ]
+      },
+      "id": "pr71434783"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "15 km NNW of Snyder, Texas",
         "time": 1703216986994,
-        "updated": 1703220757943,
+        "updated": 1703221540040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023yyxe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023yyxe.geojson",
@@ -28,8 +148,8 @@
         "sig": 122,
         "net": "tx",
         "code": "2023yyxe",
-        "ids": ",tx2023yyxe,",
-        "sources": ",tx,",
+        "ids": ",tx2023yyxe,us7000lkt6,",
+        "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.1,
@@ -775,17 +895,17 @@
         "mag": 5.7,
         "place": "22 km NNW of Tocopilla, Chile",
         "time": 1703175711115,
-        "updated": 1703207134357,
+        "updated": 1703224569470,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lkpg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lkpg.geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 5.6,
         "mmi": 5.92,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 510,
+        "sig": 511,
         "net": "us",
         "code": "7000lkpg",
         "ids": ",us7000lkpg,",
@@ -1493,7 +1613,7 @@
   "bbox": [
     -178.5756,
     -30.7516,
-    2.907,
+    -0.17,
     153.1427,
     62.5219,
     563.531
