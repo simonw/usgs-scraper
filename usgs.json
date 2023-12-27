@@ -1,39 +1,119 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703700005000,
+    "generated": 1703703608000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6400001,
-        "place": "5 km NE of Etowah, Arkansas",
-        "time": 1703699216280,
-        "updated": 1703699907926,
+        "mag": 2.8,
+        "place": "58 km NW of Toyah, Texas",
+        "time": 1703701290218,
+        "updated": 1703702927040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60563441",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60563441.geojson",
-        "felt": 37,
-        "cdi": 4.7,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023zjdl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023zjdl.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 221,
+        "sig": 121,
+        "net": "tx",
+        "code": "2023zjdl",
+        "ids": ",us6000m018,tx2023zjdl,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 58 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.275,
+          31.641,
+          6.4915
+        ]
+      },
+      "id": "tx2023zjdl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "58 km S of Kaktovik, Alaska",
+        "time": 1703700913324,
+        "updated": 1703702454040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023glbtcdz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023glbtcdz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "023glbtcdz",
+        "ids": ",us6000m015,ak023glbtcdz,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.89,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 58 km S of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.7087,
+          69.611,
+          13.4
+        ]
+      },
+      "id": "ak023glbtcdz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.61,
+        "place": "5 km NE of Etowah, Arkansas",
+        "time": 1703699216340,
+        "updated": 1703703321656,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60563441",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60563441.geojson",
+        "felt": 216,
+        "cdi": 4.2,
+        "mmi": 4.647,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 291,
         "net": "nm",
         "code": "60563441",
-        "ids": ",nm60563441,",
-        "sources": ",nm,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.1577,
-        "rms": 0.170000002,
+        "ids": ",nm60563441,us6000m011,",
+        "sources": ",nm,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 66,
+        "dmin": 0.1119,
+        "rms": 0.18,
         "gap": 58,
         "magType": "md",
         "type": "earthquake",
@@ -42,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1955032348633,
-          35.7696647644043,
-          11.3500003814697
+          -90.1903333333333,
+          35.7705,
+          11.54
         ]
       },
       "id": "nm60563441"
@@ -55,12 +135,12 @@
         "mag": 3.22,
         "place": "20 km E of Little Lake, CA",
         "time": 1703697929390,
-        "updated": 1703699522040,
+        "updated": 1703700267709,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40451791",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40451791.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "40451791",
         "ids": ",ci40451791,us6000m00y,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.112,
         "rms": 0.18,
@@ -88,6 +168,46 @@
         ]
       },
       "id": "ci40451791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "122 km NNE of Tobelo, Indonesia",
+        "time": 1703697755315,
+        "updated": 1703701972040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m00z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m00z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000m00z",
+        "ids": ",us6000m00z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 2.244,
+        "rms": 0.84,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 122 km NNE of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6047,
+          2.6567,
+          224.723
+        ]
+      },
+      "id": "us6000m00z"
     },
     {
       "type": "Feature",
@@ -1528,46 +1648,6 @@
         ]
       },
       "id": "us6000lzww"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "20 km E of Sterling, Alaska",
-        "time": 1703615858907,
-        "updated": 1703627794888,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023gjoer2s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023gjoer2s.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 2.472,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "023gjoer2s",
-        "ids": ",ak023gjoer2s,us6000lzws,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 20 km E of Sterling, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.4008,
-          60.568,
-          15
-        ]
-      },
-      "id": "ak023gjoer2s"
     }
   ],
   "bbox": [
@@ -1575,7 +1655,7 @@
     -53.1119,
     2.11,
     168.8281,
-    64.9703,
+    69.611,
     537.213
   ]
 }
