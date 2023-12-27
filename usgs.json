@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703692790000,
+    "generated": 1703696405000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "16 km SSE of Guánica, Puerto Rico",
+        "time": 1703691703850,
+        "updated": 1703694838120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71435453",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71435453.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71435453",
+        "ids": ",pr71435453,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1435,
+        "rms": 0.05,
+        "gap": 227,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 16 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.86,
+          17.832,
+          12.07
+        ]
+      },
+      "id": "pr71435453"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000m00j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "southern East Pacific Rise",
+        "time": 1703691367336,
+        "updated": 1703695045824,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m00n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m00n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000m00n",
+        "ids": ",us6000m00n,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 68,
+        "dmin": 33.391,
+        "rms": 0.72,
+        "gap": 64,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - southern East Pacific Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8243,
+          -53.1119,
+          10
+        ]
+      },
+      "id": "us6000m00n"
     },
     {
       "type": "Feature",
@@ -1408,51 +1488,11 @@
         ]
       },
       "id": "ak023gjoer2s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "23 km ESE of Dabajuro, Venezuela",
-        "time": 1703607090536,
-        "updated": 1703621393040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000llij",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000llij.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000llij",
-        "ids": ",us7000llij,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.666,
-        "rms": 0.75,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 23 km ESE of Dabajuro, Venezuela"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.4958,
-          10.9093,
-          18.164
-        ]
-      },
-      "id": "us7000llij"
     }
   ],
   "bbox": [
     -178.6057,
-    -21.0873,
+    -53.1119,
     2.11,
     168.8281,
     64.9703,
