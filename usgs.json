@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703858411000,
+    "generated": 1703861980000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "12 km NNW of San Simeon, CA",
+        "time": 1703860253620,
+        "updated": 1703860690868,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73982676",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73982676.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "nc",
+        "code": "73982676",
+        "ids": ",nc73982676,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 40,
+        "dmin": 0.09552,
+        "rms": 0.11,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 12 km NNW of San Simeon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2401657,
+          35.7470016,
+          4.92
+        ]
+      },
+      "id": "nc73982676"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 3.21,
         "place": "63 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1703848832890,
-        "updated": 1703850613910,
+        "updated": 1703858676308,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71435678",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71435678.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "71435678",
         "ids": ",pr71435678,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 13,
         "dmin": 0.8093,
         "rms": 0.37,
@@ -95,22 +135,22 @@
         "mag": 2.45,
         "place": "17 km S of Progreso, B.C., MX",
         "time": 1703848189630,
-        "updated": 1703848606003,
+        "updated": 1703860779017,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40452415",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40452415.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 93,
         "net": "ci",
         "code": "40452415",
         "ids": ",ci40452415,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 40,
         "dmin": 0.1135,
         "rms": 0.28,
@@ -1528,126 +1568,6 @@
         ]
       },
       "id": "ak023gmxh4ve"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "12 km E of Amagi, Japan",
-        "time": 1703774963634,
-        "updated": 1703780475322,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m07x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m07x.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000m07x",
-        "ids": ",us6000m07x,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 40,
-        "dmin": 1.19,
-        "rms": 1.12,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 12 km E of Amagi, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.0247,
-          27.8244,
-          55.429
-        ]
-      },
-      "id": "us6000m07x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "25 km S of Westbrook, Texas",
-        "time": 1703774242727,
-        "updated": 1703814610732,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023zkro",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023zkro.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "tx",
-        "code": "2023zkro",
-        "ids": ",tx2023zkro,us6000m07r,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.2,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 25 km S of Westbrook, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.054,
-          32.125,
-          8.1923
-        ]
-      },
-      "id": "tx2023zkro"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.84,
-        "place": "22 km S of Boca de Yuma, Dominican Republic",
-        "time": 1703773042660,
-        "updated": 1703777597807,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023362002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023362002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 227,
-        "net": "pr",
-        "code": "2023362002",
-        "ids": ",pr2023362002,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.4007,
-        "rms": 0.39,
-        "gap": 236,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 22 km S of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.597,
-          18.1761,
-          138
-        ]
-      },
-      "id": "pr2023362002"
     }
   ],
   "bbox": [
