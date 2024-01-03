@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704294001000,
+    "generated": 1704297618000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "32 km NE of Anamizu, Japan",
+        "time": 1704296213546,
+        "updated": 1704297238040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m1fl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m1fl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000m1fl",
+        "ids": ",us6000m1fl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 1.057,
+        "rms": 0.85,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 32 km NE of Anamizu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.1696,
+          37.4285,
+          10
+        ]
+      },
+      "id": "us6000m1fl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "5 km SW of Niland, CA",
+        "time": 1704295640680,
+        "updated": 1704296059437,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40454583",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40454583.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "ci",
+        "code": "40454583",
+        "ids": ",ci40454583,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.05723,
+        "rms": 0.2,
+        "gap": 93,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km SW of Niland, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.563,
+          33.214,
+          2.63
+        ]
+      },
+      "id": "ci40454583"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.52,
         "place": "5 km SW of Niland, CA",
         "time": 1704292935890,
-        "updated": 1704293366157,
+        "updated": 1704294734213,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40454551",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40454551.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "40454551",
         "ids": ",ci40454551,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 46,
         "dmin": 0.05669,
         "rms": 0.19,
@@ -692,10 +772,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
+        "mag": 2.85,
         "place": "18 km NE of Mecca, CA",
-        "time": 1704251745560,
-        "updated": 1704292713648,
+        "time": 1704251745550,
+        "updated": 1704294117070,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40454359",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40454359.geojson",
@@ -703,28 +783,28 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 125,
         "net": "ci",
         "code": "40454359",
         "ids": ",ci40454359,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 71,
-        "dmin": 0.04887,
-        "rms": 0.17,
+        "nst": 72,
+        "dmin": 0.04963,
+        "rms": 0.16,
         "gap": 35,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 18 km NE of Mecca, CA"
+        "title": "M 2.9 - 18 km NE of Mecca, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.9556667,
-          33.6948333,
-          1.66
+          -115.9555,
+          33.6956667,
+          2.02
         ]
       },
       "id": "ci40454359"
@@ -1568,46 +1648,6 @@
         ]
       },
       "id": "us6000m17v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "43 km NW of Toyah, Texas",
-        "time": 1704207869846,
-        "updated": 1704208696615,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024aczj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024aczj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2024aczj",
-        "ids": ",us6000m17a,tx2024aczj,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 43 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.143,
-          31.562,
-          6.9028
-        ]
-      },
-      "id": "tx2024aczj"
     }
   ],
   "bbox": [
