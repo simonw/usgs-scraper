@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704427220000,
+    "generated": 1704430820000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.193709373474121,
-        "place": "33 km NNE of Amboy, Washington",
-        "time": 1704426521480,
-        "updated": 1704427166923,
+        "mag": 2.5,
+        "place": "60 km WNW of Ninilchik, Alaska",
+        "time": 1704428694621,
+        "updated": 1704428822453,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61978896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61978896.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248c7qae",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248c7qae.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 157,
-        "net": "uw",
-        "code": "61978896",
-        "ids": ",uw61978896,us6000m1wv,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 82,
-        "dmin": 0.02623,
-        "rms": 0.150000006,
-        "gap": 30,
+        "sig": 96,
+        "net": "ak",
+        "code": "0248c7qae",
+        "ids": ",ak0248c7qae,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 33 km NNE of Amboy, Washington"
+        "title": "M 2.5 - 60 km WNW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.31383514404297,
-          46.19816589355469,
-          10.2799997329712
+          -152.5804,
+          60.3543,
+          112.6
+        ]
+      },
+      "id": "ak0248c7qae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.99,
+        "place": "33 km NNE of Amboy, Washington",
+        "time": 1704426521470,
+        "updated": 1704430117515,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61978896",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61978896.geojson",
+        "felt": 23,
+        "cdi": 3.8,
+        "mmi": 3.014,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 146,
+        "net": "uw",
+        "code": "61978896",
+        "ids": ",uw61978896,us6000m1wv,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 87,
+        "dmin": 0.02338,
+        "rms": 0.18,
+        "gap": 30,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 33 km NNE of Amboy, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31816666666667,
+          46.1995,
+          10.98
         ]
       },
       "id": "uw61978896"
@@ -1528,126 +1568,6 @@
         ]
       },
       "id": "pr2024004001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "112 km W of Houma, Tonga",
-        "time": 1704344196029,
-        "updated": 1704402834040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m1ld",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m1ld.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.496,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000m1ld",
-        "ids": ",us6000m1ld,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 80,
-        "dmin": 1.106,
-        "rms": 1.15,
-        "gap": 31,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 112 km W of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.3885,
-          -21.146,
-          187.944
-        ]
-      },
-      "id": "us6000m1ld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "3 km SSW of Peñuelas, Puerto Rico",
-        "time": 1704343809020,
-        "updated": 1704344340570,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71436188",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71436188.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "pr",
-        "code": "71436188",
-        "ids": ",pr71436188,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.05814,
-        "rms": 0.14,
-        "gap": 126,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km SSW of Peñuelas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7306666666667,
-          18.0251666666667,
-          15
-        ]
-      },
-      "id": "pr71436188"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "7 km E of Calimesa, CA",
-        "time": 1704342560140,
-        "updated": 1704417066040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40454935",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40454935.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "ci",
-        "code": "40454935",
-        "ids": ",ci40454935,us6000m1l9,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 107,
-        "dmin": 0.06944,
-        "rms": 0.16,
-        "gap": 22,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km E of Calimesa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.982,
-          33.991,
-          17.17
-        ]
-      },
-      "id": "ci40454935"
     }
   ],
   "bbox": [
