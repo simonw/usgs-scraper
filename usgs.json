@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704625223000,
+    "generated": 1704628825000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "220 km S of Yakutat, Alaska",
+        "time": 1704627419184,
+        "updated": 1704628449994,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2bw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2bw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000m2bw",
+        "ids": ",ak024brj19k,us6000m2bw,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 44,
+        "dmin": 1.994,
+        "rms": 0.98,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 220 km S of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.8787,
+          57.568,
+          10
+        ]
+      },
+      "id": "us6000m2bw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,7 +255,7 @@
         "mag": 5,
         "place": "210 km SW of Merizo Village, Guam",
         "time": 1704610696403,
-        "updated": 1704618501241,
+        "updated": 1704625710818,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2b9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2b9.geojson",
@@ -695,12 +735,12 @@
         "mag": 3.1,
         "place": "8 km SE of Seldovia Village, Alaska",
         "time": 1704584028257,
-        "updated": 1704607217792,
+        "updated": 1704628632727,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024ab4889",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024ab4889.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -710,7 +750,7 @@
         "code": "024ab4889",
         "ids": ",ak024ab4889,us6000m29v,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.56,
@@ -1208,86 +1248,6 @@
         ]
       },
       "id": "us6000m278"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "10 km SE of Eloy Alfaro, Ecuador",
-        "time": 1704541895126,
-        "updated": 1704544636086,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m26z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m26z.geojson",
-        "felt": 3,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 299,
-        "net": "us",
-        "code": "6000m26z",
-        "ids": ",us6000m26z,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.181,
-        "rms": 0.58,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 10 km SE of Eloy Alfaro, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.7894,
-          -2.24,
-          72.498
-        ]
-      },
-      "id": "us6000m26z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "Carlsberg Ridge",
-        "time": 1704541592787,
-        "updated": 1704548995661,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m26y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m26y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000m26y",
-        "ids": ",us6000m26y,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 94,
-        "dmin": 8.485,
-        "rms": 1.04,
-        "gap": 36,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - Carlsberg Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.4845,
-          3.116,
-          10
-        ]
-      },
-      "id": "us6000m26y"
     }
   ],
   "bbox": [
