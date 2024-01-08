@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704729625000,
+    "generated": 1704733224000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "32 km SSW of Ollagüe, Chile",
+        "time": 1704730529128,
+        "updated": 1704732626040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2ha",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2ha.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000m2ha",
+        "ids": ",us6000m2ha,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.902,
+        "rms": 1.06,
+        "gap": 41,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 32 km SSW of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3219,
+          -21.5093,
+          119.707
+        ]
+      },
+      "id": "us6000m2ha"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.98,
         "place": "18 km E of Ridgecrest, CA",
         "time": 1704726742530,
-        "updated": 1704727393750,
+        "updated": 1704732237040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40456839",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40456839.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 137,
         "net": "ci",
         "code": "40456839",
-        "ids": ",ci40456839,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40456839,us6000m2gn,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 48,
         "dmin": 0.02229,
         "rms": 0.17,
@@ -48,6 +88,86 @@
         ]
       },
       "id": "ci40456839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "117 km ESE of Fangale’ounga, Tonga",
+        "time": 1704722716274,
+        "updated": 1704730963040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2gk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2gk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000m2gk",
+        "ids": ",us6000m2gk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 2.025,
+        "rms": 1.16,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 117 km ESE of Fangale’ounga, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.3039,
+          -20.1963,
+          10
+        ]
+      },
+      "id": "us6000m2gk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "58 km W of Abra Pampa, Argentina",
+        "time": 1704721872109,
+        "updated": 1704730125040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2gg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2gg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000m2gg",
+        "ids": ",us6000m2gg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 1.779,
+        "rms": 0.92,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 58 km W of Abra Pampa, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2602,
+          -22.772,
+          263.18
+        ]
+      },
+      "id": "us6000m2gg"
     },
     {
       "type": "Feature",
@@ -135,12 +255,12 @@
         "mag": 4.6,
         "place": "100 km WSW of Salinas, Ecuador",
         "time": 1704718793436,
-        "updated": 1704720079040,
+        "updated": 1704730889982,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2g7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2g7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +270,7 @@
         "code": "6000m2g7",
         "ids": ",us6000m2g7,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 32,
         "dmin": 2.043,
         "rms": 1.26,
@@ -1088,54 +1208,14 @@
         ]
       },
       "id": "us6000m2d0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "54 km W of Mentone, Texas",
-        "time": 1704645040622,
-        "updated": 1704646311040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024amfs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024amfs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2024amfs",
-        "ids": ",us6000m2cn,tx2024amfs,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 54 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.173,
-          31.71,
-          8.7538
-        ]
-      },
-      "id": "tx2024amfs"
     }
   ],
   "bbox": [
-    -173.1914,
+    -173.3039,
     -62.3298,
     0.47,
     165.4639,
     60.1214,
-    230.023
+    263.18
   ]
 }
