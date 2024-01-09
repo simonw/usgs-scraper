@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704758486000,
+    "generated": 1704763466000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "3 km SSW of Pāhala, Hawaii",
+        "time": 1704762514510,
+        "updated": 1704762846090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73713192",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73713192.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "hv",
+        "code": "73713192",
+        "ids": ",hv73713192,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 95,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.495162963867,
+          19.1714992523193,
+          32.4199981689453
+        ]
+      },
+      "id": "hv73713192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "236 km WNW of Houma, Tonga",
+        "time": 1704759059655,
+        "updated": 1704760057040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2mc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2mc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000m2mc",
+        "ids": ",us6000m2mc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 2.214,
+        "rms": 0.65,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 236 km WNW of Houma, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.504,
+          -20.6423,
+          512.843
+        ]
+      },
+      "id": "us6000m2mc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +175,17 @@
         "mag": 6.7,
         "place": "100 km SE of Sarangani, Philippines",
         "time": 1704746922916,
-        "updated": 1704754588037,
+        "updated": 1704762803944,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2jp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2jp.geojson",
-        "felt": 14,
+        "felt": 16,
         "cdi": 5,
         "mmi": 5.713,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 698,
+        "sig": 699,
         "net": "us",
         "code": "6000m2jp",
         "ids": ",at00s6yn5a,pt24008000,us6000m2jp,",
@@ -1255,7 +1335,7 @@
         "mag": 2.67,
         "place": "12 km SE of Pinnacles, CA",
         "time": 1704681545140,
-        "updated": 1704755410592,
+        "updated": 1704760755040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73986296",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73986296.geojson",
@@ -1268,8 +1348,8 @@
         "sig": 110,
         "net": "nc",
         "code": "73986296",
-        "ids": ",nc73986296,",
-        "sources": ",nc,",
+        "ids": ",nc73986296,us6000m2eq,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 67,
         "dmin": 0.01702,
