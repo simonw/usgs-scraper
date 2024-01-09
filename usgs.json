@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704834027000,
+    "generated": 1704837627000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "8 km W of Happy Valley, Alaska",
+        "time": 1704836188546,
+        "updated": 1704836929291,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f8k0nn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f8k0nn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "024f8k0nn",
+        "ids": ",ak024f8k0nn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.3,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 8 km W of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.8881,
+          59.9596,
+          62.8
+        ]
+      },
+      "id": "ak024f8k0nn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,12 +415,12 @@
         "mag": 3.57,
         "place": "63 km N of Arecibo, Puerto Rico",
         "time": 1704790933080,
-        "updated": 1704798402040,
+        "updated": 1704834504354,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024009001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024009001.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -388,9 +428,9 @@
         "sig": 196,
         "net": "pr",
         "code": "2024009001",
-        "ids": ",us6000m2nz,pr2024009001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2024009001,us6000m2nz,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.7588,
         "rms": 0.37,
@@ -895,22 +935,22 @@
         "mag": 4.8,
         "place": "41 km WNW of Abra Pampa, Argentina",
         "time": 1704773097347,
-        "updated": 1704792328664,
+        "updated": 1704834202501,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2n1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2n1.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 355,
+        "sig": 354,
         "net": "us",
         "code": "6000m2n1",
         "ids": ",us6000m2n1,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": 48,
         "dmin": 1.976,
         "rms": 0.84,
@@ -1328,54 +1368,14 @@
         ]
       },
       "id": "us6000m2lz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "193 km ENE of Levuka, Fiji",
-        "time": 1704751207958,
-        "updated": 1704752992040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2lw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2lw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000m2lw",
-        "ids": ",us6000m2lw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 2.826,
-        "rms": 0.7,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 193 km ENE of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.0094,
-          -17.3829,
-          539.526
-        ]
-      },
-      "id": "us6000m2lw"
     }
   ],
   "bbox": [
-    -179.0094,
+    -177.504,
     -22.5793,
     1.2,
     167.2447,
     65.6903,
-    539.526
+    512.843
   ]
 }
