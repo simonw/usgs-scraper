@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704830427000,
+    "generated": 1704834027000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "7 km W of Nurhak, Turkey",
+        "time": 1704828012922,
+        "updated": 1704832170040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2tc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2tc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000m2tc",
+        "ids": ",us6000m2tc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.574,
+        "rms": 1.07,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 7 km W of Nurhak, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.358,
+          37.9541,
+          10
+        ]
+      },
+      "id": "us6000m2tc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 2.87,
         "place": "14 km NE of Ashford, Washington",
         "time": 1704813438690,
-        "updated": 1704816464040,
+        "updated": 1704833678758,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61979346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61979346.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -148,9 +188,9 @@
         "sig": 127,
         "net": "uw",
         "code": "61979346",
-        "ids": ",us6000m2pt,uw61979346,",
-        "sources": ",us,uw,",
-        "types": ",origin,phase-data,",
+        "ids": ",uw61979346,us6000m2pt,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": 0.01924,
         "rms": 0.11,
@@ -1328,126 +1368,6 @@
         ]
       },
       "id": "us6000m2lw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.7,
-        "place": "100 km SE of Sarangani, Philippines",
-        "time": 1704746922916,
-        "updated": 1704789805895,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2jp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2jp.geojson",
-        "felt": 22,
-        "cdi": 4.9,
-        "mmi": 5.713,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 701,
-        "net": "us",
-        "code": "6000m2jp",
-        "ids": ",at00s6yn5a,pt24008000,us6000m2jp,",
-        "sources": ",at,pt,us,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 129,
-        "dmin": 2.276,
-        "rms": 1.08,
-        "gap": 27,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.7 - 100 km SE of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.1861,
-          4.8606,
-          68.017
-        ]
-      },
-      "id": "us6000m2jp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "3 km WSW of Indios, Puerto Rico",
-        "time": 1704746350100,
-        "updated": 1704747584270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71436553",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71436553.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "71436553",
-        "ids": ",pr71436553,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.03066,
-        "rms": 0.13,
-        "gap": 150,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km WSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.848,
-          17.9825,
-          50.5
-        ]
-      },
-      "id": "pr71436553"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.14,
-        "place": "72 km N of Arecibo, Puerto Rico",
-        "time": 1704745848670,
-        "updated": 1704746589110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71436543",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71436543.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 152,
-        "net": "pr",
-        "code": "71436543",
-        "ids": ",us6000m2jg,pr71436543,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.7994,
-        "rms": 0.26,
-        "gap": 274,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 72 km N of Arecibo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6216666666667,
-          19.1221666666667,
-          21.13
-        ]
-      },
-      "id": "pr71436543"
     }
   ],
   "bbox": [
