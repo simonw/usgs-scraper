@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704852687000,
+    "generated": 1704855599000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "61 km ENE of Port Blair, India",
+        "time": 1704853425379,
+        "updated": 1704854468968,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2ux",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2ux.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000m2ux",
+        "ids": ",us6000m2ux,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 35,
+        "dmin": 6.245,
+        "rms": 0.66,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 61 km ENE of Port Blair, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.2952,
+          11.7753,
+          90.28
+        ]
+      },
+      "id": "us6000m2ux"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,46 +212,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "8 km W of Happy Valley, Alaska",
-        "time": 1704836188546,
-        "updated": 1704836929291,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f8k0nn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f8k0nn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "024f8k0nn",
-        "ids": ",ak024f8k0nn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.3,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km W of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.8881,
-          59.9596,
-          62.8
-        ]
-      },
-      "id": "ak024f8k0nn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.4,
         "place": "8 km WNW of Mecitözü, Turkey",
         "time": 1704836073792,
@@ -335,12 +335,12 @@
         "mag": 2.5,
         "place": "14 km NNW of Sutcliffe, Nevada",
         "time": 1704825475311,
-        "updated": 1704827306788,
+        "updated": 1704853045829,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00871497",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00871497.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +350,7 @@
         "code": "00871497",
         "ids": ",nn00871497,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.113,
         "rms": 0.1507,
@@ -1288,53 +1288,13 @@
         ]
       },
       "id": "us6000m2mx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "38 km WSW of Sola, Vanuatu",
-        "time": 1704768897615,
-        "updated": 1704776312984,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2mr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2mr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.458,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "6000m2mr",
-        "ids": ",us6000m2mr,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 71,
-        "dmin": 7.059,
-        "rms": 0.81,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - 38 km WSW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.2447,
-          -14.0452,
-          200.564
-        ]
-      },
-      "id": "us6000m2mr"
     }
   ],
   "bbox": [
     -173.5751,
     -23.9508,
     1.2,
-    167.2447,
+    160.9437,
     65.6903,
     268.663
   ]
