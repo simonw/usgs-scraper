@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704949227000,
+    "generated": 1704952802000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 19
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "South Pacific Ocean",
+        "time": 1704948871350,
+        "updated": 1704949963040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m30y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m30y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000m30y",
+        "ids": ",us6000m30y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 11.666,
+        "rms": 0.65,
+        "gap": 58,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - South Pacific Ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.2805,
+          -26.4164,
+          10
+        ]
+      },
+      "id": "us6000m30y"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -728,51 +768,11 @@
         ]
       },
       "id": "us6000m2vh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "37 km NNW of Glacier View, Alaska",
-        "time": 1704862875762,
-        "updated": 1704872524040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024gmcvw8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024gmcvw8.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024gmcvw8",
-        "ids": ",ak024gmcvw8,us6000m2ve,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.44,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 37 km NNW of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.0395,
-          62.0945,
-          32.4
-        ]
-      },
-      "id": "ak024gmcvw8"
     }
   ],
   "bbox": [
     -177.7585,
-    -20.4975,
+    -26.4164,
     0,
     156.0585,
     72.4904,
