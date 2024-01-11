@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704981627000,
+    "generated": 1704985227000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 17
+    "count": 19
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "271 km SSW of Banjar, Indonesia",
+        "time": 1704983193176,
+        "updated": 1704984680040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m339",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m339.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000m339",
+        "ids": ",us6000m339,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 1.383,
+        "rms": 1.08,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 271 km SSW of Banjar, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7618,
+          -9.5536,
+          33.249
+        ]
+      },
+      "id": "us6000m339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "1 km WNW of Guayanilla, Puerto Rico",
+        "time": 1704982643610,
+        "updated": 1704983410130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71436693",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71436693.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71436693",
+        "ids": ",pr71436693,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.01744,
+        "rms": 0.24,
+        "gap": 116,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km WNW of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8078333333333,
+          18.028,
+          17.44
+        ]
+      },
+      "id": "pr71436693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.79,
+        "place": "9 km S of Volcano, Hawaii",
+        "time": 1704981465970,
+        "updated": 1704983759622,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73714677",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73714677.geojson",
+        "felt": 2,
+        "cdi": 3.4,
+        "mmi": 4.758,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 120,
+        "net": "hv",
+        "code": "73714677",
+        "ids": ",hv73714677,us6000m330,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 50,
+        "dmin": null,
+        "rms": 0.159999996,
+        "gap": 103,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 9 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.248840332031,
+          19.355167388916,
+          28.1900005340576
+        ]
+      },
+      "id": "hv73714677"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "6 km NNW of Big Lake, Alaska",
         "time": 1704969644058,
-        "updated": 1704969761701,
+        "updated": 1704984625040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024id3tit",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024id3tit.geojson",
@@ -28,8 +148,8 @@
         "sig": 96,
         "net": "ak",
         "code": "024id3tit",
-        "ids": ",ak024id3tit,",
-        "sources": ",ak,",
+        "ids": ",us6000m32b,ak024id3tit,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -648,46 +768,6 @@
         ]
       },
       "id": "hv73714032"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "70 km SE of Cantwell, Alaska",
-        "time": 1704895833374,
-        "updated": 1704895942651,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024grrr4j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024grrr4j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "024grrr4j",
-        "ids": ",ak024grrr4j,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.52,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 70 km SE of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.9453,
-          62.9513,
-          59.2
-        ]
-      },
-      "id": "ak024grrr4j"
     }
   ],
   "bbox": [
