@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705406391000,
+    "generated": 1705410108000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "261 km NE of Kuril’sk, Russia",
+        "time": 1705406461193,
+        "updated": 1705408354040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3zt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3zt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000m3zt",
+        "ids": ",us6000m3zt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 120,
+        "dmin": 4.905,
+        "rms": 0.53,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 261 km NE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9304,
+          47.0928,
+          244.978
+        ]
+      },
+      "id": "us6000m3zt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,22 +215,22 @@
         "mag": 3,
         "place": "53 km SSE of Nulato, Alaska",
         "time": 1705393753322,
-        "updated": 1705393954283,
+        "updated": 1705409087898,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024qlj9j8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024qlj9j8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "024qlj9j8",
         "ids": ",ak024qlj9j8,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 1.01,
@@ -1208,46 +1248,6 @@
         ]
       },
       "id": "pr71436933"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "68 km NW of Kurumkan, Russia",
-        "time": 1705323146934,
-        "updated": 1705342778040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3sa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3sa.geojson",
-        "felt": 1,
-        "cdi": 6.7,
-        "mmi": 6.428,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "6000m3sa",
-        "ids": ",us6000m3sa,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 96,
-        "dmin": 4.778,
-        "rms": 0.88,
-        "gap": 22,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - 68 km NW of Kurumkan, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          109.6514,
-          54.8091,
-          10
-        ]
-      },
-      "id": "us6000m3sa"
     }
   ],
   "bbox": [
