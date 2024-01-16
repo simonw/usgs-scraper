@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705420780000,
+    "generated": 1705424391000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 24
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.5,
         "place": "34 km W of Karluk, Alaska",
         "time": 1705418027664,
-        "updated": 1705418446980,
+        "updated": 1705423488040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024qplxym",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024qplxym.geojson",
@@ -28,8 +28,8 @@
         "sig": 96,
         "net": "ak",
         "code": "024qplxym",
-        "ids": ",ak024qplxym,",
-        "sources": ",ak,",
+        "ids": ",ak024qplxym,us6000m40a,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -252,82 +252,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "53 km SSE of Nulato, Alaska",
-        "time": 1705393753322,
-        "updated": 1705409087898,
+        "mag": 3.7,
+        "place": "60 km NE of Teller, Alaska",
+        "time": 1705393700038,
+        "updated": 1705423713833,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024qlj9j8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024qlj9j8.geojson",
         "felt": 1,
         "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "ak",
-        "code": "024qlj9j8",
-        "ids": ",ak024qlj9j8,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.01,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 53 km SSE of Nulato, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.5412,
-          64.3084,
-          75.4
-        ]
-      },
-      "id": "ak024qlj9j8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "60 km NE of Brevig Mission, Alaska",
-        "time": 1705393701803,
-        "updated": 1705394271040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3wk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3wk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "mmi": 4.11,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "6000m3wk",
-        "ids": ",us6000m3wk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.046,
-        "rms": 0.66,
-        "gap": 114,
+        "sig": 211,
+        "net": "ak",
+        "code": "024qlj9j8",
+        "ids": ",ak024qlj9j8,us6000m3wk,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 60 km NE of Brevig Mission, Alaska"
+        "title": "M 3.7 - 60 km NE of Teller, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -165.4179,
-          65.6468,
-          15.517
+          -165.3059,
+          65.5864,
+          5.2
         ]
       },
-      "id": "us6000m3wk"
+      "id": "ak024qlj9j8"
     },
     {
       "type": "Feature",
@@ -1008,94 +968,14 @@
         ]
       },
       "id": "hv73718432"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "107 km NNW of Isangel, Vanuatu",
-        "time": 1705336986633,
-        "updated": 1705362882962,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3t5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3t5.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 401,
-        "net": "us",
-        "code": "6000m3t5",
-        "ids": ",us6000m3t5,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 77,
-        "dmin": 4.097,
-        "rms": 0.79,
-        "gap": 52,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 107 km NNW of Isangel, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.7835,
-          -18.6916,
-          141.122
-        ]
-      },
-      "id": "us6000m3t5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.76,
-        "place": "101 km NE of Punta Cana, Dominican Republic",
-        "time": 1705336779700,
-        "updated": 1705339337257,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024015000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024015000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 218,
-        "net": "pr",
-        "code": "2024015000",
-        "ids": ",us6000m3t3,pr2024015000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.8659,
-        "rms": 0.49,
-        "gap": 317,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 101 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7071,
-          19.2198,
-          16
-        ]
-      },
-      "id": "pr2024015000"
     }
   ],
   "bbox": [
     -179.3373,
     -53.8759,
     0,
-    168.7835,
-    65.6468,
+    149.9304,
+    65.5864,
     580.984
   ]
 }
