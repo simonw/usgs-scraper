@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705647582000,
+    "generated": 1705651182000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "11 km SW of Hasaki, Japan",
+        "time": 1705646607539,
+        "updated": 1705650442040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m4m5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m4m5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000m4m5",
+        "ids": ",us6000m4m5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.246,
+        "rms": 0.68,
+        "gap": 151,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 11 km SW of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7561,
+          35.6523,
+          57.598
+        ]
+      },
+      "id": "us6000m4m5"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "89 km WNW of Sola, Vanuatu",
         "time": 1705640235584,
-        "updated": 1705641551074,
+        "updated": 1705647718841,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m4lx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m4lx.geojson",
@@ -655,12 +695,12 @@
         "mag": 5.2,
         "place": "92 km ENE of Poso, Indonesia",
         "time": 1705599380435,
-        "updated": 1705600425040,
+        "updated": 1705648621246,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m4h5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m4h5.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -670,7 +710,7 @@
         "code": "6000m4h5",
         "ids": ",us6000m4h5,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 64,
         "dmin": 1.24,
         "rms": 0.71,
