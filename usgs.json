@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705806017000,
+    "generated": 1705809594000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "55 km NNE of Kobuk, Alaska",
+        "time": 1705809242424,
+        "updated": 1705809499587,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024yse65k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024yse65k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "024yse65k",
+        "ids": ",ak024yse65k,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.74,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 55 km NNE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.3148,
+          67.3505,
+          0
+        ]
+      },
+      "id": "ak024yse65k"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -535,7 +575,7 @@
         "mag": 6.1,
         "place": "Pagan region, Northern Mariana Islands",
         "time": 1705765720441,
-        "updated": 1705787926244,
+        "updated": 1705809524248,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m50e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m50e.geojson",
@@ -1328,94 +1368,14 @@
         ]
       },
       "id": "us6000m4x3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "4 km SSW of Salcha, Alaska",
-        "time": 1705721618279,
-        "updated": 1705724173028,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024x4qe39",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024x4qe39.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "024x4qe39",
-        "ids": ",ak024x4qe39,us6000m4wj,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.57,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km SSW of Salcha, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.9394,
-          64.4916,
-          9.9
-        ]
-      },
-      "id": "ak024x4qe39"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "92 km SSE of Angoram, Papua New Guinea",
-        "time": 1705719863202,
-        "updated": 1705720882040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m4wd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m4wd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000m4wd",
-        "ids": ",us6000m4wd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 4.284,
-        "rms": 0.56,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 92 km SSE of Angoram, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.3016,
-          -4.8658,
-          118.553
-        ]
-      },
-      "id": "us6000m4wd"
     }
   ],
   "bbox": [
     -159.6058,
     -59.8931,
-    1.83,
+    0,
     170.0948,
-    66.16,
+    67.3505,
     614.459
   ]
 }
