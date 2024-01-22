@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705889570000,
+    "generated": 1705892437000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "32 km WSW of Ackerly, Texas",
+        "time": 1705889295457,
+        "updated": 1705890119040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024bmnt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024bmnt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "tx",
+        "code": "2024bmnt",
+        "ids": ",us6000m5c6,tx2024bmnt,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 32 km WSW of Ackerly, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.04,
+          32.414,
+          5.2089
+        ]
+      },
+      "id": "tx2024bmnt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1288,86 +1328,6 @@
         ]
       },
       "id": "us6000m56n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "4 km SSW of Salcha, Alaska",
-        "time": 1705804884080,
-        "updated": 1705810381040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024yrpzso",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024yrpzso.geojson",
-        "felt": 1,
-        "cdi": 3.9,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "ak",
-        "code": "024yrpzso",
-        "ids": ",ak024yrpzso,us6000m56e,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.51,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km SSW of Salcha, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.9289,
-          64.4897,
-          10.8
-        ]
-      },
-      "id": "ak024yrpzso"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "102 km NNW of San Antonio de los Cobres, Argentina",
-        "time": 1705804561495,
-        "updated": 1705867228096,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m56d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m56d.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 3.072,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "6000m56d",
-        "ids": ",us6000m56d,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 97,
-        "dmin": 1.441,
-        "rms": 1.01,
-        "gap": 33,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 102 km NNW of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6742,
-          -23.3523,
-          206.505
-        ]
-      },
-      "id": "us6000m56d"
     }
   ],
   "bbox": [
