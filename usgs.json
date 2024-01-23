@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705993228000,
+    "generated": 1705996828000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 62
+    "count": 64
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "2 km SSW of Pāhala, Hawaii",
+        "time": 1705996457430,
+        "updated": 1705996789240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73725342",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73725342.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "73725342",
+        "ids": ",hv73725342,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.140000001,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.490997314453,
+          19.1843338012695,
+          32.1800003051758
+        ]
+      },
+      "id": "hv73725342"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,41 +93,81 @@
       "type": "Feature",
       "properties": {
         "mag": 4.31,
-        "place": "17 km WSW of Klamath, CA",
-        "time": 1705987570480,
-        "updated": 1705992976278,
+        "place": "16 km WSW of Klamath, CA",
+        "time": 1705987570410,
+        "updated": 1705996738396,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73992726",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73992726.geojson",
-        "felt": 142,
+        "felt": 151,
         "cdi": 3.8,
-        "mmi": 3.199,
+        "mmi": 3.187,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 343,
         "net": "nc",
         "code": "73992726",
         "ids": ",nc73992726,us7000lt4m,ew1705987580,",
         "sources": ",nc,us,ew,",
         "types": ",dyfi,focal-mechanism,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 81,
-        "dmin": 0.2462,
-        "rms": 0.2,
-        "gap": 168,
+        "nst": 74,
+        "dmin": 0.2387,
+        "rms": 0.14,
+        "gap": 163,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.3 - 17 km WSW of Klamath, CA"
+        "title": "M 4.3 - 16 km WSW of Klamath, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.2113342,
-          41.4946671,
-          34.28
+          -124.2015,
+          41.499,
+          35.68
         ]
       },
       "id": "nc73992726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "113 km W of Coquimbo, Chile",
+        "time": 1705986306237,
+        "updated": 1705996027040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lt4k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lt4k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000lt4k",
+        "ids": ",us7000lt4k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 1.11,
+        "rms": 1.27,
+        "gap": 196,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 113 km W of Coquimbo, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4889,
+          -30.1554,
+          18.011
+        ]
+      },
+      "id": "us7000lt4k"
     },
     {
       "type": "Feature",
