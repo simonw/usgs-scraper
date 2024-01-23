@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1706043632000,
+    "generated": 1706047209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 54
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "134 km W of Aykol, China",
-        "time": 1706042293184,
-        "updated": 1706043367040,
+        "mag": 2.7,
+        "place": "53 km S of Whites City, New Mexico",
+        "time": 1706043747789,
+        "updated": 1706044674040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ltaj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ltaj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024bpus",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024bpus.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 112,
+        "net": "tx",
+        "code": "2024bpus",
+        "ids": ",us7000ltan,tx2024bpus,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 53 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.299,
+          31.694,
+          7.2499
+        ]
+      },
+      "id": "tx2024bpus"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "134 km W of Aykol, China",
+        "time": 1706042293184,
+        "updated": 1706046963703,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ltaj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ltaj.geojson",
+        "felt": 5,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 418,
         "net": "us",
         "code": "7000ltaj",
         "ids": ",us7000ltaj,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 100,
         "dmin": 1.368,
         "rms": 0.92,
@@ -88,6 +128,86 @@
         ]
       },
       "id": "nm60566096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "69 km SE of Beykonak, Turkey",
+        "time": 1706040286285,
+        "updated": 1706044311040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lta9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lta9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000lta9",
+        "ids": ",us7000lta9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 1.069,
+        "rms": 0.59,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 69 km SE of Beykonak, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.857,
+          35.8949,
+          54.256
+        ]
+      },
+      "id": "us7000lta9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "132 km SSE of Kyzyl-Suu, Kyrgyzstan",
+        "time": 1706038815811,
+        "updated": 1706043891040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lta6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lta6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000lta6",
+        "ids": ",us7000lta6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.588,
+        "rms": 0.76,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 132 km SSE of Kyzyl-Suu, Kyrgyzstan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4372,
+          41.1892,
+          10
+        ]
+      },
+      "id": "us7000lta6"
     },
     {
       "type": "Feature",
@@ -415,17 +535,17 @@
         "mag": 6.3,
         "place": "43 km SW of Port-Vila, Vanuatu",
         "time": 1706020426209,
-        "updated": 1706042877894,
+        "updated": 1706046249404,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lt73",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lt73.geojson",
-        "felt": 63,
+        "felt": 66,
         "cdi": 6.1,
         "mmi": 5.327,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 649,
+        "sig": 651,
         "net": "us",
         "code": "7000lt73",
         "ids": ",pt24023000,at00s7pxsb,us7000lt73,",
@@ -852,10 +972,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.46,
+        "mag": 2.66,
         "place": "2 km SSW of Pāhala, Hawaii",
-        "time": 1705996457430,
-        "updated": 1706004675040,
+        "time": 1705996457410,
+        "updated": 1706043797200,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73725342",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73725342.geojson",
@@ -863,28 +983,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 93,
+        "sig": 109,
         "net": "hv",
         "code": "73725342",
         "ids": ",us7000lt5b,hv73725342,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 45,
+        "nst": 50,
         "dmin": null,
-        "rms": 0.140000001,
-        "gap": 75,
+        "rms": 0.12,
+        "gap": 147,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 2 km SSW of Pāhala, Hawaii"
+        "title": "M 2.7 - 2 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.490997314453,
-          19.1843338012695,
-          32.1800003051758
+          -155.486333333333,
+          19.1786666666667,
+          32.63
         ]
       },
       "id": "hv73725342"
@@ -2048,166 +2168,6 @@
         ]
       },
       "id": "us7000lt1k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "66 km S of Champerico, Guatemala",
-        "time": 1705960374505,
-        "updated": 1705961070040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lt1e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lt1e.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000lt1e",
-        "ids": ",us7000lt1e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 1.697,
-        "rms": 1.07,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 66 km S of Champerico, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.0282,
-          13.7045,
-          35
-        ]
-      },
-      "id": "us7000lt1e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "119 km WNW of Aykol, China",
-        "time": 1705959785932,
-        "updated": 1705960601040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lt1d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lt1d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000lt1d",
-        "ids": ",us7000lt1d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 85,
-        "dmin": 1.324,
-        "rms": 0.93,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 119 km WNW of Aykol, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.7531,
-          41.2018,
-          10
-        ]
-      },
-      "id": "us7000lt1d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "113 km WNW of Aykol, China",
-        "time": 1705959516470,
-        "updated": 1705967921040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lt1a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lt1a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000lt1a",
-        "ids": ",us7000lt1a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.281,
-        "rms": 0.73,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 113 km WNW of Aykol, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.8561,
-          41.2723,
-          10
-        ]
-      },
-      "id": "us7000lt1a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "134 km WNW of Aykol, China",
-        "time": 1705958204783,
-        "updated": 1705959541040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lt16",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lt16.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000lt16",
-        "ids": ",us7000lt16,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.294,
-        "rms": 0.82,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 134 km WNW of Aykol, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.5765,
-          41.2115,
-          10
-        ]
-      },
-      "id": "us7000lt16"
     }
   ],
   "bbox": [
