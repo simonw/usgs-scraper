@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1706194822000,
+    "generated": 1706198379000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 42
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 4.5,
         "place": "27 km S of Amlapura, Indonesia",
         "time": 1706193688475,
-        "updated": 1706194677802,
+        "updated": 1706197982022,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ltqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ltqu.geojson",
-        "felt": 3,
-        "cdi": 3.4,
+        "felt": 33,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 313,
+        "sig": 324,
         "net": "us",
         "code": "7000ltqu",
         "ids": ",us7000ltqu,",
@@ -168,6 +168,46 @@
         ]
       },
       "id": "us7000ltpz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "25 km NW of Stanley, Idaho",
+        "time": 1706181053530,
+        "updated": 1706195302550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90039228",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90039228.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "mb",
+        "code": "90039228",
+        "ids": ",mb90039228,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.3562,
+        "rms": 0.25,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 25 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.200833333333,
+          44.3553333333333,
+          11.6
+        ]
+      },
+      "id": "mb90039228"
     },
     {
       "type": "Feature",
@@ -332,10 +372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
+        "mag": 2.5,
         "place": "54 km S of Whites City, New Mexico",
-        "time": 1706165293779,
-        "updated": 1706166289040,
+        "time": 1706165293760,
+        "updated": 1706196063998,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024bsjp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024bsjp.geojson",
@@ -345,26 +385,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 96,
         "net": "tx",
         "code": "2024bsjp",
         "ids": ",us7000ltn8,tx2024bsjp,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 14,
+        "nst": 29,
         "dmin": 0,
-        "rms": 0.1,
-        "gap": 79,
+        "rms": 0.2,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 54 km S of Whites City, New Mexico"
+        "title": "M 2.5 - 54 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.291,
-          31.693,
-          6.9542
+          -104.295,
+          31.689,
+          7.2627
         ]
       },
       "id": "tx2024bsjp"
@@ -494,27 +534,27 @@
       "properties": {
         "mag": 4.24,
         "place": "3 km SW of San Bernardino, CA",
-        "time": 1706154199980,
-        "updated": 1706194814652,
+        "time": 1706154199970,
+        "updated": 1706198290509,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39756418",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39756418.geojson",
-        "felt": 15590,
-        "cdi": 4.1,
-        "mmi": 4.443,
+        "felt": 15799,
+        "cdi": 4.2,
+        "mmi": 4.67,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 687,
+        "sig": 697,
         "net": "ci",
         "code": "39756418",
         "ids": ",ew1706154200,ci39756418,at00s7st07,us7000ltmc,",
         "sources": ",ew,ci,at,us,",
-        "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 81,
-        "dmin": 0.02333,
-        "rms": 0.24,
-        "gap": 22,
+        "types": ",dyfi,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 170,
+        "dmin": 0.0193,
+        "rms": 0.22,
+        "gap": 15,
         "magType": "mw",
         "type": "earthquake",
         "title": "M 4.2 - 3 km SW of San Bernardino, CA"
@@ -522,9 +562,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3101654,
-          34.1110001,
-          15.49
+          -117.3115,
+          34.1116667,
+          15.78
         ]
       },
       "id": "ci39756418"
@@ -1648,172 +1688,12 @@
         ]
       },
       "id": "us7000ltii"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "50 km W of Petrolia, CA",
-        "time": 1706110389880,
-        "updated": 1706157728044,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73993321",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73993321.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "nc",
-        "code": "73993321",
-        "ids": ",nc73993321,us7000lti7,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.4188,
-        "rms": 0.34,
-        "gap": 278,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 50 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.8768311,
-          40.3815002,
-          0.62
-        ]
-      },
-      "id": "nc73993321"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "78 km WNW of Skwentna, Alaska",
-        "time": 1706109980249,
-        "updated": 1706134554040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02413xzg14",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02413xzg14.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "02413xzg14",
-        "ids": ",us7000lth7,ak02413xzg14,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.93,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 78 km WNW of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.8566,
-          62.1393,
-          0
-        ]
-      },
-      "id": "ak02413xzg14"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "233 km ESE of Attu Station, Alaska",
-        "time": 1706108572412,
-        "updated": 1706118814385,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lth4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lth4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.641,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000lth4",
-        "ids": ",ak02413xuhu2,us7000lth4,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 41,
-        "dmin": 1.329,
-        "rms": 0.54,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 233 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.4535,
-          52.1944,
-          118.912
-        ]
-      },
-      "id": "us7000lth4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "130 km SSE of Kyzyl-Suu, Kyrgyzstan",
-        "time": 1706108481613,
-        "updated": 1706136324040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lth3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lth3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000lth3",
-        "ids": ",us7000lth3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.445,
-        "rms": 0.66,
-        "gap": 107,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 130 km SSE of Kyzyl-Suu, Kyrgyzstan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.6322,
-          41.2653,
-          10
-        ]
-      },
-      "id": "us7000lth3"
     }
   ],
   "bbox": [
     -155.49282836914,
     -40.3256,
-    0,
+    4.41,
     176.5312,
     64.4808,
     242.888
