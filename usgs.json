@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1706580334000,
+    "generated": 1706583635000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 61
+    "count": 63
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "61 km ESE of Ugashik, Alaska",
+        "time": 1706580803514,
+        "updated": 1706580916369,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241dne45b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241dne45b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "0241dne45b",
+        "ids": ",ak0241dne45b,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 61 km ESE of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.5261,
+          57.2316,
+          0.1
+        ]
+      },
+      "id": "ak0241dne45b"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -575,11 +615,11 @@
         "mag": 5.7,
         "place": "122 km WNW of Aykol, China",
         "time": 1706567261998,
-        "updated": 1706574714572,
+        "updated": 1706580489660,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000luuy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000luuy.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": 6.931,
         "alert": "yellow",
@@ -1128,6 +1168,46 @@
         ]
       },
       "id": "pr71438118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "198 km SSW of Inuvik, Canada",
+        "time": 1706555688030,
+        "updated": 1706580996201,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241c9zepq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241c9zepq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.422,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "0241c9zepq",
+        "ids": ",ak0241c9zepq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.26,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 198 km SSW of Inuvik, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.8084,
+          66.7724,
+          39.5
+        ]
+      },
+      "id": "ak0241c9zepq"
     },
     {
       "type": "Feature",
@@ -2453,9 +2533,9 @@
   "bbox": [
     -177.8456,
     -54.3376,
-    1.24,
+    0.1,
     147.3682,
-    65.5667,
+    66.7724,
     436.146
   ]
 }
