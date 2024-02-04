@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707080433000,
+    "generated": 1707084033000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 33
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 4.7,
         "place": "23 km NE of Sibolga, Indonesia",
         "time": 1707064345799,
-        "updated": 1707065798040,
+        "updated": 1707083920480,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lwye",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lwye.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +110,7 @@
         "code": "7000lwye",
         "ids": ",us7000lwye,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 60,
         "dmin": 0.814,
         "rms": 0.86,
@@ -688,46 +688,6 @@
         ]
       },
       "id": "nn00872898"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "40 km WNW of Pilot Point, Alaska",
-        "time": 1707040877001,
-        "updated": 1707040982235,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241m1rppy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241m1rppy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0241m1rppy",
-        "ids": ",ak0241m1rppy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 40 km WNW of Pilot Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.1868,
-          57.7225,
-          171.5
-        ]
-      },
-      "id": "ak0241m1rppy"
     },
     {
       "type": "Feature",
@@ -1368,86 +1328,6 @@
         ]
       },
       "id": "ci40661472"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "34 km W of Elfin Cove, Alaska",
-        "time": 1706997390468,
-        "updated": 1707019279040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241kl3yvx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241kl3yvx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ak",
-        "code": "0241kl3yvx",
-        "ids": ",us7000lwts,ak0241kl3yvx,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.94,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 34 km W of Elfin Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.9275,
-          58.2099,
-          0.4
-        ]
-      },
-      "id": "ak0241kl3yvx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "34 km WSW of Mentone, Texas",
-        "time": 1706996434004,
-        "updated": 1706997697274,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024cjyn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024cjyn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2024cjyn",
-        "ids": ",tx2024cjyn,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 34 km WSW of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.939,
-          31.601,
-          6.2478
-        ]
-      },
-      "id": "tx2024cjyn"
     }
   ],
   "bbox": [
