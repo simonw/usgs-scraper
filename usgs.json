@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707116378000,
+    "generated": 1707120029000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "277 km E of Vao, New Caledonia",
+        "time": 1707117991928,
+        "updated": 1707119101040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lx12",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lx12.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000lx12",
+        "ids": ",us7000lx12,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 2.545,
+        "rms": 0.65,
+        "gap": 111,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 277 km E of Vao, New Caledonia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.1609,
+          -23.071,
+          10
+        ]
+      },
+      "id": "us7000lx12"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,11 +135,11 @@
         "mag": 3.78,
         "place": "32 km SE of Bodfish, CA",
         "time": 1707095213160,
-        "updated": 1707112794817,
+        "updated": 1707117333101,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40662944",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40662944.geojson",
-        "felt": 75,
+        "felt": 76,
         "cdi": 4.8,
         "mmi": 4.055,
         "alert": null,
@@ -288,6 +328,46 @@
         ]
       },
       "id": "us7000lwzq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "142 km WSW of Adak, Alaska",
+        "time": 1707088791181,
+        "updated": 1707118590636,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241m9mao1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241m9mao1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.257,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "ak",
+        "code": "0241m9mao1",
+        "ids": ",ak0241m9mao1,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.79,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 142 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5993,
+          51.4754,
+          10.8
+        ]
+      },
+      "id": "ak0241m9mao1"
     },
     {
       "type": "Feature",
@@ -1168,53 +1248,13 @@
         ]
       },
       "id": "us7000lww9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "1 km SW of Magas Arriba, Puerto Rico",
-        "time": 1707033013170,
-        "updated": 1707033967210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71439028",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71439028.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71439028",
-        "ids": ",pr71439028,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.01875,
-        "rms": 0.18,
-        "gap": 134,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km SW of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7751666666667,
-          18.0095,
-          14.13
-        ]
-      },
-      "id": "pr71439028"
     }
   ],
   "bbox": [
-    -155.72850036621,
-    -6.7474,
+    -178.5993,
+    -23.071,
     -0.6700000166893,
-    147.7419,
+    170.1609,
     60.4624,
     585.871
   ]
