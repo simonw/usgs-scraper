@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707123629000,
+    "generated": 1707127230000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 30
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.71,
         "place": "24 km SSW of Puebla, B.C., MX",
         "time": 1707123379500,
-        "updated": 1707123516191,
+        "updated": 1707127101715,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663112",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663112.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 28,
+        "cdi": 3,
+        "mmi": 3.819,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 212,
+        "sig": 220,
         "net": "ci",
         "code": "40663112",
         "ids": ",ci40663112,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 53,
         "dmin": 0.1538,
         "rms": 0.39,
@@ -215,17 +215,17 @@
         "mag": 3.78,
         "place": "32 km SE of Bodfish, CA",
         "time": 1707095213160,
-        "updated": 1707117333101,
+        "updated": 1707126685134,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40662944",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40662944.geojson",
-        "felt": 76,
+        "felt": 77,
         "cdi": 4.8,
         "mmi": 4.055,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 256,
+        "sig": 257,
         "net": "ci",
         "code": "40662944",
         "ids": ",ew1707095220,ci40662944,us7000lx03,",
@@ -1208,86 +1208,6 @@
         ]
       },
       "id": "nn00872898"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6500001,
-        "place": "6 km ENE of Hala‘ula, Hawaii",
-        "time": 1707040365720,
-        "updated": 1707040508760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74094256",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74094256.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "hv",
-        "code": "74094256",
-        "ids": ",hv74094256,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.1424,
-        "rms": 0.170000002,
-        "gap": 235,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 6 km ENE of Hala‘ula, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.728500366211,
-          20.2608337402344,
-          42.0999984741211
-        ]
-      },
-      "id": "hv74094256"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "150 km SW of Merizo Village, Guam",
-        "time": 1707040244439,
-        "updated": 1707105654966,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lwwh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lwwh.geojson",
-        "felt": 39,
-        "cdi": 3.9,
-        "mmi": 3.2,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 464,
-        "net": "us",
-        "code": "7000lwwh",
-        "ids": ",pt24035000,us7000lwwh,",
-        "sources": ",pt,us,",
-        "types": ",dyfi,losspager,oaf,origin,phase-data,shakemap,",
-        "nst": 115,
-        "dmin": 1.707,
-        "rms": 0.91,
-        "gap": 38,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 150 km SW of Merizo Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5633,
-          12.4445,
-          52.887
-        ]
-      },
-      "id": "us7000lwwh"
     }
   ],
   "bbox": [
