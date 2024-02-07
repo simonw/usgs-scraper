@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707282044000,
+    "generated": 1707285602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 27
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 2.55,
         "place": "9 km NW of Prague, Oklahoma",
         "time": 1707278140094,
-        "updated": 1707281739478,
+        "updated": 1707282219057,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024cpxk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024cpxk.geojson",
-        "felt": 3,
-        "cdi": 2,
+        "felt": 4,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -535,11 +535,11 @@
         "mag": 3.2,
         "place": "8 km NE of Westonaria, South Africa",
         "time": 1707245648472,
-        "updated": 1707280545946,
+        "updated": 1707283024862,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lxds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lxds.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
@@ -575,12 +575,12 @@
         "mag": 4.4,
         "place": "20 km NNE of Loyada, Djibouti",
         "time": 1707243886056,
-        "updated": 1707248269040,
+        "updated": 1707282870638,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lxdm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lxdm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -590,7 +590,7 @@
         "code": "7000lxdm",
         "ids": ",us7000lxdm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 0.504,
         "rms": 0.39,
@@ -648,6 +648,46 @@
         ]
       },
       "id": "us7000lxc6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "20 km WSW of Challis, Idaho",
+        "time": 1707235442740,
+        "updated": 1707284925532,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90039983",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90039983.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "mb",
+        "code": "90039983",
+        "ids": ",mb90039983,",
+        "sources": ",mb,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.4283,
+        "rms": 0.32,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 20 km WSW of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.467833333333,
+          44.437,
+          9.68
+        ]
+      },
+      "id": "mb90039983"
     },
     {
       "type": "Feature",
