@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707321634000,
+    "generated": 1707325206000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 2.6,
         "place": "6 km N of Big Lake, Alaska",
         "time": 1707316757123,
-        "updated": 1707316884901,
+        "updated": 1707324702894,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241r2zngl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241r2zngl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "0241r2zngl",
         "ids": ",ak0241r2zngl,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.62,
@@ -255,17 +255,17 @@
         "mag": 3.57,
         "place": "2 km E of Canyondam, CA",
         "time": 1707298597940,
-        "updated": 1707319549405,
+        "updated": 1707324474735,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73999211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73999211.geojson",
-        "felt": 22,
+        "felt": 24,
         "cdi": 4.2,
         "mmi": 3.541,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 205,
+        "sig": 206,
         "net": "nc",
         "code": "73999211",
         "ids": ",nc73999211,us7000lxi9,",
@@ -692,6 +692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "231 km SE of Chiniak, Alaska",
+        "time": 1707274088875,
+        "updated": 1707325096873,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241qvwdgm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241qvwdgm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0241qvwdgm",
+        "ids": ",ak0241qvwdgm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.54,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 231 km SE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.1631,
+          56.4135,
+          15.4
+        ]
+      },
+      "id": "ak0241qvwdgm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "54 km E of Aras-asan, Philippines",
         "time": 1707273896983,
@@ -972,6 +1012,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "54 km NW of Toyah, Texas",
+        "time": 1707254967999,
+        "updated": 1707321867325,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024cpkq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024cpkq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2024cpkq",
+        "ids": ",tx2024cpkq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 54 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.192,
+          31.673,
+          8.5481
+        ]
+      },
+      "id": "tx2024cpkq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "77 km NE of Anamizu, Japan",
         "time": 1707253693481,
@@ -1168,86 +1248,6 @@
         ]
       },
       "id": "us7000lxdm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "121 km SE of Kuril’sk, Russia",
-        "time": 1707235598762,
-        "updated": 1707237809040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lxc6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lxc6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000lxc6",
-        "ids": ",us7000lxc6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 217,
-        "dmin": 4.543,
-        "rms": 0.56,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 121 km SE of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.9051,
-          44.4138,
-          39.937
-        ]
-      },
-      "id": "us7000lxc6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "22 km NNW of Clayton, Idaho",
-        "time": 1707235442206,
-        "updated": 1707321083401,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lxc5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lxc5.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": 3.222,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 189,
-        "net": "us",
-        "code": "7000lxc5",
-        "ids": ",mb90039983,us7000lxc5,",
-        "sources": ",mb,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 82,
-        "dmin": 0.419,
-        "rms": 0.53,
-        "gap": 27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 22 km NNW of Clayton, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.5004,
-          44.4438,
-          13.717
-        ]
-      },
-      "id": "us7000lxc5"
     }
   ],
   "bbox": [
