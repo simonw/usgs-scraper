@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707346834000,
+    "generated": 1707350436000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61999989,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1707349274710,
+        "updated": 1707349561100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74100686",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74100686.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "74100686",
+        "ids": ",hv74100686,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01703,
+        "rms": 0.270000011,
+        "gap": 135,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.276336669922,
+          19.3934993743896,
+          -1.08000004291534
+        ]
+      },
+      "id": "hv74100686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "6 km E of Orange Cove, CA",
+        "time": 1707348391500,
+        "updated": 1707349173918,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73999456",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73999456.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "nc",
+        "code": "73999456",
+        "ids": ",nc73999456,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.1917,
+        "rms": 0.23,
+        "gap": 105,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km E of Orange Cove, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2505035,
+          36.6231651,
+          23.89
+        ]
+      },
+      "id": "nc73999456"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.7,
         "place": "63 km SE of Perryville, Alaska",
         "time": 1707346281723,
-        "updated": 1707346596817,
+        "updated": 1707347079040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241r7tp9o",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241r7tp9o.geojson",
@@ -28,8 +108,8 @@
         "sig": 211,
         "net": "ak",
         "code": "0241r7tp9o",
-        "ids": ",ak0241r7tp9o,",
-        "sources": ",ak,",
+        "ids": ",us7000lxn6,ak0241r7tp9o,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak0241r7tp9o"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "20 km WSW of Challis, Idaho",
+        "time": 1707345518740,
+        "updated": 1707347691020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90040068",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90040068.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "mb",
+        "code": "90040068",
+        "ids": ",mb90040068,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.3266,
+        "rms": 0.24,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 20 km WSW of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4825,
+          44.4571666666667,
+          5.68
+        ]
+      },
+      "id": "mb90040068"
     },
     {
       "type": "Feature",
@@ -375,17 +495,17 @@
         "mag": 3.02,
         "place": "20 km NE of Packwood, Washington",
         "time": 1707333089110,
-        "updated": 1707346719568,
+        "updated": 1707350383367,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61982146",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61982146.geojson",
-        "felt": 7,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": 3.045,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 143,
+        "sig": 144,
         "net": "uw",
         "code": "61982146",
         "ids": ",uw61982146,us7000lxlc,",
@@ -1448,52 +1568,12 @@
         ]
       },
       "id": "us7000lxfa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "21 km WSW of Challis, Idaho",
-        "time": 1707262329150,
-        "updated": 1707314104230,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90040023",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90040023.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "mb",
-        "code": "90040023",
-        "ids": ",mb90040023,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.3248,
-        "rms": 0.2,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 21 km WSW of Challis, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.483833333333,
-          44.4435,
-          5.2
-        ]
-      },
-      "id": "mb90040023"
     }
   ],
   "bbox": [
     -178.6629,
     -38.2142,
-    0.62000000476837,
+    -1.0800000429153,
     165.9967,
     63.3161,
     571.277
