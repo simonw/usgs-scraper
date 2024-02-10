@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707584374000,
+    "generated": 1707587994000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 60
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "23 km SE of Caburan, Philippines",
+        "time": 1707584610845,
+        "updated": 1707587145040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lybv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lybv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000lybv",
+        "ids": ",us7000lybv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 78,
+        "dmin": 1.295,
+        "rms": 0.81,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 23 km SE of Caburan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.8006,
+          5.7847,
+          93.072
+        ]
+      },
+      "id": "us7000lybv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8499999,
+        "place": "4 km S of Pāhala, Hawaii",
+        "time": 1707584381560,
+        "updated": 1707584475700,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74105221",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74105221.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "hv",
+        "code": "74105221",
+        "ids": ",hv74105221,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.01154,
+        "rms": 0.349999994,
+        "gap": 89,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 4 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.470504760742,
+          19.1638336181641,
+          41.9700012207031
+        ]
+      },
+      "id": "hv74105221"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.52999997,
         "place": "15 km SE of Pāhala, Hawaii",
         "time": 1707583564540,
-        "updated": 1707583721660,
+        "updated": 1707585831040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74105196",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74105196.geojson",
@@ -28,8 +108,8 @@
         "sig": 98,
         "net": "hv",
         "code": "74105196",
-        "ids": ",hv74105196,",
-        "sources": ",hv,",
+        "ids": ",us7000lybm,hv74105196,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 31,
         "dmin": 0.09442,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "hv74105196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "56 km NNW of Itoigawa, Japan",
+        "time": 1707579280477,
+        "updated": 1707585397040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lybd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lybd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000lybd",
+        "ids": ",us7000lybd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.688,
+        "rms": 1.08,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 56 km NNW of Itoigawa, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.6861,
+          37.5208,
+          10
+        ]
+      },
+      "id": "us7000lybd"
     },
     {
       "type": "Feature",
@@ -455,17 +575,17 @@
         "mag": 3.38,
         "place": "7 km NNE of Truckee, CA",
         "time": 1707558397170,
-        "updated": 1707584129548,
+        "updated": 1707585944808,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74000481",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74000481.geojson",
-        "felt": 122,
+        "felt": 125,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 217,
+        "sig": 218,
         "net": "nc",
         "code": "74000481",
         "ids": ",nn00873224,nc74000481,us7000ly9j,",
@@ -775,7 +895,7 @@
         "mag": 4.11,
         "place": "21 km WSW of Petrolia, CA",
         "time": 1707549619320,
-        "updated": 1707580977017,
+        "updated": 1707584955040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74000441",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74000441.geojson",
@@ -1695,11 +1815,11 @@
         "mag": 4.61,
         "place": "11 km WNW of Malibu, CA",
         "time": 1707515247320,
-        "updated": 1707584235993,
+        "updated": 1707587964646,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664632",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40664632.geojson",
-        "felt": 16680,
+        "felt": 16696,
         "cdi": 5.4,
         "mmi": 4.726,
         "alert": "green",
@@ -2095,11 +2215,11 @@
         "mag": 5.68,
         "place": "2 km SW of Pāhala, Hawaii",
         "time": 1707509191660,
-        "updated": 1707582555664,
+        "updated": 1707587772694,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74103036",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74103036.geojson",
-        "felt": 5205,
+        "felt": 5212,
         "cdi": 6.4,
         "mmi": 7.316,
         "alert": "green",
@@ -2288,46 +2408,6 @@
         ]
       },
       "id": "us7000ly2b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "68 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1707500084390,
-        "updated": 1707505367040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71439398",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71439398.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "pr",
-        "code": "71439398",
-        "ids": ",us7000ly24,pr71439398,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.6946,
-        "rms": 0.08,
-        "gap": 306,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 68 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4461666666667,
-          18.8533333333333,
-          23.28
-        ]
-      },
-      "id": "pr71439398"
     }
   ],
   "bbox": [
