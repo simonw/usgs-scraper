@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707929978000,
+    "generated": 1707933602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -135,7 +135,7 @@
         "mag": 6,
         "place": "172 km NNE of Colonia, Micronesia",
         "time": 1707910821389,
-        "updated": 1707918419609,
+        "updated": 1707932377040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lz5f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lz5f.geojson",
@@ -215,7 +215,7 @@
         "mag": 3.9,
         "place": "46 km NNE of Tanana, Alaska",
         "time": 1707901122929,
-        "updated": 1707902298688,
+        "updated": 1707933561040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02422kaly9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02422kaly9.geojson",
@@ -230,7 +230,7 @@
         "code": "02422kaly9",
         "ids": ",ak02422kaly9,us7000lz50,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.79,
@@ -335,17 +335,17 @@
         "mag": 4.05,
         "place": "10 km N of Westmorland, CA",
         "time": 1707897193600,
-        "updated": 1707929812884,
+        "updated": 1707930764972,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669624",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40669624.geojson",
-        "felt": 54,
-        "cdi": 4.4,
-        "mmi": 4.336,
+        "felt": 55,
+        "cdi": 4.1,
+        "mmi": 4.36,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 276,
+        "sig": 275,
         "net": "ci",
         "code": "40669624",
         "ids": ",ew1707897190,ci40669624,at00s8u5wo,us7000lz47,",
@@ -495,17 +495,17 @@
         "mag": 3,
         "place": "11 km NNW of Virginia City, Nevada",
         "time": 1707894390000,
-        "updated": 1707929736457,
+        "updated": 1707932021393,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00873424",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00873424.geojson",
-        "felt": 378,
+        "felt": 384,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 293,
+        "sig": 296,
         "net": "nn",
         "code": "00873424",
         "ids": ",nn00873424,",
@@ -775,7 +775,7 @@
         "mag": 5.7,
         "place": "South Sandwich Islands region",
         "time": 1707885058323,
-        "updated": 1707923060040,
+        "updated": 1707933094040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lz2v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lz2v.geojson",
@@ -1015,7 +1015,7 @@
         "mag": 6,
         "place": "83 km WSW of Vallenar, Chile",
         "time": 1707874301355,
-        "updated": 1707919898829,
+        "updated": 1707933401040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lz23",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lz23.geojson",
@@ -1208,6 +1208,46 @@
         ]
       },
       "id": "us7000lz0m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "54 km S of Whites City, New Mexico",
+        "time": 1707857227958,
+        "updated": 1707931094701,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024dcdw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024dcdw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2024dcdw",
+        "ids": ",tx2024dcdw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 50,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 54 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.421,
+          31.682,
+          6.0802
+        ]
+      },
+      "id": "tx2024dcdw"
     },
     {
       "type": "Feature",
@@ -1488,86 +1528,6 @@
         ]
       },
       "id": "us7000lyz6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "10 km NE of Tandag, Philippines",
-        "time": 1707846187045,
-        "updated": 1707857463080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lyz7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lyz7.geojson",
-        "felt": 1,
-        "cdi": 6.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000lyz7",
-        "ids": ",us7000lyz7,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 55,
-        "dmin": 2.172,
-        "rms": 0.97,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 10 km NE of Tandag, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.2605,
-          9.1475,
-          16.924
-        ]
-      },
-      "id": "us7000lyz7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "31 km NW of Toyah, Texas",
-        "time": 1707845633971,
-        "updated": 1707921151592,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024dbxi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024dbxi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2024dbxi",
-        "ids": ",us7000lyz0,tx2024dbxi,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 31 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.016,
-          31.525,
-          7.3013
-        ]
-      },
-      "id": "tx2024dbxi"
     }
   ],
   "bbox": [
