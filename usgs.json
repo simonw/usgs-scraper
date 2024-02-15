@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707994806000,
+    "generated": 1707998388000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "132 km E of Atka, Alaska",
+        "time": 1707991259939,
+        "updated": 1707997240040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lzdx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lzdx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.808,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000lzdx",
+        "ids": ",us7000lzdx,ak024248of16,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": 1.192,
+        "rms": 0.62,
+        "gap": 201,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 132 km E of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.2789,
+          52.0505,
+          42.018
+        ]
+      },
+      "id": "us7000lzdx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -775,12 +815,12 @@
         "mag": 2.47,
         "place": "1 km S of Parcelas Peñuelas, Puerto Rico",
         "time": 1707957599400,
-        "updated": 1707958451930,
+        "updated": 1707995141719,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71439943",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71439943.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -790,7 +830,7 @@
         "code": "71439943",
         "ids": ",pr71439943,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": 0.1103,
         "rms": 0.24,
@@ -815,7 +855,7 @@
         "mag": 2.73,
         "place": "4 km E of Round Valley, CA",
         "time": 1707957107950,
-        "updated": 1707989533402,
+        "updated": 1707997091150,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74002916",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74002916.geojson",
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000lz5n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "172 km NNE of Colonia, Micronesia",
-        "time": 1707910821389,
-        "updated": 1707932377040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lz5f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lz5f.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": 3.761,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 554,
-        "net": "us",
-        "code": "7000lz5f",
-        "ids": ",us7000lz5f,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 108,
-        "dmin": 6.637,
-        "rms": 1.27,
-        "gap": 50,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 172 km NNE of Colonia, Micronesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.6099,
-          10.996,
-          10
-        ]
-      },
-      "id": "us7000lz5f"
     }
   ],
   "bbox": [
