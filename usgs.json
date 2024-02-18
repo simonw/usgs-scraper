@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708286410000,
+    "generated": 1708290010000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.48,
+        "place": "16 km N of Viola, CA",
+        "time": 1708289603690,
+        "updated": 1708289697213,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74004501",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74004501.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "74004501",
+        "ids": ",nc74004501,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1566,
+        "rms": 0.24,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 16 km N of Viola, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.706665,
+          40.6563339,
+          -0.62
+        ]
+      },
+      "id": "nc74004501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "33 km NNW of Claveria, Philippines",
         "time": 1708280566659,
-        "updated": 1708281704040,
+        "updated": 1708289134438,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m01t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m01t.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000m01t",
         "ids": ",us7000m01t,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": 3.899,
         "rms": 0.54,
@@ -1088,52 +1128,12 @@
         ]
       },
       "id": "us7000lzwk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "12 km NNE of Stanley, Idaho",
-        "time": 1708202108430,
-        "updated": 1708205806040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lzwg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lzwg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000lzwg",
-        "ids": ",us7000lzwg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.213,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km NNE of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.8654,
-          44.3193,
-          14.365
-        ]
-      },
-      "id": "us7000lzwg"
     }
   ],
   "bbox": [
     -175.1791,
     -58.6894,
-    3.801,
+    -0.62,
     176.3507,
     59.535,
     212.326
