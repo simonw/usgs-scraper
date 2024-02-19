@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708329608000,
+    "generated": 1708333208000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,12 +55,12 @@
         "mag": 3.2,
         "place": "57 km S of Whites City, New Mexico",
         "time": 1708328259888,
-        "updated": 1708329575646,
+        "updated": 1708330296385,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024dmcq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024dmcq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +68,9 @@
         "sig": 158,
         "net": "tx",
         "code": "2024dmcq",
-        "ids": ",us7000m04q,tx2024dmcq,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2024dmcq,us7000m04q,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0,
         "rms": 0.2,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "tx2024dmcq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "25 km W of Puerto Real, Puerto Rico",
+        "time": 1708327447120,
+        "updated": 1708329956120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71440493",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71440493.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "pr",
+        "code": "71440493",
+        "ids": ",pr71440493,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.2715,
+        "rms": 0.32,
+        "gap": 248,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 25 km W of Puerto Real, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4323333333333,
+          18.0805,
+          32.36
+        ]
+      },
+      "id": "pr71440493"
     },
     {
       "type": "Feature",
@@ -135,7 +175,7 @@
         "mag": 2.9,
         "place": "26 km NNW of San Simeon, CA",
         "time": 1708326215000,
-        "updated": 1708328857340,
+        "updated": 1708333151888,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74004686",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74004686.geojson",
@@ -808,46 +848,6 @@
         ]
       },
       "id": "pr2024049000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "114 km WNW of Aykol, China",
-        "time": 1708246755570,
-        "updated": 1708249153040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lzzr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lzzr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000lzzr",
-        "ids": ",us7000lzzr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 1.141,
-        "rms": 0.63,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 114 km WNW of Aykol, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.9134,
-          41.4241,
-          10
-        ]
-      },
-      "id": "us7000lzzr"
     }
   ],
   "bbox": [
