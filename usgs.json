@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708714771000,
+    "generated": 1708718431000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 4.6,
         "place": "53 km NE of Chase, Alaska",
         "time": 1708713836125,
-        "updated": 1708714630963,
+        "updated": 1708718343663,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0242hlzvp5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0242hlzvp5.geojson",
-        "felt": 75,
-        "cdi": 3.4,
-        "mmi": 3.15,
-        "alert": null,
+        "felt": 151,
+        "cdi": 3.2,
+        "mmi": 3.216,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 351,
+        "sig": 374,
         "net": "ak",
         "code": "0242hlzvp5",
-        "ids": ",ak0242hlzvp5,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "ids": ",ak0242hlzvp5,us7000m16s,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.74,
@@ -95,13 +95,13 @@
         "mag": 4.4,
         "place": "74 km WNW of Atka, Alaska",
         "time": 1708703136397,
-        "updated": 1708714091875,
+        "updated": 1708714832514,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m14l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m14l.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.697,
+        "mmi": 2.445,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -653,15 +653,15 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "14 km S of Atoka, New Mexico",
-        "time": 1708681628112,
-        "updated": 1708710060014,
+        "place": "15 km S of Atoka, New Mexico",
+        "time": 1708681627831,
+        "updated": 1708718282080,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m11m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m11m.geojson",
-        "felt": 75,
-        "cdi": 4.5,
-        "mmi": 4.506,
+        "felt": 76,
+        "cdi": 4.4,
+        "mmi": 4.665,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -671,20 +671,20 @@
         "ids": ",us7000m11m,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 37,
-        "dmin": 0.478,
-        "rms": 0.52,
-        "gap": 81,
+        "nst": 54,
+        "dmin": 0.233,
+        "rms": 0.59,
+        "gap": 53,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.0 - 14 km S of Atoka, New Mexico"
+        "title": "M 4.0 - 15 km S of Atoka, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3843,
-          32.6365,
-          6.09
+          -104.4196,
+          32.6306,
+          5.416
         ]
       },
       "id": "us7000m11m"
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "ak0242fzgjhg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Kuril Islands",
-        "time": 1708629942584,
-        "updated": 1708630958040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m0we",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m0we.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000m0we",
-        "ids": ",us7000m0we,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 80,
-        "dmin": 6.153,
-        "rms": 0.78,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.8959,
-          47.4637,
-          43.605
-        ]
-      },
-      "id": "us7000m0we"
     }
   ],
   "bbox": [
