@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708682402000,
+    "generated": 1708686029000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "16 km S of Atoka, New Mexico",
+        "time": 1708682760024,
+        "updated": 1708685941155,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m11u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m11u.geojson",
+        "felt": 1,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "7000m11u",
+        "ids": ",us7000m11u,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.47,
+        "rms": 0.68,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 16 km S of Atoka, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3845,
+          32.618,
+          6.18
+        ]
+      },
+      "id": "us7000m11u"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4,
         "place": "14 km S of Atoka, New Mexico",
         "time": 1708681628112,
-        "updated": 1708682390366,
+        "updated": 1708684756630,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m11m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m11m.geojson",
-        "felt": 24,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
+        "felt": 50,
+        "cdi": 4.6,
+        "mmi": 4.586,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 255,
+        "sig": 269,
         "net": "us",
         "code": "7000m11m",
         "ids": ",us7000m11m,",
         "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 37,
         "dmin": 0.478,
         "rms": 0.52,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000m11m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "40 km ENE of Estique, Peru",
+        "time": 1708681139070,
+        "updated": 1708682570040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m11k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m11k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000m11k",
+        "ids": ",us7000m11k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.22,
+        "rms": 1.12,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 40 km ENE of Estique, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.6535,
+          -17.4444,
+          168.316
+        ]
+      },
+      "id": "us7000m11k"
     },
     {
       "type": "Feature",
@@ -1532,42 +1612,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.3,
-        "place": "286 km SE of Chiniak, Alaska",
-        "time": 1708606209591,
-        "updated": 1708615519242,
+        "mag": 3.5,
+        "place": "273 km SE of Chiniak, Alaska",
+        "time": 1708606206793,
+        "updated": 1708685785040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0242fuxbw0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0242fuxbw0.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m0se",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m0se.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 168,
-        "net": "ak",
-        "code": "0242fuxbw0",
-        "ids": ",ak0242fuxbw0,",
-        "sources": ",ak,",
+        "sig": 188,
+        "net": "us",
+        "code": "7000m0se",
+        "ids": ",ak0242fuxbw0,us7000m0se,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.67,
-        "gap": null,
+        "nst": 48,
+        "dmin": 2.701,
+        "rms": 0.79,
+        "gap": 212,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 286 km SE of Chiniak, Alaska"
+        "title": "M 3.5 - 273 km SE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.0309,
-          55.7554,
-          11.8
+          -149.2094,
+          55.8246,
+          15.225
         ]
       },
-      "id": "ak0242fuxbw0"
+      "id": "us7000m0se"
     },
     {
       "type": "Feature",
@@ -1768,46 +1848,6 @@
         ]
       },
       "id": "tx2024drwk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "9 km SSE of Sparks, Oklahoma",
-        "time": 1708598175566,
-        "updated": 1708604203973,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024drvb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024drvb.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "ok",
-        "code": "2024drvb",
-        "ids": ",ok2024drvb,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.0265656393,
-        "rms": 1.282726251,
-        "gap": 35.28736877,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km SSE of Sparks, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.77027893,
-          35.53787231,
-          1.512688637
-        ]
-      },
-      "id": "ok2024drvb"
     }
   ],
   "bbox": [
