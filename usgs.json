@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708804775000,
+    "generated": 1708808435000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.64,
+        "place": "46 km NE of Punta Cana, Dominican Republic",
+        "time": 1708806370760,
+        "updated": 1708807613281,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024055002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024055002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 204,
+        "net": "pr",
+        "code": "2024055002",
+        "ids": ",pr2024055002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.4628,
+        "rms": 0.49,
+        "gap": 197,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 46 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0495,
+          18.8365,
+          94
+        ]
+      },
+      "id": "pr2024055002"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
         "place": "114 km WNW of Manta, Ecuador",
         "time": 1708801968993,
-        "updated": 1708803187040,
+        "updated": 1708806017841,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1dh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1dh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000m1dh",
         "ids": ",us7000m1dh,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 39,
         "dmin": 1.863,
         "rms": 0.63,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us7000m1db"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "41 km WNW of Neiafu, Tonga",
+        "time": 1708796670418,
+        "updated": 1708806094040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1dr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1dr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000m1dr",
+        "ids": ",us7000m1dr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 2.695,
+        "rms": 0.68,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 41 km WNW of Neiafu, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.3665,
+          -18.5792,
+          56.423
+        ]
+      },
+      "id": "us7000m1dr"
     },
     {
       "type": "Feature",
