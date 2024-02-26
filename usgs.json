@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708923615000,
+    "generated": 1708927212000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
     {
@@ -93,12 +93,12 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "44 km NW of San Antonio, Puerto Rico",
-        "time": 1708918952698,
-        "updated": 1708919598040,
+        "place": "52 km NNW of San Antonio, Puerto Rico",
+        "time": 1708919679070,
+        "updated": 1708923967820,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1kj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1kj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024057001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024057001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,28 +106,68 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 188,
-        "net": "us",
-        "code": "7000m1kj",
-        "ids": ",us7000m1kj,",
-        "sources": ",us,",
+        "net": "pr",
+        "code": "2024057001",
+        "ids": ",pr2024057001,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.404,
-        "rms": 0.7,
-        "gap": 174,
-        "magType": "ml",
+        "nst": 13,
+        "dmin": 0.9601,
+        "rms": 0.5,
+        "gap": 229,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 44 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.5 - 52 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.4487,
-          18.7158,
-          30.349
+          -67.3603,
+          18.8998,
+          93
         ]
       },
-      "id": "us7000m1kj"
+      "id": "pr2024057001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.73,
+        "place": "81 km NE of Punta Cana, Dominican Republic",
+        "time": 1708918947510,
+        "updated": 1708924188529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024057000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024057000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 214,
+        "net": "pr",
+        "code": "2024057000",
+        "ids": ",us7000m1kj,pr2024057000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.9601,
+        "rms": 0.31,
+        "gap": 317,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 81 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8406,
+          19.0918,
+          23
+        ]
+      },
+      "id": "pr2024057000"
     },
     {
       "type": "Feature",
@@ -655,12 +695,12 @@
         "mag": 2.92,
         "place": "14 km SSE of Fern Forest, Hawaii",
         "time": 1708875794190,
-        "updated": 1708877525040,
+        "updated": 1708924728729,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74121076",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74121076.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -668,9 +708,9 @@
         "sig": 131,
         "net": "hv",
         "code": "74121076",
-        "ids": ",us7000m1ig,hv74121076,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv74121076,us7000m1ig,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 54,
         "dmin": 0.04707,
         "rms": 0.209999993,
@@ -895,11 +935,11 @@
         "mag": 3.5,
         "place": "off the coast of Oregon",
         "time": 1708861939747,
-        "updated": 1708863105679,
+        "updated": 1708925445858,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1h5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1h5.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1328,130 +1368,10 @@
         ]
       },
       "id": "pr71441178"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "42 km NW of San Antonio, Puerto Rico",
-        "time": 1708839914130,
-        "updated": 1708841479010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71441163",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71441163.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "pr",
-        "code": "71441163",
-        "ids": ",pr71441163,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.3536,
-        "rms": 0.27,
-        "gap": 199,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 42 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3645,
-          18.7806666666667,
-          11.03
-        ]
-      },
-      "id": "pr71441163"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "50 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1708838259430,
-        "updated": 1708842286170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71441153",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71441153.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71441153",
-        "ids": ",pr71441153,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.6945,
-        "rms": 0.67,
-        "gap": 237,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 50 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.502,
-          18.9205,
-          38.43
-        ]
-      },
-      "id": "pr71441153"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "3 km WSW of Pāhala, Hawaii",
-        "time": 1708837977970,
-        "updated": 1708839182040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74120781",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74120781.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "hv",
-        "code": "74120781",
-        "ids": ",us7000m1fv,hv74120781,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.05218,
-        "rms": 0.109999999,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km WSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.5068359375,
-          19.1861667633057,
-          36.060001373291
-        ]
-      },
-      "id": "hv74120781"
     }
   ],
   "bbox": [
-    -155.5068359375,
+    -155.49899291992,
     -22.1966,
     -1.58,
     168.1187,
