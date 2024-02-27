@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709053184000,
+    "generated": 1709056784000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "22 km WSW of Anchorage, Alaska",
+        "time": 1709054967362,
+        "updated": 1709056762040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0242o7grse",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0242o7grse.geojson",
+        "felt": 172,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 224,
+        "net": "ak",
+        "code": "0242o7grse",
+        "ids": ",ak0242o7grse,us7000m1v7,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.51,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 22 km WSW of Anchorage, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.2592,
+          61.1187,
+          60.4
+        ]
+      },
+      "id": "ak0242o7grse"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.33,
         "place": "70 km N of Isabela, Puerto Rico",
         "time": 1709042505930,
-        "updated": 1709043880020,
+        "updated": 1709055436040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71441418",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71441418.geojson",
@@ -148,8 +188,8 @@
         "sig": 171,
         "net": "pr",
         "code": "71441418",
-        "ids": ",pr71441418,",
-        "sources": ",pr,",
+        "ids": ",us7000m1un,pr71441418,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 22,
         "dmin": 0.6458,
@@ -168,6 +208,46 @@
         ]
       },
       "id": "pr71441418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "23 km ESE of Lapseki, Turkey",
+        "time": 1709039394249,
+        "updated": 1709054407040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1uj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1uj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000m1uj",
+        "ids": ",us7000m1uj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 0.416,
+        "rms": 0.72,
+        "gap": 34,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 23 km ESE of Lapseki, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9615,
+          40.3005,
+          6.903
+        ]
+      },
+      "id": "us7000m1uj"
     },
     {
       "type": "Feature",
@@ -535,11 +615,11 @@
         "mag": 2.66,
         "place": "5 km NNE of Corralitos, CA",
         "time": 1709023000420,
-        "updated": 1709051879372,
+        "updated": 1709054814247,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74008701",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74008701.geojson",
-        "felt": 42,
+        "felt": 43,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -575,12 +655,12 @@
         "mag": 2.56,
         "place": "8 km N of Smiths Ferry, Idaho",
         "time": 1709022328110,
-        "updated": 1709045669210,
+        "updated": 1709054003680,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90041963",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90041963.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -590,7 +670,7 @@
         "code": "90041963",
         "ids": ",mb90041963,",
         "sources": ",mb,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 12,
         "dmin": 0.3608,
         "rms": 0.09,
@@ -1448,206 +1528,6 @@
         ]
       },
       "id": "us7000m1q3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "124 km WNW of Aykol, China",
-        "time": 1708969564558,
-        "updated": 1708970760040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1pk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1pk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000m1pk",
-        "ids": ",us7000m1pk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.818,
-        "rms": 0.72,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 124 km WNW of Aykol, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.7234,
-          41.2899,
-          10
-        ]
-      },
-      "id": "us7000m1pk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "8 km NW of Smiths Ferry, Idaho",
-        "time": 1708969562567,
-        "updated": 1708997536621,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1ph",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1ph.geojson",
-        "felt": 20,
-        "cdi": 4.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000m1ph",
-        "ids": ",us7000m1ph,mb90041793,",
-        "sources": ",us,mb,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.334,
-        "rms": 0.86,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km NW of Smiths Ferry, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1518,
-          44.3605,
-          9.934
-        ]
-      },
-      "id": "us7000m1ph"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "12 km SSE of Guánica, Puerto Rico",
-        "time": 1708968953630,
-        "updated": 1708969749160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71441323",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71441323.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "pr",
-        "code": "71441323",
-        "ids": ",pr71441323,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1136,
-        "rms": 0.23,
-        "gap": 220,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8848333333333,
-          17.861,
-          8.02
-        ]
-      },
-      "id": "pr71441323"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "10 km N of Smiths Ferry, Idaho",
-        "time": 1708968343069,
-        "updated": 1709052279434,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1pd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1pd.geojson",
-        "felt": 1950,
-        "cdi": 6.7,
-        "mmi": 5.595,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 1039,
-        "net": "us",
-        "code": "7000m1pd",
-        "ids": ",ew1708968370,us7000m1pd,mb90041773,",
-        "sources": ",ew,us,mb,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shake-alert,shakemap,",
-        "nst": 89,
-        "dmin": 0.377,
-        "rms": 0.77,
-        "gap": 41,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 10 km N of Smiths Ferry, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1088,
-          44.3923,
-          8.879
-        ]
-      },
-      "id": "us7000m1pd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Owen Fracture Zone region",
-        "time": 1708967732906,
-        "updated": 1708968847040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1ng",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1ng.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000m1ng",
-        "ids": ",us7000m1ng,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 13.448,
-        "rms": 0.43,
-        "gap": 69,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - Owen Fracture Zone region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.646,
-          11.495,
-          10
-        ]
-      },
-      "id": "us7000m1ng"
     }
   ],
   "bbox": [
