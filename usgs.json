@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709405990000,
+    "generated": 1709409609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "79 km SSE of King Cove, Alaska",
+        "time": 1709407062591,
+        "updated": 1709408446040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgch",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgch.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.641,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000mgch",
+        "ids": ",us6000mgch,ak0242uuqhmz,",
+        "sources": ",us,ak,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "nst": 62,
+        "dmin": 1.055,
+        "rms": 0.52,
+        "gap": 144,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - 79 km SSE of King Cove, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.7601,
+          54.4272,
+          50.079
+        ]
+      },
+      "id": "us6000mgch"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.3,
         "place": "51 km NNW of Te Anau, New Zealand",
         "time": 1709402454445,
-        "updated": 1709405635040,
+        "updated": 1709407086753,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgcd.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 2.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "6000mgcd",
         "ids": ",us6000mgcd,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 0.563,
         "rms": 0.64,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000mgcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.76,
+        "place": "152 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1709402320550,
+        "updated": 1709409251040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024062003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024062003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 218,
+        "net": "pr",
+        "code": "2024062003",
+        "ids": ",us6000mgcg,pr2024062003,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 1.3925,
+        "rms": 0.16,
+        "gap": 281,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 152 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5793,
+          19.6928,
+          89
+        ]
+      },
+      "id": "pr2024062003"
     },
     {
       "type": "Feature",
@@ -1488,53 +1568,13 @@
         ]
       },
       "id": "ak0242t7u3o3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1709322183633,
-        "updated": 1709324951040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mg6f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mg6f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000mg6f",
-        "ids": ",us6000mg6f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.209,
-        "rms": 0.61,
-        "gap": 192,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.2753,
-          51.8559,
-          125.472
-        ]
-      },
-      "id": "us6000mg6f"
     }
   ],
   "bbox": [
     -178.3998,
     -55.7473,
     -0.86,
-    178.2753,
+    177.8542,
     61.7501,
     536.919
   ]
