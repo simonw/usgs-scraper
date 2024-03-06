@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709701216000,
+    "generated": 1709704817000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "54 km NNE of Kobuk, Alaska",
+        "time": 1709703389045,
+        "updated": 1709703583994,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024318numw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024318numw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "024318numw",
+        "ids": ",ak024318numw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 54 km NNE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.3796,
+          67.3537,
+          7
+        ]
+      },
+      "id": "ak024318numw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.35,
+        "place": "52 km W of Petrolia, CA",
+        "time": 1709702222390,
+        "updated": 1709702900120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74012401",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74012401.geojson",
+        "felt": 3,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 173,
+        "net": "nc",
+        "code": "74012401",
+        "ids": ",nc74012401,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.4206,
+        "rms": 0.47,
+        "gap": 283,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 52 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.8826675,
+          40.4138336,
+          22.99
+        ]
+      },
+      "id": "nc74012401"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1168,46 +1248,6 @@
         ]
       },
       "id": "pr71442103"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.03,
-        "place": "49 km NW of San Antonio, Puerto Rico",
-        "time": 1709615668610,
-        "updated": 1709634262146,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024065001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024065001.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 251,
-        "net": "pr",
-        "code": "2024065001",
-        "ids": ",us6000mgtf,pr2024065001,",
-        "sources": ",us,pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.4207,
-        "rms": 0.26,
-        "gap": 190,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 49 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4346,
-          18.8028,
-          9
-        ]
-      },
-      "id": "pr2024065001"
     }
   ],
   "bbox": [
@@ -1215,7 +1255,7 @@
     -59.1677,
     3.6668,
     179.1651,
-    58.0096,
+    67.3537,
     602.492
   ]
 }
