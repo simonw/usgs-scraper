@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709719193000,
+    "generated": 1709722838000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Fiji region",
+        "time": 1709720011620,
+        "updated": 1709721012040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m3ng",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m3ng.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000m3ng",
+        "ids": ",us7000m3ng,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 3.218,
+        "rms": 0.62,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.6473,
+          -21.3713,
+          531.886
+        ]
+      },
+      "id": "us7000m3ng"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.1,
         "place": "50 km NNE of Chickaloon, Alaska",
         "time": 1709715725462,
-        "updated": 1709719079185,
+        "updated": 1709721718433,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02431au8tv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02431au8tv.geojson",
-        "felt": 70,
+        "felt": 72,
         "cdi": 3.8,
         "mmi": 3.121,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 286,
         "net": "ak",
         "code": "02431au8tv",
         "ids": ",ak02431au8tv,us7000m3na,",
@@ -855,17 +895,17 @@
         "mag": 2.53,
         "place": "6 km ENE of Pinckneyville, Illinois",
         "time": 1709656485280,
-        "updated": 1709708969934,
+        "updated": 1709720217642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60501713",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60501713.geojson",
-        "felt": 14,
-        "cdi": 2.5,
+        "felt": 15,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 103,
         "net": "nm",
         "code": "60501713",
         "ids": ",us6000mgwb,nm60501713,",
@@ -1088,86 +1128,6 @@
         ]
       },
       "id": "us6000mgv4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "158 km ESE of Chignik, Alaska",
-        "time": 1709633976374,
-        "updated": 1709634791774,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0242zo01r8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0242zo01r8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "0242zo01r8",
-        "ids": ",us6000mgui,ak0242zo01r8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.63,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 158 km ESE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.9694,
-          55.8704,
-          5.7
-        ]
-      },
-      "id": "ak0242zo01r8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "62 km ESE of Pangai, Tonga",
-        "time": 1709633097548,
-        "updated": 1709634270040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mguh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mguh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000mguh",
-        "ids": ",us6000mguh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 1.633,
-        "rms": 1.49,
-        "gap": 31,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 62 km ESE of Pangai, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.859,
-          -20.1244,
-          35
-        ]
-      },
-      "id": "us6000mguh"
     }
   ],
   "bbox": [
