@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709690692000,
+    "generated": 1709694013000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.63,
+        "place": "118 km N of Suárez, Puerto Rico",
+        "time": 1709686269960,
+        "updated": 1709691512952,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024066000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024066000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 203,
+        "net": "pr",
+        "code": "2024066000",
+        "ids": ",pr2024066000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 1.2358,
+        "rms": 0.48,
+        "gap": 289,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 118 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7405,
+          19.4963,
+          50
+        ]
+      },
+      "id": "pr2024066000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.2,
         "place": "11 km NNW of Virginia City, Nevada",
         "time": 1709684531052,
-        "updated": 1709689368045,
+        "updated": 1709693895217,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00874233",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00874233.geojson",
-        "felt": 90,
-        "cdi": 3.2,
+        "felt": 95,
+        "cdi": 2.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 186,
+        "sig": 184,
         "net": "nn",
         "code": "00874233",
         "ids": ",nn00874233,us7000m3li,",
@@ -55,11 +95,11 @@
         "mag": 5.1,
         "place": "127 km WNW of Aykol, China",
         "time": 1709683799842,
-        "updated": 1709690125475,
+        "updated": 1709691383644,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m3lf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m3lf.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us7000m3lf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "13 km ESE of Olney, Texas",
+        "time": 1709683302777,
+        "updated": 1709691935040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024eotv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024eotv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2024eotv",
+        "ids": ",us7000m3lc,tx2024eotv,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.5,
+        "rms": 0.3,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 13 km ESE of Olney, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.628,
+          33.301,
+          4.0527
+        ]
+      },
+      "id": "tx2024eotv"
     },
     {
       "type": "Feature",
@@ -172,10 +252,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "Kepulauan Babar, Indonesia",
+        "time": 1709673896929,
+        "updated": 1709691465040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m3kk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m3kk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000m3kk",
+        "ids": ",us7000m3kk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 4.89,
+        "rms": 0.85,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Kepulauan Babar, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.537,
+          -7.0227,
+          144.1
+        ]
+      },
+      "id": "us7000m3kk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.67,
         "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1709673472560,
-        "updated": 1709690412890,
+        "updated": 1709692422040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74129286",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74129286.geojson",
@@ -188,8 +308,8 @@
         "sig": 110,
         "net": "hv",
         "code": "74129286",
-        "ids": ",hv74129286,",
-        "sources": ",hv,",
+        "ids": ",us7000m3kf,hv74129286,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 40,
         "dmin": 0.01546,
@@ -215,7 +335,7 @@
         "mag": 3.37,
         "place": "3 km WSW of Sabana Grande, Puerto Rico",
         "time": 1709673312040,
-        "updated": 1709677993507,
+        "updated": 1709692764040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024065004",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024065004.geojson",
@@ -228,8 +348,8 @@
         "sig": 175,
         "net": "pr",
         "code": "2024065004",
-        "ids": ",pr2024065004,",
-        "sources": ",pr,",
+        "ids": ",pr2024065004,us7000m3kp,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 0.1153,
@@ -695,11 +815,11 @@
         "mag": 3.4,
         "place": "9 km N of Smiths Ferry, Idaho",
         "time": 1709643470743,
-        "updated": 1709684999697,
+        "updated": 1709691090145,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgv4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgv4.geojson",
-        "felt": 28,
+        "felt": 29,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1288,86 +1408,6 @@
         ]
       },
       "id": "pr71442043"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "44 km NW of San Antonio, Puerto Rico",
-        "time": 1709604563500,
-        "updated": 1709605490240,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71442033",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71442033.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71442033",
-        "ids": ",pr71442033,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.4086,
-        "rms": 0.35,
-        "gap": 277,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 44 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3666666666667,
-          18.7983333333333,
-          6.9
-        ]
-      },
-      "id": "pr71442033"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "243 km NNE of Nagqu, China",
-        "time": 1709604452378,
-        "updated": 1709684241548,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgsv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgsv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 6.821,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 650,
-        "net": "us",
-        "code": "6000mgsv",
-        "ids": ",us6000mgsv,",
-        "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 98,
-        "dmin": 4.132,
-        "rms": 0.4,
-        "gap": 39,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 243 km NNE of Nagqu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.0254,
-          33.5161,
-          10
-        ]
-      },
-      "id": "us6000mgsv"
     }
   ],
   "bbox": [
