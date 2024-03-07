@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709769653000,
+    "generated": 1709773886000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "174 km ENE of Tual, Indonesia",
+        "time": 1709769415639,
+        "updated": 1709770425040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m3t3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m3t3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000m3t3",
+        "ids": ",us7000m3t3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 2.672,
+        "rms": 0.77,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 174 km ENE of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.12,
+          -4.8435,
+          10
+        ]
+      },
+      "id": "us7000m3t3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,12 +255,12 @@
         "mag": 2.8,
         "place": "18 km E of Pleasanton, Texas",
         "time": 1709751485162,
-        "updated": 1709754424040,
+        "updated": 1709773620622,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024eqfg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024eqfg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -228,9 +268,9 @@
         "sig": 121,
         "net": "tx",
         "code": "2024eqfg",
-        "ids": ",us7000m3r6,tx2024eqfg,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2024eqfg,us7000m3r6,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.1,
         "rms": 0.4,
@@ -328,6 +368,46 @@
         ]
       },
       "id": "us7000m3qr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "64 km ESE of Marihatag, Philippines",
+        "time": 1709744085920,
+        "updated": 1709773499040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m3qn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m3qn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000m3qn",
+        "ids": ",us7000m3qn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 2.008,
+        "rms": 1.02,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 64 km ESE of Marihatag, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8579,
+          8.6377,
+          35
+        ]
+      },
+      "id": "us7000m3qn"
     },
     {
       "type": "Feature",
@@ -808,172 +888,12 @@
         ]
       },
       "id": "us7000m3m3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.63,
-        "place": "118 km N of Suárez, Puerto Rico",
-        "time": 1709686269960,
-        "updated": 1709691512952,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024066000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024066000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 203,
-        "net": "pr",
-        "code": "2024066000",
-        "ids": ",pr2024066000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 1.2358,
-        "rms": 0.48,
-        "gap": 289,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 118 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7405,
-          19.4963,
-          50
-        ]
-      },
-      "id": "pr2024066000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "11 km NNW of Virginia City, Nevada",
-        "time": 1709684531052,
-        "updated": 1709760838958,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00874233",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00874233.geojson",
-        "felt": 102,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 187,
-        "net": "nn",
-        "code": "00874233",
-        "ids": ",nn00874233,us7000m3li,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.06,
-        "rms": 0.1491,
-        "gap": 40.1,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 11 km NNW of Virginia City, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.6893,
-          39.4079,
-          8.6
-        ]
-      },
-      "id": "nn00874233"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "127 km WNW of Aykol, China",
-        "time": 1709683799842,
-        "updated": 1709733839618,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m3lf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m3lf.geojson",
-        "felt": 18,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 406,
-        "net": "us",
-        "code": "7000m3lf",
-        "ids": ",us7000m3lf,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 109,
-        "dmin": 1.206,
-        "rms": 0.82,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 127 km WNW of Aykol, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.6922,
-          41.3127,
-          10
-        ]
-      },
-      "id": "us7000m3lf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "13 km ESE of Olney, Texas",
-        "time": 1709683302777,
-        "updated": 1709691935040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024eotv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024eotv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2024eotv",
-        "ids": ",us7000m3lc,tx2024eotv,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.5,
-        "rms": 0.3,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km ESE of Olney, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.628,
-          33.301,
-          4.0527
-        ]
-      },
-      "id": "tx2024eotv"
     }
   ],
   "bbox": [
     -178.6473,
     -21.3713,
-    4.0527,
+    7,
     165.5646,
     67.3537,
     531.886
