@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709967599000,
+    "generated": 1709971193000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "66 km ENE of Cordova, Alaska",
+        "time": 1709967643947,
+        "updated": 1709967735354,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02436892p6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02436892p6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "02436892p6",
+        "ids": ",ak02436892p6,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.44,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 66 km ENE of Cordova, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.6319,
+          60.7574,
+          4.5
+        ]
+      },
+      "id": "ak02436892p6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "12 km NNW of Virginia City, Nevada",
         "time": 1709965644630,
-        "updated": 1709967530124,
+        "updated": 1709971026742,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00874424",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00874424.geojson",
-        "felt": 236,
+        "felt": 272,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 228,
+        "sig": 242,
         "net": "nn",
         "code": "00874424",
         "ids": ",nn00874424,us7000m4ct,",
@@ -935,11 +975,11 @@
         "mag": 3.5,
         "place": "11 km S of Bullaburra, Australia",
         "time": 1709891593045,
-        "updated": 1709962505551,
+        "updated": 1709969172442,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m44b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m44b.geojson",
-        "felt": 254,
+        "felt": 255,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
@@ -1048,86 +1088,6 @@
         ]
       },
       "id": "us7000m437"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "75 km N of La Serena, Chile",
-        "time": 1709883645785,
-        "updated": 1709898966365,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m42y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m42y.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000m42y",
-        "ids": ",us7000m42y,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.568,
-        "rms": 0.51,
-        "gap": 141,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.6 - 75 km N of La Serena, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.3039,
-          -29.2216,
-          45.334
-        ]
-      },
-      "id": "us7000m42y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "167 km SE of Port Blair, India",
-        "time": 1709883452788,
-        "updated": 1709884400040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m42z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m42z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000m42z",
-        "ids": ",us7000m42z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 6.137,
-        "rms": 0.69,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 167 km SE of Port Blair, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.7567,
-          10.5246,
-          161.535
-        ]
-      },
-      "id": "us7000m42z"
     }
   ],
   "bbox": [
@@ -1135,7 +1095,7 @@
     -34.1335,
     1.828979135,
     150.427,
-    44.3928,
+    60.7574,
     598.213
   ]
 }
