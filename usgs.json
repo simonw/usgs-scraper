@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710158400000,
+    "generated": 1710162000000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "52 km W of Ferry, Alaska",
+        "time": 1710160314717,
+        "updated": 1710160471970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02439mgwyd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02439mgwyd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "02439mgwyd",
+        "ids": ",ak02439mgwyd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.93,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 52 km W of Ferry, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1884,
+          63.9857,
+          34.5
+        ]
+      },
+      "id": "ak02439mgwyd"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.34,
         "place": "15 km SW of Lone Pine, CA",
         "time": 1710157720970,
-        "updated": 1710158347310,
+        "updated": 1710161245537,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40685504",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40685504.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 172,
         "net": "ci",
         "code": "40685504",
-        "ids": ",ci40685504,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40685504,us7000m4n9,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 46,
         "dmin": 0.1093,
         "rms": 0.19,
@@ -448,6 +488,46 @@
         ]
       },
       "id": "us7000m4kv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "14 km W of Graysville, Tennessee",
+        "time": 1710101287170,
+        "updated": 1710158614730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60572731",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60572731.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "se",
+        "code": "60572731",
+        "ids": ",se60572731,",
+        "sources": ",se,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1195,
+        "rms": 0.11,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 14 km W of Graysville, Tennessee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2363333333333,
+          35.471,
+          22.11
+        ]
+      },
+      "id": "se60572731"
     },
     {
       "type": "Feature",
@@ -928,126 +1008,6 @@
         ]
       },
       "id": "hv74133041"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "30 km NW of Toyah, Texas",
-        "time": 1710075075861,
-        "updated": 1710076004052,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024exbe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024exbe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2024exbe",
-        "ids": ",tx2024exbe,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 30 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.011,
-          31.518,
-          5.5813
-        ]
-      },
-      "id": "tx2024exbe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "182 km ESE of Kimbe, Papua New Guinea",
-        "time": 1710074108931,
-        "updated": 1710075069040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m4ja",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m4ja.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000m4ja",
-        "ids": ",us7000m4ja,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 8.839,
-        "rms": 0.59,
-        "gap": 68,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 182 km ESE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.5817,
-          -6.3417,
-          51.364
-        ]
-      },
-      "id": "us7000m4ja"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "69 km W of San Antonio de los Cobres, Argentina",
-        "time": 1710072974867,
-        "updated": 1710073931040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m4j8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m4j8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000m4j8",
-        "ids": ",us7000m4j8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 1.625,
-        "rms": 0.74,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 69 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0007,
-          -24.1713,
-          180.201
-        ]
-      },
-      "id": "us7000m4j8"
     }
   ],
   "bbox": [
