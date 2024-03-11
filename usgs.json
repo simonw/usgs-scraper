@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710165600000,
+    "generated": 1710169178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "143 km NNW of Tumxuk, China",
+        "time": 1710164111082,
+        "updated": 1710166641040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m4nk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m4nk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000m4nk",
+        "ids": ",us7000m4nk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.613,
+        "rms": 0.58,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 143 km NNW of Tumxuk, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4242,
+          41.0693,
+          5.695
+        ]
+      },
+      "id": "us7000m4nk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 3.09,
         "place": "15 km SW of Lone Pine, CA",
         "time": 1710157720900,
-        "updated": 1710165411570,
+        "updated": 1710167022388,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40685504",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40685504.geojson",
-        "felt": 3,
-        "cdi": 2,
+        "felt": 4,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 147,
+        "sig": 148,
         "net": "ci",
         "code": "40685504",
         "ids": ",ci40685504,us7000m4n9,",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ci40685504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "8 km NNW of Smiths Ferry, Idaho",
+        "time": 1710156391460,
+        "updated": 1710167494130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90042933",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90042933.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "mb",
+        "code": "90042933",
+        "ids": ",mb90042933,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.3577,
+        "rms": 0.12,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 8 km NNW of Smiths Ferry, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.114333333333,
+          44.3723333333333,
+          9.95
+        ]
+      },
+      "id": "mb90042933"
     },
     {
       "type": "Feature",
@@ -888,46 +968,6 @@
         ]
       },
       "id": "us7000m4jy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53999996,
-        "place": "9 km E of Pāhala, Hawaii",
-        "time": 1710079416120,
-        "updated": 1710079584180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74133051",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74133051.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "hv",
-        "code": "74133051",
-        "ids": ",hv74133051,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.07861,
-        "rms": 0.140000001,
-        "gap": 173,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 9 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.387329101562,
-          19.1900005340576,
-          30.3700008392334
-        ]
-      },
-      "id": "hv74133051"
     }
   ],
   "bbox": [
