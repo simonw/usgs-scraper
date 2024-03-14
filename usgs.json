@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710442790000,
+    "generated": 1710446390000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
@@ -175,12 +175,12 @@
         "mag": 2.5,
         "place": "48 km W of Mentone, Texas",
         "time": 1710429526171,
-        "updated": 1710430136916,
+        "updated": 1710443931193,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024feny",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024feny.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +190,7 @@
         "code": "2024feny",
         "ids": ",tx2024feny,",
         "sources": ",tx,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0,
         "rms": 0.1,
@@ -215,11 +215,11 @@
         "mag": 5.6,
         "place": "23 km ENE of Iwaki, Japan",
         "time": 1710429276625,
-        "updated": 1710436876047,
+        "updated": 1710446093088,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000miuf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000miuf.geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 5,
         "mmi": 3.939,
         "alert": "green",
@@ -855,17 +855,17 @@
         "mag": 5.4,
         "place": "21 km SW of Plužine, Montenegro",
         "time": 1710385606795,
-        "updated": 1710441836166,
+        "updated": 1710444593078,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mirj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mirj.geojson",
-        "felt": 242,
+        "felt": 243,
         "cdi": 8.2,
         "mmi": 7.108,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 647,
+        "sig": 648,
         "net": "us",
         "code": "6000mirj",
         "ids": ",us6000mirj,",
@@ -1288,46 +1288,6 @@
         ]
       },
       "id": "us6000mipe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "112 km SE of Modisi, Indonesia",
-        "time": 1710356767445,
-        "updated": 1710357793040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000minz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000minz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000minz",
-        "ids": ",us6000minz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 2.29,
-        "rms": 1.05,
-        "gap": 52,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 112 km SE of Modisi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.2632,
-          -0.1385,
-          57.67
-        ]
-      },
-      "id": "us6000minz"
     }
   ],
   "bbox": [
