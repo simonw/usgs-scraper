@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710622798000,
+    "generated": 1710626387000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "47 km ESE of Tomioka, Japan",
+        "time": 1710623824554,
+        "updated": 1710626225988,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjbp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjbp.geojson",
+        "felt": 8,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 435,
+        "net": "us",
+        "code": "6000mjbp",
+        "ids": ",us6000mjbp,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 103,
+        "dmin": 2.703,
+        "rms": 0.9,
+        "gap": 117,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 47 km ESE of Tomioka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.4953,
+          37.1415,
+          45.239
+        ]
+      },
+      "id": "us6000mjbp"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "6 km S of Fritz Creek, Alaska",
         "time": 1710617152174,
-        "updated": 1710617285825,
+        "updated": 1710624037040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243i0b2y9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243i0b2y9.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0243i0b2y9",
-        "ids": ",ak0243i0b2y9,",
-        "sources": ",ak,",
+        "ids": ",us6000mjbd,ak0243i0b2y9,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak0243i0b2y9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "35 km S of Uyuni, Bolivia",
+        "time": 1710611881839,
+        "updated": 1710624040040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjb0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjb0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000mjb0",
+        "ids": ",us6000mjb0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 2.518,
+        "rms": 0.89,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 35 km S of Uyuni, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.772,
+          -20.7744,
+          253.182
+        ]
+      },
+      "id": "us6000mjb0"
     },
     {
       "type": "Feature",
@@ -95,11 +175,11 @@
         "mag": 2.57,
         "place": "6 km WNW of Arcadia, Oklahoma",
         "time": 1710609536292,
-        "updated": 1710620828628,
+        "updated": 1710626112171,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024fija",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024fija.geojson",
-        "felt": 38,
+        "felt": 39,
         "cdi": 3,
         "mmi": null,
         "alert": null,
@@ -1096,6 +1176,6 @@
     -0.8,
     174.4092,
     59.6811,
-    230.812
+    253.182
   ]
 }
