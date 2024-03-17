@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710680390000,
+    "generated": 1710683991000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "111 km NW of Piti Village, Guam",
+        "time": 1710682589096,
+        "updated": 1710683494040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjft",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjft.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000mjft",
+        "ids": ",us6000mjft,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 1.021,
+        "rms": 0.53,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 111 km NW of Piti Village, Guam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1008,
+          14.2912,
+          10
+        ]
+      },
+      "id": "us6000mjft"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,21 +95,21 @@
         "mag": 2.68,
         "place": "10 km NNE of Indio, CA",
         "time": 1710674059240,
-        "updated": 1710679444016,
+        "updated": 1710683880637,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40688376",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40688376.geojson",
-        "felt": 31,
+        "felt": 38,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 126,
+        "sig": 129,
         "net": "ci",
         "code": "40688376",
-        "ids": ",ci40688376,",
-        "sources": ",ci,",
+        "ids": ",ci40688376,us6000mjfb,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 79,
         "dmin": 0.03212,
@@ -95,7 +135,7 @@
         "mag": 5.4,
         "place": "209 km SE of Lorengau, Papua New Guinea",
         "time": 1710673816832,
-        "updated": 1710675206274,
+        "updated": 1710681221972,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjfc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjfc.geojson",
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "ak0243hxa6ic"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "123 km SW of Puerto Madero, Mexico",
-        "time": 1710597390309,
-        "updated": 1710598595040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mja9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mja9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000mja9",
-        "ids": ",us6000mja9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.704,
-        "rms": 0.89,
-        "gap": 159,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 123 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.1685,
-          13.8762,
-          10
-        ]
-      },
-      "id": "us6000mja9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Mariana Islands region",
-        "time": 1710596826068,
-        "updated": 1710601525040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mja7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mja7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000mja7",
-        "ids": ",us6000mja7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 5.822,
-        "rms": 0.72,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Mariana Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0153,
-          21.8513,
-          230.812
-        ]
-      },
-      "id": "us6000mja7"
     }
   ],
   "bbox": [
