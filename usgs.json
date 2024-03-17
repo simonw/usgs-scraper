@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710641207000,
+    "generated": 1710644399000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "17 km NNE of Stanley, Idaho",
+        "time": 1710643832860,
+        "updated": 1710644339040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjdu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjdu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000mjdu",
+        "ids": ",us6000mjdu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.242,
+        "rms": 0.73,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 17 km NNE of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.8234,
+          44.3476,
+          10
+        ]
+      },
+      "id": "us6000mjdu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "113 km E of Chignik, Alaska",
         "time": 1710640609462,
-        "updated": 1710640787135,
+        "updated": 1710641746040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243jdb9jm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243jdb9jm.geojson",
@@ -28,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0243jdb9jm",
-        "ids": ",ak0243jdb9jm,",
-        "sources": ",ak,",
+        "ids": ",us6000mjdj,ak0243jdb9jm,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak0243jdb9jm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "94 km E of Nikolski, Alaska",
+        "time": 1710639944897,
+        "updated": 1710641358040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjdg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjdg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.625,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000mjdg",
+        "ids": ",us6000mjdg,ak0243jd8wdm,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 35,
+        "dmin": 0.422,
+        "rms": 0.56,
+        "gap": 164,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 94 km E of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.4747,
+          53.0807,
+          53.432
+        ]
+      },
+      "id": "us6000mjdg"
     },
     {
       "type": "Feature",
@@ -95,17 +175,17 @@
         "mag": 5.6,
         "place": "50 km SSW of Jiquilillo, Nicaragua",
         "time": 1710636243563,
-        "updated": 1710639908209,
+        "updated": 1710644274999,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjct",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjct.geojson",
-        "felt": 6,
+        "felt": 9,
         "cdi": 3.8,
         "mmi": 4.046,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 485,
+        "sig": 486,
         "net": "us",
         "code": "6000mjct",
         "ids": ",us6000mjct,",
@@ -135,7 +215,7 @@
         "mag": 3.42,
         "place": "29 km SSW of Esperanza, Puerto Rico",
         "time": 1710636070840,
-        "updated": 1710637501160,
+        "updated": 1710641450040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71443128",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71443128.geojson",
@@ -148,8 +228,8 @@
         "sig": 180,
         "net": "pr",
         "code": "71443128",
-        "ids": ",pr71443128,",
-        "sources": ",pr,",
+        "ids": ",us6000mjcs,pr71443128,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 27,
         "dmin": 0.2392,
@@ -1211,7 +1291,7 @@
     }
   ],
   "bbox": [
-    -161.787,
+    -167.4747,
     -20.7744,
     -0.8,
     150.8459,
