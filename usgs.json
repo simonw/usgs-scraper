@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710943221000,
+    "generated": 1710946821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 22
   },
   "features": [
     {
@@ -615,12 +615,12 @@
         "mag": 3.3,
         "place": "24 km NW of Stanley, Idaho",
         "time": 1710891613551,
-        "updated": 1710893000330,
+        "updated": 1710946595697,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjvh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjvh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -628,9 +628,9 @@
         "sig": 168,
         "net": "us",
         "code": "6000mjvh",
-        "ids": ",mb90043593,us6000mjvh,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
+        "ids": ",us6000mjvh,mb90043593,",
+        "sources": ",us,mb,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 19,
         "dmin": 0.346,
         "rms": 0.67,
@@ -815,11 +815,11 @@
         "mag": 4.5,
         "place": "81 km ESE of Yakutat, Alaska",
         "time": 1710864856864,
-        "updated": 1710903921516,
+        "updated": 1710943245777,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243mx2dy7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243mx2dy7.geojson",
-        "felt": 27,
+        "felt": 28,
         "cdi": 2.7,
         "mmi": 5.066,
         "alert": null,
@@ -888,93 +888,13 @@
         ]
       },
       "id": "mb90043408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "20 km SE of Alamo, Nevada",
-        "time": 1710858538074,
-        "updated": 1710868914040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00875010",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00875010.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "nn",
-        "code": "00875010",
-        "ids": ",us6000mjru,nn00875010,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.176,
-        "rms": 0.1394,
-        "gap": 109.12,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 20 km SE of Alamo, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.9989,
-          37.236,
-          13.6
-        ]
-      },
-      "id": "nn00875010"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "112 km NW of Sola, Vanuatu",
-        "time": 1710857414216,
-        "updated": 1710859042040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjrs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjrs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000mjrs",
-        "ids": ",us6000mjrs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 7.718,
-        "rms": 0.5,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 112 km NW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.8912,
-          -13.0926,
-          185.419
-        ]
-      },
-      "id": "us6000mjrs"
     }
   ],
   "bbox": [
     -179.5702,
     -56.2612,
     0,
-    166.8912,
+    150.4711,
     63.0922,
     461.466
   ]
