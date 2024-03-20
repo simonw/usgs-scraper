@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710946821000,
+    "generated": 1710950418000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.41,
+        "place": "14 km ESE of Wofford Heights, CA",
+        "time": 1710947389690,
+        "updated": 1710950119882,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40691096",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40691096.geojson",
+        "felt": 25,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 187,
+        "net": "ci",
+        "code": "40691096",
+        "ids": ",ci40691096,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 76,
+        "dmin": 0.05668,
+        "rms": 0.18,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 14 km ESE of Wofford Heights, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3183365,
+          35.6453323,
+          6.84
+        ]
+      },
+      "id": "ci40691096"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,46 +128,6 @@
         ]
       },
       "id": "pr71443428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "39 km ESE of Mina, Nevada",
-        "time": 1710938333791,
-        "updated": 1710938591671,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00875068",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00875068.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nn",
-        "code": "00875068",
-        "ids": ",nn00875068,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.17,
-        "rms": 0.3182,
-        "gap": 74.71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 39 km ESE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.6938,
-          38.2461,
-          0
-        ]
-      },
-      "id": "nn00875068"
     },
     {
       "type": "Feature",
@@ -615,11 +615,11 @@
         "mag": 3.3,
         "place": "24 km NW of Stanley, Idaho",
         "time": 1710891613551,
-        "updated": 1710946595697,
+        "updated": 1710949049053,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjvh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjvh.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -772,6 +772,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.5,
+        "place": "Pacific-Antarctic Ridge",
+        "time": 1710871622933,
+        "updated": 1710948853725,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mk0i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mk0i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000mk0i",
+        "ids": ",us6000mk0i,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 19,
+        "dmin": 32.79,
+        "rms": 0.95,
+        "gap": 75,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Pacific-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.4502,
+          -56.4214,
+          10
+        ]
+      },
+      "id": "us6000mk0i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "36 km WSW of Saint George's, Grenada",
         "time": 1710870744783,
@@ -892,8 +932,8 @@
   ],
   "bbox": [
     -179.5702,
-    -56.2612,
-    0,
+    -56.4214,
+    2.8199999332428,
     150.4711,
     63.0922,
     461.466
