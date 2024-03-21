@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711058423000,
+    "generated": 1711062024000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 26
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.1,
         "place": "41 km WSW of Coquimbo, Chile",
         "time": 1711055819131,
-        "updated": 1711057233040,
+        "updated": 1711058731106,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkc9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkc9.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000mkc9",
         "ids": ",us6000mkc9,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 45,
         "dmin": 0.466,
         "rms": 0.77,
@@ -175,12 +175,12 @@
         "mag": 3.14,
         "place": "3 km NNE of Mayagüez, Puerto Rico",
         "time": 1711046167340,
-        "updated": 1711047200310,
+        "updated": 1711059206862,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71443553",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71443553.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +190,7 @@
         "code": "71443553",
         "ids": ",pr71443553,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": 0.07138,
         "rms": 0.13,
@@ -535,11 +535,11 @@
         "mag": 2.7057888507843018,
         "place": "30 km NNW of Neah Bay, Washington",
         "time": 1711004684710,
-        "updated": 1711058009948,
+        "updated": 1711059933556,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61991211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61991211.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -1048,86 +1048,6 @@
         ]
       },
       "id": "mb90043698"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "15 km S of Esperanza, Puerto Rico",
-        "time": 1710973880770,
-        "updated": 1710975410870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71443468",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71443468.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "pr",
-        "code": "71443468",
-        "ids": ",pr71443468,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.156,
-        "rms": 0.27,
-        "gap": 164,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 15 km S of Esperanza, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4706666666667,
-          17.9615,
-          12.8
-        ]
-      },
-      "id": "pr71443468"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "8 km WNW of Healdton, Oklahoma",
-        "time": 1710973237450,
-        "updated": 1711023533953,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024fqaz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024fqaz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "ok",
-        "code": "2024fqaz",
-        "ids": ",us6000mk4i,ok2024fqaz,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
-        "nst": 80,
-        "dmin": 0.1133777514,
-        "rms": 0.44,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km WNW of Healdton, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.57366667,
-          34.25566667,
-          13.09
-        ]
-      },
-      "id": "ok2024fqaz"
     }
   ],
   "bbox": [
