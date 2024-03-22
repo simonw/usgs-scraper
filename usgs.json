@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711094425000,
+    "generated": 1711098025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -92,6 +92,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "42 km E of Hachinohe, Japan",
+        "time": 1711086242535,
+        "updated": 1711097403040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkfa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkfa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000mkfa",
+        "ids": ",us6000mkfa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 81,
+        "dmin": 0.745,
+        "rms": 0.75,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 42 km E of Hachinohe, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.992,
+          40.5483,
+          57.269
+        ]
+      },
+      "id": "us6000mkfa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "153 km ESE of Akutan, Alaska",
         "time": 1711085790892,
@@ -135,17 +175,17 @@
         "mag": 5,
         "place": "108 km N of Paciran, Indonesia",
         "time": 1711085472420,
-        "updated": 1711087305130,
+        "updated": 1711096851027,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkf6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkf6.geojson",
-        "felt": 1,
-        "cdi": 3.1,
+        "felt": 5,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 387,
         "net": "us",
         "code": "6000mkf6",
         "ids": ",us6000mkf6,",
@@ -215,11 +255,11 @@
         "mag": 4.8,
         "place": "30 km W of Agios Georgis, Greece",
         "time": 1711084840714,
-        "updated": 1711090377501,
+        "updated": 1711097017925,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkf2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkf2.geojson",
-        "felt": 5,
+        "felt": 7,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1048,52 +1088,12 @@
         ]
       },
       "id": "ak0243q4i3bh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "26 km WNW of Desert Center, CA",
-        "time": 1711011027960,
-        "updated": 1711040753385,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40520495",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40520495.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "ci",
-        "code": "40520495",
-        "ids": ",ci40520495,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 55,
-        "dmin": 0.1171,
-        "rms": 0.24,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 26 km WNW of Desert Center, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6551667,
-          33.824,
-          -0.81
-        ]
-      },
-      "id": "ci40520495"
     }
   ],
   "bbox": [
     -178.888,
     -30.0517,
-    -0.81,
+    0,
     179.8463,
     62.5589,
     515.758
