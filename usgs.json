@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711231228000,
+    "generated": 1711234790000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.82,
+        "place": "19 km SE of Pinnacles, CA",
+        "time": 1711232979420,
+        "updated": 1711233175776,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74022866",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74022866.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "nc",
+        "code": "74022866",
+        "ids": ",nc74022866,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.06644,
+        "rms": 0.14,
+        "gap": 110,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 19 km SE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.9936676,
+          36.4136658,
+          9.74
+        ]
+      },
+      "id": "nc74022866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "25 km SSW of Westbrook, Texas",
+        "time": 1711230899742,
+        "updated": 1711231646040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkus",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkus.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000mkus",
+        "ids": ",us6000mkus,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.223,
+        "rms": 0.35,
+        "gap": 47,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.6 - 25 km SSW of Westbrook, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.078,
+          32.1345,
+          5
+        ]
+      },
+      "id": "us6000mkus"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 5.1,
         "place": "57 km ENE of Ambunti, Papua New Guinea",
         "time": 1711226426853,
-        "updated": 1711227409040,
+        "updated": 1711234199876,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mku5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mku5.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "6000mku5",
         "ids": ",us6000mku5,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 40,
         "dmin": 3.051,
         "rms": 0.78,
@@ -135,17 +215,17 @@
         "mag": 6.9,
         "place": "38 km ENE of Ambunti, Papua New Guinea",
         "time": 1711225324190,
-        "updated": 1711231108502,
+        "updated": 1711234007185,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mksx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mksx.geojson",
-        "felt": 15,
+        "felt": 19,
         "cdi": 6.1,
-        "mmi": 7.568,
+        "mmi": 7.555,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 742,
+        "sig": 744,
         "net": "us",
         "code": "6000mksx",
         "ids": ",at00sathwv,pt24083000,us6000mksx,",
@@ -535,7 +615,7 @@
         "mag": 3.1,
         "place": "50 km E of Fort Bidwell, California",
         "time": 1711208232740,
-        "updated": 1711225849040,
+        "updated": 1711234119998,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkrs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkrs.geojson",
@@ -548,8 +628,8 @@
         "sig": 148,
         "net": "us",
         "code": "6000mkrs",
-        "ids": ",uw61991856,us6000mkrs,",
-        "sources": ",uw,us,",
+        "ids": ",uw61991856,nn00875250,us6000mkrs,",
+        "sources": ",uw,nn,us,",
         "types": ",origin,phase-data,",
         "nst": 26,
         "dmin": 0.367,
@@ -768,6 +848,46 @@
         ]
       },
       "id": "ak0243tf73wg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "northern Mid-Atlantic Ridge",
+        "time": 1711184408264,
+        "updated": 1711233627040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkpn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkpn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000mkpn",
+        "ids": ",us6000mkpn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 11.196,
+        "rms": 0.48,
+        "gap": 166,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - northern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.8763,
+          13.3264,
+          10
+        ]
+      },
+      "id": "us6000mkpn"
     },
     {
       "type": "Feature",
@@ -1168,6 +1288,46 @@
         ]
       },
       "id": "us6000mknb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Easter Island region",
+        "time": 1711164741610,
+        "updated": 1711232386040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkp7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkp7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000mkp7",
+        "ids": ",us6000mkp7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 3.153,
+        "rms": 1.06,
+        "gap": 264,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Easter Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9579,
+          -27.5033,
+          10
+        ]
+      },
+      "id": "us6000mkp7"
     },
     {
       "type": "Feature",
@@ -1612,7 +1772,7 @@
   ],
   "bbox": [
     -164.1661,
-    -24.3446,
+    -27.5033,
     0.3494058847,
     167.9861,
     68.7877,
