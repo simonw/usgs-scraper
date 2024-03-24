@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711270828000,
+    "generated": 1711274428000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "7 km NNE of Pāhala, Hawaii",
+        "time": 1711270731040,
+        "updated": 1711270889160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74148342",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74148342.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "74148342",
+        "ids": ",hv74148342,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.04932,
+        "rms": 0.330000013,
+        "gap": 100,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km NNE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.451507568359,
+          19.2689990997314,
+          -0.800000011920929
+        ]
+      },
+      "id": "hv74148342"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.83,
         "place": "3 km E of Port Townsend, Washington",
         "time": 1711269195900,
-        "updated": 1711270454098,
+        "updated": 1711274399372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61991971",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61991971.geojson",
-        "felt": 8,
+        "felt": 10,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 125,
+        "sig": 126,
         "net": "uw",
         "code": "61991971",
         "ids": ",uw61991971,",
@@ -55,7 +95,7 @@
         "mag": 3.13,
         "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1711264017150,
-        "updated": 1711270490926,
+        "updated": 1711271346494,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74148282",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74148282.geojson",
@@ -1448,92 +1488,12 @@
         ]
       },
       "id": "pr2024083000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "45 km NNW of Beluga, Alaska",
-        "time": 1711186798233,
-        "updated": 1711192652040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243tf76ss",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243tf76ss.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "0243tf76ss",
-        "ids": ",us6000mkps,ak0243tf76ss,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 45 km NNW of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.3783,
-          61.5271,
-          66
-        ]
-      },
-      "id": "ak0243tf76ss"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "52 km NW of White Mountain, Alaska",
-        "time": 1711186760418,
-        "updated": 1711219116484,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243tf73wg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243tf73wg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "0243tf73wg",
-        "ids": ",us6000mkpt,ak0243tf73wg,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.6,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 52 km NW of White Mountain, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -164.1661,
-          65.025,
-          9.7
-        ]
-      },
-      "id": "ak0243tf73wg"
     }
   ],
   "bbox": [
-    -164.1661,
+    -155.45150756836,
     -28.9533,
-    1.26,
+    -0.80000001192093,
     154.7854,
     68.7877,
     196.594
