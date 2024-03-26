@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711425596000,
+    "generated": 1711429229000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 21
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "24 km ESE of Kelly, Wyoming",
+        "time": 1711424836130,
+        "updated": 1711425648040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m80m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m80m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000m80m",
+        "ids": ",us7000m80m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.201,
+        "rms": 0.52,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 24 km ESE of Kelly, Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3684,
+          43.5063,
+          8.581
+        ]
+      },
+      "id": "us7000m80m"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,12 +295,12 @@
         "mag": 4.6,
         "place": "60 km SSE of Bitung, Indonesia",
         "time": 1711388195770,
-        "updated": 1711389404040,
+        "updated": 1711427042178,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m7y7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m7y7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +310,7 @@
         "code": "7000m7y7",
         "ids": ",us7000m7y7,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 45,
         "dmin": 1.997,
         "rms": 0.72,
@@ -808,54 +848,14 @@
         ]
       },
       "id": "us6000ml19"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Fiji region",
-        "time": 1711340199391,
-        "updated": 1711342815040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ml10",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ml10.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000ml10",
-        "ids": ",us6000ml10,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 3.109,
-        "rms": 0.66,
-        "gap": 40,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.33,
-          -20.1184,
-          594.07
-        ]
-      },
-      "id": "us6000ml10"
     }
   ],
   "bbox": [
-    -178.33,
+    -155.48316666667,
     -58.8975,
     4.1137,
     179.514,
     61.1144,
-    594.07
+    569.319
   ]
 }
