@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711515627000,
+    "generated": 1711519173000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "80 km S of San Pedro de Atacama, Chile",
+        "time": 1711516107156,
+        "updated": 1711518464688,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m87t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m87t.geojson",
+        "felt": 2,
+        "cdi": 2.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 417,
+        "net": "us",
+        "code": "7000m87t",
+        "ids": ",us7000m87t,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.677,
+        "rms": 1.18,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 80 km S of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1248,
+          -23.6301,
+          146.743
+        ]
+      },
+      "id": "us7000m87t"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.9,
         "place": "37 km ENE of Lae, Papua New Guinea",
         "time": 1711513639892,
-        "updated": 1711515531210,
+        "updated": 1711515845128,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m87p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m87p.geojson",
-        "felt": 2,
-        "cdi": 4.1,
+        "felt": 3,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -48,6 +88,86 @@
         ]
       },
       "id": "us7000m87p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "201 km SSE of Shimoda, Japan",
+        "time": 1711512927521,
+        "updated": 1711515726040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m87m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m87m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000m87m",
+        "ids": ",us7000m87m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.18,
+        "rms": 0.78,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 201 km SSE of Shimoda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0272,
+          33.0962,
+          139.867
+        ]
+      },
+      "id": "us7000m87m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.51,
+        "place": "95 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1711512787880,
+        "updated": 1711515962134,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024087000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024087000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 190,
+        "net": "pr",
+        "code": "2024087000",
+        "ids": ",pr2024087000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.8544,
+        "rms": 0.41,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 95 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7981,
+          19.192,
+          28
+        ]
+      },
+      "id": "pr2024087000"
     },
     {
       "type": "Feature",
@@ -135,7 +255,7 @@
         "mag": 3.1,
         "place": "39 km NNW of Valdez, Alaska",
         "time": 1711510515390,
-        "updated": 1711511817124,
+        "updated": 1711516241040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243zxr11s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243zxr11s.geojson",
@@ -148,8 +268,8 @@
         "sig": 148,
         "net": "ak",
         "code": "0243zxr11s",
-        "ids": ",ak0243zxr11s,",
-        "sources": ",ak,",
+        "ids": ",ak0243zxr11s,us7000m879,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -255,11 +375,11 @@
         "mag": 5.7,
         "place": "178 km WSW of Port Orford, Oregon",
         "time": 1711509784179,
-        "updated": 1711514878801,
+        "updated": 1711518040605,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m875",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m875.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 2.2,
         "mmi": 3.43,
         "alert": "green",
