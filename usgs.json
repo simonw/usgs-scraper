@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711659626000,
+    "generated": 1711663178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 20
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "35 km NNW of Toyah, Texas",
+        "time": 1711659280536,
+        "updated": 1711660926586,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024geoe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024geoe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2024geoe",
+        "ids": ",tx2024geoe,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 35 km NNW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.962,
+          31.604,
+          9.74
+        ]
+      },
+      "id": "tx2024geoe"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.2,
         "place": "93 km SW of Lanai City, Hawaii",
         "time": 1711655799247,
-        "updated": 1711659165192,
+        "updated": 1711661257210,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m8mh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m8mh.geojson",
@@ -28,8 +68,8 @@
         "sig": 158,
         "net": "us",
         "code": "7000m8mh",
-        "ids": ",us7000m8mh,",
-        "sources": ",us,",
+        "ids": ",us7000m8mh,hv74152902,",
+        "sources": ",us,hv,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 1.131,
@@ -768,86 +808,6 @@
         ]
       },
       "id": "us7000m8f0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "12 km W of Mayagüez, Puerto Rico",
-        "time": 1711576533130,
-        "updated": 1711577763550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71443988",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71443988.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71443988",
-        "ids": ",pr71443988,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1173,
-        "rms": 0.16,
-        "gap": 173,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km W of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2596666666667,
-          18.192,
-          22.04
-        ]
-      },
-      "id": "pr71443988"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "7 km S of Preone, Italy",
-        "time": 1711574377332,
-        "updated": 1711658320292,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m8em",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m8em.geojson",
-        "felt": 56,
-        "cdi": 4.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 323,
-        "net": "us",
-        "code": "7000m8em",
-        "ids": ",us7000m8em,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.305,
-        "rms": 0.91,
-        "gap": 34,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 7 km S of Preone, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.8834,
-          46.332,
-          6.935
-        ]
-      },
-      "id": "us7000m8em"
     }
   ],
   "bbox": [
