@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711961990000,
+    "generated": 1711965593000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.7,
         "place": "37 km SE of Mina, Nevada",
         "time": 1711961218873,
-        "updated": 1711961351131,
+        "updated": 1711962398304,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00875640",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00875640.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 112,
         "net": "nn",
         "code": "00875640",
-        "ids": ",nc74027256,nn00875640,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nn00875640,nc74027256,",
+        "sources": ",nn,nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
         "nst": 31,
         "dmin": 0.126,
         "rms": 0.2557,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nn00875640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "228 km ENE of Levuka, Fiji",
+        "time": 1711960384634,
+        "updated": 1711965068040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m968",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m968.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000m968",
+        "ids": ",us7000m968,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 4.757,
+        "rms": 0.54,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 228 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5831,
+          -17.6208,
+          566.117
+        ]
+      },
+      "id": "us7000m968"
     },
     {
       "type": "Feature",
@@ -135,17 +175,17 @@
         "mag": 3.8,
         "place": "66 km SW of Nanwalek, Alaska",
         "time": 1711955900152,
-        "updated": 1711958818237,
+        "updated": 1711965519277,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024489pv3m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024489pv3m.geojson",
-        "felt": 19,
+        "felt": 21,
         "cdi": 3.8,
         "mmi": 3.123,
         "alert": null,
         "status": "automatic",
         "tsunami": 1,
-        "sig": 229,
+        "sig": 230,
         "net": "ak",
         "code": "024489pv3m",
         "ids": ",ak024489pv3m,at00sb95mk,us7000m95w,",
@@ -615,11 +655,11 @@
         "mag": 3.47,
         "place": "6 km N of Lake Henshaw, CA",
         "time": 1711926752180,
-        "updated": 1711955444395,
+        "updated": 1711962590409,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40702696",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40702696.geojson",
-        "felt": 638,
+        "felt": 639,
         "cdi": 3.8,
         "mmi": 3.37,
         "alert": null,
@@ -1528,86 +1568,6 @@
         ]
       },
       "id": "ak02446nxxgx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "10 km NE of Lima, Montana",
-        "time": 1711876974610,
-        "updated": 1711892115060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90044523",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90044523.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "mb",
-        "code": "90044523",
-        "ids": ",mb90044523,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1325,
-        "rms": 0.17,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km NE of Lima, Montana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.514666666667,
-          44.7123333333333,
-          7.75
-        ]
-      },
-      "id": "mb90044523"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "3 km WSW of Indios, Puerto Rico",
-        "time": 1711875651250,
-        "updated": 1711880587540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71444363",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71444363.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "pr",
-        "code": "71444363",
-        "ids": ",pr71444363,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.02945,
-        "rms": 0.14,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 3 km WSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8483333333333,
-          17.9761666666667,
-          16.21
-        ]
-      },
-      "id": "pr71444363"
     }
   ],
   "bbox": [
