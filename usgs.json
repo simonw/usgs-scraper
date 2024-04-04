@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712213986000,
+    "generated": 1712217613000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "56 km SW of Puerto El Triunfo, El Salvador",
+        "time": 1712216285254,
+        "updated": 1712217237040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9u3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m9u3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000m9u3",
+        "ids": ",us7000m9u3,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 137,
+        "dmin": 0.796,
+        "rms": 0.81,
+        "gap": 119,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 56 km SW of Puerto El Triunfo, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8859,
+          12.8883,
+          56.143
+        ]
+      },
+      "id": "us7000m9u3"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.98,
         "place": "7 km NW of The Geysers, CA",
         "time": 1712213449490,
-        "updated": 1712213703457,
+        "updated": 1712215839200,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74028971",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74028971.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 4.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 137,
         "net": "nc",
         "code": "74028971",
-        "ids": ",nc74028971,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc74028971,us7000m9tw,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 59,
         "dmin": 0.006543,
         "rms": 0.12,
@@ -95,12 +135,12 @@
         "mag": 3.4,
         "place": "56 km ENE of Ouzinkie, Alaska",
         "time": 1712212045191,
-        "updated": 1712213132527,
+        "updated": 1712215655048,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0244d7seta",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0244d7seta.geojson",
-        "felt": 6,
-        "cdi": 3.4,
+        "felt": 7,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -108,8 +148,8 @@
         "sig": 180,
         "net": "ak",
         "code": "0244d7seta",
-        "ids": ",ak0244d7seta,",
-        "sources": ",ak,",
+        "ids": ",ak0244d7seta,us7000m9tq,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -2048,94 +2088,14 @@
         ]
       },
       "id": "us7000m9kb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "58 km SSW of Sola, Vanuatu",
-        "time": 1712130758170,
-        "updated": 1712131701040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9k6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m9k6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000m9k6",
-        "ids": ",us7000m9k6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 78,
-        "dmin": 6.814,
-        "rms": 0.78,
-        "gap": 49,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 58 km SSW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.2623,
-          -14.3213,
-          212.62
-        ]
-      },
-      "id": "us7000m9k6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "18 km WSW of Doğanşehir, Turkey",
-        "time": 1712130494387,
-        "updated": 1712174643040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9k4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m9k4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000m9k4",
-        "ids": ",us7000m9k4,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.575,
-        "rms": 0.81,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 18 km WSW of Doğanşehir, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          37.675,
-          38.0154,
-          1.272
-        ]
-      },
-      "id": "us7000m9k4"
     }
   ],
   "bbox": [
     -178.2496,
     -36.9623,
-    1.272,
+    1.781601191,
     167.7135,
     58.2706,
-    212.62
+    171.558
   ]
 }
