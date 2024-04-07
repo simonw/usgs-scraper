@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712527191000,
+    "generated": 1712530830000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "164 km NE of Lospalos, Timor Leste",
+        "time": 1712528397660,
+        "updated": 1712529522040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000map3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000map3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000map3",
+        "ids": ",us7000map3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 3.467,
+        "rms": 0.95,
+        "gap": 77,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 164 km NE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0922,
+          -7.504,
+          143.804
+        ]
+      },
+      "id": "us7000map3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 5.1,
         "place": "92 km SSE of Angoram, Papua New Guinea",
         "time": 1712521865606,
-        "updated": 1712523395040,
+        "updated": 1712530416088,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000manr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000manr.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "7000manr",
         "ids": ",us7000manr,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 60,
         "dmin": 4.336,
         "rms": 0.95,
@@ -1608,86 +1648,6 @@
         ]
       },
       "id": "nc74030511"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "142 km SE of Akutan, Alaska",
-        "time": 1712444427369,
-        "updated": 1712449009276,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000maic",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000maic.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 200,
-        "net": "us",
-        "code": "7000maic",
-        "ids": ",us7000maic,ak0244gstp4z,",
-        "sources": ",us,ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 56,
-        "dmin": 1.229,
-        "rms": 0.8,
-        "gap": 217,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.6 - 142 km SE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -164.1961,
-          53.2672,
-          11.181
-        ]
-      },
-      "id": "us7000maic"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "101 km NW of Houma, Tonga",
-        "time": 1712443634375,
-        "updated": 1712444641040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mai6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mai6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000mai6",
-        "ids": ",us7000mai6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.978,
-        "rms": 0.64,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 101 km NW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.9934,
-          -20.5248,
-          240.552
-        ]
-      },
-      "id": "us7000mai6"
     }
   ],
   "bbox": [
