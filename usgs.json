@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712692832000,
+    "generated": 1712696372000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1712689686394,
+        "updated": 1712693992040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mb1x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mb1x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000mb1x",
+        "ids": ",us7000mb1x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 3.911,
+        "rms": 0.55,
+        "gap": 131,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.2203,
+          -25.3694,
+          138.773
+        ]
+      },
+      "id": "us7000mb1x"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -928,51 +968,11 @@
         ]
       },
       "id": "us7000mavc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "137 km ESE of Hihifo, Tonga",
-        "time": 1712609879535,
-        "updated": 1712611509692,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mav6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mav6.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000mav6",
-        "ids": ",us7000mav6,pt24099050,",
-        "sources": ",us,pt,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 52,
-        "dmin": 2.678,
-        "rms": 1.4,
-        "gap": 52,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 137 km ESE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.6259,
-          -16.4748,
-          10
-        ]
-      },
-      "id": "us7000mav6"
     }
   ],
   "bbox": [
-    -172.6259,
-    -22.2971,
+    -177.2203,
+    -25.3694,
     5.5103,
     179.5116,
     56.7904,
