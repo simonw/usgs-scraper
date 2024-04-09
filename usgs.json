@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712625684000,
+    "generated": 1712628412000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 25
   },
   "features": [
     {
@@ -95,7 +95,7 @@
         "mag": 6,
         "place": "35 km ESE of Ransiki, Indonesia",
         "time": 1712620972749,
-        "updated": 1712623842789,
+        "updated": 1712628347629,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000maw0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000maw0.geojson",
@@ -110,7 +110,7 @@
         "code": "7000maw0",
         "ids": ",us7000maw0,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 72,
         "dmin": 2.51,
         "rms": 0.69,
@@ -132,15 +132,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "20 km NNE of Hualien City, Taiwan",
+        "time": 1712618774724,
+        "updated": 1712627401040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mavz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mavz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000mavz",
+        "ids": ",us7000mavz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.59,
+        "rms": 0.53,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 20 km NNE of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6869,
+          24.15,
+          35.116
+        ]
+      },
+      "id": "us7000mavz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "12 km ESE of Hualien City, Taiwan",
         "time": 1712614446575,
-        "updated": 1712617898040,
+        "updated": 1712626493685,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mavj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mavj.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "7000mavj",
         "ids": ",us7000mavj,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 45,
         "dmin": 0.679,
         "rms": 0.63,
@@ -968,132 +1008,12 @@
         ]
       },
       "id": "us7000maq4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "11 km SSW of Avzikent, Tajikistan",
-        "time": 1712540779955,
-        "updated": 1712541554040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mapr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mapr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000mapr",
-        "ids": ",us7000mapr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 2.642,
-        "rms": 0.74,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 11 km SSW of Avzikent, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          69.2089,
-          37.7197,
-          50.542
-        ]
-      },
-      "id": "us7000mapr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "5 km NW of Belden, CA",
-        "time": 1712539580050,
-        "updated": 1712553638338,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74031041",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74031041.geojson",
-        "felt": 3,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "74031041",
-        "ids": ",nc74031041,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.3701,
-        "rms": 0.22,
-        "gap": 66,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 5 km NW of Belden, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.2963333,
-          40.0398331,
-          -0.86
-        ]
-      },
-      "id": "nc74031041"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "7 km NNE of Nichinan, Japan",
-        "time": 1712539529828,
-        "updated": 1712562111052,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mapp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mapp.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 401,
-        "net": "us",
-        "code": "7000mapp",
-        "ids": ",us7000mapp,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 69,
-        "dmin": 0.82,
-        "rms": 0.93,
-        "gap": 92,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 7 km NNE of Nichinan, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.3966,
-          31.6626,
-          46.094
-        ]
-      },
-      "id": "us7000mapp"
     }
   ],
   "bbox": [
     -179.7716,
     -30.9249,
-    -0.86,
+    2.59,
     141.4952,
     57.5083,
     557.904
