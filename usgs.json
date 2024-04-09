@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712631624000,
+    "generated": 1712635232000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.08,
         "place": "5 km NNW of Delta, B.C., MX",
         "time": 1712629587000,
-        "updated": 1712630203040,
+        "updated": 1712633119276,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40708192",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40708192.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "40708192",
         "ids": ",ci40708192,us7000mawp,",
         "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 36,
         "dmin": 0.08058,
         "rms": 0.34,
@@ -1008,51 +1008,11 @@
         ]
       },
       "id": "us7000maqe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1712545816096,
-        "updated": 1712547006040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000maq4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000maq4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000maq4",
-        "ids": ",us7000maq4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.723,
-        "rms": 0.73,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.4626,
-          -30.9249,
-          91.262
-        ]
-      },
-      "id": "us7000maq4"
     }
   ],
   "bbox": [
     -179.7716,
-    -30.9249,
+    -23.3957,
     2.59,
     141.4952,
     57.5083,
