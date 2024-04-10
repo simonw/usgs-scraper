@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712721633000,
+    "generated": 1712725252000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us7000mb4t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "45 km ENE of Khorugh, Tajikistan",
+        "time": 1712717675838,
+        "updated": 1712722407040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mb4s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mb4s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000mb4s",
+        "ids": ",us7000mb4s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.862,
+        "rms": 0.67,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 45 km ENE of Khorugh, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.0401,
+          37.6221,
+          138.458
+        ]
+      },
+      "id": "us7000mb4s"
     },
     {
       "type": "Feature",
@@ -95,12 +135,12 @@
         "mag": 4.9,
         "place": "84 km SSW of Unalaska, Alaska",
         "time": 1712714114338,
-        "updated": 1712719342212,
+        "updated": 1712722476347,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mb3x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mb3x.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": 2.978,
         "alert": null,
         "status": "reviewed",
@@ -108,9 +148,9 @@
         "sig": 369,
         "net": "us",
         "code": "7000mb3x",
-        "ids": ",ak0244n27b1r,us7000mb3x,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",us7000mb3x,ak0244n27b1r,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 56,
         "dmin": 0.652,
         "rms": 0.65,
@@ -1048,86 +1088,6 @@
         ]
       },
       "id": "us7000max0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "76 km NE of Chignik, Alaska",
-        "time": 1712638441803,
-        "updated": 1712716254040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0244lgg0lw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0244lgg0lw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0244lgg0lw",
-        "ids": ",us7000mawx,ak0244lgg0lw,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.4,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 76 km NE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.5512,
-          56.7904,
-          83.9
-        ]
-      },
-      "id": "ak0244lgg0lw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "84 km NE of Kuqa, China",
-        "time": 1712635821726,
-        "updated": 1712713248040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mawu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mawu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000mawu",
-        "ids": ",us7000mawu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 3.217,
-        "rms": 0.56,
-        "gap": 163,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 84 km NE of Kuqa, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          83.6192,
-          42.2813,
-          10
-        ]
-      },
-      "id": "us7000mawu"
     }
   ],
   "bbox": [
@@ -1135,7 +1095,7 @@
     -29.6359,
     2.62,
     179.5116,
-    56.7904,
+    54.1969,
     572.458
   ]
 }
