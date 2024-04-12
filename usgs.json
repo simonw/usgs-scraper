@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712884895000,
+    "generated": 1712887655000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 20
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "28 km NW of Beluga, Alaska",
+        "time": 1712885437360,
+        "updated": 1712885955040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0244qd4otp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0244qd4otp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0244qd4otp",
+        "ids": ",us7000mbk4,ak0244qd4otp,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.41,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 28 km NW of Beluga, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4379,
+          61.3334,
+          95.8
+        ]
+      },
+      "id": "ak0244qd4otp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "5 km SSE of G. L. Garcia, Puerto Rico",
+        "time": 1712885185670,
+        "updated": 1712886035220,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71445393",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71445393.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71445393",
+        "ids": ",pr71445393,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.0741,
+        "rms": 0.27,
+        "gap": 119,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SSE of G. L. Garcia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0761666666667,
+          18.0853333333333,
+          51.9
+        ]
+      },
+      "id": "pr71445393"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
         "place": "10 km WNW of Manukan, Philippines",
         "time": 1712880144810,
-        "updated": 1712881971040,
+        "updated": 1712887004885,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mbjv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mbjv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "7000mbjv",
         "ids": ",us7000mbjv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 32,
         "dmin": 2.945,
         "rms": 1.06,
