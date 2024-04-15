@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713182389000,
+    "generated": 1713185980000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.82,
         "place": "15 km ENE of Pāhala, Hawaii",
         "time": 1713180442390,
-        "updated": 1713180600430,
+        "updated": 1713185287040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74172192",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74172192.geojson",
@@ -28,8 +28,8 @@
         "sig": 122,
         "net": "hv",
         "code": "74172192",
-        "ids": ",hv74172192,",
-        "sources": ",hv,",
+        "ids": ",us7000mc65,hv74172192,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 50,
         "dmin": 0.08152,
@@ -55,7 +55,7 @@
         "mag": 5.4,
         "place": "106 km SSW of Kokopo, Papua New Guinea",
         "time": 1713177807085,
-        "updated": 1713179019126,
+        "updated": 1713185263694,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mc5q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mc5q.geojson",
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us7000mc5q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "49 km SSE of Sand Point, Alaska",
+        "time": 1713173563114,
+        "updated": 1713184358040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mc5l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mc5l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.94,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "7000mc5l",
+        "ids": ",us7000mc5l,ak0244vgin01,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 45,
+        "dmin": 0.456,
+        "rms": 0.59,
+        "gap": 187,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 49 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.3393,
+          54.9009,
+          39.817
+        ]
+      },
+      "id": "us7000mc5l"
     },
     {
       "type": "Feature",
@@ -808,54 +848,14 @@
         ]
       },
       "id": "ak0244tv7mir"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "28 km E of Primo Tapia, B.C., MX",
-        "time": 1713096836400,
-        "updated": 1713097251231,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40712680",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40712680.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ci",
-        "code": "40712680",
-        "ids": ",ci40712680,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.1067,
-        "rms": 0.23,
-        "gap": 101,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 28 km E of Primo Tapia, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6211667,
-          32.2123333,
-          3.8
-        ]
-      },
-      "id": "ci40712680"
     }
   ],
   "bbox": [
-    -155.49983215332,
+    -160.3393,
     -5.8184,
     -0.49000000953674,
     178.826,
-    51.4415,
+    54.9009,
     80.996
   ]
 }
