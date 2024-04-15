@@ -1,66 +1,26 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713164380000,
+    "generated": 1713167980000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 20
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "66 km NNE of Van Horn, Texas",
-        "time": 1713151652807,
-        "updated": 1713152357581,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024hkcr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024hkcr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2024hkcr",
-        "ids": ",tx2024hkcr,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 159,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 66 km NNE of Van Horn, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.541,
-          31.585,
-          3.109
-        ]
-      },
-      "id": "tx2024hkcr"
-    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "62 km S of Whites City, New Mexico",
         "time": 1713144227389,
-        "updated": 1713151852189,
+        "updated": 1713166416439,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024hjyp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024hjyp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": 3.885,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +28,9 @@
         "sig": 168,
         "net": "tx",
         "code": "2024hjyp",
-        "ids": ",us7000mc4a,tx2024hjyp,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",tx2024hjyp,us7000mc4a,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 37,
         "dmin": 0.1,
         "rms": 0.2,
@@ -848,46 +808,6 @@
         ]
       },
       "id": "us7000mc0u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "2 km NNE of Bacoli, Italy",
-        "time": 1713080663906,
-        "updated": 1713131846747,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mc0m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mc0m.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "us",
-        "code": "7000mc0m",
-        "ids": ",us7000mc0m,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.199,
-        "rms": 0.55,
-        "gap": 130,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 2 km NNE of Bacoli, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.0847,
-          40.8193,
-          10.498
-        ]
-      },
-      "id": "us7000mc0m"
     }
   ],
   "bbox": [
