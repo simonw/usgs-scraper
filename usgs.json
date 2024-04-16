@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713230500000,
+    "generated": 1713233200000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 5.9,
         "place": "143 km SE of Koshima, Japan",
         "time": 1713220737094,
-        "updated": 1713228365064,
+        "updated": 1713232781792,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcb1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcb1.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 3.599,
         "alert": "green",
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000mcb1",
         "ids": ",us7000mcb1,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 77,
         "dmin": 2.314,
         "rms": 0.72,
@@ -1008,46 +1008,6 @@
         ]
       },
       "id": "us7000mc4t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "62 km S of Whites City, New Mexico",
-        "time": 1713144227389,
-        "updated": 1713166416439,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024hjyp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024hjyp.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": 3.885,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "tx",
-        "code": "2024hjyp",
-        "ids": ",tx2024hjyp,us7000mc4a,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 37,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 62 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.485,
-          31.619,
-          3.9722
-        ]
-      },
-      "id": "tx2024hjyp"
     }
   ],
   "bbox": [
