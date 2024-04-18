@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713409180000,
+    "generated": 1713412821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.8,
         "place": "82 km ESE of Yakutat, Alaska",
         "time": 1713408864967,
-        "updated": 1713409003523,
+        "updated": 1713409416040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02450b3bmo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02450b3bmo.geojson",
@@ -28,8 +28,8 @@
         "sig": 121,
         "net": "ak",
         "code": "02450b3bmo",
-        "ids": ",ak02450b3bmo,",
-        "sources": ",ak,",
+        "ids": ",us7000mct0,ak02450b3bmo,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -255,17 +255,17 @@
         "mag": 4.9,
         "place": "203 km WSW of Port McNeill, Canada",
         "time": 1713390375380,
-        "updated": 1713396697277,
+        "updated": 1713409729629,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcrx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcrx.geojson",
-        "felt": 2,
-        "cdi": 2,
+        "felt": 4,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 370,
+        "sig": 371,
         "net": "us",
         "code": "7000mcrx",
         "ids": ",us7000mcrx,at00sc3wh5,",
@@ -415,17 +415,17 @@
         "mag": 2.77,
         "place": "5 km W of Dell, Arkansas",
         "time": 1713386586770,
-        "updated": 1713406774712,
+        "updated": 1713411342430,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60577851",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60577851.geojson",
-        "felt": 29,
-        "cdi": 3.8,
+        "felt": 31,
+        "cdi": 4.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 131,
         "net": "nm",
         "code": "60577851",
         "ids": ",nm60577851,us7000mcrj,",
@@ -892,6 +892,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.77,
+        "place": "60 km WSW of Adak, Alaska",
+        "time": 1713350643250,
+        "updated": 1713411846260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93092721",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av93092721.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "av",
+        "code": "93092721",
+        "ids": ",av93092721,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1527,
+        "rms": 0.19,
+        "gap": 191,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 60 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.479,
+          51.7426666666667,
+          9.23
+        ]
+      },
+      "id": "av93092721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "59 km WSW of Adak, Alaska",
+        "time": 1713350442410,
+        "updated": 1713411545400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93092711",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av93092711.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "av",
+        "code": "93092711",
+        "ids": ",av93092711,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.145,
+        "rms": 0.27,
+        "gap": 193,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 59 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.465333333333,
+          51.738,
+          8.95
+        ]
+      },
+      "id": "av93092711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "16 km SE of Hualien City, Taiwan",
         "time": 1713345430725,
@@ -1128,46 +1208,6 @@
         ]
       },
       "id": "us7000mcld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "57 km S of Bintuni, Indonesia",
-        "time": 1713326160194,
-        "updated": 1713328282040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcl5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcl5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000mcl5",
-        "ids": ",us7000mcl5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.217,
-        "rms": 0.9,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 57 km S of Bintuni, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          133.4312,
-          -2.6229,
-          85.071
-        ]
-      },
-      "id": "us7000mcl5"
     }
   ],
   "bbox": [
