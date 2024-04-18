@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713434381000,
+    "generated": 1713438021000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 28
   },
   "features": [
     {
@@ -95,7 +95,7 @@
         "mag": 5.4,
         "place": "Volcano Islands, Japan region",
         "time": 1713432556097,
-        "updated": 1713433994668,
+        "updated": 1713434749040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcul",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcul.geojson",
@@ -110,7 +110,7 @@
         "code": "7000mcul",
         "ids": ",us7000mcul,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 97,
         "dmin": 4.42,
         "rms": 0.79,
@@ -375,12 +375,12 @@
         "mag": 4.1,
         "place": "10 km WNW of Sulusaray, Turkey",
         "time": 1713396947717,
-        "updated": 1713397800040,
+        "updated": 1713436711756,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcsk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +390,7 @@
         "code": "7000mcsk",
         "ids": ",us7000mcsk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 52,
         "dmin": 0.503,
         "rms": 0.73,
@@ -1128,86 +1128,6 @@
         ]
       },
       "id": "pr71445778"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "60 km WSW of Adak, Alaska",
-        "time": 1713350643250,
-        "updated": 1713411846260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93092721",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av93092721.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "av",
-        "code": "93092721",
-        "ids": ",av93092721,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1527,
-        "rms": 0.19,
-        "gap": 191,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 60 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.479,
-          51.7426666666667,
-          9.23
-        ]
-      },
-      "id": "av93092721"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "59 km WSW of Adak, Alaska",
-        "time": 1713350442410,
-        "updated": 1713411545400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93092711",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av93092711.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "av",
-        "code": "93092711",
-        "ids": ",av93092711,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.145,
-        "rms": 0.27,
-        "gap": 193,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 59 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.465333333333,
-          51.738,
-          8.95
-        ]
-      },
-      "id": "av93092711"
     }
   ],
   "bbox": [
