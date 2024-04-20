@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713599988000,
+    "generated": 1713603628000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.9,
+        "place": "30 km SE of Mina, Nevada",
+        "time": 1713602247341,
+        "updated": 1713602509623,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00876556",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00876556.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "nn",
+        "code": "00876556",
+        "ids": ",nn00876556,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.088,
+        "rms": 0.2282,
+        "gap": 90.3,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 30 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8733,
+          38.1929,
+          12.5
+        ]
+      },
+      "id": "nn00876556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.2,
         "place": "11 km WSW of Anchor Point, Alaska",
         "time": 1713598796689,
-        "updated": 1713599510401,
+        "updated": 1713601293231,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02453p21ci",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02453p21ci.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 159,
         "net": "ak",
         "code": "02453p21ci",
         "ids": ",ak02453p21ci,us7000mdfi,",
@@ -1568,52 +1608,12 @@
         ]
       },
       "id": "us7000md3k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "10 km ENE of Néon Karlovásion, Greece",
-        "time": 1713513740381,
-        "updated": 1713542922758,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000md39",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000md39.geojson",
-        "felt": 1,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "7000md39",
-        "ids": ",us7000md39,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.873,
-        "rms": 0.64,
-        "gap": 38,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 10 km ENE of Néon Karlovásion, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.8022,
-          37.8421,
-          3.234
-        ]
-      },
-      "id": "us7000md39"
     }
   ],
   "bbox": [
     -177.5495,
     -21.8863,
-    3.234,
+    3.426,
     170.841,
     82.9608,
     489.214
