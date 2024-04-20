@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713592848000,
+    "generated": 1713596388000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "69 km ENE of Loreto, Mexico",
+        "time": 1713589574989,
+        "updated": 1713594813996,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mdev",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mdev.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000mdev",
+        "ids": ",us7000mdev,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 68,
+        "dmin": 1.736,
+        "rms": 0.63,
+        "gap": 184,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 69 km ENE of Loreto, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7086,
+          26.2484,
+          10
+        ]
+      },
+      "id": "us7000mdev"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.83,
         "place": "4 km S of Richland, Washington",
         "time": 1713586737970,
-        "updated": 1713592661788,
+        "updated": 1713596087269,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61998221",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61998221.geojson",
-        "felt": 307,
+        "felt": 318,
         "cdi": 3.1,
         "mmi": 3.24,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 218,
+        "sig": 222,
         "net": "uw",
         "code": "61998221",
         "ids": ",uw61998221,us7000mdec,",
@@ -852,10 +892,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.61,
+        "place": "59 km WSW of Adak, Alaska",
+        "time": 1713543614880,
+        "updated": 1713595552860,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93096016",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av93096016.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "av",
+        "code": "93096016",
+        "ids": ",av93096016,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1468,
+        "rms": 0.16,
+        "gap": 200,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 59 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.463166666667,
+          51.7235,
+          11.98
+        ]
+      },
+      "id": "av93096016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.6,
         "place": "58 km WSW of Adak, Alaska",
         "time": 1713542725822,
-        "updated": 1713560215181,
+        "updated": 1713594744730,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024526o8ku",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024526o8ku.geojson",
@@ -868,8 +948,8 @@
         "sig": 199,
         "net": "ak",
         "code": "024526o8ku",
-        "ids": ",ak024526o8ku,",
-        "sources": ",ak,",
+        "ids": ",av93095991,ak024526o8ku,",
+        "sources": ",av,ak,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
@@ -1568,46 +1648,6 @@
         ]
       },
       "id": "ak024521g2jy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "6 km NNW of Manado, Indonesia",
-        "time": 1713506524943,
-        "updated": 1713514981040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000md30",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000md30.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000md30",
-        "ids": ",us7000md30,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.651,
-        "rms": 0.87,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 6 km NNW of Manado, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.8261,
-          1.5346,
-          210.351
-        ]
-      },
-      "id": "us7000md30"
     }
   ],
   "bbox": [
