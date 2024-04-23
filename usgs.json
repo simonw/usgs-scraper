@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713895184000,
+    "generated": 1713898800000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 58
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "26 km S of Hualien City, Taiwan",
+        "time": 1713892334997,
+        "updated": 1713896154040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mt8y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mt8y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000mt8y",
+        "ids": ",us6000mt8y,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.436,
+        "rms": 0.66,
+        "gap": 88,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.0 - 26 km S of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5936,
+          23.735,
+          7.881
+        ]
+      },
+      "id": "us6000mt8y"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 2.6,
         "place": "2 km ESE of Falls City, Texas",
         "time": 1713888486746,
-        "updated": 1713890571520,
+        "updated": 1713896685040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024hzrt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024hzrt.geojson",
@@ -108,8 +148,8 @@
         "sig": 104,
         "net": "tx",
         "code": "2024hzrt",
-        "ids": ",tx2024hzrt,",
-        "sources": ",tx,",
+        "ids": ",tx2024hzrt,us6000mt7m,",
+        "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0,
@@ -375,12 +415,12 @@
         "mag": 2.7,
         "place": "10 km SW of Point MacKenzie, Alaska",
         "time": 1713879270674,
-        "updated": 1713893077040,
+        "updated": 1713897156169,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02458r7jsl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02458r7jsl.geojson",
-        "felt": 5,
-        "cdi": 2.7,
+        "felt": 6,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -2288,134 +2328,14 @@
         ]
       },
       "id": "us6000mt10"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Fiji region",
-        "time": 1713811418916,
-        "updated": 1713812336040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mt0x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mt0x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000mt0x",
-        "ids": ",us6000mt0x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 2.967,
-        "rms": 0.87,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.3553,
-          -20.8039,
-          557.999
-        ]
-      },
-      "id": "us6000mt0x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "13 km SSW of Hualien City, Taiwan",
-        "time": 1713810768597,
-        "updated": 1713888815741,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mt0s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mt0s.geojson",
-        "felt": 66,
-        "cdi": 7.4,
-        "mmi": 7.715,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 699,
-        "net": "us",
-        "code": "6000mt0s",
-        "ids": ",us6000mt0s,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 121,
-        "dmin": 0.522,
-        "rms": 0.84,
-        "gap": 22,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 13 km SSW of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.5385,
-          23.8672,
-          10
-        ]
-      },
-      "id": "us6000mt0s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "28 km S of Hualien City, Taiwan",
-        "time": 1713810413286,
-        "updated": 1713876761358,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mt0r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mt0r.geojson",
-        "felt": 65,
-        "cdi": 7.3,
-        "mmi": 6.923,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 620,
-        "net": "us",
-        "code": "6000mt0r",
-        "ids": ",us6000mt0r,pt24113001,at00sccwl0,",
-        "sources": ",us,pt,at,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 98,
-        "dmin": 0.456,
-        "rms": 0.78,
-        "gap": 51,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - 28 km S of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.6406,
-          23.7241,
-          10.727
-        ]
-      },
-      "id": "us6000mt0r"
     }
   ],
   "bbox": [
-    -178.3553,
+    -150.1011,
     -39.1397,
     4.716,
     176.4184,
     62.3959,
-    557.999
+    400.274
   ]
 }
