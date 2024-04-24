@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713952806000,
+    "generated": 1713956406000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.7,
         "place": "34 km SE of Puente Alto, Chile",
         "time": 1713951190292,
-        "updated": 1713952320040,
+        "updated": 1713956267850,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mtff",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mtff.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000mtff",
         "ids": ",us6000mtff,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 65,
         "dmin": 0.048,
         "rms": 0.64,
@@ -1688,86 +1688,6 @@
         ]
       },
       "id": "us6000mt6i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.37,
-        "place": "44 km SE of Boca de Yuma, Dominican Republic",
-        "time": 1713869503860,
-        "updated": 1713871274320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71446263",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71446263.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 175,
-        "net": "pr",
-        "code": "71446263",
-        "ids": ",pr71446263,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.4312,
-        "rms": 0.21,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 44 km SE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3243333333333,
-          18.0843333333333,
-          48.7
-        ]
-      },
-      "id": "pr71446263"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "10 km ENE of Hebgen Lake Estates, Montana",
-        "time": 1713867312800,
-        "updated": 1713881242040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80067111",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80067111.geojson",
-        "felt": 2,
-        "cdi": 2.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "uu",
-        "code": "80067111",
-        "ids": ",uu80067111,us6000mt60,",
-        "sources": ",uu,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.03147,
-        "rms": 0.11,
-        "gap": 111,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km ENE of Hebgen Lake Estates, Montana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.062333333333,
-          44.795,
-          7.83
-        ]
-      },
-      "id": "uu80067111"
     }
   ],
   "bbox": [
