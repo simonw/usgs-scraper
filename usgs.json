@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714503627000,
+    "generated": 1714507200000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 39
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 5.1,
         "place": "134 km ENE of Crane, Barbados",
         "time": 1714499470786,
-        "updated": 1714503317040,
+        "updated": 1714505023791,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mva0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mva0.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000mva0",
         "ids": ",us6000mva0,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 139,
         "dmin": 1.282,
         "rms": 0.67,
@@ -654,8 +654,8 @@
       "properties": {
         "mag": 3.1,
         "place": "32 km WSW of Ackerly, Texas",
-        "time": 1714468054779,
-        "updated": 1714470286636,
+        "time": 1714468054990,
+        "updated": 1714505165259,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ilyl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ilyl.geojson",
@@ -671,10 +671,10 @@
         "ids": ",us6000mv5b,tx2024ilyl,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 12,
+        "nst": 17,
         "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 121,
+        "rms": 0.2,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.1 - 32 km WSW of Ackerly, Texas"
@@ -682,9 +682,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.036,
-          32.416,
-          10.7178
+          -102.031,
+          32.411,
+          8.1299
         ]
       },
       "id": "tx2024ilyl"
@@ -732,10 +732,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "32 km WSW of Ackerly, Texas",
-        "time": 1714464965215,
-        "updated": 1714467972358,
+        "mag": 3.4,
+        "place": "33 km WSW of Ackerly, Texas",
+        "time": 1714464965241,
+        "updated": 1714504877205,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ilwt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ilwt.geojson",
@@ -745,26 +745,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 178,
         "net": "tx",
         "code": "2024ilwt",
         "ids": ",us6000mv4z,tx2024ilwt,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 16,
+        "nst": 24,
         "dmin": 0.1,
         "rms": 0.1,
-        "gap": 119,
+        "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 32 km WSW of Ackerly, Texas"
+        "title": "M 3.4 - 33 km WSW of Ackerly, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.038,
+          -102.04,
           32.411,
-          9.9365
+          8.2764
         ]
       },
       "id": "tx2024ilwt"
@@ -1568,126 +1568,6 @@
         ]
       },
       "id": "uu80067871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "8 km SW of Volcano, Hawaii",
-        "time": 1714418638010,
-        "updated": 1714421827790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74197097",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74197097.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "hv",
-        "code": "74197097",
-        "ids": ",us6000mv0w,hv74197097,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.004086,
-        "rms": 0.11,
-        "gap": 51,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.279,
-          19.3833333333333,
-          1.68
-        ]
-      },
-      "id": "hv74197097"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "82 km ESE of Katsuren-haebaru, Japan",
-        "time": 1714418629649,
-        "updated": 1714427905776,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mv0x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mv0x.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000mv0x",
-        "ids": ",us6000mv0x,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.881,
-        "rms": 0.71,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 82 km ESE of Katsuren-haebaru, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.6167,
-          26.0079,
-          10
-        ]
-      },
-      "id": "us6000mv0x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "90 km NW of Pathein, Myanmar",
-        "time": 1714417708552,
-        "updated": 1714418973040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mv0v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mv0v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000mv0v",
-        "ids": ",us6000mv0v,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 4.588,
-        "rms": 1,
-        "gap": 166,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 90 km NW of Pathein, Myanmar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          94.2399,
-          17.4454,
-          10
-        ]
-      },
-      "id": "us6000mv0v"
     }
   ],
   "bbox": [
