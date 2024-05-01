@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714564834000,
+    "generated": 1714568434000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "13 km NNE of Arecibo, Puerto Rico",
+        "time": 1714567156890,
+        "updated": 1714568325150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71447418",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71447418.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "pr",
+        "code": "71447418",
+        "ids": ",pr71447418,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.3291,
+        "rms": 0.21,
+        "gap": 220,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 13 km NNE of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6546666666667,
+          18.5776666666667,
+          17.04
+        ]
+      },
+      "id": "pr71447418"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "1 km WNW of Gladstone, New Jersey",
         "time": 1714561287481,
-        "updated": 1714564823345,
+        "updated": 1714568248142,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mvg6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mvg6.geojson",
-        "felt": 344,
+        "felt": 437,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 218,
+        "sig": 248,
         "net": "us",
         "code": "6000mvg6",
         "ids": ",us6000mvg6,",
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000mvg6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "83 km WNW of Ollagüe, Chile",
+        "time": 1714553180325,
+        "updated": 1714564859040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mvfm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mvfm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000mvfm",
+        "ids": ",us6000mvfm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.477,
+        "rms": 0.93,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 83 km WNW of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9924,
+          -20.9266,
+          99.04
+        ]
+      },
+      "id": "us6000mvfm"
     },
     {
       "type": "Feature",
@@ -455,11 +535,11 @@
         "mag": 2.79,
         "place": "9 km SW of Corona, CA",
         "time": 1714531282740,
-        "updated": 1714562992318,
+        "updated": 1714568274241,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40734416",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40734416.geojson",
-        "felt": 48,
+        "felt": 49,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -735,7 +815,7 @@
         "mag": 5,
         "place": "82 km WSW of Ollagüe, Chile",
         "time": 1714526690558,
-        "updated": 1714536567561,
+        "updated": 1714568207040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mvda",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mvda.geojson",
@@ -750,7 +830,7 @@
         "code": "6000mvda",
         "ids": ",us6000mvda,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 97,
         "dmin": 0.4,
         "rms": 0.6,
@@ -1288,52 +1368,12 @@
         ]
       },
       "id": "us6000mv6r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "4 km ESE of Prattville, CA",
-        "time": 1714478627660,
-        "updated": 1714479089398,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74043371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74043371.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "74043371",
-        "ids": ",nc74043371,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.2119,
-        "rms": 0.26,
-        "gap": 86,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km ESE of Prattville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1159973,
-          40.1993332,
-          -0.89
-        ]
-      },
-      "id": "nc74043371"
     }
   ],
   "bbox": [
     -171.4774,
     -62.2199,
-    -0.89,
+    0.2,
     179.9833,
     59.9303,
     394.91
