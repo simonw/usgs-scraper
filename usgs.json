@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714773634000,
+    "generated": 1714777194000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.43,
         "place": "27 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1714771124880,
-        "updated": 1714772689420,
+        "updated": 1714776010060,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71447623",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71447623.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +28,9 @@
         "sig": 181,
         "net": "pr",
         "code": "71447623",
-        "ids": ",us6000mw7t,pr71447623,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr71447623,us6000mw7t,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.2279,
         "rms": 0.47,
@@ -55,7 +55,7 @@
         "mag": 3.2,
         "place": "61 km S of Whites City, New Mexico",
         "time": 1714767108115,
-        "updated": 1714769455306,
+        "updated": 1714774728496,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024isgw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024isgw.geojson",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "pr71447608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "5 km NNW of Camiña, Chile",
+        "time": 1714761827522,
+        "updated": 1714774109040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mw6i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mw6i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000mw6i",
+        "ids": ",us6000mw6i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.464,
+        "rms": 0.79,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 5 km NNW of Camiña, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4406,
+          -19.2644,
+          127.619
+        ]
+      },
+      "id": "us6000mw6i"
     },
     {
       "type": "Feature",
@@ -455,17 +495,17 @@
         "mag": 5.7,
         "place": "28 km SSW of Balangiga, Philippines",
         "time": 1714731383201,
-        "updated": 1714756586625,
+        "updated": 1714776251125,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mvya",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mvya.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 6.1,
         "mmi": 4.953,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 505,
+        "sig": 506,
         "net": "us",
         "code": "6000mvya",
         "ids": ",us6000mvya,",
@@ -688,46 +728,6 @@
         ]
       },
       "id": "us6000mvxp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "20 km SE of Pāhala, Hawaii",
-        "time": 1714721179050,
-        "updated": 1714721337360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74210297",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74210297.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "hv",
-        "code": "74210297",
-        "ids": ",hv74210297,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1396,
-        "rms": 0.140000001,
-        "gap": 213,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 20 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.36149597168,
-          19.0526676177979,
-          32.189998626709
-        ]
-      },
-      "id": "hv74210297"
     },
     {
       "type": "Feature",
@@ -1288,46 +1288,6 @@
         ]
       },
       "id": "us6000mvv8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "5 km ENE of Edmond, Oklahoma",
-        "time": 1714690422920,
-        "updated": 1714769519148,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024iqqr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024iqqr.geojson",
-        "felt": 385,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 338,
-        "net": "ok",
-        "code": "2024iqqr",
-        "ids": ",ok2024iqqr,us6000mvv3,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 93,
-        "dmin": 0.1367731604,
-        "rms": 0.7071118751,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 5 km ENE of Edmond, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.41616667,
-          35.67166667,
-          7.08
-        ]
-      },
-      "id": "ok2024iqqr"
     }
   ],
   "bbox": [
