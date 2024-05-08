@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715176779000,
+    "generated": 1715180379000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.89,
+        "place": "56 km NNW of San Antonio, Puerto Rico",
+        "time": 1715177956260,
+        "updated": 1715180297390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024129000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024129000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 233,
+        "net": "pr",
+        "code": "2024129000",
+        "ids": ",pr2024129000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.5315,
+        "rms": 0.51,
+        "gap": 213,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 56 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2643,
+          18.9765,
+          99
+        ]
+      },
+      "id": "pr2024129000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "62 km NW of San Antonio, Puerto Rico",
+        "time": 1715176488140,
+        "updated": 1715177860300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71448083",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71448083.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71448083",
+        "ids": ",pr71448083,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.5719,
+        "rms": 0.47,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 62 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4708333333333,
+          18.9291666666667,
+          57.78
+        ]
+      },
+      "id": "pr71448083"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -655,22 +735,22 @@
         "mag": 2.87,
         "place": "13 km WSW of Mayagüez, Puerto Rico",
         "time": 1715151939840,
-        "updated": 1715153063260,
+        "updated": 1715180036052,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71448048",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71448048.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 127,
+        "sig": 128,
         "net": "pr",
         "code": "71448048",
         "ids": ",pr71448048,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 17,
         "dmin": 0.1222,
         "rms": 0.17,
@@ -1608,51 +1688,11 @@
         ]
       },
       "id": "us6000mwyw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "east of the South Sandwich Islands",
-        "time": 1715092498846,
-        "updated": 1715102414342,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mwyt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mwyt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000mwyt",
-        "ids": ",us6000mwyt,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 71,
-        "dmin": 11.352,
-        "rms": 0.91,
-        "gap": 81,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - east of the South Sandwich Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -18.0414,
-          -59.5295,
-          12.687
-        ]
-      },
-      "id": "us6000mwyt"
     }
   ],
   "bbox": [
     -175.9008,
-    -59.5295,
+    -41.4222,
     1.772,
     179.6968,
     61.5498,
