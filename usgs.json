@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715266780000,
+    "generated": 1715270440000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "107 km SSE of Ugashik, Alaska",
+        "time": 1715268028194,
+        "updated": 1715268201469,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0245z8wyrn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0245z8wyrn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0245z8wyrn",
+        "ids": ",ak0245z8wyrn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.42,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 107 km SSE of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.6464,
+          56.6429,
+          25.6
+        ]
+      },
+      "id": "ak0245z8wyrn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 2.76,
         "place": "5 km ENE of Edmond, Oklahoma",
         "time": 1715260691109,
-        "updated": 1715265953280,
+        "updated": 1715269724373,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024jcsf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024jcsf.geojson",
-        "felt": 64,
+        "felt": 69,
         "cdi": 4.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 149,
+        "sig": 151,
         "net": "ok",
         "code": "2024jcsf",
         "ids": ",ok2024jcsf,us6000mxfb,",
@@ -1088,92 +1128,12 @@
         ]
       },
       "id": "us6000mxae"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "2 km SW of Whitehawk, CA",
-        "time": 1715183946010,
-        "updated": 1715206918040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75003401",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75003401.geojson",
-        "felt": 5,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "nc",
-        "code": "75003401",
-        "ids": ",nc75003401,nn00877311,us6000mx95,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.3695,
-        "rms": 0.22,
-        "gap": 84,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 2 km SW of Whitehawk, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.56266784668,
-          39.7070007324219,
-          -2.09999990463257
-        ]
-      },
-      "id": "nc75003401"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "129 km WSW of Ambunti, Papua New Guinea",
-        "time": 1715183459506,
-        "updated": 1715207914040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mx94",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mx94.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000mx94",
-        "ids": ",us6000mx94,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 2.546,
-        "rms": 0.67,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 129 km WSW of Ambunti, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.819,
-          -4.8197,
-          89.127
-        ]
-      },
-      "id": "us6000mx94"
     }
   ],
   "bbox": [
     -172.3123,
     -17.7453,
-    -2.0999999046326,
+    0,
     168.0251,
     67.8753,
     149.678
