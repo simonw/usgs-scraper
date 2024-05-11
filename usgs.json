@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715393320000,
+    "generated": 1715396428000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 25
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 4.5,
         "place": "57 km W of Anchor Point, Alaska",
         "time": 1715392385860,
-        "updated": 1715393295537,
+        "updated": 1715396192134,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02462bum3w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02462bum3w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 94,
+        "cdi": 3.8,
+        "mmi": 3.509,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 347,
         "net": "ak",
         "code": "02462bum3w",
-        "ids": ",ak02462bum3w,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02462bum3w,us6000mxwn,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.52,
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.65,
-        "place": "13 km SW of Pa‘auilo, Hawaii",
-        "time": 1715392268910,
-        "updated": 1715392426690,
+        "mag": 2.45,
+        "place": "11 km S of Honoka‘a, Hawaii",
+        "time": 1715392268520,
+        "updated": 1715394674090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74227302",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74227302.geojson",
@@ -63,28 +63,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 108,
+        "sig": 92,
         "net": "hv",
         "code": "74227302",
-        "ids": ",hv74227302,",
-        "sources": ",hv,",
+        "ids": ",us6000mxwk,hv74227302,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.1737,
-        "rms": 0.150000006,
-        "gap": 194,
+        "nst": 59,
+        "dmin": 0.2018,
+        "rms": 0.13,
+        "gap": 129,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 13 km SW of Pa‘auilo, Hawaii"
+        "title": "M 2.5 - 11 km S of Honoka‘a, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.457504272461,
-          19.9505004882812,
-          39.6500015258789
+          -155.462333333333,
+          19.9786666666667,
+          41.48
         ]
       },
       "id": "hv74227302"
@@ -1008,86 +1008,6 @@
         ]
       },
       "id": "ak02460psfdm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "off the coast of Oregon",
-        "time": 1715309273659,
-        "updated": 1715382236040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mxnb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mxnb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000mxnb",
-        "ids": ",us6000mxnb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 3.29,
-        "rms": 0.61,
-        "gap": 304,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.4897,
-          43.1445,
-          10
-        ]
-      },
-      "id": "us6000mxnb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "122 km E of McCarthy, Alaska",
-        "time": 1715308203079,
-        "updated": 1715310972040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mxna",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mxna.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000mxna",
-        "ids": ",us6000mxna,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.718,
-        "rms": 0.78,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 122 km E of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.6341,
-          61.5764,
-          5
-        ]
-      },
-      "id": "us6000mxna"
     }
   ],
   "bbox": [
