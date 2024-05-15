@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715756400000,
+    "generated": 1715760001000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "71 km NNW of Neiafu, Tonga",
+        "time": 1715755561015,
+        "updated": 1715756590040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mypk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mypk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000mypk",
+        "ids": ",us6000mypk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 4.134,
+        "rms": 1.21,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 71 km NNW of Neiafu, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.1443,
+          -18.0276,
+          138.285
+        ]
+      },
+      "id": "us6000mypk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.96,
         "place": "10 km SE of Blue Lake, CA",
         "time": 1715755143860,
-        "updated": 1715756362073,
+        "updated": 1715759990990,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75006996",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75006996.geojson",
-        "felt": 181,
-        "cdi": 3.8,
-        "mmi": 3.312,
+        "felt": 732,
+        "cdi": 4,
+        "mmi": 3.206,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 310,
+        "sig": 534,
         "net": "nc",
         "code": "75006996",
         "ids": ",nc75006996,us6000mypi,",
@@ -575,17 +615,17 @@
         "mag": 3.06,
         "place": "7 km ESE of Willits, CA",
         "time": 1715726734260,
-        "updated": 1715756206943,
+        "updated": 1715756524894,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75006856",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75006856.geojson",
-        "felt": 86,
-        "cdi": 3.4,
+        "felt": 85,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 173,
+        "sig": 172,
         "net": "nc",
         "code": "75006856",
         "ids": ",nc75006856,us6000mym4,",
@@ -613,9 +653,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "4 km NW of Tilden, Texas",
-        "time": 1715723604442,
-        "updated": 1715727679299,
+        "place": "10 km E of Fowlerton, Texas",
+        "time": 1715723602135,
+        "updated": 1715759626712,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024jmmt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024jmmt.geojson",
@@ -623,7 +663,7 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "tx",
@@ -631,20 +671,20 @@
         "ids": ",tx2024jmmt,us6000myly,",
         "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.2,
-        "rms": 1.5,
-        "gap": 74,
+        "nst": 19,
+        "dmin": 0.3,
+        "rms": 0.2,
+        "gap": 79,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km NW of Tilden, Texas"
+        "title": "M 2.6 - 10 km E of Fowlerton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.586,
-          28.489,
-          4.3151
+          -98.707,
+          28.461,
+          0.0244
         ]
       },
       "id": "tx2024jmmt"
@@ -1493,7 +1533,7 @@
   "bbox": [
     -177.3058,
     -54.9054,
-    2.5146,
+    0.0244,
     176.4383,
     55.5217,
     215.122
