@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715839203000,
+    "generated": 1715842803000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "83 km WNW of Rabaul, Papua New Guinea",
+        "time": 1715841096891,
+        "updated": 1715842300831,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mywx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mywx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.181,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000mywx",
+        "ids": ",us6000mywx,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 64,
+        "dmin": 4.499,
+        "rms": 0.67,
+        "gap": 64,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 83 km WNW of Rabaul, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5088,
+          -3.8229,
+          10
+        ]
+      },
+      "id": "us6000mywx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1568,133 +1608,13 @@
         ]
       },
       "id": "ak024691uxvo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "71 km NNW of Neiafu, Tonga",
-        "time": 1715755561015,
-        "updated": 1715795038510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mypk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mypk.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000mypk",
-        "ids": ",us6000mypk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 4.134,
-        "rms": 1.21,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 71 km NNW of Neiafu, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -174.1443,
-          -18.0276,
-          138.285
-        ]
-      },
-      "id": "us6000mypk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.02,
-        "place": "9 km SE of Blue Lake, CA",
-        "time": 1715755143840,
-        "updated": 1715836666356,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75006996",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75006996.geojson",
-        "felt": 917,
-        "cdi": 4,
-        "mmi": 3.213,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 615,
-        "net": "nc",
-        "code": "75006996",
-        "ids": ",nc75006996,us6000mypi,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,shakemap,",
-        "nst": 47,
-        "dmin": 0.09753,
-        "rms": 0.15,
-        "gap": 34,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 4.0 - 9 km SE of Blue Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.901833333333,
-          40.8283333333333,
-          25.58
-        ]
-      },
-      "id": "nc75006996"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "101 km NNW of San Antonio, Puerto Rico",
-        "time": 1715754635100,
-        "updated": 1715763924040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71448848",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71448848.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "pr",
-        "code": "71448848",
-        "ids": ",us6000mypg,pr71448848,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.9288,
-        "rms": 0.28,
-        "gap": 260,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 101 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.475,
-          19.3346666666667,
-          21.35
-        ]
-      },
-      "id": "pr71448848"
     }
   ],
   "bbox": [
     -179.9333,
     -36.7957,
     2.8564,
-    148.4023,
+    151.5088,
     68.1276,
     534.901
   ]
