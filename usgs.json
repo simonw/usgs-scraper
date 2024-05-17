@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715943629000,
+    "generated": 1715947187000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "3 km SSE of Hartley, Texas",
+        "time": 1715936723911,
+        "updated": 1715945425436,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024jqzy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024jqzy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2024jqzy",
+        "ids": ",tx2024jqzy,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.6,
+        "rms": 0.3,
+        "gap": 144,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km SSE of Hartley, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.384,
+          35.858,
+          4.1504
+        ]
+      },
+      "id": "tx2024jqzy"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,12 +495,12 @@
         "mag": 2.7,
         "place": "179 km WNW of Bandon, Oregon",
         "time": 1715888563615,
-        "updated": 1715889774040,
+        "updated": 1715944681122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mz1t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mz1t.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +510,7 @@
         "code": "6000mz1t",
         "ids": ",us6000mz1t,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 1.831,
         "rms": 0.87,
