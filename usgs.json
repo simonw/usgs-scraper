@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1716123589000,
+    "generated": 1716127189000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 56
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.82,
+        "place": "5 km WSW of La Parguera, Puerto Rico",
+        "time": 1716125163720,
+        "updated": 1716127166380,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71449383",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71449383.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "pr",
+        "code": "71449383",
+        "ids": ",pr71449383,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.04825,
+        "rms": 0.07,
+        "gap": 256,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 5 km WSW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0921666666667,
+          17.9536666666667,
+          7.06
+        ]
+      },
+      "id": "pr71449383"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "167 km SW of Nikolski, Alaska",
-        "time": 1716117675250,
-        "updated": 1716119172754,
+        "mag": 5,
+        "place": "160 km WSW of Nikolski, Alaska",
+        "time": 1716117676395,
+        "updated": 1716127104735,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246fpwwul",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246fpwwul.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mzmv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mzmv.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.048,
+        "mmi": 3.153,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
-        "net": "ak",
-        "code": "0246fpwwul",
-        "ids": ",ak0246fpwwul,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.76,
-        "gap": null,
-        "magType": "ml",
+        "sig": 385,
+        "net": "us",
+        "code": "6000mzmv",
+        "ids": ",us6000mzmv,ak0246fpwwul,",
+        "sources": ",us,ak,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "nst": 126,
+        "dmin": 0.837,
+        "rms": 0.49,
+        "gap": 138,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.9 - 167 km SW of Nikolski, Alaska"
+        "title": "M 5.0 - 160 km WSW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -170.8132,
-          52.0229,
-          25.6
+          -170.894,
+          52.201,
+          38.847
         ]
       },
-      "id": "ak0246fpwwul"
+      "id": "us6000mzmv"
     },
     {
       "type": "Feature",
@@ -253,15 +293,15 @@
       "type": "Feature",
       "properties": {
         "mag": 6,
-        "place": "162 km WSW of Nikolski, Alaska",
-        "time": 1716111325081,
-        "updated": 1716121652968,
+        "place": "161 km WSW of Nikolski, Alaska",
+        "time": 1716111324992,
+        "updated": 1716126327981,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mzme",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mzme.geojson",
         "felt": 1,
         "cdi": 1,
-        "mmi": 5.043,
+        "mmi": 4.724,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -271,20 +311,20 @@
         "ids": ",us6000mzme,at00sdq7z1,ak0246fot1c4,",
         "sources": ",us,at,ak,",
         "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
-        "nst": 122,
-        "dmin": 0.847,
-        "rms": 1.42,
-        "gap": 60,
+        "nst": 209,
+        "dmin": 0.857,
+        "rms": 1.24,
+        "gap": 59,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.0 - 162 km WSW of Nikolski, Alaska"
+        "title": "M 6.0 - 161 km WSW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -170.9425,
-          52.2175,
-          29.483
+          -170.8669,
+          52.1586,
+          28
         ]
       },
       "id": "us6000mzme"
@@ -2208,86 +2248,6 @@
         ]
       },
       "id": "us6000mzgb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "24 km NW of Hawaiian Ocean View, Hawaii",
-        "time": 1716040125755,
-        "updated": 1716078423646,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mzg6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mzg6.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000mzg6",
-        "ids": ",us6000mzg6,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.187,
-        "rms": 0.81,
-        "gap": 240,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 24 km NW of Hawaiian Ocean View, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.9419,
-          19.207,
-          29.264
-        ]
-      },
-      "id": "us6000mzg6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "8 km SSE of Volcano, Hawaii",
-        "time": 1716040105620,
-        "updated": 1716040942682,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74237447",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74237447.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "hv",
-        "code": "74237447",
-        "ids": ",hv74237447,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.004799,
-        "rms": 0.140000001,
-        "gap": 106,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 8 km SSE of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.213165283203,
-          19.369499206543,
-          1.91999995708466
-        ]
-      },
-      "id": "hv74237447"
     }
   ],
   "bbox": [
