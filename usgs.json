@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1716112789000,
+    "generated": 1716116389000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 59
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "15 km SSE of Pāhala, Hawaii",
+        "time": 1716114753140,
+        "updated": 1716114921890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74240247",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74240247.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "hv",
+        "code": "74240247",
+        "ids": ",hv74240247,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.09167,
+        "rms": 0.129999995,
+        "gap": 195,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 15 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.412338256836,
+          19.0763339996338,
+          34.5
+        ]
+      },
+      "id": "hv74240247"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +95,22 @@
         "mag": 6,
         "place": "162 km WSW of Nikolski, Alaska",
         "time": 1716111325081,
-        "updated": 1716112684235,
+        "updated": 1716114938531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mzme",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mzme.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.764,
+        "mmi": 5.043,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
         "sig": 554,
         "net": "us",
         "code": "6000mzme",
-        "ids": ",at00sdq7z1,us6000mzme,ak0246fot1c4,",
-        "sources": ",at,us,ak,",
-        "types": ",impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "ids": ",us6000mzme,at00sdq7z1,ak0246fot1c4,",
+        "sources": ",us,at,ak,",
+        "types": ",ground-failure,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
         "nst": 122,
         "dmin": 0.847,
         "rms": 1.42,
@@ -2328,86 +2368,6 @@
         ]
       },
       "id": "ci40589591"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "64 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1716028252860,
-        "updated": 1716031211580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71449268",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71449268.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "pr",
-        "code": "71449268",
-        "ids": ",pr71449268,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.5698,
-        "rms": 0.25,
-        "gap": 249,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 64 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0096666666667,
-          18.923,
-          21.13
-        ]
-      },
-      "id": "pr71449268"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.01,
-        "place": "6 km S of Brawley, CA",
-        "time": 1716027453300,
-        "updated": 1716041304044,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40589495",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40589495.geojson",
-        "felt": 6,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "ci",
-        "code": "40589495",
-        "ids": ",ci40589495,us6000mzf5,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 62,
-        "dmin": 0.03229,
-        "rms": 0.3,
-        "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 6 km S of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5333328,
-          32.9241676,
-          10.41
-        ]
-      },
-      "id": "ci40589495"
     }
   ],
   "bbox": [
