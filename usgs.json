@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1716404406000,
+    "generated": 1716408006000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 23
   },
   "features": [
     {
@@ -14,27 +14,27 @@
       "properties": {
         "mag": 3.39,
         "place": "10 km NNE of Pāhala, Hawaii",
-        "time": 1716399229170,
-        "updated": 1716404298040,
+        "time": 1716399229100,
+        "updated": 1716406550362,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74244332",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74244332.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
+        "felt": 13,
+        "cdi": 3.4,
+        "mmi": 3.924,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 177,
+        "sig": 181,
         "net": "hv",
         "code": "74244332",
         "ids": ",hv74244332,us6000n0b4,",
         "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.06286,
-        "rms": 0.310000002,
-        "gap": 93,
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 61,
+        "dmin": 0.0606,
+        "rms": 0.18,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.4 - 10 km NNE of Pāhala, Hawaii"
@@ -42,52 +42,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.450668334961,
-          19.2918338775635,
-          5.96000003814697
+          -155.4535,
+          19.2913333333333,
+          8.52
         ]
       },
       "id": "hv74244332"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.51,
-        "place": "10 km E of Pāhala, Hawaii",
-        "time": 1716399214760,
-        "updated": 1716400711154,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74244327",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74244327.geojson",
-        "felt": 13,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 194,
-        "net": "hv",
-        "code": "74244327",
-        "ids": ",hv74244327,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.09007,
-        "rms": 0.100000001,
-        "gap": 182,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 10 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.378494262695,
-          19.1988334655762,
-          30.4799995422363
-        ]
-      },
-      "id": "hv74244327"
     },
     {
       "type": "Feature",
@@ -372,55 +332,15 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48,
-        "place": "5 km S of Pāhala, Hawaii",
-        "time": 1716373468320,
-        "updated": 1716374358040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74244047",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74244047.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "74244047",
-        "ids": ",us6000n08s,hv74244047,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 0.0133,
-        "rms": 0.150000006,
-        "gap": 134,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.476165771484,
-          19.1560001373291,
-          31.8700008392334
-        ]
-      },
-      "id": "hv74244047"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.74,
         "place": "18 km SSE of Hyden, Kentucky",
         "time": 1716371278400,
-        "updated": 1716384041040,
+        "updated": 1716407749321,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60582551",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60582551.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -428,9 +348,9 @@
         "sig": 116,
         "net": "se",
         "code": "60582551",
-        "ids": ",us6000n08p,se60582551,",
-        "sources": ",us,se,",
-        "types": ",origin,phase-data,",
+        "ids": ",se60582551,us6000n08p,",
+        "sources": ",se,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.2479,
         "rms": 0.27,
@@ -1008,172 +928,12 @@
         ]
       },
       "id": "us6000n05j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "55 km NW of Toyah, Texas",
-        "time": 1716321334660,
-        "updated": 1716395600040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024jzdj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024jzdj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2024jzdj",
-        "ids": ",us6000n05a,tx2024jzdj,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 55 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.207,
-          31.674,
-          7.2278
-        ]
-      },
-      "id": "tx2024jzdj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "61 km S of Whites City, New Mexico",
-        "time": 1716319689772,
-        "updated": 1716395175040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024jzcm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024jzcm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2024jzcm",
-        "ids": ",us6000n04z,tx2024jzcm,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 61 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.492,
-          31.631,
-          5.7153
-        ]
-      },
-      "id": "tx2024jzcm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "33 km NW of Ninilchik, Alaska",
-        "time": 1716319616411,
-        "updated": 1716320777040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246j5s7l2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246j5s7l2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0246j5s7l2",
-        "ids": ",us6000n04y,ak0246j5s7l2,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.53,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 33 km NW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.164,
-          60.2265,
-          73.4
-        ]
-      },
-      "id": "ak0246j5s7l2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1716318663066,
-        "updated": 1716394899040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024jzbx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024jzbx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "tx",
-        "code": "2024jzbx",
-        "ids": ",us6000n04v,tx2024jzbx,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.194,
-          31.672,
-          6.2537
-        ]
-      },
-      "id": "tx2024jzbx"
     }
   ],
   "bbox": [
     -179.9502,
     -33.0714,
-    5.7153,
+    8,
     149.7262,
     73.4844,
     589.809
