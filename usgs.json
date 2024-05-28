@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1716919238000,
+    "generated": 1716922838000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.57,
         "place": "4 km W of Walker, CA",
         "time": 1716915752670,
-        "updated": 1716918465996,
+        "updated": 1716921836922,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75012886",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75012886.geojson",
@@ -55,12 +55,12 @@
         "mag": 3.05,
         "place": "31 km NE of Vieques, Puerto Rico",
         "time": 1716914166140,
-        "updated": 1716917943290,
+        "updated": 1716919470594,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71450718",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71450718.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "71450718",
         "ids": ",pr71450718,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.4307,
         "rms": 0.18,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "us7000mni5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "27 km E of Yonakuni, Japan",
+        "time": 1716906921698,
+        "updated": 1716922470040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n1hj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n1hj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000n1hj",
+        "ids": ",us6000n1hj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.241,
+        "rms": 0.52,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 27 km E of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2759,
+          24.4753,
+          62.141
+        ]
+      },
+      "id": "us6000n1hj"
     },
     {
       "type": "Feature",
@@ -295,7 +335,7 @@
         "mag": 3.1,
         "place": "62 km WNW of Cantwell, Alaska",
         "time": 1716902650626,
-        "updated": 1716902779794,
+        "updated": 1716921402040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246umyif1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246umyif1.geojson",
@@ -308,8 +348,8 @@
         "sig": 148,
         "net": "ak",
         "code": "0246umyif1",
-        "ids": ",ak0246umyif1,",
-        "sources": ",ak,",
+        "ids": ",us6000n1h3,ak0246umyif1,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -612,20 +652,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
-        "place": "58 km SSE of Old Harbor, Alaska",
-        "time": 1716885613151,
-        "updated": 1716886726040,
+        "mag": 3.7,
+        "place": "55 km SSE of Old Harbor, Alaska",
+        "time": 1716885615190,
+        "updated": 1716920390623,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246uk2s3p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246uk2s3p.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.974,
+        "mmi": 1.759,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 234,
+        "sig": 211,
         "net": "ak",
         "code": "0246uk2s3p",
         "ids": ",us6000n1f5,ak0246uk2s3p,",
@@ -633,18 +673,18 @@
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.49,
+        "rms": 0.52,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 58 km SSE of Old Harbor, Alaska"
+        "title": "M 3.7 - 55 km SSE of Old Harbor, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.8438,
-          56.7404,
-          17.5
+          -152.8924,
+          56.7576,
+          26.8
         ]
       },
       "id": "ak0246uk2s3p"
@@ -1375,11 +1415,11 @@
         "mag": 2.7,
         "place": "4 km SE of Solomon, Kansas",
         "time": 1716844453110,
-        "updated": 1716911310103,
+        "updated": 1716920138107,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n1ca",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n1ca.geojson",
-        "felt": 20,
+        "felt": 21,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "ci40603231"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "91 km SSW of Alberto Oviedo Mota, B.C., MX",
-        "time": 1716833083500,
-        "updated": 1716833503401,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40603127",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40603127.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "ci",
-        "code": "40603127",
-        "ids": ",ci40603127,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.1855,
-        "rms": 0.15,
-        "gap": 112,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 91 km SSW of Alberto Oviedo Mota, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6025,
-          31.4935,
-          6.95
-        ]
-      },
-      "id": "ci40603127"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "190 km SE of Perryville, Alaska",
-        "time": 1716832935017,
-        "updated": 1716833087820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246t29nb7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246t29nb7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0246t29nb7",
-        "ids": ",ak0246t29nb7,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.43,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 190 km SE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.8713,
-          54.7985,
-          42.1
-        ]
-      },
-      "id": "ak0246t29nb7"
     }
   ],
   "bbox": [
