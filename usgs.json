@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1716948758000,
+    "generated": 1716951638000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 33
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.09,
         "place": "24 km W of Rancho Tehama Reserve, CA",
         "time": 1716948444280,
-        "updated": 1716948719790,
+        "updated": 1716949665826,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75013002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75013002.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "75013002",
         "ids": ",nc75013002,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
         "nst": 50,
         "dmin": 0.02027,
         "rms": 1.07,
@@ -932,10 +932,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.56,
-        "place": "2 km SW of Pāhala, Hawaii",
-        "time": 1716889539390,
-        "updated": 1716898147040,
+        "mag": 2.65,
+        "place": "2 km SSW of Pāhala, Hawaii",
+        "time": 1716889539370,
+        "updated": 1716949906200,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74251521",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74251521.geojson",
@@ -943,28 +943,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 101,
+        "sig": 108,
         "net": "hv",
         "code": "74251521",
         "ids": ",us6000n1fu,hv74251521,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.04,
-        "rms": 0.129999995,
+        "nst": 54,
+        "dmin": 0.03506,
+        "rms": 0.12,
         "gap": 80,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 2 km SW of Pāhala, Hawaii"
+        "title": "M 2.7 - 2 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.494171142578,
-          19.1816673278809,
-          31.3099994659424
+          -155.489666666667,
+          19.179,
+          31.99
         ]
       },
       "id": "hv74251521"
@@ -1175,17 +1175,17 @@
         "mag": 2.55,
         "place": "4 km E of Fontana, CA",
         "time": 1716882324350,
-        "updated": 1716943416830,
+        "updated": 1716948880216,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40603975",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40603975.geojson",
-        "felt": 242,
+        "felt": 243,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 216,
+        "sig": 217,
         "net": "ci",
         "code": "40603975",
         "ids": ",ci40603975,",
@@ -1328,166 +1328,6 @@
         ]
       },
       "id": "tx2024kkrf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1716864557627,
-        "updated": 1716906339691,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024kkqf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024kkqf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "tx",
-        "code": "2024kkqf",
-        "ids": ",us6000n1du,tx2024kkqf,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.193,
-          31.668,
-          6.0999
-        ]
-      },
-      "id": "tx2024kkqf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1716864557576,
-        "updated": 1716865420040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n1dt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n1dt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000n1dt",
-        "ids": ",us6000n1dt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.059,
-        "rms": 0.26,
-        "gap": 112,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.196,
-          31.6697,
-          5.995
-        ]
-      },
-      "id": "us6000n1dt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "17 km NE of Hermleigh, Texas",
-        "time": 1716862897903,
-        "updated": 1716905511630,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024kkpd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024kkpd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2024kkpd",
-        "ids": ",us6000n1dh,tx2024kkpd,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 17 km NE of Hermleigh, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.642,
-          32.76,
-          7.4951
-        ]
-      },
-      "id": "tx2024kkpd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "56 km NW of Toyah, Texas",
-        "time": 1716862411889,
-        "updated": 1716906840762,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024kkox",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024kkox.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2024kkox",
-        "ids": ",tx2024kkox,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 56 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.232,
-          31.665,
-          4.408
-        ]
-      },
-      "id": "tx2024kkox"
     }
   ],
   "bbox": [
