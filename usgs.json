@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717032314000,
+    "generated": 1717035098000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "23 km NNE of Hualien City, Taiwan",
+        "time": 1717031498780,
+        "updated": 1717033061695,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mnw5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mnw5.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000mnw5",
+        "ids": ",us7000mnw5,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.548,
+        "rms": 0.93,
+        "gap": 64,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.7 - 23 km NNE of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.658,
+          24.1833,
+          30.953
+        ]
+      },
+      "id": "us7000mnw5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -935,12 +975,12 @@
         "mag": 2.6,
         "place": "7 km E of Amarillo, Texas",
         "time": 1716949568396,
-        "updated": 1717017791999,
+        "updated": 1717034504452,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024kmku",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024kmku.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -950,7 +990,7 @@
         "code": "2024kmku",
         "ids": ",tx2024kmku,",
         "sources": ",tx,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.2,
         "rms": 0.2,
@@ -968,92 +1008,12 @@
         ]
       },
       "id": "tx2024kmku"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.09,
-        "place": "24 km W of Rancho Tehama Reserve, CA",
-        "time": 1716948444280,
-        "updated": 1717024054721,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75013002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75013002.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "nc",
-        "code": "75013002",
-        "ids": ",nc75013002,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.02027,
-        "rms": 1.07,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 24 km W of Rancho Tehama Reserve, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.664665222168,
-          39.9365005493164,
-          -0.790000021457672
-        ]
-      },
-      "id": "nc75013002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "237 km NW of Houma, Tonga",
-        "time": 1716947783561,
-        "updated": 1716948644040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mnp4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mnp4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000mnp4",
-        "ids": ",us7000mnp4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 2.189,
-        "rms": 0.51,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 237 km NW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.6994,
-          -19.4806,
-          304.108
-        ]
-      },
-      "id": "us7000mnp4"
     }
   ],
   "bbox": [
-    -176.6994,
+    -158.7555,
     -21.8331,
-    -0.79000002145767,
+    0,
     166.4467,
     57.7765,
     380.589
