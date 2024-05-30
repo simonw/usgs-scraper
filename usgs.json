@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717066816000,
+    "generated": 1717070416000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 23
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.3,
         "place": "79 km WSW of Nanwalek, Alaska",
         "time": 1717066338259,
-        "updated": 1717066430004,
+        "updated": 1717067204579,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246xwex8s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246xwex8s.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "0246xwex8s",
         "ids": ",ak0246xwex8s,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.36,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us7000mnyf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Volcano Islands, Japan region",
+        "time": 1717060834715,
+        "updated": 1717067038040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mnyh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mnyh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000mnyh",
+        "ids": ",us7000mnyh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 5.156,
+        "rms": 0.74,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8701,
+          22.1511,
+          117.981
+        ]
+      },
+      "id": "us7000mnyh"
     },
     {
       "type": "Feature",
@@ -888,91 +928,11 @@
         ]
       },
       "id": "us7000mnrf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "75 km NNE of Calama, Chile",
-        "time": 1716983792333,
-        "updated": 1716985000040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mnre",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mnre.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000mnre",
-        "ids": ",us7000mnre,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 1.057,
-        "rms": 1.17,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 75 km NNE of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.6383,
-          -21.8331,
-          119.56
-        ]
-      },
-      "id": "us7000mnre"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "1 km WNW of Aguada, Puerto Rico",
-        "time": 1716983748940,
-        "updated": 1716985583600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71450858",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71450858.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "pr",
-        "code": "71450858",
-        "ids": ",us7000mnrd,pr71450858,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1194,
-        "rms": 0.25,
-        "gap": 238,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 1 km WNW of Aguada, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2001666666667,
-          18.3826666666667,
-          8.36
-        ]
-      },
-      "id": "pr71450858"
     }
   ],
   "bbox": [
     -172.3705,
-    -21.8331,
+    -18.4418,
     5.2,
     166.4467,
     59.0224,
