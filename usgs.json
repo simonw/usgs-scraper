@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717513175000,
+    "generated": 1717516779000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "Easter Island region",
+        "time": 1717513159675,
+        "updated": 1717514582744,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mq99",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mq99.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000mq99",
+        "ids": ",us7000mq99,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 102,
+        "dmin": 31.689,
+        "rms": 0.76,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - Easter Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0668,
+          -22.9546,
+          10
+        ]
+      },
+      "id": "us7000mq99"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "67 km NE of Nelson Lagoon, Alaska",
+        "time": 1717513150636,
+        "updated": 1717514007102,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024768iv7z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024768iv7z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "024768iv7z",
+        "ids": ",ak024768iv7z,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.28,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 67 km NE of Nelson Lagoon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4331,
+          56.4232,
+          27.2
+        ]
+      },
+      "id": "ak024768iv7z"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.78,
         "place": "8 km WNW of Redway, CA",
         "time": 1717507296720,
-        "updated": 1717508027377,
+        "updated": 1717514832040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75016157",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75016157.geojson",
@@ -28,8 +108,8 @@
         "sig": 119,
         "net": "nc",
         "code": "75016157",
-        "ids": ",nc75016157,",
-        "sources": ",nc,",
+        "ids": ",nc75016157,us7000mq8f,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
         "nst": 32,
         "dmin": 0.01958,
@@ -972,7 +1052,7 @@
   ],
   "bbox": [
     -179.9809,
-    -19.108,
+    -22.9546,
     0,
     123.4011,
     71.3734,
