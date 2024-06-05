@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717574379000,
+    "generated": 1717577976000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "3 km NNE of Sandy Valley, Nevada",
+        "time": 1717577010156,
+        "updated": 1717577623503,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00878628",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00878628.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "nn",
+        "code": "00878628",
+        "ids": ",nn00878628,",
+        "sources": ",nn,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.484,
+        "rms": 0.296,
+        "gap": 182.01000000000002,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km NNE of Sandy Valley, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.615,
+          35.8496,
+          0
+        ]
+      },
+      "id": "nn00878628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.32,
+        "place": "5 km N of Delta, B.C., MX",
+        "time": 1717576962260,
+        "updated": 1717577956146,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40614631",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40614631.geojson",
+        "felt": 24,
+        "cdi": 4.1,
+        "mmi": 3.851,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 297,
+        "net": "ci",
+        "code": "40614631",
+        "ids": ",ew1717576970,ci40614631,us7000mqfu,",
+        "sources": ",ew,ci,us,",
+        "types": ",dyfi,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 33,
+        "dmin": 0.3213,
+        "rms": 0.26,
+        "gap": 209,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.3 - 5 km N of Delta, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1916656,
+          32.3969994,
+          29.2
+        ]
+      },
+      "id": "ci40614631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "62 km WSW of San Carlos, Mexico",
+        "time": 1717574101479,
+        "updated": 1717576503295,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mqfg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mqfg.geojson",
+        "felt": 3,
+        "cdi": 5.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 286,
+        "net": "us",
+        "code": "7000mqfg",
+        "ids": ",us7000mqfg,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.677,
+        "rms": 0.94,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 62 km WSW of San Carlos, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6118,
+          27.7035,
+          10
+        ]
+      },
+      "id": "us7000mqfg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1373,7 +1493,7 @@
   "bbox": [
     -179.225,
     -38.9725,
-    0.27,
+    0,
     170.4917,
     67.7512,
     586.005
