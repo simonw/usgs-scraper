@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717592496000,
+    "generated": 1717595976000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 44
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 2.47,
         "place": "8 km NNW of Rancho Cucamonga, CA",
         "time": 1717588877900,
-        "updated": 1717589014506,
+        "updated": 1717592499602,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40614831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40614831.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -150,7 +150,7 @@
         "code": "40614831",
         "ids": ",ci40614831,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 14,
         "dmin": 0.06607,
         "rms": 0.12,
@@ -173,38 +173,38 @@
       "type": "Feature",
       "properties": {
         "mag": 4.56,
-        "place": "9 km N of Delta, B.C., MX",
+        "place": "8 km N of Delta, B.C., MX",
         "time": 1717588720930,
-        "updated": 1717592465052,
+        "updated": 1717594525822,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40614823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40614823.geojson",
-        "felt": 37,
+        "felt": 44,
         "cdi": 5.6,
-        "mmi": 4.47,
+        "mmi": 4.414,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 341,
+        "sig": 345,
         "net": "ci",
         "code": "40614823",
         "ids": ",ew1717588720,ci40614823,us7000mqh1,",
         "sources": ",ew,ci,us,",
         "types": ",dyfi,focal-mechanism,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 47,
-        "dmin": 0.07182,
-        "rms": 0.39,
-        "gap": 52,
+        "nst": 37,
+        "dmin": 0.06498,
+        "rms": 0.38,
+        "gap": 55,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.6 - 9 km N of Delta, B.C., MX"
+        "title": "M 4.6 - 8 km N of Delta, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.1918335,
-          32.4321671,
-          15.66
+          -115.1796667,
+          32.4225,
+          15.58
         ]
       },
       "id": "ci40614823"
@@ -215,13 +215,13 @@
         "mag": 5.4,
         "place": "86 km ESE of Teluk Dalam, Indonesia",
         "time": 1717586173711,
-        "updated": 1717588584978,
+        "updated": 1717593710050,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mqgm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mqgm.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.466,
+        "mmi": 4.465,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -255,7 +255,7 @@
         "mag": 5.5,
         "place": "South Sandwich Islands region",
         "time": 1717583954511,
-        "updated": 1717591598827,
+        "updated": 1717593005040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mqgh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mqgh.geojson",
@@ -270,7 +270,7 @@
         "code": "7000mqgh",
         "ids": ",us7000mqgh,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 67,
         "dmin": 6.587,
         "rms": 0.69,
@@ -412,6 +412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.67,
+        "place": "4 km NNW of Guadalupe Victoria, B.C., MX",
+        "time": 1717577071560,
+        "updated": 1717593483085,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40614647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40614647.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.574,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 207,
+        "net": "ci",
+        "code": "40614647",
+        "ids": ",ci40614647,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 13,
+        "dmin": 0.3873,
+        "rms": 0.23,
+        "gap": 286,
+        "magType": "mlr",
+        "type": "earthquake",
+        "title": "M 3.7 - 4 km NNW of Guadalupe Victoria, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1155014,
+          32.3201675,
+          16.82
+        ]
+      },
+      "id": "ci40614647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "3 km NNE of Sandy Valley, Nevada",
         "time": 1717577010156,
@@ -453,17 +493,17 @@
       "type": "Feature",
       "properties": {
         "mag": 4.32,
-        "place": "5 km N of Delta, B.C., MX",
-        "time": 1717576962260,
-        "updated": 1717584705630,
+        "place": "4 km N of Delta, B.C., MX",
+        "time": 1717576962220,
+        "updated": 1717595922473,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40614631",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40614631.geojson",
-        "felt": 28,
+        "felt": 30,
         "cdi": 3.4,
         "mmi": 3.878,
         "alert": "green",
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 297,
         "net": "ci",
@@ -471,20 +511,20 @@
         "ids": ",ew1717576970,ci40614631,us7000mqfu,",
         "sources": ",ew,ci,us,",
         "types": ",dyfi,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 33,
-        "dmin": 0.3213,
+        "nst": 27,
+        "dmin": 0.322,
         "rms": 0.26,
-        "gap": 209,
+        "gap": 215,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.3 - 5 km N of Delta, B.C., MX"
+        "title": "M 4.3 - 4 km N of Delta, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.1916656,
-          32.3969994,
-          29.2
+          -115.1881667,
+          32.3955,
+          29.38
         ]
       },
       "id": "ci40614631"
@@ -812,6 +852,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "17 km E of Tucaní, Venezuela",
+        "time": 1717558287347,
+        "updated": 1717594338385,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mqep",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mqep.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000mqep",
+        "ids": ",us7000mqep,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.48,
+        "rms": 1.11,
+        "gap": 52,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 17 km E of Tucaní, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1161,
+          8.9391,
+          25.318
+        ]
+      },
+      "id": "us7000mqep"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "11 km ENE of Chickaloon, Alaska",
         "time": 1717555581829,
@@ -975,17 +1055,17 @@
         "mag": 2.5,
         "place": "9 km S of Franklin, Canada",
         "time": 1717548679175,
-        "updated": 1717590978213,
+        "updated": 1717594211332,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mqdi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mqdi.geojson",
-        "felt": 83,
+        "felt": 86,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 126,
+        "sig": 127,
         "net": "us",
         "code": "7000mqdi",
         "ids": ",us7000mqdi,",
@@ -1688,126 +1768,6 @@
         ]
       },
       "id": "us7000mq8u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "26 km S of Camiña, Chile",
-        "time": 1717507702486,
-        "updated": 1717523749040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mq8k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mq8k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000mq8k",
-        "ids": ",us7000mq8k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.287,
-        "rms": 0.9,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 26 km S of Camiña, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.4689,
-          -19.5444,
-          98.65
-        ]
-      },
-      "id": "us7000mq8k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "87 km N of Kiana, Alaska",
-        "time": 1717507465759,
-        "updated": 1717517392040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mq8h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mq8h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000mq8h",
-        "ids": ",us7000mq8h,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.067,
-        "rms": 0.92,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 87 km N of Kiana, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.2039,
-          67.7512,
-          15.884
-        ]
-      },
-      "id": "us7000mq8h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "8 km WNW of Redway, CA",
-        "time": 1717507296720,
-        "updated": 1717514832040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75016157",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75016157.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "nc",
-        "code": "75016157",
-        "ids": ",nc75016157,us7000mq8f,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.01958,
-        "rms": 0.13,
-        "gap": 52,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 8 km WNW of Redway, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.914001464844,
-          40.1264991760254,
-          15.710000038147
-        ]
-      },
-      "id": "nc75016157"
     }
   ],
   "bbox": [
@@ -1815,7 +1775,7 @@
     -59.6749,
     0,
     170.4917,
-    67.7512,
+    62.8384,
     567.274
   ]
 }
