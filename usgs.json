@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717916389000,
+    "generated": 1717919993000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.85,
+        "mag": 2.91,
         "place": "9 km WNW of Enoch, Utah",
-        "time": 1717915937950,
-        "updated": 1717916209040,
+        "time": 1717915938200,
+        "updated": 1717916712710,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80072251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80072251.geojson",
@@ -23,17 +23,17 @@
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 125,
+        "sig": 131,
         "net": "uu",
         "code": "80072251",
         "ids": ",uu80072251,",
         "sources": ",uu,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.2179,
-        "rms": 0.25,
+        "nst": 26,
+        "dmin": 0.1077,
+        "rms": 0.23,
         "gap": 69,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.11483001709,
-          37.8126678466797,
-          -0.920000016689301
+          -113.119,
+          37.8138333333333,
+          6
         ]
       },
       "id": "uu80072251"
@@ -55,17 +55,17 @@
         "mag": 2.55,
         "place": "9 km WNW of Enoch, Utah",
         "time": 1717915611470,
-        "updated": 1717916364894,
+        "updated": 1717917050790,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80072241",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80072241.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": 3,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 100,
+        "sig": 101,
         "net": "uu",
         "code": "80072241",
         "ids": ",uu80072241,",
@@ -88,6 +88,86 @@
         ]
       },
       "id": "uu80072241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "260 km SW of Longyearbyen, Svalbard and Jan Mayen",
+        "time": 1717911696600,
+        "updated": 1717916591040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mraf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mraf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000mraf",
+        "ids": ",us7000mraf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 2.443,
+        "rms": 0.83,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 260 km SW of Longyearbyen, Svalbard and Jan Mayen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.648,
+          76.6614,
+          10
+        ]
+      },
+      "id": "us7000mraf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "83 km W of San Antonio de los Cobres, Argentina",
+        "time": 1717910065560,
+        "updated": 1717919086040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mrad",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mrad.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000mrad",
+        "ids": ",us7000mrad,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.411,
+        "rms": 0.84,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 83 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1439,
+          -24.2312,
+          163.508
+        ]
+      },
+      "id": "us7000mrad"
     },
     {
       "type": "Feature",
@@ -1572,10 +1652,10 @@
   ],
   "bbox": [
     -178.1737,
-    -20.5368,
-    -0.9200000166893,
+    -24.2312,
+    0.1,
     166.7279,
-    63.1442,
+    76.6614,
     539.113
   ]
 }
