@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718222398000,
+    "generated": 1718226036000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "24 km NE of Orcopampa, Peru",
+        "time": 1718223501688,
+        "updated": 1718225325040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ms0i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ms0i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000ms0i",
+        "ids": ",us7000ms0i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 3.596,
+        "rms": 1.29,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 24 km NE of Orcopampa, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1974,
+          -15.1004,
+          117.658
+        ]
+      },
+      "id": "us7000ms0i"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.5,
         "place": "0 km WNW of Pāhala, Hawaii",
         "time": 1718220850850,
-        "updated": 1718221008600,
+        "updated": 1718223499040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74274381",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74274381.geojson",
@@ -68,8 +108,8 @@
         "sig": 96,
         "net": "hv",
         "code": "74274381",
-        "ids": ",hv74274381,",
-        "sources": ",hv,",
+        "ids": ",us7000ms08,hv74274381,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 59,
         "dmin": 0.04495,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "hv74274381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "15 km SSW of Lárdos, Greece",
+        "time": 1718219950647,
+        "updated": 1718225849523,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ms04",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ms04.geojson",
+        "felt": 26,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 365,
+        "net": "us",
+        "code": "7000ms04",
+        "ids": ",us7000ms04,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 174,
+        "dmin": 0.288,
+        "rms": 0.63,
+        "gap": 67,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 15 km SSW of Lárdos, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9471,
+          35.9621,
+          59.023
+        ]
+      },
+      "id": "us7000ms04"
     },
     {
       "type": "Feature",
@@ -295,17 +375,17 @@
         "mag": 3.43,
         "place": "12 km NE of Indio, CA",
         "time": 1718191386570,
-        "updated": 1718218671051,
+        "updated": 1718225808975,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40620495",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40620495.geojson",
-        "felt": 116,
+        "felt": 118,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 225,
+        "sig": 226,
         "net": "ci",
         "code": "40620495",
         "ids": ",ci40620495,us7000mrwu,",
@@ -532,46 +612,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.55,
-        "place": "18 km SSW of Wai‘ōhinu, Hawaii",
-        "time": 1718172362530,
-        "updated": 1718179821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74273416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74273416.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "hv",
-        "code": "74273416",
-        "ids": ",hv74273416,us7000mrvy,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.07083,
-        "rms": 0.300000012,
-        "gap": 290,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km SSW of Wai‘ōhinu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.66650390625,
-          18.908166885376,
-          1.41999995708466
-        ]
-      },
-      "id": "hv74273416"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.7,
         "place": "28 km SW of Urakawa, Japan",
         "time": 1718170530206,
@@ -735,11 +775,11 @@
         "mag": 4.9,
         "place": "2 km W of San Pedro Ayampuc, Guatemala",
         "time": 1718160907000,
-        "updated": 1718204933337,
+        "updated": 1718225934305,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mrv6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mrv6.geojson",
-        "felt": 79,
+        "felt": 80,
         "cdi": 5,
         "mmi": null,
         "alert": null,
@@ -1173,7 +1213,7 @@
   "bbox": [
     -176.0935,
     -18.9039,
-    1.4199999570847,
+    2.0499999523163,
     169.4173,
     58.5423,
     455.572
