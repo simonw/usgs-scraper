@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718344856000,
+    "generated": 1718348401000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "222 km E of Levuka, Fiji",
+        "time": 1718344072809,
+        "updated": 1718345332040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000msbg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000msbg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000msbg",
+        "ids": ",us7000msbg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 2.367,
+        "rms": 0.88,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 222 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5982,
+          -17.8392,
+          559.488
+        ]
+      },
+      "id": "us7000msbg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,21 +95,21 @@
         "mag": 2.89,
         "place": "11 km ENE of Milpitas, CA",
         "time": 1718342726330,
-        "updated": 1718344516455,
+        "updated": 1718346947201,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75022077",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75022077.geojson",
-        "felt": 54,
-        "cdi": 3,
+        "felt": 60,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 145,
+        "sig": 149,
         "net": "nc",
         "code": "75022077",
-        "ids": ",nc75022077,",
-        "sources": ",nc,",
+        "ids": ",nc75022077,us7000msba,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
         "nst": 74,
         "dmin": null,
@@ -95,7 +135,7 @@
         "mag": 5.9,
         "place": "southern Mid-Atlantic Ridge",
         "time": 1718339208962,
-        "updated": 1718343361040,
+        "updated": 1718346602117,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000msb0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000msb0.geojson",
@@ -1368,54 +1408,14 @@
         ]
       },
       "id": "ak0247kzvgsw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "49 km SSE of Denali National Park, Alaska",
-        "time": 1718260099900,
-        "updated": 1718264641084,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0247kzewoq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0247kzewoq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "0247kzewoq",
-        "ids": ",us7000ms34,ak0247kzewoq,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.94,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 49 km SSE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.4337,
-          63.1202,
-          4.6
-        ]
-      },
-      "id": "ak0247kzewoq"
     }
   ],
   "bbox": [
-    -176.6682,
+    -178.5982,
     -30.9154,
     1.9,
     164.7155,
     66.5868,
-    235.401
+    559.488
   ]
 }
