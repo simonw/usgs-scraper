@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718474403000,
+    "generated": 1718478003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,94 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.5,
+        "place": "Mid-Indian Ridge",
+        "time": 1718476683655,
+        "updated": 1718477853040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mspm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mspm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000mspm",
+        "ids": ",us7000mspm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 100,
+        "dmin": 10.416,
+        "rms": 0.7,
+        "gap": 30,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Mid-Indian Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1145,
+          -40.5596,
+          10
+        ]
+      },
+      "id": "us7000mspm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "South Sandwich Islands region",
+        "time": 1718473841186,
+        "updated": 1718475237008,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000msph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000msph.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.557,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000msph",
+        "ids": ",us7000msph,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 100,
+        "dmin": 5.018,
+        "rms": 0.72,
+        "gap": 40,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.1744,
+          -55.8044,
+          13.505
+        ]
+      },
+      "id": "us7000msph"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.97,
         "place": "15 km ESE of Naalehu, Hawaii",
         "time": 1718473231760,
-        "updated": 1718473736294,
+        "updated": 1718476977040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74278636",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74278636.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -28,8 +108,8 @@
         "sig": 136,
         "net": "hv",
         "code": "74278636",
-        "ids": ",hv74278636,",
-        "sources": ",hv,",
+        "ids": ",hv74278636,us7000mspf,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 59,
         "dmin": 0.1177,
@@ -1808,91 +1888,11 @@
         ]
       },
       "id": "hv74277281"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "41 km S of False Pass, Alaska",
-        "time": 1718391010932,
-        "updated": 1718459396040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mslb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mslb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000mslb",
-        "ids": ",av93164091,us7000mslb,",
-        "sources": ",av,us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.226,
-        "rms": 0.45,
-        "gap": 187,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 41 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.4672,
-          54.4855,
-          13.421
-        ]
-      },
-      "id": "us7000mslb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "91 km S of Waingapu, Indonesia",
-        "time": 1718388986228,
-        "updated": 1718408027040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mshc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mshc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000mshc",
-        "ids": ",us7000mshc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.856,
-        "rms": 0.84,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 91 km S of Waingapu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.1486,
-          -10.4771,
-          20.109
-        ]
-      },
-      "id": "us7000mshc"
     }
   ],
   "bbox": [
     -174.1408,
-    -39.1513,
+    -55.8044,
     0.83,
     179.5972,
     69.8274,
