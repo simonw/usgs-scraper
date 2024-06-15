@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718470803000,
+    "generated": 1718474403000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.97,
+        "place": "15 km ESE of Naalehu, Hawaii",
+        "time": 1718473231760,
+        "updated": 1718473736294,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74278636",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74278636.geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 136,
+        "net": "hv",
+        "code": "74278636",
+        "ids": ",hv74278636,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.1177,
+        "rms": 0.180000007,
+        "gap": 205,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 15 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.440826416016,
+          19.0305004119873,
+          34.8699989318848
+        ]
+      },
+      "id": "hv74278636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "45 km ENE of Stratford, New Zealand",
+        "time": 1718469767012,
+        "updated": 1718473832040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000msp6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000msp6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000msp6",
+        "ids": ",us7000msp6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.642,
+        "rms": 0.58,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.4 - 45 km ENE of Stratford, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7574,
+          -39.1513,
+          224.236
+        ]
+      },
+      "id": "us7000msp6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.45,
         "place": "14 km ESE of Naalehu, Hawaii",
         "time": 1718469522090,
-        "updated": 1718469679100,
+        "updated": 1718472825040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74278571",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74278571.geojson",
@@ -28,8 +108,8 @@
         "sig": 92,
         "net": "hv",
         "code": "74278571",
-        "ids": ",hv74278571,",
-        "sources": ",hv,",
+        "ids": ",us7000msp4,hv74278571,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 59,
         "dmin": 0.1135,
@@ -135,7 +215,7 @@
         "mag": 2.6,
         "place": "65 km NNE of Van Horn, Texas",
         "time": 1718464515814,
-        "updated": 1718466870933,
+        "updated": 1718471829040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024lslu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024lslu.geojson",
@@ -148,8 +228,8 @@
         "sig": 104,
         "net": "tx",
         "code": "2024lslu",
-        "ids": ",tx2024lslu,",
-        "sources": ",tx,",
+        "ids": ",us7000msnw,tx2024lslu,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 18,
         "dmin": 0.1,
@@ -1812,7 +1892,7 @@
   ],
   "bbox": [
     -174.1408,
-    -33.9305,
+    -39.1513,
     0.83,
     179.5972,
     69.8274,
