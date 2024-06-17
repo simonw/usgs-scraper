@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718658008000,
+    "generated": 1718661608000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "47 km E of Kainantu, Papua New Guinea",
+        "time": 1718657398754,
+        "updated": 1718658813040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt2v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt2v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000mt2v",
+        "ids": ",us7000mt2v,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 108,
+        "dmin": 3.159,
+        "rms": 0.66,
+        "gap": 25,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 47 km E of Kainantu, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2942,
+          -6.3443,
+          103.731
+        ]
+      },
+      "id": "us7000mt2v"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.7,
         "place": "80 km SW of Atka, Alaska",
         "time": 1718644528488,
-        "updated": 1718645961040,
+        "updated": 1718658924131,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt1l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt1l.geojson",
@@ -28,8 +68,8 @@
         "sig": 211,
         "net": "us",
         "code": "7000mt1l",
-        "ids": ",us7000mt1l,ak0247rs1ary,",
-        "sources": ",us,ak,",
+        "ids": ",ak0247rs1ary,us7000mt1l,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 17,
         "dmin": 0.729,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000mt1l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "241 km W of Abepura, Indonesia",
+        "time": 1718644514931,
+        "updated": 1718658800040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt1n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt1n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000mt1n",
+        "ids": ",us7000mt1n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 2.227,
+        "rms": 0.33,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 241 km W of Abepura, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.4883,
+          -2.2629,
+          28.079
+        ]
+      },
+      "id": "us7000mt1n"
     },
     {
       "type": "Feature",
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "av93167111"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Pagan region, Northern Mariana Islands",
-        "time": 1718572638982,
-        "updated": 1718576239593,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000msvf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000msvf.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000msvf",
-        "ids": ",us7000msvf,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 93,
-        "dmin": 3.574,
-        "rms": 0.85,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Pagan region, Northern Mariana Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.7159,
-          18.8345,
-          194.39
-        ]
-      },
-      "id": "us7000msvf"
     }
   ],
   "bbox": [
@@ -1496,6 +1536,6 @@
     5.63,
     178.13966666667,
     61.3612,
-    194.39
+    165.864
   ]
 }
