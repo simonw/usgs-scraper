@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718712000000,
+    "generated": 1718715720000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "15 km WNW of Progreso, B.C., MX",
+        "time": 1718713585810,
+        "updated": 1718714246014,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40801648",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40801648.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "ci",
+        "code": "40801648",
+        "ids": ",ci40801648,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.01103,
+        "rms": 0.25,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 15 km WNW of Progreso, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.7278333,
+          32.6383333,
+          9.13
+        ]
+      },
+      "id": "ci40801648"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "17 km ESE of Willows, CA",
         "time": 1718711019400,
-        "updated": 1718711113912,
+        "updated": 1718713235562,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75023552",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75023552.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "75023552",
         "ids": ",nc75023552,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
         "nst": 11,
         "dmin": 0.109,
         "rms": 0.36,
@@ -55,7 +95,7 @@
         "mag": 3.2,
         "place": "88 km NW of Yakutat, Alaska",
         "time": 1718710078388,
-        "updated": 1718710240631,
+        "updated": 1718713040040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0247tc2ogk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0247tc2ogk.geojson",
@@ -68,8 +108,8 @@
         "sig": 158,
         "net": "ak",
         "code": "0247tc2ogk",
-        "ids": ",ak0247tc2ogk,",
-        "sources": ",ak,",
+        "ids": ",us7000mt5q,ak0247tc2ogk,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ak0247tc2ogk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "8 km ENE of Hirara, Japan",
+        "time": 1718709670815,
+        "updated": 1718713882040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt5s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt5s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000mt5s",
+        "ids": ",us7000mt5s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.136,
+        "rms": 1.25,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 8 km ENE of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.3752,
+          24.8435,
+          44.294
+        ]
+      },
+      "id": "us7000mt5s"
     },
     {
       "type": "Feature",
@@ -495,17 +575,17 @@
         "mag": 5.5,
         "place": "56 km SSW of Alianza Cristiana, Peru",
         "time": 1718677329941,
-        "updated": 1718684726182,
+        "updated": 1718713591456,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt41",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt41.geojson",
-        "felt": 5,
+        "felt": 7,
         "cdi": 3.8,
         "mmi": 4.126,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 467,
+        "sig": 468,
         "net": "us",
         "code": "7000mt41",
         "ids": ",us7000mt41,",
@@ -968,46 +1048,6 @@
         ]
       },
       "id": "us7000mt0e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1718628599188,
-        "updated": 1718630404040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024lvxy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024lvxy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2024lvxy",
-        "ids": ",us7000mszg,tx2024lvxy,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.302,
-          31.66,
-          7.0612
-        ]
-      },
-      "id": "tx2024lvxy"
     }
   ],
   "bbox": [
