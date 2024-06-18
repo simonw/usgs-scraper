@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718729997000,
+    "generated": 1718733600000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,17 +55,17 @@
         "mag": 2.6,
         "place": "5 km ESE of Haverhill, New Hampshire",
         "time": 1718728435999,
-        "updated": 1718729930992,
+        "updated": 1718733533018,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt82",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt82.geojson",
-        "felt": 19,
-        "cdi": 3.8,
+        "felt": 73,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 134,
         "net": "us",
         "code": "7000mt82",
         "ids": ",us7000mt82,",
@@ -95,13 +95,13 @@
         "mag": 3.55,
         "place": "91 km ESE of Maneadero, B.C., MX",
         "time": 1718727056120,
-        "updated": 1718728777087,
+        "updated": 1718733229921,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40801888",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40801888.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 3.488,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -110,7 +110,7 @@
         "code": "40801888",
         "ids": ",ci40801888,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 10,
         "dmin": 0.1194,
         "rms": 0.14,
@@ -135,7 +135,7 @@
         "mag": 2.72,
         "place": "3 km WSW of Pāhala, Hawaii",
         "time": 1718726398090,
-        "updated": 1718726556120,
+        "updated": 1718732891040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74282091",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74282091.geojson",
@@ -148,8 +148,8 @@
         "sig": 114,
         "net": "hv",
         "code": "74282091",
-        "ids": ",hv74282091,",
-        "sources": ",hv,",
+        "ids": ",us7000mt6x,hv74282091,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 63,
         "dmin": 0.05723,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "hv74282091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "21 km WNW of Moquegua, Peru",
+        "time": 1718725660323,
+        "updated": 1718731665040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt6w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt6w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000mt6w",
+        "ids": ",us7000mt6w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 1.462,
+        "rms": 1.23,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 21 km WNW of Moquegua, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1115,
+          -17.0993,
+          115.856
+        ]
+      },
+      "id": "us7000mt6w"
     },
     {
       "type": "Feature",
@@ -648,6 +688,46 @@
         ]
       },
       "id": "us7000mt55"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "14 km SW of Koliganek, Alaska",
+        "time": 1718703369450,
+        "updated": 1718730346315,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0247taxmwh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0247taxmwh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0247taxmwh",
+        "ids": ",ak0247taxmwh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.19,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 14 km SW of Koliganek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.4672,
+          59.6354,
+          249.5
+        ]
+      },
+      "id": "ak0247taxmwh"
     },
     {
       "type": "Feature",
@@ -1168,86 +1248,6 @@
         ]
       },
       "id": "us7000mt2v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "80 km SW of Atka, Alaska",
-        "time": 1718644528488,
-        "updated": 1718658924131,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt1l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt1l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.295,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000mt1l",
-        "ids": ",ak0247rs1ary,us7000mt1l,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 17,
-        "dmin": 0.729,
-        "rms": 0.88,
-        "gap": 221,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.7 - 80 km SW of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.0431,
-          51.6951,
-          10
-        ]
-      },
-      "id": "us7000mt1l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "241 km W of Abepura, Indonesia",
-        "time": 1718644514931,
-        "updated": 1718658800040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt1n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt1n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000mt1n",
-        "ids": ",us7000mt1n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 2.227,
-        "rms": 0.33,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 241 km W of Abepura, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.4883,
-          -2.2629,
-          28.079
-        ]
-      },
-      "id": "us7000mt1n"
     }
   ],
   "bbox": [
