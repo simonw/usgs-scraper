@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718690410000,
+    "generated": 1718693994000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "87 km SE of Hihifo, Tonga",
+        "time": 1718692840000,
+        "updated": 1718693105518,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt24170000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt24170000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 0,
+        "sig": 554,
+        "net": "pt",
+        "code": "24170000",
+        "ids": ",pt24170000,",
+        "sources": ",pt,",
+        "types": ",origin,",
+        "nst": 9,
+        "dmin": null,
+        "rms": null,
+        "gap": 115.19999078400073,
+        "magType": "Mi",
+        "type": "earthquake",
+        "title": "M 6.0 - 87 km SE of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.336,
+          -16.606,
+          10
+        ]
+      },
+      "id": "pt24170000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 4.7,
         "place": "21 km NE of Hualien City, Taiwan",
         "time": 1718682417290,
-        "updated": 1718686241040,
+        "updated": 1718692481870,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mt4b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mt4b.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "7000mt4b",
         "ids": ",us7000mt4b,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 51,
         "dmin": 0.164,
         "rms": 0.53,
@@ -655,17 +695,17 @@
         "mag": 2.59,
         "place": "7 km NNE of Tres Pinos, CA",
         "time": 1718623933050,
-        "updated": 1718663376815,
+        "updated": 1718690732840,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75023222",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75023222.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 106,
         "net": "nc",
         "code": "75023222",
         "ids": ",nc75023222,",
@@ -928,86 +968,6 @@
         ]
       },
       "id": "us7000msy7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "23 km ENE of Nichinan, Japan",
-        "time": 1718607444798,
-        "updated": 1718617174842,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000msy5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000msy5.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000msy5",
-        "ids": ",us7000msy5,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 76,
-        "dmin": 0.999,
-        "rms": 0.78,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 23 km ENE of Nichinan, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.6109,
-          31.6553,
-          53.247
-        ]
-      },
-      "id": "us7000msy5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "52 km SSW of Lithakiá, Greece",
-        "time": 1718605076919,
-        "updated": 1718656242526,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000msy0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000msy0.geojson",
-        "felt": 1,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000msy0",
-        "ids": ",us7000msy0,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.095,
-        "rms": 0.66,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 52 km SSW of Lithakiá, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5605,
-          37.2931,
-          36.541
-        ]
-      },
-      "id": "us7000msy0"
     }
   ],
   "bbox": [
