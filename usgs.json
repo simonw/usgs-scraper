@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719396023000,
+    "generated": 1719399606000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 31
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.69,
-        "place": "8 km NNW of Puerto Real, Puerto Rico",
-        "time": 1719394693610,
-        "updated": 1719395217460,
+        "mag": 4.5,
+        "place": "47 km E of Farkhār, Afghanistan",
+        "time": 1719396448480,
+        "updated": 1719398188040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71454058",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71454058.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n88p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n88p.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 312,
+        "net": "us",
+        "code": "6000n88p",
+        "ids": ",us6000n88p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 2.42,
+        "rms": 0.82,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 47 km E of Farkhār, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.3845,
+          36.4955,
+          193.935
+        ]
+      },
+      "id": "us6000n88p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "8 km NNW of Puerto Real, Puerto Rico",
+        "time": 1719394693610,
+        "updated": 1719396460844,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71454058",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71454058.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
         "net": "pr",
         "code": "71454058",
         "ids": ",pr71454058,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 5,
         "dmin": 0.1278,
         "rms": 0.08,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr71454058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "south of the Fiji Islands",
+        "time": 1719394691409,
+        "updated": 1719396751040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n88m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n88m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000n88m",
+        "ids": ",us6000n88m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 3.37,
+        "rms": 1.02,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.0804,
+          -25.9472,
+          89.064
+        ]
+      },
+      "id": "us6000n88m"
     },
     {
       "type": "Feature",
@@ -1172,7 +1252,7 @@
   ],
   "bbox": [
     -178.9091,
-    -22.8693,
+    -25.9472,
     0.58,
     179.7473,
     70.7809,
