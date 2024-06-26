@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719414027000,
+    "generated": 1719417624000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "22 km ESE of Naalehu, Hawaii",
+        "time": 1719416913040,
+        "updated": 1719417402447,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74293796",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74293796.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "hv",
+        "code": "74293796",
+        "ids": ",hv74293796,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.1871,
+        "rms": 0.310000002,
+        "gap": 225,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 22 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.386505126953,
+          18.9811668395996,
+          15.289999961853
+        ]
+      },
+      "id": "hv74293796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "289 km E of Levuka, Fiji",
+        "time": 1719413459561,
+        "updated": 1719414426040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n89k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n89k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000n89k",
+        "ids": ",us6000n89k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 3.141,
+        "rms": 0.75,
+        "gap": 113,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 289 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.965,
+          -18.3304,
+          529.082
+        ]
+      },
+      "id": "us6000n89k"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1288,46 +1368,6 @@
         ]
       },
       "id": "us6000n843"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.42,
-        "place": "48 km N of Isabela, Puerto Rico",
-        "time": 1719329999870,
-        "updated": 1719334885260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71454008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71454008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 180,
-        "net": "pr",
-        "code": "71454008",
-        "ids": ",us6000n842,pr71454008,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.6271,
-        "rms": 0.18,
-        "gap": 232,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 48 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0448333333333,
-          18.937,
-          11.68
-        ]
-      },
-      "id": "pr71454008"
     }
   ],
   "bbox": [
@@ -1336,6 +1376,6 @@
     1.91,
     179.7473,
     70.7809,
-    193.935
+    529.082
   ]
 }
