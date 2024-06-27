@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719507625000,
+    "generated": 1719511225000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -14,14 +14,14 @@
       "properties": {
         "mag": 5.9,
         "place": "south of the Kermadec Islands",
-        "time": 1719506272298,
-        "updated": 1719507350349,
+        "time": 1719506271730,
+        "updated": 1719508642859,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n8nu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n8nu.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.16,
+        "mmi": 3.074,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -30,11 +30,11 @@
         "code": "6000n8nu",
         "ids": ",us6000n8nu,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 32,
-        "dmin": 4.276,
-        "rms": 1.06,
-        "gap": 169,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 91,
+        "dmin": 4.232,
+        "rms": 1.12,
+        "gap": 56,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.9 - south of the Kermadec Islands"
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -179.0738,
-          -33.4352,
-          40.674
+          -179.1986,
+          -33.3635,
+          32.25
         ]
       },
       "id": "us6000n8nu"
@@ -54,8 +54,8 @@
       "properties": {
         "mag": 2.46,
         "place": "15 km WNW of Progreso, B.C., MX",
-        "time": 1719505245870,
-        "updated": 1719505886360,
+        "time": 1719505245750,
+        "updated": 1719509672040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40811856",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40811856.geojson",
@@ -63,17 +63,17 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 93,
         "net": "ci",
         "code": "40811856",
-        "ids": ",ci40811856,",
-        "sources": ",ci,",
+        "ids": ",ci40811856,us6000n8n0,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 45,
-        "dmin": 0.008159,
-        "rms": 0.29,
+        "dmin": 0.008333,
+        "rms": 0.27,
         "gap": 51,
         "magType": "ml",
         "type": "earthquake",
@@ -82,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.7243333,
-          32.6413333,
-          8.83
+          -115.7201667,
+          32.6428333,
+          10.26
         ]
       },
       "id": "ci40811856"
@@ -173,12 +173,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "70 km SSE of Nikolski, Alaska",
-        "time": 1719498968515,
-        "updated": 1719506415748,
+        "place": "79 km SSE of Nikolski, Alaska",
+        "time": 1719498968343,
+        "updated": 1719509535040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024889qxtp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024889qxtp.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n8nt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n8nt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,28 +186,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
-        "net": "ak",
-        "code": "024889qxtp",
-        "ids": ",ak024889qxtp,",
-        "sources": ",ak,",
+        "net": "us",
+        "code": "6000n8nt",
+        "ids": ",ak024889qxtp,us6000n8nt,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.3,
-        "gap": null,
+        "nst": 12,
+        "dmin": 0.739,
+        "rms": 0.54,
+        "gap": 216,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 70 km SSE of Nikolski, Alaska"
+        "title": "M 2.6 - 79 km SSE of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -168.3527,
-          52.3828,
-          56.2
+          -168.3206,
+          52.3095,
+          31.4
         ]
       },
-      "id": "ak024889qxtp"
+      "id": "us6000n8nt"
     },
     {
       "type": "Feature",
@@ -1571,8 +1571,8 @@
     }
   ],
   "bbox": [
-    -179.0738,
-    -33.4352,
+    -179.1986,
+    -33.3635,
     1.6799999475479,
     168.3306,
     60.9418,
