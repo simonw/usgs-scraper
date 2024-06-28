@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719565175000,
+    "generated": 1719568775000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "4 km WSW of Fuig, Puerto Rico",
+        "time": 1719567259800,
+        "updated": 1719567973950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71454193",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71454193.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71454193",
+        "ids": ",pr71454193,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.04127,
+        "rms": 0.11,
+        "gap": 179,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km WSW of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.952,
+          17.9723333333333,
+          11.45
+        ]
+      },
+      "id": "pr71454193"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.5,
         "place": "52 km WNW of Nanwalek, Alaska",
         "time": 1719564937014,
-        "updated": 1719565026524,
+        "updated": 1719566241040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02489ttsxz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02489ttsxz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 11,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
-        "tsunami": 0,
-        "sig": 188,
+        "tsunami": 1,
+        "sig": 192,
         "net": "ak",
         "code": "02489ttsxz",
-        "ids": ",ak02489ttsxz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02489ttsxz,at00sfs8so,us6000n8ue,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.39,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak02489ttsxz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "91 km SE of Hualien City, Taiwan",
+        "time": 1719564155302,
+        "updated": 1719567088040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n8ud",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n8ud.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000n8ud",
+        "ids": ",us6000n8ud,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.865,
+        "rms": 1.12,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 91 km SE of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2391,
+          23.3901,
+          10
+        ]
+      },
+      "id": "us6000n8ud"
     },
     {
       "type": "Feature",
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "us6000n8ld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "40 km E of Namie, Japan",
-        "time": 1719481510686,
-        "updated": 1719486003040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n8l9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n8l9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000n8l9",
-        "ids": ",us6000n8l9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 2.768,
-        "rms": 1.36,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 40 km E of Namie, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.4579,
-          37.4914,
-          41.376
-        ]
-      },
-      "id": "us6000n8l9"
     }
   ],
   "bbox": [
