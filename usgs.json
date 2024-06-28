@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719550825000,
+    "generated": 1719554435000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "6 km SSW of Volcano, Hawaii",
+        "time": 1719553138520,
+        "updated": 1719553298440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74296951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74296951.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "hv",
+        "code": "74296951",
+        "ids": ",hv74296951,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.005005,
+        "rms": 0.200000003,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 6 km SSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.247329711914,
+          19.3888339996338,
+          0.280000001192093
+        ]
+      },
+      "id": "hv74296951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 7.2,
+        "place": "8 km W of Atiquipa, Peru",
+        "time": 1719552997658,
+        "updated": 1719554416287,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n8tq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n8tq.geojson",
+        "felt": 21,
+        "cdi": 4.1,
+        "mmi": 7.618,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 806,
+        "net": "us",
+        "code": "6000n8tq",
+        "ids": ",pt24180000,at00sfrzl3,us6000n8tq,",
+        "sources": ",pt,at,us,",
+        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 89,
+        "dmin": 4.677,
+        "rms": 1,
+        "gap": 46,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 7.2 - 8 km W of Atiquipa, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4447,
+          -15.8106,
+          27.985
+        ]
+      },
+      "id": "us6000n8tq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,7 +415,7 @@
         "mag": 2.72,
         "place": "10 km E of Tres Pinos, CA",
         "time": 1719534039950,
-        "updated": 1719534299790,
+        "updated": 1719550836040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75028111",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75028111.geojson",
@@ -348,8 +428,8 @@
         "sig": 114,
         "net": "nc",
         "code": "75028111",
-        "ids": ",nc75028111,",
-        "sources": ",nc,",
+        "ids": ",nc75028111,us6000n8se,",
+        "sources": ",nc,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
         "nst": 54,
         "dmin": 0.1104,
@@ -1368,52 +1448,12 @@
         ]
       },
       "id": "us6000n8k0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "34 km NW of Toyah, Texas",
-        "time": 1719466490509,
-        "updated": 1719492804297,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024mnqo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024mnqo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2024mnqo",
-        "ids": ",us6000n8jv,tx2024mnqo,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 34 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.017,
-          31.558,
-          7.9071
-        ]
-      },
-      "id": "tx2024mnqo"
     }
   ],
   "bbox": [
     -179.8783,
     -33.4576,
-    1.2,
+    0.28000000119209,
     168.3306,
     60.9418,
     601.089
