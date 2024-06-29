@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719655222000,
+    "generated": 1719658822000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
     {
@@ -415,12 +415,12 @@
         "mag": 6.1,
         "place": "42 km SSW of Atiquipa, Peru",
         "time": 1719644733464,
-        "updated": 1719652394178,
+        "updated": 1719655722277,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n948",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n948.geojson",
-        "felt": 2,
-        "cdi": 2,
+        "felt": 3,
+        "cdi": 2.7,
         "mmi": 5.79,
         "alert": "green",
         "status": "reviewed",
@@ -448,6 +448,46 @@
         ]
       },
       "id": "us6000n948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "84 km SE of Leilani Estates, Hawaii",
+        "time": 1719644715888,
+        "updated": 1719656305040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n945",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n945.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000n945",
+        "ids": ",hv74300036,us6000n945,",
+        "sources": ",hv,us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.736,
+        "rms": 0.83,
+        "gap": 319,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 84 km SE of Leilani Estates, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.416,
+          18.8753,
+          15.863
+        ]
+      },
+      "id": "us6000n945"
     },
     {
       "type": "Feature",
@@ -935,17 +975,17 @@
         "mag": 3.4,
         "place": "15 km SW of Henderson, New York",
         "time": 1719632724565,
-        "updated": 1719655051661,
+        "updated": 1719658657002,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n92y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n92y.geojson",
-        "felt": 407,
+        "felt": 421,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 345,
+        "sig": 350,
         "net": "us",
         "code": "6000n92y",
         "ids": ",us6000n92y,",
@@ -1575,7 +1615,7 @@
         "mag": 2.5,
         "place": "45 km NW of Toyah, Texas",
         "time": 1719578604498,
-        "updated": 1719579392605,
+        "updated": 1719658624040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024mqag",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024mqag.geojson",
@@ -1588,8 +1628,8 @@
         "sig": 96,
         "net": "tx",
         "code": "2024mqag",
-        "ids": ",tx2024mqag,",
-        "sources": ",tx,",
+        "ids": ",us6000n8vf,tx2024mqag,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 29,
         "dmin": 0,
