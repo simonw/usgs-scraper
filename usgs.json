@@ -1,50 +1,130 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719705668000,
+    "generated": 1719710800000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "46 km E of Austin, Nevada",
-        "time": 1719704133455,
-        "updated": 1719705358645,
+        "mag": 3.7,
+        "place": "29 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1719708132420,
+        "updated": 1719709885121,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024182000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024182000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "pr",
+        "code": "2024182000",
+        "ids": ",pr2024182000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 1.3345,
+        "rms": 0.37,
+        "gap": 212,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 29 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4771,
+          18.1388,
+          68
+        ]
+      },
+      "id": "pr2024182000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.83,
+        "place": "6 km SSW of Volcano, Hawaii",
+        "time": 1719707220850,
+        "updated": 1719707406540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74302941",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74302941.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 123,
+        "net": "hv",
+        "code": "74302941",
+        "ids": ",hv74302941,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.005588,
+        "rms": 0.389999986,
+        "gap": 44,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 6 km SSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.247329711914,
+          19.3896675109863,
+          0.589999973773956
+        ]
+      },
+      "id": "hv74302941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "15 km E of Austin, Nevada",
+        "time": 1719704136089,
+        "updated": 1719710081872,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00880126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00880126.geojson",
-        "felt": 2,
+        "felt": 5,
         "cdi": 3.1,
         "mmi": 3.931,
         "alert": "green",
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 260,
         "net": "nn",
         "code": "00880126",
         "ids": ",nn00880126,us6000n98y,",
         "sources": ",nn,us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 14,
-        "dmin": 1.054,
-        "rms": 0.3361,
-        "gap": 103.25,
+        "nst": 7,
+        "dmin": 0.878,
+        "rms": 0.1515,
+        "gap": 89.31,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - 46 km E of Austin, Nevada"
+        "title": "M 4.1 - 15 km E of Austin, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5329,
-          39.52,
-          0.2
+          -116.8904,
+          39.4679,
+          4.7
         ]
       },
       "id": "nn00880126"
@@ -1535,17 +1615,17 @@
         "mag": 3.4,
         "place": "15 km SW of Henderson, New York",
         "time": 1719632724565,
-        "updated": 1719705581168,
+        "updated": 1719710740569,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n92y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n92y.geojson",
-        "felt": 670,
+        "felt": 676,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 466,
+        "sig": 469,
         "net": "us",
         "code": "6000n92y",
         "ids": ",us6000n92y,",
@@ -1688,46 +1768,6 @@
         ]
       },
       "id": "hv74299196"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "91 km SSW of Alberto Oviedo Mota, B.C., MX",
-        "time": 1719620932080,
-        "updated": 1719621531365,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40813336",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40813336.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "ci",
-        "code": "40813336",
-        "ids": ",ci40813336,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.1841,
-        "rms": 0.19,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 91 km SSW of Alberto Oviedo Mota, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6103333,
-          31.5006667,
-          6.06
-        ]
-      },
-      "id": "ci40813336"
     }
   ],
   "bbox": [
