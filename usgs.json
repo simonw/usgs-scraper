@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719838967000,
+    "generated": 1719842387000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.92,
-        "place": "3 km NNE of Little America, Wyoming",
-        "time": 1719837010500,
-        "updated": 1719837740690,
+        "mag": 3.08,
+        "place": "4 km ENE of Little America, Wyoming",
+        "time": 1719837010370,
+        "updated": 1719839115550,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80075061",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80075061.geojson",
@@ -25,26 +25,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 146,
         "net": "uu",
         "code": "80075061",
         "ids": ",uu80075061,",
         "sources": ",uu,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1207,
-        "rms": 0.409999996,
-        "gap": 129,
+        "nst": 20,
+        "dmin": 0.1226,
+        "rms": 0.25,
+        "gap": 161,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 3 km NNE of Little America, Wyoming"
+        "title": "M 3.1 - 4 km ENE of Little America, Wyoming"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.848663330078,
-          41.570499420166,
-          -3.22000002861023
+          -109.811166666667,
+          41.5661666666667,
+          5.5
         ]
       },
       "id": "uu80075061"
@@ -95,12 +95,12 @@
         "mag": 4.5,
         "place": "55 km S of San Pedro de Atacama, Chile",
         "time": 1719833861047,
-        "updated": 1719834851040,
+        "updated": 1719840468719,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n9ke",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n9ke.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +110,7 @@
         "code": "6000n9ke",
         "ids": ",us6000n9ke,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 35,
         "dmin": 0.459,
         "rms": 0.99,
@@ -932,6 +932,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "252 km SSW of Singaparna, Indonesia",
+        "time": 1719780720439,
+        "updated": 1719840752040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n9hh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n9hh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000n9hh",
+        "ids": ",us6000n9hh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 1.93,
+        "rms": 0.64,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 252 km SSW of Singaparna, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4127,
+          -9.5282,
+          10
+        ]
+      },
+      "id": "us6000n9hh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "24 km N of Pucallpa, Peru",
         "time": 1719780459596,
@@ -1408,92 +1448,12 @@
         ]
       },
       "id": "nc75029156"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "7 km S of Volcano, Hawaii",
-        "time": 1719752988560,
-        "updated": 1719761593040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74305231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74305231.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "hv",
-        "code": "74305231",
-        "ids": ",us6000n9ev,hv74305231,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.006449,
-        "rms": 0.340000004,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 7 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.244827270508,
-          19.3786659240723,
-          1.00999999046326
-        ]
-      },
-      "id": "hv74305231"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "6 km SSW of Volcano, Hawaii",
-        "time": 1719752778050,
-        "updated": 1719752935660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74305226",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74305226.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "74305226",
-        "ids": ",hv74305226,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.003397,
-        "rms": 0.280000001,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km SSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.248001098633,
-          19.3841667175293,
-          0.419999986886978
-        ]
-      },
-      "id": "hv74305226"
     }
   ],
   "bbox": [
-    -155.24800109863,
+    -155.24682617188,
     -62.6803,
-    -3.2200000286102,
+    -0.37,
     175.6618,
     66.0628,
     600.746
