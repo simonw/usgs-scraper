@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720375185000,
+    "generated": 1720378785000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "57 km E of Juneau, Alaska",
+        "time": 1720375657684,
+        "updated": 1720376182040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248ovbz54",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248ovbz54.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "0248ovbz54",
+        "ids": ",us7000mxmi,ak0248ovbz54,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 57 km E of Juneau, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.4455,
+          58.3423,
+          0
+        ]
+      },
+      "id": "ak0248ovbz54"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.53,
+        "place": "135 km NNW of San Antonio, Puerto Rico",
+        "time": 1720374628000,
+        "updated": 1720377525301,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024189000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024189000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 192,
+        "net": "pr",
+        "code": "2024189000",
+        "ids": ",us7000mxmh,pr2024189000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 1.2562,
+        "rms": 0.11,
+        "gap": 229,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 135 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6143,
+          19.6186,
+          18
+        ]
+      },
+      "id": "pr2024189000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.78999996,
         "place": "7 km SW of Volcano, Hawaii",
         "time": 1720371373110,
-        "updated": 1720371535900,
+        "updated": 1720378102806,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74320601",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74320601.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "74320601",
         "ids": ",hv74320601,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 0.006993,
         "rms": 0.239999995,
@@ -855,17 +935,17 @@
         "mag": 4.09,
         "place": "14 km S of Fern Forest, Hawaii",
         "time": 1720334865840,
-        "updated": 1720374331189,
+        "updated": 1720377334703,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74319421",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74319421.geojson",
-        "felt": 699,
+        "felt": 704,
         "cdi": 4.6,
         "mmi": 5.153,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 579,
+        "sig": 581,
         "net": "hv",
         "code": "74319421",
         "ids": ",hv74319421,us7000mxjl,pt24189050,",
@@ -1648,53 +1728,13 @@
         ]
       },
       "id": "ak0248n8z353"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1720289609220,
-        "updated": 1720302381040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mxgp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mxgp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.82,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000mxgp",
-        "ids": ",ak0248n7tw2j,us7000mxgp,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 61,
-        "dmin": 0.34,
-        "rms": 0.4,
-        "gap": 182,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.2314,
-          51.6564,
-          112.689
-        ]
-      },
-      "id": "us7000mxgp"
     }
   ],
   "bbox": [
     -178.2207,
     -45.7586,
     0,
-    178.2314,
+    162.0547,
     63.6453,
     462.255
   ]
