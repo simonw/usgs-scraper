@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720465187000,
+    "generated": 1720468787000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "32 km SSW of Hawthorne, Nevada",
+        "time": 1720467495824,
+        "updated": 1720468590347,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00880578",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00880578.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nn",
+        "code": "00880578",
+        "ids": ",nn00880578,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.181,
+        "rms": 0.2584,
+        "gap": 64.84,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 32 km SSW of Hawthorne, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7917,
+          38.2627,
+          5.9
+        ]
+      },
+      "id": "nn00880578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "45 km WSW of Atiquipa, Peru",
+        "time": 1720467208765,
+        "updated": 1720468615233,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mxvv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mxvv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.487,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000mxvv",
+        "ids": ",us7000mxvv,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 41,
+        "dmin": 4.47,
+        "rms": 1.05,
+        "gap": 176,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 45 km WSW of Atiquipa, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7421,
+          -15.9895,
+          31.466
+        ]
+      },
+      "id": "us7000mxvv"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "101 km E of McCarthy, Alaska",
         "time": 1720464592850,
-        "updated": 1720464727733,
+        "updated": 1720466726040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248qj4cvp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248qj4cvp.geojson",
@@ -28,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0248qj4cvp",
-        "ids": ",ak0248qj4cvp,",
-        "sources": ",ak,",
+        "ids": ",us7000mxv3,ak0248qj4cvp,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -52,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.5,
+        "place": "188 km S of Atka, Alaska",
+        "time": 1720461944618,
+        "updated": 1720465864040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mxuz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mxuz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "7000mxuz",
+        "ids": ",us7000mxuz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 1.705,
+        "rms": 0.73,
+        "gap": 234,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 188 km S of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.9133,
+          50.5091,
+          146.933
+        ]
+      },
+      "id": "us7000mxuz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "35 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1720458906910,
-        "updated": 1720460140030,
+        "updated": 1720466041040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71454833",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71454833.geojson",
@@ -68,8 +188,8 @@
         "sig": 112,
         "net": "pr",
         "code": "71454833",
-        "ids": ",pr71454833,",
-        "sources": ",pr,",
+        "ids": ",us7000mxuk,pr71454833,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 6,
         "dmin": 0.3036,
@@ -495,17 +615,17 @@
         "mag": 5.3,
         "place": "1 km E of Santo Domingo, Panama",
         "time": 1720432495048,
-        "updated": 1720464048067,
+        "updated": 1720467896972,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mxr8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mxr8.geojson",
-        "felt": 58,
+        "felt": 60,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 463,
+        "sig": 464,
         "net": "us",
         "code": "7000mxr8",
         "ids": ",us7000mxr8,",
@@ -1211,7 +1331,7 @@
     }
   ],
   "bbox": [
-    -160.7592,
+    -173.9133,
     -23.7985,
     0,
     162.1019,
