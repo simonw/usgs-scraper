@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720497594000,
+    "generated": 1720501194000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "57 km E of Juneau, Alaska",
+        "time": 1720498924253,
+        "updated": 1720499068731,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248ry5qu9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248ry5qu9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0248ry5qu9",
+        "ids": ",ak0248ry5qu9,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.97,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 57 km E of Juneau, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.4344,
+          58.3359,
+          0
+        ]
+      },
+      "id": "ak0248ry5qu9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "southern Mid-Atlantic Ridge",
+        "time": 1720498120216,
+        "updated": 1720500093040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mxyi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mxyi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000mxyi",
+        "ids": ",us7000mxyi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 34.971,
+        "rms": 0.75,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - southern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.4248,
+          -27.682,
+          10
+        ]
+      },
+      "id": "us7000mxyi"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "12 km WSW of Kenai, Alaska",
         "time": 1720492259240,
-        "updated": 1720492363289,
+        "updated": 1720500694040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248rx0ply",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248rx0ply.geojson",
@@ -28,8 +108,8 @@
         "sig": 129,
         "net": "ak",
         "code": "0248rx0ply",
-        "ids": ",ak0248rx0ply,",
-        "sources": ",ak,",
+        "ids": ",us7000mxy3,ak0248rx0ply,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -55,11 +135,11 @@
         "mag": 2.79,
         "place": "6 km S of Volcano, Hawaii",
         "time": 1720486735880,
-        "updated": 1720497332638,
+        "updated": 1720500642158,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74323076",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74323076.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1488,51 +1568,11 @@
         ]
       },
       "id": "ci40651799"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "22 km SSW of Newport Beach, CA",
-        "time": 1720414481790,
-        "updated": 1720495061433,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40651751",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40651751.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 114,
-        "net": "ci",
-        "code": "40651751",
-        "ids": ",ci40651751,us7000mxq8,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 70,
-        "dmin": 0.1957,
-        "rms": 0.23,
-        "gap": 105,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 22 km SSW of Newport Beach, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.019,
-          33.44,
-          10.6
-        ]
-      },
-      "id": "ci40651751"
     }
   ],
   "bbox": [
     -173.9133,
-    -23.7985,
+    -27.682,
     0,
     134.6777,
     69.6362,
