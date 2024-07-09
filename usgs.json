@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720555220000,
+    "generated": 1720558795000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1720555350110,
+        "updated": 1720555507950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74324991",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74324991.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "hv",
+        "code": "74324991",
+        "ids": ",hv74324991,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.004852,
+        "rms": 0.189999998,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.273330688477,
+          19.3904991149902,
+          2.00999999046326
+        ]
+      },
+      "id": "hv74324991"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.6,
         "place": "28 km WSW of Salamatof, Alaska",
         "time": 1720554786360,
-        "updated": 1720555197083,
+        "updated": 1720555845379,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248s79w9m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248s79w9m.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
+        "felt": 4,
+        "cdi": 2.7,
+        "mmi": 3.093,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 200,
         "net": "ak",
         "code": "0248s79w9m",
-        "ids": ",ak0248s79w9m,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",ak0248s79w9m,us7000my4e,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.59,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak0248s79w9m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "western Xizang",
+        "time": 1720552687028,
+        "updated": 1720555389040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000my3y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000my3y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000my3y",
+        "ids": ",us7000my3y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 6.334,
+        "rms": 0.73,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - western Xizang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.1206,
+          34.1134,
+          10
+        ]
+      },
+      "id": "us7000my3y"
     },
     {
       "type": "Feature",
@@ -535,11 +615,11 @@
         "mag": 4.8,
         "place": "13 km SSW of İçmeler, Turkey",
         "time": 1720516311715,
-        "updated": 1720552550022,
+        "updated": 1720555973798,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mxzg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mxzg.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "uu80075496"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "19 km S of Weston, Colorado",
-        "time": 1720470934101,
-        "updated": 1720471721040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mxwe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mxwe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000mxwe",
-        "ids": ",us7000mxwe,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.158,
-        "rms": 0.37,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 19 km S of Weston, Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.8441,
-          36.96,
-          1.917
-        ]
-      },
-      "id": "us7000mxwe"
     }
   ],
   "bbox": [
