@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720699249000,
+    "generated": 1720702969000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "193 km SW of Sarangani, Philippines",
+        "time": 1720701056198,
+        "updated": 1720702467040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000myjz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000myjz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000myjz",
+        "ids": ",us7000myjz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 3.193,
+        "rms": 0.83,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 193 km SW of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.2631,
+          4.1378,
+          369.175
+        ]
+      },
+      "id": "us7000myjz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "7 km WNW of Belén, Nicaragua",
+        "time": 1720699449409,
+        "updated": 1720701454040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000myjw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000myjw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000myjw",
+        "ids": ",us7000myjw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.682,
+        "rms": 0.91,
+        "gap": 141,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 7 km WNW of Belén, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9578,
+          11.5257,
+          187.497
+        ]
+      },
+      "id": "us7000myjw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,11 +135,11 @@
         "mag": 5.4,
         "place": "120 km SSW of Merizo Village, Guam",
         "time": 1720690054542,
-        "updated": 1720698703380,
+        "updated": 1720701221790,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000myiz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000myiz.geojson",
-        "felt": 18,
+        "felt": 19,
         "cdi": 3.4,
         "mmi": 3.529,
         "alert": "green",
@@ -588,8 +668,8 @@
         "sig": 789,
         "net": "us",
         "code": "7000myfa",
-        "ids": ",at00sgfsu7,us7000myfa,",
-        "sources": ",at,us,",
+        "ids": ",at00sgfsu7,us7000myfa,pt24193000,",
+        "sources": ",at,us,pt,",
         "types": ",dyfi,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 136,
         "dmin": 2.602,
@@ -608,6 +688,46 @@
         ]
       },
       "id": "us7000myfa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "101 km E of McCarthy, Alaska",
+        "time": 1720663865684,
+        "updated": 1720663978049,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248v7z7u0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248v7z7u0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "0248v7z7u0",
+        "ids": ",ak0248v7z7u0,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.61,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 101 km E of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.0338,
+          61.5577,
+          0
+        ]
+      },
+      "id": "ak0248v7z7u0"
     },
     {
       "type": "Feature",
@@ -1368,86 +1488,6 @@
         ]
       },
       "id": "us7000mya1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "36 km S of Sacsamarca, Peru",
-        "time": 1720614142775,
-        "updated": 1720670870040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000my9d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000my9d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000my9d",
-        "ids": ",us7000my9d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 3.325,
-        "rms": 0.63,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 36 km S of Sacsamarca, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.3448,
-          -14.2673,
-          87.663
-        ]
-      },
-      "id": "us7000my9d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "14 km W of Cantua Creek, CA",
-        "time": 1720613077970,
-        "updated": 1720678816644,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75033147",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75033147.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "75033147",
-        "ids": ",nc75033147,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.1678,
-        "rms": 0.25,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 14 km W of Cantua Creek, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.470832824707,
-          36.4806671142578,
-          12.4099998474121
-        ]
-      },
-      "id": "nc75033147"
     }
   ],
   "bbox": [
