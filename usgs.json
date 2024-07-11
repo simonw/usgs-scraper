@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720664088000,
+    "generated": 1720666788000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "101 km E of McCarthy, Alaska",
-        "time": 1720663865684,
-        "updated": 1720663978049,
+        "mag": 2.95,
+        "place": "5 km NNW of Walker, CA",
+        "time": 1720665242070,
+        "updated": 1720665336318,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248v7z7u0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248v7z7u0.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75033512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75033512.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0248v7z7u0",
-        "ids": ",ak0248v7z7u0,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
+        "sig": 134,
+        "net": "nc",
+        "code": "75033512",
+        "ids": ",nc75033512,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
         "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
+        "rms": 0.18,
+        "gap": 106,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 101 km E of McCarthy, Alaska"
+        "title": "M 3.0 - 5 km NNW of Walker, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.0338,
-          61.5577,
-          0
+          -119.509834289551,
+          38.5574989318848,
+          4.78000020980835
         ]
       },
-      "id": "ak0248v7z7u0"
+      "id": "nc75033512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "45 km SSE of Pedro Bay, Alaska",
+        "time": 1720664610406,
+        "updated": 1720664793568,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248v81uyo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248v81uyo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "0248v81uyo",
+        "ids": ",ak0248v81uyo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.21,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 45 km SSE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.6685,
+          59.445,
+          178.5
+        ]
+      },
+      "id": "ak0248v81uyo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 7.1,
+        "place": "106 km WSW of Sangay, Philippines",
+        "time": 1720663997513,
+        "updated": 1720666727672,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000myfa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000myfa.geojson",
+        "felt": 8,
+        "cdi": 4.1,
+        "mmi": 3.618,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 779,
+        "net": "us",
+        "code": "7000myfa",
+        "ids": ",at00sgfsu7,us7000myfa,",
+        "sources": ",at,us,",
+        "types": ",dyfi,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 136,
+        "dmin": 2.602,
+        "rms": 1.01,
+        "gap": 17,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 7.1 - 106 km WSW of Sangay, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1605,
+          6.0646,
+          620.077
+        ]
+      },
+      "id": "us7000myfa"
     },
     {
       "type": "Feature",
@@ -1376,6 +1456,6 @@
     0,
     142.4565,
     68.1543,
-    261.767
+    620.077
   ]
 }
