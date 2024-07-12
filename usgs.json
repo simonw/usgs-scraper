@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720774826000,
+    "generated": 1720778390000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "23 km SW of Acarí, Peru",
+        "time": 1720776632984,
+        "updated": 1720778054040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mytc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mytc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 5.358,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000mytc",
+        "ids": ",us7000mytc,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 133,
+        "dmin": 4.093,
+        "rms": 0.7,
+        "gap": 120,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 23 km SW of Acarí, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7689,
+          -15.5726,
+          31.894
+        ]
+      },
+      "id": "us7000mytc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,22 +135,22 @@
         "mag": 4.3,
         "place": "14 km ENE of Pappadátes, Greece",
         "time": 1720766907862,
-        "updated": 1720770651040,
+        "updated": 1720775852864,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mysk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mysk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "7000mysk",
         "ids": ",us7000mysk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 1.144,
         "rms": 0.54,
@@ -175,11 +215,11 @@
         "mag": 3.47,
         "place": "20 km SSW of Morton, Washington",
         "time": 1720764963440,
-        "updated": 1720774522212,
+        "updated": 1720776577800,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62015912",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62015912.geojson",
-        "felt": 122,
+        "felt": 124,
         "cdi": 3.4,
         "mmi": 3.481,
         "alert": null,
@@ -255,11 +295,11 @@
         "mag": 3.8,
         "place": "25 km ESE of Fox River, Alaska",
         "time": 1720761965509,
-        "updated": 1720773310993,
+        "updated": 1720776971138,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248wxe2t2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248wxe2t2.geojson",
-        "felt": 102,
+        "felt": 103,
         "cdi": 4.3,
         "mmi": 3.006,
         "alert": null,
@@ -1255,7 +1295,7 @@
         "mag": 6.4,
         "place": "209 km WSW of Tofino, Canada",
         "time": 1720710527501,
-        "updated": 1720771876395,
+        "updated": 1720778286138,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mykj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mykj.geojson",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "ak0248vdiv13"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "120 km SSW of Merizo Village, Guam",
-        "time": 1720690054542,
-        "updated": 1720755461043,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000myiz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000myiz.geojson",
-        "felt": 21,
-        "cdi": 3.1,
-        "mmi": 3.529,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 455,
-        "net": "us",
-        "code": "7000myiz",
-        "ids": ",us7000myiz,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,oaf,origin,phase-data,shakemap,",
-        "nst": 86,
-        "dmin": 1.458,
-        "rms": 0.88,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - 120 km SSW of Merizo Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.1309,
-          12.3126,
-          10
-        ]
-      },
-      "id": "us7000myiz"
     }
   ],
   "bbox": [
