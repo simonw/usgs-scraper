@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720965629000,
+    "generated": 1720969196000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "50 km SSE of Adak, Alaska",
+        "time": 1720966882652,
+        "updated": 1720968938886,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mz7a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mz7a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.632,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000mz7a",
+        "ids": ",ak02490dsmse,us7000mz7a,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 35,
+        "dmin": 0.477,
+        "rms": 0.82,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 50 km SSE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.2385,
+          51.4953,
+          51.782
+        ]
+      },
+      "id": "us7000mz7a"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -452,20 +492,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "2 km E of Point MacKenzie, Alaska",
-        "time": 1720947547665,
-        "updated": 1720954969326,
+        "mag": 2.8,
+        "place": "3 km ESE of Point MacKenzie, Alaska",
+        "time": 1720947548315,
+        "updated": 1720968098856,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02490ag5gu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02490ag5gu.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 2.7,
         "mmi": 2.069,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 123,
         "net": "ak",
         "code": "02490ag5gu",
         "ids": ",ak02490ag5gu,us7000mz67,",
@@ -473,18 +513,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.24,
+        "rms": 0.64,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 2 km E of Point MacKenzie, Alaska"
+        "title": "M 2.8 - 3 km ESE of Point MacKenzie, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.9275,
-          61.3549,
-          41
+          -149.9296,
+          61.3451,
+          43.9
         ]
       },
       "id": "ak02490ag5gu"
@@ -575,7 +615,7 @@
         "mag": 2.5,
         "place": "9 km NW of Smiths Ferry, Idaho",
         "time": 1720940762624,
-        "updated": 1720955150230,
+        "updated": 1720966776370,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mz61",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mz61.geojson",
@@ -588,8 +628,8 @@
         "sig": 96,
         "net": "us",
         "code": "7000mz61",
-        "ids": ",us7000mz61,",
-        "sources": ",us,",
+        "ids": ",us7000mz61,mb90056788,",
+        "sources": ",us,mb,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 0.34,
@@ -1695,7 +1735,7 @@
     -37.4814,
     1.877563596,
     160.8462,
-    61.3549,
+    61.3451,
     586.853
   ]
 }
