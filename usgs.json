@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720947635000,
+    "generated": 1720951256000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.88,
+        "place": "11 km SSE of Guánica, Puerto Rico",
+        "time": 1720949110010,
+        "updated": 1720950708600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71455378",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71455378.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "pr",
+        "code": "71455378",
+        "ids": ",pr71455378,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1615,
+        "rms": 0.22,
+        "gap": 225,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 11 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8713333333333,
+          17.8766666666667,
+          6.62
+        ]
+      },
+      "id": "pr71455378"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "2 km E of Point MacKenzie, Alaska",
         "time": 1720947547665,
-        "updated": 1720947630735,
+        "updated": 1720951143708,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02490ag5gu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02490ag5gu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 7,
+        "cdi": 2.7,
+        "mmi": 2.052,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 131,
         "net": "ak",
         "code": "02490ag5gu",
-        "ids": ",ak02490ag5gu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02490ag5gu,us7000mz67,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.24,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak02490ag5gu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "102 km SW of Basco, Philippines",
+        "time": 1720945170338,
+        "updated": 1720947751040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mz66",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mz66.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000mz66",
+        "ids": ",us7000mz66,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 2.973,
+        "rms": 0.68,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 102 km SW of Basco, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2343,
+          19.8337,
+          15.25
+        ]
+      },
+      "id": "us7000mz66"
     },
     {
       "type": "Feature",
