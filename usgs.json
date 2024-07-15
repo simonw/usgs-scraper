@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721012436000,
+    "generated": 1721015976000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "232 km E of Levuka, Fiji",
+        "time": 1721012507787,
+        "updated": 1721013374040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mz9t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mz9t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000mz9t",
+        "ids": ",us7000mz9t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 3.3,
+        "rms": 0.9,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 232 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.491,
+          -17.9773,
+          570.292
+        ]
+      },
+      "id": "us7000mz9t"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.88,
         "place": "15 km SSE of Waynoka, Oklahoma",
         "time": 1721011618897,
-        "updated": 1721012313387,
+        "updated": 1721014598850,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024nuic",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024nuic.geojson",
-        "felt": 6,
-        "cdi": 6.6,
-        "mmi": null,
+        "felt": 13,
+        "cdi": 5.9,
+        "mmi": 4.201,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 236,
+        "sig": 239,
         "net": "ok",
         "code": "2024nuic",
-        "ids": ",ok2024nuic,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",ok2024nuic,us7000mz9k,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 113,
         "dmin": 0.01106534433,
         "rms": 0.7343804457,
@@ -1408,86 +1448,6 @@
         ]
       },
       "id": "us7000mz5k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.39,
-        "place": "6 km NNW of Vega Baja, Puerto Rico",
-        "time": 1720926553930,
-        "updated": 1720928373760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71455343",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71455343.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 177,
-        "net": "pr",
-        "code": "71455343",
-        "ids": ",us7000mz56,pr71455343,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1591,
-        "rms": 0.24,
-        "gap": 185,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 6 km NNW of Vega Baja, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4205,
-          18.4951666666667,
-          71.62
-        ]
-      },
-      "id": "pr71455343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "14 km SSW of San Dionisio del Mar, Mexico",
-        "time": 1720926422388,
-        "updated": 1720927221040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mz58",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mz58.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000mz58",
-        "ids": ",us7000mz58,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 2.565,
-        "rms": 0.5,
-        "gap": 174,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 14 km SSW of San Dionisio del Mar, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.8053,
-          16.1981,
-          90.334
-        ]
-      },
-      "id": "us7000mz58"
     }
   ],
   "bbox": [
