@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721156387000,
+    "generated": 1721159999000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "7 km SSW of Volcano, Hawaii",
+        "time": 1721157008419,
+        "updated": 1721157768040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzmz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzmz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000mzmz",
+        "ids": ",us7000mzmz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.028,
+        "rms": 0.23,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km SSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2683,
+          19.3847,
+          2.858
+        ]
+      },
+      "id": "us7000mzmz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "15 km NNW of Magadi, Kenya",
         "time": 1721151175383,
-        "updated": 1721156349942,
+        "updated": 1721159543233,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzmk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzmk.geojson",
-        "felt": 116,
+        "felt": 128,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 384,
+        "sig": 390,
         "net": "us",
         "code": "7000mzmk",
         "ids": ",us7000mzmk,",
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000mzmk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "5 km SSW of Volcano, Hawaii",
+        "time": 1721150370960,
+        "updated": 1721157120460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337872",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337872.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "74337872",
+        "ids": ",hv74337872,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.007837,
+        "rms": 0.09,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km SSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.250333333333,
+          19.3933333333333,
+          1.76
+        ]
+      },
+      "id": "hv74337872"
     },
     {
       "type": "Feature",
@@ -92,50 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49,
-        "place": "1 km NW of Pāhala, Hawaii",
-        "time": 1721147181020,
-        "updated": 1721147340460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337757",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337757.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "74337757",
-        "ids": ",hv74337757,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1187,
-        "rms": 0.140000001,
-        "gap": 197,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km NW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.494338989258,
-          19.2129993438721,
-          26.7600002288818
-        ]
-      },
-      "id": "hv74337757"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.71,
         "place": "14 km SW of Borrego Springs, CA",
         "time": 1721142340580,
-        "updated": 1721142982750,
+        "updated": 1721157575040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661111",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661111.geojson",
@@ -148,8 +188,8 @@
         "sig": 113,
         "net": "ci",
         "code": "40661111",
-        "ids": ",ci40661111,",
-        "sources": ",ci,",
+        "ids": ",ci40661111,us7000mzk4,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 97,
         "dmin": 0.08543,
@@ -332,10 +372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.57,
-        "place": "7 km WSW of Kahaluu-Keauhou, Hawaii",
-        "time": 1721138352070,
-        "updated": 1721153298040,
+        "mag": 2.94,
+        "place": "8 km WSW of Kahaluu-Keauhou, Hawaii",
+        "time": 1721138351940,
+        "updated": 1721158853670,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337432",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337432.geojson",
@@ -343,28 +383,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 133,
         "net": "hv",
         "code": "74337432",
         "ids": ",us7000mzjr,hv74337432,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.1113,
-        "rms": 0.170000002,
-        "gap": 210,
+        "nst": 41,
+        "dmin": 0.1137,
+        "rms": 0.14,
+        "gap": 219,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 7 km WSW of Kahaluu-Keauhou, Hawaii"
+        "title": "M 2.9 - 8 km WSW of Kahaluu-Keauhou, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.021331787109,
-          19.5405006408691,
-          41.8600006103516
+          -156.036333333333,
+          19.5406666666667,
+          42.12
         ]
       },
       "id": "hv74337432"
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "us7000mzfd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "7 km WSW of Ollagüe, Chile",
-        "time": 1721070521341,
-        "updated": 1721072501177,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzf1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzf1.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000mzf1",
-        "ids": ",us7000mzf1,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 80,
-        "dmin": 1.014,
-        "rms": 1.41,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 7 km WSW of Ollagüe, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3146,
-          -21.2615,
-          124.342
-        ]
-      },
-      "id": "us7000mzf1"
     }
   ],
   "bbox": [
