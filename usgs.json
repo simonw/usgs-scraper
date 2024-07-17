@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721239233000,
+    "generated": 1721242792000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 28
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.7,
         "place": "114 km WSW of Covenant Life, Alaska",
         "time": 1721238917391,
-        "updated": 1721239092587,
+        "updated": 1721242490040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02495ee9a3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02495ee9a3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 4.923,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 211,
         "net": "ak",
         "code": "02495ee9a3",
-        "ids": ",ak02495ee9a3,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02495ee9a3,us7000mzvi,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.93,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak02495ee9a3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "49 km NNW of San Pedro de Atacama, Chile",
+        "time": 1721236870051,
+        "updated": 1721241642040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzuw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzuw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000mzuw",
+        "ids": ",us7000mzuw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.488,
+        "rms": 0.62,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 49 km NNW of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3153,
+          -22.478,
+          143.618
+        ]
+      },
+      "id": "us7000mzuw"
     },
     {
       "type": "Feature",
@@ -95,17 +135,17 @@
         "mag": 3.34,
         "place": "10 km ESE of Gilroy, CA",
         "time": 1721230048770,
-        "updated": 1721238817694,
+        "updated": 1721242672652,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75036152",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75036152.geojson",
-        "felt": 65,
+        "felt": 69,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 189,
+        "sig": 190,
         "net": "nc",
         "code": "75036152",
         "ids": ",nc75036152,",
@@ -132,39 +172,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.06,
-        "place": "6 km ENE of San Jacinto, CA",
-        "time": 1721229140580,
-        "updated": 1721238401100,
+        "mag": 2.79,
+        "place": "5 km ENE of San Jacinto, CA",
+        "time": 1721229140510,
+        "updated": 1721242194417,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40662231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40662231.geojson",
-        "felt": 91,
+        "felt": 93,
         "cdi": 3.8,
         "mmi": 2.874,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 179,
+        "sig": 155,
         "net": "ci",
         "code": "40662231",
         "ids": ",ci40662231,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 99,
-        "dmin": 0.0507,
-        "rms": 0.21,
-        "gap": 21,
+        "nst": 154,
+        "dmin": 0.05084,
+        "rms": 0.19,
+        "gap": 17,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 6 km ENE of San Jacinto, CA"
+        "title": "M 2.8 - 5 km ENE of San Jacinto, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.9069977,
-          33.8083344,
-          13.82
+          -116.9068333,
+          33.8071667,
+          14.17
         ]
       },
       "id": "ci40662231"
@@ -212,10 +252,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
-        "place": "92 km SSW of Alberto Oviedo Mota, B.C., MX",
-        "time": 1721214747690,
-        "updated": 1721215122389,
+        "mag": 2.46,
+        "place": "5 km SSW of Volcano, Hawaii",
+        "time": 1721222994080,
+        "updated": 1721241619020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74340616",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74340616.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "74340616",
+        "ids": ",hv74340616,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.008243,
+        "rms": 0.11,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.245666666667,
+          19.3918333333333,
+          1.03
+        ]
+      },
+      "id": "hv74340616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "91 km SSW of Alberto Oviedo Mota, B.C., MX",
+        "time": 1721214747510,
+        "updated": 1721241034312,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40662023",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40662023.geojson",
@@ -223,28 +303,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 97,
         "net": "ci",
         "code": "40662023",
         "ids": ",ci40662023,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.1755,
-        "rms": 0.16,
-        "gap": 112,
+        "nst": 9,
+        "dmin": 0.1864,
+        "rms": 0.21,
+        "gap": 110,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 92 km SSW of Alberto Oviedo Mota, B.C., MX"
+        "title": "M 2.5 - 91 km SSW of Alberto Oviedo Mota, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.6138333,
-          31.4898333,
-          8.04
+          -115.6058333,
+          31.4991667,
+          6.17
         ]
       },
       "id": "ci40662023"
@@ -415,17 +495,17 @@
         "mag": 3.06,
         "place": "6 km NNW of Pinnacles, CA",
         "time": 1721199020300,
-        "updated": 1721213471256,
+        "updated": 1721241342034,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75036052",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75036052.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 146,
+        "sig": 147,
         "net": "nc",
         "code": "75036052",
         "ids": ",nc75036052,us7000mzrq,",
@@ -1052,10 +1132,10 @@
   ],
   "bbox": [
     -155.3994,
-    1.246,
+    -22.478,
     -1.0700000524521,
     178.4642,
     60.7499,
-    112.6
+    143.618
   ]
 }
