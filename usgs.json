@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721174502000,
+    "generated": 1721179602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -15,14 +15,14 @@
         "mag": 5.4,
         "place": "109 km ESE of Bitung, Indonesia",
         "time": 1721173168641,
-        "updated": 1721174369040,
+        "updated": 1721174607401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzpj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzpj.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 4.08,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 449,
@@ -30,7 +30,7 @@
         "code": "7000mzpj",
         "ids": ",us7000mzpj,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 117,
         "dmin": 1.361,
         "rms": 1.13,
@@ -215,17 +215,17 @@
         "mag": 4.6,
         "place": "15 km NNW of Magadi, Kenya",
         "time": 1721151175383,
-        "updated": 1721171340311,
+        "updated": 1721177380463,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzmk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzmk.geojson",
-        "felt": 139,
+        "felt": 140,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 395,
+        "sig": 396,
         "net": "us",
         "code": "7000mzmk",
         "ids": ",us7000mzmk,",
@@ -455,12 +455,12 @@
         "mag": 4.8,
         "place": "10 km NNE of Tataltepec de Valdés, Mexico",
         "time": 1721140155066,
-        "updated": 1721160497596,
+        "updated": 1721177251303,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzjz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzjz.geojson",
-        "felt": 8,
-        "cdi": 3.6,
+        "felt": 9,
+        "cdi": 3.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -728,46 +728,6 @@
         ]
       },
       "id": "us7000mzjf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "7 km SW of Volcano, Hawaii",
-        "time": 1721134026540,
-        "updated": 1721134184530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337262",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337262.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "hv",
-        "code": "74337262",
-        "ids": ",hv74337262,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.005748,
-        "rms": 0.119999997,
-        "gap": 130,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.279663085938,
-          19.3945007324219,
-          1.54999995231628
-        ]
-      },
-      "id": "hv74337262"
     },
     {
       "type": "Feature",
@@ -1215,7 +1175,7 @@
         "mag": 2.98,
         "place": "6 km S of Volcano, Hawaii",
         "time": 1721098837310,
-        "updated": 1721099605269,
+        "updated": 1721179199040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74336362",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74336362.geojson",
@@ -1228,8 +1188,8 @@
         "sig": 137,
         "net": "hv",
         "code": "74336362",
-        "ids": ",hv74336362,",
-        "sources": ",hv,",
+        "ids": ",hv74336362,us7000mzh1,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 37,
         "dmin": 0.01077,
@@ -1253,9 +1213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "53 km SSW of Bengkulu, Indonesia",
-        "time": 1721098387993,
-        "updated": 1721100820040,
+        "place": "51 km SSW of Bengkulu, Indonesia",
+        "time": 1721098389295,
+        "updated": 1721178712040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzh0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzh0.geojson",
@@ -1271,23 +1231,63 @@
         "ids": ",us7000mzh0,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.91,
-        "rms": 0.59,
-        "gap": 180,
+        "nst": 53,
+        "dmin": 0.922,
+        "rms": 0.56,
+        "gap": 132,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 53 km SSW of Bengkulu, Indonesia"
+        "title": "M 4.9 - 51 km SSW of Bengkulu, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          102.0522,
-          -4.2312,
-          56.365
+          102.0443,
+          -4.2064,
+          70.393
         ]
       },
       "id": "us7000mzh0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "30 km NNE of Rāmhormoz, Iran",
+        "time": 1721097725824,
+        "updated": 1721177179040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzgz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzgz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000mzgz",
+        "ids": ",us7000mzgz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 4.89,
+        "rms": 0.67,
+        "gap": 131,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 30 km NNE of Rāmhormoz, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.7122,
+          31.5363,
+          10
+        ]
+      },
+      "id": "us7000mzgz"
     },
     {
       "type": "Feature",
@@ -1328,46 +1328,6 @@
         ]
       },
       "id": "nc75035397"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "61 km ESE of Kerman, Iran",
-        "time": 1721092748000,
-        "updated": 1721093458040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzgq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzgq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000mzgq",
-        "ids": ",us7000mzgq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 5.298,
-        "rms": 0.98,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 61 km ESE of Kerman, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.6766,
-          30.0994,
-          10
-        ]
-      },
-      "id": "us7000mzgq"
     }
   ],
   "bbox": [
