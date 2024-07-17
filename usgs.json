@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721221319000,
+    "generated": 1721224792000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "47 km NW of Ninilchik, Alaska",
+        "time": 1721223448071,
+        "updated": 1721223532000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02495bwots",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02495bwots.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "02495bwots",
+        "ids": ",ak02495bwots,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 47 km NW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.2912,
+          60.3482,
+          112.6
+        ]
+      },
+      "id": "ak02495bwots"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 2.84,
         "place": "6 km SSW of Volcano, Hawaii",
         "time": 1721203853220,
-        "updated": 1721213585241,
+        "updated": 1721223077040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74340091",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74340091.geojson",
@@ -108,8 +148,8 @@
         "sig": 124,
         "net": "hv",
         "code": "74340091",
-        "ids": ",hv74340091,",
-        "sources": ",hv,",
+        "ids": ",hv74340091,us7000mzs1,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 36,
         "dmin": 0.005479,
@@ -372,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "21 km WNW of Stanton, Texas",
-        "time": 1721191300972,
-        "updated": 1721213523439,
+        "mag": 3,
+        "place": "20 km WNW of Stanton, Texas",
+        "time": 1721191300924,
+        "updated": 1721223521266,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024nycy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024nycy.geojson",
@@ -385,26 +425,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 138,
         "net": "tx",
         "code": "2024nycy",
         "ids": ",tx2024nycy,us7000mzqz,",
         "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
+        "nst": 25,
         "dmin": 0.1,
         "rms": 0.1,
-        "gap": 152,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 21 km WNW of Stanton, Texas"
+        "title": "M 3.0 - 20 km WNW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.991,
-          32.218,
-          8.9111
+          -101.985,
+          32.217,
+          9.1309
         ]
       },
       "id": "tx2024nycy"
@@ -568,6 +608,46 @@
         ]
       },
       "id": "us7000mzq9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "21 km WNW of Stanton, Texas",
+        "time": 1721175936912,
+        "updated": 1721221319242,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024nxum",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024nxum.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2024nxum",
+        "ids": ",tx2024nxum,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 21 km WNW of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.988,
+          32.22,
+          6.9092
+        ]
+      },
+      "id": "tx2024nxum"
     },
     {
       "type": "Feature",
@@ -852,10 +932,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "35 km NW of Toyah, Texas",
-        "time": 1721149587029,
-        "updated": 1721151899040,
+        "mag": 2.7,
+        "place": "36 km NW of Toyah, Texas",
+        "time": 1721149587373,
+        "updated": 1721223738377,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024nxfy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024nxfy.geojson",
@@ -863,28 +943,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 112,
         "net": "tx",
         "code": "2024nxfy",
         "ids": ",us7000mzm6,tx2024nxfy,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 16,
+        "nst": 14,
         "dmin": 0,
-        "rms": 0.3,
-        "gap": 64,
+        "rms": 0.1,
+        "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 35 km NW of Toyah, Texas"
+        "title": "M 2.7 - 36 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.021,
-          31.567,
-          7.0207
+          -104.026,
+          31.572,
+          7.3944
         ]
       },
       "id": "tx2024nxfy"
@@ -1128,173 +1208,13 @@
         ]
       },
       "id": "pr2024198000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "8 km WSW of Kahaluu-Keauhou, Hawaii",
-        "time": 1721138351940,
-        "updated": 1721158853670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337432",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337432.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 133,
-        "net": "hv",
-        "code": "74337432",
-        "ids": ",us7000mzjr,hv74337432,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.1137,
-        "rms": 0.14,
-        "gap": 219,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 8 km WSW of Kahaluu-Keauhou, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.036333333333,
-          19.5406666666667,
-          42.12
-        ]
-      },
-      "id": "hv74337432"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "6 km S of Volcano, Hawaii",
-        "time": 1721136804570,
-        "updated": 1721152562040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337362",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337362.geojson",
-        "felt": 4,
-        "cdi": 3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 124,
-        "net": "hv",
-        "code": "74337362",
-        "ids": ",hv74337362,us7000mzjl,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.008184,
-        "rms": 0.1,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 6 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.243166666667,
-          19.3883333333333,
-          1.69
-        ]
-      },
-      "id": "hv74337362"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1721136715702,
-        "updated": 1721152131040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzjp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzjp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.226,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000mzjp",
-        "ids": ",ak02493oc44a,us7000mzjp,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 113,
-        "dmin": 0.363,
-        "rms": 0.79,
-        "gap": 142,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.7 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.8262,
-          51.5853,
-          71.76
-        ]
-      },
-      "id": "us7000mzjp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "3 km W of Ushiku, Japan",
-        "time": 1721135960744,
-        "updated": 1721170500959,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzjf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzjf.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000mzjf",
-        "ids": ",us7000mzjf,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 98,
-        "dmin": 1.623,
-        "rms": 0.87,
-        "gap": 84,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.4 - 3 km W of Ushiku, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.0895,
-          35.9718,
-          71.614
-        ]
-      },
-      "id": "us7000mzjf"
     }
   ],
   "bbox": [
-    -156.03633333333,
+    -155.3994,
     -23.6683,
     -1.0700000524521,
-    178.8262,
+    178.4642,
     60.7499,
     196.051
   ]
