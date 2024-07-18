@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721307778000,
+    "generated": 1721311203000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 21
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "south of Alaska",
+        "time": 1721305575688,
+        "updated": 1721309324040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzzt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzzt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000mzzt",
+        "ids": ",ak02496ys9mk,us7000mzzt,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 52,
+        "dmin": 2.85,
+        "rms": 0.99,
+        "gap": 173,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - south of Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.0404,
+          52.8906,
+          14.857
+        ]
+      },
+      "id": "us7000mzzt"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.6,
         "place": "163 km S of Tateyama, Japan",
         "time": 1721300856268,
-        "updated": 1721306671599,
+        "updated": 1721308464193,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzzc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzzc.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.7,
-        "mmi": 4.322,
+        "mmi": 4.277,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 483,
+        "sig": 484,
         "net": "us",
         "code": "7000mzzc",
         "ids": ",us7000mzzc,",
@@ -808,94 +848,14 @@
         ]
       },
       "id": "ci40662231"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "47 km NW of Ninilchik, Alaska",
-        "time": 1721223448071,
-        "updated": 1721223532000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02495bwots",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02495bwots.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "02495bwots",
-        "ids": ",ak02495bwots,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 47 km NW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.2912,
-          60.3482,
-          112.6
-        ]
-      },
-      "id": "ak02495bwots"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "5 km SSW of Volcano, Hawaii",
-        "time": 1721222994080,
-        "updated": 1721241619020,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74340616",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74340616.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "hv",
-        "code": "74340616",
-        "ids": ",hv74340616,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.008243,
-        "rms": 0.11,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km SSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.245666666667,
-          19.3918333333333,
-          1.03
-        ]
-      },
-      "id": "hv74340616"
     }
   ],
   "bbox": [
-    -155.24566666667,
+    -158.0404,
     -22.478,
-    1.03,
+    2.3699998855591,
     148.0945,
-    60.3482,
+    59.0588,
     551.134
   ]
 }
