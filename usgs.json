@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721340003000,
+    "generated": 1721343603000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 21
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "165 km W of Adak, Alaska",
+        "time": 1721339366188,
+        "updated": 1721340094040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n03w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n03w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.172,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "7000n03w",
+        "ids": ",us7000n03w,ak024974a2ly,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 18,
+        "dmin": 0.127,
+        "rms": 0.31,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.5 - 165 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.997,
+          51.6083,
+          80.197
+        ]
+      },
+      "id": "us7000n03w"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.5,
         "place": "0 km SSE of Pāhala, Hawaii",
         "time": 1721330600830,
-        "updated": 1721331974710,
+        "updated": 1721340828040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74343231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74343231.geojson",
@@ -68,8 +108,8 @@
         "sig": 96,
         "net": "hv",
         "code": "74343231",
-        "ids": ",hv74343231,",
-        "sources": ",hv,",
+        "ids": ",us7000n02w,hv74343231,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 56,
         "dmin": 0.04362,
@@ -95,7 +135,7 @@
         "mag": 3.3,
         "place": "29 km ENE of Cantwell, Alaska",
         "time": 1721326883433,
-        "updated": 1721327596877,
+        "updated": 1721340274040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024972bril",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024972bril.geojson",
@@ -108,8 +148,8 @@
         "sig": 168,
         "net": "ak",
         "code": "024972bril",
-        "ids": ",ak024972bril,",
-        "sources": ",ak,",
+        "ids": ",ak024972bril,us7000n02m,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -135,11 +175,11 @@
         "mag": 4.9,
         "place": "47 km E of Farkhār, Afghanistan",
         "time": 1721326482750,
-        "updated": 1721334772126,
+        "updated": 1721342697827,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n02k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n02k.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -808,50 +848,10 @@
         ]
       },
       "id": "ci40662919"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "36 km ENE of Furnace Creek, California",
-        "time": 1721255207333,
-        "updated": 1721268297949,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00881044",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00881044.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "nn",
-        "code": "00881044",
-        "ids": ",nn00881044,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.128,
-        "rms": 0.1454,
-        "gap": 50.06,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 36 km ENE of Furnace Creek, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.488,
-          36.5997,
-          7.2
-        ]
-      },
-      "id": "nn00881044"
     }
   ],
   "bbox": [
-    -158.0404,
+    -178.997,
     -5.231,
     1,
     148.0945,
