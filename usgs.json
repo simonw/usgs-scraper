@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721390422000,
+    "generated": 1721394174000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 3.7,
         "place": "6 km WSW of Westbrook, Texas",
         "time": 1721388080017,
-        "updated": 1721390232156,
+        "updated": 1721390546898,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ochc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ochc.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": 4.415,
         "alert": null,
@@ -373,12 +373,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "24 km S of Westbrook, Texas",
-        "time": 1721362351277,
-        "updated": 1721363652040,
+        "place": "22 km S of Westbrook, Texas",
+        "time": 1721362350486,
+        "updated": 1721391205375,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n06r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n06r.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024obsy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024obsy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -386,28 +386,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
-        "net": "us",
-        "code": "7000n06r",
-        "ids": ",us7000n06r,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2024obsy",
+        "ids": ",us7000n06r,tx2024obsy,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.232,
-        "rms": 0.87,
-        "gap": 52,
-        "magType": "mb_lg",
+        "nst": 13,
+        "dmin": 0.2,
+        "rms": 0.1,
+        "gap": 70,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 24 km S of Westbrook, Texas"
+        "title": "M 2.5 - 22 km S of Westbrook, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.0491,
-          32.1374,
-          0.718
+          -101.055,
+          32.151,
+          8.9355
         ]
       },
-      "id": "us7000n06r"
+      "id": "tx2024obsy"
     },
     {
       "type": "Feature",
@@ -615,17 +615,17 @@
         "mag": 7.4,
         "place": "45 km ESE of San Pedro de Atacama, Chile",
         "time": 1721353847675,
-        "updated": 1721389419993,
+        "updated": 1721393821556,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n05d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n05d.geojson",
-        "felt": 185,
+        "felt": 188,
         "cdi": 7.1,
         "mmi": 7.086,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 974,
+        "sig": 976,
         "net": "us",
         "code": "7000n05d",
         "ids": ",at00sgul50,pt24201000,us7000n05d,",
@@ -1328,52 +1328,12 @@
         ]
       },
       "id": "us7000n004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "south of Alaska",
-        "time": 1721305575688,
-        "updated": 1721309324040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzzt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzzt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000mzzt",
-        "ids": ",ak02496ys9mk,us7000mzzt,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 52,
-        "dmin": 2.85,
-        "rms": 0.99,
-        "gap": 173,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - south of Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.0404,
-          52.8906,
-          14.857
-        ]
-      },
-      "id": "us7000mzzt"
     }
   ],
   "bbox": [
     -178.9963,
     -32.0966,
-    0.718,
+    1,
     145.6294,
     67.1098,
     497.489
