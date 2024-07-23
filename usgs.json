@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721707229000,
+    "generated": 1721710829000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 59
+    "count": 57
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.57,
-        "place": "18 km W of Alberto Oviedo Mota, B.C., MX",
-        "time": 1721707062670,
-        "updated": 1721707212016,
+        "mag": 2.51,
+        "place": "17 km W of Alberto Oviedo Mota, B.C., MX",
+        "time": 1721707062900,
+        "updated": 1721707464039,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668335",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40668335.geojson",
@@ -25,26 +25,26 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 97,
         "net": "ci",
         "code": "40668335",
         "ids": ",ci40668335,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1142,
-        "rms": 0.24,
-        "gap": 54,
+        "nst": 25,
+        "dmin": 0.1212,
+        "rms": 0.27,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 18 km W of Alberto Oviedo Mota, B.C., MX"
+        "title": "M 2.5 - 17 km W of Alberto Oviedo Mota, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.3636703,
-          32.2275009,
-          0.01
+          -115.352,
+          32.242,
+          -0.05
         ]
       },
       "id": "ci40668335"
@@ -52,25 +52,105 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "17 km NE of Hermleigh, Texas",
-        "time": 1721705922362,
-        "updated": 1721707049040,
+        "mag": 3.41,
+        "place": "56 km SE of Boca de Yuma, Dominican Republic",
+        "time": 1721706524790,
+        "updated": 1721707586500,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024oizv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024oizv.geojson",
-        "felt": 86,
-        "cdi": 5.3,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71456023",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71456023.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 415,
+        "sig": 179,
+        "net": "pr",
+        "code": "71456023",
+        "ids": ",pr71456023,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.4812,
+        "rms": 0.14,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 56 km SE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1835,
+          18.069,
+          64.38
+        ]
+      },
+      "id": "pr71456023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "17 km NNE of Hermleigh, Texas",
+        "time": 1721706385411,
+        "updated": 1721710801252,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ojad",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ojad.geojson",
+        "felt": 66,
+        "cdi": 5.3,
+        "mmi": 4.401,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 333,
+        "net": "tx",
+        "code": "2024ojad",
+        "ids": ",us6000neqm,tx2024ojad,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 20,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.4 - 17 km NNE of Hermleigh, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.67,
+          32.769,
+          3.2959
+        ]
+      },
+      "id": "tx2024ojad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "17 km NE of Hermleigh, Texas",
+        "time": 1721705922362,
+        "updated": 1721710573252,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024oizv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024oizv.geojson",
+        "felt": 1143,
+        "cdi": 5.9,
+        "mmi": 5.349,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 959,
         "net": "tx",
         "code": "2024oizv",
         "ids": ",tx2024oizv,us6000neq0,",
         "sources": ",tx,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 31,
         "dmin": 0.1,
         "rms": 0.2,
@@ -95,17 +175,17 @@
         "mag": 4.2,
         "place": "55 km S of Whites City, New Mexico",
         "time": 1721701864397,
-        "updated": 1721707118686,
+        "updated": 1721710418406,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024oixr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024oixr.geojson",
-        "felt": 28,
-        "cdi": 4.1,
+        "felt": 39,
+        "cdi": 4.8,
         "mmi": 4.286,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 283,
+        "sig": 290,
         "net": "tx",
         "code": "2024oixr",
         "ids": ",us6000nepl,tx2024oixr,",
@@ -2208,172 +2288,12 @@
         ]
       },
       "id": "us7000n0s6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "120 km SSW of Pole Ojea, Puerto Rico",
-        "time": 1721623416410,
-        "updated": 1721624723920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71455953",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71455953.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 142,
-        "net": "pr",
-        "code": "71455953",
-        "ids": ",pr71455953,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 1.141,
-        "rms": 0.27,
-        "gap": 323,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 120 km SSW of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7093333333333,
-          17.0135,
-          27.94
-        ]
-      },
-      "id": "pr71455953"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "63 km SSW of La Gomera, Guatemala",
-        "time": 1721622644761,
-        "updated": 1721690977040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n0s0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n0s0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000n0s0",
-        "ids": ",us7000n0s0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 1.039,
-        "rms": 0.9,
-        "gap": 182,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 63 km SSW of La Gomera, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.2703,
-          13.5532,
-          38.254
-        ]
-      },
-      "id": "us7000n0s0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "84 km ENE of Kainantu, Papua New Guinea",
-        "time": 1721621767695,
-        "updated": 1721688018040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n0rw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n0rw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000n0rw",
-        "ids": ",us7000n0rw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 3.441,
-        "rms": 0.68,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 84 km ENE of Kainantu, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.5688,
-          -5.9919,
-          49.444
-        ]
-      },
-      "id": "us7000n0rw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1721621427952,
-        "updated": 1721694179840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ohfk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ohfk.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "tx",
-        "code": "2024ohfk",
-        "ids": ",tx2024ohfk,us7000n0rs,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.461,
-          31.659,
-          6.0999
-        ]
-      },
-      "id": "tx2024ohfk"
     }
   ],
   "bbox": [
     -177.9074,
     -56.0139,
-    -0.01,
+    -0.05,
     171.2395,
     67.3288,
     641.082
