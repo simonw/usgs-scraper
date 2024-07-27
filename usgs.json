@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722092394000,
+    "generated": 1722096000000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "87 km ESE of Red Dog Mine, Alaska",
+        "time": 1722093567272,
+        "updated": 1722094153722,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0249lwd5zr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0249lwd5zr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.035,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "0249lwd5zr",
+        "ids": ",ak0249lwd5zr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.88,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 87 km ESE of Red Dog Mine, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.8424,
+          67.8947,
+          5.5
+        ]
+      },
+      "id": "ak0249lwd5zr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 5.3,
         "place": "4 km NE of Platanillo, Mexico",
         "time": 1722076214259,
-        "updated": 1722090722757,
+        "updated": 1722095781922,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ngby",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ngby.geojson",
-        "felt": 6,
-        "cdi": 3.9,
+        "felt": 10,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 434,
+        "sig": 436,
         "net": "us",
         "code": "6000ngby",
         "ids": ",us6000ngby,",
@@ -375,11 +415,11 @@
         "mag": 2.48,
         "place": "14 km WNW of Trinidad, CA",
         "time": 1722046723330,
-        "updated": 1722050966953,
+        "updated": 1722093363499,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75039912",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75039912.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1208,130 +1248,10 @@
         ]
       },
       "id": "us6000ng6h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "16 km NNE of Hermleigh, Texas",
-        "time": 1722008698694,
-        "updated": 1722017776786,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024opla",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024opla.geojson",
-        "felt": 25,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "tx",
-        "code": "2024opla",
-        "ids": ",tx2024opla,us6000ng61,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.3,
-        "rms": 0.3,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 16 km NNE of Hermleigh, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.662,
-          32.762,
-          3.2959
-        ]
-      },
-      "id": "tx2024opla"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "61 km ESE of Adak, Alaska",
-        "time": 1722006952824,
-        "updated": 1722008831040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ng5m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ng5m.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "6000ng5m",
-        "ids": ",ak0249k8t0rn,us6000ng5m,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.382,
-        "rms": 0.91,
-        "gap": 197,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 61 km ESE of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.8517,
-          51.6074,
-          35
-        ]
-      },
-      "id": "us6000ng5m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.91,
-        "place": "2 km WSW of Indios, Puerto Rico",
-        "time": 1722006048520,
-        "updated": 1722009061970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71456268",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71456268.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "pr",
-        "code": "71456268",
-        "ids": ",pr71456268,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.04355,
-        "rms": 0.16,
-        "gap": 155,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 2 km WSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.839,
-          17.9826666666667,
-          11.94
-        ]
-      },
-      "id": "pr71456268"
     }
   ],
   "bbox": [
-    -175.8517,
+    -160.8424,
     -55.0133,
     1.58,
     179.2984,
