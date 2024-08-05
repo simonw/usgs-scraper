@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722895197000,
+    "generated": 1722898797000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 21
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "West of the Queen Charlotte Islands",
+        "time": 1722894470391,
+        "updated": 1722895342040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ni9d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ni9d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000ni9d",
+        "ids": ",us6000ni9d,ak024a0vxxe8,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 28,
+        "dmin": 3.193,
+        "rms": 1.07,
+        "gap": 187,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - West of the Queen Charlotte Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -138.6917,
+          54.4983,
+          12.072
+        ]
+      },
+      "id": "us6000ni9d"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,22 +215,22 @@
         "mag": 2.7,
         "place": "15 km NE of Walker Lake, Nevada",
         "time": 1722873732210,
-        "updated": 1722874933234,
+        "updated": 1722898106123,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00881937",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00881937.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 113,
         "net": "nn",
         "code": "00881937",
         "ids": ",nn00881937,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": 0.38,
         "rms": 0.1328,
@@ -808,46 +848,6 @@
         ]
       },
       "id": "us6000ni3l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "3 km WNW of Mayagüez, Puerto Rico",
-        "time": 1722812108660,
-        "updated": 1722813056270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71456968",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71456968.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "pr",
-        "code": "71456968",
-        "ids": ",pr71456968,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.02348,
-        "rms": 0.13,
-        "gap": 208,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km WNW of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1691666666667,
-          18.2136666666667,
-          81.51
-        ]
-      },
-      "id": "pr71456968"
     }
   ],
   "bbox": [
