@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722920382000,
+    "generated": 1722923981000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "49 km E of Kinablangan, Philippines",
+        "time": 1722922769090,
+        "updated": 1722923783040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000niay",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000niay.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000niay",
+        "ids": ",us6000niay,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 1.55,
+        "rms": 1.03,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 49 km E of Kinablangan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9962,
+          7.7271,
+          69.076
+        ]
+      },
+      "id": "us6000niay"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "3 km NE of Almanor, CA",
         "time": 1722919765920,
-        "updated": 1722920363191,
+        "updated": 1722923910978,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75044147",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75044147.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -732,6 +772,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "20 km S of Owhiro Bay, New Zealand",
+        "time": 1722857916188,
+        "updated": 1722921060040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ni5v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ni5v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000ni5v",
+        "ids": ",us6000ni5v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.215,
+        "rms": 0.88,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 20 km S of Owhiro Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7262,
+          -41.5235,
+          10
+        ]
+      },
+      "id": "us6000ni5v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "85 km NNW of Ternate, Indonesia",
         "time": 1722849033756,
@@ -848,53 +928,13 @@
         ]
       },
       "id": "us6000ni52"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "4 km NW of Orocovis, Puerto Rico",
-        "time": 1722835070840,
-        "updated": 1722836152330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71456988",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71456988.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71456988",
-        "ids": ",pr71456988,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.09754,
-        "rms": 0.17,
-        "gap": 107,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km NW of Orocovis, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4198333333333,
-          18.2551666666667,
-          38.75
-        ]
-      },
-      "id": "pr71456988"
     }
   ],
   "bbox": [
     -157.2637,
-    -31.9415,
+    -41.5235,
     -0.31,
-    145.5578,
+    174.7262,
     62.938,
     236.619
   ]
