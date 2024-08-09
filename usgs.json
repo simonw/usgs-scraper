@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723230006000,
+    "generated": 1723233606000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.27999997,
+        "place": "87 km SW of Lanai City, Hawaii",
+        "time": 1723230168570,
+        "updated": 1723230708289,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74393251",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74393251.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "hv",
+        "code": "74393251",
+        "ids": ",hv74393251,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 53,
+        "dmin": 1.011,
+        "rms": 0.219999999,
+        "gap": 215,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 87 km SW of Lanai City, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.404495239258,
+          20.1823329925537,
+          1.45000004768372
+        ]
+      },
+      "id": "hv74393251"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
+        "mag": 3.5,
         "place": "63 km NE of Ouzinkie, Alaska",
-        "time": 1723223125043,
-        "updated": 1723223846384,
+        "time": 1723223125101,
+        "updated": 1723231815668,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024a7fgjga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024a7fgjga.geojson",
@@ -103,9 +143,9 @@
         "cdi": null,
         "mmi": 3.034,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 188,
         "net": "ak",
         "code": "024a7fgjga",
         "ids": ",ak024a7fgjga,",
@@ -113,18 +153,18 @@
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.35,
+        "rms": 0.76,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 63 km NE of Ouzinkie, Alaska"
+        "title": "M 3.5 - 63 km NE of Ouzinkie, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.6946,
-          58.2943,
-          25.7
+          -151.6405,
+          58.2693,
+          13.5
         ]
       },
       "id": "ak024a7fgjga"
@@ -168,6 +208,46 @@
         ]
       },
       "id": "us6000nj4n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "15 km NNE of Atka, Alaska",
+        "time": 1723219163014,
+        "updated": 1723231642608,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024a7el93b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024a7el93b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "024a7el93b",
+        "ids": ",ak024a7el93b,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.19,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 15 km NNE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.089,
+          52.3179,
+          157
+        ]
+      },
+      "id": "ak024a7el93b"
     },
     {
       "type": "Feature",
@@ -295,7 +375,7 @@
         "mag": 2.58,
         "place": "3 km SW of Banning, CA",
         "time": 1723211938320,
-        "updated": 1723213175098,
+        "updated": 1723231610040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40695295",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40695295.geojson",
@@ -308,8 +388,8 @@
         "sig": 103,
         "net": "ci",
         "code": "40695295",
-        "ids": ",ci40695295,",
-        "sources": ",ci,",
+        "ids": ",ci40695295,us6000nj2w,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 114,
         "dmin": 0.07417,
@@ -1448,86 +1528,6 @@
         ]
       },
       "id": "us6000niyn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "3 km NE of Miyazaki, Japan",
-        "time": 1723146473819,
-        "updated": 1723217062040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000niyp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000niyp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000niyp",
-        "ids": ",us6000niyp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 5.573,
-        "rms": 0.84,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 3 km NE of Miyazaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.4443,
-          31.9401,
-          33.144
-        ]
-      },
-      "id": "us6000niyp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "7 km WSW of Miyazaki, Japan",
-        "time": 1723145013073,
-        "updated": 1723152559329,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000niy6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000niy6.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 6.276,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "6000niy6",
-        "ids": ",us6000niy6,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 104,
-        "dmin": 5.564,
-        "rms": 0.7,
-        "gap": 52,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 7 km WSW of Miyazaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.341,
-          31.8881,
-          19.497
-        ]
-      },
-      "id": "us6000niy6"
     }
   ],
   "bbox": [
