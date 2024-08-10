@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723276820000,
+    "generated": 1723280425000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "Macquarie Island region",
+        "time": 1723276790999,
+        "updated": 1723277818040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njbe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njbe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000njbe",
+        "ids": ",us6000njbe,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 4.362,
+        "rms": 0.55,
+        "gap": 124,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - Macquarie Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.2806,
+          -58.8343,
+          10
+        ]
+      },
+      "id": "us6000njbe"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1568,133 +1608,13 @@
         ]
       },
       "id": "us6000nj1t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "57 km SSW of Nanwalek, Alaska",
-        "time": 1723193521835,
-        "updated": 1723194170040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024a7adnuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024a7adnuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024a7adnuf",
-        "ids": ",us6000nj1p,ak024a7adnuf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.21,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 57 km SSW of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.1966,
-          58.8556,
-          50
-        ]
-      },
-      "id": "ak024a7adnuf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "central East Pacific Rise",
-        "time": 1723191748786,
-        "updated": 1723255505997,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nj1m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nj1m.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000nj1m",
-        "ids": ",us6000nj1m,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 24.511,
-        "rms": 0.6,
-        "gap": 204,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - central East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.1867,
-          -4.7068,
-          10
-        ]
-      },
-      "id": "us6000nj1m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "9 km NE of Alpine Northeast, Wyoming",
-        "time": 1723191679928,
-        "updated": 1723243134565,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nj1k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nj1k.geojson",
-        "felt": 10,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "us",
-        "code": "6000nj1k",
-        "ids": ",us6000nj1k,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 63,
-        "dmin": 0.243,
-        "rms": 0.66,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 9 km NE of Alpine Northeast, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.9118,
-          43.2455,
-          6.924
-        ]
-      },
-      "id": "us6000nj1k"
     }
   ],
   "bbox": [
     -179.817,
-    -30.3877,
+    -58.8343,
     0,
-    144.763,
+    158.2806,
     65.8456,
     593.463
   ]
