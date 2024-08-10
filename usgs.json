@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723327207000,
+    "generated": 1723330807000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.2,
         "place": "23 km SW of Lamont, CA",
         "time": 1723326713780,
-        "updated": 1723327139489,
+        "updated": 1723330614822,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40696751",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40696751.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 6,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 159,
         "net": "ci",
         "code": "40696751",
-        "ids": ",ci40696751,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40696751,us6000njev,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 92,
         "dmin": 0.05222,
         "rms": 0.27,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ci40696751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "5 km S of Bata, Romania",
+        "time": 1723322761703,
+        "updated": 1723329595754,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njen",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njen.geojson",
+        "felt": 6,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 300,
+        "net": "us",
+        "code": "6000njen",
+        "ids": ",us6000njen,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.44,
+        "rms": 0.87,
+        "gap": 34,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 5 km S of Bata, Romania"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.02,
+          45.9695,
+          10
+        ]
+      },
+      "id": "us6000njen"
     },
     {
       "type": "Feature",
@@ -168,6 +208,46 @@
         ]
       },
       "id": "us6000nje1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "78 km WNW of Sinabang, Indonesia",
+        "time": 1723311685388,
+        "updated": 1723327550040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njdu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njdu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000njdu",
+        "ids": ",us6000njdu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 2.788,
+        "rms": 0.53,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 78 km WNW of Sinabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.7122,
+          2.7109,
+          27.768
+        ]
+      },
+      "id": "us6000njdu"
     },
     {
       "type": "Feature",
@@ -1048,46 +1128,6 @@
         ]
       },
       "id": "ak024a8suh2n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "23 km SSE of Masjed Soleymān, Iran",
-        "time": 1723244087524,
-        "updated": 1723246727031,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nj8f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nj8f.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "6000nj8f",
-        "ids": ",us6000nj8f,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 52,
-        "dmin": 4.473,
-        "rms": 0.8,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 23 km SSE of Masjed Soleymān, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          49.3794,
-          31.7322,
-          10
-        ]
-      },
-      "id": "us6000nj8f"
     }
   ],
   "bbox": [
