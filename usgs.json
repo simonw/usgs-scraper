@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723453253000,
+    "generated": 1723456808000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 24
   },
   "features": [
     {
@@ -52,14 +52,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "17 km SSW of Fasā, Iran",
+        "time": 1723443156835,
+        "updated": 1723454166040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njjz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njjz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000njjz",
+        "ids": ",us6000njjz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 4.51,
+        "rms": 0.69,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 17 km SSW of Fasā, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5583,
+          28.8029,
+          10
+        ]
+      },
+      "id": "us6000njjz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.83,
         "place": "5 km NW of Big Bear Lake, CA",
         "time": 1723442066440,
-        "updated": 1723450469367,
+        "updated": 1723454589667,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40698271",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40698271.geojson",
-        "felt": 20,
+        "felt": 21,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -135,22 +175,22 @@
         "mag": 4.4,
         "place": "111 km SSE of Honchō, Japan",
         "time": 1723438995045,
-        "updated": 1723445438040,
+        "updated": 1723455137351,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njjt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njjt.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 15,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 301,
         "net": "us",
         "code": "6000njjt",
         "ids": ",us6000njjt,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 0.858,
         "rms": 1.16,
@@ -928,86 +968,6 @@
         ]
       },
       "id": "pr2024224001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "20 km E of Little Lake, CA",
-        "time": 1723369564810,
-        "updated": 1723444121040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40697223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40697223.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "ci",
-        "code": "40697223",
-        "ids": ",ci40697223,us6000njgv,",
-        "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.03009,
-        "rms": 0.17,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 20 km E of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.6866667,
-          35.9416667,
-          4.45
-        ]
-      },
-      "id": "ci40697223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.66,
-        "place": "20 km E of Little Lake, CA",
-        "time": 1723369513490,
-        "updated": 1723445886411,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40697215",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40697215.geojson",
-        "felt": 8,
-        "cdi": 5.4,
-        "mmi": 4.148,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 210,
-        "net": "ci",
-        "code": "40697215",
-        "ids": ",ew1723369510,ci40697215,us6000njgu,",
-        "sources": ",ew,ci,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 32,
-        "dmin": 0.02461,
-        "rms": 0.14,
-        "gap": 71,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.7 - 20 km E of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.6805,
-          35.945,
-          5
-        ]
-      },
-      "id": "ci40697215"
     }
   ],
   "bbox": [
