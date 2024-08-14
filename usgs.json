@@ -1,40 +1,120 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723665602000,
+    "generated": 1723669228000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.3,
+        "mag": 2.83,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1723667751120,
+        "updated": 1723668919480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74400591",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74400591.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 123,
+        "net": "hv",
+        "code": "74400591",
+        "ids": ",hv74400591,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.005832,
+        "rms": 0.08,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 7 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.277333333333,
+          19.3906666666667,
+          1.62
+        ]
+      },
+      "id": "hv74400591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "40 km S of Jurm, Afghanistan",
+        "time": 1723664171129,
+        "updated": 1723665685040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nk6q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nk6q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000nk6q",
+        "ids": ",us6000nk6q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 122,
+        "dmin": 2.438,
+        "rms": 0.82,
+        "gap": 56,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 40 km S of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.8718,
+          36.5029,
+          194.128
+        ]
+      },
+      "id": "us6000nk6q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.28,
         "place": "24 km NW of Grapevine, CA",
-        "time": 1723661791620,
-        "updated": 1723663822531,
+        "time": 1723661791540,
+        "updated": 1723668303540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40702023",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40702023.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 171,
+        "sig": 169,
         "net": "ci",
         "code": "40702023",
         "ids": ",ci40702023,us6000nk6d,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 96,
-        "dmin": 0.05032,
-        "rms": 0.29,
-        "gap": 21,
+        "nst": 63,
+        "dmin": 0.04847,
+        "rms": 0.24,
+        "gap": 20,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.3 - 24 km NW of Grapevine, CA"
@@ -42,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.1083298,
-          35.1048317,
-          12.05
+          -119.1086667,
+          35.1026667,
+          13.82
         ]
       },
       "id": "ci40702023"
@@ -95,13 +175,13 @@
         "mag": 3.69,
         "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1723658579840,
-        "updated": 1723663377802,
+        "updated": 1723665912490,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74400346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74400346.geojson",
         "felt": 70,
         "cdi": 3.1,
-        "mmi": 4.119,
+        "mmi": 4.133,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -495,11 +575,11 @@
         "mag": 3.38,
         "place": "10 km SW of Salton City, CA",
         "time": 1723641053420,
-        "updated": 1723658264956,
+        "updated": 1723667825847,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40701543",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40701543.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -892,6 +972,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.6,
+        "place": "110 km WSW of Inuvik, Canada",
+        "time": 1723607829021,
+        "updated": 1723666437376,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024afh4bqb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024afh4bqb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.518,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "024afh4bqb",
+        "ids": ",ak024afh4bqb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.85,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 110 km WSW of Inuvik, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.3433,
+          68.1761,
+          32
+        ]
+      },
+      "id": "ak024afh4bqb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "9 km NW of Indian Springs, Nevada",
         "time": 1723605148032,
@@ -975,17 +1095,17 @@
         "mag": 4.4,
         "place": "8 km NW of Indian Springs, Nevada",
         "time": 1723604795540,
-        "updated": 1723664938482,
+        "updated": 1723667659479,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882322",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882322.geojson",
-        "felt": 507,
+        "felt": 509,
         "cdi": 4.2,
         "mmi": 4.243,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 511,
+        "sig": 512,
         "net": "nn",
         "code": "00882322",
         "ids": ",us6000njzb,nn00882322,",
@@ -1408,54 +1528,14 @@
         ]
       },
       "id": "us6000njxr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "83 km SSW of Sand Point, Alaska",
-        "time": 1723580737306,
-        "updated": 1723584955040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njx4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njx4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "6000njx4",
-        "ids": ",us6000njx4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.774,
-        "rms": 0.4,
-        "gap": 195,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 83 km SSW of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -161.1613,
-          54.6844,
-          35
-        ]
-      },
-      "id": "us6000njx4"
     }
   ],
   "bbox": [
     -179.9779,
     -29.9047,
-    1.73,
+    1.62,
     145.2304,
-    67.7174,
+    68.1761,
     511.864
   ]
 }
