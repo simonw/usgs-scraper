@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723633209000,
+    "generated": 1723636813000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "8 km W of Mountain View, Hawaii",
+        "time": 1723635054310,
+        "updated": 1723635212260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74399731",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74399731.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "74399731",
+        "ids": ",hv74399731,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1796,
+        "rms": 0.119999997,
+        "gap": 337,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 8 km W of Mountain View, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.188171386719,
+          19.5629997253418,
+          5.92000007629395
+        ]
+      },
+      "id": "hv74399731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "south of the Fiji Islands",
+        "time": 1723634365061,
+        "updated": 1723635588040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nk29",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nk29.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000nk29",
+        "ids": ",us6000nk29,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 5.204,
+        "rms": 0.81,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.9779,
+          -23.7435,
+          511.864
+        ]
+      },
+      "id": "us6000nk29"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "6 km S of Volcano, Hawaii",
+        "time": 1723634342900,
+        "updated": 1723634500840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74399711",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74399711.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "hv",
+        "code": "74399711",
+        "ids": ",hv74399711,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.007333,
+        "rms": 0.310000002,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 6 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.243667602539,
+          19.386833190918,
+          1.1599999666214
+        ]
+      },
+      "id": "hv74399711"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +175,12 @@
         "mag": 2.67,
         "place": "6 km WSW of Guánica, Puerto Rico",
         "time": 1723630180330,
-        "updated": 1723631165020,
+        "updated": 1723635860040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71457438",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71457438.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +188,9 @@
         "sig": 110,
         "net": "pr",
         "code": "71457438",
-        "ids": ",pr71457438,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr71457438,us6000nk1z,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 0.05761,
         "rms": 0.15,
@@ -415,17 +535,17 @@
         "mag": 4.4,
         "place": "8 km NW of Indian Springs, Nevada",
         "time": 1723604795540,
-        "updated": 1723632426604,
+        "updated": 1723635884269,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882322",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882322.geojson",
-        "felt": 472,
+        "felt": 476,
         "cdi": 4.2,
         "mmi": 4.243,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 496,
+        "sig": 498,
         "net": "nn",
         "code": "00882322",
         "ids": ",us6000njzb,nn00882322,",
@@ -1088,94 +1208,14 @@
         ]
       },
       "id": "us6000nju3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "154 km W of Panguna, Papua New Guinea",
-        "time": 1723549710068,
-        "updated": 1723550957040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njtw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njtw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000njtw",
-        "ids": ",us6000njtw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 6.506,
-        "rms": 0.7,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 154 km W of Panguna, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          154.0976,
-          -6.459,
-          10
-        ]
-      },
-      "id": "us6000njtw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "4 km NW of Orocovis, Puerto Rico",
-        "time": 1723549027280,
-        "updated": 1723561466040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71457408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71457408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "pr",
-        "code": "71457408",
-        "ids": ",us6000njtt,pr71457408,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.07982,
-        "rms": 0.15,
-        "gap": 69,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 4 km NW of Orocovis, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4171666666667,
-          18.2575,
-          36.84
-        ]
-      },
-      "id": "pr71457408"
     }
   ],
   "bbox": [
-    -177.8676,
+    -179.9779,
     -29.9047,
-    3.3691,
-    154.0976,
+    1.1599999666214,
+    145.2304,
     67.7174,
-    125.453
+    511.864
   ]
 }
