@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723924809000,
+    "generated": 1723928423000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "47 km SW of Beaver, Alaska",
+        "time": 1723925841826,
+        "updated": 1723926018595,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024akpm6ja",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024akpm6ja.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "024akpm6ja",
+        "ids": ",ak024akpm6ja,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.58,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 47 km SW of Beaver, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0225,
+          66.0141,
+          6.4
+        ]
+      },
+      "id": "ak024akpm6ja"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "105 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1723923599626,
+        "updated": 1723926122040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7n9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n7n9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000n7n9",
+        "ids": ",us7000n7n9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 77,
+        "dmin": 0.93,
+        "rms": 1.08,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 105 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.1884,
+          52.9896,
+          35
+        ]
+      },
+      "id": "us7000n7n9"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 7,
         "place": "102 km E of Petropavlovsk-Kamchatsky, Russia",
         "time": 1723921826707,
-        "updated": 1723924753708,
+        "updated": 1723928071331,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7n8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n7n8.geojson",
-        "felt": 8,
+        "felt": 10,
         "cdi": 7.9,
-        "mmi": 6.323,
+        "mmi": 6.85,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 760,
+        "sig": 762,
         "net": "us",
         "code": "7000n7n8",
         "ids": ",at00sidmlg,us7000n7n8,pt24230000,ak024akozr4g,",
         "sources": ",at,us,pt,ak,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 149,
         "dmin": 0.907,
         "rms": 1.05,
@@ -1248,54 +1328,14 @@
         ]
       },
       "id": "us7000n7if"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "24 km SSE of Hualien City, Taiwan",
-        "time": 1723840887333,
-        "updated": 1723912147040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7i1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n7i1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000n7i1",
-        "ids": ",us7000n7i1,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.414,
-        "rms": 0.69,
-        "gap": 65,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.0 - 24 km SSE of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.6929,
-          23.7681,
-          16.658
-        ]
-      },
-      "id": "us7000n7i1"
     }
   ],
   "bbox": [
     -179.1374,
     -23.2097,
     1.64,
-    160.1413,
-    61.7465,
+    160.1884,
+    66.0141,
     614.592
   ]
 }
