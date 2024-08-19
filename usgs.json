@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724101212000,
+    "generated": 1724104810000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Banda Sea",
+        "time": 1724099340975,
+        "updated": 1724101728040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n80j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n80j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000n80j",
+        "ids": ",us7000n80j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 2.111,
+        "rms": 0.6,
+        "gap": 98,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.8632,
+          -6.6465,
+          137.624
+        ]
+      },
+      "id": "us7000n80j"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 2.59,
         "place": "37 km ENE of Lucerne Valley, CA",
         "time": 1724093666600,
-        "updated": 1724094290920,
+        "updated": 1724101220578,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40707511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40707511.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -110,7 +150,7 @@
         "code": "40707511",
         "ids": ",ci40707511,us7000n7zr,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 54,
         "dmin": 0.0377,
         "rms": 0.14,
@@ -1168,94 +1208,14 @@
         ]
       },
       "id": "us7000n7uc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "111 km W of Tual, Indonesia",
-        "time": 1724016676473,
-        "updated": 1724017847040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7ub",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n7ub.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000n7ub",
-        "ids": ",us7000n7ub,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 2.09,
-        "rms": 0.74,
-        "gap": 49,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 111 km W of Tual, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.7499,
-          -5.5228,
-          10
-        ]
-      },
-      "id": "us7000n7ub"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "south of the Fiji Islands",
-        "time": 1724015973894,
-        "updated": 1724017062040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7ua",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n7ua.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000n7ua",
-        "ids": ",us7000n7ua,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 4.935,
-        "rms": 0.51,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.7035,
-          -23.6461,
-          528.529
-        ]
-      },
-      "id": "us7000n7ua"
     }
   ],
   "bbox": [
-    -179.7035,
+    -178.3096,
     -37.0664,
     1.5,
     160.601,
     59.5541,
-    528.529
+    137.624
   ]
 }
