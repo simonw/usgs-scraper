@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724068830000,
+    "generated": 1724072587000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "14 km NE of Pāhala, Hawaii",
+        "time": 1724069825380,
+        "updated": 1724069983860,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74410421",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74410421.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "hv",
+        "code": "74410421",
+        "ids": ",hv74410421,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.03198,
+        "rms": 0.209999993,
+        "gap": 111,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 14 km NE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.383163452148,
+          19.3013324737549,
+          2.79999995231628
+        ]
+      },
+      "id": "hv74410421"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.7,
         "place": "25 km NNW of Marfa, Texas",
         "time": 1724060692618,
-        "updated": 1724064312040,
+        "updated": 1724069438535,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7wb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n7wb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "7000n7wb",
         "ids": ",us7000n7wb,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 40,
         "dmin": 0.471,
         "rms": 0.5,
@@ -1208,94 +1248,14 @@
         ]
       },
       "id": "hv74408966"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "south of the Fiji Islands",
-        "time": 1723985457647,
-        "updated": 1723986630040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7sk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n7sk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000n7sk",
-        "ids": ",us7000n7sk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 5.221,
-        "rms": 0.82,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.9351,
-          -24.3651,
-          514.335
-        ]
-      },
-      "id": "us7000n7sk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "97 km WSW of Pelican, Alaska",
-        "time": 1723985400570,
-        "updated": 1723985570298,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024am8l36h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024am8l36h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024am8l36h",
-        "ids": ",ak024am8l36h,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.09,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 97 km WSW of Pelican, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -137.8396,
-          57.7871,
-          0
-        ]
-      },
-      "id": "ak024am8l36h"
     }
   ],
   "bbox": [
     -179.7035,
     -37.0664,
-    0,
-    179.9351,
-    57.7871,
+    1.91,
+    160.601,
+    52.694,
     528.529
   ]
 }
