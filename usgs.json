@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724263234000,
+    "generated": 1724266827000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "93 km S of Puerto San José, Guatemala",
+        "time": 1724262946203,
+        "updated": 1724263899040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n8id",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n8id.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000n8id",
+        "ids": ",us7000n8id,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.228,
+        "rms": 0.91,
+        "gap": 144,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 93 km S of Puerto San José, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7301,
+          13.0895,
+          34.523
+        ]
+      },
+      "id": "us7000n8id"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.72,
         "place": "6 km S of Pāhala, Hawaii",
         "time": 1724260182080,
-        "updated": 1724260340210,
+        "updated": 1724263297722,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74417446",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74417446.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "74417446",
         "ids": ",hv74417446,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 13,
         "dmin": 0.1607,
         "rms": 0.25,
@@ -1488,92 +1528,12 @@
         ]
       },
       "id": "hv74414281"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "7 km S of Volcano, Hawaii",
-        "time": 1724178723990,
-        "updated": 1724187744040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74414141",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74414141.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "hv",
-        "code": "74414141",
-        "ids": ",us7000n8aw,hv74414141,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.005254,
-        "rms": 0.09,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.240166666667,
-          19.3788333333333,
-          0.22
-        ]
-      },
-      "id": "hv74414141"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "88 km W of Point Sur, CA",
-        "time": 1724176852340,
-        "updated": 1724228327213,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75051011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75051011.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "75051011",
-        "ids": ",nc75051011,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.8705,
-        "rms": 0.3,
-        "gap": 280,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 88 km W of Point Sur, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.856166666667,
-          36.1171666666667,
-          25.83
-        ]
-      },
-      "id": "nc75051011"
     }
   ],
   "bbox": [
     -179.4573,
     -22.2935,
-    0.22,
+    0.34,
     160.9075,
     59.7774,
     565.809
