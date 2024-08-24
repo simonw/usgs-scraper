@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724475611000,
+    "generated": 1724479212000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 2.9,
         "place": "18 km NNE of Hawthorne, Nevada",
         "time": 1724473158085,
-        "updated": 1724473729091,
+        "updated": 1724475735155,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882904",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882904.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 130,
+        "sig": 129,
         "net": "nn",
         "code": "00882904",
         "ids": ",nn00882904,us7000n953,",
@@ -55,11 +55,11 @@
         "mag": 3.6,
         "place": "16 km NNE of Hawthorne, Nevada",
         "time": 1724472839703,
-        "updated": 1724474078826,
+        "updated": 1724475715744,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882900",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882900.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": 2.715,
         "alert": null,
@@ -495,21 +495,21 @@
         "mag": 3.9,
         "place": "44 km E of Atka, Alaska",
         "time": 1724447317990,
-        "updated": 1724448068040,
+        "updated": 1724476918012,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n93k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n93k.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.409,
+        "mmi": 2.617,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 234,
         "net": "us",
         "code": "7000n93k",
-        "ids": ",us7000n93k,ak024aundt05,",
-        "sources": ",us,ak,",
+        "ids": ",ak024aundt05,us7000n93k,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 38,
         "dmin": 0.395,
@@ -1448,86 +1448,6 @@
         ]
       },
       "id": "us7000n8xk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "14 km ESE of Beluga, Alaska",
-        "time": 1724391415565,
-        "updated": 1724416668506,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024aue0wms",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024aue0wms.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": 2.573,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "024aue0wms",
-        "ids": ",ak024aue0wms,us7000n8xg,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.25,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 14 km ESE of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.8263,
-          61.0968,
-          41.3
-        ]
-      },
-      "id": "ak024aue0wms"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "165 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1724389609006,
-        "updated": 1724445766698,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n8x7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n8x7.geojson",
-        "felt": 1,
-        "cdi": 5.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 433,
-        "net": "us",
-        "code": "7000n8x7",
-        "ids": ",us7000n8x7,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 137,
-        "dmin": 1.471,
-        "rms": 0.84,
-        "gap": 69,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 165 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.0495,
-          52.7938,
-          14.973
-        ]
-      },
-      "id": "us7000n8x7"
     }
   ],
   "bbox": [
@@ -1535,7 +1455,7 @@
     -24.2639,
     1.47,
     179.9288,
-    61.0968,
+    56.2121,
     549.085
   ]
 }
