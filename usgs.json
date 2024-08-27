@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724774420000,
+    "generated": 1724778024000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
-        "place": "103 km SSE of Sand Point, Alaska",
-        "time": 1724770860643,
-        "updated": 1724774191752,
+        "mag": 4.4,
+        "place": "76 km SE of La Tirana, Chile",
+        "time": 1724773861028,
+        "updated": 1724777416040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024b15x0ci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024b15x0ci.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nn2m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nn2m.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.572,
+        "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 234,
-        "net": "ak",
-        "code": "024b15x0ci",
-        "ids": ",ak024b15x0ci,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.72,
-        "gap": null,
-        "magType": "ml",
+        "sig": 298,
+        "net": "us",
+        "code": "6000nn2m",
+        "ids": ",us6000nn2m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.729,
+        "rms": 0.64,
+        "gap": 68,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.9 - 103 km SSE of Sand Point, Alaska"
+        "title": "M 4.4 - 76 km SE of La Tirana, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.7792,
-          54.5066,
-          25.4
+          -69.1923,
+          -20.8728,
+          114.224
         ]
       },
-      "id": "ak024b15x0ci"
+      "id": "us6000nn2m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "113 km SSE of Sand Point, Alaska",
+        "time": 1724770860043,
+        "updated": 1724775558040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nn2e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nn2e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.872,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000nn2e",
+        "ids": ",ak024b15x0ci,us6000nn2e,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 30,
+        "dmin": 1.028,
+        "rms": 0.47,
+        "gap": 196,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 113 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6472,
+          54.4421,
+          35
+        ]
+      },
+      "id": "us6000nn2e"
     },
     {
       "type": "Feature",
@@ -335,11 +375,11 @@
         "mag": 2.51,
         "place": "11 km N of Alex, Oklahoma",
         "time": 1724750135119,
-        "updated": 1724765030252,
+        "updated": 1724776251007,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024qvjo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024qvjo.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1054,8 +1094,8 @@
       "properties": {
         "mag": 2.46,
         "place": "19 km NW of Grapevine, CA",
-        "time": 1724706407680,
-        "updated": 1724711533219,
+        "time": 1724706407660,
+        "updated": 1724776109253,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40715175",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40715175.geojson",
@@ -1063,7 +1103,7 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 94,
         "net": "ci",
@@ -1071,10 +1111,10 @@
         "ids": ",ci40715175,",
         "sources": ",ci,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
+        "nst": 54,
         "dmin": 0.03717,
         "rms": 0.24,
-        "gap": 32,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 19 km NW of Grapevine, CA"
@@ -1082,9 +1122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0518333,
-          35.085,
-          13.86
+          -119.0526667,
+          35.0856667,
+          13.44
         ]
       },
       "id": "ci40715175"
@@ -1175,7 +1215,7 @@
         "mag": 4.5,
         "place": "18 km E of Istiaía, Greece",
         "time": 1724702023661,
-        "updated": 1724756441203,
+        "updated": 1724776652040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nmxi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nmxi.geojson",
@@ -1190,7 +1230,7 @@
         "code": "6000nmxi",
         "ids": ",us6000nmxi,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 46,
         "dmin": 0.801,
         "rms": 1.13,
@@ -1288,94 +1328,14 @@
         ]
       },
       "id": "us6000nmwu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "12 km SSW of Muswellbrook, Australia",
-        "time": 1724689616855,
-        "updated": 1724764975395,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nmwd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nmwd.geojson",
-        "felt": 4,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 114,
-        "net": "us",
-        "code": "6000nmwd",
-        "ids": ",us6000nmwd,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 6,
-        "dmin": 2.058,
-        "rms": 0.7,
-        "gap": 188,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 12 km SSW of Muswellbrook, Australia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8489,
-          -32.3714,
-          10.157
-        ]
-      },
-      "id": "us6000nmwd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "81 km W of Puerto Cisnes, Chile",
-        "time": 1724689309662,
-        "updated": 1724690510040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nmw5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nmw5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000nmw5",
-        "ids": ",us6000nmw5,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 75,
-        "dmin": 0.323,
-        "rms": 0.89,
-        "gap": 135,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 81 km W of Puerto Cisnes, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.7142,
-          -44.8617,
-          59.301
-        ]
-      },
-      "id": "us6000nmw5"
     }
   ],
   "bbox": [
     -177.4893,
-    -44.8617,
+    -33.437,
     -0.63999998569489,
-    150.8489,
-    54.5066,
+    147.8876,
+    54.4421,
     267.792
   ]
 }
