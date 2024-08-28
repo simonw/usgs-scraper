@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724811366000,
+    "generated": 1724814022000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "109 km E of Vallenar, Chile",
+        "time": 1724813057140,
+        "updated": 1724814000040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nn5l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nn5l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000nn5l",
+        "ids": ",us6000nn5l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 1.017,
+        "rms": 0.73,
+        "gap": 42,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 109 km E of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.6449,
+          -28.5887,
+          98.844
+        ]
+      },
+      "id": "us6000nn5l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
         "place": "4 km W of Lucien, Oklahoma",
         "time": 1724810895157,
-        "updated": 1724811456003,
+        "updated": 1724811650040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024qwqz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024qwqz.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -28,8 +68,8 @@
         "sig": 121,
         "net": "ok",
         "code": "2024qwqz",
-        "ids": ",ok2024qwqz,",
-        "sources": ",ok,",
+        "ids": ",ok2024qwqz,us6000nn5e,",
+        "sources": ",ok,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 90,
         "dmin": 0.06966966391,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us6000nn0h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "78 km WSW of Tambolaka, Indonesia",
-        "time": 1724726439187,
-        "updated": 1724734327040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nn03",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nn03.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000nn03",
-        "ids": ",us6000nn03,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.066,
-        "rms": 0.91,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 78 km WSW of Tambolaka, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.5391,
-          -9.5874,
-          54.151
-        ]
-      },
-      "id": "us6000nn03"
     }
   ],
   "bbox": [
