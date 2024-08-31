@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725080436000,
+    "generated": 1725083996000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "73 km WNW of Copiapó, Chile",
+        "time": 1725078392447,
+        "updated": 1725081351040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nntr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nntr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000nntr",
+        "ids": ",us6000nntr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.634,
+        "rms": 1.08,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 73 km WNW of Copiapó, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9825,
+          -27.056,
+          34.993
+        ]
+      },
+      "id": "us6000nntr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,22 +255,22 @@
         "mag": 2.81,
         "place": "24 km SW of Ocotillo Wells, CA",
         "time": 1725066869270,
-        "updated": 1725067490770,
+        "updated": 1725080797998,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40720287",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40720287.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 122,
         "net": "ci",
         "code": "40720287",
         "ids": ",ci40720287,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 93,
         "dmin": 0.02641,
         "rms": 0.21,
@@ -535,12 +575,12 @@
         "mag": 5.1,
         "place": "296 km SW of Arenas, Panama",
         "time": 1725053134407,
-        "updated": 1725054667040,
+        "updated": 1725083314940,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnrw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnrw.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -550,7 +590,7 @@
         "code": "6000nnrw",
         "ids": ",us6000nnrw,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 108,
         "dmin": 3.146,
         "rms": 0.94,
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "us6000nnmk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "8 km W of Maneadero, B.C., MX",
-        "time": 1724996770050,
-        "updated": 1725042229743,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40719655",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40719655.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "ci",
-        "code": "40719655",
-        "ids": ",ci40719655,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.07215,
-        "rms": 0.23,
-        "gap": 167,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km W of Maneadero, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6531667,
-          31.7033333,
-          14.89
-        ]
-      },
-      "id": "ci40719655"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "36 km NNW of Toyah, Texas",
-        "time": 1724994041803,
-        "updated": 1725022815506,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ranr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ranr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2024ranr",
-        "ids": ",us6000nnm2,tx2024ranr,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 36 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.986,
-          31.602,
-          9.4452
-        ]
-      },
-      "id": "tx2024ranr"
     }
   ],
   "bbox": [
