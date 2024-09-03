@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725354008000,
+    "generated": 1725357601000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "86 km SE of Perryville, Alaska",
+        "time": 1725356110706,
+        "updated": 1725356246672,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024bcnb5b2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024bcnb5b2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "024bcnb5b2",
+        "ids": ",ak024bcnb5b2,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 86 km SE of Perryville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.3526,
+          55.2714,
+          0.8
+        ]
+      },
+      "id": "ak024bcnb5b2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "115 km ESE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1725355106387,
+        "updated": 1725356992040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000npgd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000npgd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000npgd",
+        "ids": ",us6000npgd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 164,
+        "dmin": 1.019,
+        "rms": 0.67,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 115 km ESE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.2985,
+          52.8196,
+          35
+        ]
+      },
+      "id": "us6000npgd"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.56,
         "place": "8 km SE of Naalehu, Hawaii",
         "time": 1725353779130,
-        "updated": 1725353952970,
+        "updated": 1725355545913,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74438762",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74438762.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "74438762",
         "ids": ",hv74438762,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 58,
         "dmin": 0.1425,
         "rms": 0.140000001,
@@ -1288,46 +1368,6 @@
         ]
       },
       "id": "us6000np8n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "4 km E of La Parguera, Puerto Rico",
-        "time": 1725269599080,
-        "updated": 1725270970850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71459068",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71459068.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71459068",
-        "ids": ",pr71459068,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.04225,
-        "rms": 0.08,
-        "gap": 182,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km E of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9998333333333,
-          17.97,
-          8.72
-        ]
-      },
-      "id": "pr71459068"
     }
   ],
   "bbox": [
