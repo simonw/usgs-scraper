@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725499641000,
+    "generated": 1725502710000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,25 +12,65 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "4 km S of Big Lake, Alaska",
+        "time": 1725500795126,
+        "updated": 1725502661792,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024bftos9s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024bftos9s.geojson",
+        "felt": 38,
+        "cdi": 3.1,
+        "mmi": 2.519,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "ak",
+        "code": "024bftos9s",
+        "ids": ",ak024bftos9s,us6000nps9,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.57,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 4 km S of Big Lake, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9431,
+          61.4837,
+          18.9
+        ]
+      },
+      "id": "ak024bftos9s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.2,
         "place": "66 km NNE of Angoram, Papua New Guinea",
         "time": 1725498196101,
-        "updated": 1725499542525,
+        "updated": 1725500509228,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nps8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nps8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 6.035,
+        "felt": 1,
+        "cdi": 8.3,
+        "mmi": 6.09,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 591,
+        "sig": 592,
         "net": "us",
         "code": "6000nps8",
         "ids": ",us6000nps8,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 77,
         "dmin": 3.426,
         "rms": 1.06,
@@ -732,10 +772,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
-        "place": "8 km SSE of Volcano, Hawaii",
+        "mag": 2.5,
+        "place": "10 km SSE of Volcano, Hawaii",
         "time": 1725435622920,
-        "updated": 1725469403522,
+        "updated": 1725500323304,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74440057",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74440057.geojson",
@@ -743,28 +783,28 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 97,
         "net": "hv",
         "code": "74440057",
         "ids": ",hv74440057,",
         "sources": ",hv,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 56,
-        "dmin": 0.01324,
-        "rms": 0.129999995,
-        "gap": 55,
+        "dmin": 0.02218,
+        "rms": 0.12,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 8 km SSE of Volcano, Hawaii"
+        "title": "M 2.5 - 10 km SSE of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.203338623047,
-          19.367166519165,
-          27.1800003051758
+          -155.204333333333,
+          19.3541666666667,
+          27.31
         ]
       },
       "id": "hv74440057"
@@ -888,46 +928,6 @@
         ]
       },
       "id": "us6000npl8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "68 km WSW of Arica, Chile",
-        "time": 1725413836677,
-        "updated": 1725417621040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000npl0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000npl0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000npl0",
-        "ids": ",us6000npl0,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.614,
-        "rms": 0.81,
-        "gap": 191,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.0 - 68 km WSW of Arica, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.9227,
-          -18.6499,
-          31.705
-        ]
-      },
-      "id": "us6000npl0"
     }
   ],
   "bbox": [
