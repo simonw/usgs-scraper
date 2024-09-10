@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725926505000,
+    "generated": 1725931580000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "9 km NNE of San Juan, Puerto Rico",
+        "time": 1725927826150,
+        "updated": 1725929634960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71459583",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71459583.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71459583",
+        "ids": ",pr71459583,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.4454,
+        "rms": 0.13,
+        "gap": 206,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 9 km NNE of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0853333333333,
+          18.5526666666667,
+          105.46
+        ]
+      },
+      "id": "pr71459583"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.78,
         "place": "26 km SSE of Yosemite Valley, CA",
         "time": 1725924044930,
-        "updated": 1725925163945,
+        "updated": 1725928292393,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75059826",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75059826.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1495,7 +1535,7 @@
         "mag": 2.83,
         "place": "6 km NE of Windsor, CA",
         "time": 1725849969370,
-        "updated": 1725911576509,
+        "updated": 1725931520040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75059466",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75059466.geojson",
@@ -1508,8 +1548,8 @@
         "sig": 189,
         "net": "nc",
         "code": "75059466",
-        "ids": ",nc75059466,",
-        "sources": ",nc,",
+        "ids": ",nc75059466,us6000nqk3,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 122,
         "dmin": 0.06757,
@@ -1533,9 +1573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "282 km S of Nikolski, Alaska",
-        "time": 1725849240017,
-        "updated": 1725850382040,
+        "place": "284 km S of Nikolski, Alaska",
+        "time": 1725849239593,
+        "updated": 1725929885040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nqjz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nqjz.geojson",
@@ -1551,143 +1591,23 @@
         "ids": ",us6000nqjz,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.574,
-        "rms": 0.78,
+        "nst": 25,
+        "dmin": 2.595,
+        "rms": 0.74,
         "gap": 195,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 282 km S of Nikolski, Alaska"
+        "title": "M 4.1 - 284 km S of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -169.1239,
-          50.4072,
+          -169.1405,
+          50.3873,
           10
         ]
       },
       "id": "us6000nqjz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "122 km S of McCarthy, Alaska",
-        "time": 1725843583350,
-        "updated": 1725843949337,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024bmfbgyh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024bmfbgyh.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "024bmfbgyh",
-        "ids": ",ak024bmfbgyh,us6000nqjl,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.93,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 122 km S of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -143.0947,
-          60.3339,
-          12.2
-        ]
-      },
-      "id": "ak024bmfbgyh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "98 km SSE of Naalehu, Hawaii",
-        "time": 1725843560520,
-        "updated": 1725923177760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74448791",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74448791.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "hv",
-        "code": "74448791",
-        "ids": ",hv74448791,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.8359,
-        "rms": 0.15,
-        "gap": 317,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 98 km SSE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.255333333333,
-          18.2366666666667,
-          34
-        ]
-      },
-      "id": "hv74448791"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "102 km W of Akhiok, Alaska",
-        "time": 1725841321530,
-        "updated": 1725841443478,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024bmf3it5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024bmf3it5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "024bmf3it5",
-        "ids": ",ak024bmf3it5,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.6,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 102 km W of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.8569,
-          56.8828,
-          4.6
-        ]
-      },
-      "id": "ak024bmf3it5"
     }
   ],
   "bbox": [
