@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725973431000,
+    "generated": 1725976812000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "63 km S of Alcan Border, Alaska",
+        "time": 1725976575537,
+        "updated": 1725976689583,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024boaktl1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024boaktl1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "024boaktl1",
+        "ids": ",ak024boaktl1,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.15,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 63 km S of Alcan Border, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.0303,
+          62.1044,
+          0.1
+        ]
+      },
+      "id": "ak024boaktl1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,17 +295,17 @@
         "mag": 3.42,
         "place": "12 km SE of Middletown, CA",
         "time": 1725951664000,
-        "updated": 1725972231385,
+        "updated": 1725975713199,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75059891",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75059891.geojson",
-        "felt": 154,
+        "felt": 156,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 235,
+        "sig": 236,
         "net": "nc",
         "code": "75059891",
         "ids": ",nc75059891,",
@@ -328,6 +368,46 @@
         ]
       },
       "id": "pr71459603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "78 km NE of Yigo Village, Guam",
+        "time": 1725946095809,
+        "updated": 1725975688707,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nqvb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nqvb.geojson",
+        "felt": 2,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000nqvb",
+        "ids": ",us6000nqvb,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 30,
+        "dmin": 1.311,
+        "rms": 0.76,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 78 km NE of Yigo Village, Guam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4822,
+          13.9502,
+          101.473
+        ]
+      },
+      "id": "us6000nqvb"
     },
     {
       "type": "Feature",
@@ -1448,54 +1528,14 @@
         ]
       },
       "id": "us6000nqni"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "124 km ENE of Hengchun, Taiwan",
-        "time": 1725887936646,
-        "updated": 1725891301040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nqml",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nqml.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000nqml",
-        "ids": ",us6000nqml,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.784,
-        "rms": 0.62,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 124 km ENE of Hengchun, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.8432,
-          22.4729,
-          10
-        ]
-      },
-      "id": "us6000nqml"
     }
   ],
   "bbox": [
     -177.8082,
     -53.9715,
-    3.3900001049042,
+    0.1,
     178.6393,
-    60.9963,
+    62.1044,
     552.212
   ]
 }
