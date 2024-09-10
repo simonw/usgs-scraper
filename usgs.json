@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725931580000,
+    "generated": 1725934764000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "south of the Fiji Islands",
+        "time": 1725929615263,
+        "updated": 1725932347040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nqsx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nqsx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000nqsx",
+        "ids": ",us6000nqsx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 2.993,
+        "rms": 0.82,
+        "gap": 130,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.3469,
+          -26.5894,
+          10
+        ]
+      },
+      "id": "us6000nqsx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -975,7 +1015,7 @@
         "mag": 2.7,
         "place": "7 km ENE of Goldfield, Nevada",
         "time": 1725879754398,
-        "updated": 1725900634333,
+        "updated": 1725933864972,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00884404",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00884404.geojson",
@@ -1015,7 +1055,7 @@
         "mag": 3,
         "place": "8 km ENE of Goldfield, Nevada",
         "time": 1725879645978,
-        "updated": 1725917619500,
+        "updated": 1725933857362,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00884400",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00884400.geojson",
@@ -1455,13 +1495,13 @@
         "mag": 2.9,
         "place": "8 km ENE of Goldfield, Nevada",
         "time": 1725851501525,
-        "updated": 1725858826022,
+        "updated": 1725934716305,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00884347",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00884347.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.825,
+        "mmi": 2.846,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1495,7 +1535,7 @@
         "mag": 2.67,
         "place": "6 km NNE of Windsor, CA",
         "time": 1725850362240,
-        "updated": 1725914285360,
+        "updated": 1725933759040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75059476",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75059476.geojson",
@@ -1508,8 +1548,8 @@
         "sig": 122,
         "net": "nc",
         "code": "75059476",
-        "ids": ",nc75059476,",
-        "sources": ",nc,",
+        "ids": ",nc75059476,us6000nqk5,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 122,
         "dmin": 0.06645,
@@ -1611,7 +1651,7 @@
     }
   ],
   "bbox": [
-    -176.1638,
+    -176.3469,
     -53.9715,
     3.3900001049042,
     179.7648,
