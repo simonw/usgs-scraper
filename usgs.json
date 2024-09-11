@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1726092024000,
+    "generated": 1726095597000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "19 km SSE of Guánica, Puerto Rico",
+        "time": 1726094067660,
+        "updated": 1726094869120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71459773",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71459773.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71459773",
+        "ids": ",pr71459773,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1752,
+        "rms": 0.11,
+        "gap": 267,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 19 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8638333333333,
+          17.8013333333333,
+          7.16
+        ]
+      },
+      "id": "pr71459773"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -535,12 +575,12 @@
         "mag": 4.4,
         "place": "38 km SSW of Nemuro, Japan",
         "time": 1726070645788,
-        "updated": 1726088282040,
+        "updated": 1726094149895,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd3f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd3f.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -550,7 +590,7 @@
         "code": "7000nd3f",
         "ids": ",us7000nd3f,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 76,
         "dmin": 1.952,
         "rms": 0.64,
@@ -815,7 +855,7 @@
         "mag": 3.5,
         "place": "63 km SW of Covenant Life, Alaska",
         "time": 1726036608597,
-        "updated": 1726090642310,
+        "updated": 1726092456979,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024bpttx2t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024bpttx2t.geojson",
@@ -848,46 +888,6 @@
         ]
       },
       "id": "ak024bpttx2t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52999997,
-        "place": "5 km S of Pāhala, Hawaii",
-        "time": 1726035399760,
-        "updated": 1726035499650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74450392",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74450392.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "74450392",
-        "ids": ",hv74450392,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.1134,
-        "rms": 0.100000001,
-        "gap": 215,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.480499267578,
-          19.1551666259766,
-          33.4000015258789
-        ]
-      },
-      "id": "hv74450392"
     },
     {
       "type": "Feature",
@@ -1448,86 +1448,6 @@
         ]
       },
       "id": "us7000ncz6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "94 km SW of Atka, Alaska",
-        "time": 1726008537236,
-        "updated": 1726028801652,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024bofw3ks",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024bofw3ks.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.087,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "ak",
-        "code": "024bofw3ks",
-        "ids": ",ak024bofw3ks,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 94 km SW of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.1655,
-          51.5965,
-          26.3
-        ]
-      },
-      "id": "ak024bofw3ks"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1726005680964,
-        "updated": 1726006545040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ncyh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ncyh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000ncyh",
-        "ids": ",us7000ncyh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 6.11,
-        "rms": 0.67,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -26.1845,
-          -55.7692,
-          10
-        ]
-      },
-      "id": "us7000ncyh"
     }
   ],
   "bbox": [
