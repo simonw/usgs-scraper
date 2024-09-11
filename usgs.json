@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1726063204000,
+    "generated": 1726066801000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -215,17 +215,17 @@
         "mag": 5.4,
         "place": "31 km W of Karor, Pakistan",
         "time": 1726039679742,
-        "updated": 1726061256195,
+        "updated": 1726065741027,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd1m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd1m.geojson",
-        "felt": 87,
+        "felt": 90,
         "cdi": 8.4,
         "mmi": 6.25,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 522,
+        "sig": 524,
         "net": "us",
         "code": "7000nd1m",
         "ids": ",us7000nd1m,",
@@ -535,7 +535,7 @@
         "mag": 3,
         "place": "11 km NNE of Stanley, Idaho",
         "time": 1726023163158,
-        "updated": 1726056601657,
+        "updated": 1726065749370,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd0a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd0a.geojson",
@@ -548,8 +548,8 @@
         "sig": 141,
         "net": "us",
         "code": "7000nd0a",
-        "ids": ",us7000nd0a,",
-        "sources": ",us,",
+        "ids": ",us7000nd0a,mb90061088,",
+        "sources": ",us,mb,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 0.204,
@@ -1253,6 +1253,46 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
+        "place": "Reykjanes Ridge",
+        "time": 1725999041445,
+        "updated": 1726064730040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd1i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd1i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000nd1i",
+        "ids": ",us7000nd1i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 6.782,
+        "rms": 0.77,
+        "gap": 50,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -30.5718,
+          59.54,
+          10
+        ]
+      },
+      "id": "us7000nd1i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
         "place": "25 km SW of Balangonan, Philippines",
         "time": 1725998727156,
         "updated": 1726005130040,
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us6000nqvz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "6 km W of Paradise Hills, New Mexico",
-        "time": 1725977506192,
-        "updated": 1726061671388,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usa000p771",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usa000p771.geojson",
-        "felt": 19,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "us",
-        "code": "a000p771",
-        "ids": ",usa000p771,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.367,
-        "rms": 0.47,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 6 km W of Paradise Hills, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.774,
-          35.2075,
-          6.934
-        ]
-      },
-      "id": "usa000p771"
     }
   ],
   "bbox": [
