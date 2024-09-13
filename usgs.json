@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1726214430000,
+    "generated": 1726218028000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "east of the North Island of New Zealand",
+        "time": 1726215837459,
+        "updated": 1726216990040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ndgu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ndgu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000ndgu",
+        "ids": ",us7000ndgu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 3.059,
+        "rms": 0.96,
+        "gap": 59,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - east of the North Island of New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.3358,
+          -35.1626,
+          13.248
+        ]
+      },
+      "id": "us7000ndgu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Mariana Islands region",
+        "time": 1726213790957,
+        "updated": 1726215832040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ndgn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ndgn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000ndgn",
+        "ids": ",us7000ndgn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 5.651,
+        "rms": 0.92,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7938,
+          21.6136,
+          190.411
+        ]
+      },
+      "id": "us7000ndgn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1175,12 +1255,12 @@
         "mag": 2.8,
         "place": "34 km WSW of Ackerly, Texas",
         "time": 1726151684695,
-        "updated": 1726159176015,
+        "updated": 1726216456510,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024rzad",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024rzad.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1188,9 +1268,9 @@
         "sig": 121,
         "net": "tx",
         "code": "2024rzad",
-        "ids": ",us7000nda9,tx2024rzad,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2024rzad,us7000nda9,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0,
         "rms": 0.1,
@@ -1255,11 +1335,11 @@
         "mag": 4.69,
         "place": "6 km N of Malibu, CA",
         "time": 1726151301610,
-        "updated": 1726214325321,
+        "updated": 1726216750724,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40731623",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40731623.geojson",
-        "felt": 18370,
+        "felt": 18380,
         "cdi": 4.8,
         "mmi": 4.976,
         "alert": "green",
@@ -1408,51 +1488,11 @@
         ]
       },
       "id": "pr71459833"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "1 km ENE of Yalí, Colombia",
-        "time": 1726130073226,
-        "updated": 1726202361033,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd8m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd8m.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000nd8m",
-        "ids": ",us7000nd8m,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.852,
-        "rms": 0.64,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 1 km ENE of Yalí, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.8235,
-          6.6775,
-          77.017
-        ]
-      },
-      "id": "us7000nd8m"
     }
   ],
   "bbox": [
-    -178.5682,
-    -34.8941,
+    -179.3358,
+    -35.1626,
     3.544,
     146.9721,
     64.0447,
