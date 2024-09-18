@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1726614011000,
+    "generated": 1726617671000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 28
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.4,
         "place": "16 km NNE of Sincik, Turkey",
         "time": 1726612722264,
-        "updated": 1726613978040,
+        "updated": 1726617645400,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nstd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nstd.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000nstd",
         "ids": ",us6000nstd,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 86,
         "dmin": 0.536,
         "rms": 1.27,
@@ -655,11 +655,11 @@
         "mag": 2.9,
         "place": "33 km WSW of Ackerly, Texas",
         "time": 1726551995528,
-        "updated": 1726613655872,
+        "updated": 1726617603112,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024shmf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024shmf.geojson",
-        "felt": 20,
+        "felt": 21,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
@@ -892,10 +892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "63 km WNW of Aitape, Papua New Guinea",
-        "time": 1726541714593,
-        "updated": 1726542903040,
+        "mag": 4.9,
+        "place": "59 km WNW of Aitape, Papua New Guinea",
+        "time": 1726541713369,
+        "updated": 1726616062040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nee1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nee1.geojson",
@@ -905,25 +905,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 369,
         "net": "us",
         "code": "7000nee1",
         "ids": ",us7000nee1,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 1.195,
-        "rms": 0.76,
+        "nst": 38,
+        "dmin": 1.228,
+        "rms": 0.55,
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 63 km WNW of Aitape, Papua New Guinea"
+        "title": "M 4.9 - 59 km WNW of Aitape, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.8513,
-          -2.8512,
+          141.8674,
+          -2.9103,
           35
         ]
       },
@@ -1012,10 +1012,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
+        "mag": 4.7,
         "place": "south of the Fiji Islands",
-        "time": 1726536677397,
-        "updated": 1726537517040,
+        "time": 1726536677293,
+        "updated": 1726614659040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nedh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nedh.geojson",
@@ -1025,26 +1025,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 340,
         "net": "us",
         "code": "7000nedh",
         "ids": ",us7000nedh,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 3.865,
-        "rms": 0.64,
-        "gap": 104,
+        "nst": 57,
+        "dmin": 3.892,
+        "rms": 0.85,
+        "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - south of the Fiji Islands"
+        "title": "M 4.7 - south of the Fiji Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -179.6707,
-          -25.6893,
-          446.984
+          -179.6348,
+          -25.6458,
+          455.683
         ]
       },
       "id": "us7000nedh"
@@ -1055,11 +1055,11 @@
         "mag": 5.1,
         "place": "34 km WSW of Ackerly, Texas",
         "time": 1726534182183,
-        "updated": 1726613825514,
+        "updated": 1726616404922,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024shcj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024shcj.geojson",
-        "felt": 1986,
+        "felt": 1990,
         "cdi": 6.4,
         "mmi": 5.187,
         "alert": "green",
@@ -1128,134 +1128,14 @@
         ]
       },
       "id": "us7000necu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "40 km NW of Toyah, Texas",
-        "time": 1726530571521,
-        "updated": 1726576602048,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024shal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024shal.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2024shal",
-        "ids": ",us7000necp,tx2024shal,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 40 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.107,
-          31.565,
-          5.8435
-        ]
-      },
-      "id": "tx2024shal"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "50 km N of Camiña, Chile",
-        "time": 1726530118093,
-        "updated": 1726530982040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000necn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000necn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000necn",
-        "ids": ",us7000necn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.524,
-        "rms": 0.87,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 50 km N of Camiña, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.4969,
-          -18.8622,
-          111.696
-        ]
-      },
-      "id": "us7000necn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "16 km NNE of Barstow, CA",
-        "time": 1726527724820,
-        "updated": 1726530319449,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40735559",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40735559.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "ci",
-        "code": "40735559",
-        "ids": ",ci40735559,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.163,
-        "rms": 0.15,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 16 km NNE of Barstow, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.9833333,
-          35.038,
-          2.1
-        ]
-      },
-      "id": "ci40735559"
     }
   ],
   "bbox": [
-    -179.6707,
+    -179.6348,
     -54.56,
-    2.1,
+    2.24,
     161.3732,
     56.9058,
-    446.984
+    455.683
   ]
 }
