@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1726930824000,
+    "generated": 1726934400000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "17 km NE of Tilden, Texas",
+        "time": 1726931779922,
+        "updated": 1726932864649,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024spna",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024spna.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "tx",
+        "code": "2024spna",
+        "ids": ",tx2024spna,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 76,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 17 km NE of Tilden, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42,
+          28.575,
+          7.251
+        ]
+      },
+      "id": "tx2024spna"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "79 km N of Pārūn, Afghanistan",
+        "time": 1726929764841,
+        "updated": 1726932101040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nthh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nthh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000nthh",
+        "ids": ",us6000nthh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 2.905,
+        "rms": 0.85,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 79 km N of Pārūn, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.824,
+          36.1345,
+          115.635
+        ]
+      },
+      "id": "us6000nthh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Volcano Islands, Japan region",
+        "time": 1726924440642,
+        "updated": 1726932409040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nth2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nth2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000nth2",
+        "ids": ",us6000nth2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 2.869,
+        "rms": 0.96,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.4372,
+          24.2951,
+          116.645
+        ]
+      },
+      "id": "us6000nth2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,12 +335,12 @@
         "mag": 2.8008774518966675,
         "place": "8 km SE of Gold Beach, Oregon",
         "time": 1726902003960,
-        "updated": 1726903176040,
+        "updated": 1726932965476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62048346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62048346.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -228,9 +348,9 @@
         "sig": 121,
         "net": "uw",
         "code": "62048346",
-        "ids": ",us6000ntfy,uw62048346,",
-        "sources": ",us,uw,",
-        "types": ",origin,phase-data,",
+        "ids": ",uw62048346,us6000ntfy,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": null,
         "rms": 0.300000012,
