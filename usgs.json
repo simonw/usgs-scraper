@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727118024000,
+    "generated": 1727121630000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "south of the Kermadec Islands",
+        "time": 1727118525597,
+        "updated": 1727119568040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntwy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntwy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000ntwy",
+        "ids": ",us6000ntwy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 4.09,
+        "rms": 0.75,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.7585,
+          -32.8454,
+          186.18
+        ]
+      },
+      "id": "us6000ntwy"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -212,46 +252,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.57,
-        "place": "16 km SSE of Millville, CA",
-        "time": 1727096557380,
-        "updated": 1727104767177,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75065791",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75065791.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "75065791",
-        "ids": ",nc75065791,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.09576,
-        "rms": 0.12,
-        "gap": 155,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 16 km SSE of Millville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.078666687012,
-          40.4328346252441,
-          6.07999992370605
-        ]
-      },
-      "id": "nc75065791"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.9,
         "place": "45 km ENE of Susitna North, Alaska",
         "time": 1727096019137,
@@ -375,17 +375,17 @@
         "mag": 2.93,
         "place": "1 km WNW of Lennox, CA",
         "time": 1727092132200,
-        "updated": 1727117044473,
+        "updated": 1727119757391,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40742791",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40742791.geojson",
-        "felt": 406,
+        "felt": 409,
         "cdi": 4.1,
         "mmi": 3.11,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 299,
+        "sig": 300,
         "net": "ci",
         "code": "40742791",
         "ids": ",ci40742791,us6000ntuc,",
@@ -692,10 +692,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.97,
+        "mag": 2.94,
         "place": "5 km NNW of Pinnacles, CA",
-        "time": 1727075579940,
-        "updated": 1727085565007,
+        "time": 1727075579880,
+        "updated": 1727118438370,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75065656",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75065656.geojson",
@@ -703,28 +703,28 @@
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 143,
+        "sig": 140,
         "net": "nc",
         "code": "75065656",
         "ids": ",nc75065656,us6000nttb,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
+        "nst": 70,
         "dmin": 0.1057,
-        "rms": 0.19,
-        "gap": 51,
+        "rms": 0.11,
+        "gap": 53,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km NNW of Pinnacles, CA"
+        "title": "M 2.9 - 5 km NNW of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.170333862305,
-          36.5686683654785,
-          4.80999994277954
+          -121.170833333333,
+          36.5748333333333,
+          4.65
         ]
       },
       "id": "nc75065656"
@@ -1248,133 +1248,13 @@
         ]
       },
       "id": "pr71460838"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "43 km SW of La Libertad, El Salvador",
-        "time": 1727034493059,
-        "updated": 1727041827266,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntqm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntqm.geojson",
-        "felt": 2,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000ntqm",
-        "ids": ",us6000ntqm,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.475,
-        "rms": 1.01,
-        "gap": 170,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 43 km SW of La Libertad, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.5818,
-          13.1942,
-          66.097
-        ]
-      },
-      "id": "us6000ntqm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "68 km S of Challapata, Bolivia",
-        "time": 1727034153525,
-        "updated": 1727035222040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntqk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntqk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000ntqk",
-        "ids": ",us6000ntqk,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 61,
-        "dmin": 2.436,
-        "rms": 0.97,
-        "gap": 43,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 68 km S of Challapata, Bolivia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6526,
-          -19.5122,
-          255.258
-        ]
-      },
-      "id": "us6000ntqk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "9 km SSE of Guánica, Puerto Rico",
-        "time": 1727033449990,
-        "updated": 1727034015450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71460823",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71460823.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "71460823",
-        "ids": ",pr71460823,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1849,
-        "rms": 0.1,
-        "gap": 206,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8686666666667,
-          17.8898333333333,
-          12.69
-        ]
-      },
-      "id": "pr71460823"
     }
   ],
   "bbox": [
     -179.0409,
-    -29.716,
-    4.8099999427795,
-    179.6887,
+    -32.8454,
+    4.65,
+    179.7585,
     73.2192,
     584.27
   ]
