@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727179211000,
+    "generated": 1727183121000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 30
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 2.8,
         "place": "40 km NW of Toyah, Texas",
         "time": 1727160348654,
-        "updated": 1727169798465,
+        "updated": 1727181060800,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024suis",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024suis.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -148,9 +148,9 @@
         "sig": 121,
         "net": "tx",
         "code": "2024suis",
-        "ids": ",us6000nu11,tx2024suis,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2024suis,us6000nu11,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 0,
         "rms": 0.2,
@@ -1208,86 +1208,6 @@
         ]
       },
       "id": "hv74474462"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "45 km ENE of Susitna North, Alaska",
-        "time": 1727096019137,
-        "updated": 1727168558040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024c9ryb4b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024c9ryb4b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "024c9ryb4b",
-        "ids": ",us6000ntuj,ak024c9ryb4b,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.9,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 45 km ENE of Susitna North, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.0262,
-          62.2888,
-          19.7
-        ]
-      },
-      "id": "ak024c9ryb4b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Izu Islands, Japan region",
-        "time": 1727095805708,
-        "updated": 1727170424040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntut",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntut.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000ntut",
-        "ids": ",us6000ntut,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 2.644,
-        "rms": 0.61,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.0552,
-          29.7473,
-          10
-        ]
-      },
-      "id": "us6000ntut"
     }
   ],
   "bbox": [
@@ -1295,7 +1215,7 @@
     -36.6636,
     -0.0099999997764826,
     179.7585,
-    62.2888,
+    61.5122,
     196.783
   ]
 }
