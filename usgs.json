@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727141207000,
+    "generated": 1727144583000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1727142287760,
+        "updated": 1727143132355,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74475347",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74475347.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "74475347",
+        "ids": ",hv74475347,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.0261,
+        "rms": 0.170000002,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.487670898438,
+          19.1653327941895,
+          29.8199996948242
+        ]
+      },
+      "id": "hv74475347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "51 km W of Salsacate, Argentina",
         "time": 1727139525603,
-        "updated": 1727140614040,
+        "updated": 1727142349884,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntzv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntzv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000ntzv",
         "ids": ",us6000ntzv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 90,
         "dmin": 2.618,
         "rms": 0.78,
@@ -935,11 +975,11 @@
         "mag": 2.93,
         "place": "1 km WNW of Lennox, CA",
         "time": 1727092132200,
-        "updated": 1727140631178,
+        "updated": 1727142410172,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40742791",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40742791.geojson",
-        "felt": 416,
+        "felt": 418,
         "cdi": 4.1,
         "mmi": 3.11,
         "alert": null,
@@ -1455,17 +1495,17 @@
         "mag": 2.94,
         "place": "12 km SE of Desert Aire, Washington",
         "time": 1727061753260,
-        "updated": 1727109579783,
+        "updated": 1727143259208,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62049146",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62049146.geojson",
-        "felt": 15,
-        "cdi": 2,
+        "felt": 16,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 136,
+        "sig": 138,
         "net": "uw",
         "code": "62049146",
         "ids": ",uw62049146,us6000ntsr,",
@@ -1608,54 +1648,14 @@
         ]
       },
       "id": "us6000ntsj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Fiji region",
-        "time": 1727057692087,
-        "updated": 1727058841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntsh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntsh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ntsh",
-        "ids": ",us6000ntsh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 3.595,
-        "rms": 0.94,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.0409,
-          -21.5378,
-          584.27
-        ]
-      },
-      "id": "us6000ntsh"
     }
   ],
   "bbox": [
-    -179.0409,
+    -158.6528,
     -36.6636,
     -0.0099999997764826,
     179.7585,
     73.2192,
-    584.27
+    550.155
   ]
 }
