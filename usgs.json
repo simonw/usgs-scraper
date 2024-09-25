@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727283599000,
+    "generated": 1727287191000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 20
+    "count": 19
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "32 km NNW of Toyah, Texas",
+        "time": 1727285113886,
+        "updated": 1727285730005,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024swzn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024swzn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2024swzn",
+        "ids": ",tx2024swzn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 32 km NNW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.947,
+          31.581,
+          4.5625
+        ]
+      },
+      "id": "tx2024swzn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -728,92 +768,12 @@
         ]
       },
       "id": "us7000ng0b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "103 km WSW of Mosquito Lake, Alaska",
-        "time": 1727198647079,
-        "updated": 1727207885040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024cbiajcz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024cbiajcz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "024cbiajcz",
-        "ids": ",us7000nfz6,ak024cbiajcz,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.85,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 103 km WSW of Mosquito Lake, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -137.8221,
-          59.2483,
-          0
-        ]
-      },
-      "id": "ak024cbiajcz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "67 km SSE of Honchō, Japan",
-        "time": 1727197661463,
-        "updated": 1727206509040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nfz4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nfz4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000nfz4",
-        "ids": ",us7000nfz4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.439,
-        "rms": 0.62,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 67 km SSE of Honchō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.2815,
-          41.5856,
-          45.978
-        ]
-      },
-      "id": "us7000nfz4"
     }
   ],
   "bbox": [
     -176.9431,
     -57.732,
-    0,
+    4.5625,
     167.8616,
     69.6258,
     125.726
