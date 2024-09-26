@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727326838000,
+    "generated": 1727330438000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 3.7,
         "place": "39 km NW of Toyah, Texas",
         "time": 1727317327862,
-        "updated": 1727324801403,
+        "updated": 1727327987275,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024sxrb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024sxrb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 4.05,
         "alert": null,
         "status": "reviewed",
@@ -148,9 +148,9 @@
         "sig": 211,
         "net": "tx",
         "code": "2024sxrb",
-        "ids": ",us7000nggz,tx2024sxrb,",
-        "sources": ",us,tx,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "ids": ",tx2024sxrb,us7000nggz,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 36,
         "dmin": 0,
         "rms": 0.1,
@@ -332,6 +332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "124 km WSW of Puerto Madero, Mexico",
+        "time": 1727306656311,
+        "updated": 1727328232337,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nggp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nggp.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000nggp",
+        "ids": ",us7000nggp,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 28,
+        "dmin": 2.457,
+        "rms": 1.02,
+        "gap": 204,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 124 km WSW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4043,
+          14.1382,
+          10
+        ]
+      },
+      "id": "us7000nggp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.2,
         "place": "14 km S of Eunice, New Mexico",
         "time": 1727305695444,
@@ -375,11 +415,11 @@
         "mag": 3.19,
         "place": "31 km SSW of Pa‘auilo, Hawaii",
         "time": 1727305302010,
-        "updated": 1727322418457,
+        "updated": 1727327507287,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74477372",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74477372.geojson",
-        "felt": 36,
+        "felt": 37,
         "cdi": 2.9,
         "mmi": null,
         "alert": null,
@@ -1012,42 +1052,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.51,
-        "place": "128 km SE of Leilani Estates, Hawaii",
-        "time": 1727252039800,
-        "updated": 1727307091680,
+        "mag": 3.3,
+        "place": "102 km SE of Leilani Estates, Hawaii",
+        "time": 1727252038463,
+        "updated": 1727329785040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74476797",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74476797.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ng41",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ng41.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 190,
-        "net": "hv",
-        "code": "74476797",
-        "ids": ",hv74476797,",
-        "sources": ",hv,",
+        "sig": 168,
+        "net": "us",
+        "code": "7000ng41",
+        "ids": ",hv74476797,us7000ng41,",
+        "sources": ",hv,us,",
         "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 1.11,
-        "rms": 0.21,
-        "gap": 326,
+        "nst": 32,
+        "dmin": 0.881,
+        "rms": 0.22,
+        "gap": 316,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 128 km SE of Leilani Estates, Hawaii"
+        "title": "M 3.3 - 102 km SE of Leilani Estates, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.933666666667,
-          18.7768333333333,
-          24.04
+          -154.2073,
+          18.8405,
+          11.19
         ]
       },
-      "id": "hv74476797"
+      "id": "us7000ng41"
     },
     {
       "type": "Feature",
