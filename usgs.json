@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727442300000,
+    "generated": 1727445624000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
     {
@@ -455,7 +455,7 @@
         "mag": 5.1,
         "place": "84 km SW of Corinto, Nicaragua",
         "time": 1727408371854,
-        "updated": 1727409510040,
+        "updated": 1727444129040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ngr0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ngr0.geojson",
@@ -470,7 +470,7 @@
         "code": "7000ngr0",
         "ids": ",us7000ngr0,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 70,
         "dmin": 1.021,
         "rms": 0.93,
@@ -535,7 +535,7 @@
         "mag": 5.3,
         "place": "73 km SW of Kirakira, Solomon Islands",
         "time": 1727403780695,
-        "updated": 1727404870040,
+        "updated": 1727443629040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ngqn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ngqn.geojson",
@@ -550,7 +550,7 @@
         "code": "7000ngqn",
         "ids": ",us7000ngqn,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 37,
         "dmin": 2.133,
         "rms": 1.14,
@@ -893,12 +893,12 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "146 km WSW of Adak, Alaska",
-        "time": 1727383960554,
-        "updated": 1727386191486,
+        "place": "147 km WSW of Adak, Alaska",
+        "time": 1727383960526,
+        "updated": 1727444586040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024cevblob",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024cevblob.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ngpa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ngpa.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 3.043,
@@ -906,28 +906,68 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 246,
-        "net": "ak",
-        "code": "024cevblob",
-        "ids": ",ak024cevblob,",
-        "sources": ",ak,",
+        "net": "us",
+        "code": "7000ngpa",
+        "ids": ",ak024cevblob,us7000ngpa,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.53,
-        "gap": null,
-        "magType": "ml",
+        "nst": 72,
+        "dmin": 0.409,
+        "rms": 0.56,
+        "gap": 208,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 146 km WSW of Adak, Alaska"
+        "title": "M 4.0 - 147 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.4766,
-          51.2313,
-          25.1
+          -178.4718,
+          51.2058,
+          35
         ]
       },
-      "id": "ak024cevblob"
+      "id": "us7000ngpa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "208 km ENE of Levuka, Fiji",
+        "time": 1727383319739,
+        "updated": 1727445278040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ngp8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ngp8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000ngp8",
+        "ids": ",us7000ngp8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 3.419,
+        "rms": 0.62,
+        "gap": 41,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 208 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7569,
+          -17.6906,
+          560.944
+        ]
+      },
+      "id": "us7000ngp8"
     },
     {
       "type": "Feature",
