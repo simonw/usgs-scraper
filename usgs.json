@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727690436000,
+    "generated": 1727694028000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 17
+    "count": 19
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "53 km NNE of Petersville, Alaska",
+        "time": 1727693206710,
+        "updated": 1727693326754,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024clbhdvd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024clbhdvd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "024clbhdvd",
+        "ids": ",ak024clbhdvd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.68,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 53 km NNE of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.5342,
+          62.9672,
+          87.3
+        ]
+      },
+      "id": "ak024clbhdvd"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr71461398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "28 km NNW of Taltal, Chile",
+        "time": 1727678542218,
+        "updated": 1727692072040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nh6t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nh6t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000nh6t",
+        "ids": ",us7000nh6t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.873,
+        "rms": 0.74,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 28 km NNW of Taltal, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5533,
+          -25.1557,
+          35
+        ]
+      },
+      "id": "us7000nh6t"
     },
     {
       "type": "Feature",
@@ -692,7 +772,7 @@
   ],
   "bbox": [
     -163.46333333333,
-    -20.7721,
+    -25.1557,
     1.8,
     145.2581,
     69.1549,
