@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728320398000,
+    "generated": 1728323998000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 42
+    "count": 39
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 5,
         "place": "22 km N of Yaguaraparo, Venezuela",
         "time": 1728303689995,
-        "updated": 1728306607075,
+        "updated": 1728323655036,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx1y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx1y.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -215,17 +215,17 @@
         "mag": 4.1,
         "place": "12 km E of Dillon, Montana",
         "time": 1728284070633,
-        "updated": 1728320345044,
+        "updated": 1728323903266,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx10",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx10.geojson",
-        "felt": 177,
+        "felt": 186,
         "cdi": 4.8,
         "mmi": 4.114,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 344,
+        "sig": 348,
         "net": "us",
         "code": "6000nx10",
         "ids": ",us6000nx10,",
@@ -808,6 +808,46 @@
         ]
       },
       "id": "ak024cwsgg6y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "235 km ESE of Attu Station, Alaska",
+        "time": 1728272750502,
+        "updated": 1728321182537,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024cws2p2y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024cws2p2y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "024cws2p2y",
+        "ids": ",ak024cws2p2y,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.3,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 235 km ESE of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.3419,
+          51.9816,
+          119.7
+        ]
+      },
+      "id": "ak024cws2p2y"
     },
     {
       "type": "Feature",
@@ -1528,173 +1568,13 @@
         ]
       },
       "id": "us6000nwxg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "95 km SSE of Akureyri, Iceland",
-        "time": 1728237385706,
-        "updated": 1728239025040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nwxc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nwxc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000nwxc",
-        "ids": ",us6000nwxc,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 65,
-        "dmin": 1.566,
-        "rms": 0.44,
-        "gap": 102,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 95 km SSE of Akureyri, Iceland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.6755,
-          64.8464,
-          10
-        ]
-      },
-      "id": "us6000nwxc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "99 km SE of McCarthy, Alaska",
-        "time": 1728235232193,
-        "updated": 1728243365453,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024cvcpwds",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024cvcpwds.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "024cvcpwds",
-        "ids": ",ak024cvcpwds,us6000nwx7,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 99 km SE of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.4641,
-          60.8806,
-          13.3
-        ]
-      },
-      "id": "ak024cvcpwds"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "34 km NE of Onagawa Chō, Japan",
-        "time": 1728235203210,
-        "updated": 1728236289040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nwx8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nwx8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000nwx8",
-        "ids": ",us6000nwx8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 2.212,
-        "rms": 0.41,
-        "gap": 142,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 34 km NE of Onagawa Chō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.7572,
-          38.6405,
-          57.641
-        ]
-      },
-      "id": "us6000nwx8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "23 km NE of Āwash, Ethiopia",
-        "time": 1728234603972,
-        "updated": 1728319881306,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nwx4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nwx4.geojson",
-        "felt": 152,
-        "cdi": 4.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 436,
-        "net": "us",
-        "code": "6000nwx4",
-        "ids": ",us6000nwx4,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 67,
-        "dmin": 3.445,
-        "rms": 0.48,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 23 km NE of Āwash, Ethiopia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          40.3209,
-          9.1287,
-          10
-        ]
-      },
-      "id": "us6000nwx4"
     }
   ],
   "bbox": [
     -178.474,
     -33.5384,
     0,
-    169.0501,
+    176.3419,
     69.3768,
     362.143
   ]
