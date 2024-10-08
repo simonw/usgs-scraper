@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728367215000,
+    "generated": 1728370819000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 24
   },
   "features": [
     {
@@ -812,6 +812,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "112 km W of San Antonio de los Cobres, Argentina",
+        "time": 1728302009180,
+        "updated": 1728367456040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx1u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx1u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000nx1u",
+        "ids": ",us6000nx1u,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 2.21,
+        "rms": 0.69,
+        "gap": 150,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 112 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4254,
+          -24.1558,
+          225.597
+        ]
+      },
+      "id": "us6000nx1u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.06,
         "place": "55 km NNW of San Antonio, Puerto Rico",
         "time": 1728296501900,
@@ -928,206 +968,6 @@
         ]
       },
       "id": "pr71461983"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "13 km E of Dillon, Montana",
-        "time": 1728284398410,
-        "updated": 1728358321199,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90063138",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90063138.geojson",
-        "felt": 7,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "mb",
-        "code": "90063138",
-        "ids": ",mb90063138,",
-        "sources": ",mb,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.1713,
-        "rms": 0.15,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 13 km E of Dillon, Montana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.469166666667,
-          45.2166666666667,
-          4.43
-        ]
-      },
-      "id": "mb90063138"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "12 km E of Dillon, Montana",
-        "time": 1728284070633,
-        "updated": 1728361153707,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx10",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx10.geojson",
-        "felt": 216,
-        "cdi": 4.8,
-        "mmi": 4.171,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 362,
-        "net": "us",
-        "code": "6000nx10",
-        "ids": ",us6000nx10,mb90063133,",
-        "sources": ",us,mb,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 69,
-        "dmin": 0.162,
-        "rms": 0.57,
-        "gap": 35,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 12 km E of Dillon, Montana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.4752,
-          45.2248,
-          13.656
-        ]
-      },
-      "id": "us6000nx10"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "2 km NE of Mayagüez, Puerto Rico",
-        "time": 1728283548840,
-        "updated": 1728284560200,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71461973",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71461973.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71461973",
-        "ids": ",pr71461973,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.01662,
-        "rms": 0.17,
-        "gap": 80,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km NE of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1218333333333,
-          18.2195,
-          22.58
-        ]
-      },
-      "id": "pr71461973"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.36,
-        "place": "23 km SE of Boca de Yuma, Dominican Republic",
-        "time": 1728282611600,
-        "updated": 1728283935300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71461963",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71461963.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 174,
-        "net": "pr",
-        "code": "71461963",
-        "ids": ",pr71461963,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.2866,
-        "rms": 0.4,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 23 km SE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4495,
-          18.2338333333333,
-          56.74
-        ]
-      },
-      "id": "pr71461963"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "6 km SW of Thívai, Greece",
-        "time": 1728281926515,
-        "updated": 1728286575040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx0u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx0u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000nx0u",
-        "ids": ",us6000nx0u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 144,
-        "dmin": 1.037,
-        "rms": 0.62,
-        "gap": 38,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.7 - 6 km SW of Thívai, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.2711,
-          38.2858,
-          10
-        ]
-      },
-      "id": "us6000nx0u"
     }
   ],
   "bbox": [
