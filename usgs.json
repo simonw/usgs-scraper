@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728410381000,
+    "generated": 1728414024000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "276 km WSW of Tual, Indonesia",
+        "time": 1728409063870,
+        "updated": 1728410891005,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nxcv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nxcv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000nxcv",
+        "ids": ",us6000nxcv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.339,
+        "rms": 1.03,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 276 km WSW of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5377,
+          -6.7901,
+          97.011
+        ]
+      },
+      "id": "us6000nxcv"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "20 km WSW of Alamo, Nevada",
         "time": 1728405618511,
-        "updated": 1728408891667,
+        "updated": 1728411915005,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00885709",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00885709.geojson",
@@ -28,8 +68,8 @@
         "sig": 129,
         "net": "nn",
         "code": "00885709",
-        "ids": ",nn00885709,",
-        "sources": ",nn,",
+        "ids": ",us6000nxcf,nn00885709,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
         "nst": 43,
         "dmin": 0.283,
@@ -55,7 +95,7 @@
         "mag": 4.3,
         "place": "179 km W of Ferndale, California",
         "time": 1728404854523,
-        "updated": 1728410188005,
+        "updated": 1728410631011,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nxcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nxcd.geojson",
@@ -68,9 +108,9 @@
         "sig": 284,
         "net": "us",
         "code": "6000nxcd",
-        "ids": ",us6000nxcd,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "ids": ",us6000nxcd,ew1728404880,",
+        "sources": ",us,ew,",
+        "types": ",moment-tensor,origin,phase-data,shake-alert,",
         "nst": 79,
         "dmin": 1.713,
         "rms": 1.05,
@@ -1174,7 +1214,7 @@
     -178.5654,
     -36.2784,
     0,
-    126.9413,
+    130.5377,
     69.3405,
     406.845
   ]
