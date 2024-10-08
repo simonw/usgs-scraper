@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728356762000,
+    "generated": 1728360021000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -812,14 +812,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.78,
+        "place": "13 km E of Dillon, Montana",
+        "time": 1728284398410,
+        "updated": 1728358321199,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90063138",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90063138.geojson",
+        "felt": 7,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "mb",
+        "code": "90063138",
+        "ids": ",mb90063138,",
+        "sources": ",mb,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.1713,
+        "rms": 0.15,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 13 km E of Dillon, Montana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.469166666667,
+          45.2166666666667,
+          4.43
+        ]
+      },
+      "id": "mb90063138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "12 km E of Dillon, Montana",
         "time": 1728284070633,
-        "updated": 1728356659110,
+        "updated": 1728358775777,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx10",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx10.geojson",
-        "felt": 213,
+        "felt": 214,
         "cdi": 4.8,
         "mmi": 4.171,
         "alert": "green",
@@ -828,8 +868,8 @@
         "sig": 361,
         "net": "us",
         "code": "6000nx10",
-        "ids": ",us6000nx10,",
-        "sources": ",us,",
+        "ids": ",us6000nx10,mb90063133,",
+        "sources": ",us,mb,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 69,
         "dmin": 0.162,
@@ -1448,53 +1488,13 @@
         ]
       },
       "id": "ak024cwsgg6y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "244 km ESE of Attu Station, Alaska",
-        "time": 1728272749356,
-        "updated": 1728342925040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx3t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx3t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "6000nx3t",
-        "ids": ",ak024cws2p2y,us6000nx3t,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 1.304,
-        "rms": 0.2,
-        "gap": 338,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 244 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.4087,
-          51.8856,
-          129.388
-        ]
-      },
-      "id": "us6000nx3t"
     }
   ],
   "bbox": [
     -178.5577,
     -36.2784,
     0,
-    176.4087,
+    169.0501,
     69.329,
     406.845
   ]
