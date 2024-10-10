@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728572393000,
+    "generated": 1728575998000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 46
+    "count": 45
   },
   "features": [
     {
@@ -15,13 +15,13 @@
         "mag": 3.5,
         "place": "6 km W of Woodbine, Kansas",
         "time": 1728570015627,
-        "updated": 1728571503300,
+        "updated": 1728574135478,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nxv1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nxv1.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
-        "mmi": 4.026,
+        "mmi": 3.97,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us6000nxv1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "32 km NE of Arhribs, Algeria",
+        "time": 1728568790740,
+        "updated": 1728572690005,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nxv3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nxv3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000nxv3",
+        "ids": ",us6000nxv3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 2.881,
+        "rms": 0.76,
+        "gap": 154,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 32 km NE of Arhribs, Algeria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5404,
+          37.0185,
+          10
+        ]
+      },
+      "id": "us6000nxv3"
     },
     {
       "type": "Feature",
@@ -1768,93 +1808,13 @@
         ]
       },
       "id": "us6000nxld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "5 km S of Indios, Puerto Rico",
-        "time": 1728488512330,
-        "updated": 1728489703290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71462213",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71462213.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71462213",
-        "ids": ",pr71462213,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2158,
-        "rms": 0.26,
-        "gap": 176,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km S of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.819,
-          17.9448333333333,
-          17.5
-        ]
-      },
-      "id": "pr71462213"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1728486641145,
-        "updated": 1728513546005,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nxkt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nxkt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.471,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "6000nxkt",
-        "ids": ",ak024d0a2xiq,us6000nxkt,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 23,
-        "dmin": 1.172,
-        "rms": 0.68,
-        "gap": 286,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.9151,
-          50.234,
-          35
-        ]
-      },
-      "id": "us6000nxkt"
     }
   ],
   "bbox": [
     -178.4643,
     -47.5338,
     0,
-    178.9151,
+    176.5453,
     69.4303,
     194.523
   ]
