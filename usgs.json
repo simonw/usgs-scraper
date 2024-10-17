@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1729184402000,
+    "generated": 1729188005000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 56
+    "count": 57
   },
   "features": [
     {
@@ -52,6 +52,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1729182832966,
+        "updated": 1729185082040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nzds",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nzds.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000nzds",
+        "ids": ",us6000nzds,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 5.731,
+        "rms": 0.95,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.1279,
+          -56.3494,
+          93.774
+        ]
+      },
+      "id": "us6000nzds"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.78,
         "place": "33 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1729179579350,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "pr71462818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "9 km SSW of Pa‘auilo, Hawaii",
+        "time": 1729176752290,
+        "updated": 1729187243170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74502176",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74502176.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "hv",
+        "code": "74502176",
+        "ids": ",us6000nzcn,hv74502176,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.1676,
+        "rms": 0.21,
+        "gap": 146,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 9 km SSW of Pa‘auilo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.417333333333,
+          19.968,
+          8.53
+        ]
+      },
+      "id": "hv74502176"
     },
     {
       "type": "Feature",
@@ -1255,12 +1335,12 @@
         "mag": 2.8,
         "place": "2 km SW of Gerlach, Nevada",
         "time": 1729126058567,
-        "updated": 1729181409758,
+        "updated": 1729185968901,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00886135",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00886135.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1270,7 +1350,7 @@
         "code": "00886135",
         "ids": ",nn00886135,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": 0.536,
         "rms": 0.18,
@@ -2208,51 +2288,11 @@
         ]
       },
       "id": "us6000nz5g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Kermadec Islands region",
-        "time": 1729098660533,
-        "updated": 1729100511040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nz4x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nz4x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000nz4x",
-        "ids": ",us6000nz4x,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 74,
-        "dmin": 2.055,
-        "rms": 0.59,
-        "gap": 44,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.1917,
-          -27.8652,
-          10
-        ]
-      },
-      "id": "us6000nz4x"
     }
   ],
   "bbox": [
     -179.4303,
-    -37.9822,
+    -56.3494,
     0,
     176.0971,
     69.5616,
