@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1729367978000,
+    "generated": 1729371602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 19
+    "count": 18
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 4.7,
         "place": "85 km NNW of Lae, Papua New Guinea",
         "time": 1729358953026,
-        "updated": 1729360699040,
+        "updated": 1729371504500,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nzrq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nzrq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "6000nzrq",
         "ids": ",us6000nzrq,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": 3.402,
         "rms": 0.94,
@@ -728,46 +728,6 @@
         ]
       },
       "id": "us6000nzn6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "13 km S of False Pass, Alaska",
-        "time": 1729281581225,
-        "updated": 1729285247770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nzlx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nzlx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.42,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000nzlx",
-        "ids": ",us6000nzlx,ak024df8lawl,",
-        "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": 36,
-        "dmin": 0.121,
-        "rms": 0.61,
-        "gap": 141,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 13 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.4326,
-          54.736,
-          91.956
-        ]
-      },
-      "id": "us6000nzlx"
     }
   ],
   "bbox": [
