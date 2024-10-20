@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1729391117000,
+    "generated": 1729393688000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 20
+    "count": 21
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "233 km SSE of Suva, Fiji",
+        "time": 1729388868581,
+        "updated": 1729391911040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nztg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nztg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000nztg",
+        "ids": ",us6000nztg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.562,
+        "rms": 1.07,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 233 km SSE of Suva, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.8731,
+          -20.1999,
+          552.822
+        ]
+      },
+      "id": "us6000nztg"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.04,
         "place": "1 km SSE of Guánica, Puerto Rico",
         "time": 1729387428890,
-        "updated": 1729389099700,
+        "updated": 1729392271945,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71463063",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71463063.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "71463063",
         "ids": ",pr71463063,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 0.01414,
         "rms": 0.2,
@@ -814,8 +854,8 @@
     -155.1642,
     -26.3568,
     1.87,
-    160.9088,
+    178.8731,
     69.4148,
-    284.274
+    552.822
   ]
 }
