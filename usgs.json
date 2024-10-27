@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730044794000,
+    "generated": 1730048402000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "87 km SE of Pondaguitan, Philippines",
+        "time": 1730044581504,
+        "updated": 1730046809040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnhw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnhw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000nnhw",
+        "ids": ",us7000nnhw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 1.709,
+        "rms": 0.91,
+        "gap": 185,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 87 km SE of Pondaguitan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6937,
+          5.7602,
+          10.286
+        ]
+      },
+      "id": "us7000nnhw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "8 km NNE of Montecristi, Ecuador",
+        "time": 1730044398508,
+        "updated": 1730046354040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnhv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnhv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000nnhv",
+        "ids": ",us7000nnhv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.823,
+        "rms": 0.64,
+        "gap": 283,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 8 km NNE of Montecristi, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6206,
+          -0.9813,
+          30.105
+        ]
+      },
+      "id": "us7000nnhv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 2.61,
         "place": "8 km S of Olancha, CA",
         "time": 1730039281060,
-        "updated": 1730043735568,
+        "updated": 1730044857040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40965760",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40965760.geojson",
@@ -68,8 +148,8 @@
         "sig": 105,
         "net": "ci",
         "code": "40965760",
-        "ids": ",ci40965760,",
-        "sources": ",ci,",
+        "ids": ",ci40965760,us7000nnhn,",
+        "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 36,
         "dmin": 0.1606,
@@ -1208,46 +1288,6 @@
         ]
       },
       "id": "us7000nncw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "10 km NNE of Susanville, CA",
-        "time": 1729959286980,
-        "updated": 1729979308436,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75079191",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75079191.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "nc",
-        "code": "75079191",
-        "ids": ",nc75079191,nn00886824,us7000nncn,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.1378,
-        "rms": 0.13,
-        "gap": 95,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 10 km NNE of Susanville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.636001586914,
-          40.5065002441406,
-          2.78999996185303
-        ]
-      },
-      "id": "nc75079191"
     }
   ],
   "bbox": [
