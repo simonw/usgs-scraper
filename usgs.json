@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730041231000,
+    "generated": 1730044794000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.64,
+        "place": "143 km N of Hatillo, Puerto Rico",
+        "time": 1730040606510,
+        "updated": 1730044289683,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024301000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024301000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 204,
+        "net": "pr",
+        "code": "2024301000",
+        "ids": ",pr2024301000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 1.4274,
+        "rms": 0.29,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 143 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6826,
+          19.7723,
+          30
+        ]
+      },
+      "id": "pr2024301000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.61,
         "place": "8 km S of Olancha, CA",
         "time": 1730039281060,
-        "updated": 1730039816178,
+        "updated": 1730043735568,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40965760",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40965760.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "40965760",
         "ids": ",ci40965760,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 36,
         "dmin": 0.1606,
         "rms": 0.2,
@@ -52,27 +92,27 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.34,
+        "mag": 3.27,
         "place": "8 km S of Olancha, CA",
-        "time": 1730036929940,
-        "updated": 1730040334040,
+        "time": 1730036929950,
+        "updated": 1730042125054,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40965744",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40965744.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 173,
+        "sig": 166,
         "net": "ci",
         "code": "40965744",
         "ids": ",ci40965744,us7000nnhj,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 49,
-        "dmin": 0.1569,
+        "nst": 42,
+        "dmin": 0.1589,
         "rms": 0.19,
         "gap": 46,
         "magType": "ml",
@@ -82,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.0151672,
-          36.2060013,
-          0.39
+          -118.0158333,
+          36.2088333,
+          0.99
         ]
       },
       "id": "ci40965744"
@@ -415,17 +455,17 @@
         "mag": 4.2,
         "place": "7 km S of Pizitou, Taiwan",
         "time": 1730012214934,
-        "updated": 1730038024178,
+        "updated": 1730043396297,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnfr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnfr.geojson",
-        "felt": 289,
+        "felt": 291,
         "cdi": 5.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 439,
+        "sig": 440,
         "net": "us",
         "code": "7000nnfr",
         "ids": ",us7000nnfr,",
@@ -455,17 +495,17 @@
         "mag": 4.3,
         "place": "8 km SSW of Pizitou, Taiwan",
         "time": 1730009952768,
-        "updated": 1730037940869,
+        "updated": 1730043026796,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnfp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnfp.geojson",
-        "felt": 182,
+        "felt": 183,
         "cdi": 5.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 390,
+        "sig": 391,
         "net": "us",
         "code": "7000nnfp",
         "ids": ",us7000nnfp,",
@@ -1208,46 +1248,6 @@
         ]
       },
       "id": "nc75079191"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "231 km NW of Gorontalo, Indonesia",
-        "time": 1729957923526,
-        "updated": 1729959203040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnck",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnck.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000nnck",
-        "ids": ",us7000nnck,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.432,
-        "rms": 1.01,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 231 km NW of Gorontalo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.7549,
-          2.1685,
-          557.563
-        ]
-      },
-      "id": "us7000nnck"
     }
   ],
   "bbox": [
@@ -1256,6 +1256,6 @@
     0,
     160.5824,
     67.7905,
-    557.563
+    280.189
   ]
 }
