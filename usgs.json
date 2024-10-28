@@ -1,35 +1,115 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730091634000,
+    "generated": 1730095222000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "13 km WSW of Quinton, Oklahoma",
+        "time": 1730092993309,
+        "updated": 1730093977997,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnkv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnkv.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "us",
+        "code": "7000nnkv",
+        "ids": ",us7000nnkv,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.421,
+        "rms": 0.26,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 13 km WSW of Quinton, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.512,
+          35.082,
+          4.776
+        ]
+      },
+      "id": "us7000nnkv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "5 km W of Guaca, Colombia",
+        "time": 1730088180668,
+        "updated": 1730092929040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnkf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnkf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000nnkf",
+        "ids": ",us7000nnkf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.996,
+        "rms": 0.62,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 5 km W of Guaca, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9025,
+          6.8787,
+          145.81
+        ]
+      },
+      "id": "us7000nnkf"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.28,
         "place": "9 km SW of Lompoc, CA",
         "time": 1730087749800,
-        "updated": 1730091547656,
+        "updated": 1730094743306,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40965984",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40965984.geojson",
-        "felt": 261,
+        "felt": 273,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 278,
+        "sig": 283,
         "net": "ci",
         "code": "40965984",
-        "ids": ",ci40965984,",
-        "sources": ",ci,",
+        "ids": ",ci40965984,us7000nnkd,",
+        "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 45,
         "dmin": 0.1303,
@@ -52,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "4 km SW of North Pole, Alaska",
-        "time": 1730087633865,
-        "updated": 1730091037731,
+        "mag": 2.6,
+        "place": "5 km SSW of North Pole, Alaska",
+        "time": 1730087633943,
+        "updated": 1730092119554,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024dviel22",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024dviel22.geojson",
@@ -63,28 +143,28 @@
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 114,
         "net": "ak",
         "code": "024dviel22",
-        "ids": ",ak024dviel22,",
-        "sources": ",ak,",
+        "ids": ",ak024dviel22,us7000nnkc,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.57,
+        "rms": 0.61,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 4 km SW of North Pole, Alaska"
+        "title": "M 2.6 - 5 km SSW of North Pole, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.4114,
-          64.7213,
-          25.1
+          -147.4085,
+          64.7124,
+          23.3
         ]
       },
       "id": "ak024dviel22"
@@ -1568,46 +1648,6 @@
         ]
       },
       "id": "ak024dtwf5j9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.96,
-        "place": "0 km WNW of Candelaria, Puerto Rico",
-        "time": 1730007691670,
-        "updated": 1730080319926,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71463768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71463768.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 135,
-        "net": "pr",
-        "code": "71463768",
-        "ids": ",pr71463768,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.16,
-        "rms": 0.23,
-        "gap": 192,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 0 km WNW of Candelaria, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2175,
-          18.4068333333333,
-          66.05
-        ]
-      },
-      "id": "pr71463768"
     }
   ],
   "bbox": [
@@ -1615,7 +1655,7 @@
     -25.9186,
     -0.08,
     179.8509,
-    64.7213,
+    64.7124,
     621.325
   ]
 }
