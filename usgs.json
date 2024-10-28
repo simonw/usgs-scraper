@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730152791000,
+    "generated": 1730156393000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 48
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "south of the Fiji Islands",
+        "time": 1730154835344,
+        "updated": 1730155748040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnpu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnpu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000nnpu",
+        "ids": ",us7000nnpu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 3.73,
+        "rms": 1.15,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.9629,
+          -26.0045,
+          489.115
+        ]
+      },
+      "id": "us7000nnpu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.63,
         "place": "11 km N of Susanville, CA",
         "time": 1730152369560,
-        "updated": 1730152618430,
+        "updated": 1730154136747,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75080211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75080211.geojson",
@@ -28,9 +68,9 @@
         "sig": 106,
         "net": "nc",
         "code": "75080211",
-        "ids": ",nc75080211,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "ids": ",nc75080211,nn00886940,",
+        "sources": ",nc,nn,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 22,
         "dmin": 0.1256,
         "rms": 0.12,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc75080211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "74 km NNW of Salinas, Ecuador",
+        "time": 1730152241802,
+        "updated": 1730153248040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnpr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnpr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "7000nnpr",
+        "ids": ",us7000nnpr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 2.158,
+        "rms": 0.43,
+        "gap": 254,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 74 km NNW of Salinas, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2391,
+          -1.6041,
+          10
+        ]
+      },
+      "id": "us7000nnpr"
     },
     {
       "type": "Feature",
@@ -255,11 +335,11 @@
         "mag": 2.71,
         "place": "14 km SSE of Waynoka, Oklahoma",
         "time": 1730136704740,
-        "updated": 1730150118978,
+        "updated": 1730153810332,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024vfhc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024vfhc.geojson",
-        "felt": 143,
+        "felt": 144,
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
@@ -975,11 +1055,11 @@
         "mag": 3.64,
         "place": "8 km SW of Lompoc, CA",
         "time": 1730101764330,
-        "updated": 1730150647676,
+        "updated": 1730153775942,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40966024",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40966024.geojson",
-        "felt": 629,
+        "felt": 630,
         "cdi": 4.8,
         "mmi": 4.419,
         "alert": null,
@@ -1255,11 +1335,11 @@
         "mag": 3.19,
         "place": "10 km SW of Lompoc, CA",
         "time": 1730087749610,
-        "updated": 1730150703430,
+        "updated": 1730153757885,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40965984",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40965984.geojson",
-        "felt": 837,
+        "felt": 838,
         "cdi": 5.2,
         "mmi": null,
         "alert": null,
@@ -1888,54 +1968,14 @@
         ]
       },
       "id": "pr71463833"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "267 km E of Levuka, Fiji",
-        "time": 1730066793387,
-        "updated": 1730067894040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnix",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnix.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000nnix",
-        "ids": ",us7000nnix,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 96,
-        "dmin": 2.74,
-        "rms": 0.87,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 267 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1657,
-          -17.8848,
-          621.325
-        ]
-      },
-      "id": "us7000nnix"
     }
   ],
   "bbox": [
-    -178.1657,
-    -25.9186,
+    -160.6445,
+    -26.0045,
     -0.09,
-    179.8509,
+    179.9629,
     64.7124,
-    621.325
+    489.115
   ]
 }
