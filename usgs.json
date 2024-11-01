@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730440817000,
+    "generated": 1730444378000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 5.4,
         "place": "Reykjanes Ridge",
         "time": 1730439494931,
-        "updated": 1730440443210,
+        "updated": 1730443129952,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000npb7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npb7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 0,
         "alert": "green",
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000npb7",
         "ids": ",us7000npb7,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 129,
         "dmin": 8.803,
         "rms": 0.75,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us7000npb4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "67 km NNW of Isangel, Vanuatu",
+        "time": 1730438650715,
+        "updated": 1730441302040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000npb3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npb3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000npb3",
+        "ids": ",us7000npb3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 3.973,
+        "rms": 0.86,
+        "gap": 55,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 67 km NNW of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.1294,
+          -18.946,
+          229.141
+        ]
+      },
+      "id": "us7000npb3"
     },
     {
       "type": "Feature",
@@ -375,17 +415,17 @@
         "mag": 2.75,
         "place": "4 km SE of Highland Park, CA",
         "time": 1730415544670,
-        "updated": 1730439669568,
+        "updated": 1730443151643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40785127",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40785127.geojson",
-        "felt": 198,
+        "felt": 202,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 192,
+        "sig": 193,
         "net": "ci",
         "code": "40785127",
         "ids": ",ci40785127,us7000np9t,",
@@ -815,11 +855,11 @@
         "mag": 5.2,
         "place": "44 km S of Hualien City, Taiwan",
         "time": 1730391496120,
-        "updated": 1730395241168,
+        "updated": 1730441036527,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000np7y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000np7y.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1128,46 +1168,6 @@
         ]
       },
       "id": "us7000np81"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Fiji region",
-        "time": 1730354543926,
-        "updated": 1730355385040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000np5i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000np5i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000np5i",
-        "ids": ",us7000np5i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 75,
-        "dmin": 3.532,
-        "rms": 0.66,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9106,
-          -18.8898,
-          503.106
-        ]
-      },
-      "id": "us7000np5i"
     }
   ],
   "bbox": [
