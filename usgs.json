@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730739571000,
+    "generated": 1730743193000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "10 km ENE of Borrego Springs, CA",
+        "time": 1730742737640,
+        "updated": 1730743152040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40787359",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40787359.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ci",
+        "code": "40787359",
+        "ids": ",ci40787359,us7000npws,",
+        "sources": ",ci,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 105,
+        "dmin": 0.0685,
+        "rms": 0.19,
+        "gap": 20,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 10 km ENE of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2845001,
+          33.2970009,
+          11.04
+        ]
+      },
+      "id": "ci40787359"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.24,
         "place": "45 km W of Ferndale, CA",
         "time": 1730738489650,
-        "updated": 1730739412033,
+        "updated": 1730742844668,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75082686",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75082686.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 0,
         "mmi": null,
         "alert": null,
@@ -28,8 +68,8 @@
         "sig": 162,
         "net": "nc",
         "code": "75082686",
-        "ids": ",ew1730738500,nc75082686,",
-        "sources": ",ew,nc,",
+        "ids": ",ew1730738500,nc75082686,us7000npvi,",
+        "sources": ",ew,nc,us,",
         "types": ",associate,dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 62,
         "dmin": null,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc75082686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "5 km WNW of Ichihara, Japan",
+        "time": 1730733056088,
+        "updated": 1730740175040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000npv8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npv8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000npv8",
+        "ids": ",us7000npv8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 1.786,
+        "rms": 0.74,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 5 km WNW of Ichihara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0284,
+          35.5317,
+          70.646
+        ]
+      },
+      "id": "us7000npv8"
     },
     {
       "type": "Feature",
@@ -175,17 +255,17 @@
         "mag": 3.11,
         "place": "16 km ESE of Anza, CA",
         "time": 1730719201540,
-        "updated": 1730736224213,
+        "updated": 1730742685649,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40787191",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40787191.geojson",
-        "felt": 25,
-        "cdi": 3.8,
+        "felt": 129,
+        "cdi": 5.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 216,
         "net": "ci",
         "code": "40787191",
         "ids": ",ci40787191,",
@@ -615,17 +695,17 @@
         "mag": 4.3,
         "place": "19 km ESE of Waikawa, New Zealand",
         "time": 1730689115526,
-        "updated": 1730733367274,
+        "updated": 1730742472671,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000npst",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npst.geojson",
-        "felt": 387,
+        "felt": 497,
         "cdi": 5.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 497,
+        "sig": 558,
         "net": "us",
         "code": "7000npst",
         "ids": ",us7000npst,",
@@ -1168,206 +1248,6 @@
         ]
       },
       "id": "tx2024vqie"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "26 km WSW of Bardsīr, Iran",
-        "time": 1730656710364,
-        "updated": 1730657921040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000npr5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npr5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000npr5",
-        "ids": ",us7000npr5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 4.84,
-        "rms": 0.56,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 26 km WSW of Bardsīr, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.3313,
-          29.8025,
-          10
-        ]
-      },
-      "id": "us7000npr5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "28 km SE of Emajagua, Puerto Rico",
-        "time": 1730655000790,
-        "updated": 1730657165250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71464533",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71464533.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "pr",
-        "code": "71464533",
-        "ids": ",pr71464533,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2757,
-        "rms": 0.1,
-        "gap": 239,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 28 km SE of Emajagua, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6716666666667,
-          17.8445,
-          19.93
-        ]
-      },
-      "id": "pr71464533"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "3 km ENE of Fortuna, CA",
-        "time": 1730653952930,
-        "updated": 1730734856434,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75082566",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75082566.geojson",
-        "felt": 1156,
-        "cdi": 4.6,
-        "mmi": 2.94,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 642,
-        "net": "nc",
-        "code": "75082566",
-        "ids": ",nc75082566,us7000npqq,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 51,
-        "dmin": 0.07843,
-        "rms": 0.18,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 3 km ENE of Fortuna, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.129166666667,
-          40.6081666666667,
-          21.42
-        ]
-      },
-      "id": "nc75082566"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Volcano Islands, Japan region",
-        "time": 1730653766013,
-        "updated": 1730655056040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000npqy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npqy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000npqy",
-        "ids": ",us7000npqy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 1.696,
-        "rms": 0.48,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Volcano Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.4937,
-          25.4153,
-          10
-        ]
-      },
-      "id": "us7000npqy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "12 km SSW of Néa Poteídaia, Greece",
-        "time": 1730653432194,
-        "updated": 1730732502679,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000npqn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npqn.geojson",
-        "felt": 1246,
-        "cdi": 5.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 996,
-        "net": "us",
-        "code": "7000npqn",
-        "ids": ",us7000npqn,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 107,
-        "dmin": 0.582,
-        "rms": 0.56,
-        "gap": 24,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 12 km SSW of Néa Poteídaia, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.2479,
-          40.0979,
-          9
-        ]
-      },
-      "id": "us7000npqn"
     }
   ],
   "bbox": [
