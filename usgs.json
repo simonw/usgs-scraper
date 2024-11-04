@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730757626000,
+    "generated": 1730761183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 25
   },
   "features": [
     {
@@ -375,12 +375,12 @@
         "mag": 4.6,
         "place": "5 km WNW of Ichihara, Japan",
         "time": 1730733056088,
-        "updated": 1730740175040,
+        "updated": 1730758048633,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000npv8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npv8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +390,7 @@
         "code": "7000npv8",
         "ids": ",us7000npv8,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 57,
         "dmin": 1.786,
         "rms": 0.74,
@@ -1008,52 +1008,12 @@
         ]
       },
       "id": "tx2024vqth"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "2 km N of Almanor, CA",
-        "time": 1730672772090,
-        "updated": 1730673410126,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75082591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75082591.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "75082591",
-        "ids": ",nc75082591,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.1865,
-        "rms": 0.25,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km N of Almanor, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.181503295898,
-          40.2379989624023,
-          -0.720000028610229
-        ]
-      },
-      "id": "nc75082591"
     }
   ],
   "bbox": [
     -178.1767,
     -41.3027,
-    -0.72000002861023,
+    4.97,
     174.276,
     60.0816,
     602.645
