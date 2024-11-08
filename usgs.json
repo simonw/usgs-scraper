@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731052807000,
+    "generated": 1731056407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "143 km WSW of Adak, Alaska",
-        "time": 1731050716355,
-        "updated": 1731051805040,
+        "mag": 4.5,
+        "place": "112 km S of Ambon, Indonesia",
+        "time": 1731052880849,
+        "updated": 1731054317040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nqkc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nqkc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nqkj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nqkj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000nqkj",
+        "ids": ",us7000nqkj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.557,
+        "rms": 0.27,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 112 km S of Ambon, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3521,
+          -4.6946,
+          266.72
+        ]
+      },
+      "id": "us7000nqkj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "143 km WSW of Adak, Alaska",
+        "time": 1731050716355,
+        "updated": 1731054378898,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nqkc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nqkc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.362,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
         "sig": 340,
         "net": "us",
         "code": "7000nqkc",
-        "ids": ",us7000nqkc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak024edrj1y8,us7000nqkc,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": 49,
         "dmin": 0.326,
         "rms": 0.85,
@@ -1368,94 +1408,14 @@
         ]
       },
       "id": "us7000nqdq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "South Sandwich Islands region",
-        "time": 1730970005104,
-        "updated": 1730971185040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nqdi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nqdi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000nqdi",
-        "ids": ",us7000nqdi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 5.612,
-        "rms": 0.53,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -27.275,
-          -56.2107,
-          102.654
-        ]
-      },
-      "id": "us7000nqdi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "22 km N of Borrego Springs, CA",
-        "time": 1730968746790,
-        "updated": 1731046488415,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40789071",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40789071.geojson",
-        "felt": 460,
-        "cdi": 3.4,
-        "mmi": 2.904,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 329,
-        "net": "ci",
-        "code": "40789071",
-        "ids": ",ci40789071,us7000nqdf,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 111,
-        "dmin": 0.119,
-        "rms": 0.21,
-        "gap": 15,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 22 km N of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4096667,
-          33.4471667,
-          9.66
-        ]
-      },
-      "id": "ci40789071"
     }
   ],
   "bbox": [
     -178.4836,
-    -56.2107,
+    -41.4541,
     0.77,
     154.4274,
     61.0809,
-    178.53
+    266.72
   ]
 }
