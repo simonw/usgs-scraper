@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731304822000,
+    "generated": 1731308383000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "35 km NW of Willow, Alaska",
+        "time": 1731307474761,
+        "updated": 1731308079693,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024eipnrwj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024eipnrwj.geojson",
+        "felt": 3,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "ak",
+        "code": "024eipnrwj",
+        "ids": ",ak024eipnrwj,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.79,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 35 km NW of Willow, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.5048,
+          61.978,
+          1
+        ]
+      },
+      "id": "ak024eipnrwj"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.12,
         "place": "26 km SE of Rio Dell, CA",
         "time": 1731303319290,
-        "updated": 1731304636876,
+        "updated": 1731306878566,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75085161",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75085161.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "75085161",
         "ids": ",nc75085161,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 41,
         "dmin": 0.03098,
         "rms": 0.14,
@@ -1453,9 +1493,9 @@
   "bbox": [
     -178.5388,
     -30.4474,
-    3.62,
+    1,
     179.9746,
-    61.5049,
+    61.978,
     590.905
   ]
 }
