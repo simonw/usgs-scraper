@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731374833000,
+    "generated": 1731378053000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 20
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "232 km E of Levuka, Fiji",
+        "time": 1731375536143,
+        "updated": 1731376786040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrap",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrap.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000nrap",
+        "ids": ",us7000nrap,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 2.569,
+        "rms": 0.63,
+        "gap": 173,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 232 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4885,
+          -18.0399,
+          599.504
+        ]
+      },
+      "id": "us7000nrap"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "7 km N of Denman, Australia",
+        "time": 1731373977682,
+        "updated": 1731377262488,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nraj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nraj.geojson",
+        "felt": 12,
+        "cdi": 4.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 277,
+        "net": "us",
+        "code": "7000nraj",
+        "ids": ",us7000nraj,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 16,
+        "dmin": 2.059,
+        "rms": 0.75,
+        "gap": 63,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 7 km N of Denman, Australia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6951,
+          -32.322,
+          11.133
+        ]
+      },
+      "id": "us7000nraj"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.79,
         "place": "2 km NW of Point Arena, CA",
         "time": 1731373964830,
-        "updated": 1731374613113,
+        "updated": 1731377527667,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75085506",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75085506.geojson",
-        "felt": 3,
-        "cdi": 3.4,
+        "felt": 15,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 125,
         "net": "nc",
         "code": "75085506",
         "ids": ",nc75085506,",
@@ -48,6 +128,46 @@
         ]
       },
       "id": "nc75085506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.34,
+        "place": "151 km NNE of Vieques, Puerto Rico",
+        "time": 1731373261080,
+        "updated": 1731374867230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71465453",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71465453.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 172,
+        "net": "pr",
+        "code": "71465453",
+        "ids": ",pr71465453,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 1.356,
+        "rms": 0.24,
+        "gap": 283,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 151 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2741666666667,
+          19.6815,
+          24.69
+        ]
+      },
+      "id": "pr71465453"
     },
     {
       "type": "Feature",
@@ -811,11 +931,11 @@
     }
   ],
   "bbox": [
-    -177.7471,
-    -21.2294,
+    -178.4885,
+    -32.322,
     -0.18000000715256,
     167.9767,
     62.0133,
-    531.304
+    599.504
   ]
 }
