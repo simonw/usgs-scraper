@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731506420000,
+    "generated": 1731510031000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 35
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.26,
         "place": "14 km S of Fern Forest, Hawaii",
         "time": 1731500533490,
-        "updated": 1731501525191,
+        "updated": 1731508076552,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74529447",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74529447.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.401,
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": 3.478,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 164,
         "net": "hv",
         "code": "74529447",
-        "ids": ",us7000nrj0,hv74529447,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",hv74529447,us7000nrj0,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 64,
         "dmin": 0.04804,
         "rms": 0.25,
@@ -335,17 +335,17 @@
         "mag": 4.5,
         "place": "38 km WNW of Tatitlek, Alaska",
         "time": 1731488823162,
-        "updated": 1731501906010,
+        "updated": 1731509959744,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024em2arnr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024em2arnr.geojson",
-        "felt": 352,
+        "felt": 356,
         "cdi": 4.1,
         "mmi": 3.669,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 456,
+        "sig": 457,
         "net": "ak",
         "code": "024em2arnr",
         "ids": ",ak024em2arnr,at00smvtbq,us7000nrig,",
@@ -572,6 +572,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.55,
+        "place": "29 km NNE of Lowman, Idaho",
+        "time": 1731475352660,
+        "updated": 1731509869160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90065818",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90065818.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "mb",
+        "code": "90065818",
+        "ids": ",mb90065818,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.5314,
+        "rms": 0.2,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 29 km NNE of Lowman, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.510333333333,
+          44.34,
+          9.59
+        ]
+      },
+      "id": "mb90065818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
         "place": "southeast of the Loyalty Islands",
         "time": 1731475310863,
@@ -775,17 +815,17 @@
         "mag": 4.8,
         "place": "102 km SSW of Singaparna, Indonesia",
         "time": 1731462068045,
-        "updated": 1731490055265,
+        "updated": 1731507554075,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrgq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrgq.geojson",
-        "felt": 44,
+        "felt": 217,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 428,
         "net": "us",
         "code": "7000nrgq",
         "ids": ",us7000nrgq,",
@@ -1092,6 +1132,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "17 km NE of Hermleigh, Texas",
+        "time": 1731449106861,
+        "updated": 1731509180250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024whar",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024whar.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2024whar",
+        "ids": ",tx2024whar,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 17 km NE of Hermleigh, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.636,
+          32.757,
+          8.1787
+        ]
+      },
+      "id": "tx2024whar"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "119 km NNW of Dili, Timor Leste",
         "time": 1731448284814,
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us7000nrck"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "27 km SE of Kokopo, Papua New Guinea",
-        "time": 1731421919659,
-        "updated": 1731423409850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrci.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000nrci",
-        "ids": ",us7000nrci,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 126,
-        "dmin": 0.429,
-        "rms": 0.76,
-        "gap": 62,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 27 km SE of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.4422,
-          -4.5205,
-          89.123
-        ]
-      },
-      "id": "us7000nrci"
     }
   ],
   "bbox": [
