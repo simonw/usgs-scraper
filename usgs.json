@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731571191000,
+    "generated": 1731574802000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "38 km W of Tatitlek, Alaska",
+        "time": 1731571093695,
+        "updated": 1731572075040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024enoy7ca",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024enoy7ca.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "024enoy7ca",
+        "ids": ",us7000nrny,ak024enoy7ca,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.58,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 38 km W of Tatitlek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.3821,
+          60.9293,
+          20.6
+        ]
+      },
+      "id": "ak024enoy7ca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1731570882658,
+        "updated": 1731571918040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrnx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrnx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000nrnx",
+        "ids": ",us7000nrnx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 5.153,
+        "rms": 1.01,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.556,
+          -22.4068,
+          577.324
+        ]
+      },
+      "id": "us7000nrnx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1371,11 +1451,11 @@
     }
   ],
   "bbox": [
-    -178.6652,
+    -179.556,
     -28.741,
     1.49,
     145.768,
     63.2167,
-    224.206
+    577.324
   ]
 }
