@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731657616000,
+    "generated": 1731661207000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "17 km W of San Nicola Arcella, Italy",
+        "time": 1731657948389,
+        "updated": 1731659298040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nry0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nry0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000nry0",
+        "ids": ",us7000nry0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.25,
+        "rms": 0.73,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 17 km W of San Nicola Arcella, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5865,
+          39.8158,
+          266.221
+        ]
+      },
+      "id": "us7000nry0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "17 km E of Nurhak, Turkey",
+        "time": 1731656780983,
+        "updated": 1731658932683,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrxw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrxw.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "7000nrxw",
+        "ids": ",us7000nrxw,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.629,
+        "rms": 0.69,
+        "gap": 55,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 17 km E of Nurhak, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6427,
+          37.9543,
+          10
+        ]
+      },
+      "id": "us7000nrxw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -495,13 +575,13 @@
         "mag": 2.7,
         "place": "11 km WSW of Friday Harbor, Washington",
         "time": 1731629041730,
-        "updated": 1731639287582,
+        "updated": 1731658011361,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62051917",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62051917.geojson",
         "felt": 11,
         "cdi": 2.2,
-        "mmi": null,
+        "mmi": 1.471,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -510,7 +590,7 @@
         "code": "62051917",
         "ids": ",uw62051917,",
         "sources": ",uw,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 41,
         "dmin": 0.1077,
         "rms": 0.12,
