@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732042829000,
+    "generated": 1732046425000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 25
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.56,
         "place": "7 km WSW of Holtville, CA",
         "time": 1732042089220,
-        "updated": 1732042323043,
+        "updated": 1732043555222,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40796447",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40796447.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +70,7 @@
         "code": "40796447",
         "ids": ",ci40796447,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 35,
         "dmin": 0.01281,
         "rms": 0.28,
@@ -95,17 +95,17 @@
         "mag": 5,
         "place": "59 km SSE of Ōyama, Japan",
         "time": 1732041371555,
-        "updated": 1732042686606,
+        "updated": 1732045834398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6ev",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6ev.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 5,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 386,
         "net": "us",
         "code": "6000p6ev",
         "ids": ",us6000p6ev,",
@@ -1008,132 +1008,12 @@
         ]
       },
       "id": "us7000nshu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "20 km NNW of Stanton, Texas",
-        "time": 1731958111040,
-        "updated": 1731975022541,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wrup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wrup.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "tx",
-        "code": "2024wrup",
-        "ids": ",us7000nsh8,tx2024wrup,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 20 km NNW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.836,
-          32.31,
-          6.1768
-        ]
-      },
-      "id": "tx2024wrup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "17 km E of Pleasanton, Texas",
-        "time": 1731958081937,
-        "updated": 1732009630585,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wrun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wrun.geojson",
-        "felt": 14,
-        "cdi": 5.2,
-        "mmi": 4.422,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 241,
-        "net": "tx",
-        "code": "2024wrun",
-        "ids": ",us7000nsh7,tx2024wrun,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 28,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 17 km E of Pleasanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.302,
-          28.948,
-          3.6865
-        ]
-      },
-      "id": "tx2024wrun"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.41,
-        "place": "148 km NNE of Vieques, Puerto Rico",
-        "time": 1731958040690,
-        "updated": 1731962442030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71466093",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71466093.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 179,
-        "net": "pr",
-        "code": "71466093",
-        "ids": ",pr71466093,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 1.343,
-        "rms": 0.19,
-        "gap": 313,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 148 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2751666666667,
-          19.6576666666667,
-          34.96
-        ]
-      },
-      "id": "pr71466093"
     }
   ],
   "bbox": [
     -175.7866,
     -37.8967,
-    3.6865,
+    6.3947,
     145.7664,
     61.773,
     248.76
