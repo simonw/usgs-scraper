@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732046425000,
+    "generated": 1732050007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 25
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "8 km E of Alum Rock, CA",
+        "time": 1732049662340,
+        "updated": 1732049924160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75088351",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75088351.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "nc",
+        "code": "75088351",
+        "ids": ",nc75088351,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 71,
+        "dmin": 0.08342,
+        "rms": 0.06,
+        "gap": 33,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 8 km E of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.737503051758,
+          37.3834991455078,
+          6.38000011444092
+        ]
+      },
+      "id": "nc75088351"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 4,
         "place": "10 km SSE of Cañete, Chile",
         "time": 1732039579168,
-        "updated": 1732041164040,
+        "updated": 1732047445487,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6es",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6es.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "6000p6es",
         "ids": ",us6000p6es,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 33,
         "dmin": 1.908,
         "rms": 0.38,
@@ -208,6 +248,46 @@
         ]
       },
       "id": "us7000nspb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "2 km SSW of San Miguel Dueñas, Guatemala",
+        "time": 1732028200359,
+        "updated": 1732048294040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nsm9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nsm9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000nsm9",
+        "ids": ",us7000nsm9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 83,
+        "dmin": 0.3,
+        "rms": 0.63,
+        "gap": 151,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 2 km SSW of San Miguel Dueñas, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8063,
+          14.5056,
+          176.531
+        ]
+      },
+      "id": "us7000nsm9"
     },
     {
       "type": "Feature",
@@ -968,52 +1048,12 @@
         ]
       },
       "id": "us7000nshs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "87 km W of Cabittaogan, Philippines",
-        "time": 1731963031177,
-        "updated": 1731966012040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nshu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nshu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000nshu",
-        "ids": ",us7000nshu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 5.757,
-        "rms": 0.95,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 87 km W of Cabittaogan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.5395,
-          17.6053,
-          10
-        ]
-      },
-      "id": "us7000nshu"
     }
   ],
   "bbox": [
     -175.7866,
     -37.8967,
-    6.3947,
+    6.3800001144409,
     145.7664,
     61.773,
     248.76
