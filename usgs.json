@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732100392000,
+    "generated": 1732104003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 37
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 5.6,
         "place": "114 km WNW of Houma, Tonga",
         "time": 1732099375380,
-        "updated": 1732100323040,
+        "updated": 1732103224564,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6id",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6id.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "felt": 3,
+        "cdi": 2.5,
+        "mmi": 3.09,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 483,
         "net": "us",
         "code": "6000p6id",
         "ids": ",us6000p6id,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 85,
         "dmin": 5.888,
         "rms": 0.83,
@@ -55,7 +55,7 @@
         "mag": 2.6,
         "place": "66 km SSW of Whites City, New Mexico",
         "time": 1732099302865,
-        "updated": 1732100295637,
+        "updated": 1732100393040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wuuf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wuuf.geojson",
@@ -68,8 +68,8 @@
         "sig": 104,
         "net": "tx",
         "code": "2024wuuf",
-        "ids": ",tx2024wuuf,",
-        "sources": ",tx,",
+        "ids": ",us6000p6ic,tx2024wuuf,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": 0.1,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "tx2024wuuf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "81 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1732098243222,
+        "updated": 1732100483040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6ib",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6ib.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000p6ib",
+        "ids": ",us6000p6ib,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.721,
+        "rms": 0.68,
+        "gap": 156,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 81 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.8394,
+          53.0911,
+          62.675
+        ]
+      },
+      "id": "us6000p6ib"
     },
     {
       "type": "Feature",
