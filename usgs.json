@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732132799000,
+    "generated": 1732136411000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 26
   },
   "features": [
     {
@@ -415,12 +415,12 @@
         "mag": 2.46,
         "place": "10 km SSW of Tres Pinos, CA",
         "time": 1732092203840,
-        "updated": 1732092737098,
+        "updated": 1732134031184,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75088526",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75088526.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -430,7 +430,7 @@
         "code": "75088526",
         "ids": ",nc75088526,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 39,
         "dmin": 0.01346,
         "rms": 0.18,
@@ -1048,86 +1048,6 @@
         ]
       },
       "id": "us6000p6fj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "8 km E of Alum Rock, CA",
-        "time": 1732049662370,
-        "updated": 1732132335861,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75088351",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75088351.geojson",
-        "felt": 19,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "nc",
-        "code": "75088351",
-        "ids": ",nc75088351,us6000p6fa,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 119,
-        "dmin": 0.06636,
-        "rms": 0.1,
-        "gap": 33,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km E of Alum Rock, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.737333333333,
-          37.3825,
-          7.14
-        ]
-      },
-      "id": "nc75088351"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "31 km SSW of Maumere, Indonesia",
-        "time": 1732049444004,
-        "updated": 1732050780040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6f9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6f9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000p6f9",
-        "ids": ",us6000p6f9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.288,
-        "rms": 1.05,
-        "gap": 40,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 31 km SSW of Maumere, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.0517,
-          -8.8596,
-          105.558
-        ]
-      },
-      "id": "us6000p6f9"
     }
   ],
   "bbox": [
