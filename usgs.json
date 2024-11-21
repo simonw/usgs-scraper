@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732197594000,
+    "generated": 1732201217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "49 km E of Yigo Village, Guam",
+        "time": 1732198654590,
+        "updated": 1732199668166,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6rp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6rp.geojson",
+        "felt": 4,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 341,
+        "net": "us",
+        "code": "6000p6rp",
+        "ids": ",us6000p6rp,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.458,
+        "rms": 0.76,
+        "gap": 63,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 49 km E of Yigo Village, Guam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3388,
+          13.5993,
+          84.767
+        ]
+      },
+      "id": "us6000p6rp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,12 +255,12 @@
         "mag": 2.8,
         "place": "3 km W of Harvard, Nebraska",
         "time": 1732175866305,
-        "updated": 1732176840040,
+        "updated": 1732200328119,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6qi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6qi.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +270,7 @@
         "code": "6000p6qi",
         "ids": ",us6000p6qi,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.789,
         "rms": 0.94,
@@ -968,94 +1008,14 @@
         ]
       },
       "id": "us6000p6j0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Pagan region, Northern Mariana Islands",
-        "time": 1732114541549,
-        "updated": 1732115454040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6iz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6iz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000p6iz",
-        "ids": ",us6000p6iz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 122,
-        "dmin": 2.958,
-        "rms": 0.71,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Pagan region, Northern Mariana Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4743,
-          18.1931,
-          281.813
-        ]
-      },
-      "id": "us6000p6iz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "Greenland Sea",
-        "time": 1732113833464,
-        "updated": 1732121317920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p6iv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p6iv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.246,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "6000p6iv",
-        "ids": ",us6000p6iv,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 149,
-        "dmin": 11.925,
-        "rms": 0.78,
-        "gap": 42,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - Greenland Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4922,
-          79.8131,
-          14.426
-        ]
-      },
-      "id": "us6000p6iv"
     }
   ],
   "bbox": [
     -179.4158,
     -24.4369,
     4.88,
-    145.4743,
-    79.8131,
+    145.3388,
+    61.232,
     584.867
   ]
 }
