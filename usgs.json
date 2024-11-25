@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732557583000,
+    "generated": 1732561186000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "97 km E of Chignik, Alaska",
+        "time": 1732558813389,
+        "updated": 1732558930272,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f626n7e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f626n7e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "024f626n7e",
+        "ids": ",ak024f626n7e,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.63,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 97 km E of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.849,
+          56.4167,
+          26.1
+        ]
+      },
+      "id": "ak024f626n7e"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -855,11 +895,11 @@
         "mag": 3.3,
         "place": "25 km N of Girdwood, Alaska",
         "time": 1732491742551,
-        "updated": 1732557341373,
+        "updated": 1732560913262,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f4hr75h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f4hr75h.geojson",
-        "felt": 230,
+        "felt": 231,
         "cdi": 4.1,
         "mmi": 3.342,
         "alert": null,
@@ -1132,10 +1172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
+        "mag": 2.46,
         "place": "13 km S of Fern Forest, Hawaii",
-        "time": 1732477773350,
-        "updated": 1732479622040,
+        "time": 1732477773270,
+        "updated": 1732558137490,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74539617",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74539617.geojson",
@@ -1143,77 +1183,37 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 93,
         "net": "hv",
         "code": "74539617",
         "ids": ",us6000p7h8,hv74539617,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.04078,
-        "rms": 0.25999999,
-        "gap": 115,
+        "nst": 33,
+        "dmin": 0.04505,
+        "rms": 0.1,
+        "gap": 124,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 13 km S of Fern Forest, Hawaii"
+        "title": "M 2.5 - 13 km S of Fern Forest, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.132995605469,
-          19.3444995880127,
-          2.9300000667572
+          -155.1305,
+          19.3398333333333,
+          7.32
         ]
       },
       "id": "hv74539617"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "south of the Kermadec Islands",
-        "time": 1732471632547,
-        "updated": 1732472868040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p7gu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p7gu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000p7gu",
-        "ids": ",us6000p7gu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 3.232,
-        "rms": 0.85,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.706,
-          -32.4989,
-          10
-        ]
-      },
-      "id": "us6000p7gu"
     }
   ],
   "bbox": [
     -178.7404,
-    -32.4989,
-    2.9300000667572,
+    -23.9684,
+    4.4,
     147.2496,
     63.2798,
     534.945
