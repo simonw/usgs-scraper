@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732683607000,
+    "generated": 1732687236000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "6 km W of Fuig, Puerto Rico",
+        "time": 1732685936600,
+        "updated": 1732686556170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71466948",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71466948.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71466948",
+        "ids": ",pr71466948,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.06344,
+        "rms": 0.13,
+        "gap": 154,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km W of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.98,
+          17.9865,
+          9.61
+        ]
+      },
+      "id": "pr71466948"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -261,7 +301,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nuc0.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3,
+        "mmi": 4.057,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -270,7 +310,7 @@
         "code": "7000nuc0",
         "ids": ",us7000nuc0,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 119,
         "dmin": 4.01,
         "rms": 0.85,
@@ -1048,94 +1088,14 @@
         ]
       },
       "id": "pr2024331000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Fiji region",
-        "time": 1732599060440,
-        "updated": 1732600089040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nu7a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nu7a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000nu7a",
-        "ids": ",us7000nu7a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 4.492,
-        "rms": 0.56,
-        "gap": 133,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.6943,
-          -21.042,
-          571.926
-        ]
-      },
-      "id": "us7000nu7a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "18 km NW of Susitna, Alaska",
-        "time": 1732597604196,
-        "updated": 1732597700279,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f7hwf5k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f7hwf5k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024f7hwf5k",
-        "ids": ",ak024f7hwf5k,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 18 km NW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7951,
-          61.6471,
-          59.4
-        ]
-      },
-      "id": "ak024f7hwf5k"
     }
   ],
   "bbox": [
-    -178.6943,
+    -153.8085,
     -39.1308,
     1.4199999570847,
     179.8455,
-    61.6471,
-    571.926
+    55.8855,
+    211.559
   ]
 }
