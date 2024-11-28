@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732791593000,
+    "generated": 1732795244000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 3.39,
         "place": "15 km NNE of Red Bluff, CA",
         "time": 1732790941010,
-        "updated": 1732791546885,
+        "updated": 1732794579040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75092021",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75092021.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,8 +28,8 @@
         "sig": 177,
         "net": "nc",
         "code": "75092021",
-        "ids": ",nc75092021,",
-        "sources": ",nc,",
+        "ids": ",nc75092021,us7000nupi,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 55,
         "dmin": null,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nc75092021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "30 km W of Ashkāsham, Afghanistan",
+        "time": 1732790940101,
+        "updated": 1732794669264,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nupk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nupk.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000nupk",
+        "ids": ",us7000nupk,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 60,
+        "dmin": 2.151,
+        "rms": 0.98,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 30 km W of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.1984,
+          36.6657,
+          215.713
+        ]
+      },
+      "id": "us7000nupk"
     },
     {
       "type": "Feature",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us7000nuhu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "17 km S of Potala Pastillo, Puerto Rico",
-        "time": 1732706500900,
-        "updated": 1732707499460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71466973",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71466973.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "pr",
-        "code": "71466973",
-        "ids": ",pr71466973,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.2214,
-        "rms": 0.26,
-        "gap": 220,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 17 km S of Potala Pastillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5288333333333,
-          17.8328333333333,
-          12.26
-        ]
-      },
-      "id": "pr71466973"
     }
   ],
   "bbox": [
@@ -1656,6 +1656,6 @@
     0,
     179.6884,
     60.9327,
-    197.06
+    215.713
   ]
 }
