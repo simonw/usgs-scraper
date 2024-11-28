@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732773638000,
+    "generated": 1732777231000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 39
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "67 km N of San Juan, Puerto Rico",
+        "time": 1732776148140,
+        "updated": 1732776971680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71467048",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71467048.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "pr",
+        "code": "71467048",
+        "ids": ",pr71467048,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.7581,
+        "rms": 0.21,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 67 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9853333333333,
+          19.0655,
+          20.85
+        ]
+      },
+      "id": "pr71467048"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +128,46 @@
         ]
       },
       "id": "pr71467043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "106 km E of Atka, Alaska",
+        "time": 1732759896491,
+        "updated": 1732775459367,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024far7vgy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024far7vgy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.107,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "ak",
+        "code": "024far7vgy",
+        "ids": ",ak024far7vgy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.63,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 106 km E of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.6643,
+          52.3618,
+          119.5
+        ]
+      },
+      "id": "ak024far7vgy"
     },
     {
       "type": "Feature",
@@ -1571,7 +1651,7 @@
     }
   ],
   "bbox": [
-    -160.3105,
+    -172.6643,
     -60.2725,
     -2.75,
     179.6884,
