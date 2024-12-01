@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733079585000,
+    "generated": 1733083234000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 24
+    "count": 26
   },
   "features": [
     {
@@ -92,6 +92,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.74,
+        "place": "1 km WSW of Tallaboa, Puerto Rico",
+        "time": 1733067139760,
+        "updated": 1733080094930,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71467398",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71467398.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71467398",
+        "ids": ",pr71467398,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1314,
+        "rms": 0.23,
+        "gap": 148,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km WSW of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.732,
+          17.9881666666667,
+          10.82
+        ]
+      },
+      "id": "pr71467398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.50999999,
         "place": "21 km SE of Waimea, Hawaii",
         "time": 1733066980570,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "hv74550172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1733064294175,
+        "updated": 1733083221002,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024ffx685m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024ffx685m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.828,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "024ffx685m",
+        "ids": ",ak024ffx685m,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.42,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.4212,
+          51.7705,
+          107.6
+        ]
+      },
+      "id": "ak024ffx685m"
     },
     {
       "type": "Feature",
@@ -974,7 +1054,7 @@
     -176.9289,
     -59.0563,
     1.81,
-    150.6547,
+    178.4212,
     61.5476,
     379.97
   ]
