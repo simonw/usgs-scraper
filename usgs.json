@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733263217000,
+    "generated": 1733266833000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 45
   },
   "features": [
     {
@@ -92,20 +92,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "207 km WSW of Adak, Alaska",
+        "time": 1733252614663,
+        "updated": 1733264067807,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fjaz909",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fjaz909.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.551,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "024fjaz909",
+        "ids": ",ak024fjaz909,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.55,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 207 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.2933,
+          51.0248,
+          25.8
+        ]
+      },
+      "id": "ak024fjaz909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.7,
         "place": "13 km ESE of Pagudpud, Philippines",
         "time": 1733252085377,
-        "updated": 1733263084776,
+        "updated": 1733265004367,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nvpy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nvpy.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 5,
         "mmi": 4.47,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 502,
+        "sig": 503,
         "net": "us",
         "code": "7000nvpy",
         "ids": ",us7000nvpy,",
@@ -448,6 +488,46 @@
         ]
       },
       "id": "pr71467653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "167 km SSE of Alo, Wallis and Futuna",
+        "time": 1733239725493,
+        "updated": 1733263328040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nvn4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nvn4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000nvn4",
+        "ids": ",us7000nvn4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 113,
+        "dmin": 3.018,
+        "rms": 0.71,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 167 km SSE of Alo, Wallis and Futuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.5841,
+          -15.7392,
+          424.698
+        ]
+      },
+      "id": "us7000nvn4"
     },
     {
       "type": "Feature",
@@ -975,11 +1055,11 @@
         "mag": 2.71,
         "place": "1 km SSW of Alamo, CA",
         "time": 1733216881020,
-        "updated": 1733259545995,
+        "updated": 1733264658580,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75094466",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75094466.geojson",
-        "felt": 104,
+        "felt": 105,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
@@ -1731,7 +1811,7 @@
     }
   ],
   "bbox": [
-    -178.8044,
+    -179.2933,
     -52.8431,
     1.1599999666214,
     179.877,
