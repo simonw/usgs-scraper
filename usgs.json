@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733342412000,
+    "generated": 1733346016000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "21 km NNE of Yerington, Nevada",
-        "time": 1733340711387,
-        "updated": 1733342166206,
+        "mag": 2.8,
+        "place": "22 km NNE of Yerington, Nevada",
+        "time": 1733340711305,
+        "updated": 1733345286040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888280",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888280.geojson",
@@ -25,26 +25,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 121,
         "net": "nn",
         "code": "00888280",
-        "ids": ",nn00888280,",
-        "sources": ",nn,",
+        "ids": ",us7000nvz6,nn00888280,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.232,
-        "rms": 0.1486,
-        "gap": 74.24000000000001,
+        "nst": 35,
+        "dmin": 0.237,
+        "rms": 0.1655,
+        "gap": 74.73999999999995,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 21 km NNE of Yerington, Nevada"
+        "title": "M 2.8 - 22 km NNE of Yerington, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0446,
-          39.1597,
-          3.9
+          -119.041,
+          39.164,
+          9.6
         ]
       },
       "id": "nn00888280"
@@ -55,22 +55,22 @@
         "mag": 3.8,
         "place": "22 km NNE of Yerington, Nevada",
         "time": 1733338014621,
-        "updated": 1733341038912,
+        "updated": 1733345418569,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888275",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888275.geojson",
-        "felt": 26,
+        "felt": 28,
         "cdi": 3.1,
-        "mmi": 3.756,
+        "mmi": 3.821,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 230,
+        "sig": 231,
         "net": "nn",
         "code": "00888275",
         "ids": ",nn00888275,us7000nvyv,",
         "sources": ",nn,us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 45,
         "dmin": 0.234,
         "rms": 0.1283,
@@ -88,6 +88,86 @@
         ]
       },
       "id": "nn00888275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "5 km SE of Lenguazaque, Colombia",
+        "time": 1733335359311,
+        "updated": 1733344815040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nvyp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nvyp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000nvyp",
+        "ids": ",us7000nvyp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.846,
+        "rms": 1.19,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 5 km SE of Lenguazaque, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6733,
+          5.2791,
+          163.178
+        ]
+      },
+      "id": "us7000nvyp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "67 km SW of Coquimbo, Chile",
+        "time": 1733334401216,
+        "updated": 1733343218040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nvyj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nvyj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000nvyj",
+        "ids": ",us7000nvyj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.407,
+        "rms": 0.93,
+        "gap": 190,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 67 km SW of Coquimbo, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8873,
+          -30.3289,
+          31.084
+        ]
+      },
+      "id": "us7000nvyj"
     },
     {
       "type": "Feature",
@@ -375,7 +455,7 @@
         "mag": 4.23,
         "place": "135 km WNW of Petrolia, CA",
         "time": 1733317822000,
-        "updated": 1733341335187,
+        "updated": 1733344642571,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75094976",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75094976.geojson",
@@ -535,7 +615,7 @@
         "mag": 4.36,
         "place": "145 km WNW of Petrolia, CA",
         "time": 1733312196900,
-        "updated": 1733340919814,
+        "updated": 1733343697249,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75094936",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75094936.geojson",
@@ -1335,17 +1415,17 @@
         "mag": 3.47,
         "place": "23 km WNW of Maunaloa, Hawaii",
         "time": 1733270021370,
-        "updated": 1733341184864,
+        "updated": 1733345320543,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74555032",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74555032.geojson",
-        "felt": 862,
+        "felt": 863,
         "cdi": 4.2,
         "mmi": 3.765,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 547,
+        "sig": 548,
         "net": "hv",
         "code": "74555032",
         "ids": ",pt24338050,hv74555032,us7000nvrh,",
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "us7000nvr1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Pagan region, Northern Mariana Islands",
-        "time": 1733257658221,
-        "updated": 1733258832040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nvqb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nvqb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000nvqb",
-        "ids": ",us7000nvqb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 109,
-        "dmin": 2.889,
-        "rms": 0.85,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Pagan region, Northern Mariana Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.4145,
-          18.1235,
-          290.987
-        ]
-      },
-      "id": "us7000nvqb"
     }
   ],
   "bbox": [
