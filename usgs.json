@@ -1,43 +1,83 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733836063000,
+    "generated": 1733839209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 78
+    "count": 80
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.87,
-        "place": "44 km WNW of Petrolia, CA",
-        "time": 1733835666170,
-        "updated": 1733836019470,
+        "mag": 3.2,
+        "place": "52 km WNW of Petrolia, CA",
+        "time": 1733837192760,
+        "updated": 1733837841606,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101006",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101006.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101021",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101021.geojson",
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 230,
+        "sig": 158,
+        "net": "nc",
+        "code": "75101021",
+        "ids": ",nc75101021,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.37,
+        "gap": 260,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 52 km WNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.903663635254,
+          40.3296661376953,
+          13.9200000762939
+        ]
+      },
+      "id": "nc75101021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.17,
+        "place": "44 km WNW of Petrolia, CA",
+        "time": 1733835666170,
+        "updated": 1733839077030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101006.geojson",
+        "felt": 5,
+        "cdi": 4.1,
+        "mmi": 2.427,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 270,
         "net": "nc",
         "code": "75101006",
-        "ids": ",nc75101006,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "ids": ",ew1733835670,nc75101006,",
+        "sources": ",ew,nc,",
+        "types": ",associate,dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,shake-alert,shakemap,",
         "nst": 101,
         "dmin": null,
         "rms": 0.23,
         "gap": 233,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.9 - 44 km WNW of Petrolia, CA"
+        "title": "M 4.2 - 44 km WNW of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
@@ -48,6 +88,86 @@
         ]
       },
       "id": "nc75101006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "119 km WNW of Mejillones, Chile",
+        "time": 1733835087078,
+        "updated": 1733838521040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxl2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxl2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000nxl2",
+        "ids": ",us7000nxl2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 83,
+        "dmin": 1.268,
+        "rms": 1.26,
+        "gap": 137,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.5 - 119 km WNW of Mejillones, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4318,
+          -22.5317,
+          10
+        ]
+      },
+      "id": "us7000nxl2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "20 km NE of Yerington, Nevada",
+        "time": 1733834180488,
+        "updated": 1733837024074,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888959",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888959.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "nn",
+        "code": "00888959",
+        "ids": ",nn00888959,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.225,
+        "rms": 0.1424,
+        "gap": 72.44999999999999,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 20 km NE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0157,
+          39.1262,
+          10.8
+        ]
+      },
+      "id": "nn00888959"
     },
     {
       "type": "Feature",
@@ -172,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.63,
+        "mag": 3.65,
         "place": "19 km W of Petrolia, CA",
         "time": 1733826357510,
-        "updated": 1733830154676,
+        "updated": 1733838578619,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75100951",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75100951.geojson",
@@ -185,19 +305,19 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 204,
+        "sig": 206,
         "net": "nc",
         "code": "75100951",
         "ids": ",nc75100951,",
         "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,nearby-cities,origin,phase-data,shakemap,",
         "nst": 31,
         "dmin": null,
         "rms": 0.12,
         "gap": 267,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.6 - 19 km W of Petrolia, CA"
+        "title": "M 3.7 - 19 km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
@@ -495,17 +615,17 @@
         "mag": 3.93,
         "place": "6 km NNW of The Geysers, CA",
         "time": 1733810138920,
-        "updated": 1733832051007,
+        "updated": 1733838771517,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75100701",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75100701.geojson",
-        "felt": 127,
+        "felt": 128,
         "cdi": 4.4,
         "mmi": 4.299,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 293,
+        "sig": 294,
         "net": "nc",
         "code": "75100701",
         "ids": ",nc75100701,ew1733810140,",
@@ -1815,11 +1935,11 @@
         "mag": 5.8,
         "place": "24 km NNE of Yerington, Nevada",
         "time": 1733785711541,
-        "updated": 1733835498041,
+        "updated": 1733838999226,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888580",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888580.geojson",
-        "felt": 11117,
+        "felt": 11130,
         "cdi": 6,
         "mmi": 7.799,
         "alert": "green",
@@ -3088,46 +3208,6 @@
         ]
       },
       "id": "us7000nxb7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "11 km SW of Amapala, Honduras",
-        "time": 1733751998548,
-        "updated": 1733762528883,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxar",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxar.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000nxar",
-        "ids": ",us7000nxar,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.617,
-        "rms": 0.7,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 11 km SW of Amapala, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.7383,
-          13.2295,
-          10
-        ]
-      },
-      "id": "us7000nxar"
     }
   ],
   "bbox": [
