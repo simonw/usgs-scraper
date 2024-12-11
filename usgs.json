@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733940020000,
+    "generated": 1733943598000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.33,
+        "place": "85 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1733942327470,
+        "updated": 1733942952120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71468318",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71468318.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 171,
+        "net": "pr",
+        "code": "71468318",
+        "ids": ",pr71468318,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.8153,
+        "rms": 0.45,
+        "gap": 272,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 85 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1986666666667,
+          17.7135,
+          65.43
+        ]
+      },
+      "id": "pr71468318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "14 km NNW of Güiria, Venezuela",
+        "time": 1733941572350,
+        "updated": 1733942877040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxxb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxxb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000nxxb",
+        "ids": ",us7000nxxb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 1.566,
+        "rms": 1.05,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 14 km NNW of Güiria, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.3306,
+          10.7051,
+          74.464
+        ]
+      },
+      "id": "us7000nxxb"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.47,
         "place": "21 km W of Petrolia, CA",
         "time": 1733939060070,
-        "updated": 1733939158404,
+        "updated": 1733940437774,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101846",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101846.geojson",
@@ -30,7 +110,7 @@
         "code": "75101846",
         "ids": ",nc75101846,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 22,
         "dmin": null,
         "rms": 0.07,
@@ -52,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "1 km E of Péfki, Greece",
+        "time": 1733938162719,
+        "updated": 1733942390145,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxx8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxx8.geojson",
+        "felt": 5,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "us",
+        "code": "7000nxx8",
+        "ids": ",us7000nxx8,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 5,
+        "dmin": 1.732,
+        "rms": 0.36,
+        "gap": 93,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km E of Péfki, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8042,
+          38.0604,
+          10
+        ]
+      },
+      "id": "us7000nxx8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.74,
         "place": "16 km SW of Boca de Yuma, Dominican Republic",
         "time": 1733937809250,
-        "updated": 1733939628626,
+        "updated": 1733940437040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024346000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024346000.geojson",
@@ -68,8 +188,8 @@
         "sig": 215,
         "net": "pr",
         "code": "2024346000",
-        "ids": ",pr2024346000,",
-        "sources": ",pr,",
+        "ids": ",us7000nxx3,pr2024346000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 7,
         "dmin": 1.1394,
@@ -175,13 +295,13 @@
         "mag": 5.4,
         "place": "147 km SSE of Lata, Solomon Islands",
         "time": 1733935443836,
-        "updated": 1733936623503,
+        "updated": 1733942803886,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxwu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxwu.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.908,
+        "mmi": 3.924,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -532,6 +652,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "21 km NNE of Yerington, Nevada",
+        "time": 1733901954449,
+        "updated": 1733941361482,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889181",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889181.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "nn",
+        "code": "00889181",
+        "ids": ",nn00889181,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.229,
+        "rms": 0.1584,
+        "gap": 74.06,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 21 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0482,
+          39.159,
+          10.6
+        ]
+      },
+      "id": "nn00889181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.23,
         "place": "34 km NNE of San Juan, Puerto Rico",
         "time": 1733899645690,
@@ -612,10 +772,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.92,
-        "place": "18 km SE of Pāhala, Hawaii",
-        "time": 1733897966690,
-        "updated": 1733917484040,
+        "mag": 3.09,
+        "place": "19 km SE of Pāhala, Hawaii",
+        "time": 1733897966520,
+        "updated": 1733942547190,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74562302",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74562302.geojson",
@@ -623,28 +783,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 147,
         "net": "hv",
         "code": "74562302",
         "ids": ",us7000nxsi,hv74562302,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.1193,
-        "rms": 0.159999996,
-        "gap": 199,
+        "nst": 49,
+        "dmin": 0.1276,
+        "rms": 0.12,
+        "gap": 228,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 18 km SE of Pāhala, Hawaii"
+        "title": "M 3.1 - 19 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.358337402344,
-          19.0871658325195,
-          33.1699981689453
+          -155.360666666667,
+          19.0708333333333,
+          33.49
         ]
       },
       "id": "hv74562302"
@@ -692,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
+        "mag": 2.5,
         "place": "22 km NNE of Yerington, Nevada",
-        "time": 1733892503532,
-        "updated": 1733928108779,
+        "time": 1733892504355,
+        "updated": 1733942510717,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889155",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889155.geojson",
@@ -703,28 +863,28 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 97,
         "net": "nn",
         "code": "00889155",
         "ids": ",nn00889155,us7000nxrz,",
         "sources": ",nn,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.233,
-        "rms": 0.1586,
-        "gap": 86.10000000000002,
+        "nst": 21,
+        "dmin": 0.235,
+        "rms": 0.1426,
+        "gap": 86.19999999999999,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 22 km NNE of Yerington, Nevada"
+        "title": "M 2.5 - 22 km NNE of Yerington, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0414,
-          39.1601,
-          0.8
+          -119.0406,
+          39.1613,
+          12.7
         ]
       },
       "id": "nn00889155"
@@ -855,11 +1015,11 @@
         "mag": 2.61,
         "place": "4 km WSW of Howardville, Missouri",
         "time": 1733889616040,
-        "updated": 1733930372421,
+        "updated": 1733940152554,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60594771",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60594771.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1408,46 +1568,6 @@
         ]
       },
       "id": "nc75101206"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "93 km SSW of Adak, Alaska",
-        "time": 1733853875478,
-        "updated": 1733861346168,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxnc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxnc.geojson",
-        "felt": 2,
-        "cdi": 6.3,
-        "mmi": 4.13,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 519,
-        "net": "us",
-        "code": "7000nxnc",
-        "ids": ",ak024fuv5gpt,us7000nxnc,at00soai7j,",
-        "sources": ",ak,us,at,",
-        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 124,
-        "dmin": 0.65,
-        "rms": 1.09,
-        "gap": 54,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - 93 km SSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.2133,
-          51.1125,
-          28.583
-        ]
-      },
-      "id": "us7000nxnc"
     }
   ],
   "bbox": [
