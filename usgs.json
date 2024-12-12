@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734015588000,
+    "generated": 1734019193000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 48
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "16 km W of Petrolia, CA",
+        "time": 1734018219190,
+        "updated": 1734018316262,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102366",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102366.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "nc",
+        "code": "75102366",
+        "ids": ",nc75102366,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1029,
+        "rms": 0.08,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 16 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.471168518066,
+          40.3188323974609,
+          12.4700002670288
+        ]
+      },
+      "id": "nc75102366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "62 km SSE of Old Harbor, Alaska",
+        "time": 1734016326327,
+        "updated": 1734018934040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fy4hi7m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fy4hi7m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.279,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 271,
+        "net": "ak",
+        "code": "024fy4hi7m",
+        "ids": ",at00sodzk4,us7000ny5l,ak024fy4hi7m,",
+        "sources": ",at,us,ak,",
+        "types": ",impact-link,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 2.32,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 62 km SSE of Old Harbor, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.8263,
+          56.708,
+          19.2
+        ]
+      },
+      "id": "ak024fy4hi7m"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.71,
         "place": "68 km WNW of Petrolia, CA",
         "time": 1734015013520,
-        "updated": 1734015501700,
+        "updated": 1734018736774,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102341",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102341.geojson",
@@ -28,8 +108,8 @@
         "sig": 212,
         "net": "nc",
         "code": "75102341",
-        "ids": ",ew1734015020,nc75102341,",
-        "sources": ",ew,nc,",
+        "ids": ",ew1734015020,nc75102341,us7000ny5i,",
+        "sources": ",ew,nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 100,
         "dmin": 0.5726,
@@ -135,7 +215,7 @@
         "mag": 3.11,
         "place": "62 km WNW of Petrolia, CA",
         "time": 1734012136600,
-        "updated": 1734012736097,
+        "updated": 1734016041394,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102321",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102321.geojson",
@@ -1888,46 +1968,6 @@
         ]
       },
       "id": "us7000nxwm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "75 km W of Tumxuk, China",
-        "time": 1733932431370,
-        "updated": 1733956791040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxwi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxwi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000nxwi",
-        "ids": ",us7000nxwi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.805,
-        "rms": 0.82,
-        "gap": 203,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 75 km W of Tumxuk, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.1867,
-          39.9461,
-          10
-        ]
-      },
-      "id": "us7000nxwi"
     }
   ],
   "bbox": [
