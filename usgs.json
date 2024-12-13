@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734066019000,
+    "generated": 1734069617000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 46
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "53 km SSE of Old Harbor, Alaska",
+        "time": 1734066640416,
+        "updated": 1734066983941,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fzm268l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fzm268l.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": 1.851,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "024fzm268l",
+        "ids": ",ak024fzm268l,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.72,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 53 km SSE of Old Harbor, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.9,
+          56.7781,
+          21.8
+        ]
+      },
+      "id": "ak024fzm268l"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.65,
         "place": "60 km W of Petrolia, CA",
         "time": 1734065844910,
-        "updated": 1734065968648,
+        "updated": 1734067938401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102586",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102586.geojson",
@@ -23,14 +63,14 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 205,
         "net": "nc",
         "code": "75102586",
-        "ids": ",nc75102586,ew1734065860,",
-        "sources": ",nc,ew,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc75102586,ew1734065860,us7000nycl,",
+        "sources": ",nc,ew,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 57,
         "dmin": 0.4938,
         "rms": 0.48,
@@ -54,27 +94,27 @@
       "properties": {
         "mag": 3.4,
         "place": "22 km NNE of Yerington, Nevada",
-        "time": 1734065155748,
-        "updated": 1734065974449,
+        "time": 1734065641938,
+        "updated": 1734069401279,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nycf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nycf.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": 3.455,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889423.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": 3.135,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 178,
-        "net": "us",
-        "code": "7000nycf",
-        "ids": ",us7000nycf,",
-        "sources": ",us,",
+        "net": "nn",
+        "code": "00889423",
+        "ids": ",us7000nycj,nn00889423,",
+        "sources": ",us,nn,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 51,
-        "dmin": 0.244,
-        "rms": 0.57,
-        "gap": 50,
+        "nst": 10,
+        "dmin": 0.012,
+        "rms": 0.1047,
+        "gap": 66.66,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.4 - 22 km NNE of Yerington, Nevada"
@@ -82,12 +122,92 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0202,
-          39.159,
-          8.683
+          -119.0344,
+          39.1573,
+          4.6
         ]
       },
-      "id": "us7000nycf"
+      "id": "nn00889423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "23 km NNE of Yerington, Nevada",
+        "time": 1734065155541,
+        "updated": 1734068111560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889415",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889415.geojson",
+        "felt": 2,
+        "cdi": 3.4,
+        "mmi": 3.262,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "nn",
+        "code": "00889415",
+        "ids": ",us7000nycf,nn00889415,",
+        "sources": ",us,nn,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 14,
+        "dmin": 0.009,
+        "rms": 0.1361,
+        "gap": 130.13,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 23 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0278,
+          39.1695,
+          5.1
+        ]
+      },
+      "id": "nn00889415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "24 km NNE of Yerington, Nevada",
+        "time": 1734065137651,
+        "updated": 1734068594550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889414",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889414.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "nn",
+        "code": "00889414",
+        "ids": ",nn00889414,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.015,
+        "rms": 0.1063,
+        "gap": 62.210000000000036,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 24 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0211,
+          39.1735,
+          5.5
+        ]
+      },
+      "id": "nn00889414"
     },
     {
       "type": "Feature",
@@ -1808,46 +1928,6 @@
         ]
       },
       "id": "pr2024347000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "13 km ESE of Pāhala, Hawaii",
-        "time": 1733980758000,
-        "updated": 1734034735900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74563127",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74563127.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "hv",
-        "code": "74563127",
-        "ids": ",us7000ny34,hv74563127,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.0907,
-        "rms": 0.11,
-        "gap": 197,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 13 km ESE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.368,
-          19.1376666666667,
-          29.24
-        ]
-      },
-      "id": "hv74563127"
     }
   ],
   "bbox": [
