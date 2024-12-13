@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734087635000,
+    "generated": 1734091247000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.86,
         "place": "27 km WSW of Petrolia, CA",
         "time": 1734086955920,
-        "updated": 1734087045019,
+        "updated": 1734088036875,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102701",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102701.geojson",
@@ -30,7 +30,7 @@
         "code": "75102701",
         "ids": ",nc75102701,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 7,
         "dmin": 0.3006,
         "rms": 0.05,
@@ -52,15 +52,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "Fiji region",
+        "time": 1734086544346,
+        "updated": 1734087685040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nyed",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nyed.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000nyed",
+        "ids": ",us7000nyed,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 3.325,
+        "rms": 0.74,
+        "gap": 168,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.8271,
+          -18.4644,
+          625.963
+        ]
+      },
+      "id": "us7000nyed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "1 km NNE of Falls City, Texas",
         "time": 1734085146024,
-        "updated": 1734086487632,
+        "updated": 1734088344936,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nye8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nye8.geojson",
-        "felt": 4,
-        "cdi": 3.6,
+        "felt": 5,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1928,46 +1968,6 @@
         ]
       },
       "id": "uu80097306"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "32 km NE of Gökçeada, Turkey",
-        "time": 1734003292378,
-        "updated": 1734007229040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ny4i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ny4i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000ny4i",
-        "ids": ",us7000ny4i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.979,
-        "rms": 0.72,
-        "gap": 37,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 32 km NE of Gökçeada, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.1471,
-          40.4315,
-          10
-        ]
-      },
-      "id": "us7000ny4i"
     }
   ],
   "bbox": [
@@ -1976,6 +1976,6 @@
     -3.49,
     167.3345,
     64.8166,
-    550.697
+    625.963
   ]
 }
