@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734202789000,
+    "generated": 1734206417000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 43
   },
   "features": [
     {
@@ -14,12 +14,12 @@
       "properties": {
         "mag": 3.4,
         "place": "20 km NNE of Yerington, Nevada",
-        "time": 1734200053766,
-        "updated": 1734202647761,
+        "time": 1734200053735,
+        "updated": 1734204562469,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889584",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889584.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -31,10 +31,10 @@
         "ids": ",nn00889584,",
         "sources": ",nn,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.023,
-        "rms": 0.1376,
-        "gap": 46.339999999999975,
+        "nst": 41,
+        "dmin": 0.021,
+        "rms": 0.1438,
+        "gap": 46.30000000000001,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.4 - 20 km NNE of Yerington, Nevada"
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0584,
-          39.1523,
-          8.8
+          -119.058,
+          39.1538,
+          9
         ]
       },
       "id": "nn00889584"
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "24 km WSW of Paján, Ecuador",
+        "time": 1734199516269,
+        "updated": 1734205492040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nyw6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nyw6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000nyw6",
+        "ids": ",us7000nyw6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.636,
+        "rms": 0.49,
+        "gap": 159,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 24 km WSW of Paján, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6474,
+          -1.5965,
+          35.237
+        ]
+      },
+      "id": "us7000nyw6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.52,
         "place": "37 km SSE of Fall River Mills, CA",
         "time": 1734199062600,
-        "updated": 1734200536851,
+        "updated": 1734204548040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75103156",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75103156.geojson",
@@ -68,8 +108,8 @@
         "sig": 98,
         "net": "nc",
         "code": "75103156",
-        "ids": ",nc75103156,",
-        "sources": ",nc,",
+        "ids": ",nc75103156,us7000nyw5,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.1079,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us7000nyw2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "101 km NE of Kainantu, Papua New Guinea",
+        "time": 1734194693326,
+        "updated": 1734203228040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nyvu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nyvu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000nyvu",
+        "ids": ",us7000nyvu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 116,
+        "dmin": 3.661,
+        "rms": 0.76,
+        "gap": 42,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 101 km NE of Kainantu, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6114,
+          -5.7602,
+          53.466
+        ]
+      },
+      "id": "us7000nyvu"
     },
     {
       "type": "Feature",
