@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734548391000,
+    "generated": 1734552030000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 36
   },
   "features": [
     {
@@ -213,9 +213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "58 km WNW of Petrolia, CA",
-        "time": 1734533100180,
-        "updated": 1734538035103,
+        "place": "54 km WNW of Petrolia, CA",
+        "time": 1734533101960,
+        "updated": 1734551835688,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75104866",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75104866.geojson",
@@ -228,26 +228,66 @@
         "sig": 211,
         "net": "nc",
         "code": "75104866",
-        "ids": ",ew1734533110,nc75104866,nc75104871,",
-        "sources": ",ew,nc,nc,",
-        "types": ",associate,dyfi,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 36,
-        "dmin": 0.4799,
-        "rms": 0.35,
-        "gap": 245,
+        "ids": ",ew1734533110,nc75104866,",
+        "sources": ",ew,nc,",
+        "types": ",associate,dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
+        "nst": 144,
+        "dmin": 0.4461,
+        "rms": 0.26,
+        "gap": 231,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.7 - 58 km WNW of Petrolia, CA"
+        "title": "M 3.7 - 54 km WNW of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.968170166016,
-          40.326000213623,
-          0.479999989271164
+          -124.921,
+          40.3471666666667,
+          10
         ]
       },
       "id": "nc75104866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.29,
+        "place": "27 km NW of Petrolia, CA",
+        "time": 1734533092220,
+        "updated": 1734538035103,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75104871",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75104871.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 167,
+        "net": "nc",
+        "code": "75104871",
+        "ids": ",nc75104871,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.2007,
+        "rms": 0.06,
+        "gap": 286,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 27 km NW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.565330505371,
+          40.4393348693848,
+          22.9599990844727
+        ]
+      },
+      "id": "nc75104871"
     },
     {
       "type": "Feature",
@@ -1413,7 +1453,7 @@
   "bbox": [
     -178.2797,
     -35.9487,
-    0.47999998927116,
+    4.0500001907349,
     168.0346,
     66.9428,
     535.946
