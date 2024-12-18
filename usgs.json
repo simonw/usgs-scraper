@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734537637000,
+    "generated": 1734541200000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "4 km SE of Nikiski, Alaska",
+        "time": 1734540227440,
+        "updated": 1734541069209,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024g82hrg8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024g82hrg8.geojson",
+        "felt": 3,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "024g82hrg8",
+        "ids": ",ak024g82hrg8,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.19,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 4 km SE of Nikiski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2423,
+          60.6609,
+          48.1
+        ]
+      },
+      "id": "ak024g82hrg8"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.7,
         "place": "58 km WNW of Petrolia, CA",
         "time": 1734533100180,
-        "updated": 1734536838966,
+        "updated": 1734538035103,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75104866",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75104866.geojson",
@@ -28,8 +68,8 @@
         "sig": 211,
         "net": "nc",
         "code": "75104866",
-        "ids": ",ew1734533110,nc75104866,",
-        "sources": ",ew,nc,",
+        "ids": ",ew1734533110,nc75104866,nc75104871,",
+        "sources": ",ew,nc,nc,",
         "types": ",associate,dyfi,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 36,
         "dmin": 0.4799,
@@ -48,46 +88,6 @@
         ]
       },
       "id": "nc75104866"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "27 km NW of Petrolia, CA",
-        "time": 1734533092220,
-        "updated": 1734535939851,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75104871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75104871.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "nc",
-        "code": "75104871",
-        "ids": ",nc75104871,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.2007,
-        "rms": 0.06,
-        "gap": 286,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 27 km NW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.565330505371,
-          40.4393348693848,
-          22.9599990844727
-        ]
-      },
-      "id": "nc75104871"
     },
     {
       "type": "Feature",
@@ -332,10 +332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "194 km SW of Inuvik, Canada",
-        "time": 1734511996211,
-        "updated": 1734512172520,
+        "mag": 4.2,
+        "place": "198 km SW of Inuvik, Canada",
+        "time": 1734511996108,
+        "updated": 1734540010829,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024g7xsfmn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024g7xsfmn.geojson",
@@ -343,9 +343,9 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 271,
         "net": "ak",
         "code": "024g7xsfmn",
         "ids": ",ak024g7xsfmn,",
@@ -353,18 +353,18 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.9,
+        "rms": 0.91,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 194 km SW of Inuvik, Canada"
+        "title": "M 4.2 - 198 km SW of Inuvik, Canada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -136.4283,
-          66.9563,
-          1.6
+          -136.5458,
+          66.9428,
+          21.1
         ]
       },
       "id": "ak024g7xsfmn"
@@ -692,39 +692,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "7 km ENE of Healy, Alaska",
-        "time": 1734497076604,
-        "updated": 1734497929040,
+        "mag": 3.8,
+        "place": "5 km ENE of Healy, Alaska",
+        "time": 1734497076530,
+        "updated": 1734540269387,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024g7vcr1p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024g7vcr1p.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.667,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 222,
         "net": "ak",
         "code": "024g7vcr1p",
         "ids": ",us7000nzpx,ak024g7vcr1p,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.47,
+        "rms": 0.73,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 7 km ENE of Healy, Alaska"
+        "title": "M 3.8 - 5 km ENE of Healy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.8097,
-          63.8746,
-          107
+          -148.8573,
+          63.8725,
+          107.3
         ]
       },
       "id": "ak024g7vcr1p"
@@ -775,17 +775,17 @@
         "mag": 5.2,
         "place": "11 km NE of Alto Hospicio, Chile",
         "time": 1734494952892,
-        "updated": 1734529355086,
+        "updated": 1734538979422,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nzpr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nzpr.geojson",
-        "felt": 52,
+        "felt": 54,
         "cdi": 5.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 446,
+        "sig": 447,
         "net": "us",
         "code": "7000nzpr",
         "ids": ",us7000nzpr,",
@@ -1488,166 +1488,6 @@
         ]
       },
       "id": "us7000nzl8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "65 km WNW of San Antonio de los Cobres, Argentina",
-        "time": 1734454179686,
-        "updated": 1734458569040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nzl6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nzl6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000nzl6",
-        "ids": ",us7000nzl6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 1.579,
-        "rms": 1.47,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 65 km WNW of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9317,
-          -24.0447,
-          204.944
-        ]
-      },
-      "id": "us7000nzl6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "17 km NW of Yonakuni, Japan",
-        "time": 1734453024298,
-        "updated": 1734474692507,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nzl5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nzl5.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000nzl5",
-        "ids": ",us7000nzl5,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.164,
-        "rms": 0.94,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 17 km NW of Yonakuni, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.8932,
-          24.5913,
-          111.01
-        ]
-      },
-      "id": "us7000nzl5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "39 km SSW of Taltal, Chile",
-        "time": 1734452615239,
-        "updated": 1734496821686,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nzkr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nzkr.geojson",
-        "felt": 1,
-        "cdi": 4.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000nzkr",
-        "ids": ",us7000nzkr,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.398,
-        "rms": 1.27,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 39 km SSW of Taltal, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6142,
-          -25.7487,
-          57.041
-        ]
-      },
-      "id": "us7000nzkr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "20 km SE of Camiña, Chile",
-        "time": 1734451244127,
-        "updated": 1734461309348,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nzkn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nzkn.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000nzkn",
-        "ids": ",us7000nzkn,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.256,
-        "rms": 1.27,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 20 km SE of Camiña, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.273,
-          -19.4227,
-          113.012
-        ]
-      },
-      "id": "us7000nzkn"
     }
   ],
   "bbox": [
@@ -1655,7 +1495,7 @@
     -48.1497,
     0.47999998927116,
     168.1655,
-    66.9563,
+    66.9428,
     585.198
   ]
 }
