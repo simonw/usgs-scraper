@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734584390000,
+    "generated": 1734588041000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "18 km NE of Yerington, Nevada",
+        "time": 1734586300087,
+        "updated": 1734587182073,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889974",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889974.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "nn",
+        "code": "00889974",
+        "ids": ",nn00889974,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.052,
+        "rms": 0.1028,
+        "gap": 47.25999999999999,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 18 km NE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0334,
+          39.1174,
+          5.3
+        ]
+      },
+      "id": "nn00889974"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 4.2,
         "place": "36 km NE of Pokhara, Nepal",
         "time": 1734573165529,
-        "updated": 1734575980040,
+        "updated": 1734586019394,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nzxt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nzxt.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "7000nzxt",
         "ids": ",us7000nzxt,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 1.201,
         "rms": 0.74,
@@ -1448,52 +1488,12 @@
         ]
       },
       "id": "pr71468873"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "22 km SW of Stella, Puerto Rico",
-        "time": 1734500083140,
-        "updated": 1734500440990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71468868",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71468868.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "pr",
-        "code": "71468868",
-        "ids": ",pr71468868,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.2927,
-        "rms": 0.13,
-        "gap": 319,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 22 km SW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3936666666667,
-          18.181,
-          12.42
-        ]
-      },
-      "id": "pr71468868"
     }
   ],
   "bbox": [
     -156.9367,
     -60.507,
-    6.1,
+    5.3,
     168.0346,
     66.9428,
     578.524
