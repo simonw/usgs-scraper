@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734692411000,
+    "generated": 1734696034000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.65,
+        "place": "111 km NNE of Vieques, Puerto Rico",
+        "time": 1734693490720,
+        "updated": 1734695377469,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024355001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024355001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 205,
+        "net": "pr",
+        "code": "2024355001",
+        "ids": ",pr2024355001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.0459,
+        "rms": 0.52,
+        "gap": 268,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 111 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4023,
+          19.3466,
+          90
+        ]
+      },
+      "id": "pr2024355001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "66 km SSW of Whites City, New Mexico",
+        "time": 1734693017567,
+        "updated": 1734695185771,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024yxqf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024yxqf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "tx",
+        "code": "2024yxqf",
+        "ids": ",us7000p0a1,tx2024yxqf,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 158,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 66 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.538,
+          31.592,
+          3.8365
+        ]
+      },
+      "id": "tx2024yxqf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,13 +495,13 @@
         "mag": 3.66,
         "place": "2 km SE of Hana, Hawaii",
         "time": 1734677093630,
-        "updated": 1734691279844,
+        "updated": 1734695463715,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74571437",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74571437.geojson",
-        "felt": 218,
+        "felt": 219,
         "cdi": 3.6,
-        "mmi": 3.949,
+        "mmi": 3.964,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1208,52 +1288,12 @@
         ]
       },
       "id": "us7000p00m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "26 km W of Petrolia, CA",
-        "time": 1734609344000,
-        "updated": 1734611538848,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75105281",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75105281.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nc",
-        "code": "75105281",
-        "ids": ",nc75105281,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.1866,
-        "rms": 0.4,
-        "gap": 279,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 26 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.586334228516,
-          40.280834197998,
-          -0.330000013113022
-        ]
-      },
-      "id": "nc75105281"
     }
   ],
   "bbox": [
     -155.97266666667,
     -41.0822,
-    -0.33000001311302,
+    0.21,
     168.387,
     60.357,
     182.74
