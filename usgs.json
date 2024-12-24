@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735063202000,
+    "generated": 1735066821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "35 km WSW of Chlórakas, Cyprus",
+        "time": 1735064547172,
+        "updated": 1735066439963,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfh6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfh6.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000pfh6",
+        "ids": ",us6000pfh6,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 104,
+        "dmin": 1.095,
+        "rms": 0.92,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 35 km WSW of Chlórakas, Cyprus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.046,
+          34.6754,
+          10
+        ]
+      },
+      "id": "us6000pfh6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.7,
         "place": "25 km NNW of Villarrica, Chile",
         "time": 1735058994113,
-        "updated": 1735062717300,
+        "updated": 1735064707808,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfgw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfgw.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -55,13 +95,13 @@
         "mag": 3.3,
         "place": "17 km NE of Yerington, Nevada",
         "time": 1735058817884,
-        "updated": 1735061231191,
+        "updated": 1735066189964,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00890496",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00890496.geojson",
         "felt": 1,
         "cdi": 3.3,
-        "mmi": 3.268,
+        "mmi": 3.221,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -488,6 +528,46 @@
         ]
       },
       "id": "pr2024359000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1735022162453,
+        "updated": 1735065695204,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024ghtpwwi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024ghtpwwi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.348,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "024ghtpwwi",
+        "ids": ",ak024ghtpwwi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.39,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.8817,
+          51.354,
+          41.3
+        ]
+      },
+      "id": "ak024ghtpwwi"
     },
     {
       "type": "Feature",
@@ -1134,7 +1214,7 @@
     -158.9157,
     -39.1381,
     0.28000000119209,
-    174.7839,
+    178.8817,
     75.7581,
     219.078
   ]
