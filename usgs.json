@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735192822000,
+    "generated": 1735196409000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 27
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "8 km WSW of Tiblawan, Philippines",
+        "time": 1735192525373,
+        "updated": 1735193585040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfnl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfnl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000pfnl",
+        "ids": ",us6000pfnl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.765,
+        "rms": 0.72,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 8 km WSW of Tiblawan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.0366,
+          6.4497,
+          68.796
+        ]
+      },
+      "id": "us6000pfnl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -935,7 +975,7 @@
         "mag": 2.98,
         "place": "6 km SW of Clayton, CA",
         "time": 1735112205660,
-        "updated": 1735178246839,
+        "updated": 1735196045040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75107686",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75107686.geojson",
@@ -948,8 +988,8 @@
         "sig": 197,
         "net": "nc",
         "code": "75107686",
-        "ids": ",nc75107686,",
-        "sources": ",nc,",
+        "ids": ",nc75107686,us6000pfjw,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 82,
         "dmin": 0.04149,
@@ -1008,86 +1048,6 @@
         ]
       },
       "id": "us6000pfju"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "128 km E of Kimbe, Papua New Guinea",
-        "time": 1735109693671,
-        "updated": 1735114254040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfjq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfjq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000pfjq",
-        "ids": ",us6000pfjq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.686,
-        "rms": 0.56,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 128 km E of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2956,
-          -5.6483,
-          75.1
-        ]
-      },
-      "id": "us6000pfjq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "Fiji region",
-        "time": 1735108488698,
-        "updated": 1735115874359,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfjm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfjm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.969,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000pfjm",
-        "ids": ",us6000pfjm,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 99,
-        "dmin": 3.949,
-        "rms": 0.91,
-        "gap": 31,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.5439,
-          -19.1289,
-          458.796
-        ]
-      },
-      "id": "us6000pfjm"
     }
   ],
   "bbox": [
@@ -1096,6 +1056,6 @@
     -2.3,
     178.8241,
     60.4377,
-    458.796
+    210.582
   ]
 }
