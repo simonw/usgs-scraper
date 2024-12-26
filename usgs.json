@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735218243000,
+    "generated": 1735221626000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "13 km W of Petrolia, CA",
+        "time": 1735219024400,
+        "updated": 1735220236241,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75108171",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75108171.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "nc",
+        "code": "75108171",
+        "ids": ",nc75108171,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.07805,
+        "rms": 0.05,
+        "gap": 300,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.438003540039,
+          40.3161659240723,
+          10.0699996948242
+        ]
+      },
+      "id": "nc75108171"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,12 +375,12 @@
         "mag": 3.31,
         "place": "1 km N of Little America, Wyoming",
         "time": 1735176858500,
-        "updated": 1735178026860,
+        "updated": 1735218518369,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80098561",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80098561.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +390,7 @@
         "code": "80098561",
         "ids": ",uu80098561,",
         "sources": ",uu,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 13,
         "dmin": 0.1072,
         "rms": 0.15,
@@ -695,12 +735,12 @@
         "mag": 4.6,
         "place": "12 km ESE of San Juan del Sur, Nicaragua",
         "time": 1735148873956,
-        "updated": 1735153481496,
+        "updated": 1735219354281,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfl4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfl4.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -888,46 +928,6 @@
         ]
       },
       "id": "us6000pfkm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.06,
-        "place": "3 km NW of Fuig, Puerto Rico",
-        "time": 1735133745050,
-        "updated": 1735135714840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024360001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024360001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 144,
-        "net": "pr",
-        "code": "2024360001",
-        "ids": ",pr2024360001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.0705,
-        "rms": 0.2,
-        "gap": 131,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 3 km NW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9421,
-          18.007,
-          11
-        ]
-      },
-      "id": "pr2024360001"
     }
   ],
   "bbox": [
