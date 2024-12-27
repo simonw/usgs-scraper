@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735297231000,
+    "generated": 1735300828000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.2,
         "place": "Maug Islands region, Northern Mariana Islands",
         "time": 1735296227845,
-        "updated": 1735297206040,
+        "updated": 1735299836133,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfvu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfvu.geojson",
@@ -30,7 +30,7 @@
         "code": "6000pfvu",
         "ids": ",us6000pfvu,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,oaf,origin,phase-data,",
         "nst": 93,
         "dmin": 4.371,
         "rms": 0.73,
@@ -55,7 +55,7 @@
         "mag": 3.44,
         "place": "54 km WNW of Petrolia, CA",
         "time": 1735294102430,
-        "updated": 1735296526837,
+        "updated": 1735297482040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75108511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75108511.geojson",
@@ -68,8 +68,8 @@
         "sig": 182,
         "net": "nc",
         "code": "75108511",
-        "ids": ",nc75108511,ew1735294110,",
-        "sources": ",nc,ew,",
+        "ids": ",nc75108511,ew1735294110,us6000pfvp,",
+        "sources": ",nc,ew,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 37,
         "dmin": 0.4527,
@@ -135,7 +135,7 @@
         "mag": 5.3,
         "place": "143 km SSW of Merizo Village, Guam",
         "time": 1735291855517,
-        "updated": 1735295460716,
+        "updated": 1735299668900,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfvi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfvi.geojson",
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "nc75108171"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "2 km NNW of Bunawan, Philippines",
-        "time": 1735212553978,
-        "updated": 1735216302103,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfpp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfpp.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "6000pfpp",
-        "ids": ",us6000pfpp,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 41,
-        "dmin": 1.183,
-        "rms": 1.05,
-        "gap": 107,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 2 km NNW of Bunawan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.9794,
-          8.1908,
-          59.276
-        ]
-      },
-      "id": "us6000pfpp"
     }
   ],
   "bbox": [
