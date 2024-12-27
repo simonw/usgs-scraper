@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735300828000,
+    "generated": 1735304628000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.805356025695801,
+        "place": "19 km WNW of Ephrata, Washington",
+        "time": 1735304220260,
+        "updated": 1735304411780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62060682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62060682.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "uw",
+        "code": "62060682",
+        "ids": ",uw62060682,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": null,
+        "rms": 0.889999986,
+        "gap": 157,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 19 km WNW of Ephrata, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.77449798583984,
+          47.416168212890625,
+          4.48999977111816
+        ]
+      },
+      "id": "uw62060682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.7,
+        "place": "Kuril Islands",
+        "time": 1735303620000,
+        "updated": 1735304270138,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt24362000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt24362000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 1,
+        "sig": 691,
+        "net": "pt",
+        "code": "24362000",
+        "ids": ",pt24362000,",
+        "sources": ",pt,",
+        "types": ",impact-link,origin,",
+        "nst": 9,
+        "dmin": null,
+        "rms": null,
+        "gap": 165.59998675200106,
+        "magType": "Mi",
+        "type": "earthquake",
+        "title": "M 6.7 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7,
+          46.8,
+          158
+        ]
+      },
+      "id": "pt24362000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.2,
         "place": "Maug Islands region, Northern Mariana Islands",
         "time": 1735296227845,
-        "updated": 1735299836133,
+        "updated": 1735304042814,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfvu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfvu.geojson",
@@ -495,12 +575,12 @@
         "mag": 3.24,
         "place": "16 km NNE of Carrizales, Puerto Rico",
         "time": 1735271252080,
-        "updated": 1735272686220,
+        "updated": 1735302215649,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71469483",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71469483.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -510,7 +590,7 @@
         "code": "71469483",
         "ids": ",pr71469483,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.2564,
         "rms": 0.11,
