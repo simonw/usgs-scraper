@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735488006000,
+    "generated": 1735491606000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 24
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.92,
+        "place": "4 km SW of Guánica, Puerto Rico",
+        "time": 1735487065470,
+        "updated": 1735488959780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71469683",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71469683.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "pr",
+        "code": "71469683",
+        "ids": ",pr71469683,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.04284,
+        "rms": 0.14,
+        "gap": 186,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 4 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9445,
+          17.9461666666667,
+          8.58
+        ]
+      },
+      "id": "pr71469683"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.68,
         "place": "18 km SW of Petrolia, CA",
         "time": 1735482143960,
-        "updated": 1735485544040,
+        "updated": 1735489581847,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75109311",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75109311.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 111,
         "net": "nc",
         "code": "75109311",
         "ids": ",nc75109311,us6000pgav,",
         "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 9,
         "dmin": 0.1519,
         "rms": 0.11,
@@ -175,17 +215,17 @@
         "mag": 4.2,
         "place": "59 km NNW of Saint-Boniface, Canada",
         "time": 1735477351760,
-        "updated": 1735487771964,
+        "updated": 1735490542686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pgab",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pgab.geojson",
-        "felt": 73,
+        "felt": 76,
         "cdi": 4.6,
         "mmi": 4.773,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 305,
+        "sig": 306,
         "net": "us",
         "code": "6000pgab",
         "ids": ",us6000pgab,",
@@ -215,17 +255,17 @@
         "mag": 2.9,
         "place": "1 km SSE of Hicksville, Ohio",
         "time": 1735472808490,
-        "updated": 1735487896166,
+        "updated": 1735491455619,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pg9z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pg9z.geojson",
-        "felt": 174,
-        "cdi": 3.8,
+        "felt": 209,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 196,
+        "sig": 205,
         "net": "us",
         "code": "6000pg9z",
         "ids": ",us6000pg9z,",
@@ -292,6 +332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "81 km SE of Kuqa, China",
+        "time": 1735462727652,
+        "updated": 1735488971040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pg99",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pg99.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000pg99",
+        "ids": ",us6000pg99,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 3.712,
+        "rms": 0.65,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 81 km SE of Kuqa, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.5166,
+          41.1313,
+          10
+        ]
+      },
+      "id": "us6000pg99"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.07,
         "place": "80 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1735459962860,
@@ -333,6 +413,46 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
+        "place": "9 km ESE of Palekastro, Greece",
+        "time": 1735459329967,
+        "updated": 1735488299040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pg94",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pg94.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000pg94",
+        "ids": ",us6000pg94,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 93,
+        "dmin": 1.195,
+        "rms": 0.62,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 9 km ESE of Palekastro, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3404,
+          35.1518,
+          48.491
+        ]
+      },
+      "id": "us6000pg94"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
         "place": "104 km SE of Adak, Alaska",
         "time": 1735458457825,
         "updated": 1735460629218,
@@ -368,6 +488,46 @@
         ]
       },
       "id": "us6000pg93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "27 km NNW of Āwash, Ethiopia",
+        "time": 1735456753852,
+        "updated": 1735490021040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pg9d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pg9d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000pg9d",
+        "ids": ",us6000pg9d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 3.559,
+        "rms": 0.69,
+        "gap": 131,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 27 km NNW of Āwash, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0833,
+          9.2182,
+          10
+        ]
+      },
+      "id": "us6000pg9d"
     },
     {
       "type": "Feature",
@@ -928,51 +1088,11 @@
         ]
       },
       "id": "ak024gomeihk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "85 km W of San Antonio de los Cobres, Argentina",
-        "time": 1735404916520,
-        "updated": 1735408914040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pg60",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pg60.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000pg60",
-        "ids": ",us6000pg60,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.585,
-        "rms": 0.74,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 85 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1636,
-          -24.2403,
-          212.999
-        ]
-      },
-      "id": "us6000pg60"
     }
   ],
   "bbox": [
     -177.9075,
-    -24.2403,
+    -20.4629,
     4.8699998855591,
     178.4873,
     56.4009,
