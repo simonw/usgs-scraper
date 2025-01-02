@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735847978000,
+    "generated": 1735851579000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Izu Islands, Japan region",
+        "time": 1735846477342,
+        "updated": 1735850397040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000phaa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000phaa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000phaa",
+        "ids": ",us6000phaa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 3.12,
+        "rms": 0.75,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0813,
+          30.6549,
+          10
+        ]
+      },
+      "id": "us6000phaa"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.9,
         "place": "6 km NNW of Āwash, Ethiopia",
         "time": 1735838938761,
-        "updated": 1735842231226,
+        "updated": 1735849174762,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ph9m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ph9m.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -492,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "35 km SW of Nikolski, Alaska",
+        "time": 1735807154535,
+        "updated": 1735851022865,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253g2jzg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253g2jzg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.992,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "0253g2jzg",
+        "ids": ",ak0253g2jzg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.89,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 35 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.258,
+          52.7262,
+          37.4
+        ]
+      },
+      "id": "ak0253g2jzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.8,
         "place": "152 km S of Nikolski, Alaska",
         "time": 1735807142699,
@@ -933,15 +1013,15 @@
       "type": "Feature",
       "properties": {
         "mag": 4.65,
-        "place": "4 km NNW of Cobb, CA",
-        "time": 1735785244590,
-        "updated": 1735846869666,
+        "place": "4 km NW of Cobb, CA",
+        "time": 1735785244660,
+        "updated": 1735850718374,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75111126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75111126.geojson",
-        "felt": 1592,
+        "felt": 1596,
         "cdi": 5.8,
-        "mmi": 6.373,
+        "mmi": 6.915,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -951,20 +1031,20 @@
         "ids": ",ew1735785240,nc75111126,us6000pgzl,at00spfwgt,",
         "sources": ",ew,nc,us,at,",
         "types": ",dyfi,focal-mechanism,ground-failure,impact-link,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 96,
-        "dmin": 0.01917,
-        "rms": 0.13,
-        "gap": 35,
+        "nst": 115,
+        "dmin": 0.009316,
+        "rms": 0.08,
+        "gap": 44,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.7 - 4 km NNW of Cobb, CA"
+        "title": "M 4.7 - 4 km NW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.752166748047,
-          38.8456649780273,
-          1.07000005245209
+          -122.756333333333,
+          38.8455,
+          1.42
         ]
       },
       "id": "nc75111126"
@@ -1052,46 +1132,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.63,
-        "place": "18 km SE of Naalehu, Hawaii",
-        "time": 1735771434870,
-        "updated": 1735771627470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74581982",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74581982.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "74581982",
-        "ids": ",hv74581982,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.1683,
-        "rms": 0.159999996,
-        "gap": 240,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.473495483398,
-          18.9333324432373,
-          33.6100006103516
-        ]
-      },
-      "id": "hv74581982"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 5.2,
         "place": "Tristan da Cunha region",
         "time": 1735766861271,
@@ -1128,126 +1168,6 @@
         ]
       },
       "id": "us6000pgy5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "4 km SSW of Brownlee, Nebraska",
-        "time": 1735765075148,
-        "updated": 1735831461494,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pgxv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pgxv.geojson",
-        "felt": 8,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "us",
-        "code": "6000pgxv",
-        "ids": ",us6000pgxv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.869,
-        "rms": 0.55,
-        "gap": 51,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 3.0 - 4 km SSW of Brownlee, Nebraska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.6392,
-          42.2517,
-          5
-        ]
-      },
-      "id": "us6000pgxv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "68 km W of Petrolia, CA",
-        "time": 1735765023840,
-        "updated": 1735766536149,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75110981",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75110981.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "nc",
-        "code": "75110981",
-        "ids": ",nc75110981,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.5706,
-        "rms": 0.18,
-        "gap": 297,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 68 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.088500976562,
-          40.2840003967285,
-          0.180000007152557
-        ]
-      },
-      "id": "nc75110981"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "10 km E of Pāhala, Hawaii",
-        "time": 1735764689000,
-        "updated": 1735781273813,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74581922",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74581922.geojson",
-        "felt": 7,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "hv",
-        "code": "74581922",
-        "ids": ",hv74581922,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 65,
-        "dmin": 0.03404,
-        "rms": 0.12,
-        "gap": 160,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 10 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.3805,
-          19.2073333333333,
-          30.02
-        ]
-      },
-      "id": "hv74581922"
     }
   ],
   "bbox": [
