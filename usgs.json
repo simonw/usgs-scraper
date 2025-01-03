@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735909476000,
+    "generated": 1735912831000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 31
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.04,
-        "place": "11 km E of Pangburn, Arkansas",
-        "time": 1735906540670,
-        "updated": 1735908213420,
+        "mag": 3.5,
+        "place": "37 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1735908958190,
+        "updated": 1735911217530,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60596046",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60596046.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025003000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025003000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 188,
+        "net": "pr",
+        "code": "2025003000",
+        "ids": ",pr2025003000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 1.3325,
+        "rms": 0.4,
+        "gap": 215,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 37 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.44,
+          18.0815,
+          55
+        ]
+      },
+      "id": "pr2025003000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "11 km E of Pangburn, Arkansas",
+        "time": 1735906540670,
+        "updated": 1735911916628,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60596046",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60596046.geojson",
+        "felt": 8,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 145,
         "net": "nm",
         "code": "60596046",
-        "ids": ",us6000phhu,nm60596046,",
-        "sources": ",us,nm,",
-        "types": ",origin,phase-data,",
+        "ids": ",nm60596046,us6000phhu,",
+        "sources": ",nm,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 0.1264,
         "rms": 0.26,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nm60596046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "48 km SW of Palaióchora, Greece",
+        "time": 1735905490390,
+        "updated": 1735911776040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000phg1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000phg1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000phg1",
+        "ids": ",us6000phg1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.352,
+        "rms": 1.27,
+        "gap": 167,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 48 km SW of Palaióchora, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3009,
+          34.9259,
+          10
+        ]
+      },
+      "id": "us6000phg1"
     },
     {
       "type": "Feature",
@@ -212,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "9 km W of Forsan, Texas",
-        "time": 1735886110437,
-        "updated": 1735900275266,
+        "mag": 2.7,
+        "place": "10 km W of Forsan, Texas",
+        "time": 1735886110910,
+        "updated": 1735910876271,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025aeeb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025aeeb.geojson",
@@ -223,28 +303,28 @@
         "cdi": 2.4,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 113,
         "net": "tx",
         "code": "2025aeeb",
         "ids": ",tx2025aeeb,us6000phdt,",
         "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 68,
+        "nst": 19,
         "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 69,
+        "rms": 0.1,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 9 km W of Forsan, Texas"
+        "title": "M 2.7 - 10 km W of Forsan, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.467,
+          -101.474,
           32.097,
-          3.2001
+          8.96
         ]
       },
       "id": "tx2025aeeb"
