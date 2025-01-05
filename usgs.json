@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1736110807000,
+    "generated": 1736114401000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "6 km S of Indios, Puerto Rico",
+        "time": 1736112254420,
+        "updated": 1736114223310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71470223",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71470223.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "pr",
+        "code": "71470223",
+        "ids": ",pr71470223,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.0615,
+        "rms": 0.1,
+        "gap": 219,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8176666666667,
+          17.934,
+          10.72
+        ]
+      },
+      "id": "pr71470223"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc75113251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "51 km NNW of Āwash, Ethiopia",
+        "time": 1736106530515,
+        "updated": 1736111052040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pi1v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pi1v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000pi1v",
+        "ids": ",us6000pi1v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 3.507,
+        "rms": 0.42,
+        "gap": 232,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 51 km NNW of Āwash, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9904,
+          9.4181,
+          10
+        ]
+      },
+      "id": "us6000pi1v"
     },
     {
       "type": "Feature",
@@ -135,17 +215,17 @@
         "mag": 6.2,
         "place": "50 km SSE of La Libertad, El Salvador",
         "time": 1736097527697,
-        "updated": 1736110506963,
+        "updated": 1736113124466,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pi09",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pi09.geojson",
-        "felt": 101,
+        "felt": 104,
         "cdi": 5.9,
         "mmi": 5.921,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 710,
+        "sig": 711,
         "net": "us",
         "code": "6000pi09",
         "ids": ",us6000pi09,",
@@ -1095,7 +1175,7 @@
         "mag": 2.8,
         "place": "44 km WNW of Petrolia, CA",
         "time": 1736029620360,
-        "updated": 1736030838500,
+        "updated": 1736113733040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75112931",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75112931.geojson",
@@ -1108,8 +1188,8 @@
         "sig": 121,
         "net": "nc",
         "code": "75112931",
-        "ids": ",nc75112931,",
-        "sources": ",nc,",
+        "ids": ",nc75112931,us6000phwr,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 8,
         "dmin": 0.3622,
