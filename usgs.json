@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1736629231000,
+    "generated": 1736632835000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.9,
+        "place": "12 km S of La Romana, Dominican Republic",
+        "time": 1736628534030,
+        "updated": 1736632317363,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025011000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025011000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "pr",
+        "code": "2025011000",
+        "ids": ",pr2025011000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.8807,
+        "rms": 0.63,
+        "gap": 188,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 12 km S of La Romana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9856,
+          18.3131,
+          83
+        ]
+      },
+      "id": "pr2025011000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "23 km SSW of Hualien City, Taiwan",
         "time": 1736627229338,
-        "updated": 1736629042040,
+        "updated": 1736629366347,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pjg8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pjg8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000pjg8",
         "ids": ",us6000pjg8,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 59,
         "dmin": 0.396,
         "rms": 0.41,
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "hv74588842"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "46 km NW of Toyah, Texas",
-        "time": 1736543150502,
-        "updated": 1736545369748,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025asbi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025asbi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2025asbi",
-        "ids": ",us6000pj9q,tx2025asbi,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 46 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.183,
-          31.574,
-          6.228
-        ]
-      },
-      "id": "tx2025asbi"
     }
   ],
   "bbox": [
