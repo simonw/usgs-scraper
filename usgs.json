@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1737050406000,
+    "generated": 1737053982000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 36
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 3.22,
         "place": "55 km WNW of Petrolia, CA",
         "time": 1737043063870,
-        "updated": 1737044537655,
+        "updated": 1737053717329,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75118071",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75118071.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -110,7 +110,7 @@
         "code": "75118071",
         "ids": ",nc75118071,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 39,
         "dmin": 0.4591,
         "rms": 0.3,
@@ -374,26 +374,26 @@
       "properties": {
         "mag": 2.75,
         "place": "3 km S of Mentone, CA",
-        "time": 1737014919070,
-        "updated": 1737039682587,
+        "time": 1737014919040,
+        "updated": 1737051172460,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40840775",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40840775.geojson",
-        "felt": 113,
+        "felt": 116,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 151,
+        "sig": 152,
         "net": "ci",
         "code": "40840775",
         "ids": ",ci40840775,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 125,
-        "dmin": 0.0178,
-        "rms": 0.18,
+        "nst": 114,
+        "dmin": 0.01908,
+        "rms": 0.17,
         "gap": 16,
         "magType": "ml",
         "type": "earthquake",
@@ -402,9 +402,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.13,
-          34.0456667,
-          7.67
+          -117.1323333,
+          34.045,
+          7.6
         ]
       },
       "id": "ci40840775"
@@ -1448,86 +1448,6 @@
         ]
       },
       "id": "pr71470908"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "37 km WSW of Ashkāsham, Afghanistan",
-        "time": 1736965970811,
-        "updated": 1736971397040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pk88",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pk88.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000pk88",
-        "ids": ",us6000pk88,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 2.579,
-        "rms": 0.84,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 37 km WSW of Ashkāsham, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.1235,
-          36.5998,
-          197.386
-        ]
-      },
-      "id": "us6000pk88"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "4 km N of Caibiran, Philippines",
-        "time": 1736964202875,
-        "updated": 1736980604863,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pk85",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pk85.geojson",
-        "felt": 6,
-        "cdi": 4.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 387,
-        "net": "us",
-        "code": "6000pk85",
-        "ids": ",us6000pk85,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 66,
-        "dmin": 4.617,
-        "rms": 1.03,
-        "gap": 62,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 4 km N of Caibiran, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.5859,
-          11.6101,
-          10
-        ]
-      },
-      "id": "us6000pk85"
     }
   ],
   "bbox": [
