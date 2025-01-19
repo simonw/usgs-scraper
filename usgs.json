@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1737280819000,
+    "generated": 1737284420000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "134 km N of Lae, Papua New Guinea",
+        "time": 1737282443482,
+        "updated": 1737283424040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pl2t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pl2t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000pl2t",
+        "ids": ",us6000pl2t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 3.451,
+        "rms": 0.63,
+        "gap": 55,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 134 km N of Lae, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0737,
+          -5.5054,
+          196.531
+        ]
+      },
+      "id": "us6000pl2t"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.98,
         "place": "2 km NNW of Little America, Wyoming",
         "time": 1737278301970,
-        "updated": 1737279943275,
+        "updated": 1737281565040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80099811",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80099811.geojson",
@@ -28,8 +68,8 @@
         "sig": 137,
         "net": "uu",
         "code": "80099811",
-        "ids": ",uu80099811,",
-        "sources": ",uu,",
+        "ids": ",uu80099811,us6000pl2m,",
+        "sources": ",uu,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 34,
         "dmin": 0.1131,
@@ -1448,86 +1488,6 @@
         ]
       },
       "id": "us6000pkxv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "66 km NNE of Van Horn, Texas",
-        "time": 1737197206572,
-        "updated": 1737199094619,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025bfwx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025bfwx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2025bfwx",
-        "ids": ",us6000pkxb,tx2025bfwx,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 157,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 66 km NNE of Van Horn, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.538,
-          31.58,
-          3.3601
-        ]
-      },
-      "id": "tx2025bfwx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "13 km ESE of Hawthorne, Nevada",
-        "time": 1737195606193,
-        "updated": 1737252262873,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00892165",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00892165.geojson",
-        "felt": 9,
-        "cdi": 2.3,
-        "mmi": 3.694,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 213,
-        "net": "nn",
-        "code": "00892165",
-        "ids": ",nn00892165,us6000pkx7,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 18,
-        "dmin": 0.143,
-        "rms": 0.1294,
-        "gap": 48.3,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.7 - 13 km ESE of Hawthorne, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.4801,
-          38.4888,
-          7.4
-        ]
-      },
-      "id": "nn00892165"
     }
   ],
   "bbox": [
@@ -1536,6 +1496,6 @@
     -3.49,
     158.4779,
     60.2515,
-    183.7
+    196.531
   ]
 }
