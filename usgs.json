@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1737399622000,
+    "generated": 1737403217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "15 km WSW of Willow, Alaska",
+        "time": 1737403098349,
+        "updated": 1737403190093,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025xeenbe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025xeenbe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "025xeenbe",
+        "ids": ",ak025xeenbe,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.3,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 15 km WSW of Willow, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.2951,
+          61.6907,
+          35.8
+        ]
+      },
+      "id": "ak025xeenbe"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.74,
         "place": "16 km N of Cabazon, CA",
         "time": 1737397263060,
-        "updated": 1737397890070,
+        "updated": 1737400368680,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40843951",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40843951.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "40843951",
         "ids": ",ci40843951,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 117,
         "dmin": 0.02604,
         "rms": 0.19,
@@ -175,17 +215,17 @@
         "mag": 6,
         "place": "12 km N of Yujing, Taiwan",
         "time": 1737389846031,
-        "updated": 1737399488753,
+        "updated": 1737402905886,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pl8h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pl8h.geojson",
-        "felt": 179,
+        "felt": 181,
         "cdi": 6.2,
-        "mmi": 6.627,
+        "mmi": 7.5,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 665,
+        "sig": 666,
         "net": "us",
         "code": "6000pl8h",
         "ids": ",us6000pl8h,",
@@ -693,9 +733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "25 km SW of Jal, New Mexico",
-        "time": 1737370930502,
-        "updated": 1737371261869,
+        "place": "21 km SW of Jal, New Mexico",
+        "time": 1737370930161,
+        "updated": 1737400916707,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025bjok",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025bjok.geojson",
@@ -703,7 +743,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "tx",
@@ -711,20 +751,20 @@
         "ids": ",tx2025bjok,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 12,
+        "nst": 13,
         "dmin": 0,
-        "rms": 0.8,
-        "gap": 149,
+        "rms": 0.1,
+        "gap": 101,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 25 km SW of Jal, New Mexico"
+        "title": "M 2.5 - 21 km SW of Jal, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.409,
-          31.973,
-          3.6803
+          -103.343,
+          31.965,
+          7.3816
         ]
       },
       "id": "tx2025bjok"
@@ -1528,132 +1568,12 @@
         ]
       },
       "id": "ak025vr71xu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "37 km ENE of San Martín, Argentina",
-        "time": 1737314731372,
-        "updated": 1737318068956,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pl44",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pl44.geojson",
-        "felt": 1,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000pl44",
-        "ids": ",us6000pl44,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 91,
-        "dmin": 0.529,
-        "rms": 1.02,
-        "gap": 49,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 37 km ENE of San Martín, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1343,
-          -31.3017,
-          109.439
-        ]
-      },
-      "id": "us6000pl44"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "4 km S of Meadow Valley, CA",
-        "time": 1737314385730,
-        "updated": 1737349625488,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75119866",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75119866.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "75119866",
-        "ids": ",nc75119866,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.3716,
-        "rms": 0.27,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km S of Meadow Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.057334899902,
-          39.897834777832,
-          -1.25999999046326
-        ]
-      },
-      "id": "nc75119866"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1737313613268,
-        "updated": 1737370618753,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025biix",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025biix.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025biix",
-        "ids": ",tx2025biix,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 115,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.295,
-          31.671,
-          8.0481
-        ]
-      },
-      "id": "tx2025biix"
     }
   ],
   "bbox": [
     -178.1078,
-    -31.3017,
-    -1.2599999904633,
+    -30.1683,
+    0,
     165.8206,
     67.3297,
     136.164
