@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1737651627000,
+    "generated": 1737655230000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.72,
         "place": "10 km E of Pāhala, Hawaii",
         "time": 1737650585300,
-        "updated": 1737650779350,
+        "updated": 1737651820040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74599412",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74599412.geojson",
@@ -28,8 +28,8 @@
         "sig": 114,
         "net": "hv",
         "code": "74599412",
-        "ids": ",hv74599412,",
-        "sources": ",hv,",
+        "ids": ",us6000plua,hv74599412,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 61,
         "dmin": 0.05384,
@@ -375,7 +375,7 @@
         "mag": 5.6,
         "place": "187 km NE of Sola, Vanuatu",
         "time": 1737630843975,
-        "updated": 1737638339363,
+        "updated": 1737654162040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000plst",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000plst.geojson",
@@ -390,7 +390,7 @@
         "code": "6000plst",
         "ids": ",us6000plst,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 77,
         "dmin": 3.082,
         "rms": 0.71,
@@ -1332,6 +1332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "15 km WSW of Johannesburg, CA",
+        "time": 1737582040050,
+        "updated": 1737654110106,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41033480",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41033480.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ci",
+        "code": "41033480",
+        "ids": ",ci41033480,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.0872,
+        "rms": 0.19,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 15 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7963333,
+          35.3448333,
+          6.34
+        ]
+      },
+      "id": "ci41033480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "27 km SW of Ashkāsham, Afghanistan",
         "time": 1737578226835,
@@ -1568,46 +1608,6 @@
         ]
       },
       "id": "us6000plnf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "13 km NNE of Katashina, Japan",
-        "time": 1737568169142,
-        "updated": 1737585069659,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000plms",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000plms.geojson",
-        "felt": 4,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 356,
-        "net": "us",
-        "code": "6000plms",
-        "ids": ",us6000plms,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 116,
-        "dmin": 0.97,
-        "rms": 0.68,
-        "gap": 68,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.8 - 13 km NNE of Katashina, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3007,
-          36.9576,
-          7.347
-        ]
-      },
-      "id": "us6000plms"
     }
   ],
   "bbox": [
