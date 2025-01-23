@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1737648006000,
+    "generated": 1737651627000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "10 km E of Pāhala, Hawaii",
+        "time": 1737650585300,
+        "updated": 1737650779350,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74599412",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74599412.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "hv",
+        "code": "74599412",
+        "ids": ",hv74599412,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.05384,
+        "rms": 0.150000006,
+        "gap": 166,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 10 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.382339477539,
+          19.1853332519531,
+          30.2399997711182
+        ]
+      },
+      "id": "hv74599412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "1 km WSW of Āwash, Ethiopia",
+        "time": 1737649170303,
+        "updated": 1737650210040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000plte",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000plte.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000plte",
+        "ids": ",us6000plte,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 3.67,
+        "rms": 1.16,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 1 km WSW of Āwash, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.1518,
+          8.9774,
+          10
+        ]
+      },
+      "id": "us6000plte"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 2.49,
         "place": "12 km E of Lake Isabella, CA",
         "time": 1737642670290,
-        "updated": 1737644760880,
+        "updated": 1737648323040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41034096",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41034096.geojson",
@@ -108,8 +188,8 @@
         "sig": 97,
         "net": "ci",
         "code": "41034096",
-        "ids": ",ci41034096,",
-        "sources": ",ci,",
+        "ids": ",ci41034096,us6000plt4,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 43,
         "dmin": 0.09577,
@@ -1528,46 +1608,6 @@
         ]
       },
       "id": "us6000plms"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "136 km WNW of Fangale’ounga, Tonga",
-        "time": 1737564498722,
-        "updated": 1737590052040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000plmi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000plmi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000plmi",
-        "ids": ",us6000plmi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 5.229,
-        "rms": 1.09,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 136 km WNW of Fangale’ounga, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.4575,
-          -19.1554,
-          257.685
-        ]
-      },
-      "id": "us6000plmi"
     }
   ],
   "bbox": [
