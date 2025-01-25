@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1737802789000,
+    "generated": 1737806381000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 27
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "12 km W of Petrolia, CA",
+        "time": 1737805306890,
+        "updated": 1737805939017,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75122741",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75122741.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "nc",
+        "code": "75122741",
+        "ids": ",nc75122741,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.06246,
+        "rms": 0.07,
+        "gap": 271,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.419334411621,
+          40.3098335266113,
+          9.78999996185303
+        ]
+      },
+      "id": "nc75122741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "53 km NNE of Isangel, Vanuatu",
+        "time": 1737801975370,
+        "updated": 1737804389040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmab",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmab.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000pmab",
+        "ids": ",us6000pmab,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 3.985,
+        "rms": 1.14,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 53 km NNE of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.523,
+          -19.1156,
+          265.851
+        ]
+      },
+      "id": "us6000pmab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "298 km ENE of Lospalos, Timor Leste",
+        "time": 1737799617132,
+        "updated": 1737803733040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pma3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pma3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000pma3",
+        "ids": ",us6000pma3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 2.632,
+        "rms": 0.55,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 298 km ENE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.305,
+          -7.1034,
+          166.088
+        ]
+      },
+      "id": "us6000pma3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +255,7 @@
         "mag": 4.7,
         "place": "199 km W of Bandon, Oregon",
         "time": 1737783401019,
-        "updated": 1737798412938,
+        "updated": 1737805605078,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pm9b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pm9b.geojson",
@@ -255,12 +375,12 @@
         "mag": 4.6,
         "place": "183 km NW of Vallenar, Chile",
         "time": 1737776374806,
-        "updated": 1737778603040,
+        "updated": 1737804245195,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pm8t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pm8t.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +390,7 @@
         "code": "6000pm8t",
         "ids": ",us6000pm8t,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 34,
         "dmin": 1.212,
         "rms": 1.02,
@@ -1048,53 +1168,13 @@
         ]
       },
       "id": "us6000pm1b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "3 km WNW of Yujing, Taiwan",
-        "time": 1737717521411,
-        "updated": 1737767457718,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pm0v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pm0v.geojson",
-        "felt": 8,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 357,
-        "net": "us",
-        "code": "6000pm0v",
-        "ids": ",us6000pm0v,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 83,
-        "dmin": 0.244,
-        "rms": 0.9,
-        "gap": 96,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.8 - 3 km WNW of Yujing, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.4284,
-          23.1407,
-          10
-        ]
-      },
-      "id": "us6000pm0v"
     }
   ],
   "bbox": [
     -179.9804,
     -27.5808,
     0.71,
-    164.1035,
+    169.523,
     81.5539,
     523.859
   ]
