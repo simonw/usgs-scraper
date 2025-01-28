@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738036784000,
+    "generated": 1738040413000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "68 km ESE of Kuqa, China",
+        "time": 1738037768404,
+        "updated": 1738038701040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmq8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmq8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000pmq8",
+        "ids": ",us6000pmq8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 3.628,
+        "rms": 0.65,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 68 km ESE of Kuqa, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6375,
+          41.4039,
+          10
+        ]
+      },
+      "id": "us6000pmq8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,21 +255,21 @@
         "mag": 3,
         "place": "2 km S of Haines, Alaska",
         "time": 1738023579769,
-        "updated": 1738034625816,
+        "updated": 1738040285411,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251ab5vi0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251ab5vi0.geojson",
-        "felt": 41,
+        "felt": 44,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 154,
+        "sig": 156,
         "net": "ak",
         "code": "0251ab5vi0",
-        "ids": ",ak0251ab5vi0,",
-        "sources": ",ak,",
+        "ids": ",ak0251ab5vi0,us6000pmpr,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -775,17 +815,17 @@
         "mag": 4.2,
         "place": "26 km WNW of Clayton, Idaho",
         "time": 1737995534594,
-        "updated": 1738036620103,
+        "updated": 1738039725884,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmkg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmkg.geojson",
-        "felt": 312,
+        "felt": 315,
         "cdi": 5.4,
         "mmi": 4.097,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 440,
+        "sig": 441,
         "net": "us",
         "code": "6000pmkg",
         "ids": ",us6000pmkg,mb90071673,",
@@ -855,11 +895,11 @@
         "mag": 3.8,
         "place": "10 km SE of York Harbor, Maine",
         "time": 1737991376784,
-        "updated": 1738036744465,
+        "updated": 1738040259838,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmk3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmk3.geojson",
-        "felt": 41056,
+        "felt": 41123,
         "cdi": 4.6,
         "mmi": 4.691,
         "alert": null,
@@ -888,46 +928,6 @@
         ]
       },
       "id": "us6000pmk3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "36 km NNW of Petersville, Alaska",
-        "time": 1737990092647,
-        "updated": 1737990269561,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02518wg5n4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02518wg5n4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "02518wg5n4",
-        "ids": ",ak02518wg5n4,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.2,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 36 km NNW of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.0581,
-          62.7919,
-          203.7
-        ]
-      },
-      "id": "ak02518wg5n4"
     },
     {
       "type": "Feature",
@@ -1495,7 +1495,7 @@
     -41.1967,
     5,
     168.0791,
-    62.7919,
+    61.6161,
     536.257
   ]
 }
