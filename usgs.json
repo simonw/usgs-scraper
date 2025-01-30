@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738195261000,
+    "generated": 1738200397000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "102 km SSW of Dompu, Indonesia",
+        "time": 1738198582366,
+        "updated": 1738199416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p9yf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p9yf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000p9yf",
+        "ids": ",us7000p9yf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.637,
+        "rms": 1.2,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 102 km SSW of Dompu, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0893,
+          -9.3885,
+          10
+        ]
+      },
+      "id": "us7000p9yf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,22 +215,22 @@
         "mag": 3,
         "place": "224 km SW of Tofino, Canada",
         "time": 1738179948447,
-        "updated": 1738181512040,
+        "updated": 1738199370110,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p9wk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p9wk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "us",
         "code": "7000p9wk",
         "ids": ",us7000p9wk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 34,
         "dmin": 2.135,
         "rms": 0.55,
@@ -1248,86 +1288,6 @@
         ]
       },
       "id": "us7000p9qx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.74,
-        "place": "24 km SSW of Mammoth, Wyoming",
-        "time": 1738112387660,
-        "updated": 1738193307098,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80100206",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80100206.geojson",
-        "felt": 37,
-        "cdi": 4.9,
-        "mmi": 5.086,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 233,
-        "net": "uu",
-        "code": "80100206",
-        "ids": ",uu80100206,us7000p9qq,",
-        "sources": ",uu,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 27,
-        "dmin": 0.05726,
-        "rms": 0.18,
-        "gap": 76,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 24 km SSW of Mammoth, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.771,
-          44.7656666666667,
-          8.24
-        ]
-      },
-      "id": "uu80100206"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "75 km W of Kendari, Indonesia",
-        "time": 1738111841029,
-        "updated": 1738125422254,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p9qm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p9qm.geojson",
-        "felt": 2,
-        "cdi": 7.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 386,
-        "net": "us",
-        "code": "7000p9qm",
-        "ids": ",us7000p9qm,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 65,
-        "dmin": 1.274,
-        "rms": 0.82,
-        "gap": 74,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 75 km W of Kendari, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.8356,
-          -4.006,
-          9.222
-        ]
-      },
-      "id": "us7000p9qm"
     }
   ],
   "bbox": [
