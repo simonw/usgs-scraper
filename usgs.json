@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738310403000,
+    "generated": 1738314006000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 21
+    "count": 22
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.57,
         "place": "15 km WSW of Toms Place, CA",
         "time": 1738308032480,
-        "updated": 1738308435682,
+        "updated": 1738313044838,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75126201",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75126201.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "75126201",
         "ids": ",nc75126201,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 27,
         "dmin": 0.1167,
         "rms": 0.05,
@@ -55,7 +55,7 @@
         "mag": 2.83,
         "place": "4 km W of Santa Barbara, CA",
         "time": 1738307550190,
-        "updated": 1738309810571,
+        "updated": 1738310486040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40176402",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40176402.geojson",
@@ -68,8 +68,8 @@
         "sig": 138,
         "net": "ci",
         "code": "40176402",
-        "ids": ",ci40176402,",
-        "sources": ",ci,",
+        "ids": ",ci40176402,us7000pa84,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 66,
         "dmin": 0.02844,
@@ -772,6 +772,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "Bonin Islands, Japan region",
+        "time": 1738237955242,
+        "updated": 1738310737040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pa0x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pa0x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000pa0x",
+        "ids": ",us7000pa0x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 70,
+        "dmin": 1.422,
+        "rms": 0.63,
+        "gap": 39,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7802,
+          26.4253,
+          442.985
+        ]
+      },
+      "id": "us7000pa0x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "78 km NW of Mohr, Iran",
+        "time": 1738231805635,
+        "updated": 1738310549040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pa1j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pa1j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000pa1j",
+        "ids": ",us7000pa1j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 4.65,
+        "rms": 0.89,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 78 km NW of Mohr, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.3862,
+          28.1088,
+          10
+        ]
+      },
+      "id": "us7000pa1j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "5 km NNW of Taupo, New Zealand",
         "time": 1738230676881,
@@ -808,46 +888,6 @@
         ]
       },
       "id": "us7000pa0i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "51 km SW of Lake Minchumina, Alaska",
-        "time": 1738226437329,
-        "updated": 1738226623263,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251dr4ja6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251dr4ja6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "0251dr4ja6",
-        "ids": ",ak0251dr4ja6,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.8,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 51 km SW of Lake Minchumina, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.9314,
-          63.5148,
-          2.8
-        ]
-      },
-      "id": "ak0251dr4ja6"
     }
   ],
   "bbox": [
@@ -855,7 +895,7 @@
     -38.6399,
     0,
     176.0484,
-    63.5148,
-    208.266
+    62.8771,
+    442.985
   ]
 }
