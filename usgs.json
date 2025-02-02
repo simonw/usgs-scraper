@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738533602000,
+    "generated": 1738537207000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 39
+    "count": 36
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 4.4,
         "place": "57 km W of Ie, Japan",
         "time": 1738528671820,
-        "updated": 1738530283040,
+        "updated": 1738537162532,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pavk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pavk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "7000pavk",
         "ids": ",us7000pavk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 56,
         "dmin": 0.927,
         "rms": 0.58,
@@ -1448,126 +1448,6 @@
         ]
       },
       "id": "us7000papy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "22 km NNE of Yerington, Nevada",
-        "time": 1738450472037,
-        "updated": 1738506580451,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00892864",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00892864.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": 2.884,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "nn",
-        "code": "00892864",
-        "ids": ",nn00892864,us7000papp,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 38,
-        "dmin": 0.005,
-        "rms": 0.1297,
-        "gap": 57.76999999999998,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 22 km NNE of Yerington, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0433,
-          39.1656,
-          5.5
-        ]
-      },
-      "id": "nn00892864"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "272 km WSW of Tual, Indonesia",
-        "time": 1738449570402,
-        "updated": 1738451375040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000papn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000papn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000papn",
-        "ids": ",us7000papn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 2.311,
-        "rms": 0.95,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 272 km WSW of Tual, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.5615,
-          -6.754,
-          80.864
-        ]
-      },
-      "id": "us7000papn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "2 km SE of Indios, Puerto Rico",
-        "time": 1738448169490,
-        "updated": 1738449192160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71472028",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71472028.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71472028",
-        "ids": ",pr71472028,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.04359,
-        "rms": 0.17,
-        "gap": 158,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 2 km SE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.802,
-          17.9773333333333,
-          13.64
-        ]
-      },
-      "id": "pr71472028"
     }
   ],
   "bbox": [
