@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738735225000,
+    "generated": 1738738799000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 58
+    "count": 56
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "9 km SW of Hope, Alaska",
+        "time": 1738738348275,
+        "updated": 1738738652947,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251nn8atn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251nn8atn.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0251nn8atn",
+        "ids": ",ak0251nn8atn,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 9 km SW of Hope, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7577,
+          60.8603,
+          33.1
+        ]
+      },
+      "id": "ak0251nn8atn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2208,132 +2248,12 @@
         ]
       },
       "id": "us7000pb6s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "27 km NE of Firá, Greece",
-        "time": 1738652004992,
-        "updated": 1738653697040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pb6g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pb6g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pb6g",
-        "ids": ",us7000pb6g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 102,
-        "dmin": 1.433,
-        "rms": 1.12,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 27 km NE of Firá, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.6669,
-          36.5778,
-          10
-        ]
-      },
-      "id": "us7000pb6g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "29 km SW of Amorgós, Greece",
-        "time": 1738649352400,
-        "updated": 1738685752963,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pb69",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pb69.geojson",
-        "felt": 1,
-        "cdi": 6.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pb69",
-        "ids": ",us7000pb69,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 93,
-        "dmin": 1.5,
-        "rms": 1.06,
-        "gap": 58,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.7 - 29 km SW of Amorgós, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.6429,
-          36.6609,
-          10
-        ]
-      },
-      "id": "us7000pb69"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "2 km NW of Little America, Wyoming",
-        "time": 1738648900230,
-        "updated": 1738698586794,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80100726",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80100726.geojson",
-        "felt": 1,
-        "cdi": 4.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "uu",
-        "code": "80100726",
-        "ids": ",uu80100726,",
-        "sources": ",uu,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1109,
-        "rms": 0.15,
-        "gap": 155,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 2 km NW of Little America, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.886666666667,
-          41.56,
-          -2.32
-        ]
-      },
-      "id": "uu80100726"
     }
   ],
   "bbox": [
     -172.7475,
     -35.3171,
-    -2.32,
+    5.9,
     178.8129,
     66.1151,
     300.977
