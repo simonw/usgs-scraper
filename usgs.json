@@ -1,40 +1,40 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738713722000,
+    "generated": 1738718845000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 57
+    "count": 55
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.68,
+        "mag": 2.65,
         "place": "16 km WSW of Toms Place, CA",
-        "time": 1738713006270,
-        "updated": 1738713350110,
+        "time": 1738713006280,
+        "updated": 1738717638197,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75127931",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75127931.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 108,
         "net": "nc",
         "code": "75127931",
         "ids": ",nc75127931,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.1272,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.1172,
         "rms": 0.06,
-        "gap": 63,
+        "gap": 62,
         "magType": "md",
         "type": "earthquake",
         "title": "M 2.7 - 16 km WSW of Toms Place, CA"
@@ -42,12 +42,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.81583404541,
-          37.4630012512207,
-          8.18000030517578
+          -118.815166666667,
+          37.4631666666667,
+          7.79
         ]
       },
       "id": "nc75127931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "Kuril Islands",
+        "time": 1738712878113,
+        "updated": 1738717740040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbcy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbcy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000pbcy",
+        "ids": ",us7000pbcy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 7.099,
+        "rms": 0.97,
+        "gap": 98,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3988,
+          46.5813,
+          10
+        ]
+      },
+      "id": "us7000pbcy"
     },
     {
       "type": "Feature",
@@ -175,7 +215,7 @@
         "mag": 3.2,
         "place": "221 km W of Ferndale, California",
         "time": 1738699851804,
-        "updated": 1738712842649,
+        "updated": 1738714037785,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbbg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbbg.geojson",
@@ -655,11 +695,11 @@
         "mag": 2.89,
         "place": "9 km ENE of San Martin, CA",
         "time": 1738692726130,
-        "updated": 1738713549260,
+        "updated": 1738714934877,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75127906",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75127906.geojson",
-        "felt": 43,
+        "felt": 44,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1008,46 +1048,6 @@
         ]
       },
       "id": "us7000pb93"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "13 km SE of McArthur, CA",
-        "time": 1738685740790,
-        "updated": 1738687336788,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75127871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75127871.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "nc",
-        "code": "75127871",
-        "ids": ",nc75127871,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.1062,
-        "rms": 0.14,
-        "gap": 56,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km SE of McArthur, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.260330200195,
-          40.9910011291504,
-          12.5299997329712
-        ]
-      },
-      "id": "nc75127871"
     },
     {
       "type": "Feature",
@@ -2208,94 +2208,14 @@
         ]
       },
       "id": "us7000pb59"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "56 km W of Petrolia, CA",
-        "time": 1738630502510,
-        "updated": 1738658238583,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75127681",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75127681.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 183,
-        "net": "nc",
-        "code": "75127681",
-        "ids": ",ew1738630510,nc75127681,us7000pb4x,",
-        "sources": ",ew,nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 117,
-        "dmin": 0.4579,
-        "rms": 0.26,
-        "gap": 230,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 56 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.941,
-          40.3035,
-          6.49
-        ]
-      },
-      "id": "nc75127681"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "38 km SW of Arctic Village, Alaska",
-        "time": 1738629569115,
-        "updated": 1738632020040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251lw1kgc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251lw1kgc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0251lw1kgc",
-        "ids": ",us7000pb4s,ak0251lw1kgc,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.76,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 38 km SW of Arctic Village, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.1679,
-          67.8798,
-          0
-        ]
-      },
-      "id": "ak0251lw1kgc"
     }
   ],
   "bbox": [
     -172.7475,
     -38.94,
     -2.32,
-    151.8717,
-    67.8798,
+    153.3988,
+    65.2646,
     300.977
   ]
 }
