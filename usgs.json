@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738872032000,
+    "generated": 1738875613000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,39 +12,79 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
-        "place": "21 km ENE of Sterling, Alaska",
-        "time": 1738871811488,
-        "updated": 1738871896272,
+        "mag": 2.52,
+        "place": "10 km SE of Esperanza, Puerto Rico",
+        "time": 1738874655400,
+        "updated": 1738875581070,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251pij6tf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251pij6tf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71472348",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71472348.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "0251pij6tf",
-        "ids": ",ak0251pij6tf,",
-        "sources": ",ak,",
+        "sig": 98,
+        "net": "pr",
+        "code": "71472348",
+        "ids": ",pr71472348,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.49,
-        "gap": null,
-        "magType": "ml",
+        "nst": 4,
+        "dmin": 0.1618,
+        "rms": 0.14,
+        "gap": 263,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 21 km ENE of Sterling, Alaska"
+        "title": "M 2.5 - 10 km SE of Esperanza, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.3938,
-          60.6057,
-          40.2
+          -65.3935,
+          18.0401666666667,
+          14.44
+        ]
+      },
+      "id": "pr71472348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "20 km ENE of Sterling, Alaska",
+        "time": 1738871812200,
+        "updated": 1738875378362,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251pij6tf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251pij6tf.geojson",
+        "felt": 4,
+        "cdi": 2.7,
+        "mmi": 2.799,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "ak",
+        "code": "0251pij6tf",
+        "ids": ",ak0251pij6tf,us7000pbx9,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.58,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 20 km ENE of Sterling, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.4287,
+          60.62,
+          37.9
         ]
       },
       "id": "ak0251pij6tf"
@@ -128,6 +168,46 @@
         ]
       },
       "id": "ak0251picxim"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "12 km ENE of Firá, Greece",
+        "time": 1738865805225,
+        "updated": 1738875318737,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbwr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbwr.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "7000pbwr",
+        "ids": ",us7000pbwr,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 60,
+        "dmin": 1.305,
+        "rms": 1.05,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 12 km ENE of Firá, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5548,
+          36.4784,
+          10
+        ]
+      },
+      "id": "us7000pbwr"
     },
     {
       "type": "Feature",
@@ -1335,12 +1415,12 @@
         "mag": 4.1,
         "place": "30 km SW of Amorgós, Greece",
         "time": 1738806065278,
-        "updated": 1738866745464,
+        "updated": 1738875340708,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbq5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbq5.geojson",
-        "felt": 1,
-        "cdi": 3.1,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1648,86 +1728,6 @@
         ]
       },
       "id": "us7000pbp2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "69 km S of Fīrūzābād, Iran",
-        "time": 1738787080740,
-        "updated": 1738789260040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbn6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbn6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000pbn6",
-        "ids": ",us7000pbn6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 4.634,
-        "rms": 0.72,
-        "gap": 156,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 69 km S of Fīrūzābād, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          52.5209,
-          28.2149,
-          10
-        ]
-      },
-      "id": "us7000pbn6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "151 km ESE of Neiafu, Tonga",
-        "time": 1738786506856,
-        "updated": 1738788401040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbn5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbn5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000pbn5",
-        "ids": ",us7000pbn5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 2.549,
-        "rms": 0.88,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 151 km ESE of Neiafu, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.6221,
-          -19.0936,
-          10
-        ]
-      },
-      "id": "us7000pbn5"
     }
   ],
   "bbox": [
