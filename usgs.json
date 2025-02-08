@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1739034007000,
+    "generated": 1739037613000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.47,
         "place": "8 km NNW of The Geysers, CA",
         "time": 1739033868990,
-        "updated": 1739033964720,
+        "updated": 1739036238026,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75129927",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75129927.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "75129927",
         "ids": ",nc75129927,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 58,
         "dmin": 0.008276,
         "rms": 0.06,
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "us7000pc6g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "51 km S of Akutan, Alaska",
-        "time": 1738951021622,
-        "updated": 1738961633818,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pc67",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pc67.geojson",
-        "felt": 1,
-        "cdi": 3.6,
-        "mmi": 2.302,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000pc67",
-        "ids": ",us7000pc67,ak0251r4vs0z,",
-        "sources": ",us,ak,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 71,
-        "dmin": 0.433,
-        "rms": 1.01,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 51 km S of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -165.8249,
-          53.6702,
-          65.345
-        ]
-      },
-      "id": "us7000pc67"
     }
   ],
   "bbox": [
