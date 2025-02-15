@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1739602819000,
+    "generated": 1739606382000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "11 km NW of Malibu, CA",
+        "time": 1739605445450,
+        "updated": 1739606350266,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40186202",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40186202.geojson",
+        "felt": 119,
+        "cdi": 4.1,
+        "mmi": 3.422,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "ci",
+        "code": "40186202",
+        "ids": ",ci40186202,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 120,
+        "dmin": 0.05227,
+        "rms": 0.32,
+        "gap": 132,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.7 - 11 km NW of Malibu, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9088364,
+          34.0598335,
+          15.27
+        ]
+      },
+      "id": "ci40186202"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "54 km NW of Toyah, Texas",
         "time": 1739597296711,
-        "updated": 1739602241376,
+        "updated": 1739604461864,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025deqm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025deqm.geojson",
-        "felt": 245,
+        "felt": 246,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 214,
+        "sig": 215,
         "net": "tx",
         "code": "2025deqm",
         "ids": ",tx2025deqm,",
@@ -52,16 +92,96 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "54 km NW of Toyah, Texas",
+        "time": 1739597192418,
+        "updated": 1739606285443,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025deql",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025deql.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2025deql",
+        "ids": ",tx2025deql,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 119,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 54 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.186,
+          31.671,
+          6.0999
+        ]
+      },
+      "id": "tx2025deql"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "54 km NW of Toyah, Texas",
+        "time": 1739597128890,
+        "updated": 1739606108142,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025deqk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025deqk.geojson",
+        "felt": 59,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "tx",
+        "code": "2025deqk",
+        "ids": ",tx2025deqk,",
+        "sources": ",tx,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 54 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.191,
+          31.671,
+          6.0999
+        ]
+      },
+      "id": "tx2025deqk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "53 km NW of Toyah, Texas",
         "time": 1739597001420,
-        "updated": 1739602645777,
+        "updated": 1739606224069,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025deqh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025deqh.geojson",
-        "felt": 1242,
+        "felt": 1269,
         "cdi": 5.3,
-        "mmi": 5.656,
+        "mmi": 5.668,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1408,46 +1528,6 @@
         ]
       },
       "id": "us7000pdks"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "211 km NNE of Barra Patuca, Honduras",
-        "time": 1739517983684,
-        "updated": 1739520106040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pdkn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pdkn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pdkn",
-        "ids": ",us7000pdkn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 5.11,
-        "rms": 0.76,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 211 km NNE of Barra Patuca, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.2889,
-          17.4536,
-          10
-        ]
-      },
-      "id": "us7000pdkn"
     }
   ],
   "bbox": [
