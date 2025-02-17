@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1739758998000,
+    "generated": 1739761536000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.5,
         "place": "35 km NW of Millinocket, Maine",
         "time": 1739757414836,
-        "updated": 1739757768040,
+        "updated": 1739760474146,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pe69",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pe69.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "7000pe69",
         "ids": ",us7000pe69,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 0.515,
         "rms": 0.3,
@@ -95,17 +95,17 @@
         "mag": 4.2,
         "place": "5 km SE of Nāngloi Jāt, India",
         "time": 1739750812678,
-        "updated": 1739758950782,
+        "updated": 1739761451627,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pe5z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pe5z.geojson",
-        "felt": 904,
+        "felt": 938,
         "cdi": 6.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 841,
+        "sig": 862,
         "net": "us",
         "code": "7000pe5z",
         "ids": ",us7000pe5z,",
@@ -1608,86 +1608,6 @@
         ]
       },
       "id": "pr71472813"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "40 km S of Diomede, Alaska",
-        "time": 1739674338036,
-        "updated": 1739677266762,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02525rrdfc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02525rrdfc.geojson",
-        "felt": 2,
-        "cdi": 1,
-        "mmi": 2.619,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "ak",
-        "code": "02525rrdfc",
-        "ids": ",ak02525rrdfc,us7000pe1z,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.2 - 40 km S of Diomede, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.0923,
-          65.4012,
-          9.6
-        ]
-      },
-      "id": "ak02525rrdfc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.73,
-        "place": "5 km NNE of San Bernardino, CA",
-        "time": 1739672658190,
-        "updated": 1739724130705,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40186658",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40186658.geojson",
-        "felt": 80,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 147,
-        "net": "ci",
-        "code": "40186658",
-        "ids": ",ci40186658,us7000pe1w,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 138,
-        "dmin": 0.03942,
-        "rms": 0.17,
-        "gap": 20,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 5 km NNE of San Bernardino, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.2631667,
-          34.1701667,
-          7.68
-        ]
-      },
-      "id": "ci40186658"
     }
   ],
   "bbox": [
