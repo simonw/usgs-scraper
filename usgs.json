@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1740063597000,
+    "generated": 1740067235000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 28
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "4 km NW of Little America, Wyoming",
-        "time": 1740062893280,
-        "updated": 1740063586370,
+        "mag": 3.25,
+        "place": "2 km N of Little America, Wyoming",
+        "time": 1740062892880,
+        "updated": 1740064436090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80102416",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80102416.geojson",
@@ -25,26 +25,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 162,
         "net": "uu",
         "code": "80102416",
         "ids": ",uu80102416,",
         "sources": ",uu,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.1223,
-        "rms": 0.409999996,
-        "gap": 127,
+        "nst": 15,
+        "dmin": 0.1123,
+        "rms": 0.24,
+        "gap": 157,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 4 km NW of Little America, Wyoming"
+        "title": "M 3.3 - 2 km N of Little America, Wyoming"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.890167236328,
-          41.5711669921875,
-          -3.39000010490417
+          -109.863,
+          41.5626666666667,
+          -2.79
         ]
       },
       "id": "uu80102416"
@@ -95,12 +95,12 @@
         "mag": 3.2,
         "place": "12 km ESE of Hawthorne, Nevada",
         "time": 1740052357604,
-        "updated": 1740056065268,
+        "updated": 1740066464322,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00893734",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00893734.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +110,7 @@
         "code": "00893734",
         "ids": ",nn00893734,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 0.14,
         "rms": 0.1438,
@@ -172,38 +172,38 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
+        "mag": 5.4,
         "place": "West Chile Rise",
-        "time": 1740051052700,
-        "updated": 1740052712040,
+        "time": 1740051053613,
+        "updated": 1740066243519,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pexi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pexi.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 449,
         "net": "us",
         "code": "7000pexi",
         "ids": ",us7000pexi,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 26,
-        "dmin": 7.054,
-        "rms": 0.93,
+        "dmin": 6.951,
+        "rms": 1.25,
         "gap": 160,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.6 - West Chile Rise"
+        "title": "M 5.4 - West Chile Rise"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.835,
-          -42.991,
+          -82.6629,
+          -42.948,
           10
         ]
       },
@@ -495,17 +495,17 @@
         "mag": 4.8,
         "place": "44 km SSE of Camiña, Chile",
         "time": 1740032524408,
-        "updated": 1740061251823,
+        "updated": 1740065618302,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pewh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pewh.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 355,
+        "sig": 356,
         "net": "us",
         "code": "7000pewh",
         "ids": ",us7000pewh,",
@@ -1128,92 +1128,12 @@
         ]
       },
       "id": "us7000perb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "9 km E of Pistol River, Oregon",
-        "time": 1739980132920,
-        "updated": 1740018029040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62076486",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62076486.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "uw",
-        "code": "62076486",
-        "ids": ",uw62076486,us7000per9,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.06109,
-        "rms": 0.26,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 9 km E of Pistol River, Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.283,
-          42.275,
-          -0.58
-        ]
-      },
-      "id": "uw62076486"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "12 km W of Stanley, Idaho",
-        "time": 1739978057711,
-        "updated": 1740018631811,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000per6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000per6.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000per6",
-        "ids": ",mb90072738,us7000per6,",
-        "sources": ",mb,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.209,
-        "rms": 0.68,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 12 km W of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0997,
-          44.2081,
-          16.899
-        ]
-      },
-      "id": "us7000per6"
     }
   ],
   "bbox": [
     -178.9117,
     -56.7182,
-    -3.3900001049042,
+    -2.79,
     152.9612,
     65.417,
     305.552
