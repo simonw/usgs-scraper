@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1740146376000,
+    "generated": 1740149993000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 3.73,
         "place": "68 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1740141838930,
-        "updated": 1740144511469,
+        "updated": 1740148492728,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025052001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025052001.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +68,9 @@
         "sig": 214,
         "net": "pr",
         "code": "2025052001",
-        "ids": ",us7000pf7z,pr2025052001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2025052001,us7000pf7z,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.6066,
         "rms": 0.27,
@@ -175,13 +175,13 @@
         "mag": 3.6,
         "place": "11 km S of Golfo de Santa Clara, Mexico",
         "time": 1740137786004,
-        "updated": 1740141843296,
+        "updated": 1740148859357,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pf7l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pf7l.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.989,
+        "mmi": 2.992,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1848,52 +1848,12 @@
         ]
       },
       "id": "us7000peye"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "2 km N of Little America, Wyoming",
-        "time": 1740062892880,
-        "updated": 1740064436090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80102416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80102416.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "uu",
-        "code": "80102416",
-        "ids": ",uu80102416,",
-        "sources": ",uu,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1123,
-        "rms": 0.24,
-        "gap": 157,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 2 km N of Little America, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.863,
-          41.5626666666667,
-          -2.79
-        ]
-      },
-      "id": "uu80102416"
     }
   ],
   "bbox": [
     -179.8595,
     -32.3435,
-    -2.79,
+    1.000016093,
     179.3257,
     63.0763,
     571.068
