@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1740578422000,
+    "generated": 1740581999000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.31,
         "place": "9 km NNW of Avenal, CA",
         "time": 1740576581430,
-        "updated": 1740577638396,
+        "updated": 1740578643944,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75139451",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75139451.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "75139451",
         "ids": ",nc75139451,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 46,
         "dmin": 0.0312,
         "rms": 0.1,
@@ -655,11 +655,11 @@
         "mag": 3.49,
         "place": "12 km S of Tres Pinos, CA",
         "time": 1740548784040,
-        "updated": 1740575237471,
+        "updated": 1740580764986,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75139226",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75139226.geojson",
-        "felt": 86,
+        "felt": 87,
         "cdi": 4.1,
         "mmi": 3.929,
         "alert": null,
@@ -668,8 +668,8 @@
         "sig": 223,
         "net": "nc",
         "code": "75139226",
-        "ids": ",ew1740548780,nc75139226,",
-        "sources": ",ew,nc,",
+        "ids": ",ew1740548780,nc75139226,us6000pvj3,",
+        "sources": ",ew,nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 82,
         "dmin": 0.03571,
@@ -695,7 +695,7 @@
         "mag": 2.94,
         "place": "44 km W of Petrolia, CA",
         "time": 1740546445610,
-        "updated": 1740554238801,
+        "updated": 1740578788040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75139216",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75139216.geojson",
@@ -708,8 +708,8 @@
         "sig": 133,
         "net": "nc",
         "code": "75139216",
-        "ids": ",nc75139216,",
-        "sources": ",nc,",
+        "ids": ",nc75139216,us6000pvix,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 22,
         "dmin": 0.349,
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "pr71473623"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "85 km WNW of San Antonio de los Cobres, Argentina",
-        "time": 1740495256957,
-        "updated": 1740504957040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pvcm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pvcm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000pvcm",
-        "ids": ",us6000pvcm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 1.429,
-        "rms": 0.57,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 85 km WNW of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1309,
-          -24.0133,
-          233.208
-        ]
-      },
-      "id": "us6000pvcm"
     }
   ],
   "bbox": [
