@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741100430000,
+    "generated": 1741104012000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 31
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3.63,
         "place": "106 km NNE of Punta Cana, Dominican Republic",
         "time": 1741094326410,
-        "updated": 1741096325357,
+        "updated": 1741103745040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025063000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025063000.geojson",
@@ -68,8 +68,8 @@
         "sig": 203,
         "net": "pr",
         "code": "2025063000",
-        "ids": ",pr2025063000,",
-        "sources": ",pr,",
+        "ids": ",us6000pwsp,pr2025063000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 1.0184,
@@ -95,12 +95,12 @@
         "mag": 2.67,
         "place": "4 km W of San Juan Bautista, CA",
         "time": 1741083659020,
-        "updated": 1741095738321,
+        "updated": 1741102003901,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75142601",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75142601.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -110,7 +110,7 @@
         "code": "75142601",
         "ids": ",nc75142601,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 63,
         "dmin": 0.03794,
         "rms": 0.21,
@@ -655,12 +655,12 @@
         "mag": 4,
         "place": "5 km S of Takaka, New Zealand",
         "time": 1741056826431,
-        "updated": 1741057802040,
+        "updated": 1741101264130,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwqi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwqi.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -670,7 +670,7 @@
         "code": "6000pwqi",
         "ids": ",us6000pwqi,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.226,
         "rms": 1.1,
@@ -768,6 +768,46 @@
         ]
       },
       "id": "us6000pwqe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "3 km S of Bevagna, Italy",
+        "time": 1741049741074,
+        "updated": 1741101329857,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwq6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwq6.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "6000pwq6",
+        "ids": ",us6000pwq6,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.359,
+        "rms": 0.59,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 3 km S of Bevagna, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6133,
+          42.9102,
+          11.31
+        ]
+      },
+      "id": "us6000pwq6"
     },
     {
       "type": "Feature",
@@ -1208,166 +1248,6 @@
         ]
       },
       "id": "nc75142171"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "178 km ESE of Yigo Village, Guam",
-        "time": 1741016436592,
-        "updated": 1741081842193,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwn3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwn3.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000pwn3",
-        "ids": ",us6000pwn3,",
-        "sources": ",us,",
-        "types": ",dyfi,oaf,origin,phase-data,",
-        "nst": 78,
-        "dmin": 1.647,
-        "rms": 0.75,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 178 km ESE of Yigo Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.2783,
-          12.6746,
-          10
-        ]
-      },
-      "id": "us6000pwn3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "96 km SW of Tambolaka, Indonesia",
-        "time": 1741015257586,
-        "updated": 1741017239040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwms",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwms.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000pwms",
-        "ids": ",us6000pwms,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 1.305,
-        "rms": 1.04,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 96 km SW of Tambolaka, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.5139,
-          -9.9183,
-          35.236
-        ]
-      },
-      "id": "us6000pwms"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "61 km SW of Santiago de Surco, Peru",
-        "time": 1741015108742,
-        "updated": 1741097797725,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwn2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwn2.geojson",
-        "felt": 26,
-        "cdi": 5.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 339,
-        "net": "us",
-        "code": "6000pwn2",
-        "ids": ",us6000pwn2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.775,
-        "rms": 0.47,
-        "gap": 164,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 61 km SW of Santiago de Surco, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.3915,
-          -12.5493,
-          10
-        ]
-      },
-      "id": "us6000pwn2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "94 km SSW of Masachapa, Nicaragua",
-        "time": 1741015084678,
-        "updated": 1741021195040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwmg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwmg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000pwmg",
-        "ids": ",us6000pwmg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.288,
-        "rms": 0.6,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 94 km SSW of Masachapa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.8939,
-          11.0195,
-          10
-        ]
-      },
-      "id": "us6000pwmg"
     }
   ],
   "bbox": [
