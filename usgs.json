@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741384833000,
+    "generated": 1741388397000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -52,25 +52,65 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "21 km S of Kot Addu, Pakistan",
+        "time": 1741378238262,
+        "updated": 1741387587040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pxhp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pxhp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000pxhp",
+        "ids": ",us6000pxhp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 4.49,
+        "rms": 0.85,
+        "gap": 54,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 21 km S of Kot Addu, Pakistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.9336,
+          30.2783,
+          10
+        ]
+      },
+      "id": "us6000pxhp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.4,
         "place": "20 km NW of Fishhook, Alaska",
         "time": 1741376397059,
-        "updated": 1741376974874,
+        "updated": 1741388015221,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02531h0meh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02531h0meh.geojson",
         "felt": 2,
         "cdi": 2.7,
-        "mmi": null,
+        "mmi": 2.634,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 178,
         "net": "ak",
         "code": "02531h0meh",
-        "ids": ",ak02531h0meh,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",ak02531h0meh,us6000pxhm,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.59,
@@ -768,46 +808,6 @@
         ]
       },
       "id": "pr71474613"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "62 km W of Anchor Point, Alaska",
-        "time": 1741300960510,
-        "updated": 1741328170999,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0252zva6il",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0252zva6il.geojson",
-        "felt": 31,
-        "cdi": 3.2,
-        "mmi": 3.338,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 294,
-        "net": "ak",
-        "code": "0252zva6il",
-        "ids": ",ak0252zva6il,at00ssq4f3,us6000pxc2,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.3 - 62 km W of Anchor Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.9437,
-          59.8141,
-          104.3
-        ]
-      },
-      "id": "ak0252zva6il"
     }
   ],
   "bbox": [
