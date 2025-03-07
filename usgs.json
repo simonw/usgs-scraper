@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741305680000,
+    "generated": 1741310815000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 24
+    "count": 20
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.1,
         "place": "39 km W of Mentone, Texas",
         "time": 1741303598867,
-        "updated": 1741304671040,
+        "updated": 1741307725310,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025eosp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025eosp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +28,9 @@
         "sig": 148,
         "net": "tx",
         "code": "2025eosp",
-        "ids": ",us6000pxcb,tx2025eosp,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2025eosp,us6000pxcb,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 0,
         "rms": 0.1,
@@ -95,17 +95,17 @@
         "mag": 4.3,
         "place": "62 km W of Anchor Point, Alaska",
         "time": 1741300960510,
-        "updated": 1741303887648,
+        "updated": 1741307481860,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0252zva6il",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0252zva6il.geojson",
-        "felt": 28,
-        "cdi": 2.9,
+        "felt": 29,
+        "cdi": 3.2,
         "mmi": 3.338,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 293,
+        "sig": 294,
         "net": "ak",
         "code": "0252zva6il",
         "ids": ",ak0252zva6il,at00ssq4f3,us6000pxc2,",
@@ -212,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48,
-        "place": "24 km SE of Pāhala, Hawaii",
-        "time": 1741289731940,
-        "updated": 1741304829040,
+        "mag": 2.72,
+        "place": "18 km SE of Pāhala, Hawaii",
+        "time": 1741289731750,
+        "updated": 1741308083250,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74628237",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74628237.geojson",
@@ -223,28 +223,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 114,
         "net": "hv",
         "code": "74628237",
         "ids": ",us6000pxau,hv74628237,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.1712,
-        "rms": 0.209999993,
-        "gap": 217,
-        "magType": "ml",
+        "nst": 32,
+        "dmin": 0.1237,
+        "rms": 0.11,
+        "gap": 206,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 24 km SE of Pāhala, Hawaii"
+        "title": "M 2.7 - 18 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.341506958008,
-          19.0270004272461,
-          15.8699998855591
+          -155.361166666667,
+          19.0763333333333,
+          33.29
         ]
       },
       "id": "hv74628237"
@@ -335,11 +335,11 @@
         "mag": 6.1,
         "place": "103 km WSW of San Pedro de Atacama, Chile",
         "time": 1741278097906,
-        "updated": 1741295690658,
+        "updated": 1741310719725,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000px89",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000px89.geojson",
-        "felt": 27,
+        "felt": 28,
         "cdi": 6.7,
         "mmi": 5.773,
         "alert": "green",
@@ -808,174 +808,14 @@
         ]
       },
       "id": "us6000px4z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "46 km ESE of Chenega, Alaska",
-        "time": 1741223641339,
-        "updated": 1741233984040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000px4x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000px4x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000px4x",
-        "ids": ",us6000px4x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.545,
-        "rms": 1.1,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 46 km ESE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.1976,
-          59.9766,
-          10
-        ]
-      },
-      "id": "us6000px4x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.89,
-        "place": "14 km SW of Blyn, Washington",
-        "time": 1741220304040,
-        "updated": 1741305261256,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62079456",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62079456.geojson",
-        "felt": 404,
-        "cdi": 3.8,
-        "mmi": 2.943,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 386,
-        "net": "uw",
-        "code": "62079456",
-        "ids": ",uw62079456,us6000px4m,ew1741220310,",
-        "sources": ",uw,us,ew,",
-        "types": ",dyfi,origin,phase-data,shake-alert,shakemap,",
-        "nst": 103,
-        "dmin": 0.1193,
-        "rms": 0.14,
-        "gap": 19,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 14 km SW of Blyn, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.14083333333333,
-          47.924,
-          42.35
-        ]
-      },
-      "id": "uw62079456"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": 1741220193820,
-        "updated": 1741222299040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000px4n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000px4n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000px4n",
-        "ids": ",us6000px4n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 5.941,
-        "rms": 0.92,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.7772,
-          -23.3556,
-          560.03
-        ]
-      },
-      "id": "us6000px4n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Chagos Archipelago region",
-        "time": 1741220190538,
-        "updated": 1741221190040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000px4p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000px4p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000px4p",
-        "ids": ",us6000px4p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 6.946,
-        "rms": 0.9,
-        "gap": 142,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Chagos Archipelago region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          68.5553,
-          -4.89,
-          10.47
-        ]
-      },
-      "id": "us6000px4p"
     }
   ],
   "bbox": [
-    -179.7772,
+    -177.1669,
     -40.777,
     5.5872,
     174.2402,
-    59.9766,
-    560.03
+    59.8141,
+    332.543
   ]
 }
