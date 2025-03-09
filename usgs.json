@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741510805000,
+    "generated": 1741514405000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Banda Sea",
+        "time": 1741510403836,
+        "updated": 1741512872040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pxs1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pxs1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000pxs1",
+        "ids": ",us6000pxs1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 2.421,
+        "rms": 0.79,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.6178,
+          -6.9422,
+          124.002
+        ]
+      },
+      "id": "us6000pxs1"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "14 km E of Pāhala, Hawaii",
         "time": 1741509206990,
-        "updated": 1741509739871,
+        "updated": 1741513685080,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74630317",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74630317.geojson",
-        "felt": 3,
-        "cdi": 3.8,
-        "mmi": null,
+        "felt": 4,
+        "cdi": 3.4,
+        "mmi": 3.349,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 140,
         "net": "hv",
         "code": "74630317",
-        "ids": ",hv74630317,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv74630317,us6000pxs0,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 55,
         "dmin": 0.06034,
         "rms": 0.150000006,
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "tx2025erkd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "off the coast of Central America",
-        "time": 1741426216715,
-        "updated": 1741431133040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pxm0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pxm0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000pxm0",
-        "ids": ",us6000pxm0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 6.456,
-        "rms": 0.93,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - off the coast of Central America"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.3481,
-          2.7846,
-          10
-        ]
-      },
-      "id": "us6000pxm0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "36 km WSW of Pole Ojea, Puerto Rico",
-        "time": 1741425133620,
-        "updated": 1741427695970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71474778",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71474778.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "pr",
-        "code": "71474778",
-        "ids": ",pr71474778,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.3672,
-        "rms": 0.23,
-        "gap": 210,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 36 km WSW of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5111666666667,
-          17.8603333333333,
-          11.04
-        ]
-      },
-      "id": "pr71474778"
     }
   ],
   "bbox": [
