@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741838406000,
+    "generated": 1741842015000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "0 km SSW of Indios, Puerto Rico",
+        "time": 1741839479980,
+        "updated": 1741840402850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71475588",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71475588.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71475588",
+        "ids": ",pr71475588,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.04617,
+        "rms": 0.17,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 0 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8225,
+          17.9876666666667,
+          15.36
+        ]
+      },
+      "id": "pr71475588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.03,
+        "place": "1 km SSE of Indios, Puerto Rico",
+        "time": 1741838670610,
+        "updated": 1741840253756,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71475573",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71475573.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 141,
+        "net": "pr",
+        "code": "71475573",
+        "ids": ",pr71475573,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.05014,
+        "rms": 0.23,
+        "gap": 168,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 1 km SSE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8166666666667,
+          17.9823333333333,
+          12.91
+        ]
+      },
+      "id": "pr71475573"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1015,7 +1095,7 @@
         "mag": 3.17,
         "place": "77 km WNW of Petrolia, CA",
         "time": 1741782368990,
-        "updated": 1741819298006,
+        "updated": 1741841885040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147571",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147571.geojson",
@@ -1028,8 +1108,8 @@
         "sig": 155,
         "net": "nc",
         "code": "75147571",
-        "ids": ",nc75147571,",
-        "sources": ",nc,",
+        "ids": ",nc75147571,us6000pyaz,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 34,
         "dmin": 0.6548,
@@ -1052,20 +1132,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "Drake Passage",
+        "time": 1741781289526,
+        "updated": 1741841492040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pyb1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pyb1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000pyb1",
+        "ids": ",us6000pyb1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 5.746,
+        "rms": 0.72,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Drake Passage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4488,
+          -59.3022,
+          10
+        ]
+      },
+      "id": "us6000pyb1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.49,
         "place": "4 km W of Alamo, CA",
         "time": 1741779952620,
-        "updated": 1741837495864,
+        "updated": 1741840189767,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147556",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147556.geojson",
-        "felt": 34,
+        "felt": 35,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 110,
         "net": "nc",
         "code": "75147556",
         "ids": ",nc75147556,",
@@ -1175,11 +1295,11 @@
         "mag": 2.56,
         "place": "4 km W of Alamo, CA",
         "time": 1741773973240,
-        "updated": 1741837682241,
+        "updated": 1741840730787,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147511.geojson",
-        "felt": 85,
+        "felt": 86,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1492,7 +1612,7 @@
   ],
   "bbox": [
     -177.4764,
-    -27.778,
+    -59.3022,
     1.4900000095367,
     133.619,
     85.6848,
