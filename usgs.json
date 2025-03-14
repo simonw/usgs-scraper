@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741989623000,
+    "generated": 1741993233000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 31
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 2.8,
         "place": "8 km WSW of Fairview, Wyoming",
         "time": 1741980504320,
-        "updated": 1741989614810,
+        "updated": 1741989656320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80103766",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80103766.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +110,7 @@
         "code": "80103766",
         "ids": ",uu80103766,",
         "sources": ",uu,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 17,
         "dmin": 0.09771,
         "rms": 0.18,
@@ -1248,86 +1248,6 @@
         ]
       },
       "id": "ak0253bgegsn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "6 km ESE of La Parguera, Puerto Rico",
-        "time": 1741905858900,
-        "updated": 1741927560260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71475833",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71475833.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "pr",
-        "code": "71475833",
-        "ids": ",pr71475833,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.05636,
-        "rms": 0.08,
-        "gap": 202,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 6 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.993,
-          17.941,
-          5.26
-        ]
-      },
-      "id": "pr71475833"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "89 km NNE of Ambler, Alaska",
-        "time": 1741903485475,
-        "updated": 1741969278987,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253bfth7a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253bfth7a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 5.599,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "ak",
-        "code": "0253bfth7a",
-        "ids": ",us6000pypc,ak0253bfth7a,",
-        "sources": ",us,ak,",
-        "types": ",moment-tensor,oaf,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.28,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 5.1 - 89 km NNE of Ambler, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.0621,
-          67.8308,
-          9.8
-        ]
-      },
-      "id": "ak0253bfth7a"
     }
   ],
   "bbox": [
@@ -1335,7 +1255,7 @@
     -24.8226,
     -0.3,
     179.9724,
-    67.8308,
+    62.9135,
     578.003
   ]
 }
