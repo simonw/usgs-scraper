@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741942812000,
+    "generated": 1741946387000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "39 km WNW of Ollagüe, Chile",
+        "time": 1741939107284,
+        "updated": 1741943482040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pys2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pys2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000pys2",
+        "ids": ",us6000pys2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.828,
+        "rms": 0.61,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 39 km WNW of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6012,
+          -21.0729,
+          139.966
+        ]
+      },
+      "id": "us6000pys2"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.69,
         "place": "3 km E of Prattville, CA",
         "time": 1741938151310,
-        "updated": 1741941440028,
+        "updated": 1741943398052,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75148496",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75148496.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 112,
         "net": "nc",
         "code": "75148496",
         "ids": ",nc75148496,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 30,
         "dmin": 0.203,
         "rms": 0.18,
@@ -1168,86 +1208,6 @@
         ]
       },
       "id": "us6000pyjy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "55 km E of Teller, Alaska",
-        "time": 1741858449207,
-        "updated": 1741895772069,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253b89ez8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253b89ez8.geojson",
-        "felt": 6,
-        "cdi": 2.7,
-        "mmi": 4.168,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 248,
-        "net": "ak",
-        "code": "0253b89ez8",
-        "ids": ",ak0253b89ez8,us6000pyjg,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 5.13,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 55 km E of Teller, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -165.179,
-          65.2098,
-          12.4
-        ]
-      },
-      "id": "ak0253b89ez8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "89 km SW of Corinto, Nicaragua",
-        "time": 1741856869078,
-        "updated": 1741860251040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pyjd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pyjd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000pyjd",
-        "ids": ",us6000pyjd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.056,
-        "rms": 0.71,
-        "gap": 170,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 89 km SW of Corinto, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.7905,
-          11.9506,
-          55.067
-        ]
-      },
-      "id": "us6000pyjd"
     }
   ],
   "bbox": [
