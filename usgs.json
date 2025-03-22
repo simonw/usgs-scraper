@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742637614000,
+    "generated": 1742641224000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 47
+    "count": 45
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.11,
         "place": "13 km NE of Coachella, CA",
         "time": 1742637367430,
-        "updated": 1742637515788,
+        "updated": 1742640857023,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40907031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40907031.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 21,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 149,
+        "sig": 154,
         "net": "ci",
         "code": "40907031",
         "ids": ",ci40907031,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 113,
         "dmin": 0.1092,
         "rms": 0.17,
@@ -52,42 +52,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.4,
-        "place": "69 km SSE of Adak, Alaska",
-        "time": 1742636966000,
-        "updated": 1742637276149,
+        "mag": 5.6,
+        "place": "74 km SSE of Adak, Alaska",
+        "time": 1742636965074,
+        "updated": 1742639059170,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00stirae",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00stirae.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000plu1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000plu1.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.558,
-        "alert": null,
-        "status": "REVIEWED",
+        "mmi": 3.88,
+        "alert": "green",
+        "status": "reviewed",
         "tsunami": 1,
-        "sig": 449,
-        "net": "at",
-        "code": "00stirae",
-        "ids": ",at00stirae,ak0253q46kf8,",
-        "sources": ",at,ak,",
-        "types": ",impact-link,origin,shakemap,",
-        "nst": 40,
-        "dmin": 0.7069741,
-        "rms": 1.22,
-        "gap": 205.1999835840013,
-        "magType": "Mi",
+        "sig": 482,
+        "net": "us",
+        "code": "7000plu1",
+        "ids": ",at00stirae,us7000plu1,ak0253q46kf8,",
+        "sources": ",at,us,ak,",
+        "types": ",impact-link,losspager,origin,phase-data,shakemap,",
+        "nst": 100,
+        "dmin": 0.84,
+        "rms": 0.98,
+        "gap": 135,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 69 km SSE of Adak, Alaska"
+        "title": "M 5.6 - 74 km SSE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -176.231,
-          51.305,
-          38
+          -176.1996,
+          51.2593,
+          45.04
         ]
       },
-      "id": "at00stirae"
+      "id": "us7000plu1"
     },
     {
       "type": "Feature",
@@ -215,17 +215,17 @@
         "mag": 2.9,
         "place": "9 km NNW of Swede Heaven, Washington",
         "time": 1742627872875,
-        "updated": 1742636001783,
+        "updated": 1742640378301,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pltg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pltg.geojson",
-        "felt": 25,
-        "cdi": 4.3,
+        "felt": 27,
+        "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 140,
+        "sig": 142,
         "net": "us",
         "code": "7000pltg",
         "ids": ",us7000pltg,",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "14 km ENE of Baganga, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1742626887417,
         "updated": 1742627764040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 14 km ENE of Baganga, Philippines"
+        "title": "M 4.5 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1808,86 +1808,6 @@
         ]
       },
       "id": "ok2025fpey"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "110 km WNW of Tobelo, Indonesia",
-        "time": 1742553436793,
-        "updated": 1742554630040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000plkl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000plkl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000plkl",
-        "ids": ",us7000plkl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 1.367,
-        "rms": 0.75,
-        "gap": 70,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 110 km WNW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.0986,
-          2.1214,
-          107.754
-        ]
-      },
-      "id": "us7000plkl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "107 km SW of Kokopo, Papua New Guinea",
-        "time": 1742552124817,
-        "updated": 1742553679040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000plkd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000plkd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000plkd",
-        "ids": ",us7000plkd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 1.021,
-        "rms": 1.02,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 107 km SW of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.6048,
-          -5.0521,
-          125.881
-        ]
-      },
-      "id": "us7000plkd"
     }
   ],
   "bbox": [
