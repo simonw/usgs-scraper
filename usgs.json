@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742738414000,
+    "generated": 1742741986000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 23
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "53 km W of Mentone, Texas",
+        "time": 1742740116728,
+        "updated": 1742741182274,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ftck",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ftck.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2025ftck",
+        "ids": ",us7000pm2g,tx2025ftck,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 53 km W of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.168,
+          31.704,
+          7.074
+        ]
+      },
+      "id": "tx2025ftck"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "102 km SSE of Adak, Alaska",
+        "time": 1742739539975,
+        "updated": 1742740603040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pm2d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pm2d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.896,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000pm2d",
+        "ids": ",us7000pm2d,ak0253ruiihb,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 31,
+        "dmin": 1.062,
+        "rms": 0.83,
+        "gap": 206,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 102 km SSE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.1275,
+          51.007,
+          39.914
+        ]
+      },
+      "id": "us7000pm2d"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.54,
         "place": "13 km WSW of Searles Valley, CA",
         "time": 1742735699180,
-        "updated": 1742736326550,
+        "updated": 1742739394040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40907823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40907823.geojson",
@@ -28,8 +108,8 @@
         "sig": 99,
         "net": "ci",
         "code": "40907823",
-        "ids": ",ci40907823,",
-        "sources": ",ci,",
+        "ids": ",ci40907823,us7000pm24,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 30,
         "dmin": 0.09461,
@@ -128,6 +208,46 @@
         ]
       },
       "id": "tx2025fsxt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "13 km SSE of Romanovka, Russia",
+        "time": 1742731381379,
+        "updated": 1742738826040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pm1r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pm1r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000pm1r",
+        "ids": ",us7000pm1r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 115,
+        "dmin": 1.143,
+        "rms": 1.05,
+        "gap": 37,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 13 km SSE of Romanovka, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.5256,
+          43.1247,
+          489.383
+        ]
+      },
+      "id": "us7000pm1r"
     },
     {
       "type": "Feature",
@@ -615,11 +735,11 @@
         "mag": 2.54,
         "place": "5 km WNW of Dublin, CA",
         "time": 1742686686280,
-        "updated": 1742737763235,
+        "updated": 1742740764980,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75153512",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75153512.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -655,7 +775,7 @@
         "mag": 2.66,
         "place": "5 km W of Dublin, CA",
         "time": 1742685150070,
-        "updated": 1742734638391,
+        "updated": 1742740036009,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75153497",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75153497.geojson",
@@ -848,86 +968,6 @@
         ]
       },
       "id": "nc75153247"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "2 km WSW of Indios, Puerto Rico",
-        "time": 1742654262790,
-        "updated": 1742654944390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71477148",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71477148.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71477148",
-        "ids": ",pr71477148,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.03036,
-        "rms": 0.15,
-        "gap": 165,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km WSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8405,
-          17.9873333333333,
-          16.24
-        ]
-      },
-      "id": "pr71477148"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "61 km S of Whites City, New Mexico",
-        "time": 1742653208799,
-        "updated": 1742714355977,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025frgq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025frgq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025frgq",
-        "ids": ",us7000plvg,tx2025frgq,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 61 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.336,
-          31.621,
-          6.0999
-        ]
-      },
-      "id": "tx2025frgq"
     }
   ],
   "bbox": [
