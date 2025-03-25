@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742932842000,
+    "generated": 1742936387000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "74 km WNW of Petersville, Alaska",
+        "time": 1742934696209,
+        "updated": 1742936211141,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253v98jlf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253v98jlf.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": 3.537,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "ak",
+        "code": "0253v98jlf",
+        "ids": ",ak0253v98jlf,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.92,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 74 km WNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.1637,
+          62.6823,
+          3.1
+        ]
+      },
+      "id": "ak0253v98jlf"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.7,
         "place": "48 km SSE of Nelchina, Alaska",
         "time": 1742928054347,
-        "updated": 1742930591040,
+        "updated": 1742934408977,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253v83n8h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253v83n8h.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.4,
         "mmi": 3.359,
         "alert": null,
@@ -55,7 +95,7 @@
         "mag": 3.9,
         "place": "91 km S of Adak, Alaska",
         "time": 1742925638129,
-        "updated": 1742930309040,
+        "updated": 1742936052805,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmk3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmk3.geojson",
@@ -68,8 +108,8 @@
         "sig": 234,
         "net": "us",
         "code": "7000pmk3",
-        "ids": ",us7000pmk3,ak0253v7v15n,",
-        "sources": ",us,ak,",
+        "ids": ",ak0253v7v15n,us7000pmk3,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 57,
         "dmin": 0.888,
@@ -1333,9 +1373,9 @@
   "bbox": [
     -178.1952,
     -46.7295,
-    4.1599998474121,
+    3.1,
     179.0451,
-    61.5942,
+    62.6823,
     611.558
   ]
 }
