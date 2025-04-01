@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1743477502000,
+    "generated": 1743480061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 41
   },
   "features": [
     {
@@ -375,11 +375,11 @@
         "mag": 4,
         "place": "100 km SSW of Umm Bāb, Qatar",
         "time": 1743453744673,
-        "updated": 1743471760589,
+        "updated": 1743479736410,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pp4t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pp4t.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -495,12 +495,12 @@
         "mag": 4.1,
         "place": "4 km NE of Sagaing, Burma (Myanmar)",
         "time": 1743448269311,
-        "updated": 1743451944040,
+        "updated": 1743479887345,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pp3w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pp3w.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -510,7 +510,7 @@
         "code": "7000pp3w",
         "ids": ",us7000pp3w,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 4.4,
         "rms": 0.33,
@@ -1295,7 +1295,7 @@
         "mag": 2.8,
         "place": "56 km S of Whites City, New Mexico",
         "time": 1743406843871,
-        "updated": 1743408621433,
+        "updated": 1743408622547,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ghez",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ghez.geojson",
@@ -1308,8 +1308,8 @@
         "sig": 121,
         "net": "tx",
         "code": "2025ghez",
-        "ids": ",tx2025ghey,us7000pnzj,tx2025ghez,",
-        "sources": ",tx,us,tx,",
+        "ids": ",us7000pnzj,tx2025ghez,tx2025ghey,",
+        "sources": ",us,tx,tx,",
         "types": ",origin,phase-data,",
         "nst": 14,
         "dmin": 0,
@@ -1648,92 +1648,12 @@
         ]
       },
       "id": "pr71478033"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.37,
-        "place": "27 km SSE of Malibu, CA",
-        "time": 1743391677940,
-        "updated": 1743474700841,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40913351",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40913351.geojson",
-        "felt": 85,
-        "cdi": 4.3,
-        "mmi": 1.748,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ci",
-        "code": "40913351",
-        "ids": ",us7000pnyn,ci40913351,",
-        "sources": ",us,ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 97,
-        "dmin": 0.2373,
-        "rms": 0.34,
-        "gap": 153,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 27 km SSE of Malibu, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.7443333,
-          33.7723333,
-          -0.16
-        ]
-      },
-      "id": "ci40913351"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "65 km N of Petersville, Alaska",
-        "time": 1743391227229,
-        "updated": 1743391890040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02544w9vms",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02544w9vms.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "02544w9vms",
-        "ids": ",us7000pnym,ak02544w9vms,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.42,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 65 km N of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7747,
-          63.0879,
-          109.9
-        ]
-      },
-      "id": "ak02544w9vms"
     }
   ],
   "bbox": [
     -179.5011,
     -52.2187,
-    -0.16,
+    0,
     179.6488,
     79.8427,
     574.992
