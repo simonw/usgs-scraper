@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744131625000,
+    "generated": 1744135191000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "14 km WSW of Happy Valley, Alaska",
+        "time": 1744134126676,
+        "updated": 1744134229620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254id1e9n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254id1e9n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0254id1e9n",
+        "ids": ",ak0254id1e9n,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 14 km WSW of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.9614,
+          59.8952,
+          68.2
+        ]
+      },
+      "id": "ak0254id1e9n"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "47 km N of Yonakuni, Japan",
         "time": 1744125994388,
-        "updated": 1744128421028,
+        "updated": 1744134833529,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q4rh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q4rh.geojson",
-        "felt": 12,
+        "felt": 15,
         "cdi": 3.8,
         "mmi": 3.629,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 453,
+        "sig": 454,
         "net": "us",
         "code": "6000q4rh",
         "ids": ",us6000q4rh,",
@@ -55,7 +95,7 @@
         "mag": 2.5,
         "place": "52 km S of Whites City, New Mexico",
         "time": 1744123842387,
-        "updated": 1744127820980,
+        "updated": 1744135002040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025gwjf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025gwjf.geojson",
@@ -68,8 +108,8 @@
         "sig": 96,
         "net": "tx",
         "code": "2025gwjf",
-        "ids": ",tx2025gwjf,",
-        "sources": ",tx,",
+        "ids": ",us6000q4rd,tx2025gwjf,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 34,
         "dmin": 0,
@@ -92,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "68 km NNW of Huslia, Alaska",
+        "time": 1744119631009,
+        "updated": 1744133236040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q4r5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q4r5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000q4r5",
+        "ids": ",us6000q4r5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 63,
+        "dmin": 1.167,
+        "rms": 0.82,
+        "gap": 44,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 68 km NNW of Huslia, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.0264,
+          66.2533,
+          4.744
+        ]
+      },
+      "id": "us6000q4r5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.45,
         "place": "10 km E of Pāhala, Hawaii",
         "time": 1744118570380,
-        "updated": 1744118763470,
+        "updated": 1744132050040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74649747",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74649747.geojson",
@@ -108,8 +188,8 @@
         "sig": 92,
         "net": "hv",
         "code": "74649747",
-        "ids": ",hv74649747,",
-        "sources": ",hv,",
+        "ids": ",us6000q4r1,hv74649747,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 50,
         "dmin": 0.03693,
@@ -1128,54 +1208,14 @@
         ]
       },
       "id": "hv74649337"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "83 km SW of Corinto, Nicaragua",
-        "time": 1744046447392,
-        "updated": 1744047376040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q4jd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q4jd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000q4jd",
-        "ids": ",us6000q4jd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 1.01,
-        "rms": 0.62,
-        "gap": 153,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 83 km SW of Corinto, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.6082,
-          11.8608,
-          32.288
-        ]
-      },
-      "id": "us6000q4jd"
     }
   ],
   "bbox": [
     -177.5097,
     -20.3146,
-    6.7664,
+    4.744,
     170.4918,
-    66.2327,
+    66.2533,
     631.73
   ]
 }
