@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744066824000,
+    "generated": 1744070510000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "25 km W of Petrolia, CA",
+        "time": 1744069224710,
+        "updated": 1744069937556,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75162152",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75162152.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nc",
+        "code": "75162152",
+        "ids": ",nc75162152,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.1688,
+        "rms": 0.09,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 25 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.557830810547,
+          40.2511672973633,
+          15.7600002288818
+        ]
+      },
+      "id": "nc75162152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "13 km NE of Coachella, CA",
+        "time": 1744068549960,
+        "updated": 1744070451040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40919063",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40919063.geojson",
+        "felt": 5,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "ci",
+        "code": "40919063",
+        "ids": ",ci40919063,us6000q4n5,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 70,
+        "dmin": 0.1117,
+        "rms": 0.17,
+        "gap": 36,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 13 km NE of Coachella, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0705,
+          33.7625,
+          7.68
+        ]
+      },
+      "id": "ci40919063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "166 km SSW of Adak, Alaska",
+        "time": 1744066090822,
+        "updated": 1744068954040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q4n1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q4n1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.344,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000q4n1",
+        "ids": ",ak0254gsiie5,us6000q4n1,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 53,
+        "dmin": 1.289,
+        "rms": 0.55,
+        "gap": 193,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 166 km SSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.5097,
+          50.4854,
+          10
+        ]
+      },
+      "id": "us6000q4n1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1368,46 +1488,6 @@
         ]
       },
       "id": "us6000q4g5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "10 km W of Forsan, Texas",
-        "time": 1743983259460,
-        "updated": 1744037183359,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025gtjx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025gtjx.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025gtjx",
-        "ids": ",tx2025gtjx,us6000q4g4,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 10 km W of Forsan, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.48,
-          32.096,
-          8.8623
-        ]
-      },
-      "id": "tx2025gtjx"
     }
   ],
   "bbox": [
