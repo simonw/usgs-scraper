@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744221591000,
+    "generated": 1744225206000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "19 km NE of Chase, Alaska",
+        "time": 1744221673376,
+        "updated": 1744224198040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254k0xei8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254k0xei8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "0254k0xei8",
+        "ids": ",us6000q4yh,ak0254k0xei8,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.41,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 19 km NE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7972,
+          62.5503,
+          55.2
+        ]
+      },
+      "id": "ak0254k0xei8"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "52 km N of Rampart, Alaska",
         "time": 1744221139043,
-        "updated": 1744221251358,
+        "updated": 1744223816040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254k0mwvk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254k0mwvk.geojson",
@@ -28,8 +68,8 @@
         "sig": 129,
         "net": "ak",
         "code": "0254k0mwvk",
-        "ids": ",ak0254k0mwvk,",
-        "sources": ",ak,",
+        "ids": ",us6000q4yg,ak0254k0mwvk,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -52,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "south of the Fiji Islands",
+        "time": 1744219514639,
+        "updated": 1744221692040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q4xn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q4xn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000q4xn",
+        "ids": ",us6000q4xn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 122,
+        "dmin": 3.458,
+        "rms": 0.7,
+        "gap": 40,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.8214,
+          -25.8653,
+          359.06
+        ]
+      },
+      "id": "us6000q4xn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.76,
         "place": "17 km NW of Bridgeport, CA",
         "time": 1744214726110,
-        "updated": 1744215438799,
+        "updated": 1744223416447,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75163197",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75163197.geojson",
@@ -575,12 +655,12 @@
         "mag": 4.1,
         "place": "20 km SSE of Kelkit, Turkey",
         "time": 1744168170107,
-        "updated": 1744187869304,
+        "updated": 1744221672881,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q4v9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q4v9.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1132,7 +1212,7 @@
   ],
   "bbox": [
     -179.699,
-    -24.3634,
+    -25.8653,
     2.76,
     153.7562,
     65.9747,
