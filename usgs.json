@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744776003000,
+    "generated": 1744779633000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "152 km WSW of Adak, Alaska",
-        "time": 1744775390000,
-        "updated": 1744775632040,
+        "mag": 4.2,
+        "place": "Fiji region",
+        "time": 1744777890159,
+        "updated": 1744779089040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00suslb2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00suslb2.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6df",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6df.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 400,
-        "net": "at",
-        "code": "00suslb2",
-        "ids": ",at00suslb2,",
-        "sources": ",at,",
-        "types": ",impact-link,origin,",
-        "nst": 23,
-        "dmin": 0.6063628,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000q6df",
+        "ids": ",us6000q6df,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 4.053,
         "rms": 0.92,
-        "gap": 208.79998329600133,
-        "magType": "Ml",
+        "gap": 115,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 152 km WSW of Adak, Alaska"
+        "title": "M 4.2 - Fiji region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.576,
-          51.225,
-          26
+          -177.6199,
+          -19.3593,
+          569.456
         ]
       },
-      "id": "at00suslb2"
+      "id": "us6000q6df"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "146 km SW of Adak, Alaska",
+        "time": 1744775389620,
+        "updated": 1744778996353,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6d9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6d9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.956,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 416,
+        "net": "us",
+        "code": "6000q6d9",
+        "ids": ",at00suslb2,us6000q6d9,ak0254vd1oxm,",
+        "sources": ",at,us,ak,",
+        "types": ",impact-link,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 111,
+        "dmin": 0.476,
+        "rms": 1.03,
+        "gap": 126,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 5.2 - 146 km SW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4009,
+          51.1546,
+          39.929
+        ]
+      },
+      "id": "us6000q6d9"
     },
     {
       "type": "Feature",
@@ -95,7 +135,7 @@
         "mag": 6.6,
         "place": "southeast Indian Ridge",
         "time": 1744767779982,
-        "updated": 1744769275951,
+        "updated": 1744776428865,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6cs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6cs.geojson",
@@ -175,17 +215,17 @@
         "mag": 4.7,
         "place": "37 km SSE of Palizzi Marina, Italy",
         "time": 1744766769783,
-        "updated": 1744774928957,
+        "updated": 1744779375069,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6cn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6cn.geojson",
-        "felt": 33,
+        "felt": 37,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 356,
+        "sig": 358,
         "net": "us",
         "code": "6000q6cn",
         "ids": ",us6000q6cn,",
@@ -1171,11 +1211,11 @@
     }
   ],
   "bbox": [
-    -178.576,
+    -178.4009,
     -60.6135,
     6.6162,
     154.9681,
     62.8172,
-    272.571
+    569.456
   ]
 }
