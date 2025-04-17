@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744898406000,
+    "generated": 1744901992000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 28
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.58,
         "place": "14 km SE of Anza, CA",
         "time": 1744884789460,
-        "updated": 1744892695442,
+        "updated": 1744901218866,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40931023",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40931023.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -372,6 +372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.8,
+        "place": "43 km NNE of Ovando, Montana",
+        "time": 1744854625360,
+        "updated": 1744898931810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90079043",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90079043.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "mb",
+        "code": "90079043",
+        "ids": ",mb90079043,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.3369,
+        "rms": 0.1,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 43 km NNE of Ovando, Montana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.0035,
+          47.401,
+          8.07
+        ]
+      },
+      "id": "mb90079043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "146 km SSE of Hihifo, Tonga",
         "time": 1744852469785,
@@ -492,42 +532,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "15 km NE of Jal, New Mexico",
-        "time": 1744836251027,
-        "updated": 1744838259040,
+        "mag": 2.7,
+        "place": "16 km NE of Jal, New Mexico",
+        "time": 1744836250284,
+        "updated": 1744899311554,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6lj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6lj.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025hlkx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025hlkx.geojson",
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000q6lj",
-        "ids": ",us6000q6lj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.06,
-        "rms": 0.44,
-        "gap": 81,
+        "sig": 112,
+        "net": "tx",
+        "code": "2025hlkx",
+        "ids": ",tx2025hlkx,us6000q6lj,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 15 km NE of Jal, New Mexico"
+        "title": "M 2.7 - 16 km NE of Jal, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.0669,
-          32.2057,
-          1.889
+          -103.097,
+          32.235,
+          6.9092
         ]
       },
-      "id": "us6000q6lj"
+      "id": "tx2025hlkx"
     },
     {
       "type": "Feature",
@@ -1088,86 +1128,6 @@
         ]
       },
       "id": "nc75166296"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.0500000000000003,
-        "place": "9 km NW of Tonasket, Washington",
-        "time": 1744813423830,
-        "updated": 1744896292177,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62091951",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62091951.geojson",
-        "felt": 55,
-        "cdi": 3.8,
-        "mmi": 2.641,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "uw",
-        "code": "62091951",
-        "ids": ",uw62091951,us6000q6g4,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 18,
-        "dmin": 0.06867,
-        "rms": 0.17,
-        "gap": 201,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 9 km NW of Tonasket, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.52716666666667,
-          48.76166666666667,
-          14.51
-        ]
-      },
-      "id": "uw62091951"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "6 km NW of Tonasket, Washington",
-        "time": 1744812291620,
-        "updated": 1744895126040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62091931",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62091931.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "uw",
-        "code": "62091931",
-        "ids": ",us6000q6fz,uw62091931,",
-        "sources": ",us,uw,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.04744,
-        "rms": 0.34,
-        "gap": 216,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km NW of Tonasket, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.50483333333334,
-          48.745333333333335,
-          14.21
-        ]
-      },
-      "id": "uw62091931"
     }
   ],
   "bbox": [
