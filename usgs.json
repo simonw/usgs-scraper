@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744923612000,
+    "generated": 1744927177000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 27
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.67,
+        "mag": 2.82,
         "place": "36 km WSW of Kahaluu-Keauhou, Hawaii",
-        "time": 1744921867110,
-        "updated": 1744922100910,
+        "time": 1744921866860,
+        "updated": 1744923551950,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74655337",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74655337.geojson",
@@ -23,28 +23,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 122,
         "net": "hv",
         "code": "74655337",
         "ids": ",hv74655337,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.4873,
-        "rms": 0.270000011,
+        "nst": 55,
+        "dmin": 0.333,
+        "rms": 0.15,
         "gap": 257,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 36 km WSW of Kahaluu-Keauhou, Hawaii"
+        "title": "M 2.8 - 36 km WSW of Kahaluu-Keauhou, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.27116394043,
-          19.4209995269775,
-          10.8400001525879
+          -156.2735,
+          19.4235,
+          36.81
         ]
       },
       "id": "hv74655337"
@@ -52,15 +52,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "289 km WSW of Tual, Indonesia",
+        "time": 1744920576764,
+        "updated": 1744925912040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6vn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6vn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000q6vn",
+        "ids": ",us6000q6vn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 2.558,
+        "rms": 0.55,
+        "gap": 48,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 289 km WSW of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5309,
+          -7.0193,
+          80.933
+        ]
+      },
+      "id": "us6000q6vn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.71,
         "place": "7 km WSW of Kailua-Kona, Hawaii",
         "time": 1744918870340,
-        "updated": 1744921138150,
+        "updated": 1744923717581,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74655302",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74655302.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "74655302",
         "ids": ",hv74655302,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 0.2282,
         "rms": 0.2,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "hv74655302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Reykjanes Ridge",
+        "time": 1744918277315,
+        "updated": 1744925238040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6ux",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6ux.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000q6ux",
+        "ids": ",us6000q6ux,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 12.878,
+        "rms": 0.41,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.1366,
+          52.5058,
+          10
+        ]
+      },
+      "id": "us6000q6ux"
     },
     {
       "type": "Feature",
@@ -732,82 +812,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "34 km NW of Atka, Alaska",
-        "time": 1744855912163,
-        "updated": 1744920525265,
+        "mag": 4,
+        "place": "31 km NW of Atka, Alaska",
+        "time": 1744855911132,
+        "updated": 1744925429040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254wzrhah",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254wzrhah.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6va",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6va.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "0254wzrhah",
-        "ids": ",ak0254wzrhah,",
-        "sources": ",ak,",
+        "sig": 246,
+        "net": "us",
+        "code": "6000q6va",
+        "ids": ",ak0254wzrhah,us6000q6va,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.79,
-        "gap": null,
-        "magType": "ml",
+        "nst": 32,
+        "dmin": 0.173,
+        "rms": 0.7,
+        "gap": 117,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.1 - 34 km NW of Atka, Alaska"
+        "title": "M 4.0 - 31 km NW of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -174.5319,
-          52.4268,
-          215.6
+          -174.533,
+          52.3872,
+          215.192
         ]
       },
-      "id": "ak0254wzrhah"
+      "id": "us6000q6va"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "43 km NNE of Ovando, Montana",
-        "time": 1744854625360,
-        "updated": 1744898931810,
+        "mag": 2.5,
+        "place": "42 km NNE of Ovando, Montana",
+        "time": 1744854624955,
+        "updated": 1744925543040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90079043",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90079043.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6n9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6n9.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "mb",
-        "code": "90079043",
-        "ids": ",mb90079043,",
-        "sources": ",mb,",
+        "sig": 96,
+        "net": "us",
+        "code": "6000q6n9",
+        "ids": ",mb90079043,us6000q6n9,",
+        "sources": ",mb,us,",
         "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.3369,
-        "rms": 0.1,
-        "gap": 86,
+        "nst": 40,
+        "dmin": 0.328,
+        "rms": 0.43,
+        "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 43 km NNE of Ovando, Montana"
+        "title": "M 2.5 - 42 km NNE of Ovando, Montana"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.0035,
-          47.401,
-          8.07
+          -113.0113,
+          47.3924,
+          6.561
         ]
       },
-      "id": "mb90079043"
+      "id": "us6000q6n9"
     },
     {
       "type": "Feature",
@@ -1008,46 +1088,6 @@
         ]
       },
       "id": "ci40930655"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "58 km NE of Valmy, Nevada",
-        "time": 1744840392150,
-        "updated": 1744892210569,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00896331",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00896331.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "nn",
-        "code": "00896331",
-        "ids": ",nn00896331,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.291,
-        "rms": 0.1273,
-        "gap": 142.87,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 58 km NE of Valmy, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6816,
-          41.1946,
-          10.3
-        ]
-      },
-      "id": "nn00896331"
     }
   ],
   "bbox": [
