@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745395228000,
+    "generated": 1745398836000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 24
+    "count": 23
   },
   "features": [
     {
@@ -255,11 +255,11 @@
         "mag": 4.5,
         "place": "6 km N of Willow, Alaska",
         "time": 1745367891138,
-        "updated": 1745395176942,
+        "updated": 1745395995278,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02556vvgv8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02556vvgv8.geojson",
-        "felt": 1616,
+        "felt": 1618,
         "cdi": 4.1,
         "mmi": 3.905,
         "alert": "green",
@@ -732,6 +732,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "91 km W of Ovalle, Chile",
+        "time": 1745323494568,
+        "updated": 1745397184040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pu78",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pu78.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000pu78",
+        "ids": ",us7000pu78,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.464,
+        "rms": 0.62,
+        "gap": 193,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 91 km W of Ovalle, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1505,
+          -30.5408,
+          12.497
+        ]
+      },
+      "id": "us7000pu78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.2,
         "place": "269 km SE of Pondaguitan, Philippines",
         "time": 1745317033583,
@@ -855,7 +895,7 @@
         "mag": 2.71,
         "place": "10 km SW of Niland, CA",
         "time": 1745312729680,
-        "updated": 1745382371987,
+        "updated": 1745398295040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40936807",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40936807.geojson",
@@ -868,8 +908,8 @@
         "sig": 114,
         "net": "ci",
         "code": "40936807",
-        "ids": ",ci40936807,",
-        "sources": ",ci,",
+        "ids": ",ci40936807,us7000pu5t,",
+        "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 59,
         "dmin": 0.009552,
@@ -888,86 +928,6 @@
         ]
       },
       "id": "ci40936807"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "28 km SSE of Kettleman City, CA",
-        "time": 1745311629950,
-        "updated": 1745317942697,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75169651",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75169651.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "nc",
-        "code": "75169651",
-        "ids": ",nc75169651,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.214,
-        "rms": 0.3,
-        "gap": 33,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 28 km SSE of Kettleman City, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.782997131348,
-          35.8073348999023,
-          23.3400001525879
-        ]
-      },
-      "id": "nc75169651"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "2 km ESE of Pleasant City, Ohio",
-        "time": 1745309570393,
-        "updated": 1745395161292,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pu5h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pu5h.geojson",
-        "felt": 44,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 165,
-        "net": "us",
-        "code": "7000pu5h",
-        "ids": ",us7000pu5h,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.33,
-        "rms": 0.84,
-        "gap": 36,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 3.1 - 2 km ESE of Pleasant City, Ohio"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.5199,
-          39.8914,
-          5
-        ]
-      },
-      "id": "us7000pu5h"
     }
   ],
   "bbox": [
