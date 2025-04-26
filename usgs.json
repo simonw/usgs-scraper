@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745690394000,
+    "generated": 1745694019000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 53
+    "count": 54
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.86,
         "place": "2 km WSW of Pāhala, Hawaii",
         "time": 1745687164890,
-        "updated": 1745687684921,
+        "updated": 1745692871040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74660617",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74660617.geojson",
@@ -68,8 +68,8 @@
         "sig": 126,
         "net": "hv",
         "code": "74660617",
-        "ids": ",hv74660617,",
-        "sources": ",hv,",
+        "ids": ",hv74660617,us7000pv97,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 62,
         "dmin": 0.04994,
@@ -135,12 +135,12 @@
         "mag": 3.1,
         "place": "217 km W of Langlois, Oregon",
         "time": 1745686393190,
-        "updated": 1745689591040,
+        "updated": 1745691313703,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pv96",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pv96.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "7000pv96",
         "ids": ",us7000pv96,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 69,
         "dmin": 1.713,
         "rms": 0.8,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "us7000pv96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.45,
+        "place": "90 km NNW of San Antonio, Puerto Rico",
+        "time": 1745686097940,
+        "updated": 1745693510040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025116004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025116004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 183,
+        "net": "pr",
+        "code": "2025116004",
+        "ids": ",us7000pv9k,pr2025116004,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.8446,
+        "rms": 0.24,
+        "gap": 233,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 90 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4836,
+          19.2256,
+          90
+        ]
+      },
+      "id": "pr2025116004"
     },
     {
       "type": "Feature",
@@ -372,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.67,
-        "place": "40 km ESE of Naalehu, Hawaii",
-        "time": 1745677254050,
-        "updated": 1745688058875,
+        "mag": 3.96,
+        "place": "44 km SE of Naalehu, Hawaii",
+        "time": 1745677253590,
+        "updated": 1745693505050,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74660537",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74660537.geojson",
@@ -383,28 +423,28 @@
         "cdi": 3.8,
         "mmi": 2.76,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 208,
+        "sig": 242,
         "net": "hv",
         "code": "74660537",
         "ids": ",hv74660537,us7000pv8j,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 62,
-        "dmin": 0.3339,
-        "rms": 0.209999993,
-        "gap": 254,
+        "nst": 42,
+        "dmin": 0.3829,
+        "rms": 0.11,
+        "gap": 264,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 40 km ESE of Naalehu, Hawaii"
+        "title": "M 4.0 - 44 km SE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.241165161133,
-          18.8936672210693,
-          6.03000020980835
+          -155.2265,
+          18.8425,
+          9.75
         ]
       },
       "id": "hv74660537"
@@ -695,17 +735,17 @@
         "mag": 2.7,
         "place": "7 km SW of Seal Beach, CA",
         "time": 1745657066170,
-        "updated": 1745689745299,
+        "updated": 1745691299889,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41134928",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41134928.geojson",
-        "felt": 294,
+        "felt": 296,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 224,
+        "sig": 225,
         "net": "ci",
         "code": "41134928",
         "ids": ",ci41134928,",
