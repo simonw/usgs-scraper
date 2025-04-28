@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745798509000,
+    "generated": 1745803650000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 53
+    "count": 49
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 4.3,
         "place": "73 km W of Speightstown, Barbados",
         "time": 1745796784222,
-        "updated": 1745797942040,
+        "updated": 1745801052430,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvgz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvgz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "7000pvgz",
         "ids": ",us7000pvgz,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 37,
         "dmin": 0.743,
         "rms": 0.94,
@@ -133,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "57 km S of Modisi, Indonesia",
-        "time": 1745792024630,
-        "updated": 1745793140040,
+        "place": "55 km SSW of Modisi, Indonesia",
+        "time": 1745792024326,
+        "updated": 1745803101040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvgi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvgi.geojson",
@@ -151,23 +151,63 @@
         "ids": ",us7000pvgi,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.572,
-        "rms": 0.87,
-        "gap": 70,
+        "nst": 52,
+        "dmin": 1.563,
+        "rms": 0.84,
+        "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 57 km S of Modisi, Indonesia"
+        "title": "M 4.5 - 55 km SSW of Modisi, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          124.3511,
-          -0.0601,
-          90.55
+          124.316,
+          -0.0388,
+          86.009
         ]
       },
       "id": "us7000pvgi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": 1745792021759,
+        "updated": 1745802356040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvgj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvgj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000pvgj",
+        "ids": ",us7000pvgj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 5.936,
+        "rms": 0.66,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.8824,
+          -23.5493,
+          536.403
+        ]
+      },
+      "id": "us7000pvgj"
     },
     {
       "type": "Feature",
@@ -215,7 +255,7 @@
         "mag": 3.09,
         "place": "63 km WNW of Petrolia, CA",
         "time": 1745788700470,
-        "updated": 1745793139399,
+        "updated": 1745800224040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75172831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75172831.geojson",
@@ -228,8 +268,8 @@
         "sig": 147,
         "net": "nc",
         "code": "75172831",
-        "ids": ",nc75172831,",
-        "sources": ",nc,",
+        "ids": ",nc75172831,us7000pvge,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 64,
         "dmin": 0.5288,
@@ -415,11 +455,11 @@
         "mag": 5.6,
         "place": "69 km N of Claveria, Philippines",
         "time": 1745774307601,
-        "updated": 1745783495040,
+        "updated": 1745803091264,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvfd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvfd.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 5,
         "mmi": 4.41,
         "alert": "green",
@@ -1928,214 +1968,14 @@
         ]
       },
       "id": "us7000pvbe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.62,
-        "place": "19 km E of Santa Cruz de El Seibo, Dominican Republic",
-        "time": 1745716710440,
-        "updated": 1745721714349,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025117001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025117001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 202,
-        "net": "pr",
-        "code": "2025117001",
-        "ids": ",pr2025117001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.5266,
-        "rms": 0.5,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 19 km E of Santa Cruz de El Seibo, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8526,
-          18.749,
-          77
-        ]
-      },
-      "id": "pr2025117001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.59,
-        "place": "92 km NE of Punta Cana, Dominican Republic",
-        "time": 1745716061980,
-        "updated": 1745724735234,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025117000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025117000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 198,
-        "net": "pr",
-        "code": "2025117000",
-        "ids": ",us7000pvb0,pr2025117000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.892,
-        "rms": 0.54,
-        "gap": 248,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 92 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7836,
-          19.176,
-          40
-        ]
-      },
-      "id": "pr2025117000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.33,
-        "place": "93 km NE of Punta Cana, Dominican Republic",
-        "time": 1745715803150,
-        "updated": 1745717904540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71480473",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71480473.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 171,
-        "net": "pr",
-        "code": "71480473",
-        "ids": ",pr71480473,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.8726,
-        "rms": 0.3,
-        "gap": 246,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 93 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.758,
-          19.1608333333333,
-          38.8
-        ]
-      },
-      "id": "pr71480473"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Kermadec Islands region",
-        "time": 1745715394269,
-        "updated": 1745716593040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvax",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvax.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000pvax",
-        "ids": ",us7000pvax,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 1.591,
-        "rms": 1.17,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.1252,
-          -29.0376,
-          10
-        ]
-      },
-      "id": "us7000pvax"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "62 km NW of Rincón, Puerto Rico",
-        "time": 1745714356190,
-        "updated": 1745731644180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71480468",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71480468.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71480468",
-        "ids": ",pr71480468,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.6051,
-        "rms": 0.6,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 62 km NW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7008333333333,
-          18.6996666666667,
-          5.22
-        ]
-      },
-      "id": "pr71480468"
     }
   ],
   "bbox": [
-    -176.1252,
+    -179.8824,
     -56.1967,
     0.83999997377396,
     175.2329,
     62.7836,
-    411.198
+    536.403
   ]
 }
