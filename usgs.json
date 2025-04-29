@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745899231000,
+    "generated": 1745902794000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 25
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "47 km E of Kandrian, Papua New Guinea",
+        "time": 1745899285303,
+        "updated": 1745900240040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvqh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvqh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000pvqh",
+        "ids": ",us7000pvqh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 90,
+        "dmin": 2.991,
+        "rms": 0.93,
+        "gap": 29,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 47 km E of Kandrian, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9707,
+          -6.2491,
+          60.28
+        ]
+      },
+      "id": "us7000pvqh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.19,
+        "place": "6 km N of Lluveras, Puerto Rico",
+        "time": 1745899102960,
+        "updated": 1745902283234,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025119000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025119000.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 157,
+        "net": "pr",
+        "code": "2025119000",
+        "ids": ",pr2025119000,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.123,
+        "rms": 0.21,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 6 km N of Lluveras, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8936,
+          18.0973,
+          12
+        ]
+      },
+      "id": "pr2025119000"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.4,
         "place": "36 km NE of Samaná, Dominican Republic",
         "time": 1745896879315,
-        "updated": 1745899105862,
+        "updated": 1745901736042,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvq8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvq8.geojson",
-        "felt": 4,
+        "felt": 7,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 300,
+        "sig": 301,
         "net": "us",
         "code": "7000pvq8",
         "ids": ",pt25119050,us7000pvq8,",
@@ -52,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "15 km WSW of Burica, Panama",
+        "time": 1745896798144,
+        "updated": 1745900759040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvq9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvq9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000pvq9",
+        "ids": ",us7000pvq9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 2.308,
+        "rms": 0.87,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 15 km WSW of Burica, Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9889,
+          7.9642,
+          10
+        ]
+      },
+      "id": "us7000pvq9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "37 km ESE of Whittier, Alaska",
         "time": 1745894984605,
-        "updated": 1745895388953,
+        "updated": 1745901564040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255gufrih",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255gufrih.geojson",
@@ -68,8 +188,8 @@
         "sig": 139,
         "net": "ak",
         "code": "0255gufrih",
-        "ids": ",ak0255gufrih,",
-        "sources": ",ak,",
+        "ids": ",ak0255gufrih,us7000pvq5,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -968,46 +1088,6 @@
         ]
       },
       "id": "us7000pvht"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "17 km NW of Stanley, Idaho",
-        "time": 1745814039670,
-        "updated": 1745880854774,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvhp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvhp.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000pvhp",
-        "ids": ",us7000pvhp,mb90080518,",
-        "sources": ",us,mb,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.278,
-        "rms": 0.69,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 17 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1038,
-          44.3143,
-          14.137
-        ]
-      },
-      "id": "us7000pvhp"
     }
   ],
   "bbox": [
