@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746501397000,
+    "generated": 1746503996000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 45
+    "count": 44
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "18 km WSW of Skwentna, Alaska",
         "time": 1746500606291,
-        "updated": 1746500707599,
+        "updated": 1746501762969,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255sfiq7l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255sfiq7l.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "0255sfiq7l",
         "ids": ",ak0255sfiq7l,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.52,
@@ -55,7 +55,7 @@
         "mag": 2.5,
         "place": "62 km SSW of Whites City, New Mexico",
         "time": 1746497168264,
-        "updated": 1746497914312,
+        "updated": 1746503966040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025iuof",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025iuof.geojson",
@@ -68,8 +68,8 @@
         "sig": 96,
         "net": "tx",
         "code": "2025iuof",
-        "ids": ",tx2025iuof,",
-        "sources": ",tx,",
+        "ids": ",us7000pxep,tx2025iuof,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 8,
         "dmin": 0,
@@ -1768,46 +1768,6 @@
         ]
       },
       "id": "us7000px70"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "southern East Pacific Rise",
-        "time": 1746417340806,
-        "updated": 1746453837040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000px6v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000px6v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 554,
-        "net": "us",
-        "code": "7000px6v",
-        "ids": ",us7000px6v,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 67,
-        "dmin": 28.04,
-        "rms": 1.18,
-        "gap": 65,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - southern East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -107.4288,
-          -35.2752,
-          10
-        ]
-      },
-      "id": "us7000px6v"
     }
   ],
   "bbox": [
