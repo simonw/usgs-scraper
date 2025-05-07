@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746604803000,
+    "generated": 1746608406000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "17 km ENE of Red Bluff, CA",
+        "time": 1746605418370,
+        "updated": 1746605839409,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75177716",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75177716.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "nc",
+        "code": "75177716",
+        "ids": ",nc75177716,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.07697,
+        "rms": 0.17,
+        "gap": 51,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 17 km ENE of Red Bluff, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.089164733887,
+          40.2803344726562,
+          6.53000020980835
+        ]
+      },
+      "id": "nc75177716"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 4.7,
         "place": "102 km E of Modisi, Indonesia",
         "time": 1746596402334,
-        "updated": 1746597957040,
+        "updated": 1746607759082,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pxmz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pxmz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "7000pxmz",
         "ids": ",us7000pxmz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 54,
         "dmin": 1.173,
         "rms": 1.04,
@@ -775,11 +815,11 @@
         "mag": 2.96,
         "place": "8 km S of Dillwyn, Virginia",
         "time": 1746551297790,
-        "updated": 1746603712043,
+        "updated": 1746606864482,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60605626",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60605626.geojson",
-        "felt": 2320,
+        "felt": 2324,
         "cdi": 5,
         "mmi": null,
         "alert": null,
@@ -1055,7 +1095,7 @@
         "mag": 2.6,
         "place": "57 km ENE of Yakutat, Alaska",
         "time": 1746523158714,
-        "updated": 1746523295318,
+        "updated": 1746608325040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255sj6qpr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255sj6qpr.geojson",
@@ -1068,8 +1108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0255sj6qpr",
-        "ids": ",ak0255sj6qpr,",
-        "sources": ",ak,",
+        "ids": ",us7000pxgh,ak0255sj6qpr,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1088,131 +1128,11 @@
         ]
       },
       "id": "ak0255sj6qpr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "67 km E of Maneadero, B.C., MX",
-        "time": 1746521012990,
-        "updated": 1746580035539,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41145672",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41145672.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 134,
-        "net": "ci",
-        "code": "41145672",
-        "ids": ",ci41145672,us7000pxgb,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.2531,
-        "rms": 0.17,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 67 km E of Maneadero, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.8581667,
-          31.7085,
-          7.77
-        ]
-      },
-      "id": "ci41145672"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "83 km W of San Antonio de los Cobres, Argentina",
-        "time": 1746520081773,
-        "updated": 1746521235040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pxga",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pxga.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pxga",
-        "ids": ",us7000pxga,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.602,
-        "rms": 1.47,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 83 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1447,
-          -24.2491,
-          166.356
-        ]
-      },
-      "id": "us7000pxga"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "104 km ESE of Kyzyl-Eshme, Kyrgyzstan",
-        "time": 1746518907997,
-        "updated": 1746520002040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pxg8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pxg8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000pxg8",
-        "ids": ",us7000pxg8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 129,
-        "dmin": 1.126,
-        "rms": 0.96,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 104 km ESE of Kyzyl-Eshme, Kyrgyzstan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          73.4284,
-          39.2681,
-          10
-        ]
-      },
-      "id": "us7000pxg8"
     }
   ],
   "bbox": [
     -179.5349,
-    -24.2491,
+    -23.9971,
     0,
     177.1959,
     60.9206,
