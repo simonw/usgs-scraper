@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747267338000,
+    "generated": 1747272426000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "148 km N of Manatutu, Timor Leste",
+        "time": 1747270251943,
+        "updated": 1747271614195,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzaa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzaa.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": 2.307,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 536,
+        "net": "us",
+        "code": "7000pzaa",
+        "ids": ",us7000pzaa,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 61,
+        "dmin": 3.159,
+        "rms": 0.82,
+        "gap": 36,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - 148 km N of Manatutu, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.1249,
+          -7.1693,
+          479.099
+        ]
+      },
+      "id": "us7000pzaa"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.77,
         "place": "10 km ESE of Coalinga, CA",
         "time": 1747266317070,
-        "updated": 1747266572210,
+        "updated": 1747267639155,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75182137",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75182137.geojson",
@@ -30,7 +70,7 @@
         "code": "75182137",
         "ids": ",nc75182137,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 45,
         "dmin": 0.008278,
         "rms": 0.1,
@@ -52,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.78,
-        "place": "13 km S of Fern Forest, Hawaii",
-        "time": 1747266019930,
-        "updated": 1747266891040,
+        "mag": 2.56,
+        "place": "14 km S of Fern Forest, Hawaii",
+        "time": 1747266020070,
+        "updated": 1747270224170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74673252",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74673252.geojson",
@@ -63,28 +103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 119,
+        "sig": 101,
         "net": "hv",
         "code": "74673252",
         "ids": ",us7000pz9w,hv74673252,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.04157,
-        "rms": 0.230000004,
-        "gap": 82,
+        "nst": 54,
+        "dmin": 0.04847,
+        "rms": 0.13,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 13 km S of Fern Forest, Hawaii"
+        "title": "M 2.6 - 14 km S of Fern Forest, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.153335571289,
-          19.3404998779297,
-          0.25
+          -155.148666666667,
+          19.3348333333333,
+          1.04
         ]
       },
       "id": "hv74673252"
@@ -212,6 +252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "148 km W of Ferndale, California",
+        "time": 1747257620100,
+        "updated": 1747270087040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pz96",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pz96.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000pz96",
+        "ids": ",us7000pz96,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.445,
+        "rms": 0.92,
+        "gap": 273,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 148 km W of Ferndale, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.011,
+          40.4988,
+          10
+        ]
+      },
+      "id": "us7000pz96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "256 km WNW of Houma, Tonga",
         "time": 1747254105956,
@@ -295,11 +375,11 @@
         "mag": 3.65,
         "place": "1 km SSE of Galateo, Puerto Rico",
         "time": 1747251713080,
-        "updated": 1747265603218,
+        "updated": 1747269424655,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025134001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025134001.geojson",
-        "felt": 29,
+        "felt": 30,
         "cdi": 3.3,
         "mmi": 2.398,
         "alert": null,
@@ -535,7 +615,7 @@
         "mag": 4.1,
         "place": "57 km NE of Valmy, Nevada",
         "time": 1747226118448,
-        "updated": 1747254105521,
+        "updated": 1747269922108,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897585",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897585.geojson",
