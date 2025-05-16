@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747432835000,
+    "generated": 1747436440000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 25
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "49 km SSE of Denali National Park, Alaska",
+        "time": 1747433640096,
+        "updated": 1747435597942,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02569a9qik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02569a9qik.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": 3.05,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "02569a9qik",
+        "ids": ",ak02569a9qik,us7000pzr0,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 49 km SSE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4339,
+          63.1135,
+          5.1
+        ]
+      },
+      "id": "ak02569a9qik"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 3.4,
         "place": "9 km SE of Kodiak Station, Alaska",
         "time": 1747424634230,
-        "updated": 1747431526097,
+        "updated": 1747433011040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025698nrkl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025698nrkl.geojson",
@@ -68,8 +108,8 @@
         "sig": 187,
         "net": "ak",
         "code": "025698nrkl",
-        "ids": ",ak025698nrkl,",
-        "sources": ",ak,",
+        "ids": ",ak025698nrkl,us7000pzpn,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -855,17 +895,17 @@
         "mag": 2.87,
         "place": "6 km SW of Alamo, CA",
         "time": 1747357844480,
-        "updated": 1747429058888,
+        "updated": 1747433755637,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75182637",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75182637.geojson",
-        "felt": 192,
+        "felt": 193,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 215,
+        "sig": 216,
         "net": "nc",
         "code": "75182637",
         "ids": ",nc75182637,us7000pzi2,",
@@ -888,6 +928,46 @@
         ]
       },
       "id": "nc75182637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "10 km WSW of Kailua-Kona, Hawaii",
+        "time": 1747357359940,
+        "updated": 1747435438960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74673917",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74673917.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "hv",
+        "code": "74673917",
+        "ids": ",us7000pzhz,hv74673917,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.07844,
+        "rms": 0.24,
+        "gap": 233,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km WSW of Kailua-Kona, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.092,
+          19.6193333333333,
+          0.26
+        ]
+      },
+      "id": "hv74673917"
     },
     {
       "type": "Feature",
@@ -1013,9 +1093,9 @@
   "bbox": [
     -177.9231,
     -57.309,
-    0.28999999165535,
+    0.26,
     153.0394,
-    57.709,
+    63.1135,
     482.732
   ]
 }
