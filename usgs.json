@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747605576000,
+    "generated": 1747609240000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "14 km W of Toms Place, CA",
+        "time": 1747608998890,
+        "updated": 1747609093994,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75184147",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75184147.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "nc",
+        "code": "75184147",
+        "ids": ",nc75184147,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.06824,
+        "rms": 0.05,
+        "gap": 63,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 14 km W of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.828330993652,
+          37.5216674804688,
+          4.28999996185303
+        ]
+      },
+      "id": "nc75184147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "3 km W of Fuig, Puerto Rico",
+        "time": 1747606883540,
+        "updated": 1747607570550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71482828",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71482828.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71482828",
+        "ids": ",pr71482828,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.07048,
+        "rms": 0.08,
+        "gap": 153,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km W of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9511666666667,
+          17.992,
+          11.1
+        ]
+      },
+      "id": "pr71482828"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,12 +415,12 @@
         "mag": 2.6,
         "place": "77 km ENE of Chase, Alaska",
         "time": 1747582761744,
-        "updated": 1747593825061,
+        "updated": 1747608876065,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256chbsmr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256chbsmr.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -348,9 +428,9 @@
         "sig": 104,
         "net": "ak",
         "code": "0256chbsmr",
-        "ids": ",us7000q01d,ak0256chbsmr,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0256chbsmr,us7000q01d,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.69,
@@ -1368,46 +1448,6 @@
         ]
       },
       "id": "us7000pzwu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.01,
-        "place": "18 km SE of Pāhala, Hawaii",
-        "time": 1747520658580,
-        "updated": 1747522957526,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74675047",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74675047.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "hv",
-        "code": "74675047",
-        "ids": ",hv74675047,us7000pzwp,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.1261,
-        "rms": 0.129999995,
-        "gap": 202,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 18 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.356994628906,
-          19.0773334503174,
-          33.1699981689453
-        ]
-      },
-      "id": "hv74675047"
     }
   ],
   "bbox": [
