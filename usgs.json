@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747569655000,
+    "generated": 1747573522000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.05,
+        "place": "16 km ENE of Santa Cruz de El Seibo, Dominican Republic",
+        "time": 1747570069390,
+        "updated": 1747572458933,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025138000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025138000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 252,
+        "net": "pr",
+        "code": "2025138000",
+        "ids": ",pr2025138000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.5972,
+        "rms": 0.61,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.1 - 16 km ENE of Santa Cruz de El Seibo, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8965,
+          18.8161,
+          164
+        ]
+      },
+      "id": "pr2025138000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 4.1,
         "place": "12 km SE of Lárdos, Greece",
         "time": 1747553392951,
-        "updated": 1747558949134,
+        "updated": 1747572033315,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzze",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzze.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -215,17 +255,17 @@
         "mag": 4.4,
         "place": "4 km E of Prokópi, Greece",
         "time": 1747551405351,
-        "updated": 1747554941629,
+        "updated": 1747571317764,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzzb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzzb.geojson",
-        "felt": 8,
-        "cdi": 3.4,
+        "felt": 9,
+        "cdi": 5.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 301,
+        "sig": 303,
         "net": "us",
         "code": "7000pzzb",
         "ids": ",us7000pzzb,",
@@ -1408,86 +1448,6 @@
         ]
       },
       "id": "us7000pzup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1747485650450,
-        "updated": 1747545986040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75183462",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75183462.geojson",
-        "felt": 7,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 136,
-        "net": "nc",
-        "code": "75183462",
-        "ids": ",nc75183462,us7000pzuj,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 75,
-        "dmin": 0.009835,
-        "rms": 0.1,
-        "gap": 39,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.766502380371,
-          38.7923316955566,
-          3.57999992370605
-        ]
-      },
-      "id": "nc75183462"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "65 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1747484372475,
-        "updated": 1747545556040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzug",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzug.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000pzug",
-        "ids": ",us7000pzug,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.408,
-        "rms": 0.49,
-        "gap": 320,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 65 km NE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3101,
-          18.705,
-          47.376
-        ]
-      },
-      "id": "us7000pzug"
     }
   ],
   "bbox": [
