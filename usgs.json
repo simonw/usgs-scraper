@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747673998000,
+    "generated": 1747677590000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "south of Tonga",
-        "time": 1747668251695,
-        "updated": 1747669630040,
+        "mag": 3.79,
+        "place": "134 km S of Boca de Yuma, Dominican Republic",
+        "time": 1747668459470,
+        "updated": 1747675672664,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q05q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q05q.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025139000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025139000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 221,
+        "net": "pr",
+        "code": "2025139000",
+        "ids": ",pr2025139000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 1.3588,
+        "rms": 0.28,
+        "gap": 270,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 134 km S of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5288,
+          17.1631,
+          50
+        ]
+      },
+      "id": "pr2025139000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "south of Tonga",
+        "time": 1747668251695,
+        "updated": 1747675078574,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q05q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q05q.geojson",
+        "felt": 1,
+        "cdi": 5.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 401,
         "net": "us",
         "code": "7000q05q",
         "ids": ",us7000q05q,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 9.437,
         "rms": 1.02,
@@ -55,13 +95,13 @@
         "mag": 3.5,
         "place": "102 km SSE of King Cove, Alaska",
         "time": 1747667938744,
-        "updated": 1747673920324,
+        "updated": 1747677504707,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q05l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q05l.geojson",
         "felt": 1,
         "cdi": 2,
-        "mmi": 1.864,
+        "mmi": 1.743,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -95,13 +135,13 @@
         "mag": 4.4,
         "place": "87 km SSE of King Cove, Alaska",
         "time": 1747667195896,
-        "updated": 1747671398195,
+        "updated": 1747676870943,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q05k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q05k.geojson",
         "felt": 2,
         "cdi": 3.4,
-        "mmi": 3.076,
+        "mmi": 2.9,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -328,46 +368,6 @@
         ]
       },
       "id": "us7000q04n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "12 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1747643442050,
-        "updated": 1747643631370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74676067",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74676067.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "hv",
-        "code": "74676067",
-        "ids": ",hv74676067,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.05246,
-        "rms": 0.280000001,
-        "gap": 161,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 12 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.757339477539,
-          19.4943332672119,
-          -3.38000011444092
-        ]
-      },
-      "id": "hv74676067"
     },
     {
       "type": "Feature",
@@ -1288,92 +1288,12 @@
         ]
       },
       "id": "us7000q01w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "119 km ESE of Madimba, Tanzania",
-        "time": 1747590987297,
-        "updated": 1747592522040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q01v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q01v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000q01v",
-        "ids": ",us7000q01v,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 4.305,
-        "rms": 0.44,
-        "gap": 52,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 119 km ESE of Madimba, Tanzania"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          41.3662,
-          -10.7456,
-          10
-        ]
-      },
-      "id": "us7000q01v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "273 km NNW of Nagqu, China",
-        "time": 1747589449968,
-        "updated": 1747591624040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q01q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q01q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000q01q",
-        "ids": ",us7000q01q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 7.505,
-        "rms": 0.71,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 273 km NNW of Nagqu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.7353,
-          33.6762,
-          10
-        ]
-      },
-      "id": "us7000q01q"
     }
   ],
   "bbox": [
     -177.2789,
     -35.7303,
-    -3.3800001144409,
+    0.33000001311302,
     167.3017,
     61.7864,
     370.208
