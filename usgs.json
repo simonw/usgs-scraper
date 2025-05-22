@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747880970000,
+    "generated": 1747883885000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "63 km WNW of Nanwalek, Alaska",
+        "time": 1747882751588,
+        "updated": 1747882856106,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256ivuth2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256ivuth2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0256ivuth2",
+        "ids": ",ak0256ivuth2,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 63 km WNW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.9306,
+          59.5987,
+          91.8
+        ]
+      },
+      "id": "ak0256ivuth2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "106 km W of San Antonio de los Cobres, Argentina",
+        "time": 1747881187675,
+        "updated": 1747882105040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q0ph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q0ph.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000q0ph",
+        "ids": ",us7000q0ph,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 1.552,
+        "rms": 0.82,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 106 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3616,
+          -24.317,
+          199.789
+        ]
+      },
+      "id": "us7000q0ph"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.04,
         "place": "14 km N of Arecibo, Puerto Rico",
         "time": 1747880155940,
-        "updated": 1747880897530,
+        "updated": 1747881785030,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71483173",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71483173.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "71483173",
         "ids": ",pr71483173,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 0.2308,
         "rms": 0.26,
@@ -1055,7 +1135,7 @@
     -56.8127,
     5.8179,
     179.9208,
-    38.0114,
+    59.5987,
     267.124
   ]
 }
