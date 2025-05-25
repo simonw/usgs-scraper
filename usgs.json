@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748149233000,
+    "generated": 1748152812000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "7 km N of Nardin, Oklahoma",
+        "time": 1748152620723,
+        "updated": 1748153033932,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025kdof",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025kdof.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "ok",
+        "code": "2025kdof",
+        "ids": ",ok2025kdof,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.1414723992,
+        "rms": 0.4496221778,
+        "gap": 83.85785675,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km N of Nardin, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43561554,
+          36.87524796,
+          2.470752001
+        ]
+      },
+      "id": "ok2025kdof"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.51,
         "place": "1 km NNW of Wilkerson, CA",
         "time": 1748142217720,
-        "updated": 1748143637181,
+        "updated": 1748152560665,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75186091",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75186091.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "75186091",
         "ids": ",nc75186091,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.1056,
         "rms": 0.07,
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "us7000q18x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "223 km S of Ushuaia, Argentina",
-        "time": 1748064735071,
-        "updated": 1748065722040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q18v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q18v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000q18v",
-        "ids": ",us7000q18v,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 3.195,
-        "rms": 0.54,
-        "gap": 145,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 223 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4401,
-          -56.8201,
-          10
-        ]
-      },
-      "id": "us7000q18v"
     }
   ],
   "bbox": [
