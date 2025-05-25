@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748181591000,
+    "generated": 1748185238000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 23
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "north of Severnaya Zemlya",
+        "time": 1748181323013,
+        "updated": 1748183094040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1er",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1er.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000q1er",
+        "ids": ",us7000q1er,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 21.321,
+        "rms": 0.63,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - north of Severnaya Zemlya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.6121,
+          85.0803,
+          10
+        ]
+      },
+      "id": "us7000q1er"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.64,
         "place": "11 km SW of Idyllwild, CA",
         "time": 1748178018530,
-        "updated": 1748179786078,
+        "updated": 1748184947172,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40975983",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40975983.geojson",
-        "felt": 4,
+        "felt": 6,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -255,11 +295,11 @@
         "mag": 4.1,
         "place": "33 km W of Petrolia, CA",
         "time": 1748166996830,
-        "updated": 1748181587625,
+        "updated": 1748184467044,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75186201",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75186201.geojson",
-        "felt": 4,
+        "felt": 6,
         "cdi": 3.1,
         "mmi": 2.336,
         "alert": "green",
@@ -848,86 +888,6 @@
         ]
       },
       "id": "us7000q1ad"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "4 km NNW of Lytle Creek, CA",
-        "time": 1748097266850,
-        "updated": 1748152905176,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40974791",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40974791.geojson",
-        "felt": 12,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "ci",
-        "code": "40974791",
-        "ids": ",ci40974791,us7000q1aa,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 133,
-        "dmin": 0.06879,
-        "rms": 0.21,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km NNW of Lytle Creek, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.524,
-          34.2936667,
-          9.52
-        ]
-      },
-      "id": "ci40974791"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "31 km SW of Sandgerði, Iceland",
-        "time": 1748096512296,
-        "updated": 1748104851930,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1a9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1a9.geojson",
-        "felt": 3,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 371,
-        "net": "us",
-        "code": "7000q1a9",
-        "ids": ",us7000q1a9,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 53,
-        "dmin": 1.213,
-        "rms": 0.87,
-        "gap": 62,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 31 km SW of Sandgerði, Iceland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -23.0731,
-          63.8068,
-          10
-        ]
-      },
-      "id": "us7000q1a9"
     }
   ],
   "bbox": [
@@ -935,7 +895,7 @@
     -22.8689,
     -0.46999999880791,
     148.0711,
-    64.0368,
+    85.0803,
     162.116
   ]
 }
