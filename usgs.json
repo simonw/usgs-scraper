@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748145881000,
+    "generated": 1748149233000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "North Atlantic Ocean",
+        "time": 1748146285128,
+        "updated": 1748147522040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1cl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1cl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000q1cl",
+        "ids": ",us7000q1cl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 4.694,
+        "rms": 0.75,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - North Atlantic Ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.656,
+          15.9446,
+          10
+        ]
+      },
+      "id": "us7000q1cl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1095,7 +1135,7 @@
         "mag": 2.5,
         "place": "66 km SSE of Kokhanok, Alaska",
         "time": 1748072579095,
-        "updated": 1748073220682,
+        "updated": 1748148019040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256m9t4zm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256m9t4zm.geojson",
@@ -1108,8 +1148,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0256m9t4zm",
-        "ids": ",ak0256m9t4zm,",
-        "sources": ",ak,",
+        "ids": ",ak0256m9t4zm,us7000q197,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1128,6 +1168,46 @@
         ]
       },
       "id": "ak0256m9t4zm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "52 km NW of Ozernovskiy, Russia",
+        "time": 1748071015015,
+        "updated": 1748147738040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q195",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q195.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000q195",
+        "ids": ",us7000q195,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 1.719,
+        "rms": 0.45,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 52 km NW of Ozernovskiy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.9022,
+          51.7892,
+          199.42
+        ]
+      },
+      "id": "us7000q195"
     },
     {
       "type": "Feature",
@@ -1248,134 +1328,14 @@
         ]
       },
       "id": "us7000q18v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "75 km SSW of Kaktovik, Alaska",
-        "time": 1748061366938,
-        "updated": 1748101947675,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256m7zfw8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256m7zfw8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.335,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "0256m7zfw8",
-        "ids": ",us7000q18q,ak0256m7zfw8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 75 km SSW of Kaktovik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.1571,
-          69.4799,
-          8.3
-        ]
-      },
-      "id": "ak0256m7zfw8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "55 km SE of King Salmon, Alaska",
-        "time": 1748060991121,
-        "updated": 1748061492040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256m7y18r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256m7y18r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0256m7y18r",
-        "ids": ",us7000q18n,ak0256m7y18r,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.8,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 55 km SE of King Salmon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.9826,
-          58.3394,
-          0
-        ]
-      },
-      "id": "ak0256m7y18r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "92 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1748059950160,
-        "updated": 1748061704040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025144000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025144000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "pr",
-        "code": "2025144000",
-        "ids": ",us7000q18p,pr2025144000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.6893,
-        "rms": 0.34,
-        "gap": 311,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 92 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3363,
-          19.0438,
-          63
-        ]
-      },
-      "id": "pr2025144000"
     }
   ],
   "bbox": [
-    -155.9826,
+    -155.5446,
     -57.2121,
     -3.1099998950958,
     167.2961,
-    69.4799,
-    162.116
+    64.0368,
+    199.42
   ]
 }
