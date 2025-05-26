@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748217691000,
+    "generated": 1748222894000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 3.12,
         "place": "27 km W of Rincón, Puerto Rico",
         "time": 1748216335870,
-        "updated": 1748217418090,
+        "updated": 1748222321486,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71483628",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71483628.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "71483628",
         "ids": ",pr71483628,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.2456,
         "rms": 0.51,
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "30 km WNW of Colchani, Bolivia",
+        "time": 1748216005994,
+        "updated": 1748218321040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1gg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1gg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000q1gg",
+        "ids": ",us7000q1gg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 1.82,
+        "rms": 0.74,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 30 km WNW of Colchani, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2176,
+          -20.2277,
+          213.839
+        ]
+      },
+      "id": "us7000q1gg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.3,
         "place": "33 km WSW of Ackerly, Texas",
         "time": 1748210737104,
-        "updated": 1748213365374,
+        "updated": 1748220346040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025keue",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025keue.geojson",
@@ -768,46 +808,6 @@
         ]
       },
       "id": "pr71483573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "3 km SSW of Guánica, Puerto Rico",
-        "time": 1748135320570,
-        "updated": 1748136104510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71483568",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71483568.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71483568",
-        "ids": ",pr71483568,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.04754,
-        "rms": 0.1,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km SSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9155,
-          17.9421666666667,
-          9.35
-        ]
-      },
-      "id": "pr71483568"
     }
   ],
   "bbox": [
@@ -816,6 +816,6 @@
     -0.46999999880791,
     140.4227,
     85.0803,
-    104
+    213.839
   ]
 }
