@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748271638000,
+    "generated": 1748275196000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "20 km N of Honchō, Japan",
+        "time": 1748269844033,
+        "updated": 1748272934040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1kp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1kp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000q1kp",
+        "ids": ",us7000q1kp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 121,
+        "dmin": 0.332,
+        "rms": 0.58,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 20 km N of Honchō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9556,
+          42.3118,
+          61.712
+        ]
+      },
+      "id": "us7000q1kp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,11 +455,11 @@
         "mag": 3.23,
         "place": "20 km W of Petrolia, CA",
         "time": 1748248695250,
-        "updated": 1748255839097,
+        "updated": 1748272540040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75186641",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75186641.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -428,8 +468,8 @@
         "sig": 162,
         "net": "nc",
         "code": "75186641",
-        "ids": ",nc75186641,",
-        "sources": ",nc,",
+        "ids": ",nc75186641,us7000q1i9,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 28,
         "dmin": 0.1635,
@@ -535,17 +575,17 @@
         "mag": 4.4,
         "place": "31 km W of Petrolia, CA",
         "time": 1748247477630,
-        "updated": 1748271451645,
+        "updated": 1748274620847,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75186621",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75186621.geojson",
-        "felt": 85,
+        "felt": 88,
         "cdi": 4.9,
         "mmi": 3.424,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 339,
+        "sig": 341,
         "net": "nc",
         "code": "75186621",
         "ids": ",us7000q1i1,nc75186621,",
@@ -575,7 +615,7 @@
         "mag": 3.78,
         "place": "29 km W of Petrolia, CA",
         "time": 1748247441950,
-        "updated": 1748269231349,
+        "updated": 1748272336940,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75186616",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75186616.geojson",
@@ -1288,50 +1328,10 @@
         ]
       },
       "id": "ak0256o3wft6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1748187394118,
-        "updated": 1748189197040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1f3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1f3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000q1f3",
-        "ids": ",us7000q1f3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.56,
-        "rms": 1.11,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9224,
-          -29.8074,
-          73.924
-        ]
-      },
-      "id": "us7000q1f3"
     }
   ],
   "bbox": [
-    -177.9224,
+    -156.154,
     -56.6562,
     -0.14000000059605,
     143.8831,
