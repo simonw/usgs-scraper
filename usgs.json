@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748426430000,
+    "generated": 1748430035000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.8,
         "place": "23 km S of Westbrook, Texas",
-        "time": 1748425519190,
-        "updated": 1748426035302,
+        "time": 1748425519251,
+        "updated": 1748426609415,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025kjiq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025kjiq.geojson",
@@ -23,7 +23,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 121,
         "net": "tx",
@@ -31,10 +31,10 @@
         "ids": ",tx2025kjiq,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 75,
+        "nst": 29,
         "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 89,
+        "rms": 0.1,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.8 - 23 km S of Westbrook, Texas"
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.058,
-          32.144,
-          1.8331
+          -101.051,
+          32.148,
+          8.3496
         ]
       },
       "id": "tx2025kjiq"
@@ -375,17 +375,17 @@
         "mag": 3.6,
         "place": "2 km N of Orangeville, Australia",
         "time": 1748408035350,
-        "updated": 1748425770044,
+        "updated": 1748429249862,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgch",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgch.geojson",
-        "felt": 15,
+        "felt": 17,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 204,
+        "sig": 205,
         "net": "us",
         "code": "6000qgch",
         "ids": ",us6000qgch,",
@@ -1568,86 +1568,6 @@
         ]
       },
       "id": "us7000q1rl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "2 km N of Point Possession, Alaska",
-        "time": 1748341987006,
-        "updated": 1748348298040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1rg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1rg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000q1rg",
-        "ids": ",us7000q1rg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.287,
-        "rms": 0.89,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 2 km N of Point Possession, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.6875,
-          60.9419,
-          51.249
-        ]
-      },
-      "id": "us7000q1rg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "137 km N of Lae, Papua New Guinea",
-        "time": 1748341820444,
-        "updated": 1748348098040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1rh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1rh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000q1rh",
-        "ids": ",us7000q1rh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 3.426,
-        "rms": 0.9,
-        "gap": 164,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 137 km N of Lae, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.0921,
-          -5.4809,
-          193.589
-        ]
-      },
-      "id": "us7000q1rh"
     }
   ],
   "bbox": [
