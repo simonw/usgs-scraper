@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748386783000,
+    "generated": 1748390536000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.8,
         "place": "10 km SE of Fox River, Alaska",
         "time": 1748386616739,
-        "updated": 1748386734884,
+        "updated": 1748386949131,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256rhfodl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256rhfodl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "0256rhfodl",
         "ids": ",ak0256rhfodl,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.48,
@@ -95,7 +95,7 @@
         "mag": 2.89,
         "place": "66 km WNW of Petrolia, CA",
         "time": 1748382386570,
-        "updated": 1748383639265,
+        "updated": 1748387537725,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75187371",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75187371.geojson",
@@ -655,12 +655,12 @@
         "mag": 4.5,
         "place": "35 km SE of Raha, Indonesia",
         "time": 1748345229978,
-        "updated": 1748348543040,
+        "updated": 1748388645120,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1rm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1rm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 5.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -670,7 +670,7 @@
         "code": "7000q1rm",
         "ids": ",us7000q1rm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 37,
         "dmin": 0.261,
         "rms": 0.71,
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us7000q1nc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "43 km WNW of Ninilchik, Alaska",
-        "time": 1748301047994,
-        "updated": 1748312916040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256pu7vvo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256pu7vvo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0256pu7vvo",
-        "ids": ",us7000q1n4,ak0256pu7vvo,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 43 km WNW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.437,
-          60.1351,
-          91.4
-        ]
-      },
-      "id": "ak0256pu7vvo"
     }
   ],
   "bbox": [
