@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748516392000,
+    "generated": 1748520005000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -255,12 +255,12 @@
         "mag": 3.74,
         "place": "97 km NNW of San Antonio, Puerto Rico",
         "time": 1748492197580,
-        "updated": 1748493802810,
+        "updated": 1748517836359,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025149001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025149001.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -268,9 +268,9 @@
         "sig": 215,
         "net": "pr",
         "code": "2025149001",
-        "ids": ",us6000qgke,pr2025149001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2025149001,us6000qgke,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 19,
         "dmin": 0.9079,
         "rms": 0.31,
@@ -1092,10 +1092,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.65,
-        "place": "4 km SSW of Markleeville, CA",
-        "time": 1748460292060,
-        "updated": 1748464642710,
+        "mag": 2.45,
+        "place": "3 km SSW of Markleeville, CA",
+        "time": 1748460291960,
+        "updated": 1748518037985,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75187841",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75187841.geojson",
@@ -1103,28 +1103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 108,
+        "sig": 92,
         "net": "nc",
         "code": "75187841",
         "ids": ",nc75187841,nn00898147,",
         "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.2839,
-        "rms": 0.16,
-        "gap": 58,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.03747,
+        "rms": 0.06,
+        "gap": 65,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 4 km SSW of Markleeville, CA"
+        "title": "M 2.5 - 3 km SSW of Markleeville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.811332702637,
-          38.6575012207031,
-          -1.97000002861023
+          -119.797833333333,
+          38.6578333333333,
+          5.84
         ]
       },
       "id": "nc75187841"
@@ -1533,7 +1533,7 @@
   "bbox": [
     -178.7022,
     -57.9833,
-    -1.9700000286102,
+    4.24,
     166.985,
     62.5465,
     499.307
