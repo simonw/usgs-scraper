@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748552433000,
+    "generated": 1748556034000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 35
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.97,
         "place": "141 km WNW of Petrolia, CA",
         "time": 1748549463260,
-        "updated": 1748551390148,
+        "updated": 1748553188453,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75188346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75188346.geojson",
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nc75188346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "5 km WSW of Puerto, Chile",
+        "time": 1748546804867,
+        "updated": 1748555345040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgqy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgqy.geojson",
+        "felt": 4,
+        "cdi": 2.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 190,
+        "net": "us",
+        "code": "6000qgqy",
+        "ids": ",us6000qgqy,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.073,
+        "rms": 0.63,
+        "gap": 188,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 5 km WSW of Puerto, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1992,
+          -20.2359,
+          42.701
+        ]
+      },
+      "id": "us6000qgqy"
     },
     {
       "type": "Feature",
@@ -572,10 +612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
+        "mag": 2.54,
         "place": "91 km SSW of Alberto Oviedo Mota, B.C., MX",
-        "time": 1748500282630,
-        "updated": 1748500492148,
+        "time": 1748500282600,
+        "updated": 1748554367910,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40979415",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40979415.geojson",
@@ -583,18 +623,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 99,
         "net": "ci",
         "code": "40979415",
         "ids": ",ci40979415,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.1791,
-        "rms": 0.16,
-        "gap": 106,
+        "nst": 12,
+        "dmin": 0.178,
+        "rms": 0.15,
+        "gap": 108,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 91 km SSW of Alberto Oviedo Mota, B.C., MX"
@@ -602,9 +642,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.6221667,
-          31.5055,
-          8.18
+          -115.6206667,
+          31.5021667,
+          9.81
         ]
       },
       "id": "ci40979415"
@@ -612,10 +652,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.55,
+        "mag": 2.56,
         "place": "7 km SSW of Calimesa, CA",
-        "time": 1748498221050,
-        "updated": 1748505105691,
+        "time": 1748498220980,
+        "updated": 1748552626793,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40979399",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40979399.geojson",
@@ -623,7 +663,7 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 103,
         "net": "ci",
@@ -631,9 +671,9 @@
         "ids": ",ci40979399,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 131,
-        "dmin": 0.07128,
-        "rms": 0.2,
+        "nst": 117,
+        "dmin": 0.06972,
+        "rms": 0.16,
         "gap": 16,
         "magType": "ml",
         "type": "earthquake",
@@ -642,9 +682,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.0888333,
-          33.9328333,
-          13.93
+          -117.0908333,
+          33.9325,
+          14.56
         ]
       },
       "id": "ci40979399"
@@ -1368,173 +1408,13 @@
         ]
       },
       "id": "us6000qgil"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "150 km SE of Kuril’sk, Russia",
-        "time": 1748468302444,
-        "updated": 1748469470040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgie.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qgie",
-        "ids": ",us6000qgie,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 4.886,
-        "rms": 0.63,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 150 km SE of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.3834,
-          44.4017,
-          35
-        ]
-      },
-      "id": "us6000qgie"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "124 km SSE of Kūh Sefīd, Iran",
-        "time": 1748467802184,
-        "updated": 1748470837722,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgic",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgic.geojson",
-        "felt": 4,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 418,
-        "net": "us",
-        "code": "6000qgic",
-        "ids": ",us6000qgic,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 125,
-        "dmin": 3.452,
-        "rms": 0.67,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 124 km SSE of Kūh Sefīd, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.3423,
-          28.2571,
-          10
-        ]
-      },
-      "id": "us6000qgic"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "39 km SSW of Luganville, Vanuatu",
-        "time": 1748467368171,
-        "updated": 1748468343040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgib",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgib.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000qgib",
-        "ids": ",us6000qgib,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.433,
-        "rms": 0.62,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 39 km SSW of Luganville, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.985,
-          -15.8279,
-          10
-        ]
-      },
-      "id": "us6000qgib"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1748466909358,
-        "updated": 1748467852040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgi9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgi9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000qgi9",
-        "ids": ",us6000qgi9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.691,
-        "rms": 0.93,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.7022,
-          -29.3928,
-          200.16
-        ]
-      },
-      "id": "us6000qgi9"
     }
   ],
   "bbox": [
-    -178.7022,
+    -178.0111,
     -57.9833,
     2.5599999427795,
-    166.985,
+    149.5152,
     62.5465,
     499.307
   ]
