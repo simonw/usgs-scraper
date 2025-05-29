@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748541610000,
+    "generated": 1748545177000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 40
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "2 km SE of Rapu-Rapu, Philippines",
+        "time": 1748543714067,
+        "updated": 1748544894040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgqa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgqa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000qgqa",
+        "ids": ",us6000qgqa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 6.227,
+        "rms": 0.71,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 2 km SE of Rapu-Rapu, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.1463,
+          13.173,
+          91.191
+        ]
+      },
+      "id": "us6000qgqa"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.55,
         "place": "4 km ESE of Aromas, CA",
         "time": 1748540667780,
-        "updated": 1748540763415,
+        "updated": 1748544135910,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75188291",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75188291.geojson",
@@ -30,7 +70,7 @@
         "code": "75188291",
         "ids": ",nc75188291,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 7,
         "dmin": 0.009404,
         "rms": 0.04,
@@ -934,8 +974,8 @@
       "properties": {
         "mag": 2.66,
         "place": "6 km SE of Redlands, CA",
-        "time": 1748481834490,
-        "updated": 1748526156492,
+        "time": 1748481834450,
+        "updated": 1748541753680,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40979279",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40979279.geojson",
@@ -943,7 +983,7 @@
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 131,
         "net": "ci",
@@ -951,9 +991,9 @@
         "ids": ",ci40979279,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 128,
-        "dmin": 0.03143,
-        "rms": 0.19,
+        "nst": 115,
+        "dmin": 0.03351,
+        "rms": 0.16,
         "gap": 15,
         "magType": "ml",
         "type": "earthquake",
@@ -962,9 +1002,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.142,
-          34.0158333,
-          4.24
+          -117.145,
+          34.0156667,
+          4.98
         ]
       },
       "id": "ci40979279"
@@ -1455,7 +1495,7 @@
         "mag": 2.7,
         "place": "160 km W of Ferndale, California",
         "time": 1748461368394,
-        "updated": 1748463300040,
+        "updated": 1748543842876,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qghh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qghh.geojson",
@@ -1468,9 +1508,9 @@
         "sig": 112,
         "net": "us",
         "code": "6000qghh",
-        "ids": ",us6000qghh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "ids": ",nc75187866,us6000qghh,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 26,
         "dmin": 1.551,
         "rms": 0.79,
@@ -1495,7 +1535,7 @@
         "mag": 2.45,
         "place": "3 km SSW of Markleeville, CA",
         "time": 1748460291960,
-        "updated": 1748524938742,
+        "updated": 1748544230040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75187841",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75187841.geojson",
@@ -1508,8 +1548,8 @@
         "sig": 92,
         "net": "nc",
         "code": "75187841",
-        "ids": ",nc75187841,nn00898147,",
-        "sources": ",nc,nn,",
+        "ids": ",nc75187841,nn00898147,us6000qghe,",
+        "sources": ",nc,nn,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.03747,
@@ -1528,86 +1568,6 @@
         ]
       },
       "id": "nc75187841"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "113 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1748458002904,
-        "updated": 1748460482040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgh9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgh9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000qgh9",
-        "ids": ",us6000qgh9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 123,
-        "dmin": 1,
-        "rms": 0.75,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 113 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.2903,
-          52.9016,
-          35
-        ]
-      },
-      "id": "us6000qgh9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1748457398014,
-        "updated": 1748521359348,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025kjzu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025kjzu.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2025kjzu",
-        "ids": ",tx2025kjzu,us6000qgh6,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.429,
-          31.679,
-          6.8433
-        ]
-      },
-      "id": "tx2025kjzu"
     }
   ],
   "bbox": [
