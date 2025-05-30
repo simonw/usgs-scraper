@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748606402000,
+    "generated": 1748610513000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "6 km SW of Arkalochóri, Greece",
+        "time": 1748608816546,
+        "updated": 1748610090317,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgv0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgv0.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "6000qgv0",
+        "ids": ",us6000qgv0,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 64,
+        "dmin": 0.33,
+        "rms": 0.76,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 6 km SW of Arkalochóri, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2194,
+          35.0966,
+          10
+        ]
+      },
+      "id": "us6000qgv0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "33 km W of Petrolia, CA",
+        "time": 1748608637900,
+        "updated": 1748610438254,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75188606",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75188606.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "75188606",
+        "ids": ",nc75188606,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.2603,
+        "rms": 0.17,
+        "gap": 249,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 33 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.679832458496,
+          40.3238334655762,
+          20.0400009155273
+        ]
+      },
+      "id": "nc75188606"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +255,7 @@
         "mag": 3.59,
         "place": "70 km NNE of Luquillo, Puerto Rico",
         "time": 1748593487290,
-        "updated": 1748594869237,
+        "updated": 1748608267040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025150000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025150000.geojson",
@@ -188,8 +268,8 @@
         "sig": 198,
         "net": "pr",
         "code": "2025150000",
-        "ids": ",pr2025150000,",
-        "sources": ",pr,",
+        "ids": ",us6000qgue,pr2025150000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.7272,
@@ -208,6 +288,46 @@
         ]
       },
       "id": "pr2025150000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "23 km ESE of Jurm, Afghanistan",
+        "time": 1748592463390,
+        "updated": 1748608692040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgub",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgub.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000qgub",
+        "ids": ",us6000qgub,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 1.851,
+        "rms": 0.66,
+        "gap": 186,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 23 km ESE of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.0979,
+          36.8229,
+          218.98
+        ]
+      },
+      "id": "us6000qgub"
     },
     {
       "type": "Feature",
@@ -1055,7 +1175,7 @@
         "mag": 4.6,
         "place": "44 km S of El Rosario, El Salvador",
         "time": 1748536024799,
-        "updated": 1748579028783,
+        "updated": 1748608817316,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgpv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgpv.geojson",
@@ -1208,86 +1328,6 @@
         ]
       },
       "id": "us6000qgne"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "145 km SE of Kuril’sk, Russia",
-        "time": 1748524023382,
-        "updated": 1748527426040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgn1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgn1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000qgn1",
-        "ids": ",us6000qgn1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 116,
-        "dmin": 4.901,
-        "rms": 0.75,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 145 km SE of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.4011,
-          44.497,
-          46.254
-        ]
-      },
-      "id": "us6000qgn1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "150 km SE of Kuril’sk, Russia",
-        "time": 1748523814745,
-        "updated": 1748528240040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgn2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgn2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qgn2",
-        "ids": ",us6000qgn2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 4.925,
-        "rms": 0.67,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 150 km SE of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.4371,
-          44.4557,
-          49.762
-        ]
-      },
-      "id": "us6000qgn2"
     }
   ],
   "bbox": [
