@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748599210000,
+    "generated": 1748602836000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "37 km ENE of Atka, Alaska",
-        "time": 1748598269299,
-        "updated": 1748598986987,
+        "mag": 2.64,
+        "place": "25 km ESE of San Clemente Is. (SE tip), CA",
+        "time": 1748600383230,
+        "updated": 1748602558040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256w88gf5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256w88gf5.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40980815",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40980815.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "ci",
+        "code": "40980815",
+        "ids": ",ci40980815,us6000qgum,",
+        "sources": ",ci,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.4522,
+        "rms": 0.25,
+        "gap": 191,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 25 km ESE of San Clemente Is. (SE tip), CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0961667,
+          32.7331667,
+          -0.14
+        ]
+      },
+      "id": "ci40980815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "47 km ENE of Atka, Alaska",
+        "time": 1748598268604,
+        "updated": 1748601880630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgul",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgul.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 4.722,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
-        "net": "ak",
-        "code": "0256w88gf5",
-        "ids": ",ak0256w88gf5,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.46,
-        "gap": null,
-        "magType": "ml",
+        "sig": 400,
+        "net": "us",
+        "code": "6000qgul",
+        "ids": ",us6000qgul,ak0256w88gf5,",
+        "sources": ",us,ak,",
+        "types": ",oaf,origin,phase-data,shakemap,",
+        "nst": 142,
+        "dmin": 0.308,
+        "rms": 1.26,
+        "gap": 124,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 37 km ENE of Atka, Alaska"
+        "title": "M 5.1 - 47 km ENE of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.6798,
-          52.2938,
-          7.8
+          -173.5479,
+          52.3509,
+          10
         ]
       },
-      "id": "ak0256w88gf5"
+      "id": "us6000qgul"
     },
     {
       "type": "Feature",
@@ -1253,9 +1293,9 @@
   "bbox": [
     -179.9633,
     -53.3145,
-    2.9500000476837,
+    -0.14,
     178.7442,
-    52.2938,
+    52.3509,
     544.601
   ]
 }
