@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748831497000,
+    "generated": 1748834673000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "76 km E of Onagawa Chō, Japan",
+        "time": 1748831479345,
+        "updated": 1748832296040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhc1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhc1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000qhc1",
+        "ids": ",us6000qhc1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 2.546,
+        "rms": 0.84,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 76 km E of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3236,
+          38.4334,
+          35
+        ]
+      },
+      "id": "us6000qhc1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,12 +215,12 @@
         "mag": 2.6,
         "place": "88 km WSW of Karluk, Alaska",
         "time": 1748813649464,
-        "updated": 1748826186040,
+        "updated": 1748831970095,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256zqe5ua",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256zqe5ua.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -188,9 +228,9 @@
         "sig": 104,
         "net": "ak",
         "code": "0256zqe5ua",
-        "ids": ",us6000qhb3,ak0256zqe5ua,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0256zqe5ua,us6000qhb3,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.68,
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us6000qh6x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "179 km ESE of Hihifo, Tonga",
-        "time": 1748747184408,
-        "updated": 1748748300040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qh6m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qh6m.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000qh6m",
-        "ids": ",us6000qh6m,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 8.026,
-        "rms": 1.02,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 179 km ESE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.2616,
-          -16.6065,
-          10
-        ]
-      },
-      "id": "us6000qh6m"
     }
   ],
   "bbox": [
