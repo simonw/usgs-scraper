@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749024010000,
+    "generated": 1749027633000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 42
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "161 km S of Severo-Kuril’sk, Russia",
+        "time": 1749025457236,
+        "updated": 1749027447040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhvp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhvp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000qhvp",
+        "ids": ",us6000qhvp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 4.054,
+        "rms": 0.58,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 161 km S of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.8081,
+          49.2377,
+          54.106
+        ]
+      },
+      "id": "us6000qhvp"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "23 km SSW of Ester, Alaska",
         "time": 1749023424475,
-        "updated": 1749023728226,
+        "updated": 1749024951534,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02574grlgv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02574grlgv.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": 8,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 99,
         "net": "ak",
         "code": "02574grlgv",
         "ids": ",ak02574grlgv,",
@@ -1608,86 +1648,6 @@
         ]
       },
       "id": "us6000qhlq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "3 km W of Mount Vernon, Washington",
-        "time": 1748941191900,
-        "updated": 1749013828579,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62121826",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62121826.geojson",
-        "felt": 83,
-        "cdi": 4.1,
-        "mmi": 3.218,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "uw",
-        "code": "62121826",
-        "ids": ",uw62121826,us6000qhln,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 25,
-        "dmin": 0.04805,
-        "rms": 0.21,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 3 km W of Mount Vernon, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.38683333333333,
-          48.4145,
-          8.7
-        ]
-      },
-      "id": "uw62121826"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "0 km W of Indios, Puerto Rico",
-        "time": 1748939136050,
-        "updated": 1748939823030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484273",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484273.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71484273",
-        "ids": ",pr71484273,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.05449,
-        "rms": 0.15,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 0 km W of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.826,
-          17.9951666666667,
-          15.78
-        ]
-      },
-      "id": "pr71484273"
     }
   ],
   "bbox": [
