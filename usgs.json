@@ -1,40 +1,80 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749157210000,
+    "generated": 1749160820000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.61,
-        "place": "13 km WSW of Delta, B.C., MX",
-        "time": 1749156479320,
-        "updated": 1749157110610,
+        "mag": 2.84,
+        "place": "13 km SSE of Ponce, Puerto Rico",
+        "time": 1749158666140,
+        "updated": 1749159923740,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41176264",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41176264.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484753",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484753.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 124,
+        "net": "pr",
+        "code": "71484753",
+        "ids": ",pr71484753,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1503,
+        "rms": 0.1,
+        "gap": 200,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 13 km SSE of Ponce, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.596,
+          17.892,
+          7.53
+        ]
+      },
+      "id": "pr71484753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "13 km WSW of Delta, B.C., MX",
+        "time": 1749156479270,
+        "updated": 1749157838300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41176264",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41176264.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 107,
         "net": "ci",
         "code": "41176264",
         "ids": ",ci41176264,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.1168,
-        "rms": 0.31,
-        "gap": 75,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.1135,
+        "rms": 0.26,
+        "gap": 93,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 13 km WSW of Delta, B.C., MX"
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.3196667,
-          32.303,
-          12.82
+          -115.323,
+          32.3066667,
+          12.01
         ]
       },
       "id": "ci41176264"
@@ -93,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "24 km SW of Jal, New Mexico",
-        "time": 1749155106019,
-        "updated": 1749155317471,
+        "place": "25 km SW of Jal, New Mexico",
+        "time": 1749155106570,
+        "updated": 1749159088020,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025kytn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025kytn.geojson",
@@ -103,7 +143,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
         "net": "tx",
@@ -111,20 +151,20 @@
         "ids": ",tx2025kytn,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 23,
+        "nst": 29,
         "dmin": 0,
-        "rms": 0.5,
-        "gap": 69,
+        "rms": 0.2,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 24 km SW of Jal, New Mexico"
+        "title": "M 2.7 - 25 km SW of Jal, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.358,
-          31.943,
-          8.1992
+          -103.372,
+          31.94,
+          6.4331
         ]
       },
       "id": "tx2025kytn"
@@ -495,12 +535,12 @@
         "mag": 4.7,
         "place": "63 km E of Sōma, Japan",
         "time": 1749135087092,
-        "updated": 1749137860040,
+        "updated": 1749159072576,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qi4w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qi4w.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -510,7 +550,7 @@
         "code": "6000qi4w",
         "ids": ",us6000qi4w,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 52,
         "dmin": 2.974,
         "rms": 0.49,
