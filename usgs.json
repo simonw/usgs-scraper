@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749470396000,
+    "generated": 1749474566000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,13 +55,13 @@
         "mag": 3.4,
         "place": "37 km NW of Rachel, Nevada",
         "time": 1749455878362,
-        "updated": 1749470187915,
+        "updated": 1749470725336,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898714",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898714.geojson",
         "felt": 1,
         "cdi": 1,
-        "mmi": 2.627,
+        "mmi": 2.624,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -215,11 +215,11 @@
         "mag": 3.27,
         "place": "2 km NW of Pinole, CA",
         "time": 1749443411740,
-        "updated": 1749469701918,
+        "updated": 1749474518110,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75193041",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75193041.geojson",
-        "felt": 4160,
+        "felt": 4171,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
@@ -772,10 +772,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "Mariana Islands region",
+        "time": 1749414597404,
+        "updated": 1749473764040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qj0b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qj0b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000qj0b",
+        "ids": ",us6000qj0b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 5.462,
+        "rms": 1.04,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0225,
+          21.6634,
+          304.411
+        ]
+      },
+      "id": "us6000qj0b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.72000003,
         "place": "11 km ENE of Pāhala, Hawaii",
         "time": 1749412862550,
-        "updated": 1749447273605,
+        "updated": 1749474100040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74692432",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74692432.geojson",
@@ -788,8 +828,8 @@
         "sig": 114,
         "net": "hv",
         "code": "74692432",
-        "ids": ",hv74692432,",
-        "sources": ",hv,",
+        "ids": ",hv74692432,us6000qj03,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 59,
         "dmin": 0.02671,
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us6000qiy2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.3,
-        "place": "16 km NNE of Paratebueno, Colombia",
-        "time": 1749388085861,
-        "updated": 1749466573072,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qixr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qixr.geojson",
-        "felt": 380,
-        "cdi": 8.2,
-        "mmi": 7.928,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 962,
-        "net": "us",
-        "code": "6000qixr",
-        "ids": ",us6000qixr,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 158,
-        "dmin": 1.208,
-        "rms": 0.9,
-        "gap": 39,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.3 - 16 km NNE of Paratebueno, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.1553,
-          4.512,
-          9
-        ]
-      },
-      "id": "us6000qixr"
     }
   ],
   "bbox": [
