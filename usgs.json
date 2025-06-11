@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749668429000,
+    "generated": 1749672020000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 25
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "28 km SSE of Scenic, Arizona",
+        "time": 1749667954899,
+        "updated": 1749669619221,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898822",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898822.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nn",
+        "code": "00898822",
+        "ids": ",nn00898822,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.608,
+        "rms": 0.192,
+        "gap": 170.60000000000002,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 28 km SSE of Scenic, Arizona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9312,
+          36.5424,
+          9.1
+        ]
+      },
+      "id": "nn00898822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "73 km NW of Fort St. John, Canada",
+        "time": 1749666507701,
+        "updated": 1749670614793,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qjm5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qjm5.geojson",
+        "felt": 3,
+        "cdi": 2,
+        "mmi": 4.648,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000qjm5",
+        "ids": ",us6000qjm5,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 85,
+        "dmin": 0.695,
+        "rms": 0.9,
+        "gap": 22,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 73 km NW of Fort St. John, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7237,
+          56.6996,
+          10
+        ]
+      },
+      "id": "us6000qjm5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +215,7 @@
         "mag": 2.9,
         "place": "10 km NE of San Jacinto, CA",
         "time": 1749648078150,
-        "updated": 1749666754827,
+        "updated": 1749668731057,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41182560",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41182560.geojson",
@@ -215,22 +295,22 @@
         "mag": 2.7,
         "place": "28 km ESE of Skwentna, Alaska",
         "time": 1749635775070,
-        "updated": 1749637018040,
+        "updated": 1749670536494,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257g2r5pf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257g2r5pf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 113,
         "net": "ak",
         "code": "0257g2r5pf",
-        "ids": ",us6000qjiz,ak0257g2r5pf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0257g2r5pf,us6000qjiz,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.33,
@@ -895,11 +975,11 @@
         "mag": 2.8,
         "place": "9 km NNW of Forksville, Pennsylvania",
         "time": 1749585859765,
-        "updated": 1749663464581,
+        "updated": 1749671740668,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qjf5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qjf5.geojson",
-        "felt": 29,
+        "felt": 30,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
@@ -968,46 +1048,6 @@
         ]
       },
       "id": "us6000qjgy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "14 km WSW of Manhattan Beach, CA",
-        "time": 1749582947810,
-        "updated": 1749668204551,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41181776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41181776.geojson",
-        "felt": 845,
-        "cdi": 3.6,
-        "mmi": 3.245,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 467,
-        "net": "ci",
-        "code": "41181776",
-        "ids": ",ci41181776,us6000qjew,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 113,
-        "dmin": 0.1486,
-        "rms": 0.26,
-        "gap": 126,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 14 km WSW of Manhattan Beach, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.5516667,
-          33.8271667,
-          10.41
-        ]
-      },
-      "id": "ci41181776"
     }
   ],
   "bbox": [
