@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750219485000,
+    "generated": 1750222853000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 32
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "244 km NW of Tobelo, Indonesia",
+        "time": 1750220317350,
+        "updated": 1750221352040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkyj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkyj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000qkyj",
+        "ids": ",us6000qkyj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 1.745,
+        "rms": 0.94,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 244 km NW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7779,
+          3.5559,
+          50.435
+        ]
+      },
+      "id": "us6000qkyj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "43 km NW of Toyah, Texas",
+        "time": 1750219094386,
+        "updated": 1750220121865,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lwrxdx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lwrxdx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "tx",
+        "code": "2025lwrxdx",
+        "ids": ",us6000qkyf,tx2025lwrxdx,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 43 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.163,
+          31.543,
+          6.0999
+        ]
+      },
+      "id": "tx2025lwrxdx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,11 +135,11 @@
         "mag": 2.8,
         "place": "11 km NE of Trabuco Canyon, CA",
         "time": 1750212766680,
-        "updated": 1750218309427,
+        "updated": 1750221472040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40997455",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40997455.geojson",
-        "felt": 24,
+        "felt": 25,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -68,8 +148,8 @@
         "sig": 129,
         "net": "ci",
         "code": "40997455",
-        "ids": ",ci40997455,",
-        "sources": ",ci,",
+        "ids": ",ci40997455,us6000qky0,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 145,
         "dmin": 0.03845,
