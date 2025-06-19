@@ -1,27 +1,107 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750355975000,
+    "generated": 1750359588000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "central Mid-Atlantic Ridge",
+        "time": 1750357686289,
+        "updated": 1750359108040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlba",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qlba.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000qlba",
+        "ids": ",us6000qlba,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 9.928,
+        "rms": 0.65,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - central Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -31.3626,
+          3.0651,
+          10
+        ]
+      },
+      "id": "us6000qlba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "111 km W of Akhiok, Alaska",
+        "time": 1750356838703,
+        "updated": 1750357275040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257tg5poe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257tg5poe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0257tg5poe",
+        "ids": ",us6000qlb6,ak0257tg5poe,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 111 km W of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.9797,
+          56.801,
+          17.2
+        ]
+      },
+      "id": "ak0257tg5poe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
         "place": "37 km N of Finschhafen, Papua New Guinea",
-        "time": 1750351062505,
-        "updated": 1750355757040,
+        "time": 1750351062593,
+        "updated": 1750356830693,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ql8u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ql8u.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.247,
+        "mmi": 4.468,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -31,8 +111,8 @@
         "ids": ",us6000ql8u,",
         "sources": ",us,",
         "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 87,
-        "dmin": 3.247,
+        "nst": 86,
+        "dmin": 3.236,
         "rms": 0.96,
         "gap": 27,
         "magType": "mww",
@@ -42,8 +122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.8798,
-          -6.2167,
+          147.8534,
+          -6.2217,
           37
         ]
       },
@@ -1288,46 +1368,6 @@
         ]
       },
       "id": "us6000ql2z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "82 km NW of Sandy Ground Village, Anguilla",
-        "time": 1750271869880,
-        "updated": 1750278106040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71486108",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71486108.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71486108",
-        "ids": ",us6000ql32,pr71486108,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.9959,
-        "rms": 0.3,
-        "gap": 346,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 82 km NW of Sandy Ground Village, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.6253333333333,
-          18.74,
-          24.65
-        ]
-      },
-      "id": "pr71486108"
     }
   ],
   "bbox": [
@@ -1335,7 +1375,7 @@
     -47.5906,
     2.7599999904633,
     165.4922,
-    53.8588,
+    56.801,
     243.044
   ]
 }
