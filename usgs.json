@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750453232000,
+    "generated": 1750456796000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "69 km WNW of Happy Valley, Alaska",
+        "time": 1750453266847,
+        "updated": 1750453377479,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257v5eodm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257v5eodm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0257v5eodm",
+        "ids": ",ak0257v5eodm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 69 km WNW of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.9164,
+          60.1372,
+          124.3
+        ]
+      },
+      "id": "ak0257v5eodm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "8 km SSW of Pāhala, Hawaii",
+        "time": 1750453020330,
+        "updated": 1750453256500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74703392",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74703392.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "74703392",
+        "ids": ",hv74703392,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.04756,
+        "rms": 0.140000001,
+        "gap": 158,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.508163452148,
+          19.1361675262451,
+          34.189998626709
+        ]
+      },
+      "id": "hv74703392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
-        "place": "73 km ENE of Tonopah, Nevada",
-        "time": 1750452331716,
-        "updated": 1750452508119,
+        "place": "78 km NE of Tonopah, Nevada",
+        "time": 1750452331612,
+        "updated": 1750455745065,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899202",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899202.geojson",
@@ -23,7 +103,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
         "net": "nn",
@@ -31,19 +111,19 @@
         "ids": ",nn00899202,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.647,
-        "rms": 0.2366,
-        "gap": 145.38,
+        "nst": 13,
+        "dmin": 0.51,
+        "rms": 0.1737,
+        "gap": 76.92999999999999,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 73 km ENE of Tonopah, Nevada"
+        "title": "M 2.7 - 78 km NE of Tonopah, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5289,
-          38.4236,
+          -116.4928,
+          38.4724,
           0
         ]
       },
@@ -215,7 +295,7 @@
         "mag": 5.1,
         "place": "36 km SW of Semnan, Iran",
         "time": 1750441754362,
-        "updated": 1750443789215,
+        "updated": 1750455352040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlhj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qlhj.geojson",
@@ -230,7 +310,7 @@
         "code": "6000qlhj",
         "ids": ",us6000qlhj,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 93,
         "dmin": 5.004,
         "rms": 0.98,
