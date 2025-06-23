@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750694396000,
+    "generated": 1750698055000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.6,
         "place": "11 km E of Mina, Nevada",
-        "time": 1750692315941,
-        "updated": 1750694087167,
+        "time": 1750692315930,
+        "updated": 1750695775907,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899355",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899355.geojson",
@@ -28,13 +28,13 @@
         "sig": 104,
         "net": "nn",
         "code": "00899355",
-        "ids": ",nn00899355,",
-        "sources": ",nn,",
+        "ids": ",us7000q86v,nn00899355,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 7,
+        "nst": 14,
         "dmin": 0.197,
-        "rms": 0.1122,
-        "gap": 40.139999999999986,
+        "rms": 0.1178,
+        "gap": 36.39999999999999,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 11 km E of Mina, Nevada"
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9781,
-          38.396,
-          12.8
+          -117.9779,
+          38.3958,
+          12.9
         ]
       },
       "id": "nn00899355"
@@ -375,12 +375,12 @@
         "mag": 4,
         "place": "16 km NNW of Qingyuan, China",
         "time": 1750675729679,
-        "updated": 1750688410040,
+        "updated": 1750696183600,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlya",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qlya.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +390,7 @@
         "code": "6000qlya",
         "ids": ",us6000qlya,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 4.969,
         "rms": 0.72,
@@ -613,9 +613,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "13 km ESE of Mina, Nevada",
-        "time": 1750657478357,
-        "updated": 1750679350040,
+        "place": "11 km E of Mina, Nevada",
+        "time": 1750657478055,
+        "updated": 1750696901050,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899319",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899319.geojson",
@@ -623,7 +623,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "nn",
@@ -631,20 +631,20 @@
         "ids": ",us6000qlwu,nn00899319,",
         "sources": ",us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.641,
-        "rms": 0.2775,
-        "gap": 151.73000000000002,
+        "nst": 13,
+        "dmin": 0.197,
+        "rms": 0.1003,
+        "gap": 36.25,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 13 km ESE of Mina, Nevada"
+        "title": "M 2.5 - 11 km E of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9594,
-          38.3509,
-          11.8
+          -117.9795,
+          38.396,
+          12.9
         ]
       },
       "id": "nn00899319"
@@ -1212,6 +1212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.68,
+        "place": "165 km W of Adak, Alaska",
+        "time": 1750632044260,
+        "updated": 1750697795130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93646226",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av93646226.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "av",
+        "code": "93646226",
+        "ids": ",av93646226,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.1112,
+        "rms": 0.07,
+        "gap": 338,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 165 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.035333333333,
+          51.7716666666667,
+          11.75
+        ]
+      },
+      "id": "av93646226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "38 km WNW of Changji, China",
         "time": 1750631400661,
@@ -1295,7 +1335,7 @@
         "mag": 3.2,
         "place": "37 km SSW of Skwentna, Alaska",
         "time": 1750630025252,
-        "updated": 1750632172040,
+        "updated": 1750695098791,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257yh436m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257yh436m.geojson",
@@ -1688,90 +1728,10 @@
         ]
       },
       "id": "us6000qlty"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "4 km SW of Arcata, CA",
-        "time": 1750611004170,
-        "updated": 1750692710969,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75198991",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75198991.geojson",
-        "felt": 340,
-        "cdi": 3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 268,
-        "net": "nc",
-        "code": "75198991",
-        "ids": ",nc75198991,us6000qltt,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.06589,
-        "rms": 0.13,
-        "gap": 166,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 4 km SW of Arcata, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.111831665039,
-          40.8385009765625,
-          23.1900005340576
-        ]
-      },
-      "id": "nc75198991"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "131 km ESE of Fangale’ounga, Tonga",
-        "time": 1750609655953,
-        "updated": 1750610838040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qltr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qltr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qltr",
-        "ids": ",us6000qltr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 3.169,
-        "rms": 0.87,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 131 km ESE of Fangale’ounga, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.1158,
-          -20.0831,
-          32.471
-        ]
-      },
-      "id": "us6000qltr"
     }
   ],
   "bbox": [
-    -177.7176,
+    -179.03533333333,
     -38.0792,
     0,
     161.5904,
