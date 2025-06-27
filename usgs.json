@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750991489000,
+    "generated": 1750994580000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "42 km ENE of Fort Bidwell, California",
+        "time": 1750991555212,
+        "updated": 1750992233040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q917",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q917.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000q917",
+        "ids": ",us7000q917,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.285,
+        "rms": 0.95,
+        "gap": 93,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 42 km ENE of Fort Bidwell, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6557,
+          41.9505,
+          10
+        ]
+      },
+      "id": "us7000q917"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,11 +135,11 @@
         "mag": 4.6,
         "place": "2 km WNW of Ōmiya, Japan",
         "time": 1750982162894,
-        "updated": 1750985567915,
+        "updated": 1750994072926,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q90k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q90k.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -175,7 +215,7 @@
         "mag": 2.6,
         "place": "49 km E of Fort Bidwell, California",
         "time": 1750979627213,
-        "updated": 1750980691263,
+        "updated": 1750991919040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899540",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899540.geojson",
@@ -188,8 +228,8 @@
         "sig": 104,
         "net": "nn",
         "code": "00899540",
-        "ids": ",nn00899540,",
-        "sources": ",nn,",
+        "ids": ",us7000q90f,nn00899540,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
         "nst": 5,
         "dmin": 0.366,
@@ -1288,86 +1328,6 @@
         ]
       },
       "id": "pr2025177000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.36,
-        "place": "4 km SE of Braman, Oklahoma",
-        "time": 1750907605269,
-        "updated": 1750974728117,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025mjux",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025mjux.geojson",
-        "felt": 25,
-        "cdi": 4.1,
-        "mmi": 4.375,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 184,
-        "net": "ok",
-        "code": "2025mjux",
-        "ids": ",ok2025mjux,us7000q8ux,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 89,
-        "dmin": 0,
-        "rms": 0.23,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 4 km SE of Braman, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.29133333,
-          36.8945,
-          7.82
-        ]
-      },
-      "id": "ok2025mjux"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "86 km WNW of Petrolia, CA",
-        "time": 1750905857770,
-        "updated": 1750967238736,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75200666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75200666.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "nc",
-        "code": "75200666",
-        "ids": ",nc75200666,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 97,
-        "dmin": 0.7403,
-        "rms": 0.32,
-        "gap": 241,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 86 km WNW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.290166666667,
-          40.4428333333333,
-          10
-        ]
-      },
-      "id": "nc75200666"
     }
   ],
   "bbox": [
