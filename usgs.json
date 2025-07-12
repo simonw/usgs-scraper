@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752357606000,
+    "generated": 1752361178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "66 km E of Noatak, Alaska",
+        "time": 1752360392095,
+        "updated": 1752360561085,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258vk3g15",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258vk3g15.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0258vk3g15",
+        "ids": ",ak0258vk3g15,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.37,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 66 km E of Noatak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.4237,
+          67.5078,
+          0.3
+        ]
+      },
+      "id": "ak0258vk3g15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Fiji region",
+        "time": 1752354928916,
+        "updated": 1752360274040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcbp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcbp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000qcbp",
+        "ids": ",us7000qcbp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 4.374,
+        "rms": 0.48,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7572,
+          -20.9339,
+          594.326
+        ]
+      },
+      "id": "us7000qcbp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,22 +495,22 @@
         "mag": 2.9,
         "place": "36 km WSW of Mentone, Texas",
         "time": 1752326055068,
-        "updated": 1752332983172,
+        "updated": 1752359376264,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025npltjp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025npltjp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 130,
         "net": "tx",
         "code": "2025npltjp",
-        "ids": ",us7000qc9f,tx2025npltjp,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2025npltjp,us7000qc9f,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 32,
         "dmin": 0,
         "rms": 0.1,
@@ -1213,9 +1293,9 @@
   "bbox": [
     -178.7923,
     -54.5889,
-    7.67,
+    0.3,
     179.9228,
-    62.3071,
-    537.852
+    67.5078,
+    594.326
   ]
 }
