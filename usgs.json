@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752595197000,
+    "generated": 1752598823000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "85 km SE of Kokhanok, Alaska",
+        "time": 1752598354696,
+        "updated": 1752598557354,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02590f6408",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02590f6408.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "02590f6408",
+        "ids": ",ak02590f6408,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.68,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 85 km SE of Kokhanok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.7656,
+          58.8707,
+          113.6
+        ]
+      },
+      "id": "ak02590f6408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "163 km SE of Bitung, Indonesia",
+        "time": 1752591651371,
+        "updated": 1752598647040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcst",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcst.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000qcst",
+        "ids": ",us7000qcst,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.656,
+        "rms": 0.59,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 163 km SE of Bitung, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.9697,
+          0.2246,
+          60.445
+        ]
+      },
+      "id": "us7000qcst"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 2.47,
         "place": "14 km N of Fillmore, CA",
         "time": 1752588620440,
-        "updated": 1752591384720,
+        "updated": 1752597232040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023215",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023215.geojson",
@@ -68,8 +148,8 @@
         "sig": 97,
         "net": "ci",
         "code": "41023215",
-        "ids": ",ci41023215,",
-        "sources": ",ci,",
+        "ids": ",ci41023215,us7000qcsj,",
+        "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 81,
         "dmin": 0.04583,
@@ -135,7 +215,7 @@
         "mag": 2.8,
         "place": "7 km NNW of Susitna, Alaska",
         "time": 1752585058362,
-        "updated": 1752587427028,
+        "updated": 1752595953040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02590d4xb2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02590d4xb2.geojson",
@@ -148,8 +228,8 @@
         "sig": 121,
         "net": "ak",
         "code": "02590d4xb2",
-        "ids": ",ak02590d4xb2,",
-        "sources": ",ak,",
+        "ids": ",ak02590d4xb2,us7000qcsd,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -295,22 +375,22 @@
         "mag": 4.2,
         "place": "28 km N of El Algarrobal, Peru",
         "time": 1752574053229,
-        "updated": 1752575798040,
+        "updated": 1752595701618,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcrx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcrx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "us",
         "code": "7000qcrx",
         "ids": ",us7000qcrx,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 1.331,
         "rms": 1.13,
@@ -1528,126 +1608,6 @@
         ]
       },
       "id": "us7000qclp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Izu Islands, Japan region",
-        "time": 1752511998432,
-        "updated": 1752515525040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcln",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcln.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qcln",
-        "ids": ",us7000qcln,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 78,
-        "dmin": 2.935,
-        "rms": 0.79,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.8477,
-          30.3071,
-          10
-        ]
-      },
-      "id": "us7000qcln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "284 km SSE of Alo, Wallis and Futuna",
-        "time": 1752510901605,
-        "updated": 1752524077040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcli",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcli.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qcli",
-        "ids": ",us7000qcli,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 3.116,
-        "rms": 0.73,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 284 km SSE of Alo, Wallis and Futuna"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.3946,
-          -16.7844,
-          403.005
-        ]
-      },
-      "id": "us7000qcli"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "80 km S of Intipucá, El Salvador",
-        "time": 1752510704725,
-        "updated": 1752523228040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qclq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qclq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000qclq",
-        "ids": ",us7000qclq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 1,
-        "rms": 0.85,
-        "gap": 178,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 80 km S of Intipucá, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.1619,
-          12.4754,
-          56.639
-        ]
-      },
-      "id": "us7000qclq"
     }
   ],
   "bbox": [
@@ -1656,6 +1616,6 @@
     0.22,
     151.3427,
     63.6289,
-    403.005
+    137.045
   ]
 }
