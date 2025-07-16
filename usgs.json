@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752620417000,
+    "generated": 1752624121000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 4.7,
         "place": "1 km W of Mandalay, Burma (Myanmar)",
         "time": 1752613061062,
-        "updated": 1752615811754,
+        "updated": 1752622404361,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcvt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcvt.geojson",
-        "felt": 4,
+        "felt": 6,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 342,
+        "sig": 343,
         "net": "us",
         "code": "7000qcvt",
         "ids": ",us7000qcvt,",
@@ -532,42 +532,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "140 km W of Ferndale, California",
-        "time": 1752592987708,
-        "updated": 1752601964040,
+        "mag": 3.31,
+        "place": "140 km WNW of Petrolia, CA",
+        "time": 1752592988880,
+        "updated": 1752623756829,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcsx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcsx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75210257",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75210257.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "7000qcsx",
-        "ids": ",us7000qcsx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 1.368,
-        "rms": 1.08,
-        "gap": 243,
+        "sig": 169,
+        "net": "nc",
+        "code": "75210257",
+        "ids": ",nc75210257,us7000qcsx,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 85,
+        "dmin": 1.22,
+        "rms": 0.32,
+        "gap": 275,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 140 km W of Ferndale, California"
+        "title": "M 3.3 - 140 km WNW of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125.913,
-          40.4555,
-          10
+          -125.936333333333,
+          40.3626666666667,
+          10.12
         ]
       },
-      "id": "us7000qcsx"
+      "id": "nc75210257"
     },
     {
       "type": "Feature",
@@ -615,17 +615,17 @@
         "mag": 4.9,
         "place": "4 km ENE of Funaishikawa, Japan",
         "time": 1752590831172,
-        "updated": 1752619250921,
+        "updated": 1752623798993,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcsr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcsr.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 372,
+        "sig": 373,
         "net": "us",
         "code": "7000qcsr",
         "ids": ",us7000qcsr,",
@@ -1492,6 +1492,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.45,
+        "place": "30 km W of Petrolia, CA",
+        "time": 1752544270170,
+        "updated": 1752623241056,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75210012",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75210012.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "nc",
+        "code": "75210012",
+        "ids": ",nc75210012,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 55,
+        "dmin": 0.2247,
+        "rms": 0.21,
+        "gap": 235,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 30 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.636333333333,
+          40.2931666666667,
+          19.19
+        ]
+      },
+      "id": "nc75210012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.48,
         "place": "131 km N of San Juan, Puerto Rico",
         "time": 1752544120140,
@@ -1568,93 +1608,13 @@
         ]
       },
       "id": "us7000qcq7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "17 km SW of Charlotte, Texas",
-        "time": 1752536856548,
-        "updated": 1752613399040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ntyezs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ntyezs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2025ntyezs",
-        "ids": ",us7000qcq0,tx2025ntyezs,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.3,
-        "rms": 0.2,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 17 km SW of Charlotte, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.835,
-          28.751,
-          3.7331
-        ]
-      },
-      "id": "tx2025ntyezs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Kuril Islands",
-        "time": 1752534231870,
-        "updated": 1752613003040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcpf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcpf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000qcpf",
-        "ids": ",us7000qcpf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 6.763,
-        "rms": 0.84,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.3276,
-          46.9703,
-          104.401
-        ]
-      },
-      "id": "us7000qcpf"
     }
   ],
   "bbox": [
     -178.4428,
     -30.1947,
     0.78,
-    151.3276,
+    142.1552,
     83.3046,
     634.695
   ]
