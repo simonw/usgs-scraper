@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752861620000,
+    "generated": 1752865276000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.6,
         "place": "58 km E of Noatak, Alaska",
         "time": 1752858457498,
-        "updated": 1752858686062,
+        "updated": 1752863869040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02595e40gl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02595e40gl.geojson",
@@ -28,8 +28,8 @@
         "sig": 104,
         "net": "ak",
         "code": "02595e40gl",
-        "ids": ",ak02595e40gl,",
-        "sources": ",ak,",
+        "ids": ",us7000qdh1,ak02595e40gl,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak02595e40gl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "243 km SSE of Ushuaia, Argentina",
+        "time": 1752858014377,
+        "updated": 1752863890040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdh6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdh6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000qdh6",
+        "ids": ",us7000qdh6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.997,
+        "rms": 0.94,
+        "gap": 131,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 243 km SSE of Ushuaia, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2833,
+          -56.9148,
+          10
+        ]
+      },
+      "id": "us7000qdh6"
     },
     {
       "type": "Feature",
@@ -375,12 +415,12 @@
         "mag": 5.1,
         "place": "63 km NE of Isangel, Vanuatu",
         "time": 1752833873920,
-        "updated": 1752834977040,
+        "updated": 1752863768541,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qde2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qde2.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +430,7 @@
         "code": "7000qde2",
         "ids": ",us7000qde2,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 61,
         "dmin": 4.062,
         "rms": 0.88,
@@ -1288,51 +1328,11 @@
         ]
       },
       "id": "us7000qd9t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "100 km S of Honchō, Japan",
-        "time": 1752777851546,
-        "updated": 1752779606040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd9q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd9q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qd9q",
-        "ids": ",us7000qd9q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.804,
-        "rms": 0.74,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 100 km S of Honchō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.9444,
-          41.2263,
-          53.615
-        ]
-      },
-      "id": "us7000qd9q"
     }
   ],
   "bbox": [
     -179.7792,
-    -38.7591,
+    -56.9148,
     0.3,
     179.9185,
     67.4771,
