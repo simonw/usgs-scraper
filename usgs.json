@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752962432000,
+    "generated": 1752965999000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "17 km E of Willows, CA",
+        "time": 1752965735600,
+        "updated": 1752965832822,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75212222",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75212222.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "nc",
+        "code": "75212222",
+        "ids": ",nc75212222,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.08078,
+        "rms": 0.12,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 17 km E of Willows, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999664306641,
+          39.5378341674805,
+          24.1399993896484
+        ]
+      },
+      "id": "nc75212222"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "31 km E of Qarnābād, Iran",
         "time": 1752961067592,
-        "updated": 1752962298895,
+        "updated": 1752964078901,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdwb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdwb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 6,
+        "cdi": 5.4,
         "mmi": 6.415,
-        "alert": null,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 452,
         "net": "us",
         "code": "7000qdwb",
         "ids": ",us7000qdwb,",
         "sources": ",us,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
         "nst": 82,
         "dmin": 5.153,
         "rms": 1.01,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ak02597300y3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "off the coast of Oregon",
+        "time": 1752951168125,
+        "updated": 1752963897040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdve",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdve.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000qdve",
+        "ids": ",us7000qdve,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 75,
+        "dmin": 4.254,
+        "rms": 0.69,
+        "gap": 262,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.9054,
+          44.2484,
+          10
+        ]
+      },
+      "id": "us7000qdve"
     },
     {
       "type": "Feature",
@@ -1412,6 +1492,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "99 km N of Puerto Ocopa, Peru",
+        "time": 1752885002011,
+        "updated": 1752964701040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdkr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdkr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000qdkr",
+        "ids": ",us7000qdkr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 2.935,
+        "rms": 1.41,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 99 km N of Puerto Ocopa, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2608,
+          -10.2469,
+          10
+        ]
+      },
+      "id": "us7000qdkr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.12,
         "place": "55 km NNE of Punta Cana, Dominican Republic",
         "time": 1752882684260,
@@ -1528,86 +1648,6 @@
         ]
       },
       "id": "pr71489653"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "95 km SSE of Sand Point, Alaska",
-        "time": 1752876794561,
-        "updated": 1752879645040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdjv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdjv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "7000qdjv",
-        "ids": ",ak02595h4f2x,us7000qdjv,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.315,
-        "rms": 0.44,
-        "gap": 201,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 95 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.87,
-          54.5618,
-          37.721
-        ]
-      },
-      "id": "us7000qdjv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Fiji region",
-        "time": 1752876725505,
-        "updated": 1752878222040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdjx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdjx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qdjx",
-        "ids": ",us7000qdjx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 3.978,
-        "rms": 0.79,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.6532,
-          -19.285,
-          583.522
-        ]
-      },
-      "id": "us7000qdjx"
     }
   ],
   "bbox": [
