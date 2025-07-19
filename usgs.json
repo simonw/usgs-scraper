@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752892354000,
+    "generated": 1752895565000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "6 km NE of Meadow Lakes, Alaska",
         "time": 1752891997067,
-        "updated": 1752892081742,
+        "updated": 1752893227040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02596stxfp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02596stxfp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 96,
         "net": "ak",
         "code": "02596stxfp",
-        "ids": ",ak02596stxfp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02596stxfp,us7000qdl8,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.58,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000qdky"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "104 km S of Waingapu, Indonesia",
+        "time": 1752885613428,
+        "updated": 1752892723040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdku",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdku.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000qdku",
+        "ids": ",us7000qdku,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.927,
+        "rms": 0.83,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 104 km S of Waingapu, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1836,
+          -10.595,
+          10
+        ]
+      },
+      "id": "us7000qdku"
     },
     {
       "type": "Feature",
@@ -1408,86 +1448,6 @@
         ]
       },
       "id": "us7000qdch"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "16 km WNW of Seldovia, Alaska",
-        "time": 1752808392746,
-        "updated": 1752889184040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025955t6cm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025955t6cm.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "025955t6cm",
-        "ids": ",ak025955t6cm,us7000qdc9,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.4,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 16 km WNW of Seldovia, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.9599,
-          59.5084,
-          70.5
-        ]
-      },
-      "id": "ak025955t6cm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "153 km SSE of Lata, Solomon Islands",
-        "time": 1752806972639,
-        "updated": 1752808792040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdc6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdc6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qdc6",
-        "ids": ",us7000qdc6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 20.337,
-        "rms": 0.45,
-        "gap": 202,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 153 km SSE of Lata, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.5052,
-          -11.9221,
-          200.273
-        ]
-      },
-      "id": "us7000qdc6"
     }
   ],
   "bbox": [
