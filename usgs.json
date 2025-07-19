@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752955179000,
+    "generated": 1752958806000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 4.1,
         "place": "14 km WNW of Tatitlek, Alaska",
         "time": 1752953684554,
-        "updated": 1752955086040,
+        "updated": 1752958728309,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02597300y3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02597300y3.geojson",
-        "felt": 19,
+        "felt": 25,
         "cdi": 3.1,
-        "mmi": null,
+        "mmi": 3.376,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 265,
+        "sig": 266,
         "net": "ak",
         "code": "02597300y3",
         "ids": ",at00sznvpv,us7000qdvp,ak02597300y3,",
         "sources": ",at,us,ak,",
-        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,",
+        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.69,
@@ -55,17 +55,17 @@
         "mag": 2.74,
         "place": "7 km ENE of Guthrie, Oklahoma",
         "time": 1752950553659,
-        "updated": 1752954046931,
+        "updated": 1752958306772,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025obad",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025obad.geojson",
-        "felt": 19,
+        "felt": 22,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 123,
         "net": "ok",
         "code": "2025obad",
         "ids": ",ok2025obad,us7000qdvb,",
@@ -88,6 +88,46 @@
         ]
       },
       "id": "ok2025obad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "120 km WNW of Ternate, Indonesia",
+        "time": 1752945217963,
+        "updated": 1752958738040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qduu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qduu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000qduu",
+        "ids": ",us7000qduu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 1.078,
+        "rms": 0.68,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 120 km WNW of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4089,
+          1.2709,
+          40.938
+        ]
+      },
+      "id": "us7000qduu"
     },
     {
       "type": "Feature",
@@ -1528,86 +1568,6 @@
         ]
       },
       "id": "us7000qdl1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "103 km SSE of Sand Point, Alaska",
-        "time": 1752872041372,
-        "updated": 1752890217729,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdje",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdje.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.805,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000qdje",
-        "ids": ",us7000qdje,ak02595g6b75,",
-        "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": 99,
-        "dmin": 0.401,
-        "rms": 0.8,
-        "gap": 155,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 103 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.8907,
-          54.4713,
-          39.724
-        ]
-      },
-      "id": "us7000qdje"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "18 km NNE of Isabela, Puerto Rico",
-        "time": 1752868886290,
-        "updated": 1752871346880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489643",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489643.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71489643",
-        "ids": ",pr71489643,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.2435,
-        "rms": 0.23,
-        "gap": 251,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km NNE of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.942,
-          18.6516666666667,
-          14.37
-        ]
-      },
-      "id": "pr71489643"
     }
   ],
   "bbox": [
