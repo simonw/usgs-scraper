@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753192880000,
+    "generated": 1753196391000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 69
+    "count": 68
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 3.5,
         "place": "18 km ENE of Sterling, Alaska",
         "time": 1753191936802,
-        "updated": 1753192629043,
+        "updated": 1753194227519,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259by3t5n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259by3t5n.geojson",
-        "felt": 3,
+        "felt": 6,
         "cdi": 3.1,
         "mmi": 2.503,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 189,
+        "sig": 190,
         "net": "ak",
         "code": "0259by3t5n",
         "ids": ",ak0259by3t5n,",
@@ -92,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.1,
+        "place": "146 km ESE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1753191804953,
+        "updated": 1753193003040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qu53",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qu53.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000qu53",
+        "ids": ",us6000qu53,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 137,
+        "dmin": 1.288,
+        "rms": 0.7,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 146 km ESE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.6479,
+          52.5893,
+          10
+        ]
+      },
+      "id": "us6000qu53"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "20 km NW of Nordheim, Texas",
-        "time": 1753188442456,
-        "updated": 1753189229926,
+        "place": "17 km S of Nixon, Texas",
+        "time": 1753188440434,
+        "updated": 1753195808561,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ohudam",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ohudam.geojson",
@@ -103,7 +143,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "tx",
@@ -111,20 +151,20 @@
         "ids": ",tx2025ohudam,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 8,
+        "nst": 27,
         "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 84,
+        "rms": 0.3,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 20 km NW of Nordheim, Texas"
+        "title": "M 2.5 - 17 km S of Nixon, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.736,
-          29.069,
-          0.6056
+          -97.749,
+          29.106,
+          6.6101
         ]
       },
       "id": "tx2025ohudam"
@@ -768,6 +808,46 @@
         ]
       },
       "id": "us6000qu2t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Iceland region",
+        "time": 1753160782403,
+        "updated": 1753194562040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qu3z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qu3z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000qu3z",
+        "ids": ",us6000qu3z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 4.866,
+        "rms": 0.73,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Iceland region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.1773,
+          61.0357,
+          10
+        ]
+      },
+      "id": "us6000qu3z"
     },
     {
       "type": "Feature",
@@ -2648,126 +2728,6 @@
         ]
       },
       "id": "us7000qeam"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "163 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1753108639678,
-        "updated": 1753111044040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qeak",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qeak.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000qeak",
-        "ids": ",us7000qeak,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 127,
-        "dmin": 1.436,
-        "rms": 0.8,
-        "gap": 146,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 163 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.6772,
-          52.2918,
-          10
-        ]
-      },
-      "id": "us7000qeak"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "154 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1753108425006,
-        "updated": 1753109555040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qeaf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qeaf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000qeaf",
-        "ids": ",us7000qeaf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 135,
-        "dmin": 1.375,
-        "rms": 1.13,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 154 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.9097,
-          52.8742,
-          10
-        ]
-      },
-      "id": "us7000qeaf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "11 km W of Magdalena, Philippines",
-        "time": 1753107216893,
-        "updated": 1753111378040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qeac",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qeac.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qeac",
-        "ids": ",us7000qeac,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 4.962,
-        "rms": 0.78,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 11 km W of Magdalena, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.8697,
-          10.4348,
-          10
-        ]
-      },
-      "id": "us7000qeac"
     }
   ],
   "bbox": [
@@ -2775,7 +2735,7 @@
     -49.0886,
     0,
     179.5726,
-    60.9747,
+    61.0357,
     128.458
   ]
 }
