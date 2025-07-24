@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753362693000,
+    "generated": 1753365695000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "5 km NW of Meadow Lakes, Alaska",
+        "time": 1753363404363,
+        "updated": 1753365310959,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259f91rea",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259f91rea.geojson",
+        "felt": 90,
+        "cdi": 2.8,
+        "mmi": 2.828,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 183,
+        "net": "ak",
+        "code": "0259f91rea",
+        "ids": ",ak0259f91rea,us6000qulg,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 5 km NW of Meadow Lakes, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6546,
+          61.6621,
+          44.3
+        ]
+      },
+      "id": "ak0259f91rea"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "66 km S of Poso, Indonesia",
+        "time": 1753362499521,
+        "updated": 1753365575040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qulk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qulk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "6000qulk",
+        "ids": ",us6000qulk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.666,
+        "rms": 0.97,
+        "gap": 55,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 66 km S of Poso, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6784,
+          -1.9968,
+          34.704
+        ]
+      },
+      "id": "us6000qulk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "62 km SSE of Port Graham, Alaska",
         "time": 1753362465651,
-        "updated": 1753362574504,
+        "updated": 1753364066011,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259f8ydn6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259f8ydn6.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +108,9 @@
         "sig": 138,
         "net": "ak",
         "code": "0259f8ydn6",
-        "ids": ",ak0259f8ydn6,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0259f8ydn6,us6000qula,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.78,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak0259f8ydn6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "68 km NE of Masamba, Indonesia",
+        "time": 1753362422649,
+        "updated": 1753365636245,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qulb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qulb.geojson",
+        "felt": 2,
+        "cdi": 6.7,
+        "mmi": 5.342,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 467,
+        "net": "us",
+        "code": "6000qulb",
+        "ids": ",us6000qulb,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 53,
+        "dmin": 0.595,
+        "rms": 0.79,
+        "gap": 56,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 68 km NE of Masamba, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7193,
+          -2.0783,
+          42.586
+        ]
+      },
+      "id": "us6000qulb"
     },
     {
       "type": "Feature",
@@ -535,7 +655,7 @@
         "mag": 6.3,
         "place": "109 km W of Gorontalo, Indonesia",
         "time": 1753303844062,
-        "updated": 1753334627782,
+        "updated": 1753364062040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qugg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qugg.geojson",
@@ -968,94 +1088,14 @@
         ]
       },
       "id": "us6000qud5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1753277315503,
-        "updated": 1753286728646,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259dljj8h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259dljj8h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "0259dljj8h",
-        "ids": ",ak0259dljj8h,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          177.3842,
-          51.6802,
-          55.8
-        ]
-      },
-      "id": "ak0259dljj8h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "40 km NNW of Kíssamos, Greece",
-        "time": 1753277214171,
-        "updated": 1753360571573,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qucv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qucv.geojson",
-        "felt": 39,
-        "cdi": 5.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 421,
-        "net": "us",
-        "code": "6000qucv",
-        "ids": ",us6000qucv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 96,
-        "dmin": 1.856,
-        "rms": 0.65,
-        "gap": 60,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 40 km NNW of Kíssamos, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.5291,
-          35.8433,
-          64.728
-        ]
-      },
-      "id": "us6000qucv"
     }
   ],
   "bbox": [
     -151.2746,
     -60.9349,
     -1.83,
-    177.3842,
-    61.3047,
+    166.1595,
+    61.6621,
     220.735
   ]
 }
