@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753500410000,
+    "generated": 1753503085000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 39
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 3.06,
         "place": "3 km W of Banning, CA",
         "time": 1753491777640,
-        "updated": 1753496191835,
+        "updated": 1753502553531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41032551",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41032551.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 2.1,
         "mmi": 2.588,
         "alert": null,
@@ -172,42 +172,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "79 km S of Sand Point, Alaska",
-        "time": 1753487650263,
-        "updated": 1753491082235,
+        "mag": 3.6,
+        "place": "113 km SSE of Sand Point, Alaska",
+        "time": 1753487649030,
+        "updated": 1753502478040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259h2q2e6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259h2q2e6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qv8v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qv8v.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 2.263,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
-        "net": "ak",
-        "code": "0259h2q2e6",
-        "ids": ",ak0259h2q2e6,",
-        "sources": ",ak,",
+        "sig": 199,
+        "net": "us",
+        "code": "6000qv8v",
+        "ids": ",ak0259h2q2e6,us6000qv8v,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.83,
-        "gap": null,
+        "nst": 18,
+        "dmin": 0.557,
+        "rms": 0.34,
+        "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 79 km S of Sand Point, Alaska"
+        "title": "M 3.6 - 113 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.3607,
-          54.63,
-          5.4
+          -160.0671,
+          54.3492,
+          17.497
         ]
       },
-      "id": "ak0259h2q2e6"
+      "id": "us6000qv8v"
     },
     {
       "type": "Feature",
@@ -768,6 +768,46 @@
         ]
       },
       "id": "us6000qv3y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "11 km E of La Malbaie, Canada",
+        "time": 1753446592708,
+        "updated": 1753501666040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qv9c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qv9c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000qv9c",
+        "ids": ",us6000qv9c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.242,
+        "rms": 0.96,
+        "gap": 209,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.6 - 11 km E of La Malbaie, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0054,
+          47.656,
+          17.329
+        ]
+      },
+      "id": "us6000qv9c"
     },
     {
       "type": "Feature",
@@ -1531,7 +1571,7 @@
     }
   ],
   "bbox": [
-    -160.3607,
+    -160.0671,
     -55.3106,
     4.2,
     178.6093,
