@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753631990000,
+    "generated": 1753635581000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.69,
         "place": "16 km S of Volcano, Hawaii",
         "time": 1753624457980,
-        "updated": 1753628209040,
+        "updated": 1753633727367,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74736817",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74736817.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 112,
         "net": "hv",
         "code": "74736817",
-        "ids": ",us6000qvhv,hv74736817,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv74736817,us6000qvhv,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 58,
         "dmin": 0.02097,
         "rms": 0.25999999,
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "us6000qvfm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.2,
-        "place": "Macquarie Island region",
-        "time": 1753546504338,
-        "updated": 1753560159232,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvbw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvbw.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 591,
-        "net": "us",
-        "code": "6000qvbw",
-        "ids": ",us6000qvbw,pt25207001,at00t00l58,",
-        "sources": ",us,pt,at,",
-        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 186,
-        "dmin": 3.276,
-        "rms": 0.96,
-        "gap": 40,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.2 - Macquarie Island region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          157.6307,
-          -57.6831,
-          10
-        ]
-      },
-      "id": "us6000qvbw"
     }
   ],
   "bbox": [
