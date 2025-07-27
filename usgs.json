@@ -1,27 +1,67 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753599652000,
+    "generated": 1753603211000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "54 km W of Mentone, Texas",
+        "time": 1753601512915,
+        "updated": 1753602933315,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025oqogvv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025oqogvv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "tx",
+        "code": "2025oqogvv",
+        "ids": ",us6000qvga,tx2025oqogvv,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 54 km W of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.178,
+          31.71,
+          6.7023
+        ]
+      },
+      "id": "tx2025oqogvv"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.3,
         "place": "106 km WNW of Petrolia, CA",
         "time": 1753599026640,
-        "updated": 1753599535170,
+        "updated": 1753602765018,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75215702",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75215702.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 1.66,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -30,7 +70,7 @@
         "code": "75215702",
         "ids": ",nc75215702,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",nearby-cities,oaf,origin,phase-data,scitech-link,shakemap,",
         "nst": 105,
         "dmin": 0.9133,
         "rms": 0.39,
@@ -48,6 +88,86 @@
         ]
       },
       "id": "nc75215702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "83 km W of Adak, Alaska",
+        "time": 1753597865021,
+        "updated": 1753601481040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvfx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvfx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.147,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000qvfx",
+        "ids": ",us6000qvfx,ak0259k3jfvy,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 41,
+        "dmin": 0.135,
+        "rms": 0.46,
+        "gap": 165,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 83 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.8375,
+          51.7821,
+          85.07
+        ]
+      },
+      "id": "us6000qvfx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "4 km NNW of Las Cañas, Mexico",
+        "time": 1753597570708,
+        "updated": 1753600442040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvfw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvfw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000qvfw",
+        "ids": ",us6000qvfw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 1.264,
+        "rms": 0.8,
+        "gap": 216,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 4 km NNW of Las Cañas, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9888,
+          18.6041,
+          86.806
+        ]
+      },
+      "id": "us6000qvfw"
     },
     {
       "type": "Feature",
@@ -128,6 +248,46 @@
         ]
       },
       "id": "us6000qvfr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.63,
+        "place": "27 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1753596430070,
+        "updated": 1753601747489,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025208000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025208000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 203,
+        "net": "pr",
+        "code": "2025208000",
+        "ids": ",pr2025208000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.2461,
+        "rms": 0.22,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 27 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8988,
+          18.5916,
+          100
+        ]
+      },
+      "id": "pr2025208000"
     },
     {
       "type": "Feature",
@@ -1531,7 +1691,7 @@
     }
   ],
   "bbox": [
-    -176.614,
+    -177.8375,
     -57.6933,
     0,
     178.2672,
