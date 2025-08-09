@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754776805000,
+    "generated": 1754780412000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 52
+    "count": 50
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 2.69,
         "place": "11 km SE of Pinnacles, CA",
         "time": 1754776416900,
-        "updated": 1754776705761,
+        "updated": 1754778990090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75221232",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75221232.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -30,7 +30,7 @@
         "code": "75221232",
         "ids": ",nc75221232,",
         "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 45,
         "dmin": 0.01004,
         "rms": 0.23,
@@ -208,6 +208,46 @@
         ]
       },
       "id": "us6000qzig"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "155 km SE of Severo-Kuril’sk, Russia",
+        "time": 1754764248784,
+        "updated": 1754777354040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qzi7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qzi7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000qzi7",
+        "ids": ",us6000qzi7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 83,
+        "dmin": 3.408,
+        "rms": 0.8,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 155 km SE of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157.6462,
+          49.6786,
+          10
+        ]
+      },
+      "id": "us6000qzi7"
     },
     {
       "type": "Feature",
@@ -1815,7 +1855,7 @@
         "mag": 3.5,
         "place": "204 km SE of Perryville, Alaska",
         "time": 1754699764937,
-        "updated": 1754720814824,
+        "updated": 1754778011040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a5hzf75",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a5hzf75.geojson",
@@ -1828,8 +1868,8 @@
         "sig": 188,
         "net": "ak",
         "code": "025a5hzf75",
-        "ids": ",ak025a5hzf75,",
-        "sources": ",ak,",
+        "ids": ",us6000qzed,ak025a5hzf75,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
@@ -1855,7 +1895,7 @@
         "mag": 3.3,
         "place": "194 km SE of Perryville, Alaska",
         "time": 1754698186500,
-        "updated": 1754698342583,
+        "updated": 1754776891040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a5htq62",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a5htq62.geojson",
@@ -1868,8 +1908,8 @@
         "sig": 168,
         "net": "ak",
         "code": "025a5htq62",
-        "ids": ",ak025a5htq62,",
-        "sources": ",ak,",
+        "ids": ",us6000qzea,ak025a5htq62,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1968,126 +2008,6 @@
         ]
       },
       "id": "us6000qz8x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "36 km WNW of Happy Valley, Alaska",
-        "time": 1754693820783,
-        "updated": 1754714931040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a47o3rv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a47o3rv.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "025a47o3rv",
-        "ids": ",ak025a47o3rv,us6000qz8s,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.29,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 36 km WNW of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.3602,
-          60.0437,
-          71.7
-        ]
-      },
-      "id": "ak025a47o3rv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "54 km SE of Debre Sīna, Ethiopia",
-        "time": 1754691512328,
-        "updated": 1754718870707,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qz8q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qz8q.geojson",
-        "felt": 14,
-        "cdi": 4.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 332,
-        "net": "us",
-        "code": "6000qz8q",
-        "ids": ",us6000qz8q,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 42,
-        "dmin": 3.35,
-        "rms": 0.95,
-        "gap": 256,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 54 km SE of Debre Sīna, Ethiopia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          40.1191,
-          9.5103,
-          10
-        ]
-      },
-      "id": "us6000qz8q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "166 km SE of Vilyuchinsk, Russia",
-        "time": 1754690720277,
-        "updated": 1754694873040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qz8m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qz8m.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000qz8m",
-        "ids": ",us6000qz8m,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 113,
-        "dmin": 1.497,
-        "rms": 0.63,
-        "gap": 89,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 166 km SE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.7836,
-          51.6991,
-          21.373
-        ]
-      },
-      "id": "us6000qz8m"
     }
   ],
   "bbox": [
