@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755007182000,
+    "generated": 1755010782000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "100 km NNE of Hihifo, Tonga",
+        "time": 1755006088724,
+        "updated": 1755009904415,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r03i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r03i.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": 3.871,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 466,
+        "net": "us",
+        "code": "6000r03i",
+        "ids": ",us6000r03i,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 94,
+        "dmin": 2.827,
+        "rms": 1.78,
+        "gap": 49,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 100 km NNE of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.3293,
+          -15.1647,
+          35
+        ]
+      },
+      "id": "us6000r03i"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,17 +255,17 @@
         "mag": 6.3,
         "place": "193 km WNW of Abepura, Indonesia",
         "time": 1754987062788,
-        "updated": 1755006278054,
+        "updated": 1755010554278,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r01m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r01m.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 7.8,
         "mmi": 7.535,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 619,
+        "sig": 620,
         "net": "us",
         "code": "6000r01m",
         "ids": ",us6000r01m,pt25224000,at00t0vgov,",
@@ -1648,91 +1688,11 @@
         ]
       },
       "id": "us6000qztq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "61 km W of Ovalle, Chile",
-        "time": 1754921842874,
-        "updated": 1754926630040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qzt6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qzt6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000qzt6",
-        "ids": ",us6000qzt6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.199,
-        "rms": 0.67,
-        "gap": 157,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 61 km W of Ovalle, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.8425,
-          -30.5857,
-          30.808
-        ]
-      },
-      "id": "us6000qzt6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "113 km SSE of Sand Point, Alaska",
-        "time": 1754921155556,
-        "updated": 1754926225040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qzt5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qzt5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000qzt5",
-        "ids": ",us6000qzt5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.444,
-        "rms": 0.28,
-        "gap": 207,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 113 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.7812,
-          54.4022,
-          32.681
-        ]
-      },
-      "id": "us6000qzt5"
     }
   ],
   "bbox": [
-    -166.5271,
-    -30.5857,
+    -173.3293,
+    -26.9327,
     -1,
     174.3632,
     62.008,
