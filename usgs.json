@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755263365000,
+    "generated": 1755266421000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 41
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.7,
         "place": "67 km ESE of Petropavlovsk-Kamchatsky, Russia",
         "time": 1755252715005,
-        "updated": 1755261606388,
+        "updated": 1755266075040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0yd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r0yd.geojson",
@@ -55,12 +55,12 @@
         "mag": 2.81,
         "place": "22 km NW of Grapevine, CA",
         "time": 1755248387930,
-        "updated": 1755249025980,
+        "updated": 1755263839456,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41261232",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41261232.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +70,7 @@
         "code": "41261232",
         "ids": ",ci41261232,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 71,
         "dmin": 0.2099,
         "rms": 0.27,
@@ -1535,17 +1535,17 @@
         "mag": 2.73,
         "place": "7 km N of Columbus, North Carolina",
         "time": 1755184457710,
-        "updated": 1755261981534,
+        "updated": 1755266057531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60612941",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60612941.geojson",
-        "felt": 734,
+        "felt": 736,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 452,
+        "sig": 453,
         "net": "se",
         "code": "60612941",
         "ids": ",se60612941,us6000r0ry,",
@@ -1648,86 +1648,6 @@
         ]
       },
       "id": "nc75223457"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "11 km WNW of Rincón, Puerto Rico",
-        "time": 1755179655110,
-        "updated": 1755181309390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492858",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492858.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "pr",
-        "code": "71492858",
-        "ids": ",pr71492858,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2479,
-        "rms": 0.24,
-        "gap": 282,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 11 km WNW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.355,
-          18.3783333333333,
-          11.93
-        ]
-      },
-      "id": "pr71492858"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.62,
-        "place": "22 km NNW of San Simeon, CA",
-        "time": 1755178907820,
-        "updated": 1755238067306,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75223397",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75223397.geojson",
-        "felt": 43,
-        "cdi": 3.6,
-        "mmi": 3.517,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 217,
-        "net": "nc",
-        "code": "75223397",
-        "ids": ",ew1755178910,nc75223397,us6000r0rb,",
-        "sources": ",ew,nc,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 80,
-        "dmin": 0.112,
-        "rms": 0.11,
-        "gap": 159,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.6 - 22 km NNW of San Simeon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.320333333333,
-          35.8161666666667,
-          9.07
-        ]
-      },
-      "id": "nc75223397"
     }
   ],
   "bbox": [
