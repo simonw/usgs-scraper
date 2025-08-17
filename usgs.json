@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755432011000,
+    "generated": 1755436073000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "88 km SSW of Attu Station, Alaska",
+        "time": 1755431928794,
+        "updated": 1755433384040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1q5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1q5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000r1q5",
+        "ids": ",us6000r1q5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 1.058,
+        "rms": 0.63,
+        "gap": 204,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 88 km SSW of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7061,
+          52.1051,
+          10
+        ]
+      },
+      "id": "us6000r1q5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -533,15 +573,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "15 km N of Poso, Indonesia",
-        "time": 1755383932431,
-        "updated": 1755429293531,
+        "place": "12 km NNW of Poso, Indonesia",
+        "time": 1755383932129,
+        "updated": 1755435454090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1n3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1n3.geojson",
         "felt": 15,
         "cdi": 8.2,
-        "mmi": 8.189,
+        "mmi": 8.385,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
@@ -550,21 +590,21 @@
         "code": "6000r1n3",
         "ids": ",us6000r1n3,",
         "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 95,
-        "dmin": 1.345,
-        "rms": 1.2,
-        "gap": 20,
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 102,
+        "dmin": 1.323,
+        "rms": 1.28,
+        "gap": 21,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 15 km N of Poso, Indonesia"
+        "title": "M 5.8 - 12 km NNW of Poso, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.7409,
-          -1.2569,
-          10
+          120.7271,
+          -1.2819,
+          8
         ]
       },
       "id": "us6000r1n3"
@@ -1048,53 +1088,13 @@
         ]
       },
       "id": "us6000r1le"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1755346103906,
-        "updated": 1755354678615,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1l5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1l5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000r1l5",
-        "ids": ",us6000r1l5,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 69,
-        "dmin": 3.151,
-        "rms": 0.65,
-        "gap": 80,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.8076,
-          -23.1842,
-          10
-        ]
-      },
-      "id": "us6000r1l5"
     }
   ],
   "bbox": [
     -175.8682,
     -57.3474,
-    10,
-    170.8076,
+    8,
+    172.7061,
     62.2948,
     163.929
   ]
