@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755536467000,
+    "generated": 1755539993000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.76,
+        "place": "76 km WNW of Petrolia, CA",
+        "time": 1755537876370,
+        "updated": 1755539238747,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75225487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75225487.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 117,
+        "net": "nc",
+        "code": "75225487",
+        "ids": ",nc75225487,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.6518,
+        "rms": 0.19,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 76 km WNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.174499511719,
+          40.4328346252441,
+          27
+        ]
+      },
+      "id": "nc75225487"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -655,22 +695,22 @@
         "mag": 5.6,
         "place": "Off the coast of Aisen, Chile",
         "time": 1755501011293,
-        "updated": 1755532350040,
+        "updated": 1755537427322,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1ud",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1ud.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": 0,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 483,
         "net": "us",
         "code": "6000r1ud",
         "ids": ",us6000r1ud,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 77,
         "dmin": 4.51,
         "rms": 0.89,
@@ -1528,53 +1568,13 @@
         ]
       },
       "id": "us6000r1rb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "126 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1755452382172,
-        "updated": 1755525665040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1r9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1r9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000r1r9",
-        "ids": ",us6000r1r9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 1.118,
-        "rms": 0.69,
-        "gap": 165,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 126 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.4521,
-          52.7804,
-          63.678
-        ]
-      },
-      "id": "us6000r1r9"
     }
   ],
   "bbox": [
     -179.4062,
     -44.7953,
     4.32,
-    160.4521,
+    159.425,
     61.735,
     605.074
   ]
