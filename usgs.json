@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755615588000,
+    "generated": 1755619233000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 30
   },
   "features": [
     {
@@ -55,14 +55,14 @@
         "mag": 5.4,
         "place": "south of Tonga",
         "time": 1755614236169,
-        "updated": 1755615577040,
+        "updated": 1755615939474,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r222",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r222.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 449,
@@ -70,7 +70,7 @@
         "code": "6000r222",
         "ids": ",us6000r222,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 37,
         "dmin": 15.123,
         "rms": 1.06,
@@ -615,11 +615,11 @@
         "mag": 3.5,
         "place": "17 km ENE of Neah Bay, Washington",
         "time": 1755569844682,
-        "updated": 1755615545187,
+        "updated": 1755616503408,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1zc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1zc.geojson",
-        "felt": 121,
+        "felt": 122,
         "cdi": 4.1,
         "mmi": 3.253,
         "alert": null,
@@ -732,10 +732,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.86,
+        "mag": 2.76,
         "place": "12 km S of Olancha, CA",
-        "time": 1755563657600,
-        "updated": 1755571093040,
+        "time": 1755563657610,
+        "updated": 1755616811393,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40402354",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40402354.geojson",
@@ -743,28 +743,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 126,
+        "sig": 117,
         "net": "ci",
         "code": "40402354",
         "ids": ",ci40402354,us6000r1z3,",
         "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.09094,
-        "rms": 0.19,
+        "nst": 33,
+        "dmin": 0.08811,
+        "rms": 0.14,
         "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 12 km S of Olancha, CA"
+        "title": "M 2.8 - 12 km S of Olancha, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.029,
-          36.1791667,
-          2.89
+          -118.026,
+          36.1775,
+          3.58
         ]
       },
       "id": "ci40402354"
@@ -1208,173 +1208,13 @@
         ]
       },
       "id": "nc75225487"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "32 km NNE of Pālampur, India",
-        "time": 1755532712671,
-        "updated": 1755540116735,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1wg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1wg.geojson",
-        "felt": 17,
-        "cdi": 3.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 277,
-        "net": "us",
-        "code": "6000r1wg",
-        "ids": ",us6000r1wg,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 43,
-        "dmin": 6.277,
-        "rms": 1.23,
-        "gap": 173,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 32 km NNE of Pālampur, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.742,
-          32.3592,
-          10
-        ]
-      },
-      "id": "us6000r1wg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "24 km N of Valdez, Alaska",
-        "time": 1755530423453,
-        "updated": 1755531387040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025akmnnsa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025akmnnsa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "025akmnnsa",
-        "ids": ",us6000r1w7,ak025akmnnsa,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.4,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 24 km N of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.2721,
-          61.3472,
-          28.3
-        ]
-      },
-      "id": "ak025akmnnsa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "61 km SE of Bitung, Indonesia",
-        "time": 1755530141255,
-        "updated": 1755531160040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1w6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1w6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000r1w6",
-        "ids": ",us6000r1w6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 0.802,
-        "rms": 0.79,
-        "gap": 65,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 61 km SE of Bitung, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.5663,
-          1.1002,
-          75.151
-        ]
-      },
-      "id": "us6000r1w6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "121 km SE of Severo-Kuril’sk, Russia",
-        "time": 1755529857856,
-        "updated": 1755532249040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1w5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1w5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000r1w5",
-        "ids": ",us6000r1w5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 103,
-        "dmin": 3.201,
-        "rms": 0.7,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 121 km SE of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          157.3654,
-          49.9288,
-          29.892
-        ]
-      },
-      "id": "us6000r1w5"
     }
   ],
   "bbox": [
     -175.971,
     -57.1107,
     1.8958,
-    157.3654,
+    155.5378,
     61.7915,
     388.558
   ]
