@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756670380000,
+    "generated": 1756674007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 54
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "10 km N of Bāsawul, Afghanistan",
+        "time": 1756669084630,
+        "updated": 1756670882752,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qsvq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qsvq.geojson",
+        "felt": 2,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000qsvq",
+        "ids": ",us7000qsvq,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.455,
+        "rms": 0.7,
+        "gap": 216,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 10 km N of Bāsawul, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.8817,
+          34.3376,
+          10
+        ]
+      },
+      "id": "us7000qsvq"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6,
         "place": "27 km ENE of Jalālābād, Afghanistan",
         "time": 1756667854194,
-        "updated": 1756670237883,
+        "updated": 1756673117469,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qsvj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qsvj.geojson",
-        "felt": 65,
+        "felt": 82,
         "cdi": 6.8,
         "mmi": 7.383,
-        "alert": null,
+        "alert": "pending",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 598,
+        "sig": 610,
         "net": "us",
         "code": "7000qsvj",
         "ids": ",us7000qsvj,",
         "sources": ",us,",
-        "types": ",dyfi,ground-failure,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 107,
         "dmin": 1.321,
         "rms": 0.88,
@@ -572,10 +612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "14 km NE of Delta, B.C., MX",
-        "time": 1756652293260,
-        "updated": 1756662156040,
+        "mag": 2.97,
+        "place": "14 km NNE of Delta, B.C., MX",
+        "time": 1756652293320,
+        "updated": 1756672231720,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280072",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280072.geojson",
@@ -585,26 +625,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 136,
         "net": "ci",
         "code": "41280072",
         "ids": ",ci41280072,us7000qstm,",
         "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.00785,
-        "rms": 0.4,
-        "gap": 57,
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.01813,
+        "rms": 0.35,
+        "gap": 43,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 14 km NE of Delta, B.C., MX"
+        "title": "M 3.0 - 14 km NNE of Delta, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.1126633,
-          32.4553337,
-          9.62
+          -115.1235,
+          32.4615,
+          6.76
         ]
       },
       "id": "ci41280072"
@@ -654,8 +694,8 @@
       "properties": {
         "mag": 2.6,
         "place": "20 km SW of Jal, New Mexico",
-        "time": 1756651391884,
-        "updated": 1756668540293,
+        "time": 1756651392134,
+        "updated": 1756673688436,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rdiywy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rdiywy.geojson",
@@ -663,7 +703,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "tx",
@@ -671,20 +711,20 @@
         "ids": ",tx2025rdiywy,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 38,
+        "nst": 25,
         "dmin": 0,
-        "rms": 0.3,
-        "gap": 42,
-        "magType": "mlv",
+        "rms": 0.1,
+        "gap": 65,
+        "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 20 km SW of Jal, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.332,
-          31.966,
-          7.7023
+          -103.329,
+          31.969,
+          7.8943
         ]
       },
       "id": "tx2025rdiywy"
@@ -815,17 +855,17 @@
         "mag": 2.61,
         "place": "3 km ESE of Berkeley, CA",
         "time": 1756641937370,
-        "updated": 1756669013512,
+        "updated": 1756673772353,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75231202",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75231202.geojson",
-        "felt": 168,
+        "felt": 173,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 162,
+        "sig": 164,
         "net": "nc",
         "code": "75231202",
         "ids": ",nc75231202,",
@@ -2088,86 +2128,6 @@
         ]
       },
       "id": "us7000qsmv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "99 km SE of Lata, Solomon Islands",
-        "time": 1756584566760,
-        "updated": 1756593114381,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qsly",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qsly.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.292,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000qsly",
-        "ids": ",us7000qsly,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": 53,
-        "dmin": 4.059,
-        "rms": 0.84,
-        "gap": 110,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 99 km SE of Lata, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.3239,
-          -11.4554,
-          51.899
-        ]
-      },
-      "id": "us7000qsly"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "75 km NW of San Antonio, Puerto Rico",
-        "time": 1756584033830,
-        "updated": 1756587495660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493963",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493963.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71493963",
-        "ids": ",pr71493963,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.6948,
-        "rms": 0.22,
-        "gap": 213,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 75 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5315,
-          19.0398333333333,
-          20.26
-        ]
-      },
-      "id": "pr71493963"
     }
   ],
   "bbox": [
