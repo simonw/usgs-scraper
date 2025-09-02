@@ -1,54 +1,14 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756825193000,
+    "generated": 1756828814000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 55
+    "api": "1.14.1",
+    "count": 52
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "14 km SE of Coahoma, Texas",
-        "time": 1756823900604,
-        "updated": 1756824106626,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rhahql",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rhahql.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025rhahql",
-        "ids": ",tx2025rhahql,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.2,
-        "rms": 0,
-        "gap": 269,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 14 km SE of Coahoma, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.219,
-          32.192,
-          4.5749
-        ]
-      },
-      "id": "tx2025rhahql"
-    },
     {
       "type": "Feature",
       "properties": {
@@ -135,22 +95,22 @@
         "mag": 3.7,
         "place": "53 km NE of Valmy, Nevada",
         "time": 1756819893309,
-        "updated": 1756825138167,
+        "updated": 1756828027303,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903669",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903669.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 3.862,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "nn",
         "code": "00903669",
-        "ids": ",nn00903669,",
-        "sources": ",nn,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "ids": ",nn00903669,us7000qt9a,",
+        "sources": ",nn,us,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
         "nst": 10,
         "dmin": 0.302,
         "rms": 0.2106,
@@ -168,6 +128,46 @@
         ]
       },
       "id": "nn00903669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "33 km ESE of Masohi, Indonesia",
+        "time": 1756818621951,
+        "updated": 1756826483040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qt93",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qt93.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000qt93",
+        "ids": ",us7000qt93,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 1.29,
+        "rms": 0.98,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 33 km ESE of Masohi, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.2524,
+          -3.4008,
+          10
+        ]
+      },
+      "id": "us7000qt93"
     },
     {
       "type": "Feature",
@@ -1412,6 +1412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.61,
+        "place": "23 km NW of Stanley, Idaho",
+        "time": 1756769552810,
+        "updated": 1756827954636,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90109858",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90109858.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "mb",
+        "code": "90109858",
+        "ids": ",mb90109858,",
+        "sources": ",mb,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.3395,
+        "rms": 0.17,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 23 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.177166666667,
+          44.3486666666667,
+          8.27
+        ]
+      },
+      "id": "mb90109858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.4,
         "place": "13 km NNW of Tanaina, Alaska",
         "time": 1756765874174,
@@ -1615,17 +1655,17 @@
         "mag": 3.71,
         "place": "11 km S of Tres Pinos, CA",
         "time": 1756758398050,
-        "updated": 1756792447022,
+        "updated": 1756827844122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75231747",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75231747.geojson",
-        "felt": 115,
+        "felt": 116,
         "cdi": 3,
         "mmi": 4.384,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
+        "sig": 247,
         "net": "nc",
         "code": "75231747",
         "ids": ",ew1756758400,nc75231747,",
@@ -2048,166 +2088,6 @@
         ]
       },
       "id": "pr71494263"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "16 km NE of Thousand Palms, CA",
-        "time": 1756742369400,
-        "updated": 1756743917040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280792.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "ci",
-        "code": "41280792",
-        "ids": ",ci41280792,us7000qt1r,",
-        "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 79,
-        "dmin": 0.06539,
-        "rms": 0.15,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 16 km NE of Thousand Palms, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.2496667,
-          33.9095,
-          6.46
-        ]
-      },
-      "id": "ci41280792"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "108 km SSE of Vilyuchinsk, Russia",
-        "time": 1756740952713,
-        "updated": 1756744402040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qt16",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qt16.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000qt16",
-        "ids": ",us7000qt16,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 1.041,
-        "rms": 0.53,
-        "gap": 172,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 108 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          158.7715,
-          51.9867,
-          78.895
-        ]
-      },
-      "id": "us7000qt16"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "130 km SSE of Old Harbor, Alaska",
-        "time": 1756740025974,
-        "updated": 1756743364040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qt12",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qt12.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "7000qt12",
-        "ids": ",us7000qt12,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.193,
-        "rms": 0.99,
-        "gap": 187,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 130 km SSE of Old Harbor, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.1262,
-          56.2239,
-          10
-        ]
-      },
-      "id": "us7000qt12"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "184 km SSE of Vilyuchinsk, Russia",
-        "time": 1756739176443,
-        "updated": 1756742190040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qt11",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qt11.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qt11",
-        "ids": ",us7000qt11,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.671,
-        "rms": 0.83,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 184 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.7441,
-          51.4959,
-          10
-        ]
-      },
-      "id": "us7000qt11"
     }
   ],
   "bbox": [
