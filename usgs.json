@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756843234000,
+    "generated": 1756846811000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 52
+    "api": "2.2.0",
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "63 km WSW of Uyuni, Bolivia",
+        "time": 1756844481895,
+        "updated": 1756846089040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtcv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtcv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000qtcv",
+        "ids": ",us7000qtcv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 1.811,
+        "rms": 0.79,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 63 km WSW of Uyuni, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3374,
+          -20.7621,
+          203.532
+        ]
+      },
+      "id": "us7000qtcv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1756844069872,
+        "updated": 1756845122040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtcu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtcu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000qtcu",
+        "ids": ",us7000qtcu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 3.023,
+        "rms": 1.06,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.6406,
+          -23.3032,
+          10
+        ]
+      },
+      "id": "us7000qtcu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "120 km SE of Kandrian, Papua New Guinea",
+        "time": 1756843486730,
+        "updated": 1756845586040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtcp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtcp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000qtcp",
+        "ids": ",us7000qtcp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 3.412,
+        "rms": 0.9,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 120 km SE of Kandrian, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2467,
+          -7.0391,
+          10
+        ]
+      },
+      "id": "us7000qtcp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1775,22 +1895,22 @@
         "mag": 3,
         "place": "47 km N of Petersville, Alaska",
         "time": 1756769599656,
-        "updated": 1756774157040,
+        "updated": 1756845472740,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b7x0rjx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b7x0rjx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "025b7x0rjx",
-        "ids": ",us7000qt5l,ak025b7x0rjx,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak025b7x0rjx,us7000qt5l,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.78,
@@ -2008,93 +2128,13 @@
         ]
       },
       "id": "us7000qt5a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "48 km SSE of Whites City, New Mexico",
-        "time": 1756760055781,
-        "updated": 1756798296804,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rfrary",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rfrary.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025rfrary",
-        "ids": ",tx2025rfrary,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 48 km SSE of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.207,
-          31.76,
-          6.0999
-        ]
-      },
-      "id": "tx2025rfrary"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.71,
-        "place": "11 km S of Tres Pinos, CA",
-        "time": 1756758398050,
-        "updated": 1756827844122,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75231747",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75231747.geojson",
-        "felt": 116,
-        "cdi": 3,
-        "mmi": 4.384,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 247,
-        "net": "nc",
-        "code": "75231747",
-        "ids": ",ew1756758400,nc75231747,",
-        "sources": ",ew,nc,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 84,
-        "dmin": 0.02124,
-        "rms": 0.17,
-        "gap": 53,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.7 - 11 km S of Tres Pinos, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.330833333333,
-          36.6903333333333,
-          4.72
-        ]
-      },
-      "id": "nc75231747"
     }
   ],
   "bbox": [
     -178.7826,
     -33.099,
     0.085,
-    160.3969,
+    170.6406,
     62.9232,
     568.532
   ]
