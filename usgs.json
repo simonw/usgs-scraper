@@ -1,40 +1,80 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756889997000,
+    "generated": 1756893601000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 50
+    "count": 51
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.2,
+        "place": "106 km SE of Old Harbor, Alaska",
+        "time": 1756892748062,
+        "updated": 1756893545289,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bazu025",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bazu025.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "025bazu025",
+        "ids": ",us7000qtga,ak025bazu025,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.61,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 106 km SE of Old Harbor, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.2183,
+          56.4558,
+          0
+        ]
+      },
+      "id": "ak025bazu025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
         "place": "55 km NE of Valmy, Nevada",
-        "time": 1756888147270,
-        "updated": 1756889738847,
+        "time": 1756888147291,
+        "updated": 1756890617074,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903702",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903702.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.89,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 148,
         "net": "nn",
         "code": "00903702",
-        "ids": ",nn00903702,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.328,
-        "rms": 0.1393,
-        "gap": 141.37,
+        "ids": ",us7000qtfz,nn00903702,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 11,
+        "dmin": 0.327,
+        "rms": 0.1486,
+        "gap": 141.28999999999996,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.1 - 55 km NE of Valmy, Nevada"
@@ -42,8 +82,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7419,
-          41.1979,
+          -116.742,
+          41.1963,
           8.4
         ]
       },
@@ -2013,7 +2053,7 @@
   "bbox": [
     -178.7826,
     -60.3834,
-    1.5,
+    0,
     170.6406,
     61.3748,
     568.532
