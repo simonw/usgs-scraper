@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757577611000,
+    "generated": 1757581221000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
+    "api": "1.14.1",
     "count": 29
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "7 km NE of Guadalupe Victoria, B.C., MX",
+        "time": 1757579375280,
+        "updated": 1757579589897,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288856.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ci",
+        "code": "41288856",
+        "ids": ",ci41288856,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.1205,
+        "rms": 0.3,
+        "gap": 269,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km NE of Guadalupe Victoria, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.061,
+          32.3343333,
+          11.29
+        ]
+      },
+      "id": "ci41288856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "2 km SSE of Panan, Philippines",
         "time": 1757570981636,
-        "updated": 1757572304534,
+        "updated": 1757580044222,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qve1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qve1.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -335,17 +375,17 @@
         "mag": 3.56,
         "place": "20 km NE of Maricopa, CA",
         "time": 1757562830930,
-        "updated": 1757574406036,
+        "updated": 1757580748140,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288688",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288688.geojson",
-        "felt": 264,
+        "felt": 268,
         "cdi": 3.4,
         "mmi": 3.612,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 286,
         "net": "ci",
         "code": "41288688",
         "ids": ",ci41288688,us7000qvdc,",
@@ -1128,54 +1168,14 @@
         ]
       },
       "id": "tx2025rvhxtv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "126 km SSE of Prudhoe Bay, Alaska",
-        "time": 1757492572968,
-        "updated": 1757573007040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bmjv3m4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bmjv3m4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "025bmjv3m4",
-        "ids": ",us7000qv6l,ak025bmjv3m4,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.86,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 126 km SSE of Prudhoe Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.9565,
-          69.2314,
-          0
-        ]
-      },
-      "id": "ak025bmjv3m4"
     }
   ],
   "bbox": [
     -155.7457,
     -9.6564,
-    0,
+    0.43999999761581,
     160.0532,
-    69.2314,
+    56.2689,
     227.353
   ]
 }
