@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757624378000,
+    "generated": 1757628011000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.73,
         "place": "3 km E of Cholame, CA",
         "time": 1757624027550,
-        "updated": 1757624131172,
+        "updated": 1757625907923,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236562",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236562.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 115,
         "net": "nc",
         "code": "75236562",
-        "ids": ",nc75236562,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc75236562,us7000qvkg,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.04858,
         "rms": 0.11,
@@ -972,10 +972,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "185 km W of Gold Beach, Oregon",
+        "time": 1757565873549,
+        "updated": 1757626438040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvdh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvdh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000qvdh",
+        "ids": ",us7000qvdh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 1.718,
+        "rms": 0.85,
+        "gap": 283,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 185 km W of Gold Beach, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.6625,
+          42.2525,
+          10
+        ]
+      },
+      "id": "us7000qvdh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.47,
         "place": "20 km NE of Maricopa, CA",
         "time": 1757564622870,
-        "updated": 1757613564750,
+        "updated": 1757626797040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288704",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288704.geojson",
@@ -988,8 +1028,8 @@
         "sig": 94,
         "net": "ci",
         "code": "41288704",
-        "ids": ",ci41288704,",
-        "sources": ",ci,",
+        "ids": ",ci41288704,us7000qvde,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 65,
         "dmin": 0.1545,
@@ -1015,11 +1055,11 @@
         "mag": 3.69,
         "place": "20 km NE of Maricopa, CA",
         "time": 1757562830880,
-        "updated": 1757623899245,
+        "updated": 1757626804576,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288688",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288688.geojson",
-        "felt": 297,
+        "felt": 298,
         "cdi": 3.1,
         "mmi": 3.527,
         "alert": null,
@@ -1175,17 +1215,17 @@
         "mag": 4.13,
         "place": "10 km W of Maeser, Utah",
         "time": 1757548667450,
-        "updated": 1757618238292,
+        "updated": 1757626323853,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80117176",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80117176.geojson",
-        "felt": 150,
+        "felt": 153,
         "cdi": 4.1,
         "mmi": 3.148,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 324,
+        "sig": 325,
         "net": "uu",
         "code": "80117176",
         "ids": ",us7000qvcv,uu80117176,",
@@ -1208,86 +1248,6 @@
         ]
       },
       "id": "uu80117176"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "41 km NNW of Bedugul, Indonesia",
-        "time": 1757541042061,
-        "updated": 1757542357040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvch",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvch.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qvch",
-        "ids": ",us7000qvch,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.395,
-        "rms": 0.91,
-        "gap": 129,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 41 km NNW of Bedugul, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          115.5079,
-          -8.0866,
-          227.353
-        ]
-      },
-      "id": "us7000qvch"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "58 km SSE of Vilyuchinsk, Russia",
-        "time": 1757540775159,
-        "updated": 1757541992040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvcg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvcg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qvcg",
-        "ids": ",us7000qvcg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.581,
-        "rms": 0.9,
-        "gap": 162,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 58 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          158.7287,
-          52.4452,
-          85.163
-        ]
-      },
-      "id": "us7000qvcg"
     }
   ],
   "bbox": [
@@ -1296,6 +1256,6 @@
     -0.16,
     167.3468,
     66.3707,
-    227.353
+    136.006
   ]
 }
