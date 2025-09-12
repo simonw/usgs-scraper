@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757660376000,
+    "generated": 1757664031000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 34
+    "api": "1.14.1",
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "137 km N of Manatutu, Timor Leste",
+        "time": 1757661717648,
+        "updated": 1757663100040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvn4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvn4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000qvn4",
+        "ids": ",us7000qvn4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 3.914,
+        "rms": 1.12,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 137 km N of Manatutu, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.9437,
+          -7.2674,
+          10
+        ]
+      },
+      "id": "us7000qvn4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "173 km W of Port Orford, Oregon",
+        "time": 1757659658446,
+        "updated": 1757661406040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvmw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvmw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "7000qvmw",
+        "ids": ",us7000qvmw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 1.675,
+        "rms": 0.93,
+        "gap": 275,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 173 km W of Port Orford, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.5898,
+          42.546,
+          10
+        ]
+      },
+      "id": "us7000qvmw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "22 km WSW of Glacier View, Alaska",
         "time": 1757658908344,
-        "updated": 1757658997665,
+        "updated": 1757660927588,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bpttm9e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bpttm9e.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "025bpttm9e",
         "ids": ",ak025bpttm9e,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.58,
