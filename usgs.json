@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758096021000,
+    "generated": 1758099604000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 22
+    "api": "2.2.0",
+    "count": 21
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "204 km SSE of Vilyuchinsk, Russia",
+        "time": 1758091135549,
+        "updated": 1758096268040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwmp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qwmp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000qwmp",
+        "ids": ",us7000qwmp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 1.862,
+        "rms": 0.52,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 204 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.7612,
+          51.2943,
+          10
+        ]
+      },
+      "id": "us7000qwmp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.9,
         "place": "33 km WNW of Willow, Alaska",
         "time": 1758087915091,
-        "updated": 1758088030058,
+        "updated": 1758097418040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025by2z2td",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025by2z2td.geojson",
@@ -68,8 +108,8 @@
         "sig": 129,
         "net": "ak",
         "code": "025by2z2td",
-        "ids": ",ak025by2z2td,",
-        "sources": ",ak,",
+        "ids": ",us7000qwmh,ak025by2z2td,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -808,92 +848,12 @@
         ]
       },
       "id": "us7000qwg4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "10 km S of Port Graham, Alaska",
-        "time": 1758011944023,
-        "updated": 1758012584040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bwh6pyr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bwh6pyr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "025bwh6pyr",
-        "ids": ",us7000qwg0,ak025bwh6pyr,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.37,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 10 km S of Port Graham, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.8047,
-          59.2621,
-          34.4
-        ]
-      },
-      "id": "ak025bwh6pyr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "83 km SSW of Alberto Oviedo Mota, B.C., MX",
-        "time": 1758010408020,
-        "updated": 1758032015970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292224",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292224.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 134,
-        "net": "ci",
-        "code": "41292224",
-        "ids": ",ci41292224,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.4341,
-        "rms": 0.37,
-        "gap": 145,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 83 km SSW of Alberto Oviedo Mota, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6046667,
-          31.5811667,
-          -0.27
-        ]
-      },
-      "id": "ci41292224"
     }
   ],
   "bbox": [
     -179.9048,
     -22.8115,
-    -0.27,
+    0.1,
     178.1724,
     67.2138,
     143.8
