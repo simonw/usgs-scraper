@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758067315000,
+    "generated": 1758072462000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
+    "api": "1.14.1",
     "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "33 km NNE of Mejillones, Chile",
+        "time": 1758066789194,
+        "updated": 1758068087040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwky",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qwky.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000qwky",
+        "ids": ",us7000qwky,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.739,
+        "rms": 0.32,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 33 km NNE of Mejillones, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3643,
+          -22.8115,
+          35
+        ]
+      },
+      "id": "us7000qwky"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -848,54 +888,14 @@
         ]
       },
       "id": "uw62189991"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "50 km N of Kobuk, Alaska",
-        "time": 1757985151442,
-        "updated": 1757986664751,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bwcuyis",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bwcuyis.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "025bwcuyis",
-        "ids": ",ak025bwcuyis,us7000qwes,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.6,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 50 km N of Kobuk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.661,
-          67.353,
-          0
-        ]
-      },
-      "id": "ak025bwcuyis"
     }
   ],
   "bbox": [
     -177.8149,
-    -21.0652,
+    -22.8115,
     -0.27,
     178.1724,
-    67.353,
+    67.2138,
     585.524
   ]
 }
