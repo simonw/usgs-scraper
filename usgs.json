@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758754834000,
+    "generated": 1758758474000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 30
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 6.2,
         "place": "24 km ENE of Mene Grande, Venezuela",
         "time": 1758752515207,
-        "updated": 1758754743997,
+        "updated": 1758758402932,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcnw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcnw.geojson",
-        "felt": 84,
-        "cdi": 5.2,
+        "felt": 166,
+        "cdi": 8.6,
         "mmi": 7.828,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 694,
+        "sig": 793,
         "net": "us",
         "code": "6000rcnw",
         "ids": ",pt25267000,us6000rcnw,at00t3464l,",
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "3 km S of Salcha, Alaska",
-        "time": 1758751094722,
-        "updated": 1758753409197,
+        "mag": 4,
+        "place": "40 km ESE of Caniçal, Portugal",
+        "time": 1758752351992,
+        "updated": 1758756595040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcp6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcp6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000rcp6",
+        "ids": ",us6000rcp6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 7.51,
+        "rms": 0.86,
+        "gap": 206,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 40 km ESE of Caniçal, Portugal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3194,
+          32.663,
+          10
+        ]
+      },
+      "id": "us6000rcp6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "1 km S of Salcha, Alaska",
+        "time": 1758751095052,
+        "updated": 1758756318632,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c9xc880",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c9xc880.geojson",
@@ -63,9 +103,9 @@
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 152,
+        "sig": 142,
         "net": "ak",
         "code": "025c9xc880",
         "ids": ",ak025c9xc880,us6000rcnr,",
@@ -73,18 +113,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.37,
+        "rms": 0.94,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 3 km S of Salcha, Alaska"
+        "title": "M 3.0 - 1 km S of Salcha, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.9098,
-          64.4926,
-          7.1
+          -146.9035,
+          64.509,
+          6.6
         ]
       },
       "id": "ak025c9xc880"
@@ -128,6 +168,46 @@
         ]
       },
       "id": "tx2025svycok"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "89 km SSE of Adak, Alaska",
+        "time": 1758748879843,
+        "updated": 1758758246830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c9x4avl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c9x4avl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.447,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "025c9x4avl",
+        "ids": ",ak025c9x4avl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.25,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 89 km SSE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.0386,
+          51.1646,
+          8.2
+        ]
+      },
+      "id": "ak025c9x4avl"
     },
     {
       "type": "Feature",
@@ -255,7 +335,7 @@
         "mag": 3.1,
         "place": "37 km SSE of Denali National Park, Alaska",
         "time": 1758732123382,
-        "updated": 1758732252440,
+        "updated": 1758756435040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c9u9lsp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c9u9lsp.geojson",
@@ -268,8 +348,8 @@
         "sig": 148,
         "net": "ak",
         "code": "025c9u9lsp",
-        "ids": ",ak025c9u9lsp,",
-        "sources": ",ak,",
+        "ids": ",us6000rcjq,ak025c9u9lsp,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -288,6 +368,46 @@
         ]
       },
       "id": "ak025c9u9lsp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Banda Sea",
+        "time": 1758730476361,
+        "updated": 1758758285040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcjj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcjj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000rcjj",
+        "ids": ",us6000rcjj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 4.284,
+        "rms": 1.25,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.9005,
+          -6.5315,
+          118.946
+        ]
+      },
+      "id": "us6000rcjj"
     },
     {
       "type": "Feature",
@@ -1088,54 +1208,14 @@
         ]
       },
       "id": "ak025c9mfuil"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "71 km NNE of Marybank, New Zealand",
-        "time": 1758669819394,
-        "updated": 1758689482418,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcfm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcfm.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000rcfm",
-        "ids": ",us6000rcfm,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.621,
-        "rms": 0.79,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 71 km NNE of Marybank, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.66,
-          -40.6324,
-          126.251
-        ]
-      },
-      "id": "us6000rcfm"
     }
   ],
   "bbox": [
-    -156.5619,
+    -176.0386,
     -58.0289,
     3.4,
-    173.66,
-    64.4926,
+    159.5893,
+    64.509,
     226.641
   ]
 }
