@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759035616000,
+    "generated": 1759039219000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 25
+    "count": 27
   },
   "features": [
     {
@@ -852,6 +852,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "53 km W of Ollagüe, Chile",
+        "time": 1758959252739,
+        "updated": 1759037065040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdam",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdam.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000rdam",
+        "ids": ",us6000rdam,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.684,
+        "rms": 1.08,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 53 km W of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.77,
+          -21.1828,
+          112.361
+        ]
+      },
+      "id": "us6000rdam"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "208 km SE of Severo-Kuril’sk, Russia",
         "time": 1758957900701,
@@ -1008,6 +1048,46 @@
         ]
       },
       "id": "ak025cemwkp2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "127 km NNE of Wiseman, Alaska",
+        "time": 1758954177754,
+        "updated": 1759037268040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdac",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdac.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000rdac",
+        "ids": ",us6000rdac,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.347,
+        "rms": 0.75,
+        "gap": 50,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 127 km NNE of Wiseman, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.6646,
+          68.4136,
+          9.072
+        ]
+      },
+      "id": "us6000rdac"
     }
   ],
   "bbox": [
@@ -1015,7 +1095,7 @@
     -29.1489,
     2.8,
     168.9742,
-    64.4991,
+    68.4136,
     172.152
   ]
 }
