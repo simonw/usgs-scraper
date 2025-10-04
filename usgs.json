@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759571996000,
+    "generated": 1759575595000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "2 km ESE of Maravilla, Philippines",
+        "time": 1759571417086,
+        "updated": 1759572452040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000reru",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000reru.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000reru",
+        "ids": ",us6000reru,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 6.316,
+        "rms": 0.83,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 2 km ESE of Maravilla, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9099,
+          10.8943,
+          10
+        ]
+      },
+      "id": "us6000reru"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
         "place": "1 km SW of Ilihan, Philippines",
         "time": 1759570878157,
-        "updated": 1759571956040,
+        "updated": 1759572466493,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rers",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rers.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000rers",
         "ids": ",us6000rers,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 56,
         "dmin": 4.125,
         "rms": 0.74,
@@ -1248,86 +1288,6 @@
         ]
       },
       "id": "us6000reh2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "81 km W of Tamarindo, Costa Rica",
-        "time": 1759488451827,
-        "updated": 1759492137040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000reh3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000reh3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000reh3",
-        "ids": ",us6000reh3,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 98,
-        "dmin": 1.183,
-        "rms": 0.53,
-        "gap": 153,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.2 - 81 km W of Tamarindo, Costa Rica"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.5812,
-          10.3444,
-          19.426
-        ]
-      },
-      "id": "us6000reh3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "285 km SE of Ust’-Kamchatsk Staryy, Russia",
-        "time": 1759487243405,
-        "updated": 1759490165040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000regw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000regw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000regw",
-        "ids": ",us6000regw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 4.4,
-        "rms": 0.6,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 285 km SE of Ust’-Kamchatsk Staryy, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          165.6729,
-          54.4217,
-          10
-        ]
-      },
-      "id": "us6000regw"
     }
   ],
   "bbox": [
@@ -1335,7 +1295,7 @@
     -33.6649,
     4.2029,
     169.4773,
-    54.4217,
+    52.49,
     547.676
   ]
 }
