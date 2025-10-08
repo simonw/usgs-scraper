@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759910402000,
+    "generated": 1759914025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 44
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "50 km S of Bengkulu, Indonesia",
+        "time": 1759910944425,
+        "updated": 1759913355040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rfke",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rfke.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000rfke",
+        "ids": ",us6000rfke,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.744,
+        "rms": 1.01,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 50 km S of Bengkulu, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2168,
+          -4.2534,
+          56.505
+        ]
+      },
+      "id": "us6000rfke"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.76,
         "place": "7 km WNW of Independence, Utah",
         "time": 1759909714890,
-        "updated": 1759909921580,
+        "updated": 1759911884640,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80118976",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80118976.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 117,
+        "sig": 118,
         "net": "uu",
         "code": "80118976",
         "ids": ",uu80118976,",
         "sources": ",uu,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 61,
         "dmin": 0.1026,
         "rms": 0.379999995,
@@ -52,20 +92,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "53 km WNW of Nanwalek, Alaska",
-        "time": 1759908835305,
-        "updated": 1759910347040,
+        "mag": 4,
+        "place": "52 km WNW of Nanwalek, Alaska",
+        "time": 1759908835816,
+        "updated": 1759911522617,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cwudqus",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cwudqus.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 3,
-        "mmi": 3.184,
+        "mmi": 3.347,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 215,
+        "sig": 251,
         "net": "ak",
         "code": "025cwudqus",
         "ids": ",ak025cwudqus,us6000rfk5,",
@@ -73,18 +113,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.61,
+        "rms": 0.51,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 53 km WNW of Nanwalek, Alaska"
+        "title": "M 4.0 - 52 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.8152,
-          59.5022,
-          93.1
+          -152.8125,
+          59.4909,
+          94
         ]
       },
       "id": "ak025cwudqus"
@@ -1175,22 +1215,22 @@
         "mag": 3.4,
         "place": "12 km WSW of Takotna, Alaska",
         "time": 1759869818610,
-        "updated": 1759878248256,
+        "updated": 1759912545607,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cven569",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cven569.geojson",
-        "felt": 3,
-        "cdi": 3.3,
+        "felt": null,
+        "cdi": null,
         "mmi": 3.651,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 179,
+        "sig": 178,
         "net": "ak",
         "code": "025cven569",
         "ids": ",ak025cven569,us6000rfgc,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.56,
@@ -1688,86 +1728,6 @@
         ]
       },
       "id": "nn00905541"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "77 km NE of Tonopah, Nevada",
-        "time": 1759825114424,
-        "updated": 1759889108578,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905534",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905534.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "nn",
-        "code": "00905534",
-        "ids": ",us6000rfaf,nn00905534,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 9,
-        "dmin": 0.505,
-        "rms": 0.192,
-        "gap": 76.15,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 77 km NE of Tonopah, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4927,
-          38.461,
-          6.8
-        ]
-      },
-      "id": "nn00905534"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "15 km WSW of Petrolia, CA",
-        "time": 1759824320740,
-        "updated": 1759829540891,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75245951",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75245951.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "nc",
-        "code": "75245951",
-        "ids": ",nc75245951,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.08325,
-        "rms": 0.1,
-        "gap": 265,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 15 km WSW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.451332092285,
-          40.2849998474121,
-          9.22000026702881
-        ]
-      },
-      "id": "nc75245951"
     }
   ],
   "bbox": [
