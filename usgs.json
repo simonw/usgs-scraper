@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760439604000,
+    "generated": 1760443217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "47 km S of Tolsona, Alaska",
+        "time": 1760442355025,
+        "updated": 1760442536018,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d6u24zh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d6u24zh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "025d6u24zh",
+        "ids": ",ak025d6u24zh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.78,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 47 km S of Tolsona, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.1451,
+          61.6619,
+          6.7
+        ]
+      },
+      "id": "ak025d6u24zh"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,17 +255,17 @@
         "mag": 2.6,
         "place": "4 km NNW of Chazy, New York",
         "time": 1760413165507,
-        "updated": 1760439310320,
+        "updated": 1760442962366,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgze",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rgze.geojson",
-        "felt": 110,
-        "cdi": 3.8,
+        "felt": 131,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 146,
+        "sig": 151,
         "net": "us",
         "code": "6000rgze",
         "ids": ",us6000rgze,",
@@ -612,46 +652,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "9 km W of Midland, Texas",
-        "time": 1760388526786,
-        "updated": 1760397158959,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uetivg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uetivg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025uetivg",
-        "ids": ",tx2025uetivg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 233,
-        "magType": "mlv",
-        "type": "earthquake",
-        "title": "M 2.5 - 9 km W of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.175,
-          31.981,
-          2.8027
-        ]
-      },
-      "id": "tx2025uetivg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.4,
         "place": "30 km NW of Whites City, New Mexico",
         "time": 1760386333288,
@@ -1008,52 +1008,12 @@
         ]
       },
       "id": "us6000rgup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "State of Yap, Federated States of Micronesia",
-        "time": 1760353860352,
-        "updated": 1760362685951,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgul",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rgul.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 536,
-        "net": "us",
-        "code": "6000rgul",
-        "ids": ",us6000rgul,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 101,
-        "dmin": 7.071,
-        "rms": 0.78,
-        "gap": 36,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - State of Yap, Federated States of Micronesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.6049,
-          7.2482,
-          10
-        ]
-      },
-      "id": "us6000rgul"
     }
   ],
   "bbox": [
     -153.7065,
     -32.0499,
-    2.8027,
+    3.6199998855591,
     160.5314,
     62.763,
     270.999
