@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760578069000,
+    "generated": 1760581609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 20
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.3,
+        "place": "Drake Passage",
+        "time": 1760578952850,
+        "updated": 1760580858967,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhf2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhf2.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 611,
+        "net": "us",
+        "code": "6000rhf2",
+        "ids": ",pt25289000,at00t47bf0,us6000rhf2,",
+        "sources": ",pt,at,us,",
+        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 58,
+        "dmin": 5.015,
+        "rms": 1.07,
+        "gap": 96,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.3 - Drake Passage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.6217,
+          -59.9066,
+          10
+        ]
+      },
+      "id": "us6000rhf2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,22 +135,22 @@
         "mag": 3,
         "place": "13 km SW of Poth, Texas",
         "time": 1760573239694,
-        "updated": 1760577129212,
+        "updated": 1760580435230,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uirjux",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uirjux.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "tx",
         "code": "2025uirjux",
-        "ids": ",us6000rher,tx2025uirjux,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2025uirjux,us6000rher,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 30,
         "dmin": 0.1,
         "rms": 0.3,
@@ -768,51 +808,11 @@
         ]
       },
       "id": "ak025d8cqrw0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "29 km S of Arroyo, Puerto Rico",
-        "time": 1760493761990,
-        "updated": 1760496304480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498103",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498103.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71498103",
-        "ids": ",pr71498103,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2773,
-        "rms": 0.1,
-        "gap": 249,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 29 km S of Arroyo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0265,
-          17.6975,
-          34.36
-        ]
-      },
-      "id": "pr71498103"
     }
   ],
   "bbox": [
     -178.768,
-    -34.0533,
+    -59.9066,
     7.1569,
     159.8309,
     67.7426,
