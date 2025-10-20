@@ -1,50 +1,130 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760976022000,
+    "generated": 1760979594000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "8 km WNW of Salcha, Alaska",
-        "time": 1760967934197,
-        "updated": 1760971207607,
+        "mag": 5,
+        "place": "158 km N of Maumere, Indonesia",
+        "time": 1760977009105,
+        "updated": 1760978003040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dgsh14y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dgsh14y.geojson",
-        "felt": 11,
-        "cdi": 4.1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ribj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ribj.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 152,
-        "net": "ak",
-        "code": "025dgsh14y",
-        "ids": ",ak025dgsh14y,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.94,
-        "gap": null,
-        "magType": "ml",
+        "sig": 385,
+        "net": "us",
+        "code": "6000ribj",
+        "ids": ",us6000ribj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 86,
+        "dmin": 3.147,
+        "rms": 0.92,
+        "gap": 20,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 3.1 - 8 km WNW of Salcha, Alaska"
+        "title": "M 5.0 - 158 km N of Maumere, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.0818,
-          64.5433,
-          4.3
+          122.3874,
+          -7.1999,
+          550.247
+        ]
+      },
+      "id": "us6000ribj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "194 km WNW of Abepura, Indonesia",
+        "time": 1760976925410,
+        "updated": 1760978638040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ribl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ribl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000ribl",
+        "ids": ",us6000ribl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 1.009,
+        "rms": 0.99,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 194 km WNW of Abepura, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9965,
+          -1.9878,
+          35
+        ]
+      },
+      "id": "us6000ribl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "5 km WNW of Salcha, Alaska",
+        "time": 1760967933643,
+        "updated": 1760979357127,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dgsh14y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dgsh14y.geojson",
+        "felt": 14,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 154,
+        "net": "ak",
+        "code": "025dgsh14y",
+        "ids": ",ak025dgsh14y,us6000riaa,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.68,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 5 km WNW of Salcha, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.9941,
+          64.5491,
+          3.7
         ]
       },
       "id": "ak025dgsh14y"
@@ -1253,9 +1333,9 @@
   "bbox": [
     -174.8966,
     -52.1445,
-    4.3,
+    3.7,
     161.6162,
-    64.5433,
-    240.171
+    64.5491,
+    550.247
   ]
 }
