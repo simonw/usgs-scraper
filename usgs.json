@@ -1,35 +1,115 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761708094000,
+    "generated": 1761710609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "9 km NE of Dorrance, Kansas",
+        "time": 1761709595131,
+        "updated": 1761710397357,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rk3m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rk3m.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": 4.402,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "us",
+        "code": "6000rk3m",
+        "ids": ",us6000rk3m,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 34,
+        "dmin": 0.51,
+        "rms": 0.69,
+        "gap": 59,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.5 - 9 km NE of Dorrance, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5288,
+          38.9125,
+          8.89
+        ]
+      },
+      "id": "us6000rk3m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.46,
+        "place": "63 km SSW of Progreso, B.C., MX",
+        "time": 1761708541710,
+        "updated": 1761709184640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41321872",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41321872.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 184,
+        "net": "ci",
+        "code": "41321872",
+        "ids": ",ci41321872,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.1611,
+        "rms": 0.39,
+        "gap": 107,
+        "magType": "mlr",
+        "type": "earthquake",
+        "title": "M 3.5 - 63 km SSW of Progreso, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.8805008,
+          32.0751648,
+          29.69
+        ]
+      },
+      "id": "ci41321872"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.68,
         "place": "1 km W of Durant, Oklahoma",
         "time": 1761707482230,
-        "updated": 1761707976766,
+        "updated": 1761710494524,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025veet",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025veet.geojson",
-        "felt": 1,
-        "cdi": 3.4,
+        "felt": 32,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 125,
         "net": "ok",
         "code": "2025veet",
-        "ids": ",ok2025veet,",
-        "sources": ",ok,",
+        "ids": ",ok2025veet,us6000rk3j,",
+        "sources": ",ok,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 37,
         "dmin": 0.4277877808,
