@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761916082000,
+    "generated": 1761919202000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "18 km SW of Denali National Park, Alaska",
+        "time": 1761917116772,
+        "updated": 1761918198040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dyz9j4o",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dyz9j4o.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "025dyz9j4o",
+        "ids": ",us6000rkkg,ak025dyz9j4o,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.92,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 18 km SW of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.9478,
+          63.4096,
+          11.3
+        ]
+      },
+      "id": "ak025dyz9j4o"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "86 km SE of Burica, Panama",
+        "time": 1761915869127,
+        "updated": 1761917941040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rkke",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rkke.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000rkke",
+        "ids": ",us6000rkke,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 2.803,
+        "rms": 0.78,
+        "gap": 254,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 86 km SE of Burica, Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3572,
+          7.4464,
+          10
+        ]
+      },
+      "id": "us6000rkke"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 3.22,
         "place": "1 km NW of The Geysers, CA",
         "time": 1761909828290,
-        "updated": 1761914538965,
+        "updated": 1761916232040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75257056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75257056.geojson",
@@ -108,8 +188,8 @@
         "sig": 160,
         "net": "nc",
         "code": "75257056",
-        "ids": ",nc75257056,",
-        "sources": ",nc,",
+        "ids": ",nc75257056,us6000rkjw,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 94,
         "dmin": 0.01133,
@@ -1008,46 +1088,6 @@
         ]
       },
       "id": "us6000rkee"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "44 km SE of Beatty, Nevada",
-        "time": 1761832032106,
-        "updated": 1761842758317,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906582",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906582.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 124,
-        "net": "nn",
-        "code": "00906582",
-        "ids": ",nn00906582,us6000rkck,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.01,
-        "rms": 0.1383,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 44 km SE of Beatty, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3563,
-          36.6712,
-          5.4479
-        ]
-      },
-      "id": "nn00906582"
     }
   ],
   "bbox": [
@@ -1055,7 +1095,7 @@
     -34.7205,
     2.2300000190735,
     169.2434,
-    60.8448,
+    63.4096,
     258.236
   ]
 }
