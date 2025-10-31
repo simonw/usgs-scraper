@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761948028000,
+    "generated": 1761951602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "48 km W of Tyonek, Alaska",
+        "time": 1761950807657,
+        "updated": 1761951163884,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dz4r04l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dz4r04l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "025dz4r04l",
+        "ids": ",ak025dz4r04l,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.28,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 48 km W of Tyonek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.0296,
+          61.08,
+          119.7
+        ]
+      },
+      "id": "ak025dz4r04l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000rkup"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "116 km ESE of Pondaguitan, Philippines",
+        "time": 1761945664728,
+        "updated": 1761949509040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rkum",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rkum.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000rkum",
+        "ids": ",us6000rkum,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 1.865,
+        "rms": 1.23,
+        "gap": 51,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 116 km ESE of Pondaguitan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2056,
+          6.1322,
+          10
+        ]
+      },
+      "id": "us6000rkum"
     },
     {
       "type": "Feature",
@@ -1095,22 +1175,22 @@
         "mag": 4.2,
         "place": "4 km SW of Sındırgı, Turkey",
         "time": 1761884331967,
-        "updated": 1761885843040,
+        "updated": 1761951388639,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rkii",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rkii.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "us",
         "code": "6000rkii",
         "ids": ",us6000rkii,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 0.977,
         "rms": 0.49,
@@ -1412,6 +1492,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "80 km NNE of San Ignacio de Tupile, Panama",
+        "time": 1761872300035,
+        "updated": 1761950992040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rkhp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rkhp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000rkhp",
+        "ids": ",us6000rkhp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 2.152,
+        "rms": 1.2,
+        "gap": 46,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 80 km NNE of San Ignacio de Tupile, Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7946,
+          9.9271,
+          10
+        ]
+      },
+      "id": "us6000rkhp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "128 km S of Yonakuni, Japan",
         "time": 1761870303476,
@@ -1448,86 +1568,6 @@
         ]
       },
       "id": "us6000rkhk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "19 km WSW of Petrolia, CA",
-        "time": 1761864986180,
-        "updated": 1761872837177,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75256856",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75256856.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "nc",
-        "code": "75256856",
-        "ids": ",nc75256856,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.119,
-        "rms": 0.02,
-        "gap": 291,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 19 km WSW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.497833251953,
-          40.2806663513184,
-          18.2199993133545
-        ]
-      },
-      "id": "nc75256856"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "5 km N of Wilson, Kansas",
-        "time": 1761862615141,
-        "updated": 1761912623359,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rkh4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rkh4.geojson",
-        "felt": 9,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "us",
-        "code": "6000rkh4",
-        "ids": ",us6000rkh4,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.489,
-        "rms": 0.41,
-        "gap": 60,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 3.1 - 5 km N of Wilson, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.4702,
-          38.8744,
-          6.15
-        ]
-      },
-      "id": "us6000rkh4"
     }
   ],
   "bbox": [
