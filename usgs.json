@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762286416000,
+    "generated": 1762290029000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 44
+    "count": 45
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49,
-        "place": "81 km NE of Tonopah, Nevada",
-        "time": 1762286194073,
-        "updated": 1762286387261,
+        "mag": 2.9,
+        "place": "32 km SSE of Cantwell, Alaska",
+        "time": 1762287708204,
+        "updated": 1762287935855,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906856",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906856.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e5pk5yc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e5pk5yc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 95,
-        "net": "nn",
-        "code": "00906856",
-        "ids": ",nn00906856,",
-        "sources": ",nn,",
+        "sig": 129,
+        "net": "ak",
+        "code": "025e5pk5yc",
+        "ids": ",ak025e5pk5yc,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.657,
-        "rms": 0.2587,
-        "gap": 79,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.99,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 81 km NE of Tonopah, Nevada"
+        "title": "M 2.9 - 32 km SSE of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4666,
-          38.4869,
-          3.9446
+          -148.6927,
+          63.126,
+          180.1
         ]
       },
-      "id": "nn00906856"
+      "id": "ak025e5pk5yc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "108 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1762287354096,
+        "updated": 1762289239040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlh8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rlh8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000rlh8",
+        "ids": ",us6000rlh8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 3.595,
+        "rms": 0.51,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 108 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.7966,
+          49.7203,
+          70.289
+        ]
+      },
+      "id": "us6000rlh8"
     },
     {
       "type": "Feature",
@@ -55,7 +95,7 @@
         "mag": 4.8,
         "place": "176 km SW of Belaya Gora, Russia",
         "time": 1762284668626,
-        "updated": 1762285993040,
+        "updated": 1762286660040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlh2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rlh2.geojson",
@@ -70,7 +110,7 @@
         "code": "6000rlh2",
         "ids": ",us6000rlh2,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 98,
         "dmin": 6.311,
         "rms": 0.7,
@@ -95,7 +135,7 @@
         "mag": 2.93,
         "place": "8 km E of Willow Creek, CA",
         "time": 1762283784150,
-        "updated": 1762284136760,
+        "updated": 1762288834040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75259101",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75259101.geojson",
@@ -108,8 +148,8 @@
         "sig": 132,
         "net": "nc",
         "code": "75259101",
-        "ids": ",nc75259101,",
-        "sources": ",nc,",
+        "ids": ",nc75259101,us6000rlh0,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
         "dmin": 0.1442,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "nc75259101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "80 km SSE of Sand Point, Alaska",
+        "time": 1762281958750,
+        "updated": 1762288108040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlgx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rlgx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000rlgx",
+        "ids": ",us6000rlgx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.237,
+        "rms": 0.86,
+        "gap": 200,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 80 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.9228,
+          54.6939,
+          28.811
+        ]
+      },
+      "id": "us6000rlgx"
     },
     {
       "type": "Feature",
@@ -175,7 +255,7 @@
         "mag": 2.5,
         "place": "36 km NW of Toyah, Texas",
         "time": 1762278807080,
-        "updated": 1762282802872,
+        "updated": 1762287598040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vsxnfa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vsxnfa.geojson",
@@ -188,8 +268,8 @@
         "sig": 96,
         "net": "tx",
         "code": "2025vsxnfa",
-        "ids": ",tx2025vsxnfa,",
-        "sources": ",tx,",
+        "ids": ",us6000rlgv,tx2025vsxnfa,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 30,
         "dmin": 0,
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "us6000rl8x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "85 km NE of Lobuche, Nepal",
-        "time": 1762203442091,
-        "updated": 1762215176819,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rl8r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rl8r.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rl8r",
-        "ids": ",us6000rl8r,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 58,
-        "dmin": 9.932,
-        "rms": 0.56,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 85 km NE of Lobuche, Nepal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.4343,
-          28.4872,
-          10
-        ]
-      },
-      "id": "us6000rl8r"
     }
   ],
   "bbox": [
@@ -1776,6 +1816,6 @@
     0.1,
     176.2814,
     67.6033,
-    174.639
+    180.1
   ]
 }
