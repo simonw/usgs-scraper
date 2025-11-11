@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762862385000,
+    "generated": 1762866527000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "30 km ESE of Camiña, Chile",
-        "time": 1762857308049,
-        "updated": 1762858826040,
+        "mag": 4.6,
+        "place": "106 km E of Yamada, Japan",
+        "time": 1762862588148,
+        "updated": 1762864524040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmrc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmrc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmri",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmri.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rmri",
+        "ids": ",us6000rmri,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 2.04,
+        "rms": 0.63,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 106 km E of Yamada, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1805,
+          39.5501,
+          31.707
+        ]
+      },
+      "id": "us6000rmri"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "30 km ESE of Camiña, Chile",
+        "time": 1762857308049,
+        "updated": 1762865852252,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmrc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmrc.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
         "net": "us",
         "code": "6000rmrc",
         "ids": ",us6000rmrc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 46,
         "dmin": 0.742,
         "rms": 0.86,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000rmrc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "22 km ESE of Camiña, Chile",
+        "time": 1762857165680,
+        "updated": 1762862833040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmr9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmr9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rmr9",
+        "ids": ",us6000rmr9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.752,
+        "rms": 1.32,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 22 km ESE of Camiña, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.2223,
+          -19.3883,
+          10
+        ]
+      },
+      "id": "us6000rmr9"
     },
     {
       "type": "Feature",
@@ -1288,52 +1368,12 @@
         ]
       },
       "id": "us6000rmlh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "149 km SSE of Chenega, Alaska",
-        "time": 1762777154372,
-        "updated": 1762777957559,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025efi0a26",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025efi0a26.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "025efi0a26",
-        "ids": ",ak025efi0a26,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.9,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 149 km SSE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.2529,
-          58.7803,
-          0
-        ]
-      },
-      "id": "ak025efi0a26"
     }
   ],
   "bbox": [
     -156.4944,
     -38.8562,
-    0,
+    7.54,
     175.0747,
     73.2159,
     236.796
