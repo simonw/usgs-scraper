@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762941605000,
+    "generated": 1762945214000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.06,
-        "place": "25 km WSW of Arimo, Idaho",
-        "time": 1762940651870,
-        "updated": 1762940846910,
+        "mag": 4.4,
+        "place": "0 km NNW of Tála, Cyprus",
+        "time": 1762941549896,
+        "updated": 1762943822040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80122016",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80122016.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmxr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmxr.geojson",
+        "felt": 1,
+        "cdi": 0,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 144,
-        "net": "uu",
-        "code": "80122016",
-        "ids": ",uu80122016,",
-        "sources": ",uu,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.3063,
-        "rms": 0.25999999,
-        "gap": 108,
-        "magType": "ml",
+        "sig": 298,
+        "net": "us",
+        "code": "6000rmxr",
+        "ids": ",us6000rmxr,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.75,
+        "rms": 0.75,
+        "gap": 138,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.1 - 25 km WSW of Arimo, Idaho"
+        "title": "M 4.4 - 0 km NNW of Tála, Cyprus"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.436668395996,
-          42.4478340148926,
-          4.59999990463257
+          32.4294,
+          34.8421,
+          10
+        ]
+      },
+      "id": "us6000rmxr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "24 km WSW of Arimo, Idaho",
+        "time": 1762940651670,
+        "updated": 1762943552040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80122016",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80122016.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "uu",
+        "code": "80122016",
+        "ids": ",uu80122016,us6000rmxk,",
+        "sources": ",uu,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.3139,
+        "rms": 0.17,
+        "gap": 277,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 24 km WSW of Arimo, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.439833333333,
+          42.456,
+          8.91
         ]
       },
       "id": "uu80122016"
@@ -52,20 +92,60 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "2 km ESE of Konia, Cyprus",
-        "time": 1762939885011,
-        "updated": 1762941390039,
+        "mag": 4.7,
+        "place": "4 km ESE of Koloni, Cyprus",
+        "time": 1762940511566,
+        "updated": 1762943376308,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmxj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmxj.geojson",
-        "felt": 5,
-        "cdi": 5.4,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmxn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmxn.geojson",
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 419,
+        "sig": 341,
+        "net": "us",
+        "code": "6000rmxn",
+        "ids": ",us6000rmxn,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.718,
+        "rms": 0.99,
+        "gap": 139,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 4 km ESE of Koloni, Cyprus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5043,
+          34.7292,
+          10
+        ]
+      },
+      "id": "us6000rmxn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "2 km ESE of Konia, Cyprus",
+        "time": 1762939885011,
+        "updated": 1762944963409,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmxj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmxj.geojson",
+        "felt": 77,
+        "cdi": 5.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 461,
         "net": "us",
         "code": "6000rmxj",
         "ids": ",us6000rmxj,",
@@ -88,6 +168,46 @@
         ]
       },
       "id": "us6000rmxj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "297 km WNW of Barview, Oregon",
+        "time": 1762936714858,
+        "updated": 1762944528458,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmxh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmxh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000rmxh",
+        "ids": ",us6000rmxh,",
+        "sources": ",us,",
+        "types": ",oaf,origin,phase-data,",
+        "nst": 96,
+        "dmin": 2.771,
+        "rms": 0.79,
+        "gap": 215,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 297 km WNW of Barview, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.8539,
+          44.104,
+          10
+        ]
+      },
+      "id": "us6000rmxh"
     },
     {
       "type": "Feature",
@@ -255,11 +375,11 @@
         "mag": 3.7,
         "place": "16 km N of Point Possession, Alaska",
         "time": 1762925138562,
-        "updated": 1762937504120,
+        "updated": 1762943456339,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eioy9xw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eioy9xw.geojson",
-        "felt": 193,
+        "felt": 194,
         "cdi": 3,
         "mmi": 2.946,
         "alert": null,
@@ -1088,86 +1208,6 @@
         ]
       },
       "id": "us6000rmri"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "30 km ESE of Camiña, Chile",
-        "time": 1762857308049,
-        "updated": 1762865852252,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmrc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmrc.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000rmrc",
-        "ids": ",us6000rmrc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.742,
-        "rms": 0.86,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 30 km ESE of Camiña, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.1456,
-          -19.3952,
-          10
-        ]
-      },
-      "id": "us6000rmrc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "22 km ESE of Camiña, Chile",
-        "time": 1762857165680,
-        "updated": 1762862833040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmr9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmr9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rmr9",
-        "ids": ",us6000rmr9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.752,
-        "rms": 1.32,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 22 km ESE of Camiña, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.2223,
-          -19.3883,
-          10
-        ]
-      },
-      "id": "us6000rmr9"
     }
   ],
   "bbox": [
