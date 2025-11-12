@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762923629000,
+    "generated": 1762927193000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "13 km S of Fern Forest, Hawaii",
+        "time": 1762925456480,
+        "updated": 1762925703270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74827692",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74827692.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "hv",
+        "code": "74827692",
+        "ids": ",hv74827692,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.03942,
+        "rms": 0.219999999,
+        "gap": 121,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 13 km S of Fern Forest, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.111999511719,
+          19.3473339080811,
+          5.19999980926514
+        ]
+      },
+      "id": "hv74827692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "16 km N of Point Possession, Alaska",
+        "time": 1762925138562,
+        "updated": 1762927013869,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eioy9xw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eioy9xw.geojson",
+        "felt": 174,
+        "cdi": 3.1,
+        "mmi": 2.946,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 265,
+        "net": "ak",
+        "code": "025eioy9xw",
+        "ids": ",ak025eioy9xw,us6000rmwn,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.76,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 16 km N of Point Possession, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.7153,
+          61.0743,
+          4.3
+        ]
+      },
+      "id": "ak025eioy9xw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1048,46 +1128,6 @@
         ]
       },
       "id": "us6000rmqi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "27 km S of Nelchina, Alaska",
-        "time": 1762840568094,
-        "updated": 1762857376040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eh1libh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eh1libh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "025eh1libh",
-        "ids": ",us6000rmqh,ak025eh1libh,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.9,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 27 km S of Nelchina, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.6706,
-          61.7498,
-          13.5
-        ]
-      },
-      "id": "ak025eh1libh"
     }
   ],
   "bbox": [
@@ -1095,7 +1135,7 @@
     -55.3317,
     2.997,
     179.8323,
-    61.7498,
+    61.0743,
     569.641
   ]
 }
