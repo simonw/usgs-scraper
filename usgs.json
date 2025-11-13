@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763042405000,
+    "generated": 1763049616000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "38 km SW of Arctic Village, Alaska",
+        "time": 1763047284985,
+        "updated": 1763048024685,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ekif2kr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ekif2kr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "025ekif2kr",
+        "ids": ",ak025ekif2kr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.54,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 38 km SW of Arctic Village, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.162,
+          67.8786,
+          0
+        ]
+      },
+      "id": "ak025ekif2kr"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.62,
         "place": "17 km ENE of Thousand Palms, CA",
         "time": 1763040732720,
-        "updated": 1763041382370,
+        "updated": 1763043380040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40484722",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40484722.geojson",
@@ -28,8 +68,8 @@
         "sig": 106,
         "net": "ci",
         "code": "40484722",
-        "ids": ",ci40484722,",
-        "sources": ",ci,",
+        "ids": ",ci40484722,us6000rn3w,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 80,
         "dmin": 0.05869,
@@ -135,17 +175,17 @@
         "mag": 2.54,
         "place": "2 km E of San Jacinto, CA",
         "time": 1763026468740,
-        "updated": 1763037428960,
+        "updated": 1763042583796,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40484674",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40484674.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 101,
+        "sig": 102,
         "net": "ci",
         "code": "40484674",
         "ids": ",ci40484674,",
@@ -1088,86 +1128,6 @@
         ]
       },
       "id": "ak025eiwnrbj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "100 km SE of Chignik, Alaska",
-        "time": 1762958271552,
-        "updated": 1762974001015,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eiudryl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eiudryl.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": 2.557,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "ak",
-        "code": "025eiudryl",
-        "ids": ",ak025eiudryl,us6000rmyj,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.44,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.4 - 100 km SE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.3916,
-          55.5919,
-          29.4
-        ]
-      },
-      "id": "ak025eiudryl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "3 km SE of Meládeia, Cyprus",
-        "time": 1762957411498,
-        "updated": 1763014866503,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmyh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmyh.geojson",
-        "felt": 60,
-        "cdi": 6.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 471,
-        "net": "us",
-        "code": "6000rmyh",
-        "ids": ",us6000rmyh,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 75,
-        "dmin": 0.651,
-        "rms": 0.73,
-        "gap": 58,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 3 km SE of Meládeia, Cyprus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.5382,
-          34.9696,
-          10
-        ]
-      },
-      "id": "us6000rmyh"
     }
   ],
   "bbox": [
@@ -1175,7 +1135,7 @@
     -20.1087,
     0,
     159.3722,
-    67.0657,
+    67.8786,
     646.822
   ]
 }
