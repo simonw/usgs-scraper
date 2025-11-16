@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763256501000,
+    "generated": 1763260175000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "55 km NNE of Chase, Alaska",
+        "time": 1763259464037,
+        "updated": 1763259661482,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ep99nia",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ep99nia.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "025ep99nia",
+        "ids": ",ak025ep99nia,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.23,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 55 km NNE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8222,
+          62.9302,
+          146.7
+        ]
+      },
+      "id": "ak025ep99nia"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,12 +655,12 @@
         "mag": 4.6,
         "place": "73 km W of Ovalle, Chile",
         "time": 1763225107409,
-        "updated": 1763228374040,
+        "updated": 1763257305840,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnh3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnh3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -630,7 +670,7 @@
         "code": "6000rnh3",
         "ids": ",us6000rnh3,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 166,
         "dmin": 0.952,
         "rms": 0.78,
@@ -655,12 +695,12 @@
         "mag": 4.9,
         "place": "73 km WNW of Houma, Tonga",
         "time": 1763221563878,
-        "updated": 1763222401040,
+        "updated": 1763257122015,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rngz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rngz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -670,7 +710,7 @@
         "code": "6000rngz",
         "ids": ",us6000rngz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 6.009,
         "rms": 0.76,
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "tx2025wlzejk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "off the coast of Northern California",
-        "time": 1763173060499,
-        "updated": 1763173733040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rned",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rned.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000rned",
-        "ids": ",us6000rned,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 2.972,
-        "rms": 1.18,
-        "gap": 290,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - off the coast of Northern California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -127.9918,
-          40.8011,
-          10
-        ]
-      },
-      "id": "us6000rned"
     }
   ],
   "bbox": [
@@ -1655,7 +1655,7 @@
     -55.3578,
     2.69,
     164.437,
-    62.8179,
+    62.9302,
     528.638
   ]
 }
