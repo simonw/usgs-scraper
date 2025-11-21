@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763701185000,
+    "generated": 1763704798000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 45
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "10 km NNW of Healdton, Oklahoma",
+        "time": 1763702434585,
+        "updated": 1763704518040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpi0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpi0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "6000rpi0",
+        "ids": ",us6000rpi0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.067,
+        "rms": 0.63,
+        "gap": 34,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.1 - 10 km NNW of Healdton, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5324,
+          34.3179,
+          7.005
+        ]
+      },
+      "id": "us6000rpi0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "27 km ENE of Willow Creek, CA",
+        "time": 1763701381230,
+        "updated": 1763702537450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266956",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266956.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "nc",
+        "code": "75266956",
+        "ids": ",nc75266956,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.1507,
+        "rms": 0.14,
+        "gap": 58,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 27 km ENE of Willow Creek, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.339668273926,
+          41.0363349914551,
+          33.5800018310547
+        ]
+      },
+      "id": "nc75266956"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "14 km WSW of Narsingdi, Bangladesh",
         "time": 1763699906465,
-        "updated": 1763700974870,
+        "updated": 1763704765482,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpht",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpht.geojson",
-        "felt": 7,
-        "cdi": 6.2,
-        "mmi": null,
-        "alert": null,
+        "felt": 545,
+        "cdi": 5.9,
+        "mmi": 6.92,
+        "alert": "orange",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 470,
+        "sig": 1322,
         "net": "us",
         "code": "6000rpht",
         "ids": ",us6000rpht,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 101,
         "dmin": 4.82,
         "rms": 0.89,
@@ -372,6 +452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.16,
+        "place": "9 km E of Loomis, Washington",
+        "time": 1763683525730,
+        "updated": 1763702669217,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62214426",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62214426.geojson",
+        "felt": 7,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 156,
+        "net": "uw",
+        "code": "62214426",
+        "ids": ",us6000rpgz,uw62214426,",
+        "sources": ",us,uw,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.09649,
+        "rms": 0.35,
+        "gap": 110,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 9 km E of Loomis, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5095,
+          48.807833333333335,
+          15.16
+        ]
+      },
+      "id": "uw62214426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.77,
         "place": "15 km W of Johannesburg, CA",
         "time": 1763683407810,
@@ -488,6 +608,46 @@
         ]
       },
       "id": "us6000rph1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.768871526577628,
+        "place": "82 km SW of Nikolski, Alaska",
+        "time": 1763682396732,
+        "updated": 1763703557458,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wwsvsq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wwsvsq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 219,
+        "net": "ak",
+        "code": "2025wwsvsq",
+        "ids": ",ak2025wwsvsq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.44931408762931824,
+        "rms": 0.560647974086065,
+        "gap": 216.13660049438477,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 82 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.59693908691406,
+          52.34468460083008,
+          34.17044448852539
+        ]
+      },
+      "id": "ak2025wwsvsq"
     },
     {
       "type": "Feature",
@@ -1175,17 +1335,17 @@
         "mag": 3.18,
         "place": "4 km SE of San Ramon, CA",
         "time": 1763652475380,
-        "updated": 1763700746511,
+        "updated": 1763703707256,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266636",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266636.geojson",
-        "felt": 364,
+        "felt": 365,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 268,
+        "sig": 269,
         "net": "nc",
         "code": "75266636",
         "ids": ",nc75266636,us6000rpcd,",
@@ -1768,46 +1928,6 @@
         ]
       },
       "id": "us6000rpaj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5617219289427164,
-        "place": "113 km S of McCarthy, Alaska",
-        "time": 1763615009600,
-        "updated": 1763615102564,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wvhpun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wvhpun.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "ak",
-        "code": "2025wvhpun",
-        "ids": ",ak2025wvhpun,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.12345001846551895,
-        "rms": 0.9272551629896584,
-        "gap": 115.74503326416016,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 113 km S of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -143.00918579101562,
-          60.41360855102539,
-          4.179457664489746
-        ]
-      },
-      "id": "ak2025wvhpun"
     }
   ],
   "bbox": [
