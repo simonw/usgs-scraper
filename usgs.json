@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763730445000,
+    "generated": 1763733599000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 45
+    "count": 46
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.65,
+        "place": "11 km S of Bodfish, CA",
+        "time": 1763732455350,
+        "updated": 1763733362398,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125431.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "ci",
+        "code": "41125431",
+        "ids": ",ci41125431,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.1738,
+        "rms": 0.18,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 11 km S of Bodfish, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.507,
+          35.4906666666667,
+          3.06
+        ]
+      },
+      "id": "ci41125431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.6,
         "place": "south of the Fiji Islands",
-        "time": 1763728680125,
-        "updated": 1763730229169,
+        "time": 1763728679558,
+        "updated": 1763731273423,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpjb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpjb.geojson",
@@ -30,10 +70,10 @@
         "code": "6000rpjb",
         "ids": ",us6000rpjb,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 99,
-        "dmin": 6.647,
-        "rms": 1.09,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 111,
+        "dmin": 6.69,
+        "rms": 0.91,
         "gap": 22,
         "magType": "mww",
         "type": "earthquake",
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.9624,
-          -24.1805,
-          528.461
+          179.9218,
+          -24.236,
+          519.151
         ]
       },
       "id": "us6000rpjb"
@@ -53,15 +93,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "129 km E of Miyako, Japan",
-        "time": 1763727724048,
-        "updated": 1763729755099,
+        "place": "137 km E of Miyako, Japan",
+        "time": 1763727723648,
+        "updated": 1763732572040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpja",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpja.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.447,
+        "mmi": 3.391,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -71,23 +111,63 @@
         "ids": ",us6000rpja,",
         "sources": ",us,",
         "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 101,
-        "dmin": 2.134,
-        "rms": 0.74,
-        "gap": 97,
+        "nst": 98,
+        "dmin": 2.225,
+        "rms": 0.72,
+        "gap": 99,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 129 km E of Miyako, Japan"
+        "title": "M 5.5 - 137 km E of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.4524,
-          39.6859,
+          143.5446,
+          39.6282,
           10
         ]
       },
       "id": "us6000rpja"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "136 km ENE of Kimbe, Papua New Guinea",
+        "time": 1763723750025,
+        "updated": 1763731614040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpj4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpj4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000rpj4",
+        "ids": ",us6000rpj4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 1.244,
+        "rms": 0.49,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 136 km ENE of Kimbe, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2695,
+          -5.0653,
+          137.768
+        ]
+      },
+      "id": "us6000rpj4"
     },
     {
       "type": "Feature",
@@ -415,17 +495,17 @@
         "mag": 5.5,
         "place": "14 km WSW of Narsingdi, Bangladesh",
         "time": 1763699906465,
-        "updated": 1763729932496,
+        "updated": 1763733505837,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpht",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpht.geojson",
-        "felt": 824,
+        "felt": 831,
         "cdi": 6,
         "mmi": 6.697,
         "alert": "orange",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 1494,
+        "sig": 1499,
         "net": "us",
         "code": "6000rpht",
         "ids": ",us6000rpht,",
@@ -775,7 +855,7 @@
         "mag": 3.16,
         "place": "9 km E of Loomis, Washington",
         "time": 1763683525730,
-        "updated": 1763707500645,
+        "updated": 1763731405822,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62214426",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62214426.geojson",
@@ -1768,53 +1848,13 @@
         ]
       },
       "id": "ak2025wwbijj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "13 km NE of La Oroya, Peru",
-        "time": 1763644718921,
-        "updated": 1763681077388,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpc4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpc4.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rpc4",
-        "ids": ",us6000rpc4,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.145,
-        "rms": 0.46,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 13 km NE of La Oroya, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.8242,
-          -11.4213,
-          97.251
-        ]
-      },
-      "id": "us6000rpc4"
     }
   ],
   "bbox": [
     -177.894,
     -44.0605,
     2.1837403774261,
-    179.9624,
+    179.9218,
     63.269226074219,
     621.063
   ]
