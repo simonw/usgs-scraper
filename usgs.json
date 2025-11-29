@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764424804000,
+    "generated": 1764428407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 40
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "4 km SW of Pāhala, Hawaii",
+        "time": 1764425670670,
+        "updated": 1764426434040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74841807",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74841807.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "hv",
+        "code": "74841807",
+        "ids": ",us7000rels,hv74841807,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.03979,
+        "rms": 0.119999997,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 4 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.500335693359,
+          19.1721668243408,
+          31.4799995422363
+        ]
+      },
+      "id": "hv74841807"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.086790052978194,
         "place": "16 km SE of Clam Gulch, Alaska",
         "time": 1764424569920,
-        "updated": 1764424724601,
+        "updated": 1764425532040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xmmutb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xmmutb.geojson",
@@ -28,8 +68,8 @@
         "sig": 147,
         "net": "ak",
         "code": "2025xmmutb",
-        "ids": ",ak2025xmmutb,",
-        "sources": ",ak,",
+        "ids": ",us7000relp,ak2025xmmutb,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 119,
         "dmin": 0.3875183165073395,
@@ -48,6 +88,86 @@
         ]
       },
       "id": "ak2025xmmutb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Vanuatu region",
+        "time": 1764423692800,
+        "updated": 1764425017040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rell",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rell.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000rell",
+        "ids": ",us7000rell,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 3.814,
+        "rms": 0.84,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Vanuatu region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.6927,
+          -13.666,
+          637.509
+        ]
+      },
+      "id": "us7000rell"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "12 km NNE of Colonia, Micronesia",
+        "time": 1764422988207,
+        "updated": 1764428051130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000relk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000relk.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000relk",
+        "ids": ",us7000relk,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 20,
+        "dmin": 4.282,
+        "rms": 0.61,
+        "gap": 124,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 12 km NNE of Colonia, Micronesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.1473,
+          9.6239,
+          10
+        ]
+      },
+      "id": "us7000relk"
     },
     {
       "type": "Feature",
@@ -695,11 +815,11 @@
         "mag": 3.01,
         "place": "3 km SSW of Colma, CA",
         "time": 1764378184630,
-        "updated": 1764420683495,
+        "updated": 1764427508780,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75271341",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75271341.geojson",
-        "felt": 1519,
+        "felt": 1523,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
@@ -1616,6 +1736,6 @@
     4.51,
     179.79063415527,
     66.308868408203,
-    295.573
+    637.509
   ]
 }
