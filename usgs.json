@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764386404000,
+    "generated": 1764388805000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "181 km S of Severo-Kuril’sk, Russia",
+        "time": 1764387249763,
+        "updated": 1764388019040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rejk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rejk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000rejk",
+        "ids": ",us7000rejk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 4.195,
+        "rms": 0.89,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 181 km S of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          156.1069,
+          49.0406,
+          29.933
+        ]
+      },
+      "id": "us7000rejk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,11 +135,11 @@
         "mag": 3.16,
         "place": "3 km SSW of Colma, CA",
         "time": 1764378184650,
-        "updated": 1764386333486,
+        "updated": 1764388547963,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75271341",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75271341.geojson",
-        "felt": 1426,
+        "felt": 1437,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
@@ -208,6 +248,46 @@
         ]
       },
       "id": "us7000rej6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9369828411776346,
+        "place": "256 km WSW of Adak, Alaska",
+        "time": 1764376986765,
+        "updated": 1764388660990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xlmnja",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xlmnja.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 238,
+        "net": "ak",
+        "code": "2025xlmnja",
+        "ids": ",ak2025xlmnja,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.3271026015281677,
+        "rms": 0.29396013975058316,
+        "gap": 216.1575469970703,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 256 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.79063415527344,
+          51.26480865478516,
+          43.86172103881836
+        ]
+      },
+      "id": "ak2025xlmnja"
     },
     {
       "type": "Feature",
@@ -1688,53 +1768,13 @@
         ]
       },
       "id": "us7000rea4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "130 km WNW of Hihifo, Tonga",
-        "time": 1764300608627,
-        "updated": 1764337270040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rea0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rea0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.809,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "7000rea0",
-        "ids": ",us7000rea0,pt25332000,",
-        "sources": ",us,pt,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 61,
-        "dmin": 3.304,
-        "rms": 1.16,
-        "gap": 55,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 130 km WNW of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -174.8509,
-          -15.3657,
-          257.664
-        ]
-      },
-      "id": "us7000rea0"
     }
   ],
   "bbox": [
     -178.5377,
     -47.4633,
     3.76,
-    158.6292,
+    179.79063415527,
     62.431625366211,
     404.616
   ]
