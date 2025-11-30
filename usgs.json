@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764514805000,
+    "generated": 1764518420000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "5 km SW of Walker, CA",
+        "time": 1764515872090,
+        "updated": 1764517337995,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75272216",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75272216.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "nc",
+        "code": "75272216",
+        "ids": ",nc75272216,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.1412,
+        "rms": 0.27,
+        "gap": 83,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km SW of Walker, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.511665344238,
+          38.478832244873,
+          6.55000019073486
+        ]
+      },
+      "id": "nc75272216"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.11,
         "place": "11 km SSE of Willows, CA",
         "time": 1764514567870,
-        "updated": 1764514762113,
+        "updated": 1764517821006,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75272211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75272211.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "75272211",
         "ids": ",nc75272211,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 39,
         "dmin": 0.158,
         "rms": 0.23,
@@ -735,12 +775,12 @@
         "mag": 2.99287389274225,
         "place": "11 km WNW of San Clemente Is. (SE tip), CA",
         "time": 1764468018250,
-        "updated": 1764513045446,
+        "updated": 1764517519636,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41129711",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41129711.geojson",
-        "felt": 2,
-        "cdi": 1,
+        "felt": 3,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -1128,86 +1168,6 @@
         ]
       },
       "id": "pr2025333000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6089295328414734,
-        "place": "89 km S of Nikolai, Alaska",
-        "time": 1764431500765,
-        "updated": 1764431671873,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xmqqkp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xmqqkp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "ak",
-        "code": "2025xmqqkp",
-        "ids": ",ak2025xmqqkp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.3042576014995575,
-        "rms": 1.469281235842088,
-        "gap": 28.41972351074219,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 89 km S of Nikolai, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.2092742919922,
-          62.21493530273438,
-          5
-        ]
-      },
-      "id": "ak2025xmqqkp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "116 km W of Gorontalo, Indonesia",
-        "time": 1764429785928,
-        "updated": 1764430548040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000relx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000relx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000relx",
-        "ids": ",us7000relx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.45,
-        "rms": 0.84,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 116 km W of Gorontalo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.0306,
-          0.3694,
-          176.614
-        ]
-      },
-      "id": "us7000relx"
     }
   ],
   "bbox": [
