@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764562718000,
+    "generated": 1764565564000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "88 km N of Arecibo, Puerto Rico",
+        "time": 1764563013410,
+        "updated": 1764563953410,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501103",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501103.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "pr",
+        "code": "71501103",
+        "ids": ",pr71501103,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.7906,
+        "rms": 0.36,
+        "gap": 268,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 88 km N of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6221666666667,
+          19.267,
+          49.85
+        ]
+      },
+      "id": "pr71501103"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,7 +335,7 @@
         "mag": 2.9042913389857907,
         "place": "13 km NNW of Sterling, Alaska",
         "time": 1764540364375,
-        "updated": 1764540479612,
+        "updated": 1764564787040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xoytuk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xoytuk.geojson",
@@ -308,8 +348,8 @@
         "sig": 130,
         "net": "ak",
         "code": "2025xoytuk",
-        "ids": ",ak2025xoytuk,",
-        "sources": ",ak,",
+        "ids": ",us7000resj,ak2025xoytuk,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 76,
         "dmin": 0.19104307889938354,
@@ -328,6 +368,46 @@
         ]
       },
       "id": "ak2025xoytuk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "15 km SSW of Walden, Colorado",
+        "time": 1764539733857,
+        "updated": 1764562838040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000resg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000resg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000resg",
+        "ids": ",us7000resg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.582,
+        "rms": 0.34,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15 km SSW of Walden, Colorado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3501,
+          40.6051,
+          10.624
+        ]
+      },
+      "id": "us7000resg"
     },
     {
       "type": "Feature",
@@ -1208,46 +1288,6 @@
         ]
       },
       "id": "ak2025xnuefh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.35,
-        "place": "1 km WNW of Pāhala, Hawaii",
-        "time": 1764477573350,
-        "updated": 1764527245282,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74842362",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74842362.geojson",
-        "felt": 24,
-        "cdi": 3.1,
-        "mmi": 3.444,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 180,
-        "net": "hv",
-        "code": "74842362",
-        "ids": ",hv74842362,us7000repe,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 61,
-        "dmin": 0.04076,
-        "rms": 0.129999995,
-        "gap": 79,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 1 km WNW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.491668701172,
-          19.2080001831055,
-          31.6299991607666
-        ]
-      },
-      "id": "hv74842362"
     }
   ],
   "bbox": [
