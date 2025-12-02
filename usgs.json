@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764662414000,
+    "generated": 1764666149000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
+        "mag": 5.2,
         "place": "central Mid-Atlantic Ridge",
-        "time": 1764660870856,
-        "updated": 1764662195040,
+        "time": 1764660870945,
+        "updated": 1764663002040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rf12",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rf12.geojson",
@@ -25,29 +25,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 416,
         "net": "us",
         "code": "7000rf12",
         "ids": ",us7000rf12,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 104,
-        "dmin": 12.521,
-        "rms": 0.61,
+        "dmin": 15.77,
+        "rms": 0.59,
         "gap": 38,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - central Mid-Atlantic Ridge"
+        "title": "M 5.2 - central Mid-Atlantic Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -40.7294,
-          9.2714,
+          -40.7369,
+          9.2884,
           10
         ]
       },
       "id": "us7000rf12"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.47,
+        "place": "11 km E of Punta Cana, Dominican Republic",
+        "time": 1764657941610,
+        "updated": 1764664143600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025336000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025336000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 185,
+        "net": "pr",
+        "code": "2025336000",
+        "ids": ",pr2025336000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1135,
+        "rms": 0.89,
+        "gap": 143,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 11 km E of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2988,
+          18.5918,
+          44
+        ]
+      },
+      "id": "pr2025336000"
     },
     {
       "type": "Feature",
@@ -375,11 +415,11 @@
         "mag": 4.2,
         "place": "59 km S of Sand Point, Alaska",
         "time": 1764634758090,
-        "updated": 1764642797759,
+        "updated": 1764664808593,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rezs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rezs.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1408,86 +1448,6 @@
         ]
       },
       "id": "ak2025xpwqab"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "58 km S of Aitape, Papua New Guinea",
-        "time": 1764578431651,
-        "updated": 1764591898040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000reut",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000reut.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000reut",
-        "ids": ",us7000reut,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.92,
-        "rms": 0.82,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 58 km S of Aitape, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.2554,
-          -3.6559,
-          35
-        ]
-      },
-      "id": "us7000reut"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "6 km WSW of Kenwood, CA",
-        "time": 1764576394270,
-        "updated": 1764661642040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75272546",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75272546.geojson",
-        "felt": 318,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 256,
-        "net": "nc",
-        "code": "75272546",
-        "ids": ",nc75272546,us7000reum,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 151,
-        "dmin": 0.04991,
-        "rms": 0.13,
-        "gap": 18,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 6 km WSW of Kenwood, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.612,
-          38.391,
-          4.9
-        ]
-      },
-      "id": "nc75272546"
     }
   ],
   "bbox": [
