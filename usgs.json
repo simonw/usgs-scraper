@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764770424000,
+    "generated": 1764774005000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 27
+    "count": 26
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 3.33441969530662,
         "place": "42 km WSW of Olancha, CA",
         "time": 1764767882640,
-        "updated": 1764769439973,
+        "updated": 1764772735654,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41131543",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41131543.geojson",
-        "felt": 3,
+        "felt": 6,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -95,7 +95,7 @@
         "mag": 4.451483061928972,
         "place": "81 km ESE of Chignik, Alaska",
         "time": 1764767853286,
-        "updated": 1764770177970,
+        "updated": 1764770700989,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xtukzj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xtukzj.geojson",
@@ -172,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.59,
+        "place": "1 km NNW of Cooter, Missouri",
+        "time": 1764766202290,
+        "updated": 1764771931700,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60615971",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60615971.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "nm",
+        "code": "60615971",
+        "ids": ",nm60615971,",
+        "sources": ",nm,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.06359,
+        "rms": 0.11,
+        "gap": 49,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 1 km NNW of Cooter, Missouri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8175,
+          36.0605,
+          8.95
+        ]
+      },
+      "id": "nm60615971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "185 km WSW of Adak, Alaska",
         "time": 1764761978461,
-        "updated": 1764770319758,
+        "updated": 1764770483753,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rs79",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rs79.geojson",
@@ -335,11 +375,11 @@
         "mag": 2.82,
         "place": "6 km WSW of Kenwood, CA",
         "time": 1764732224560,
-        "updated": 1764770381128,
+        "updated": 1764772077442,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75273471",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75273471.geojson",
-        "felt": 49,
+        "felt": 50,
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
@@ -1008,86 +1048,6 @@
         ]
       },
       "id": "us7000rf1x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "65 km NW of Rincón, Puerto Rico",
-        "time": 1764686276320,
-        "updated": 1764694781040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501248",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501248.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71501248",
-        "ids": ",us7000rf1v,pr71501248,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.623,
-        "rms": 0.42,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 65 km NW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7505,
-          18.6901666666667,
-          47.8
-        ]
-      },
-      "id": "pr71501248"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6854512850772596,
-        "place": "37 km W of Salamatof, Alaska",
-        "time": 1764684656879,
-        "updated": 1764693563040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xsamci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xsamci.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "ak",
-        "code": "2025xsamci",
-        "ids": ",us7000rf1r,ak2025xsamci,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 104,
-        "dmin": 0.22864197194576263,
-        "rms": 0.6291775081034006,
-        "gap": 32.42339324951172,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 37 km W of Salamatof, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.9934539794922,
-          60.67482376098633,
-          89.16677856445312
-        ]
-      },
-      "id": "ak2025xsamci"
     }
   ],
   "bbox": [
