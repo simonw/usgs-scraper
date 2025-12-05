@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764964823000,
+    "generated": 1764968402000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "132 km S of Tambolaka, Indonesia",
+        "time": 1764967344107,
+        "updated": 1764968305040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rstu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rstu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000rstu",
+        "ids": ",us6000rstu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.359,
+        "rms": 0.82,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 132 km S of Tambolaka, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3068,
+          -10.6208,
+          58.964
+        ]
+      },
+      "id": "us6000rstu"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 5.5,
         "place": "201 km SW of José María Morelos, Mexico",
         "time": 1764963220656,
-        "updated": 1764964748913,
+        "updated": 1764966587040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rsti",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rsti.geojson",
@@ -134,27 +174,27 @@
       "properties": {
         "mag": 2.6,
         "place": "38 km NW of Stanton, Texas",
-        "time": 1764963001394,
-        "updated": 1764963363906,
+        "time": 1764963001629,
+        "updated": 1764966173040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025xxycnx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025xxycnx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "tx",
         "code": "2025xxycnx",
         "ids": ",tx2025xxycnx,",
         "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 81,
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 58,
         "dmin": 0,
-        "rms": 0.4,
-        "gap": 40,
+        "rms": 0.1,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 38 km NW of Stanton, Texas"
@@ -162,12 +202,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.098,
-          32.356,
-          3.6736
+          -102.103,
+          32.355,
+          7.9102
         ]
       },
       "id": "tx2025xxycnx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Drake Passage",
+        "time": 1764962674206,
+        "updated": 1764966589040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rstg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rstg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000rstg",
+        "ids": ",us6000rstg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 4.81,
+        "rms": 0.36,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Drake Passage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.9133,
+          -60.0847,
+          10
+        ]
+      },
+      "id": "us6000rstg"
     },
     {
       "type": "Feature",
@@ -1168,172 +1248,12 @@
         ]
       },
       "id": "pr71501483"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.11,
-        "place": "36 km SSW of Saint Croix, U.S. Virgin Islands",
-        "time": 1764881475230,
-        "updated": 1764882815500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501468",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501468.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "pr",
-        "code": "71501468",
-        "ids": ",pr71501468,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.9368,
-        "rms": 0.2,
-        "gap": 278,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 36 km SSW of Saint Croix, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8471666666667,
-          17.4163333333333,
-          50.24
-        ]
-      },
-      "id": "pr71501468"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.13,
-        "place": "76 km E of Cruz Bay, U.S. Virgin Islands",
-        "time": 1764880460190,
-        "updated": 1764882736040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501458",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501458.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "pr",
-        "code": "71501458",
-        "ids": ",us7000rfmb,pr71501458,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.354,
-        "rms": 0.48,
-        "gap": 324,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 76 km E of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.0675,
-          18.3336666666667,
-          33.16
-        ]
-      },
-      "id": "pr71501458"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "60 km NE of Christiansted, U.S. Virgin Islands",
-        "time": 1764880413240,
-        "updated": 1764883134040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rfmm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rfmm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000rfmm",
-        "ids": ",us7000rfmm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.489,
-        "rms": 0.49,
-        "gap": 166,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 60 km NE of Christiansted, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2506,
-          18.0781,
-          10
-        ]
-      },
-      "id": "us7000rfmm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "5 km NW of Wilson, Kansas",
-        "time": 1764878546455,
-        "updated": 1764898386185,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rfm4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rfm4.geojson",
-        "felt": 6,
-        "cdi": 2.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "us",
-        "code": "7000rfm4",
-        "ids": ",us7000rfm4,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.467,
-        "rms": 0.53,
-        "gap": 73,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.8 - 5 km NW of Wilson, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.5108,
-          38.8635,
-          9.55
-        ]
-      },
-      "id": "us7000rfm4"
     }
   ],
   "bbox": [
     -156.91297912598,
     -60.18,
-    3.6736,
+    3.81,
     160.9207,
     56.842136383057,
     138.165
