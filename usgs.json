@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765350114000,
+    "generated": 1765353604000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 5.2,
         "place": "65 km WSW of Vallenar, Chile",
         "time": 1765348707064,
-        "updated": 1765349595040,
+        "updated": 1765350284559,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rttx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rttx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000rttx",
         "ids": ",us6000rttx,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 61,
         "dmin": 0.585,
         "rms": 1.33,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us6000rttx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "113 km N of Yakutat, Alaska",
+        "time": 1765348260672,
+        "updated": 1765351343040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtts",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rtts.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.082,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "6000rtts",
+        "ids": ",us6000rtts,ak2025ygdaww,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 32,
+        "dmin": 0.529,
+        "rms": 1.4,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 113 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.7639,
+          60.564,
+          5
+        ]
+      },
+      "id": "us6000rtts"
     },
     {
       "type": "Feature",
@@ -2488,46 +2528,6 @@
         ]
       },
       "id": "ci41135767"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "43 km W of Sinabang, Indonesia",
-        "time": 1765263773648,
-        "updated": 1765264900040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtkx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rtkx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000rtkx",
-        "ids": ",us6000rtkx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 107,
-        "dmin": 2.004,
-        "rms": 0.72,
-        "gap": 97,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 43 km W of Sinabang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          95.9922,
-          2.5415,
-          10
-        ]
-      },
-      "id": "us6000rtkx"
     }
   ],
   "bbox": [
