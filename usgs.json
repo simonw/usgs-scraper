@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765526406000,
+    "generated": 1765530085000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "108 km N of Yakutat, Alaska",
+        "time": 1765524180512,
+        "updated": 1765529765040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rudj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rudj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000rudj",
+        "ids": ",us6000rudj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.473,
+        "rms": 0.69,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 108 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.8441,
+          60.5216,
+          3.736
+        ]
+      },
+      "id": "us6000rudj"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "5 km WSW of Pāhala, Hawaii",
         "time": 1765523079770,
-        "updated": 1765523374720,
+        "updated": 1765528758040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74850557",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74850557.geojson",
@@ -28,8 +68,8 @@
         "sig": 104,
         "net": "hv",
         "code": "74850557",
-        "ids": ",hv74850557,",
-        "sources": ",hv,",
+        "ids": ",us6000rudh,hv74850557,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 56,
         "dmin": 0.05859,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "hv74850557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "100 km N of Yakutat, Alaska",
+        "time": 1765522870383,
+        "updated": 1765528646040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rudg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rudg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000rudg",
+        "ids": ",us6000rudg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.516,
+        "rms": 0.5,
+        "gap": 84,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 100 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.478,
+          60.4376,
+          3.574
+        ]
+      },
+      "id": "us6000rudg"
     },
     {
       "type": "Feature",
@@ -1808,52 +1888,12 @@
         ]
       },
       "id": "ak2025yifrae"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "183 km SW of Pelican, Alaska",
-        "time": 1765441831088,
-        "updated": 1765445540040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ru3a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ru3a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "6000ru3a",
-        "ids": ",us6000ru3a,ak2025yicsuo,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 40,
-        "dmin": 1.656,
-        "rms": 0.57,
-        "gap": 167,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 183 km SW of Pelican, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -138.5113,
-          56.8601,
-          10
-        ]
-      },
-      "id": "us6000ru3a"
     }
   ],
   "bbox": [
     -178.1906,
     -61.1604,
-    4,
+    3.574,
     157.2134,
     67.371,
     576.24
