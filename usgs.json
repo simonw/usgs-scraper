@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765749604000,
+    "generated": 1765753210000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.6,
         "place": "10 km NNE of Garden City, Texas",
         "time": 1765746963594,
-        "updated": 1765747554282,
+        "updated": 1765752278624,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yophae",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yophae.geojson",
@@ -255,12 +255,12 @@
         "mag": 2.64,
         "place": "9 km NW of Healdton, Oklahoma",
         "time": 1765739900882,
-        "updated": 1765743821040,
+        "updated": 1765752177045,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025yllu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025yllu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -268,9 +268,9 @@
         "sig": 107,
         "net": "ok",
         "code": "2025yllu",
-        "ids": ",us6000ruuj,ok2025yllu,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2025yllu,us6000ruuj,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 12,
         "dmin": 0.09123468399,
         "rms": 0.482986876,
@@ -895,12 +895,12 @@
         "mag": 2.8,
         "place": "20 km ENE of Falls City, Texas",
         "time": 1765707146824,
-        "updated": 1765728346225,
+        "updated": 1765749802437,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ynthef",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ynthef.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -908,9 +908,9 @@
         "sig": 121,
         "net": "tx",
         "code": "2025ynthef",
-        "ids": ",us6000rust,tx2025ynthef,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2025ynthef,us6000rust,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 9,
         "dmin": 0,
         "rms": 0.1,
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "us6000rur2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "10 km SSW of Tomioka, Japan",
-        "time": 1765666378295,
-        "updated": 1765670337040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ruqm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ruqm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ruqm",
-        "ids": ",us6000ruqm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 2.338,
-        "rms": 0.59,
-        "gap": 154,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 10 km SSW of Tomioka, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.9931,
-          37.2402,
-          59.635
-        ]
-      },
-      "id": "us6000ruqm"
     }
   ],
   "bbox": [
