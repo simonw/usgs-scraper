@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765893648000,
+    "generated": 1765897230000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 45
+    "count": 46
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.06,
         "place": "5 km SE of San Ramon, CA",
         "time": 1765893206960,
-        "updated": 1765893487750,
+        "updated": 1765896939398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75280786",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75280786.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 199,
+        "cdi": 4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 144,
+        "sig": 224,
         "net": "nc",
         "code": "75280786",
         "ids": ",nc75280786,",
         "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 81,
         "dmin": 0.09915,
         "rms": 0.13,
@@ -48,6 +48,86 @@
         ]
       },
       "id": "nc75280786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "southern Mid-Atlantic Ridge",
+        "time": 1765892725539,
+        "updated": 1765894747040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rv9r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rv9r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000rv9r",
+        "ids": ",us6000rv9r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 7.364,
+        "rms": 0.34,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - southern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3132,
+          -43.7796,
+          10
+        ]
+      },
+      "id": "us6000rv9r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "southern Mid-Atlantic Ridge",
+        "time": 1765892654814,
+        "updated": 1765893648040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rv9p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rv9p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000rv9p",
+        "ids": ",us6000rv9p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 16.894,
+        "rms": 0.57,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - southern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.27,
+          -43.7242,
+          10
+        ]
+      },
+      "id": "us6000rv9p"
     },
     {
       "type": "Feature",
@@ -1768,51 +1848,11 @@
         ]
       },
       "id": "uw62209737"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Fiji region",
-        "time": 1765808465856,
-        "updated": 1765812305040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ruzc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ruzc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000ruzc",
-        "ids": ",us6000ruzc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 3.919,
-        "rms": 0.65,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9538,
-          -19.4725,
-          589.602
-        ]
-      },
-      "id": "us6000ruzc"
     }
   ],
   "bbox": [
-    -177.9538,
-    -32.9562,
+    -177.8413,
+    -43.7796,
     0.1,
     179.6561,
     62.34,
