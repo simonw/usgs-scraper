@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766188864000,
+    "generated": 1766194047000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.64,
-        "place": "5 km WSW of Pe Ell, Washington",
-        "time": 1766186994670,
-        "updated": 1766188744927,
+        "mag": 4.9,
+        "place": "184 km SE of Vilyuchinsk, Russia",
+        "time": 1766190292739,
+        "updated": 1766192459040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62210922",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62210922.geojson",
-        "felt": 3,
-        "cdi": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rw49",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rw49.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 108,
+        "sig": 369,
+        "net": "us",
+        "code": "6000rw49",
+        "ids": ",us6000rw49,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 87,
+        "dmin": 1.639,
+        "rms": 0.93,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 184 km SE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.1973,
+          51.6885,
+          16.396
+        ]
+      },
+      "id": "us6000rw49"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "5 km WSW of Pe Ell, Washington",
+        "time": 1766186994650,
+        "updated": 1766190962139,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62210922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62210922.geojson",
+        "felt": 4,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 109,
         "net": "uw",
         "code": "62210922",
         "ids": ",uw62210922,",
         "sources": ",uw,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.0511,
-        "rms": 0.19,
-        "gap": 44,
+        "nst": 71,
+        "dmin": 0.05335,
+        "rms": 0.21,
+        "gap": 21,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 5 km WSW of Pe Ell, Washington"
+        "title": "M 2.7 - 5 km WSW of Pe Ell, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.3635,
-          46.5485,
-          40.2
+          -123.366,
+          46.547,
+          40.33
         ]
       },
       "id": "uw62210922"
@@ -55,7 +95,7 @@
         "mag": 2.53,
         "place": "3 km SE of Round Valley, CA",
         "time": 1766183750860,
-        "updated": 1766185040040,
+        "updated": 1766192709040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75282936",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75282936.geojson",
@@ -68,8 +108,8 @@
         "sig": 98,
         "net": "nc",
         "code": "75282936",
-        "ids": ",nc75282936,nn00908766,",
-        "sources": ",nc,nn,",
+        "ids": ",nc75282936,nn00908766,us6000rw3t,",
+        "sources": ",nc,nn,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 34,
         "dmin": 0.1188,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "nc75282936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "109 km N of Yakutat, Alaska",
+        "time": 1766183708014,
+        "updated": 1766189606040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rw3s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rw3s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.002,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "6000rw3s",
+        "ids": ",us6000rw3s,ak2025yxwnqa,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 63,
+        "dmin": 0.469,
+        "rms": 0.59,
+        "gap": 77,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 109 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.8878,
+          60.5267,
+          5
+        ]
+      },
+      "id": "us6000rw3s"
     },
     {
       "type": "Feature",
@@ -135,11 +215,11 @@
         "mag": 5.1,
         "place": "31 km NW of Archidona, Ecuador",
         "time": 1766181594254,
-        "updated": 1766185147164,
+        "updated": 1766192222542,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rw3h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rw3h.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1015,17 +1095,17 @@
         "mag": 2.48,
         "place": "3 km NE of Fontana, CA",
         "time": 1766130858150,
-        "updated": 1766177393205,
+        "updated": 1766190854872,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41142647",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41142647.geojson",
-        "felt": 82,
+        "felt": 83,
         "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 119,
+        "sig": 120,
         "net": "ci",
         "code": "41142647",
         "ids": ",ci41142647,",
@@ -1568,133 +1648,13 @@
         ]
       },
       "id": "pr71502598"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "36 km W of Elfin Cove, Alaska",
-        "time": 1766105640199,
-        "updated": 1766169624040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ywfjok",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ywfjok.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.144,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 246,
-        "net": "ak",
-        "code": "2025ywfjok",
-        "ids": ",at00t7hrtv,us6000rvw1,ak2025ywfjok,",
-        "sources": ",at,us,ak,",
-        "types": ",impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 128,
-        "dmin": 0.5,
-        "rms": 1.7,
-        "gap": 116,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 36 km W of Elfin Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.96,
-          58.205,
-          5
-        ]
-      },
-      "id": "ak2025ywfjok"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "285 km WSW of Houma, Tonga",
-        "time": 1766105398597,
-        "updated": 1766120716040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rvw0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rvw0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000rvw0",
-        "ids": ",us6000rvw0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 5.776,
-        "rms": 0.82,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 285 km WSW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.8798,
-          -22.095,
-          350
-        ]
-      },
-      "id": "us6000rvw0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "88 km NW of Ambon, Indonesia",
-        "time": 1766105134951,
-        "updated": 1766120329040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rvvy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rvvy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rvvy",
-        "ids": ",us6000rvvy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 2.692,
-        "rms": 1,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 88 km NW of Ambon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.5312,
-          -3.2317,
-          11.531
-        ]
-      },
-      "id": "us6000rvvy"
     }
   ],
   "bbox": [
     -179.6913,
     -24.2497,
     1.460000038147,
-    155.9772,
+    160.1973,
     63.049,
     458.82
   ]
