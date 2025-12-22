@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766376846000,
+    "generated": 1766379768000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 44
+    "count": 42
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 4.6,
         "place": "144 km E of Barcelona, Philippines",
         "time": 1766366053210,
-        "updated": 1766367174040,
+        "updated": 1766379266263,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rweu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rweu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "6000rweu",
         "ids": ",us6000rweu,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 36,
         "dmin": 2.495,
         "rms": 0.86,
@@ -175,22 +175,22 @@
         "mag": 2.89,
         "place": "11 km S of Ferndale, CA",
         "time": 1766365564950,
-        "updated": 1766365687815,
+        "updated": 1766377550310,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75284481",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75284481.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 128,
+        "sig": 129,
         "net": "nc",
         "code": "75284481",
         "ids": ",nc75284481,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
         "nst": 10,
         "dmin": 0.1155,
         "rms": 0.06,
@@ -1688,86 +1688,6 @@
         ]
       },
       "id": "us6000rwah"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "81 km E of Shikotan, Russia",
-        "time": 1766292430745,
-        "updated": 1766296489040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwaf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwaf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rwaf",
-        "ids": ",us6000rwaf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 3.728,
-        "rms": 0.82,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 81 km E of Shikotan, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.7144,
-          43.6739,
-          46.676
-        ]
-      },
-      "id": "us6000rwaf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "30 km WNW of Elfin Cove, Alaska",
-        "time": 1766292380466,
-        "updated": 1766304343533,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zaeosi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zaeosi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.092,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "2025zaeosi",
-        "ids": ",us6000rwae,ak2025zaeosi,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 32,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 156,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 30 km WNW of Elfin Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.848,
-          58.267,
-          1.1
-        ]
-      },
-      "id": "ak2025zaeosi"
     }
   ],
   "bbox": [
