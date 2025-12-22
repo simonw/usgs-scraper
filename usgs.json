@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766401202000,
+    "generated": 1766404831000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
+        "place": "53 km NNW of Petersville, Alaska",
+        "time": 1766401625377,
+        "updated": 1766401735401,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zcmxhc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zcmxhc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "2025zcmxhc",
+        "ids": ",ak2025zcmxhc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 47,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 53 km NNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.024,
+          62.961,
+          116.8
+        ]
+      },
+      "id": "ak2025zcmxhc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
         "place": "78 km ENE of Port Alsworth, Alaska",
         "time": 1766400839169,
-        "updated": 1766400968339,
+        "updated": 1766401292040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zcmltn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zcmltn.geojson",
@@ -28,8 +68,8 @@
         "sig": 121,
         "net": "ak",
         "code": "2025zcmltn",
-        "ids": ",ak2025zcmltn,",
-        "sources": ",ak,",
+        "ids": ",us6000rwgt,ak2025zcmltn,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 64,
         "dmin": 0.7,
@@ -55,17 +95,17 @@
         "mag": 6.5,
         "place": "42 km NNE of Goroka, Papua New Guinea",
         "time": 1766399488311,
-        "updated": 1766401085673,
+        "updated": 1766402462111,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwgh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwgh.geojson",
-        "felt": 4,
-        "cdi": 4.3,
+        "felt": 8,
+        "cdi": 5.7,
         "mmi": 5.461,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 652,
+        "sig": 655,
         "net": "us",
         "code": "6000rwgh",
         "ids": ",us6000rwgh,",
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
+        "mag": 2.5,
         "place": "23 km SSW of Westbrook, Texas",
-        "time": 1766398136733,
-        "updated": 1766400839040,
+        "time": 1766398136688,
+        "updated": 1766401300982,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zckzen",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zckzen.geojson",
@@ -105,26 +145,26 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 96,
         "net": "tx",
         "code": "2025zckzen",
         "ids": ",us6000rwgd,tx2025zckzen,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 54,
+        "nst": 56,
         "dmin": 0.2,
         "rms": 0.5,
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 23 km SSW of Westbrook, Texas"
+        "title": "M 2.5 - 23 km SSW of Westbrook, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.07,
-          32.146,
-          1.3243
+          -101.067,
+          32.147,
+          1.3134
         ]
       },
       "id": "tx2025zckzen"
@@ -175,7 +215,7 @@
         "mag": 2.92,
         "place": "81 km W of Petrolia, CA",
         "time": 1766391720650,
-        "updated": 1766391810389,
+        "updated": 1766404797040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75284631",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75284631.geojson",
@@ -188,8 +228,8 @@
         "sig": 131,
         "net": "nc",
         "code": "75284631",
-        "ids": ",nc75284631,",
-        "sources": ",nc,",
+        "ids": ",nc75284631,us6000rwg1,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 40,
         "dmin": 0.6984,
@@ -328,6 +368,46 @@
         ]
       },
       "id": "pr71502843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "121 km E of Antofagasta, Chile",
+        "time": 1766381802239,
+        "updated": 1766402411040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwff",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwff.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000rwff",
+        "ids": ",us6000rwff,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.937,
+        "rms": 0.41,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 121 km E of Antofagasta, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.2109,
+          -23.5856,
+          89.651
+        ]
+      },
+      "id": "us6000rwff"
     },
     {
       "type": "Feature",
@@ -772,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
+        "mag": 2.6,
         "place": "24 km SSW of Westbrook, Texas",
-        "time": 1766355270430,
-        "updated": 1766362695711,
+        "time": 1766355270598,
+        "updated": 1766403345229,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zbnhsj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zbnhsj.geojson",
@@ -783,28 +863,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 104,
         "net": "tx",
         "code": "2025zbnhsj",
         "ids": ",us6000rwdv,tx2025zbnhsj,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 87,
+        "nst": 31,
         "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 81,
+        "rms": 0.1,
+        "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 24 km SSW of Westbrook, Texas"
+        "title": "M 2.6 - 24 km SSW of Westbrook, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.078,
-          32.142,
-          2.5509
+          -101.075,
+          32.143,
+          8.7158
         ]
       },
       "id": "tx2025zbnhsj"
@@ -1535,7 +1615,7 @@
     -61.9834,
     0.1,
     161.4175,
-    61.384,
+    62.961,
     409.473
   ]
 }
