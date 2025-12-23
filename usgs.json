@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766498385000,
+    "generated": 1766501996000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 42
+    "count": 39
   },
   "features": [
     {
@@ -335,7 +335,7 @@
         "mag": 2.94939392113401,
         "place": "9 km SSW of Big Bear Lake, CA",
         "time": 1766478773960,
-        "updated": 1766498130163,
+        "updated": 1766501970246,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41146015",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41146015.geojson",
@@ -343,7 +343,7 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 136,
         "net": "ci",
@@ -351,10 +351,10 @@
         "ids": ",ci41146015,us7000rkbd,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 122,
-        "dmin": 0.07567,
-        "rms": 0.180000007,
-        "gap": 24,
+        "nst": 114,
+        "dmin": 0.07729,
+        "rms": 0.15,
+        "gap": 21,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.9 - 9 km SSW of Big Bear Lake, CA"
@@ -362,9 +362,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.945335388184,
-          34.1689987182617,
-          8.22000026702881
+          -116.945,
+          34.1706666666667,
+          8.15
         ]
       },
       "id": "ci41146015"
@@ -1568,133 +1568,13 @@
         ]
       },
       "id": "us6000rwi2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "107 km N of Yakutat, Alaska",
-        "time": 1766415587300,
-        "updated": 1766450499073,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwht",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwht.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.88,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 298,
-        "net": "us",
-        "code": "6000rwht",
-        "ids": ",at00t7oezm,us6000rwht,ak2025zcuptx,",
-        "sources": ",at,us,ak,",
-        "types": ",impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 96,
-        "dmin": 0.427,
-        "rms": 0.74,
-        "gap": 42,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 107 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.0028,
-          60.5035,
-          5
-        ]
-      },
-      "id": "us6000rwht"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "111 km N of Yakutat, Alaska",
-        "time": 1766412381314,
-        "updated": 1766425166040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwhj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwhj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000rwhj",
-        "ids": ",us6000rwhj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.445,
-        "rms": 1.23,
-        "gap": 107,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 111 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.0646,
-          60.5297,
-          5
-        ]
-      },
-      "id": "us6000rwhj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "198 km ESE of Kimbe, Papua New Guinea",
-        "time": 1766412022479,
-        "updated": 1766424323040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwhi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwhi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rwhi",
-        "ids": ",us6000rwhi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 2.056,
-        "rms": 0.78,
-        "gap": 154,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 198 km ESE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.7986,
-          -6.2285,
-          10
-        ]
-      },
-      "id": "us6000rwhi"
     }
   ],
   "bbox": [
     -178.0743,
     -58.4066,
     -1.3600000143051,
-    151.7986,
+    149.0885,
     62.407,
     590.887
   ]
