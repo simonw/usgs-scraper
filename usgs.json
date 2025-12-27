@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766790004000,
+    "generated": 1766793687000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 44
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "106 km ESE of Kokopo, Papua New Guinea",
+        "time": 1766790145018,
+        "updated": 1766791179040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rkyq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rkyq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000rkyq",
+        "ids": ",us7000rkyq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 1.099,
+        "rms": 0.66,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 106 km ESE of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2003,
+          -4.5682,
+          88.23
+        ]
+      },
+      "id": "us7000rkyq"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.64,
         "place": "9 km NW of Pinnacles, CA",
         "time": 1766788538490,
-        "updated": 1766788779360,
+        "updated": 1766790439398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75286811",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75286811.geojson",
@@ -30,7 +70,7 @@
         "code": "75286811",
         "ids": ",nc75286811,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 64,
         "dmin": 0.02899,
         "rms": 0.27,
@@ -53,41 +93,81 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "112 km N of Yakutat, Alaska",
-        "time": 1766783228933,
-        "updated": 1766784565987,
+        "place": "13 km SW of Obama, Japan",
+        "time": 1766783376538,
+        "updated": 1766792179040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zkprwj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zkprwj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rkxy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rkxy.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.572,
+        "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 271,
-        "net": "ak",
-        "code": "2025zkprwj",
-        "ids": ",ak2025zkprwj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 153,
-        "dmin": 0.6,
-        "rms": 1.3,
-        "gap": 56,
-        "magType": "ml",
+        "net": "us",
+        "code": "7000rkxy",
+        "ids": ",us7000rkxy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 73,
+        "dmin": 1.123,
+        "rms": 0.82,
+        "gap": 78,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 112 km N of Yakutat, Alaska"
+        "title": "M 4.2 - 13 km SW of Obama, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -139.592,
-          60.553,
+          135.6562,
+          35.3964,
+          357.338
+        ]
+      },
+      "id": "us7000rkxy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "111 km N of Yakutat, Alaska",
+        "time": 1766783229470,
+        "updated": 1766792480689,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rkxv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rkxv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.512,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000rkxv",
+        "ids": ",us7000rkxv,ak2025zkprwj,",
+        "sources": ",us,ak,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 77,
+        "dmin": 0.52,
+        "rms": 0.95,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 111 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.7457,
+          60.5489,
           5
         ]
       },
-      "id": "ak2025zkprwj"
+      "id": "us7000rkxv"
     },
     {
       "type": "Feature",
@@ -695,11 +775,11 @@
         "mag": 2.47,
         "place": "18 km W of Union City, Oklahoma",
         "time": 1766748985129,
-        "updated": 1766788791429,
+        "updated": 1766791056690,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025zguo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025zguo.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1608,166 +1688,6 @@
         ]
       },
       "id": "ak2025zjaano"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "8 km W of Templeton, CA",
-        "time": 1766706107410,
-        "updated": 1766731694610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75286356",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75286356.geojson",
-        "felt": 32,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 135,
-        "net": "nc",
-        "code": "75286356",
-        "ids": ",nc75286356,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.1079,
-        "rms": 0.06,
-        "gap": 69,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 8 km W of Templeton, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.791496276855,
-          35.5488319396973,
-          5.65999984741211
-        ]
-      },
-      "id": "nc75286356"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "174 km SE of Perryville, Alaska",
-        "time": 1766705882435,
-        "updated": 1766707897040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rkts",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rkts.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000rkts",
-        "ids": ",us7000rkts,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.731,
-        "rms": 0.57,
-        "gap": 173,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 174 km SE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.024,
-          54.9129,
-          10
-        ]
-      },
-      "id": "us7000rkts"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "40 km NE of Tanana, Alaska",
-        "time": 1766703948846,
-        "updated": 1766706645040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zixxhg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zixxhg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2025zixxhg",
-        "ids": ",us7000rktj,ak2025zixxhg,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 40 km NE of Tanana, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.511,
-          65.451,
-          8.2
-        ]
-      },
-      "id": "ak2025zixxhg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "27 km NW of Rāpar, India",
-        "time": 1766703605421,
-        "updated": 1766726339084,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rktm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rktm.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000rktm",
-        "ids": ",us7000rktm,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 56,
-        "dmin": 13.022,
-        "rms": 0.64,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 27 km NW of Rāpar, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.4226,
-          23.7132,
-          10
-        ]
-      },
-      "id": "us7000rktm"
     }
   ],
   "bbox": [
