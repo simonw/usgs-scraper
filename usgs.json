@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767124802000,
+    "generated": 1767128377000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "31 km SE of Boyuibe, Bolivia",
+        "time": 1767126363769,
+        "updated": 1767127441040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlkk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlkk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000rlkk",
+        "ids": ",us7000rlkk,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 98,
+        "dmin": 2.276,
+        "rms": 0.9,
+        "gap": 22,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 31 km SE of Boyuibe, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1117,
+          -20.6709,
+          547.425
+        ]
+      },
+      "id": "us7000rlkk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.75,
         "place": "15 km NNW of Susanville, CA",
         "time": 1767117808010,
-        "updated": 1767119241794,
+        "updated": 1767125242461,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288671",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288671.geojson",
@@ -28,8 +68,8 @@
         "sig": 116,
         "net": "nc",
         "code": "75288671",
-        "ids": ",nc75288671,nn00909042,",
-        "sources": ",nc,nn,",
+        "ids": ",nc75288671,nn00909042,us7000rlk0,",
+        "sources": ",nc,nn,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 18,
         "dmin": 0.08197,
@@ -292,10 +332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.79,
-        "place": "27 km NNW of Pāhala, Hawaii",
-        "time": 1767095393520,
-        "updated": 1767100256238,
+        "mag": 2.52,
+        "place": "25 km ESE of Honaunau-Napoopoo, Hawaii",
+        "time": 1767095393240,
+        "updated": 1767125386080,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74864982",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74864982.geojson",
@@ -303,28 +343,28 @@
         "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 120,
+        "sig": 98,
         "net": "hv",
         "code": "74864982",
         "ids": ",hv74864982,us7000rli6,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.03342,
-        "rms": 0.319999993,
-        "gap": 118,
+        "nst": 45,
+        "dmin": 0.04664,
+        "rms": 0.23,
+        "gap": 145,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 27 km NNW of Pāhala, Hawaii"
+        "title": "M 2.5 - 25 km ESE of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.600006103516,
-          19.4183330535889,
-          -1.66999995708466
+          -155.624,
+          19.4095,
+          -0.82
         ]
       },
       "id": "hv74864982"
@@ -575,11 +615,11 @@
         "mag": 5.5,
         "place": "20 km NNE of Wadomari, Japan",
         "time": 1767082344533,
-        "updated": 1767103808040,
+        "updated": 1767125283466,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlha",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlha.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.8,
         "mmi": 5.289,
         "alert": "green",
@@ -1333,7 +1373,7 @@
   "bbox": [
     -178.4544,
     -42.6392,
-    -1.6699999570847,
+    -0.82,
     155.273,
     65.8577,
     600.315
