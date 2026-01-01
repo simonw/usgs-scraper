@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767294027000,
+    "generated": 1767297631000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 76
+    "count": 77
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1767297162908,
+        "updated": 1767297628234,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026abnntd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026abnntd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2026abnntd",
+        "ids": ",tx2026abnntd,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 58 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.401,
+          31.649,
+          3.8321
+        ]
+      },
+      "id": "tx2026abnntd"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,12 +655,12 @@
         "mag": 4.6,
         "place": "28 km WSW of La Concepción, Venezuela",
         "time": 1767271024252,
-        "updated": 1767272451040,
+        "updated": 1767294722559,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlwx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlwx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -630,7 +670,7 @@
         "code": "7000rlwx",
         "ids": ",us7000rlwx,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 38,
         "dmin": 2.141,
         "rms": 1.31,
@@ -1548,8 +1588,8 @@
         "sig": 158,
         "net": "us",
         "code": "7000rlux",
-        "ids": ",ak2026aapszg,us7000rlux,",
-        "sources": ",ak,us,",
+        "ids": ",us7000rlux,ak2026aapszg,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 26,
         "dmin": 0.336,
