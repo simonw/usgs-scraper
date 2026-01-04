@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767549627000,
+    "generated": 1767553223000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "128 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1767550040189,
+        "updated": 1767551787040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmge",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rmge.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000rmge",
+        "ids": ",us7000rmge,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 1.144,
+        "rms": 0.7,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 128 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.54,
+          53.1143,
+          47.93
+        ]
+      },
+      "id": "us7000rmge"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.3,
         "place": "34 km WNW of Skwentna, Alaska",
         "time": 1767546318674,
-        "updated": 1767546528405,
+        "updated": 1767551373040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026agvdvt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026agvdvt.geojson",
@@ -28,8 +68,8 @@
         "sig": 168,
         "net": "ak",
         "code": "2026agvdvt",
-        "ids": ",ak2026agvdvt,",
-        "sources": ",ak,",
+        "ids": ",us7000rmg5,ak2026agvdvt,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 140,
         "dmin": 0.3,
@@ -255,17 +295,17 @@
         "mag": 3.27,
         "place": "14 km E of Huntsville, Utah",
         "time": 1767536280210,
-        "updated": 1767549514654,
+        "updated": 1767552780921,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80126796",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80126796.geojson",
-        "felt": 225,
+        "felt": 232,
         "cdi": 3,
         "mmi": 3.38,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 232,
+        "sig": 234,
         "net": "uu",
         "code": "80126796",
         "ids": ",uu80126796,us7000rmfm,",
@@ -1848,53 +1888,13 @@
         ]
       },
       "id": "us7000rmat"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "49 km ESE of Arica, Chile",
-        "time": 1767465755891,
-        "updated": 1767481154040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmap",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rmap.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000rmap",
-        "ids": ",us7000rmap,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.398,
-        "rms": 0.99,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 49 km ESE of Arica, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.8384,
-          -18.5804,
-          93.377
-        ]
-      },
-      "id": "us7000rmap"
     }
   ],
   "bbox": [
     -178.5119,
     -58.7356,
     0.2,
-    159.5869,
+    160.54,
     63.758,
     605.06
   ]
