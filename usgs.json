@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767500363000,
+    "generated": 1767503127000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -535,22 +535,22 @@
         "mag": 4.2,
         "place": "6 km SE of Yilan, Taiwan",
         "time": 1767469970597,
-        "updated": 1767488719040,
+        "updated": 1767501987008,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmaz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rmaz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "us",
         "code": "7000rmaz",
         "ids": ",us7000rmaz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.374,
         "rms": 1.33,
@@ -1008,6 +1008,46 @@
         ]
       },
       "id": "us7000rm9h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "101 km SSE of Sand Point, Alaska",
+        "time": 1767444498856,
+        "updated": 1767501661901,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026aeqxxj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026aeqxxj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.752,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "2026aeqxxj",
+        "ids": ",ak2026aeqxxj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 62,
+        "dmin": 1.3,
+        "rms": 0.9,
+        "gap": 198,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 101 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.939,
+          54.486,
+          30.8
+        ]
+      },
+      "id": "ak2026aeqxxj"
     },
     {
       "type": "Feature",
@@ -1728,46 +1768,6 @@
         ]
       },
       "id": "ak2026aecbnc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "28 km ENE of Beluga, Alaska",
-        "time": 1767414171096,
-        "updated": 1767417423380,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026aeadtf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026aeadtf.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "ak",
-        "code": "2026aeadtf",
-        "ids": ",ak2026aeadtf,us7000rm7m,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 91,
-        "dmin": 0.2,
-        "rms": 1.1,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 28 km ENE of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.564,
-          61.197,
-          36.2
-        ]
-      },
-      "id": "ak2026aeadtf"
     }
   ],
   "bbox": [
