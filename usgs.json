@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767949384000,
+    "generated": 1767952809000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 24
+    "count": 25
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "58 km SE of Adak, Alaska",
-        "time": 1767948369059,
-        "updated": 1767949373011,
+        "mag": 4,
+        "place": "50 km ESE of Adak, Alaska",
+        "time": 1767948367579,
+        "updated": 1767950745040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026apjgkm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026apjgkm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rnm4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rnm4.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.458,
+        "mmi": 3.369,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
-        "net": "ak",
-        "code": "2026apjgkm",
-        "ids": ",ak2026apjgkm,",
-        "sources": ",ak,",
+        "sig": 246,
+        "net": "us",
+        "code": "7000rnm4",
+        "ids": ",ak2026apjgkm,us7000rnm4,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 21,
-        "dmin": 0.4,
-        "rms": 0.5,
-        "gap": 224,
-        "magType": "ml",
+        "nst": 45,
+        "dmin": 0.332,
+        "rms": 0.59,
+        "gap": 183,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 58 km SE of Adak, Alaska"
+        "title": "M 4.0 - 50 km ESE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -175.973,
-          51.541,
-          40
+          -175.9999,
+          51.6465,
+          54.762
         ]
       },
-      "id": "ak2026apjgkm"
+      "id": "us7000rnm4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "110 km N of Yakutat, Alaska",
+        "time": 1767947522514,
+        "updated": 1767950252040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rnm2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rnm2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000rnm2",
+        "ids": ",us7000rnm2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.461,
+        "rms": 0.44,
+        "gap": 135,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 110 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.9679,
+          60.5336,
+          5
+        ]
+      },
+      "id": "us7000rnm2"
     },
     {
       "type": "Feature",
@@ -55,7 +95,7 @@
         "mag": 2.9,
         "place": "110 km SE of Ugashik, Alaska",
         "time": 1767944719417,
-        "updated": 1767944919925,
+        "updated": 1767949793040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026aphfwp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026aphfwp.geojson",
@@ -68,8 +108,8 @@
         "sig": 129,
         "net": "ak",
         "code": "2026aphfwp",
-        "ids": ",ak2026aphfwp,",
-        "sources": ",ak,",
+        "ids": ",us7000rnlw,ak2026aphfwp,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 59,
         "dmin": 0.9,
@@ -971,7 +1011,7 @@
     }
   ],
   "bbox": [
-    -175.973,
+    -175.9999,
     -39.8814,
     4.651,
     176.3386,
