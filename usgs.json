@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768672827000,
+    "generated": 1768676377000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "13 km WNW of Beluga, Alaska",
+        "time": 1768674362748,
+        "updated": 1768675537040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026beuhei",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026beuhei.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": 2.288,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "ak",
+        "code": "2026beuhei",
+        "ids": ",ak2026beuhei,us7000rqbg,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 49,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 13 km WNW of Beluga, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.306,
+          61.203,
+          78.8
+        ]
+      },
+      "id": "ak2026beuhei"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "South Sandwich Islands region",
+        "time": 1768672825258,
+        "updated": 1768674321436,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqbc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqbc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.931,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000rqbc",
+        "ids": ",us7000rqbc,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 83,
+        "dmin": 4.623,
+        "rms": 0.67,
+        "gap": 164,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.8763,
+          -55.7583,
+          68.478
+        ]
+      },
+      "id": "us7000rqbc"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.4,
         "place": "45 km NE of Hualien City, Taiwan",
         "time": 1768669289809,
-        "updated": 1768671627304,
+        "updated": 1768674325040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqb4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqb4.geojson",
@@ -30,7 +110,7 @@
         "code": "7000rqb4",
         "ids": ",us7000rqb4,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 63,
         "dmin": 0.299,
         "rms": 0.61,
@@ -1328,51 +1408,11 @@
         ]
       },
       "id": "us7000rq7c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "43 km WNW of Elfin Cove, Alaska",
-        "time": 1768588541532,
-        "updated": 1768600074064,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bcyvlu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bcyvlu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.702,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "ak",
-        "code": "2026bcyvlu",
-        "ids": ",us7000rq7a,ak2026bcyvlu,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 41,
-        "dmin": 0.6,
-        "rms": 0.7,
-        "gap": 140,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - 43 km WNW of Elfin Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -137.014,
-          58.364,
-          1.7
-        ]
-      },
-      "id": "ak2026bcyvlu"
     }
   ],
   "bbox": [
     -178.2309,
-    -30.5065,
+    -55.7583,
     0,
     178.728,
     63.573,
