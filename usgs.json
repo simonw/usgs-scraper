@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768777227000,
+    "generated": 1768780887000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "68 km NNW of Rampart, Alaska",
+        "time": 1768778884538,
+        "updated": 1768779230550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bhaaik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bhaaik.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "2026bhaaik",
+        "ids": ",ak2026bhaaik,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.8,
+        "rms": 0.7,
+        "gap": 95,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 68 km NNW of Rampart, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.846,
+          66.055,
+          20.2
+        ]
+      },
+      "id": "ak2026bhaaik"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -895,12 +935,12 @@
         "mag": 2.77,
         "place": "16 km E of Ocotillo Wells, CA",
         "time": 1768736550980,
-        "updated": 1768745244040,
+        "updated": 1768778872442,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41161079",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41161079.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -910,7 +950,7 @@
         "code": "41161079",
         "ids": ",ci41161079,us7000rqf4,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 77,
         "dmin": 0.03205,
         "rms": 0.24,
@@ -1968,46 +2008,6 @@
         ]
       },
       "id": "hv74878592"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "55 km WNW of Sitka, Alaska",
-        "time": 1768692257305,
-        "updated": 1768707317620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bfeeez",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bfeeez.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2026bfeeez",
-        "ids": ",av93999701,ak2026bfeeez,",
-        "sources": ",av,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 226,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 55 km WNW of Sitka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.195,
-          57.232,
-          11.8
-        ]
-      },
-      "id": "ak2026bfeeez"
     }
   ],
   "bbox": [
@@ -2015,7 +2015,7 @@
     -48.247,
     -2.4400000572205,
     165.2876,
-    62.037,
+    66.055,
     183.807
   ]
 }
