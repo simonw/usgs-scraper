@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769029403000,
+    "generated": 1769032853000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 46
+    "api": "1.14.1",
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "40 km ESE of Cordova, Alaska",
+        "time": 1769029630691,
+        "updated": 1769029727469,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bmimyb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bmimyb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "2026bmimyb",
+        "ids": ",ak2026bmimyb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 94,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 40 km ESE of Cordova, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.051,
+          60.438,
+          27.1
+        ]
+      },
+      "id": "ak2026bmimyb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "9 km SE of Sındırgı, Turkey",
+        "time": 1769027336843,
+        "updated": 1769029796040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr79",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr79.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000rr79",
+        "ids": ",us7000rr79,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 1.056,
+        "rms": 0.74,
+        "gap": 49,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 9 km SE of Sındırgı, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.256,
+          39.1803,
+          10
+        ]
+      },
+      "id": "us7000rr79"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,12 +415,12 @@
         "mag": 2.8,
         "place": "56 km S of Whites City, New Mexico",
         "time": 1768998654995,
-        "updated": 1769008690040,
+        "updated": 1769030575340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026blrhfm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026blrhfm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -348,9 +428,9 @@
         "sig": 121,
         "net": "tx",
         "code": "2026blrhfm",
-        "ids": ",us7000rr3x,tx2026blrhfm,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2026blrhfm,us7000rr3x,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.1,
         "rms": 0.2,
@@ -775,17 +855,17 @@
         "mag": 4.25592161581873,
         "place": "20 km NNE of Indio, CA",
         "time": 1768984207650,
-        "updated": 1769029368049,
+        "updated": 1769030517689,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41166223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41166223.geojson",
-        "felt": 1477,
-        "cdi": 3.8,
+        "felt": 1481,
+        "cdi": 3.6,
         "mmi": 4.364,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 659,
+        "sig": 639,
         "net": "ci",
         "code": "41166223",
         "ids": ",ew1768984210,ci41166223,at00t97gy7,us7000rr28,",
@@ -1808,46 +1888,6 @@
         ]
       },
       "id": "us7000rqz6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "37 km SSE of Adak, Alaska",
-        "time": 1768946073033,
-        "updated": 1768963616040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqz1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqz1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "7000rqz1",
-        "ids": ",ak2026bkojmr,us7000rqz1,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.288,
-        "rms": 0.2,
-        "gap": 205,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 37 km SSE of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.3799,
-          51.5748,
-          35
-        ]
-      },
-      "id": "us7000rqz1"
     }
   ],
   "bbox": [
