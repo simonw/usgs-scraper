@@ -1,61 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769141674000,
+    "generated": 1769144663000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 36
+    "count": 34
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "33 km NNE of Larsen Bay, Alaska",
-        "time": 1769140237763,
-        "updated": 1769140469393,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026borqae",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026borqae.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "2026borqae",
-        "ids": ",ak2026borqae,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.6,
-        "rms": 0.6,
-        "gap": 291,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 33 km NNE of Larsen Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.712,
-          57.804,
-          14.2
-        ]
-      },
-      "id": "ak2026borqae"
-    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.4,
         "place": "145 km SSE of Sand Point, Alaska",
         "time": 1769140171725,
-        "updated": 1769140855040,
+        "updated": 1769143530156,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rria",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rria.geojson",
@@ -68,9 +28,9 @@
         "sig": 178,
         "net": "us",
         "code": "7000rria",
-        "ids": ",us7000rria,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "ids": ",us7000rria,ak2026borqae,",
+        "sources": ",us,ak,",
+        "types": ",associate,origin,phase-data,",
         "nst": 30,
         "dmin": 1.921,
         "rms": 0.53,
@@ -88,6 +48,46 @@
         ]
       },
       "id": "us7000rria"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.58,
+        "place": "89 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1769139937750,
+        "updated": 1769144305040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026023001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026023001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 197,
+        "net": "pr",
+        "code": "2026023001",
+        "ids": ",us7000rrii,pr2026023001,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.5767,
+        "rms": 0.41,
+        "gap": 283,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 89 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4391,
+          19.066,
+          48
+        ]
+      },
+      "id": "pr2026023001"
     },
     {
       "type": "Feature",
@@ -535,11 +535,11 @@
         "mag": 4.65,
         "place": "40 km S of Evanston, Wyoming",
         "time": 1769093360850,
-        "updated": 1769141488524,
+        "updated": 1769144617287,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80127891",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80127891.geojson",
-        "felt": 4137,
+        "felt": 4160,
         "cdi": 4.6,
         "mmi": 4.554,
         "alert": "green",
@@ -1368,86 +1368,6 @@
         ]
       },
       "id": "us7000rr9p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.0100000000000002,
-        "place": "2 km NNW of Ames Lake, Washington",
-        "time": 1769055725760,
-        "updated": 1769140334759,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62223946",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62223946.geojson",
-        "felt": 280,
-        "cdi": 2.8,
-        "mmi": 2.972,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 218,
-        "net": "uw",
-        "code": "62223946",
-        "ids": ",uw62223946,us7000rr9e,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 129,
-        "dmin": 0.03655,
-        "rms": 0.21,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 2 km NNW of Ames Lake, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.97916666666667,
-          47.64933333333333,
-          27.1
-        ]
-      },
-      "id": "uw62223946"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "96 km WNW of Yakutat, Alaska",
-        "time": 1769055719860,
-        "updated": 1769055811690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bmwyhy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bmwyhy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2026bmwyhy",
-        "ids": ",ak2026bmwyhy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 151,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 96 km WNW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.225,
-          59.968,
-          4.1
-        ]
-      },
-      "id": "ak2026bmwyhy"
     }
   ],
   "bbox": [
