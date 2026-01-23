@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769191194000,
+    "generated": 1769195007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.8,
+        "place": "63 km SW of Nanwalek, Alaska",
+        "time": 1769191208583,
+        "updated": 1769193613040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bptuby",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bptuby.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "2026bptuby",
+        "ids": ",us7000rrp0,ak2026bptuby,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 115,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 63 km SW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.623,
+          58.911,
+          61
+        ]
+      },
+      "id": "ak2026bptuby"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "19 km NNE of Indio, CA",
-        "time": 1769189290090,
-        "updated": 1769190656744,
+        "time": 1769189290050,
+        "updated": 1769194293060,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41169775",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41169775.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -28,12 +68,12 @@
         "sig": 105,
         "net": "ci",
         "code": "41169775",
-        "ids": ",ci41169775,",
-        "sources": ",ci,",
+        "ids": ",ci41169775,us7000rrnw,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 75,
-        "dmin": 0.03769,
-        "rms": 0.17,
+        "nst": 72,
+        "dmin": 0.03835,
+        "rms": 0.15,
         "gap": 38,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.1735,
-          33.8876666666667,
-          3.68
+          -116.172833333333,
+          33.887,
+          3.95
         ]
       },
       "id": "ci41169775"
@@ -55,12 +95,12 @@
         "mag": 4,
         "place": "64 km NE of Grande Cache, Canada",
         "time": 1769187606942,
-        "updated": 1769191072921,
+        "updated": 1769191886286,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrmv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrmv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 4.281,
         "alert": "green",
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "7000rrmv",
         "ids": ",us7000rrmv,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 106,
         "dmin": 0.652,
         "rms": 0.95,
@@ -1168,46 +1208,6 @@
         ]
       },
       "id": "us7000rrfr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "41 km SSE of Evanston, Wyoming",
-        "time": 1769106137030,
-        "updated": 1769178965119,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80127951",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80127951.geojson",
-        "felt": 21,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 140,
-        "net": "uu",
-        "code": "80127951",
-        "ids": ",uu80127951,",
-        "sources": ",uu,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.1016,
-        "rms": 0.25,
-        "gap": 106,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 41 km SSE of Evanston, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.862833333333,
-          40.8998333333333,
-          12.7
-        ]
-      },
-      "id": "uu80127951"
     }
   ],
   "bbox": [
