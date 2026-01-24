@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769270427000,
+    "generated": 1769274011000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 30
+    "api": "2.3.0",
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "82 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1769270329270,
+        "updated": 1769271843660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505808.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "pr",
+        "code": "71505808",
+        "ids": ",pr71505808,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.6638,
+        "rms": 0.44,
+        "gap": 260,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 82 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7468333333333,
+          19.0765,
+          28.57
+        ]
+      },
+      "id": "pr71505808"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +175,11 @@
         "mag": 2.59,
         "place": "10 km E of Kanarraville, Utah",
         "time": 1769259992070,
-        "updated": 1769265306163,
+        "updated": 1769271073975,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80128046",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80128046.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -172,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.41,
+        "mag": 3.37,
         "place": "24 km SSW of Mina, Nevada",
         "time": 1769259008745,
-        "updated": 1769260756272,
+        "updated": 1769272898907,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00909903",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00909903.geojson",
@@ -185,17 +225,17 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 179,
+        "sig": 175,
         "net": "nn",
         "code": "00909903",
         "ids": ",nn00909903,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 13,
         "dmin": 0.166,
         "rms": 0.1041,
         "gap": 89,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
         "title": "M 3.4 - 24 km SSW of Mina, Nevada"
       },
@@ -204,7 +244,7 @@
         "coordinates": [
           -118.1944,
           38.1804,
-          13.3071
+          10
         ]
       },
       "id": "nn00909903"
@@ -1088,126 +1128,6 @@
         ]
       },
       "id": "ci41169775"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "64 km NE of Grande Cache, Canada",
-        "time": 1769187606942,
-        "updated": 1769260995040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrmv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrmv.geojson",
-        "felt": 5,
-        "cdi": 2.7,
-        "mmi": 4.281,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 248,
-        "net": "us",
-        "code": "7000rrmv",
-        "ids": ",us7000rrmv,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 106,
-        "dmin": 0.652,
-        "rms": 0.95,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 64 km NE of Grande Cache, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.4672,
-          54.3141,
-          6.148
-        ]
-      },
-      "id": "us7000rrmv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.86,
-        "place": "5 km WSW of San Rafael del Yuma, Dominican Republic",
-        "time": 1769185743410,
-        "updated": 1769267282040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026023002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026023002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 229,
-        "net": "pr",
-        "code": "2026023002",
-        "ids": ",us7000rrlq,pr2026023002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.3544,
-        "rms": 0.2,
-        "gap": 229,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 5 km WSW of San Rafael del Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7206,
-          18.4113,
-          127
-        ]
-      },
-      "id": "pr2026023002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "29 km S of Weston, Colorado",
-        "time": 1769184530986,
-        "updated": 1769267530040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrll",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrll.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000rrll",
-        "ids": ",us7000rrll,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.781,
-        "rms": 0.37,
-        "gap": 87,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 29 km S of Weston, Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.8833,
-          36.8677,
-          5
-        ]
-      },
-      "id": "us7000rrll"
     }
   ],
   "bbox": [
