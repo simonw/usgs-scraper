@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769360414000,
+    "generated": 1769363977000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "31 km ESE of Nabesna, Alaska",
+        "time": 1769361888799,
+        "updated": 1769362489040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026btkbly",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026btkbly.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "2026btkbly",
+        "ids": ",us7000rs00,ak2026btkbly,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 31 km ESE of Nabesna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.428,
+          62.303,
+          5
+        ]
+      },
+      "id": "ak2026btkbly"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.86,
         "place": "8 km ESE of Puebla, B.C., MX",
         "time": 1769359425420,
-        "updated": 1769360177924,
+        "updated": 1769363955250,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171967",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171967.geojson",
@@ -28,8 +68,8 @@
         "sig": 126,
         "net": "ci",
         "code": "41171967",
-        "ids": ",ci41171967,",
-        "sources": ",ci,",
+        "ids": ",ci41171967,us7000rrzv,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 38,
         "dmin": 0.1208,
@@ -1455,7 +1495,7 @@
     -36.2373,
     -0.64,
     179.6857,
-    62.121,
+    62.303,
     577.764
   ]
 }
