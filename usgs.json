@@ -1,28 +1,108 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769314845000,
+    "generated": 1769317587000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 32
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Fiji region",
+        "time": 1769316368098,
+        "updated": 1769317281040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrww",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrww.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000rrww",
+        "ids": ",us7000rrww,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 4.065,
+        "rms": 0.95,
+        "gap": 46,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.2779,
+          -19.8914,
+          577.764
+        ]
+      },
+      "id": "us7000rrww"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "south of the Fiji Islands",
+        "time": 1769314382738,
+        "updated": 1769315214040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrwm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrwm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000rrwm",
+        "ids": ",us7000rrwm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 8.714,
+        "rms": 1,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.6857,
+          -25.23,
+          509.606
+        ]
+      },
+      "id": "us7000rrwm"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.1,
         "place": "106 km N of Yakutat, Alaska",
         "time": 1769313385581,
-        "updated": 1769314506366,
+        "updated": 1769315261435,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrwg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrwg.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.647,
-        "alert": null,
+        "mmi": 4.73,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 259,
@@ -30,7 +110,7 @@
         "code": "7000rrwg",
         "ids": ",us7000rrwg,ak2026bsjgvt,",
         "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 75,
         "dmin": 0.451,
         "rms": 0.82,
@@ -732,39 +812,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
+        "mag": 3.5,
         "place": "61 km S of Shungnak, Alaska",
-        "time": 1769269215487,
-        "updated": 1769269531907,
+        "time": 1769269214750,
+        "updated": 1769314942180,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026brkwmg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026brkwmg.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.561,
+        "mmi": 3.698,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 188,
         "net": "ak",
         "code": "2026brkwmg",
         "ids": ",us7000rrtk,ak2026brkwmg,",
         "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 77,
-        "dmin": 1,
+        "nst": 82,
+        "dmin": 0.2,
         "rms": 1,
-        "gap": 52,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 61 km S of Shungnak, Alaska"
+        "title": "M 3.5 - 61 km S of Shungnak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -157.252,
-          66.339,
-          5.5
+          -157.258,
+          66.343,
+          4.7
         ]
       },
       "id": "ak2026brkwmg"
@@ -968,6 +1048,46 @@
         ]
       },
       "id": "us7000rrst"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "124 km W of Nikolski, Alaska",
+        "time": 1769254273479,
+        "updated": 1769315183765,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026brcpts",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026brcpts.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.101,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "2026brcpts",
+        "ids": ",ak2026brcpts,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 12,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 165,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 124 km W of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.704,
+          52.822,
+          96
+        ]
+      },
+      "id": "ak2026brcpts"
     },
     {
       "type": "Feature",
@@ -1294,8 +1414,8 @@
     -179.7186,
     -36.2373,
     0.24,
-    139.9546,
-    66.339,
+    179.6857,
+    66.343,
     590.366
   ]
 }
