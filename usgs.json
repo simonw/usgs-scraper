@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769418245000,
+    "generated": 1769421708000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 46
+    "api": "2.3.0",
+    "count": 43
   },
   "features": [
     {
@@ -132,15 +132,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1769410625513,
+        "updated": 1769420762040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.909,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000rs2r",
+        "ids": ",us7000rs2r,ak2026bukzkl,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 54,
+        "dmin": 0.39,
+        "rms": 0.5,
+        "gap": 259,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.2185,
+          51.6334,
+          52.6
+        ]
+      },
+      "id": "us7000rs2r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
         "place": "9 km ESE of Dianga, China",
         "time": 1769410562085,
-        "updated": 1769415719040,
+        "updated": 1769419316287,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2q.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": 6.82,
         "alert": "yellow",
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "7000rs2q",
         "ids": ",us7000rs2q,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 73,
         "dmin": 1.95,
         "rms": 0.6,
@@ -1335,12 +1375,12 @@
         "mag": 4.1,
         "place": "141 km SSE of Sand Point, Alaska",
         "time": 1769355624810,
-        "updated": 1769372587804,
+        "updated": 1769419543606,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrzk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrzk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": 2.119,
         "alert": null,
         "status": "reviewed",
@@ -1348,9 +1388,9 @@
         "sig": 259,
         "net": "us",
         "code": "7000rrzk",
-        "ids": ",ak2026btgnto,us7000rrzk,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",us7000rrzk,ak2026btgnto,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 26,
         "dmin": 1.877,
         "rms": 0.73,
@@ -1688,166 +1728,6 @@
         ]
       },
       "id": "ak2026bsvusq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "15 km N of Pittsburg, CA",
-        "time": 1769333637060,
-        "updated": 1769403947125,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75301426",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75301426.geojson",
-        "felt": 13,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "nc",
-        "code": "75301426",
-        "ids": ",nc75301426,us7000rrxs,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 88,
-        "dmin": 0.06674,
-        "rms": 0.28,
-        "gap": 48,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 15 km N of Pittsburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.888832092285,
-          38.1595001220703,
-          20.3999996185303
-        ]
-      },
-      "id": "nc75301426"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "10 km SSW of Sındırgı, Turkey",
-        "time": 1769333377204,
-        "updated": 1769348119040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrxr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrxr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000rrxr",
-        "ids": ",us7000rrxr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.956,
-        "rms": 0.65,
-        "gap": 38,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 10 km SSW of Sındırgı, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.13,
-          39.1558,
-          10
-        ]
-      },
-      "id": "us7000rrxr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.49,
-        "place": "73 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1769333149730,
-        "updated": 1769335665838,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026025000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026025000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 187,
-        "net": "pr",
-        "code": "2026025000",
-        "ids": ",pr2026025000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.5883,
-        "rms": 0.61,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 73 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7156,
-          18.9885,
-          46
-        ]
-      },
-      "id": "pr2026025000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "65 km SSE of Halibut Cove, Alaska",
-        "time": 1769332339007,
-        "updated": 1769374803347,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bsttbc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bsttbc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.367,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "2026bsttbc",
-        "ids": ",us7000rrxp,ak2026bsttbc,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 143,
-        "dmin": 0.7,
-        "rms": 1,
-        "gap": 117,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 65 km SSE of Halibut Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.741,
-          59.065,
-          30.4
-        ]
-      },
-      "id": "ak2026bsttbc"
     }
   ],
   "bbox": [
