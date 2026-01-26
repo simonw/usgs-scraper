@@ -1,35 +1,75 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769401347000,
+    "generated": 1769404167000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 45
+    "api": "1.14.1",
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "173 km SE of Vilyuchinsk, Russia",
+        "time": 1769402584642,
+        "updated": 1769404150040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs26",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs26.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000rs26",
+        "ids": ",us7000rs26,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 1.542,
+        "rms": 0.99,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 173 km SE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.1137,
+          51.7709,
+          22.679
+        ]
+      },
+      "id": "us7000rs26"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.74,
         "place": "12 km WSW of Anacortes, Washington",
         "time": 1769400267630,
-        "updated": 1769401071154,
+        "updated": 1769403354895,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62216032",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62216032.geojson",
-        "felt": 14,
+        "felt": 22,
         "cdi": 2.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 119,
+        "sig": 122,
         "net": "uw",
         "code": "62216032",
-        "ids": ",uw62216032,",
-        "sources": ",uw,",
+        "ids": ",uw62216032,us7000rs22,",
+        "sources": ",uw,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 0.08724,
@@ -175,7 +215,7 @@
         "mag": 5.8,
         "place": "southern Mid-Atlantic Ridge",
         "time": 1769395777179,
-        "updated": 1769397318028,
+        "updated": 1769401514040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs1t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs1t.geojson",
@@ -190,7 +230,7 @@
         "code": "7000rs1t",
         "ids": ",us7000rs1t,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 63,
         "dmin": 21.91,
         "rms": 1.21,
@@ -372,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
+        "mag": 5.1,
         "place": "134 km NE of Lospalos, Timor Leste",
-        "time": 1769388842042,
-        "updated": 1769389550040,
+        "time": 1769388841988,
+        "updated": 1769403559040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs19",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs19.geojson",
@@ -385,29 +425,109 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 400,
         "net": "us",
         "code": "7000rs19",
         "ids": ",us7000rs19,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 3.706,
-        "rms": 0.47,
-        "gap": 60,
+        "nst": 101,
+        "dmin": 3.7,
+        "rms": 0.6,
+        "gap": 18,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 134 km NE of Lospalos, Timor Leste"
+        "title": "M 5.1 - 134 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.6953,
-          -7.5269,
-          167.042
+          127.7002,
+          -7.5224,
+          169.184
         ]
       },
       "id": "us7000rs19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "15 km SSE of Sındırgı, Turkey",
+        "time": 1769388442257,
+        "updated": 1769402757040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs18",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs18.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000rs18",
+        "ids": ",us7000rs18,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 52,
+        "dmin": 1.068,
+        "rms": 0.78,
+        "gap": 41,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - 15 km SSE of Sındırgı, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2765,
+          39.1269,
+          22.788
+        ]
+      },
+      "id": "us7000rs18"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "35 km W of Sangay, Philippines",
+        "time": 1769387624474,
+        "updated": 1769401830040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs17",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs17.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000rs17",
+        "ids": ",us7000rs17,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 1.947,
+        "rms": 0.66,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 35 km W of Sangay, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7249,
+          6.4342,
+          14.819
+        ]
+      },
+      "id": "us7000rs17"
     },
     {
       "type": "Feature",
@@ -575,11 +695,11 @@
         "mag": 2.6,
         "place": "1 km ENE of Enetai, Washington",
         "time": 1769385488080,
-        "updated": 1769399998111,
+        "updated": 1769402455861,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62216012",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62216012.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.8,
         "mmi": null,
         "alert": null,
@@ -1375,11 +1495,11 @@
         "mag": 2.95,
         "place": "15 km N of Pittsburg, CA",
         "time": 1769333637060,
-        "updated": 1769401243848,
+        "updated": 1769403947125,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75301426",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75301426.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1768,54 +1888,14 @@
         ]
       },
       "id": "us7000rrx3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Fiji region",
-        "time": 1769316368098,
-        "updated": 1769317281040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrww",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrww.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000rrww",
-        "ids": ",us7000rrww,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 4.065,
-        "rms": 0.95,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.2779,
-          -19.8914,
-          577.764
-        ]
-      },
-      "id": "us7000rrww"
     }
   ],
   "bbox": [
-    -178.2779,
+    -174.917,
     -35.5351,
     4,
     179.093,
     67.652,
-    577.764
+    490.378
   ]
 }
