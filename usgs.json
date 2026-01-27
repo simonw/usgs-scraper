@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769493623000,
+    "generated": 1769497493000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 54
+    "count": 50
   },
   "features": [
     {
@@ -255,12 +255,12 @@
         "mag": 5.7,
         "place": "19 km SSW of Ponorogo, Indonesia",
         "time": 1769476842515,
-        "updated": 1769490639537,
+        "updated": 1769495438902,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s4mj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s4mj.geojson",
-        "felt": 18,
-        "cdi": 4.1,
+        "felt": 19,
+        "cdi": 4,
         "mmi": 3.902,
         "alert": "green",
         "status": "reviewed",
@@ -1692,10 +1692,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "45 km SE of Miyakojima, Japan",
+        "time": 1769424555691,
+        "updated": 1769495479040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs3q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs3q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000rs3q",
+        "ids": ",us7000rs3q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 1.249,
+        "rms": 1.14,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 45 km SE of Miyakojima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6015,
+          24.4753,
+          58.15
+        ]
+      },
+      "id": "us7000rs3q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "8 km ESE of Pearsall, Texas",
         "time": 1769423873309,
-        "updated": 1769489453063,
+        "updated": 1769496875040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bushsp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bushsp.geojson",
@@ -1708,8 +1748,8 @@
         "sig": 96,
         "net": "tx",
         "code": "2026bushsp",
-        "ids": ",tx2026bushsp,",
-        "sources": ",tx,",
+        "ids": ",tx2026bushsp,us6000s4m5,",
+        "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.1,
@@ -1968,214 +2008,14 @@
         ]
       },
       "id": "us7000rs2z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "68 km SE of Denali National Park, Alaska",
-        "time": 1769410910578,
-        "updated": 1769427247040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026buldni",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026buldni.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "2026buldni",
-        "ids": ",us7000rs2u,ak2026buldni,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 94,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 68 km SE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.593,
-          63.198,
-          134.5
-        ]
-      },
-      "id": "ak2026buldni"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1769410625513,
-        "updated": 1769426381468,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.464,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000rs2r",
-        "ids": ",ak2026bukzkl,us7000rs2r,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": 0.39,
-        "rms": 0.5,
-        "gap": 259,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.2185,
-          51.6334,
-          52.6
-        ]
-      },
-      "id": "us7000rs2r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "9 km ESE of Dianga, China",
-        "time": 1769410562085,
-        "updated": 1769438020040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2q.geojson",
-        "felt": 2,
-        "cdi": 4.1,
-        "mmi": 6.82,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 651,
-        "net": "us",
-        "code": "7000rs2q",
-        "ids": ",us7000rs2q,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 73,
-        "dmin": 1.95,
-        "rms": 0.6,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.5 - 9 km ESE of Dianga, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.3047,
-          34.0278,
-          10
-        ]
-      },
-      "id": "us7000rs2q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "12 km S of Santa Lucía, Peru",
-        "time": 1769409110139,
-        "updated": 1769426349040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000rs2n",
-        "ids": ",us7000rs2n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 2.424,
-        "rms": 0.67,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 12 km S of Santa Lucía, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6039,
-          -15.8142,
-          203.342
-        ]
-      },
-      "id": "us7000rs2n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "west of Macquarie Island",
-        "time": 1769407636475,
-        "updated": 1769450735040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "7000rs2i",
-        "ids": ",us7000rs2i,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": 8.832,
-        "rms": 1.24,
-        "gap": 87,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - west of Macquarie Island"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.7464,
-          -54.6303,
-          10
-        ]
-      },
-      "id": "us7000rs2i"
     }
   ],
   "bbox": [
     -177.514,
     -59.6712,
     4,
-    178.2185,
-    63.198,
+    174.8265,
+    61.497,
     309.511
   ]
 }
