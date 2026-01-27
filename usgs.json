@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769497493000,
+    "generated": 1769500819000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 50
+    "api": "1.14.1",
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "48 km SE of Bettles, Alaska",
+        "time": 1769500636710,
+        "updated": 1769500790668,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bwisks",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bwisks.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "2026bwisks",
+        "ids": ",ak2026bwisks,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 116,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 48 km SE of Bettles, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.662,
+          66.646,
+          13.6
+        ]
+      },
+      "id": "ak2026bwisks"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1175,7 +1215,7 @@
         "mag": 5.2,
         "place": "139 km ESE of Severo-Kuril’sk, Russia",
         "time": 1769438694165,
-        "updated": 1769439907040,
+        "updated": 1769499229040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs4q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs4q.geojson",
@@ -1190,7 +1230,7 @@
         "code": "7000rs4q",
         "ids": ",us7000rs4q,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 116,
         "dmin": 2.735,
         "rms": 0.83,
@@ -1928,86 +1968,6 @@
         ]
       },
       "id": "us7000rs33"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.96,
-        "place": "16 km S of Cruz Bay, U.S. Virgin Islands",
-        "time": 1769413071990,
-        "updated": 1769414693990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505933",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505933.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 135,
-        "net": "pr",
-        "code": "71505933",
-        "ids": ",pr71505933,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2432,
-        "rms": 0.2,
-        "gap": 214,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 16 km S of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7668333333333,
-          18.1881666666667,
-          10.92
-        ]
-      },
-      "id": "pr71505933"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "west of Macquarie Island",
-        "time": 1769411338655,
-        "updated": 1769415657040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000rs2z",
-        "ids": ",us7000rs2z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 8.638,
-        "rms": 0.75,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - west of Macquarie Island"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.0773,
-          -54.6529,
-          10
-        ]
-      },
-      "id": "us7000rs2z"
     }
   ],
   "bbox": [
@@ -2015,7 +1975,7 @@
     -59.6712,
     4,
     174.8265,
-    61.497,
+    66.646,
     309.511
   ]
 }
