@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769865252000,
+    "generated": 1769868088000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "167 km SE of Vilyuchinsk, Russia",
+        "time": 1769863541464,
+        "updated": 1769865620040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5qx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5qx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s5qx",
+        "ids": ",us6000s5qx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 1.48,
+        "rms": 0.55,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 167 km SE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.0721,
+          51.8286,
+          10
+        ]
+      },
+      "id": "us6000s5qx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.41,
-        "place": "39 km W of Petrolia, CA",
-        "time": 1769857595880,
-        "updated": 1769864784040,
+        "mag": 3.05,
+        "place": "34 km W of Petrolia, CA",
+        "time": 1769857596850,
+        "updated": 1769866640937,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75304701",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75304701.geojson",
@@ -103,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 179,
+        "sig": 143,
         "net": "nc",
         "code": "75304701",
         "ids": ",ew1769857600,nc75304701,us6000s5qp,",
         "sources": ",ew,nc,us,",
         "types": ",associate,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 65,
-        "dmin": 0.3125,
-        "rms": 0.17,
+        "nst": 83,
+        "dmin": 0.2647,
+        "rms": 0.18,
         "gap": 237,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 39 km W of Petrolia, CA"
+        "title": "M 3.1 - 34 km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.743499755859,
-          40.3493347167969,
-          16.5900001525879
+          -124.679833333333,
+          40.3481666666667,
+          21.1
         ]
       },
       "id": "nc75304701"
@@ -215,17 +255,17 @@
         "mag": 4.5,
         "place": "9 km NE of San Pedro Huamelula, Mexico",
         "time": 1769853512108,
-        "updated": 1769865100647,
+        "updated": 1769867789595,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5qh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5qh.geojson",
-        "felt": 8,
-        "cdi": 2.9,
+        "felt": 12,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 314,
+        "sig": 315,
         "net": "us",
         "code": "6000s5qh",
         "ids": ",us6000s5qh,",
@@ -1408,53 +1448,13 @@
         ]
       },
       "id": "us6000s5hm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "90 km SSE of Unalaska, Alaska",
-        "time": 1769778962748,
-        "updated": 1769828590808,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ccglqv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ccglqv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "2026ccglqv",
-        "ids": ",ak2026ccglqv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.8,
-        "rms": 0.2,
-        "gap": 214,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 90 km SSE of Unalaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -166.243,
-          53.078,
-          27.7
-        ]
-      },
-      "id": "ak2026ccglqv"
     }
   ],
   "bbox": [
-    -166.243,
+    -154.249,
     -57.9427,
     0.2,
-    156.129,
+    160.0721,
     66.7637,
     387.431
   ]
