@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769926318000,
+    "generated": 1769929901000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "47 km SW of Harding-Birch Lakes, Alaska",
+        "time": 1769928654621,
+        "updated": 1769928729792,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cfldjx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cfldjx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "2026cfldjx",
+        "ids": ",ak2026cfldjx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 47 km SW of Harding-Birch Lakes, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.165,
+          64.019,
+          2.5
+        ]
+      },
+      "id": "ak2026cfldjx"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.2,
         "place": "27 km WSW of Mohr, Iran",
         "time": 1769922679683,
-        "updated": 1769923486040,
+        "updated": 1769926879980,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5tq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5tq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000s5tq",
         "ids": ",us6000s5tq,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 65,
         "dmin": 4.046,
         "rms": 0.71,
@@ -55,17 +95,17 @@
         "mag": 3.2,
         "place": "3 km NW of Malmstrom Air Force Base, Montana",
         "time": 1769908966845,
-        "updated": 1769925083277,
+        "updated": 1769928698257,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5t1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5t1.geojson",
-        "felt": 172,
+        "felt": 175,
         "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 209,
+        "sig": 210,
         "net": "us",
         "code": "6000s5t1",
         "ids": ",us6000s5t1,",
@@ -1328,91 +1368,11 @@
         ]
       },
       "id": "us6000s5py"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "26 km WNW of Petersville, Alaska",
-        "time": 1769840617258,
-        "updated": 1769853372040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cdomzk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cdomzk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "2026cdomzk",
-        "ids": ",us6000s5pu,ak2026cdomzk,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 26 km WNW of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.26,
-          62.551,
-          88.6
-        ]
-      },
-      "id": "ak2026cdomzk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1769840500916,
-        "updated": 1769841499040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5pv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5pv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000s5pv",
-        "ids": ",us6000s5pv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 79,
-        "dmin": 7.187,
-        "rms": 0.8,
-        "gap": 85,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.4265,
-          -57.9427,
-          89.186
-        ]
-      },
-      "id": "us6000s5pv"
     }
   ],
   "bbox": [
     -177.5527,
-    -57.9427,
+    -47.0903,
     0.2054362595,
     179.7862,
     64.6982,
