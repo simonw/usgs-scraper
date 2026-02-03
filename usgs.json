@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770125006000,
+    "generated": 1770127985000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 57
+    "api": "2.3.0",
+    "count": 55
   },
   "features": [
     {
@@ -295,11 +295,11 @@
         "mag": 3.36,
         "place": "5 km SE of San Ramon, CA",
         "time": 1770093006220,
-        "updated": 1770121583852,
+        "updated": 1770127257754,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75306461",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75306461.geojson",
-        "felt": 277,
+        "felt": 278,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
@@ -415,12 +415,12 @@
         "mag": 4.4,
         "place": "10 km NNE of Santa Lucía, Peru",
         "time": 1770084498331,
-        "updated": 1770085478040,
+        "updated": 1770125455138,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s62h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s62h.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +430,7 @@
         "code": "6000s62h",
         "ids": ",us6000s62h,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 41,
         "dmin": 2.435,
         "rms": 1.15,
@@ -1295,11 +1295,11 @@
         "mag": 2.9,
         "place": "11 km NNW of Hays, Kansas",
         "time": 1770050892664,
-        "updated": 1770084352876,
+        "updated": 1770126667580,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5zf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5zf.geojson",
-        "felt": 46,
+        "felt": 47,
         "cdi": 3,
         "mmi": null,
         "alert": null,
@@ -2208,86 +2208,6 @@
         ]
       },
       "id": "nc75305671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "15 km NNE of Los Andes, Chile",
-        "time": 1770039606726,
-        "updated": 1770040786040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5y1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5y1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000s5y1",
-        "ids": ",us6000s5y1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.057,
-        "rms": 0.86,
-        "gap": 70,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.4 - 15 km NNE of Los Andes, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5161,
-          -32.714,
-          107.471
-        ]
-      },
-      "id": "us6000s5y1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "19 km S of Manley Hot Springs, Alaska",
-        "time": 1770038899692,
-        "updated": 1770043625040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026chuaoh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026chuaoh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2026chuaoh",
-        "ids": ",us6000s5xy,ak2026chuaoh,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.6,
-        "rms": 0.9,
-        "gap": 116,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 19 km S of Manley Hot Springs, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.567,
-          64.827,
-          4
-        ]
-      },
-      "id": "ak2026chuaoh"
     }
   ],
   "bbox": [
@@ -2295,7 +2215,7 @@
     -56.1537,
     -0.24,
     161.6441,
-    64.827,
+    63.46,
     491.42
   ]
 }
