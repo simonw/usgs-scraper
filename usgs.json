@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770102807000,
+    "generated": 1770105912000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 58
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "4 km SE of San Ramon, CA",
+        "time": 1770104853110,
+        "updated": 1770105677969,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75306581",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75306581.geojson",
+        "felt": 18,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nc",
+        "code": "75306581",
+        "ids": ",nc75306581,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.1,
+        "rms": 0.21,
+        "gap": 33,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 4 km SE of San Ramon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94083404541,
+          37.7563323974609,
+          4.61999988555908
+        ]
+      },
+      "id": "nc75306581"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 3.36,
         "place": "5 km SE of San Ramon, CA",
         "time": 1770093006220,
-        "updated": 1770100967202,
+        "updated": 1770105723903,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75306461",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75306461.geojson",
-        "felt": 270,
+        "felt": 275,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 287,
+        "sig": 289,
         "net": "nc",
         "code": "75306461",
         "ids": ",nc75306461,us6000s62r,",
@@ -135,12 +175,12 @@
         "mag": 5.2,
         "place": "Banda Sea",
         "time": 1770087046029,
-        "updated": 1770087969040,
+        "updated": 1770105744274,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s62k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s62k.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "6000s62k",
         "ids": ",us6000s62k,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 67,
         "dmin": 2.076,
         "rms": 0.99,
@@ -1735,11 +1775,11 @@
         "mag": 4.18,
         "place": "4 km ESE of San Ramon, CA",
         "time": 1770044473590,
-        "updated": 1770102680363,
+        "updated": 1770105701512,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75305736",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75305736.geojson",
-        "felt": 4968,
+        "felt": 4971,
         "cdi": 4.6,
         "mmi": 5.121,
         "alert": "green",
@@ -2288,46 +2328,6 @@
         ]
       },
       "id": "us6000s5x6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "43 km SE of Denali National Park, Alaska",
-        "time": 1770018564696,
-        "updated": 1770018924584,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026chiurk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026chiurk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.922,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "2026chiurk",
-        "ids": ",ak2026chiurk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 47,
-        "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 43 km SE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.068,
-          63.29,
-          0.5
-        ]
-      },
-      "id": "ak2026chiurk"
     }
   ],
   "bbox": [
