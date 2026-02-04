@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770239116000,
+    "generated": 1770242427000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 40
+    "count": 38
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.1,
         "place": "7 km NW of Bilisht, Albania",
         "time": 1770231028494,
-        "updated": 1770238507040,
+        "updated": 1770241559595,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6ha",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6ha.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000s6ha",
         "ids": ",us6000s6ha,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 33,
         "dmin": 1.051,
         "rms": 0.86,
@@ -215,17 +215,17 @@
         "mag": 4.4,
         "place": "46 km NNW of Beluga, Alaska",
         "time": 1770218688246,
-        "updated": 1770236144011,
+        "updated": 1770242182104,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026clpiur",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026clpiur.geojson",
-        "felt": 180,
+        "felt": 184,
         "cdi": 3.8,
         "mmi": 3.049,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 366,
+        "sig": 368,
         "net": "ak",
         "code": "2026clpiur",
         "ids": ",ak2026clpiur,at00t9xxha,us6000s6fd,",
@@ -1528,86 +1528,6 @@
         ]
       },
       "id": "us6000s6a7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "4 km ESE of San Ramon, CA",
-        "time": 1770155126920,
-        "updated": 1770231673953,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75307922",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75307922.geojson",
-        "felt": 15,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nc",
-        "code": "75307922",
-        "ids": ",nc75307922,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.102,
-        "rms": 0.06,
-        "gap": 36,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km ESE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.939666748047,
-          37.7616653442383,
-          8.28999996185303
-        ]
-      },
-      "id": "nc75307922"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "87 km ENE of Kainantu, Papua New Guinea",
-        "time": 1770153870897,
-        "updated": 1770156690040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s69x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s69x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000s69x",
-        "ids": ",us6000s69x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 3.97,
-        "rms": 0.77,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 87 km ENE of Kainantu, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.5824,
-          -5.9613,
-          74.588
-        ]
-      },
-      "id": "us6000s69x"
     }
   ],
   "bbox": [
