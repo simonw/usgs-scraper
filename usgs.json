@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770278825000,
+    "generated": 1770282687000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "68 km NNW of Zharkent, Kazakhstan",
+        "time": 1770280781328,
+        "updated": 1770282173040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6kb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6kb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000s6kb",
+        "ids": ",us6000s6kb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 1.453,
+        "rms": 0.6,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 68 km NNW of Zharkent, Kazakhstan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7856,
+          44.7651,
+          10
+        ]
+      },
+      "id": "us6000s6kb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1015,7 +1055,7 @@
         "mag": 2.8,
         "place": "12 km NNE of Cantwell, Alaska",
         "time": 1770212890435,
-        "updated": 1770229889075,
+        "updated": 1770280019040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026clmdog",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026clmdog.geojson",
@@ -1028,8 +1068,8 @@
         "sig": 121,
         "net": "ak",
         "code": "2026clmdog",
-        "ids": ",ak2026clmdog,",
-        "sources": ",ak,",
+        "ids": ",ak2026clmdog,us6000s6ej,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": 0.1,
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "ci41391464"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "43 km ENE of Kodiak, Alaska",
-        "time": 1770194600801,
-        "updated": 1770276923040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026clcaxh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026clcaxh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "2026clcaxh",
-        "ids": ",us6000s6cl,ak2026clcaxh,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.5,
-        "rms": 0.5,
-        "gap": 170,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 43 km ENE of Kodiak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.771,
-          57.988,
-          3.2
-        ]
-      },
-      "id": "ak2026clcaxh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "13 km NW of Puerto Real, Puerto Rico",
-        "time": 1770194423720,
-        "updated": 1770206169778,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506423",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506423.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71506423",
-        "ids": ",pr71506423,us6000s6ci,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1309,
-        "rms": 0.19,
-        "gap": 237,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 13 km NW of Puerto Real, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2731666666667,
-          18.1696666666667,
-          129.22
-        ]
-      },
-      "id": "pr71506423"
     }
   ],
   "bbox": [
