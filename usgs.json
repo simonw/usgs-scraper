@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770476481000,
+    "generated": 1770480087000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 34
+    "api": "2.3.0",
+    "count": 33
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.1,
         "place": "67 km WNW of Ninilchik, Alaska",
         "time": 1770476323987,
-        "updated": 1770476437580,
+        "updated": 1770477588040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026crbqzu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026crbqzu.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 1.006,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 148,
         "net": "ak",
         "code": "2026crbqzu",
-        "ids": ",ak2026crbqzu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",us6000s75j,ak2026crbqzu,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": 108,
         "dmin": 0.1,
         "rms": 0.7,
@@ -95,11 +95,11 @@
         "mag": 4.6,
         "place": "17 km NW of Gyalshing, India",
         "time": 1770469524295,
-        "updated": 1770473148213,
+        "updated": 1770477368122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s757",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s757.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -335,11 +335,11 @@
         "mag": 2.7,
         "place": "12 km SE of Middletown, CA",
         "time": 1770465767640,
-        "updated": 1770471378181,
+        "updated": 1770478547411,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75310062",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75310062.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -895,7 +895,7 @@
         "mag": 5.9,
         "place": "Pulau Pulau Tanimbar, Indonesia",
         "time": 1770412814809,
-        "updated": 1770421689418,
+        "updated": 1770479373040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s711",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s711.geojson",
@@ -910,7 +910,7 @@
         "code": "6000s711",
         "ids": ",us6000s711,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 76,
         "dmin": 3.215,
         "rms": 1.08,
@@ -975,7 +975,7 @@
         "mag": 2.76,
         "place": "25 km W of Sunnyside-Tahoe City, CA",
         "time": 1770405453320,
-        "updated": 1770421581840,
+        "updated": 1770477934040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75309677",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75309677.geojson",
@@ -988,8 +988,8 @@
         "sig": 118,
         "net": "nc",
         "code": "75309677",
-        "ids": ",nc75309677,nn00910461,",
-        "sources": ",nc,nn,",
+        "ids": ",nc75309677,nn00910461,us6000s70b,",
+        "sources": ",nc,nn,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.1662,
@@ -1008,6 +1008,46 @@
         ]
       },
       "id": "nc75309677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "131 km ENE of Tobelo, Indonesia",
+        "time": 1770403540028,
+        "updated": 1770476479040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s707",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s707.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000s707",
+        "ids": ",us6000s707,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 3.709,
+        "rms": 0.52,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 131 km ENE of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1021,
+          2.1755,
+          20.268
+        ]
+      },
+      "id": "us6000s707"
     },
     {
       "type": "Feature",
@@ -1288,86 +1328,6 @@
         ]
       },
       "id": "us6000s6x6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "0 km NE of Shiraoka, Japan",
-        "time": 1770393506479,
-        "updated": 1770468653719,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6x3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6x3.geojson",
-        "felt": 14,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 344,
-        "net": "us",
-        "code": "6000s6x3",
-        "ids": ",us6000s6x3,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 1.291,
-        "rms": 0.71,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 0 km NE of Shiraoka, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.6646,
-          36.0219,
-          95.023
-        ]
-      },
-      "id": "us6000s6x3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "16 km SW of Salcha, Alaska",
-        "time": 1770391023303,
-        "updated": 1770392741040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cpgnyg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cpgnyg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "2026cpgnyg",
-        "ids": ",us6000s6wz,ak2026cpgnyg,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 16 km SW of Salcha, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.112,
-          64.408,
-          7.3
-        ]
-      },
-      "id": "ak2026cpgnyg"
     }
   ],
   "bbox": [
@@ -1375,7 +1335,7 @@
     -44.5757,
     -1.3300000429153,
     160.8502,
-    64.408,
+    63.197,
     131.2
   ]
 }
