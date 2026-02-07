@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770418890000,
+    "generated": 1770422613000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 37
+    "api": "2.3.0",
+    "count": 35
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.9,
         "place": "Pulau Pulau Tanimbar, Indonesia",
         "time": 1770412814809,
-        "updated": 1770418478975,
+        "updated": 1770421689418,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s711",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s711.geojson",
@@ -95,22 +95,22 @@
         "mag": 2.76,
         "place": "25 km W of Sunnyside-Tahoe City, CA",
         "time": 1770405453320,
-        "updated": 1770406939917,
+        "updated": 1770421581840,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75309677",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75309677.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 117,
+        "sig": 118,
         "net": "nc",
         "code": "75309677",
         "ids": ",nc75309677,nn00910461,",
         "sources": ",nc,nn,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.1662,
         "rms": 0.18,
@@ -415,17 +415,17 @@
         "mag": 4.7,
         "place": "0 km NE of Shiraoka, Japan",
         "time": 1770393506479,
-        "updated": 1770416777056,
+        "updated": 1770422199962,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6x3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6x3.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 342,
+        "sig": 343,
         "net": "us",
         "code": "6000s6x3",
         "ids": ",us6000s6x3,",
@@ -1172,6 +1172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "104 km SSW of Kýthira, Greece",
+        "time": 1770341652445,
+        "updated": 1770420575040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6um",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6um.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000s6um",
+        "ids": ",us6000s6um,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 1.937,
+        "rms": 1.11,
+        "gap": 223,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 104 km SSW of Kýthira, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5008,
+          35.2949,
+          56.367
+        ]
+      },
+      "id": "us6000s6um"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.54,
         "place": "79 km N of Rachel, Nevada",
         "time": 1770340464494,
@@ -1368,130 +1408,10 @@
         ]
       },
       "id": "nc75309237"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.67,
-        "place": "5 km SE of San Ramon, CA",
-        "time": 1770335993210,
-        "updated": 1770361273651,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75309217",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75309217.geojson",
-        "felt": 35,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "nc",
-        "code": "75309217",
-        "ids": ",nc75309217,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": null,
-        "rms": 0.05,
-        "gap": 46,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 5 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.937835693359,
-          37.7526664733887,
-          7.42999982833862
-        ]
-      },
-      "id": "nc75309217"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "88 km WSW of Adak, Alaska",
-        "time": 1770334350677,
-        "updated": 1770334895409,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cobfzf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cobfzf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "2026cobfzf",
-        "ids": ",ak2026cobfzf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 196,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 88 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.761,
-          51.504,
-          43.3
-        ]
-      },
-      "id": "ak2026cobfzf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "107 km N of Yakutat, Alaska",
-        "time": 1770333939538,
-        "updated": 1770334732397,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cobadb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cobadb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "2026cobadb",
-        "ids": ",ak2026cobadb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 107 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.54,
-          60.507,
-          6.3
-        ]
-      },
-      "id": "ak2026cobadb"
     }
   ],
   "bbox": [
-    -177.761,
+    -176.8305,
     -28.8757,
     -1.3300000429153,
     179.6686,
