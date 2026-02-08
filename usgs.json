@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770566520000,
+    "generated": 1770570207000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 44
+    "api": "2.3.0",
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "76 km ENE of La Tirana, Chile",
+        "time": 1770567837266,
+        "updated": 1770570152560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7ab",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7ab.geojson",
+        "felt": 9,
+        "cdi": 4.2,
+        "mmi": 3.971,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 504,
+        "net": "us",
+        "code": "6000s7ab",
+        "ids": ",us6000s7ab,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 72,
+        "dmin": 0.182,
+        "rms": 1.34,
+        "gap": 58,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 76 km ENE of La Tirana, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9642,
+          -20.0999,
+          118.978
+        ]
+      },
+      "id": "us6000s7ab"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "39 km WSW of Salamatof, Alaska",
         "time": 1770565622267,
-        "updated": 1770565719736,
+        "updated": 1770569793040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026csyyxl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026csyyxl.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "2026csyyxl",
-        "ids": ",ak2026csyyxl,",
-        "sources": ",ak,",
+        "ids": ",us6000s7a6,ak2026csyyxl,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 73,
         "dmin": 0.4,
@@ -52,42 +92,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "114 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1770564253475,
-        "updated": 1770566242040,
+        "mag": 4.6,
+        "place": "102 km SW of Arenas, Panama",
+        "time": 1770565264420,
+        "updated": 1770569596040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7a1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7a1.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7a5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7a5.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 326,
         "net": "us",
-        "code": "6000s7a1",
-        "ids": ",us6000s7a1,",
+        "code": "6000s7a5",
+        "ids": ",us6000s7a5,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.904,
-        "rms": 0.88,
-        "gap": 305,
-        "magType": "ml",
+        "nst": 21,
+        "dmin": 2.956,
+        "rms": 0.91,
+        "gap": 157,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.8 - 114 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 4.6 - 102 km SW of Arenas, Panama"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.4521,
-          19.3144,
-          35
+          -81.4746,
+          6.6788,
+          10
         ]
       },
-      "id": "us6000s7a1"
+      "id": "us6000s7a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.28,
+        "place": "98 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1770564255890,
+        "updated": 1770569203540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506908",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506908.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "pr",
+        "code": "71506908",
+        "ids": ",us6000s7a1,pr71506908,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.6681,
+        "rms": 0.21,
+        "gap": 285,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 98 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4448333333333,
+          19.1606666666667,
+          23.25
+        ]
+      },
+      "id": "pr71506908"
     },
     {
       "type": "Feature",
@@ -532,42 +612,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.73,
+        "mag": 2.8,
         "place": "10 km SSW of Valencia, CA",
-        "time": 1770539987920,
-        "updated": 1770566505308,
+        "time": 1770539987850,
+        "updated": 1770566913738,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41393840",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41393840.geojson",
-        "felt": 41,
-        "cdi": 3.4,
+        "felt": 42,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 137,
         "net": "ci",
         "code": "41393840",
         "ids": ",ci41393840,us6000s78v,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 127,
-        "dmin": 0.03583,
+        "nst": 121,
+        "dmin": 0.03606,
         "rms": 0.25,
-        "gap": 18,
+        "gap": 14,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 10 km SSW of Valencia, CA"
+        "title": "M 2.8 - 10 km SSW of Valencia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.623833333333,
-          34.3786666666667,
-          10.48
+          -118.625833333333,
+          34.3785,
+          10.82
         ]
       },
       "id": "ci41393840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "10 km SSW of Valencia, CA",
+        "time": 1770539937720,
+        "updated": 1770569770830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41393824",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41393824.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "ci",
+        "code": "41393824",
+        "ids": ",ci41393824,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 103,
+        "dmin": 0.03454,
+        "rms": 0.23,
+        "gap": 13,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 10 km SSW of Valencia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.626166666667,
+          34.3768333333333,
+          11.31
+        ]
+      },
+      "id": "ci41393824"
     },
     {
       "type": "Feature",
@@ -1015,17 +1135,17 @@
         "mag": 2.93,
         "place": "6 km SSE of Centerville, South Carolina",
         "time": 1770521866410,
-        "updated": 1770566307550,
+        "updated": 1770570128581,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60504953",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60504953.geojson",
-        "felt": 875,
+        "felt": 897,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 552,
+        "sig": 563,
         "net": "se",
         "code": "60504953",
         "ids": ",us6000s77p,se60504953,",
