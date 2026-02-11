@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770837598000,
+    "generated": 1770840327000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 43
+    "api": "2.3.0",
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "66 km SSW of Kaktovik, Alaska",
+        "time": 1770838578932,
+        "updated": 1770839209900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cytuop",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cytuop.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "2026cytuop",
+        "ids": ",ak2026cytuop,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 1.5,
+        "rms": 0.8,
+        "gap": 167,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 66 km SSW of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.033,
+          69.549,
+          61
+        ]
+      },
+      "id": "ak2026cytuop"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "160 km ENE of Tual, Indonesia",
+        "time": 1770834854801,
+        "updated": 1770840079040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7vh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7vh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000s7vh",
+        "ids": ",us6000s7vh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 2.598,
+        "rms": 0.59,
+        "gap": 42,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 160 km ENE of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.9819,
+          -4.871,
+          10
+        ]
+      },
+      "id": "us6000s7vh"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.1,
         "place": "81 km NE of Shikotan, Russia",
         "time": 1770832828779,
-        "updated": 1770835256040,
+        "updated": 1770837976091,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7vd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7vd.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "6000s7vd",
         "ids": ",us6000s7vd,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 117,
         "dmin": 3.54,
         "rms": 0.69,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "us6000s7vd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "82 km E of Kokopo, Papua New Guinea",
+        "time": 1770831821427,
+        "updated": 1770839602040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7v9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7v9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000s7v9",
+        "ids": ",us6000s7v9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 123,
+        "dmin": 0.84,
+        "rms": 0.85,
+        "gap": 22,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 82 km E of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0049,
+          -4.2269,
+          10
+        ]
+      },
+      "id": "us6000s7v9"
     },
     {
       "type": "Feature",
@@ -455,11 +575,11 @@
         "mag": 3.34,
         "place": "5 km SW of Ridgemark, CA",
         "time": 1770809694770,
-        "updated": 1770833181750,
+        "updated": 1770839177378,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312122",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312122.geojson",
-        "felt": 32,
+        "felt": 33,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -935,11 +1055,11 @@
         "mag": 4.18,
         "place": "6 km NW of Delta, B.C., MX",
         "time": 1770799113450,
-        "updated": 1770834427827,
+        "updated": 1770839780806,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41395584",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41395584.geojson",
-        "felt": 40,
+        "felt": 41,
         "cdi": 3.7,
         "mmi": 4.45,
         "alert": "green",
@@ -1688,54 +1808,14 @@
         ]
       },
       "id": "nn00910620"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "37 km SE of Luganville, Vanuatu",
-        "time": 1770753780383,
-        "updated": 1770756324040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7nv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7nv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000s7nv",
-        "ids": ",us6000s7nv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.359,
-        "rms": 0.96,
-        "gap": 177,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 37 km SE of Luganville, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.4506,
-          -15.7174,
-          129.302
-        ]
-      },
-      "id": "us6000s7nv"
     }
   ],
   "bbox": [
     -178.567,
     -51.4357,
     3.3,
-    167.4506,
-    61.709,
+    159.3208,
+    69.549,
     510.944
   ]
 }
