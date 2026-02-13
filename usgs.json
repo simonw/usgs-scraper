@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770967048000,
+    "generated": 1770970094000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "5 km WSW of La Parguera, Puerto Rico",
+        "time": 1770966370560,
+        "updated": 1770967462290,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71507788",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71507788.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "pr",
+        "code": "71507788",
+        "ids": ",pr71507788,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.04947,
+        "rms": 0.11,
+        "gap": 229,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km WSW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.095,
+          17.9586666666667,
+          11.23
+        ]
+      },
+      "id": "pr71507788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
         "place": "79 km NE of Khuzdar, Pakistan",
         "time": 1770964222360,
-        "updated": 1770965754367,
+        "updated": 1770968165092,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8pw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s8pw.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 6.665,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 465,
+        "sig": 466,
         "net": "us",
         "code": "6000s8pw",
         "ids": ",us6000s8pw,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
         "nst": 83,
         "dmin": 6.397,
         "rms": 0.84,
@@ -95,7 +135,7 @@
         "mag": 3.86,
         "place": "3 km NNE of Boca de Yuma, Dominican Republic",
         "time": 1770962014760,
-        "updated": 1770965114654,
+        "updated": 1770968665040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026044000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026044000.geojson",
@@ -108,8 +148,8 @@
         "sig": 229,
         "net": "pr",
         "code": "2026044000",
-        "ids": ",pr2026044000,",
-        "sources": ",pr,",
+        "ids": ",us6000s8px,pr2026044000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 28,
         "dmin": 0.2374,
@@ -1688,46 +1728,6 @@
         ]
       },
       "id": "ak2026czuuvq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "12 km SSE of Edgerton, Wyoming",
-        "time": 1770882899361,
-        "updated": 1770883510040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8g4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s8g4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000s8g4",
-        "ids": ",us6000s8g4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.697,
-        "rms": 0.67,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 12 km SSE of Edgerton, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.2083,
-          43.3082,
-          10.2
-        ]
-      },
-      "id": "us6000s8g4"
     }
   ],
   "bbox": [
