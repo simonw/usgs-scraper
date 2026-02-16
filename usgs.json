@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771258102000,
+    "generated": 1771261888000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 41
   },
   "features": [
@@ -14,14 +14,14 @@
       "properties": {
         "mag": 5.7,
         "place": "South Sandwich Islands region",
-        "time": 1771253576171,
-        "updated": 1771255540067,
+        "time": 1771253575060,
+        "updated": 1771258901289,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9i0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9i0.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.55,
+        "mmi": 3.548,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -30,21 +30,21 @@
         "code": "6000s9i0",
         "ids": ",us6000s9i0,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 98,
-        "dmin": 7.161,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 99,
+        "dmin": 7.176,
         "rms": 0.43,
         "gap": 69,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
         "title": "M 5.7 - South Sandwich Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -25.4269,
-          -57.8818,
-          34.766
+          -25.3827,
+          -57.8668,
+          27
         ]
       },
       "id": "us6000s9i0"
@@ -375,7 +375,7 @@
         "mag": 2.7,
         "place": "34 km ENE of Paxson, Alaska",
         "time": 1771229376713,
-        "updated": 1771229455513,
+        "updated": 1771258641040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026dhbqkl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026dhbqkl.geojson",
@@ -388,8 +388,8 @@
         "sig": 112,
         "net": "ak",
         "code": "2026dhbqkl",
-        "ids": ",ak2026dhbqkl,",
-        "sources": ",ak,",
+        "ids": ",us6000s9h3,ak2026dhbqkl,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 36,
         "dmin": 0.3,
@@ -415,12 +415,12 @@
         "mag": 4.6,
         "place": "40 km WNW of Raumati Beach, New Zealand",
         "time": 1771229066781,
-        "updated": 1771257842040,
+        "updated": 1771260948176,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9h1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9h1.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +430,7 @@
         "code": "6000s9h1",
         "ids": ",us6000s9h1,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 0.584,
         "rms": 0.62,
@@ -615,7 +615,7 @@
         "mag": 3.5,
         "place": "60 km S of Whites City, New Mexico",
         "time": 1771225521540,
-        "updated": 1771251074550,
+        "updated": 1771258566040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dgzmvn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dgzmvn.geojson",
@@ -630,7 +630,7 @@
         "code": "2026dgzmvn",
         "ids": ",us6000s9gr,tx2026dgzmvn,",
         "sources": ",us,tx,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
         "nst": 45,
         "dmin": 0.1,
         "rms": 0.2,
@@ -1492,6 +1492,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "22 km N of Metahāra, Ethiopia",
+        "time": 1771184358898,
+        "updated": 1771259954040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9gv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9gv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000s9gv",
+        "ids": ",us6000s9gv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 3.776,
+        "rms": 0.48,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 22 km N of Metahāra, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8944,
+          9.1031,
+          10
+        ]
+      },
+      "id": "us6000s9gv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "188 km S of Nikolski, Alaska",
         "time": 1771180124061,
@@ -1608,51 +1648,11 @@
         ]
       },
       "id": "us6000s9ep"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "13 km S of Sand Point, Alaska",
-        "time": 1771172672887,
-        "updated": 1771176020201,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9ej.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.95,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000s9ej",
-        "ids": ",ak2026dfwife,us6000s9ej,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 17,
-        "dmin": 0.884,
-        "rms": 0.8,
-        "gap": 208,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 13 km S of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.5108,
-          55.2134,
-          35
-        ]
-      },
-      "id": "us6000s9ej"
     }
   ],
   "bbox": [
     -178.0749,
-    -57.8818,
+    -57.8668,
     0.1,
     175.1298,
     63.253,
