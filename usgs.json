@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771210572000,
+    "generated": 1771213827000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 36
+    "api": "1.14.1",
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "29 km WNW of Gerlach, Nevada",
+        "time": 1771211329729,
+        "updated": 1771213206233,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00910880",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00910880.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.94,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "nn",
+        "code": "00910880",
+        "ids": ",us6000s9g1,nn00910880,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 19,
+        "dmin": 0.547,
+        "rms": 0.4162,
+        "gap": 247,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 29 km WNW of Gerlach, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6995,
+          40.7165,
+          15.981
+        ]
+      },
+      "id": "nn00910880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "south of the Fiji Islands",
+        "time": 1771210962408,
+        "updated": 1771211940040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9g0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9g0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000s9g0",
+        "ids": ",us6000s9g0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 8.394,
+        "rms": 0.78,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0749,
+          -25.365,
+          270.983
+        ]
+      },
+      "id": "us6000s9g0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1408,54 +1488,14 @@
         ]
       },
       "id": "ak2026deyzga"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "56 km SSE of Boca de Yuma, Dominican Republic",
-        "time": 1771126543950,
-        "updated": 1771131378040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508013",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508013.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71508013",
-        "ids": ",us6000s9ab,pr71508013,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.6433,
-        "rms": 0.33,
-        "gap": 232,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 56 km SSE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4983333333333,
-          17.8775,
-          32.7
-        ]
-      },
-      "id": "pr71508013"
     }
   ],
   "bbox": [
-    -173.3102,
-    -21.7787,
+    -178.0749,
+    -25.365,
     -0.47999998927116,
     159.6086,
     66.012,
-    168
+    270.983
   ]
 }
