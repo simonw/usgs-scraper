@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771312647000,
+    "generated": 1771315647000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 45
+    "api": "1.14.1",
+    "count": 42
   },
   "features": [
     {
@@ -655,12 +655,12 @@
         "mag": 4.6,
         "place": "16 km E of Levídion, Greece",
         "time": 1771282664651,
-        "updated": 1771291097040,
+        "updated": 1771315290421,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9m8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9m8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -670,7 +670,7 @@
         "code": "6000s9m8",
         "ids": ",us6000s9m8,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 55,
         "dmin": 0.683,
         "rms": 0.65,
@@ -1375,7 +1375,7 @@
         "mag": 2.71,
         "place": "17 km S of Tres Pinos, CA",
         "time": 1771246369320,
-        "updated": 1771248140008,
+        "updated": 1771314627040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314587",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314587.geojson",
@@ -1388,8 +1388,8 @@
         "sig": 113,
         "net": "nc",
         "code": "75314587",
-        "ids": ",nc75314587,",
-        "sources": ",nc,",
+        "ids": ",nc75314587,us6000s9hl,",
+        "sources": ",nc,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 64,
         "dmin": 0.03616,
@@ -1532,42 +1532,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
+        "mag": 3.8,
         "place": "186 km S of Nikolski, Alaska",
-        "time": 1771239012683,
-        "updated": 1771252174600,
+        "time": 1771239011452,
+        "updated": 1771314188040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026dhgyzh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026dhgyzh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9hy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9hy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 1.018,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 234,
-        "net": "ak",
-        "code": "2026dhgyzh",
-        "ids": ",ak2026dhgyzh,",
-        "sources": ",ak,",
+        "sig": 222,
+        "net": "us",
+        "code": "6000s9hy",
+        "ids": ",ak2026dhgyzh,us6000s9hy,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 37,
-        "dmin": 1.5,
-        "rms": 0.6,
-        "gap": 231,
-        "magType": "ml",
+        "nst": 36,
+        "dmin": 1.532,
+        "rms": 0.66,
+        "gap": 232,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.9 - 186 km S of Nikolski, Alaska"
+        "title": "M 3.8 - 186 km S of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -169.261,
-          51.282,
-          18.3
+          -169.2668,
+          51.2826,
+          10
         ]
       },
-      "id": "ak2026dhgyzh"
+      "id": "us6000s9hy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "103 km N of Yakutat, Alaska",
+        "time": 1771236938905,
+        "updated": 1771313421040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ha",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9ha.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "6000s9ha",
+        "ids": ",us6000s9ha,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.42,
+        "rms": 1.14,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 103 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.8766,
+          60.4704,
+          5
+        ]
+      },
+      "id": "us6000s9ha"
     },
     {
       "type": "Feature",
@@ -1648,173 +1688,13 @@
         ]
       },
       "id": "ak2026dhbqkl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "40 km WNW of Raumati Beach, New Zealand",
-        "time": 1771229066781,
-        "updated": 1771260948176,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9h1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9h1.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000s9h1",
-        "ids": ",us6000s9h1,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.584,
-        "rms": 0.62,
-        "gap": 49,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 40 km WNW of Raumati Beach, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.574,
-          -40.7325,
-          78.905
-        ]
-      },
-      "id": "us6000s9h1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "70 km NNE of Lae, Papua New Guinea",
-        "time": 1771227395453,
-        "updated": 1771251365040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9h0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9h0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000s9h0",
-        "ids": ",us6000s9h0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 3.278,
-        "rms": 0.73,
-        "gap": 41,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 70 km NNE of Lae, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.1667,
-          -6.1053,
-          63.42
-        ]
-      },
-      "id": "us6000s9h0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1771227043965,
-        "updated": 1771250543131,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dhaili",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dhaili.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2026dhaili",
-        "ids": ",us6000s9gw,tx2026dhaili,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 60 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.365,
-          31.629,
-          6.0999
-        ]
-      },
-      "id": "tx2026dhaili"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "195 km W of Riverton, New Zealand",
-        "time": 1771226353528,
-        "updated": 1771255574040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9gu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9gu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000s9gu",
-        "ids": ",us6000s9gu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.921,
-        "rms": 0.9,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 195 km W of Riverton, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          165.4984,
-          -46.5886,
-          10
-        ]
-      },
-      "id": "us6000s9gu"
     }
   ],
   "bbox": [
     -178.4,
     -57.8668,
     0.8,
-    174.574,
+    166.3708,
     63.264,
     160.132
   ]
