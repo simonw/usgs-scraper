@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771405947000,
+    "generated": 1771409487000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 32
+    "api": "1.14.1",
+    "count": 30
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.93,
         "place": "2 km N of The Geysers, CA",
         "time": 1771405598400,
-        "updated": 1771405942418,
+        "updated": 1771406839520,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75315492",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75315492.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "75315492",
         "ids": ",nc75315492,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 51,
         "dmin": 0.02123,
         "rms": 0.08,
@@ -695,17 +695,17 @@
         "mag": 3.6,
         "place": "4 km S of Banning, CA",
         "time": 1771354633590,
-        "updated": 1771399549687,
+        "updated": 1771409201854,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41187255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41187255.geojson",
-        "felt": 394,
+        "felt": 395,
         "cdi": 3.4,
         "mmi": 3.634,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 333,
+        "sig": 334,
         "net": "ci",
         "code": "41187255",
         "ids": ",ci41187255,us6000s9ud,",
@@ -1052,10 +1052,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "104 km E of Tual, Indonesia",
+        "time": 1771332111638,
+        "updated": 1771407428040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9rx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9rx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000s9rx",
+        "ids": ",us6000s9rx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 3.122,
+        "rms": 0.51,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 104 km E of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.6881,
+          -5.7102,
+          10
+        ]
+      },
+      "id": "us6000s9rx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.73,
         "place": "21 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1771327249340,
-        "updated": 1771329661419,
+        "updated": 1771406140040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026048000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026048000.geojson",
@@ -1068,8 +1108,8 @@
         "sig": 214,
         "net": "pr",
         "code": "2026048000",
-        "ids": ",pr2026048000,",
-        "sources": ",pr,",
+        "ids": ",us6000s9rp,pr2026048000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.3607,
@@ -1088,46 +1128,6 @@
         ]
       },
       "id": "pr2026048000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "127 km NE of Miches, Dominican Republic",
-        "time": 1771327247214,
-        "updated": 1771328335040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9rp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9rp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000s9rp",
-        "ids": ",us6000s9rp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.226,
-        "rms": 0.89,
-        "gap": 226,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 127 km NE of Miches, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1169,
-          19.7215,
-          10
-        ]
-      },
-      "id": "us6000s9rp"
     },
     {
       "type": "Feature",
@@ -1208,86 +1208,6 @@
         ]
       },
       "id": "us6000s9rj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "18 km ENE of Turgen, Kazakhstan",
-        "time": 1771322936409,
-        "updated": 1771337485215,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9r8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9r8.geojson",
-        "felt": 9,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 314,
-        "net": "us",
-        "code": "6000s9r8",
-        "ids": ",us6000s9r8,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.241,
-        "rms": 0.78,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 18 km ENE of Turgen, Kazakhstan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.7954,
-          43.4847,
-          10
-        ]
-      },
-      "id": "us6000s9r8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "24 km NW of Bayview, CA",
-        "time": 1771320954020,
-        "updated": 1771405148040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75315017",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75315017.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "nc",
-        "code": "75315017",
-        "ids": ",nc75315017,us6000s9r4,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.3038,
-        "rms": 0.15,
-        "gap": 304,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 24 km NW of Bayview, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.417335510254,
-          40.8933334350586,
-          18.9799995422363
-        ]
-      },
-      "id": "nc75315017"
     }
   ],
   "bbox": [
