@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771531419000,
+    "generated": 1771535102000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 49
+    "count": 51
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.06,
+        "mag": 4.6,
+        "place": "Fiji region",
+        "time": 1771533177060,
+        "updated": 1771534261040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000saa7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000saa7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000saa7",
+        "ids": ",us6000saa7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 4.494,
+        "rms": 0.6,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4811,
+          -20.8401,
+          590.024
+        ]
+      },
+      "id": "us6000saa7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
         "place": "8 km ENE of Calumet, Oklahoma",
-        "time": 1771531044674,
-        "updated": 1771531219772,
+        "time": 1771531044210,
+        "updated": 1771531502832,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026dnbd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026dnbd.geojson",
@@ -23,28 +63,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 144,
+        "sig": 107,
         "net": "ok",
         "code": "2026dnbd",
-        "ids": ",ok2026dnbd,",
-        "sources": ",ok,",
+        "ids": ",us6000sa9w,ok2026dnbd,",
+        "sources": ",us,ok,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.1565663069,
-        "rms": 0.7655467046,
-        "gap": 39.59313774,
+        "nst": 80,
+        "dmin": 0,
+        "rms": 0.33,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 8 km ENE of Calumet, Oklahoma"
+        "title": "M 2.6 - 8 km ENE of Calumet, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.03582764,
-          35.62830734,
-          0.9661750793
+          -98.031,
+          35.62416667,
+          5.59
         ]
       },
       "id": "ok2026dnbd"
@@ -535,17 +575,17 @@
         "mag": 3.07,
         "place": "8 km ENE of Calumet, Oklahoma",
         "time": 1771505304949,
-        "updated": 1771528588862,
+        "updated": 1771532862723,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026dmmz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026dmmz.geojson",
-        "felt": 11,
+        "felt": 14,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 150,
+        "sig": 151,
         "net": "ok",
         "code": "2026dmmz",
         "ids": ",ok2026dmmz,us6000sa61,",
@@ -1052,6 +1092,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.9,
+        "place": "90 km SSE of Sand Point, Alaska",
+        "time": 1771479096651,
+        "updated": 1771533703146,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dmjoyi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dmjoyi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "a2026dmjoyi",
+        "ids": ",aka2026dmjoyi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.2,
+        "rms": 0.7,
+        "gap": 232,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 90 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.994,
+          54.577,
+          5.9
+        ]
+      },
+      "id": "aka2026dmjoyi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.63,
         "place": "20 km NE of Coachella, CA",
         "time": 1771479003090,
@@ -1255,13 +1335,13 @@
         "mag": 2.98,
         "place": "18 km SE of Port Hueneme, CA",
         "time": 1771474532350,
-        "updated": 1771520220714,
+        "updated": 1771532247554,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41187807",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41187807.geojson",
         "felt": 120,
         "cdi": 3.8,
-        "mmi": 3.139,
+        "mmi": 3.137,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1292,10 +1372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "18 km ESE of Denali National Park, Alaska",
-        "time": 1771473389792,
-        "updated": 1771474624040,
+        "mag": 2.6,
+        "place": "17 km ESE of Denali National Park, Alaska",
+        "time": 1771473390607,
+        "updated": 1771532499568,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dmgkxt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dmgkxt.geojson",
@@ -1303,28 +1383,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 104,
         "net": "ak",
         "code": "a2026dmgkxt",
         "ids": ",us6000sa3y,aka2026dmgkxt,",
         "sources": ",us,ak,",
         "types": ",origin,phase-data,",
-        "nst": 43,
+        "nst": 75,
         "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 50,
+        "rms": 1.1,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 18 km ESE of Denali National Park, Alaska"
+        "title": "M 2.6 - 17 km ESE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.394,
-          63.457,
-          0.6
+          -151.404,
+          63.472,
+          5
         ]
       },
       "id": "aka2026dmgkxt"
@@ -1575,17 +1655,17 @@
         "mag": 4.7,
         "place": "29 km S of La Conquista, Nicaragua",
         "time": 1771470009777,
-        "updated": 1771525573851,
+        "updated": 1771531892080,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa3l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa3l.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 347,
+        "sig": 348,
         "net": "us",
         "code": "6000sa3l",
         "ids": ",us6000sa3l,",
@@ -1733,9 +1813,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.35,
-        "place": "47 km WSW of Kailua-Kona, Hawaii",
-        "time": 1771462269550,
-        "updated": 1771463475708,
+        "place": "49 km WSW of Kailua-Kona, Hawaii",
+        "time": 1771462269250,
+        "updated": 1771532937870,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74902806",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74902806.geojson",
@@ -1743,7 +1823,7 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 173,
         "net": "hv",
@@ -1751,20 +1831,20 @@
         "ids": ",hv74902806,us6000sa2e,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.5181,
-        "rms": 0.200000003,
-        "gap": 233,
+        "nst": 54,
+        "dmin": 0.534,
+        "rms": 0.19,
+        "gap": 235,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 47 km WSW of Kailua-Kona, Hawaii"
+        "title": "M 3.4 - 49 km WSW of Kailua-Kona, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.441162109375,
-          19.5555000305176,
-          4.71999979019165
+          -156.457166666667,
+          19.5443333333333,
+          3.36
         ]
       },
       "id": "hv74902806"
@@ -1815,7 +1895,7 @@
         "mag": 5.5,
         "place": "136 km NW of Gorontalo, Indonesia",
         "time": 1771460774231,
-        "updated": 1771469282651,
+        "updated": 1771533296040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa2c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa2c.geojson",
@@ -1830,7 +1910,7 @@
         "code": "6000sa2c",
         "ids": ",us6000sa2c,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 72,
         "dmin": 6.609,
         "rms": 0.86,
@@ -1975,7 +2055,7 @@
     -39.5847,
     -0.58,
     179.708,
-    63.457,
-    383.212
+    63.472,
+    590.024
   ]
 }
