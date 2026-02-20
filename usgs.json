@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771610794000,
+    "generated": 1771614716000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 26
+    "api": "2.3.0",
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "19 km ENE of El Pedregal, Peru",
+        "time": 1771613331478,
+        "updated": 1771614564040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sahz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sahz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000sahz",
+        "ids": ",us6000sahz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 2.635,
+        "rms": 1.17,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 19 km ENE of El Pedregal, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0322,
+          -16.2765,
+          133.504
+        ]
+      },
+      "id": "us6000sahz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 5.3,
         "place": "73 km ENE of Mutsu, Japan",
         "time": 1771596991286,
-        "updated": 1771598067040,
+        "updated": 1771610911040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sae0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sae0.geojson",
@@ -110,7 +150,7 @@
         "code": "6000sae0",
         "ids": ",us6000sae0,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 63,
         "dmin": 0.962,
         "rms": 0.93,
@@ -213,38 +253,38 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "15 km SSE of Point Possession, Alaska",
-        "time": 1771593233372,
-        "updated": 1771607541023,
+        "place": "16 km SE of Point Possession, Alaska",
+        "time": 1771593233275,
+        "updated": 1771614115581,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026douqcb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026douqcb.geojson",
-        "felt": 23,
+        "felt": 25,
         "cdi": 2.9,
-        "mmi": 2.732,
+        "mmi": 2.608,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 206,
+        "sig": 207,
         "net": "ak",
         "code": "a2026douqcb",
         "ids": ",aka2026douqcb,us6000sads,",
         "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 131,
+        "nst": 165,
         "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 42,
+        "rms": 1,
+        "gap": 32,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 15 km SSE of Point Possession, Alaska"
+        "title": "M 3.6 - 16 km SE of Point Possession, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.535,
-          60.809,
-          54
+          -150.514,
+          60.805,
+          56.6
         ]
       },
       "id": "aka2026douqcb"
@@ -528,6 +568,46 @@
         ]
       },
       "id": "us6000sacu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "193 km S of Nikolski, Alaska",
+        "time": 1771571960363,
+        "updated": 1771612786633,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026doiwuo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026doiwuo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "a2026doiwuo",
+        "ids": ",aka2026doiwuo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 34,
+        "dmin": 1.6,
+        "rms": 0.7,
+        "gap": 234,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 193 km S of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.409,
+          51.229,
+          27.1
+        ]
+      },
+      "id": "aka2026doiwuo"
     },
     {
       "type": "Feature",
@@ -928,126 +1008,6 @@
         ]
       },
       "id": "ok2026dnbd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "74 km SSE of Ierápetra, Greece",
-        "time": 1771528258755,
-        "updated": 1771529140040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa9q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa9q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000sa9q",
-        "ids": ",us6000sa9q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 1.467,
-        "rms": 1,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 74 km SSE of Ierápetra, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.0583,
-          34.3907,
-          10
-        ]
-      },
-      "id": "us6000sa9q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "113 km SSW of Nikolski, Alaska",
-        "time": 1771526849012,
-        "updated": 1771561403798,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dnjywe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dnjywe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "a2026dnjywe",
-        "ids": ",aka2026dnjywe,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.1,
-        "rms": 1.5,
-        "gap": 334,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 113 km SSW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.657,
-          52.041,
-          20
-        ]
-      },
-      "id": "aka2026dnjywe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "233 km S of Ishigaki, Japan",
-        "time": 1771526231746,
-        "updated": 1771528365040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa9j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sa9j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000sa9j",
-        "ids": ",us6000sa9j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 2.142,
-        "rms": 0.76,
-        "gap": 196,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 233 km S of Ishigaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.9352,
-          22.2452,
-          10
-        ]
-      },
-      "id": "us6000sa9j"
     }
   ],
   "bbox": [
@@ -1055,7 +1015,7 @@
     -36.9701,
     5,
     179.2416,
-    60.809,
+    60.805,
     608.731
   ]
 }
