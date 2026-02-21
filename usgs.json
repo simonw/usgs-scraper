@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771689627000,
+    "generated": 1771693407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 32
+    "api": "1.14.1",
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "110 km SSE of Kirakira, Solomon Islands",
+        "time": 1771692127295,
+        "updated": 1771693218040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sams",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sams.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 554,
+        "net": "us",
+        "code": "6000sams",
+        "ids": ",us6000sams,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 150,
+        "dmin": 3.057,
+        "rms": 0.97,
+        "gap": 42,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - 110 km SSE of Kirakira, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          162.3952,
+          -11.3339,
+          10
+        ]
+      },
+      "id": "us6000sams"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.1,
         "place": "43 km SW of Karluk, Alaska",
         "time": 1771688038469,
-        "updated": 1771688175031,
+        "updated": 1771692358040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dquzse",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dquzse.geojson",
@@ -28,8 +68,8 @@
         "sig": 148,
         "net": "ak",
         "code": "a2026dquzse",
-        "ids": ",aka2026dquzse,",
-        "sources": ",ak,",
+        "ids": ",us6000samh,aka2026dquzse,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 56,
         "dmin": 0.8,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "aka2026dquzse"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "107 km W of San Antonio de los Cobres, Argentina",
+        "time": 1771686545338,
+        "updated": 1771690947040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000samg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000samg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000samg",
+        "ids": ",us6000samg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 1.533,
+        "rms": 0.63,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 107 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3772,
+          -24.3033,
+          197.617
+        ]
+      },
+      "id": "us6000samg"
     },
     {
       "type": "Feature",
@@ -135,17 +215,17 @@
         "mag": 4.1,
         "place": "10 km ESE of Šamorín, Slovakia",
         "time": 1771677844174,
-        "updated": 1771689124375,
+        "updated": 1771692986939,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sam8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sam8.geojson",
-        "felt": 89,
+        "felt": 94,
         "cdi": 4.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 302,
+        "sig": 305,
         "net": "us",
         "code": "6000sam8",
         "ids": ",us6000sam8,",
@@ -335,12 +415,12 @@
         "mag": 4.8,
         "place": "10 km WSW of Colbún, Chile",
         "time": 1771660055997,
-        "updated": 1771668405283,
+        "updated": 1771692435939,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sale",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sale.geojson",
-        "felt": 4,
-        "cdi": 3.2,
+        "felt": 5,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1294,7 +1374,7 @@
     -179.5801,
     -35.7322,
     0.7833360434,
-    159.5228,
+    162.3952,
     61.982,
     503.874
   ]
