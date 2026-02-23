@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771853123000,
+    "generated": 1771856108000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 49
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.1,
+        "place": "94 km SW of Tanana, Alaska",
+        "time": 1771853527927,
+        "updated": 1771853659935,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026duikia",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026duikia.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "a2026duikia",
+        "ids": ",aka2026duikia,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.5,
+        "rms": 0.9,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 94 km SW of Tanana, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.521,
+          64.579,
+          2.4
+        ]
+      },
+      "id": "aka2026duikia"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "13 km SE of Balmorhea, Texas",
         "time": 1771851973446,
-        "updated": 1771852426550,
+        "updated": 1771855250166,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026duhodw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026duhodw.geojson",
@@ -1532,46 +1572,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.52,
-        "place": "7 km SE of Ratliff City, Oklahoma",
-        "time": 1771782969422,
-        "updated": 1771783102329,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026dsjr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026dsjr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "ok",
-        "code": "2026dsjr",
-        "ids": ",ok2026dsjr,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.04982044548,
-        "rms": 0.7424160497,
-        "gap": 91.37786865,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km SE of Ratliff City, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.44348145,
-          34.4068985,
-          5.129183292
-        ]
-      },
-      "id": "ok2026dsjr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.5,
         "place": "262 km SSE of Akhiok, Alaska",
         "time": 1771781384199,
@@ -1975,7 +1975,7 @@
     -30.8127,
     -2.66,
     167.8834,
-    63.47,
+    64.579,
     619.849
   ]
 }
