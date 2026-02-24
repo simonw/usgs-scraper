@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771920530000,
+    "generated": 1771924407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 44
   },
   "features": [
@@ -15,14 +15,14 @@
         "mag": 5.5,
         "place": "205 km WNW of Abepura, Indonesia",
         "time": 1771919208799,
-        "updated": 1771920239040,
+        "updated": 1771921295295,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rzxu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rzxu.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 6.546,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 465,
@@ -30,7 +30,7 @@
         "code": "7000rzxu",
         "ids": ",us7000rzxu,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
         "nst": 86,
         "dmin": 1.894,
         "rms": 0.54,
@@ -368,6 +368,46 @@
         ]
       },
       "id": "aka2026dvcdnk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "85 km SW of Nikolski, Alaska",
+        "time": 1771888472369,
+        "updated": 1771923436577,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dvbskc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dvbskc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.596,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "ak",
+        "code": "a2026dvbskc",
+        "ids": ",aka2026dvbskc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 26,
+        "dmin": 0.3,
+        "rms": 0.8,
+        "gap": 209,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 85 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.874,
+          52.477,
+          14.5
+        ]
+      },
+      "id": "aka2026dvbskc"
     },
     {
       "type": "Feature",
@@ -1728,46 +1768,6 @@
         ]
       },
       "id": "us6000sb07"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "97 km SE of Perryville, Alaska",
-        "time": 1771835984776,
-        "updated": 1771839693040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dtysnk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dtysnk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "a2026dtysnk",
-        "ids": ",us6000sazs,aka2026dtysnk,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 1,
-        "rms": 0.6,
-        "gap": 216,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 97 km SE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.073,
-          55.275,
-          7.6
-        ]
-      },
-      "id": "aka2026dtysnk"
     }
   ],
   "bbox": [
