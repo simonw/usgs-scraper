@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772298027000,
+    "generated": 1772301602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 37
+    "api": "2.3.0",
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "80 km ESE of Sarangani, Philippines",
+        "time": 1772299341598,
+        "updated": 1772301027826,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s135",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s135.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.822,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000s135",
+        "ids": ",us7000s135,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 94,
+        "dmin": 2.11,
+        "rms": 1.34,
+        "gap": 36,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 80 km ESE of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.0651,
+          5.0025,
+          94.361
+        ]
+      },
+      "id": "us7000s135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "26 km N of Kusapín, Panama",
+        "time": 1772298715547,
+        "updated": 1772301416716,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s132",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s132.geojson",
+        "felt": 15,
+        "cdi": 4.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 392,
+        "net": "us",
+        "code": "7000s132",
+        "ids": ",us7000s132,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 105,
+        "dmin": 1.357,
+        "rms": 0.75,
+        "gap": 92,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 26 km N of Kusapín, Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8794,
+          9.4237,
+          10
+        ]
+      },
+      "id": "us7000s132"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.51,
         "place": "61 km ENE of Tonopah, Nevada",
         "time": 1772297550433,
-        "updated": 1772297721420,
+        "updated": 1772298991620,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00911372",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00911372.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "00911372",
         "ids": ",nn00911372,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 1.061,
         "rms": 0.2218,
