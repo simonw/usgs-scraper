@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772269316000,
+    "generated": 1772272785000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "45 km WNW of San Antonio de los Cobres, Argentina",
+        "time": 1772267348689,
+        "updated": 1772271593040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s10v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s10v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000s10v",
+        "ids": ",us7000s10v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 73,
+        "dmin": 1.722,
+        "rms": 0.65,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 45 km WNW of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7339,
+          -24.0554,
+          197.134
+        ]
+      },
+      "id": "us7000s10v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.44,
         "place": "92 km N of Hatillo, Puerto Rico",
         "time": 1772263036420,
-        "updated": 1772266186230,
+        "updated": 1772270046040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508738",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508738.geojson",
@@ -28,8 +68,8 @@
         "sig": 182,
         "net": "pr",
         "code": "71508738",
-        "ids": ",pr71508738,",
-        "sources": ",pr,",
+        "ids": ",us7000s10q,pr71508738,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 46,
         "dmin": 0.8413,
@@ -55,7 +95,7 @@
         "mag": 2.7,
         "place": "92 km W of Elfin Cove, Alaska",
         "time": 1772261911100,
-        "updated": 1772262126135,
+        "updated": 1772269802040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026eczzrv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026eczzrv.geojson",
@@ -68,8 +108,8 @@
         "sig": 112,
         "net": "ak",
         "code": "a2026eczzrv",
-        "ids": ",aka2026eczzrv,",
-        "sources": ",ak,",
+        "ids": ",us7000s10i,aka2026eczzrv,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 28,
         "dmin": 0.9,
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us7000s0q0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "72 km ESE of Denali National Park, Alaska",
-        "time": 1772184888483,
-        "updated": 1772201590040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ebjlmp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ebjlmp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026ebjlmp",
-        "ids": ",us7000s0pn,aka2026ebjlmp,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 88,
-        "dmin": 0.7,
-        "rms": 0.7,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 72 km ESE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.514,
-          63.186,
-          121.2
-        ]
-      },
-      "id": "aka2026ebjlmp"
     }
   ],
   "bbox": [
@@ -1415,7 +1415,7 @@
     -60.2992,
     0.8,
     166.747,
-    63.186,
+    62.554,
     580.674
   ]
 }
