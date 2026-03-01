@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772323347000,
+    "generated": 1772328567000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 39
+    "api": "2.3.0",
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "104 km E of Ozernovskiy, Russia",
+        "time": 1772324107577,
+        "updated": 1772325097040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s159",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s159.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000s159",
+        "ids": ",us7000s159,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 1.399,
+        "rms": 0.54,
+        "gap": 162,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 104 km E of Ozernovskiy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157.9784,
+          51.6881,
+          76.698
+        ]
+      },
+      "id": "us7000s159"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,46 +212,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "11 km SSE of Tatums, Oklahoma",
-        "time": 1772314282576,
-        "updated": 1772314435746,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026edpu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026edpu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ok",
-        "code": "2026edpu",
-        "ids": ",ok2026edpu,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.06691218913,
-        "rms": 0.8690446299,
-        "gap": 58.79388428,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km SSE of Tatums, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.40248108,
-          34.39580917,
-          2.811453819
-        ]
-      },
-      "id": "ok2026edpu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.67,
         "place": "47 km ENE of Tonopah, Nevada",
         "time": 1772312861960,
@@ -255,7 +255,7 @@
         "mag": 3.33,
         "place": "76 km ENE of Tonopah, Nevada",
         "time": 1772302639262,
-        "updated": 1772317456680,
+        "updated": 1772324617317,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00911389",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00911389.geojson",
@@ -1528,54 +1528,14 @@
         ]
       },
       "id": "us7000s0yy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "34 km ENE of Chase, Alaska",
-        "time": 1772237932401,
-        "updated": 1772248639040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ecmtic",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ecmtic.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026ecmtic",
-        "ids": ",us7000s0yg,aka2026ecmtic,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 34 km ENE of Chase, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.481,
-          62.554,
-          5
-        ]
-      },
-      "id": "aka2026ecmtic"
     }
   ],
   "bbox": [
     -178.6332,
     -24.0882,
     0.8,
-    151.8702,
-    62.554,
+    157.9784,
+    61.463,
     580.674
   ]
 }
