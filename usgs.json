@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772457738000,
+    "generated": 1772460725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 58
   },
   "features": [
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.81,
+        "mag": 2.84,
         "place": "3 km NW of Marston, Missouri",
         "time": 1772456404360,
-        "updated": 1772457651970,
+        "updated": 1772458837050,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60618026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60618026.geojson",
@@ -65,16 +65,16 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 124,
         "net": "nm",
         "code": "60618026",
         "ids": ",us7000s1ez,nm60618026,",
         "sources": ",us,nm,",
         "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.024,
-        "rms": 0.12,
-        "gap": 43,
+        "nst": 57,
+        "dmin": 0.02397,
+        "rms": 0.11,
+        "gap": 29,
         "magType": "md",
         "type": "earthquake",
         "title": "M 2.8 - 3 km NW of Marston, Missouri"
@@ -82,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.6436666666667,
-          36.5426666666667,
-          9.31
+          -89.6433333333333,
+          36.5421666666667,
+          9.34
         ]
       },
       "id": "nm60618026"
@@ -208,6 +208,46 @@
         ]
       },
       "id": "us7000s1ek"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "294 km E of Attu Station, Alaska",
+        "time": 1772446088809,
+        "updated": 1772457963040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1em",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1em.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.693,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000s1em",
+        "ids": ",us7000s1em,aka2026egxstk,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 52,
+        "dmin": 0.865,
+        "rms": 1.28,
+        "gap": 158,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 294 km E of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.5031,
+          52.5172,
+          9.974
+        ]
+      },
+      "id": "us7000s1em"
     },
     {
       "type": "Feature",
@@ -455,7 +495,7 @@
         "mag": 5,
         "place": "59 km NW of Hirara, Japan",
         "time": 1772427386781,
-        "updated": 1772428223040,
+        "updated": 1772460483040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1df",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1df.geojson",
@@ -470,7 +510,7 @@
         "code": "7000s1df",
         "ids": ",us7000s1df,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 59,
         "dmin": 1.092,
         "rms": 0.77,
@@ -2288,53 +2328,13 @@
         ]
       },
       "id": "ci41407000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "3 km E of Annotto Bay, Jamaica",
-        "time": 1772372061925,
-        "updated": 1772382990646,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s18c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s18c.geojson",
-        "felt": 20,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 229,
-        "net": "us",
-        "code": "7000s18c",
-        "ids": ",us7000s18c,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.761,
-        "rms": 0.86,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.8 - 3 km E of Annotto Bay, Jamaica"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.7352,
-          18.2664,
-          10
-        ]
-      },
-      "id": "us7000s18c"
     }
   ],
   "bbox": [
     -155.37483333333,
     -55.993,
     0.051,
-    176.3841,
+    177.5031,
     69.452,
     147.434
   ]
