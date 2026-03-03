@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772512153000,
+    "generated": 1772515115000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 50
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.1,
+        "place": "65 km SE of Sinabang, Indonesia",
+        "time": 1772513807742,
+        "updated": 1772515056952,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1ln",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1ln.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 5.748,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 572,
+        "net": "us",
+        "code": "7000s1ln",
+        "ids": ",us7000s1ln,",
+        "sources": ",us,",
+        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": 43,
+        "dmin": 1.082,
+        "rms": 0.51,
+        "gap": 82,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.1 - 65 km SE of Sinabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.7729,
+          2.0344,
+          26.162
+        ]
+      },
+      "id": "us7000s1ln"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,7 +295,7 @@
         "mag": 2.9,
         "place": "92 km NNW of Karluk, Alaska",
         "time": 1772497420452,
-        "updated": 1772504376960,
+        "updated": 1772513991040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026eiacbm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026eiacbm.geojson",
@@ -268,8 +308,8 @@
         "sig": 129,
         "net": "ak",
         "code": "a2026eiacbm",
-        "ids": ",aka2026eiacbm,",
-        "sources": ",ak,",
+        "ids": ",us7000s1k6,aka2026eiacbm,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 109,
         "dmin": 0,
@@ -292,10 +332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "60 km NW of Hirara, Japan",
-        "time": 1772496707029,
-        "updated": 1772497861040,
+        "mag": 5,
+        "place": "67 km NW of Hirara, Japan",
+        "time": 1772496703467,
+        "updated": 1772513584040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1k2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1k2.geojson",
@@ -305,29 +345,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 385,
         "net": "us",
         "code": "7000s1k2",
         "ids": ",us7000s1k2,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 1.071,
-        "rms": 0.84,
-        "gap": 92,
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 67,
+        "dmin": 1.084,
+        "rms": 0.5,
+        "gap": 91,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 60 km NW of Hirara, Japan"
+        "title": "M 5.0 - 67 km NW of Hirara, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          124.9453,
-          25.238,
-          30.587
+          124.8906,
+          25.2893,
+          10
         ]
       },
       "id": "us7000s1k2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "89 km W of Vallenar, Chile",
+        "time": 1772495754102,
+        "updated": 1772512715040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1js",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1js.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000s1js",
+        "ids": ",us7000s1js,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.645,
+        "rms": 0.69,
+        "gap": 155,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.1 - 89 km W of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6698,
+          -28.5804,
+          22.804
+        ]
+      },
+      "id": "us7000s1js"
     },
     {
       "type": "Feature",
@@ -1255,22 +1335,22 @@
         "mag": 2.84,
         "place": "3 km NW of Marston, Missouri",
         "time": 1772456404360,
-        "updated": 1772501903391,
+        "updated": 1772512240143,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60618026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60618026.geojson",
-        "felt": 2,
-        "cdi": 2.7,
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 125,
+        "sig": 124,
         "net": "nm",
         "code": "60618026",
         "ids": ",nm60618026,us7000s1ez,",
         "sources": ",nm,us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": 57,
         "dmin": 0.02397,
         "rms": 0.11,
@@ -1848,166 +1928,6 @@
         ]
       },
       "id": "nc75321147"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.94,
-        "place": "77 km ENE of Tonopah, Nevada",
-        "time": 1772428583631,
-        "updated": 1772473827761,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00911595",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00911595.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.765,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 239,
-        "net": "nn",
-        "code": "00911595",
-        "ids": ",us7000s1di,nn00911595,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 13,
-        "dmin": 0.501,
-        "rms": 0.1388,
-        "gap": 217,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 77 km ENE of Tonopah, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4919,
-          38.4486,
-          3
-        ]
-      },
-      "id": "nn00911595"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "76 km ENE of Tonopah, Nevada",
-        "time": 1772427825906,
-        "updated": 1772473280854,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00911591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00911591.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "nn",
-        "code": "00911591",
-        "ids": ",us7000s1dg,nn00911591,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.493,
-        "rms": 0.1989,
-        "gap": 150,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 76 km ENE of Tonopah, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4958,
-          38.4364,
-          9.5866
-        ]
-      },
-      "id": "nn00911591"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "59 km NW of Hirara, Japan",
-        "time": 1772427386781,
-        "updated": 1772460483040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1df",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1df.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000s1df",
-        "ids": ",us7000s1df,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 59,
-        "dmin": 1.092,
-        "rms": 0.77,
-        "gap": 92,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 59 km NW of Hirara, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.9703,
-          25.2462,
-          10
-        ]
-      },
-      "id": "us7000s1df"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "149 km SE of Vilyuchinsk, Russia",
-        "time": 1772426153356,
-        "updated": 1772427512040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1db",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1db.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000s1db",
-        "ids": ",us7000s1db,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 1.335,
-        "rms": 0.63,
-        "gap": 164,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 149 km SE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.7552,
-          51.8743,
-          35
-        ]
-      },
-      "id": "us7000s1db"
     }
   ],
   "bbox": [
