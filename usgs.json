@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772622332000,
+    "generated": 1772625725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 40
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "73 km S of Severo-Kuril’sk, Russia",
+        "time": 1772621377820,
+        "updated": 1772622601040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1yk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1yk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000s1yk",
+        "ids": ",us7000s1yk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 3.28,
+        "rms": 0.52,
+        "gap": 139,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 73 km S of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.9299,
+          50.0238,
+          82.125
+        ]
+      },
+      "id": "us7000s1yk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.2,
         "place": "19 km ESE of Tanana, Alaska",
         "time": 1772621334065,
-        "updated": 1772621445302,
+        "updated": 1772622986040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ekqntv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ekqntv.geojson",
@@ -28,8 +68,8 @@
         "sig": 158,
         "net": "ak",
         "code": "a2026ekqntv",
-        "ids": ",aka2026ekqntv,",
-        "sources": ",ak,",
+        "ids": ",us7000s1yi,aka2026ekqntv,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 35,
         "dmin": 0.1,
@@ -95,12 +135,12 @@
         "mag": 4.5,
         "place": "9 km ENE of Saipan, Northern Mariana Islands",
         "time": 1772619454411,
-        "updated": 1772620659040,
+        "updated": 1772623321076,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1yf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1yf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "7000s1yf",
         "ids": ",us7000s1yf,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 0.049,
         "rms": 0.48,
@@ -295,17 +335,17 @@
         "mag": 4.5,
         "place": "12 km ESE of Letojanni, Italy",
         "time": 1772604315240,
-        "updated": 1772608610931,
+        "updated": 1772625100174,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1xj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1xj.geojson",
-        "felt": 5,
-        "cdi": 3.3,
+        "felt": 6,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 313,
+        "sig": 314,
         "net": "us",
         "code": "7000s1xj",
         "ids": ",us7000s1xj,",
@@ -1172,6 +1212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "144 km NW of Cold Bay, Alaska",
+        "time": 1772552292152,
+        "updated": 1772623936644,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ejekhu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ejekhu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "a2026ejekhu",
+        "ids": ",aka2026ejekhu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 1.4,
+        "rms": 0.9,
+        "gap": 200,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 144 km NW of Cold Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.313,
+          56.122,
+          14
+        ]
+      },
+      "id": "aka2026ejekhu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "5 km ENE of Yujing, Taiwan",
         "time": 1772552070063,
@@ -1448,171 +1528,11 @@
         ]
       },
       "id": "us7000s1p8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "297 km SSW of Bluff, New Zealand",
-        "time": 1772538907947,
-        "updated": 1772539830040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1p5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1p5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000s1p5",
-        "ids": ",us7000s1p5,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 40,
-        "dmin": 2.369,
-        "rms": 0.53,
-        "gap": 96,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 297 km SSW of Bluff, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.5685,
-          -48.9985,
-          10
-        ]
-      },
-      "id": "us7000s1p5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "3 km WSW of Guánica, Puerto Rico",
-        "time": 1772538854330,
-        "updated": 1772541118540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508898",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508898.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71508898",
-        "ids": ",pr71508898,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.05538,
-        "rms": 0.31,
-        "gap": 188,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9366666666667,
-          17.966,
-          12.4
-        ]
-      },
-      "id": "pr71508898"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "11 km NNW of Yujing, Taiwan",
-        "time": 1772538769019,
-        "updated": 1772550100415,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1p4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1p4.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000s1p4",
-        "ids": ",us7000s1p4,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.209,
-        "rms": 0.41,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 11 km NNW of Yujing, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.4208,
-          23.218,
-          10
-        ]
-      },
-      "id": "us7000s1p4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "88 km SW of Nikolski, Alaska",
-        "time": 1772536692636,
-        "updated": 1772600002670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026eivucf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026eivucf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "a2026eivucf",
-        "ids": ",aka2026eivucf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 293,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 88 km SW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.799,
-          52.379,
-          11
-        ]
-      },
-      "id": "aka2026eivucf"
     }
   ],
   "bbox": [
     -179.8153,
-    -48.9985,
+    -32.1233,
     2.6,
     176.6777,
     65.137,
