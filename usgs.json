@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772674140000,
+    "generated": 1772679072000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 61
+    "count": 59
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "43 km NW of Coquimbo, Chile",
-        "time": 1772672899968,
-        "updated": 1772673697040,
+        "mag": 4.6,
+        "place": "199 km N of Likisá, Timor Leste",
+        "time": 1772675010999,
+        "updated": 1772676413040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s259",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s259.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s25r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s25r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000s25r",
+        "ids": ",us7000s25r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 3.072,
+        "rms": 0.84,
+        "gap": 41,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 199 km N of Likisá, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1486,
+          -6.7905,
+          546.346
+        ]
+      },
+      "id": "us7000s25r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "south of the Fiji Islands",
+        "time": 1772674947501,
+        "updated": 1772676647040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s25p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s25p.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,10 +67,50 @@
         "tsunami": 0,
         "sig": 354,
         "net": "us",
+        "code": "7000s25p",
+        "ids": ",us7000s25p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 7.391,
+        "rms": 0.79,
+        "gap": 118,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.8388,
+          -23.8694,
+          533.958
+        ]
+      },
+      "id": "us7000s25p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "43 km NW of Coquimbo, Chile",
+        "time": 1772672899968,
+        "updated": 1772676359500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s259",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s259.geojson",
+        "felt": 3,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "us",
         "code": "7000s259",
         "ids": ",us7000s259,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 38,
         "dmin": 0.43,
         "rms": 0.72,
@@ -455,7 +535,7 @@
         "mag": 5.3,
         "place": "70 km SSW of Chirilagua, El Salvador",
         "time": 1772650584827,
-        "updated": 1772663378943,
+        "updated": 1772676500109,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s21s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s21s.geojson",
@@ -695,12 +775,12 @@
         "mag": 2.95,
         "place": "24 km WSW of Olancha, CA",
         "time": 1772646720870,
-        "updated": 1772654546115,
+        "updated": 1772677161784,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41409328",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41409328.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -710,7 +790,7 @@
         "code": "41409328",
         "ids": ",ci41409328,us7000s20y,",
         "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 43,
         "dmin": 0.08325,
         "rms": 0.18,
@@ -855,7 +935,7 @@
         "mag": 3.8,
         "place": "21 km N of Stanton, Texas",
         "time": 1772638423234,
-        "updated": 1772663638727,
+        "updated": 1772677001130,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ekzzen",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ekzzen.geojson",
@@ -1175,7 +1255,7 @@
         "mag": 2.99,
         "place": "7 km NE of Calexico, CA",
         "time": 1772628904750,
-        "updated": 1772663809496,
+        "updated": 1772677093314,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41409024",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41409024.geojson",
@@ -1895,7 +1975,7 @@
         "mag": 4.5,
         "place": "12 km ESE of Letojanni, Italy",
         "time": 1772604315240,
-        "updated": 1772663198781,
+        "updated": 1772676739773,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1xj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1xj.geojson",
@@ -2288,174 +2368,14 @@
         ]
       },
       "id": "us7000s1wa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "81 km SW of Nikolski, Alaska",
-        "time": 1772592469947,
-        "updated": 1772664770040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s22e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s22e.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000s22e",
-        "ids": ",aka2026ekapem,us7000s22e,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.35,
-        "rms": 0.89,
-        "gap": 285,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 81 km SW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.7392,
-          52.4369,
-          14.333
-        ]
-      },
-      "id": "us7000s22e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "86 km SSE of Akutan, Alaska",
-        "time": 1772591772073,
-        "updated": 1772592522751,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ekaffw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ekaffw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026ekaffw",
-        "ids": ",aka2026ekaffw,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.7,
-        "rms": 0.8,
-        "gap": 221,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 86 km SSE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -165.206,
-          53.434,
-          8
-        ]
-      },
-      "id": "aka2026ekaffw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "41 km SE of Esperanza, Puerto Rico",
-        "time": 1772591686510,
-        "updated": 1772594871180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71508963",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71508963.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "71508963",
-        "ids": ",pr71508963,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.381,
-        "rms": 0.58,
-        "gap": 170,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 41 km SE of Esperanza, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1578333333333,
-          17.8685,
-          8.09
-        ]
-      },
-      "id": "pr71508963"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "18 km S of Weston, Colorado",
-        "time": 1772590694913,
-        "updated": 1772591091040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1vy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s1vy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000s1vy",
-        "ids": ",us7000s1vy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.166,
-        "rms": 0.29,
-        "gap": 84,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 18 km S of Weston, Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.8838,
-          36.9674,
-          3.091
-        ]
-      },
-      "id": "us7000s1vy"
     }
   ],
   "bbox": [
-    -179.8153,
+    -179.8388,
     -30.8255,
     1.915,
     179.973,
     67.898,
-    526.923
+    546.346
   ]
 }
