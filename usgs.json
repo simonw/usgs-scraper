@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773072907000,
+    "generated": 1773076390000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 54
+    "count": 53
   },
   "features": [
     {
@@ -55,13 +55,13 @@
         "mag": 5.9,
         "place": "21 km NE of Otobe, Japan",
         "time": 1773071143393,
-        "updated": 1773072698187,
+        "updated": 1773074906040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s36m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s36m.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.073,
+        "mmi": 4.152,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us7000s36m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "77 km SE of Palca, Peru",
+        "time": 1773070900993,
+        "updated": 1773073211040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s36g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s36g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000s36g",
+        "ids": ",us7000s36g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 92,
+        "dmin": 0.017,
+        "rms": 0.82,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 77 km SE of Palca, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.5254,
+          -18.3384,
+          107.024
+        ]
+      },
+      "id": "us7000s36g"
     },
     {
       "type": "Feature",
@@ -132,42 +172,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1773066082591,
-        "updated": 1773072053013,
+        "mag": 3.1,
+        "place": "299 km W of Adak, Alaska",
+        "time": 1773066082990,
+        "updated": 1773075622040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026eucffy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026eucffy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s36t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s36t.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026eucffy",
-        "ids": ",aka2026eucffy,",
-        "sources": ",ak,",
+        "sig": 148,
+        "net": "us",
+        "code": "7000s36t",
+        "ids": ",aka2026eucffy,us7000s36t,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 211,
+        "nst": 22,
+        "dmin": 0.24,
+        "rms": 0.58,
+        "gap": 177,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 3.1 - 299 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.014,
-          51.467,
-          24.2
+          179.0618,
+          51.5657,
+          31.891
         ]
       },
-      "id": "aka2026eucffy"
+      "id": "us7000s36t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "76 km ENE of Tonopah, Nevada",
+        "time": 1773063347169,
+        "updated": 1773075491233,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912341",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912341.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "nn",
+        "code": "00912341",
+        "ids": ",us7000s35f,nn00912341,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.493,
+        "rms": 0.1413,
+        "gap": 272,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 76 km ENE of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4973,
+          38.4403,
+          6.2915
+        ]
+      },
+      "id": "nn00912341"
     },
     {
       "type": "Feature",
@@ -375,17 +455,17 @@
         "mag": 4,
         "place": "8 km WNW of Edgefield, Louisiana",
         "time": 1773049300778,
-        "updated": 1773072728065,
+        "updated": 1773075401403,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s34v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s34v.geojson",
-        "felt": 112,
+        "felt": 119,
         "cdi": 6,
         "mmi": 5.064,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 313,
+        "sig": 318,
         "net": "us",
         "code": "7000s34v",
         "ids": ",us7000s34v,",
@@ -775,11 +855,11 @@
         "mag": 5.1,
         "place": "10 km E of Buldan, Turkey",
         "time": 1773037265912,
-        "updated": 1773048676785,
+        "updated": 1773074188637,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s33s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s33s.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -2048,126 +2128,6 @@
         ]
       },
       "id": "us7000s302"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "160 km SSE of Vilyuchinsk, Russia",
-        "time": 1772989722581,
-        "updated": 1772998584596,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2zx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s2zx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.008,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 536,
-        "net": "us",
-        "code": "7000s2zx",
-        "ids": ",us7000s2zx,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 102,
-        "dmin": 1.477,
-        "rms": 0.9,
-        "gap": 44,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - 160 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.3956,
-          51.621,
-          16
-        ]
-      },
-      "id": "us7000s2zx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "14 km SE of Manley Hot Springs, Alaska",
-        "time": 1772987413688,
-        "updated": 1772989273145,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026esktkb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026esktkb.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": 3.423,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "a2026esktkb",
-        "ids": ",aka2026esktkb,us7000s2zt,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 104,
-        "dmin": 0.2,
-        "rms": 1.1,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 14 km SE of Manley Hot Springs, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.385,
-          64.922,
-          16.3
-        ]
-      },
-      "id": "aka2026esktkb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "30 km N of Four Mile Road, Alaska",
-        "time": 1772986927084,
-        "updated": 1773000961834,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026eskmko",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026eskmko.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": 3.769,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 189,
-        "net": "ak",
-        "code": "a2026eskmko",
-        "ids": ",aka2026eskmko,us7000s2zq,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 98,
-        "dmin": 0.3,
-        "rms": 1.3,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 30 km N of Four Mile Road, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.229,
-          64.875,
-          6.3
-        ]
-      },
-      "id": "aka2026eskmko"
     }
   ],
   "bbox": [
