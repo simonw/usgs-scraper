@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773159416000,
+    "generated": 1773162779000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 45
+    "count": 44
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.99,
         "place": "29 km SSE of Mina, Nevada",
         "time": 1773156381735,
-        "updated": 1773158444397,
+        "updated": 1773160279487,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912436",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912436.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "00912436",
         "ids": ",nn00912436,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": 0.41,
         "rms": 0.1225,
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.68,
-        "place": "28 km SSE of Mina, Nevada",
-        "time": 1773156332568,
-        "updated": 1773156556249,
+        "mag": 2.77,
+        "place": "30 km SSE of Mina, Nevada",
+        "time": 1773156333069,
+        "updated": 1773159740086,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912435",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912435.geojson",
@@ -103,31 +103,71 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 118,
         "net": "nn",
         "code": "00912435",
         "ids": ",nn00912435,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.422,
-        "rms": 0.2656,
-        "gap": 108,
+        "nst": 18,
+        "dmin": 0.413,
+        "rms": 0.1509,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 28 km SSE of Mina, Nevada"
+        "title": "M 2.8 - 30 km SSE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.981,
-          38.1582,
-          2.5156
+          -117.9804,
+          38.1351,
+          12.1965
         ]
       },
       "id": "nn00912435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "54 km S of Vallenar, Chile",
+        "time": 1773153964814,
+        "updated": 1773160916040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s3dx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s3dx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000s3dx",
+        "ids": ",us7000s3dx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.107,
+        "rms": 0.51,
+        "gap": 118,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 54 km S of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.802,
+          -29.0708,
+          81.808
+        ]
+      },
+      "id": "us7000s3dx"
     },
     {
       "type": "Feature",
@@ -252,6 +292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "234 km ESE of Attu Station, Alaska",
+        "time": 1773148695987,
+        "updated": 1773160415746,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026evvvxg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026evvvxg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.042,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "ak",
+        "code": "a2026evvvxg",
+        "ids": ",aka2026evvvxg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 30,
+        "dmin": 1.4,
+        "rms": 0.9,
+        "gap": 203,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 234 km ESE of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.21,
+          51.836,
+          10
+        ]
+      },
+      "id": "aka2026evvvxg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "206 km SSE of Vilyuchinsk, Russia",
         "time": 1773143265837,
@@ -372,6 +452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.5,
+        "place": "210 km SE of Perryville, Alaska",
+        "time": 1773141552391,
+        "updated": 1773160169660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026evryar",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026evryar.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "a2026evryar",
+        "ids": ",aka2026evryar,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 46,
+        "dmin": 2.1,
+        "rms": 0.6,
+        "gap": 236,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 210 km SE of Perryville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.245,
+          54.362,
+          20
+        ]
+      },
+      "id": "aka2026evryar"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "96 km SW of Tambolaka, Indonesia",
         "time": 1773139632258,
@@ -452,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.73,
-        "place": "37 km S of Mina, Nevada",
-        "time": 1773133283678,
-        "updated": 1773141768040,
+        "mag": 2.55,
+        "place": "30 km SSE of Mina, Nevada",
+        "time": 1773133283797,
+        "updated": 1773161222770,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912393",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912393.geojson",
@@ -463,28 +583,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 115,
+        "sig": 100,
         "net": "nn",
         "code": "00912393",
         "ids": ",us7000s3ck,nn00912393,",
         "sources": ",us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.41,
-        "rms": 0.3693,
-        "gap": 126,
+        "nst": 16,
+        "dmin": 0.412,
+        "rms": 0.1266,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 37 km S of Mina, Nevada"
+        "title": "M 2.6 - 30 km SSE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.0445,
-          38.0592,
-          1.7989
+          -117.9777,
+          38.1323,
+          6.7395
         ]
       },
       "id": "nn00912393"
@@ -568,6 +688,46 @@
         ]
       },
       "id": "us7000s3c4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "265 km SSW of Adak, Alaska",
+        "time": 1773123182181,
+        "updated": 1773159541225,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026evhtkj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026evhtkj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.689,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "ak",
+        "code": "a2026evhtkj",
+        "ids": ",aka2026evhtkj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 50,
+        "dmin": 1.7,
+        "rms": 0.8,
+        "gap": 261,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 265 km SSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.724,
+          49.887,
+          20
+        ]
+      },
+      "id": "aka2026evhtkj"
     },
     {
       "type": "Feature",
@@ -775,17 +935,17 @@
         "mag": 3.96,
         "place": "29 km ENE of Torrey, Utah",
         "time": 1773117147300,
-        "updated": 1773152388040,
+        "updated": 1773162401143,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80131546",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80131546.geojson",
-        "felt": 17,
+        "felt": 19,
         "cdi": 4.1,
         "mmi": 4.02,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 248,
+        "sig": 249,
         "net": "uu",
         "code": "80131546",
         "ids": ",uu80131546,us7000s3bi,",
@@ -808,46 +968,6 @@
         ]
       },
       "id": "uu80131546"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "36 km SE of Mina, Nevada",
-        "time": 1773110938331,
-        "updated": 1773111109073,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912381",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912381.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "nn",
-        "code": "00912381",
-        "ids": ",nn00912381,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.568,
-        "rms": 0.2849,
-        "gap": 106,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 36 km SE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.7872,
-          38.1873,
-          9.7403
-        ]
-      },
-      "id": "nn00912381"
     },
     {
       "type": "Feature",
@@ -1648,170 +1768,10 @@
         ]
       },
       "id": "aka2026eukdyl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "13 km WSW of Gözler, Turkey",
-        "time": 1773075756275,
-        "updated": 1773088260834,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s373",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s373.geojson",
-        "felt": 1,
-        "cdi": 4.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "7000s373",
-        "ids": ",us7000s373,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 32,
-        "dmin": 1.984,
-        "rms": 0.58,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 13 km WSW of Gözler, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.0062,
-          38.0706,
-          10
-        ]
-      },
-      "id": "us7000s373"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "230 km ESE of Attu Station, Alaska",
-        "time": 1773074836109,
-        "updated": 1773090231040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s37d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s37d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000s37d",
-        "ids": ",aka2026euhbdj,us7000s37d,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.366,
-        "rms": 0.53,
-        "gap": 189,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 230 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.3067,
-          52.0353,
-          8.307
-        ]
-      },
-      "id": "us7000s37d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "162 km SSE of Vilyuchinsk, Russia",
-        "time": 1773074277413,
-        "updated": 1773076419040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s372",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s372.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000s372",
-        "ids": ",us7000s372,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 151,
-        "dmin": 1.474,
-        "rms": 0.69,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 162 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.6841,
-          51.6944,
-          36.847
-        ]
-      },
-      "id": "us7000s372"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "235 km ESE of Attu Station, Alaska",
-        "time": 1773074149250,
-        "updated": 1773089345040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s37b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s37b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000s37b",
-        "ids": ",aka2026eugrcz,us7000s37b,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 1.305,
-        "rms": 0.31,
-        "gap": 185,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 235 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.4105,
-          52.0825,
-          10.136
-        ]
-      },
-      "id": "us7000s37b"
     }
   ],
   "bbox": [
-    -178.606,
+    -178.724,
     -31.5349,
     -0.35,
     179.9668,
