@@ -1,31 +1,151 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773511338000,
+    "generated": 1773515180000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 42
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "Kuril Islands",
+        "time": 1773513131388,
+        "updated": 1773514347040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgc2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgc2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000sgc2",
+        "ids": ",aka2026fdpdtr,us6000sgc2,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 100,
+        "dmin": 7.29,
+        "rms": 0.6,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3556,
+          46.5573,
+          10
+        ]
+      },
+      "id": "us6000sgc2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "63 km WNW of Anchor Point, Alaska",
+        "time": 1773512069450,
+        "updated": 1773512180862,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fdoonh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fdoonh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "a2026fdoonh",
+        "ids": ",aka2026fdoonh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 127,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 63 km WNW of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.919,
+          59.948,
+          110.7
+        ]
+      },
+      "id": "aka2026fdoonh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "northern Mid-Atlantic Ridge",
+        "time": 1773510197663,
+        "updated": 1773511413040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgbx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgbx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000sgbx",
+        "ids": ",us6000sgbx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 90,
+        "dmin": 12.808,
+        "rms": 1.01,
+        "gap": 38,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - northern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6402,
+          16.556,
+          10
+        ]
+      },
+      "id": "us6000sgbx"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.56,
         "place": "5 km WSW of Portola Valley, CA",
         "time": 1773509996510,
-        "updated": 1773511005850,
+        "updated": 1773514339973,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327402",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75327402.geojson",
-        "felt": 12,
+        "felt": 14,
         "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 105,
         "net": "nc",
         "code": "75327402",
         "ids": ",nc75327402,",
@@ -55,7 +175,7 @@
         "mag": 2.87,
         "place": "2 km E of Huron, CA",
         "time": 1773505972420,
-        "updated": 1773511042603,
+        "updated": 1773513577040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327372",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75327372.geojson",
@@ -68,8 +188,8 @@
         "sig": 127,
         "net": "nc",
         "code": "75327372",
-        "ids": ",nc75327372,",
-        "sources": ",nc,",
+        "ids": ",nc75327372,us6000sgbj,",
+        "sources": ",nc,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 41,
         "dmin": 0.1369,
@@ -88,6 +208,46 @@
         ]
       },
       "id": "nc75327372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "50 km SW of Palaióchora, Greece",
+        "time": 1773505296975,
+        "updated": 1773512538040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgbi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgbi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000sgbi",
+        "ids": ",us6000sgbi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 100,
+        "dmin": 2.532,
+        "rms": 0.56,
+        "gap": 70,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 50 km SW of Palaióchora, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2998,
+          34.9004,
+          35.11
+        ]
+      },
+      "id": "us6000sgbi"
     },
     {
       "type": "Feature",
@@ -175,13 +335,13 @@
         "mag": 3.52,
         "place": "73 km NE of Tonopah, Nevada",
         "time": 1773500812091,
-        "updated": 1773506747371,
+        "updated": 1773513985162,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912635",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912635.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.281,
+        "mmi": 3.286,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1648,46 +1808,6 @@
         ]
       },
       "id": "tx2026fbvmgq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "232 km ESE of Attu Station, Alaska",
-        "time": 1773425516127,
-        "updated": 1773498945040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sg5y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sg5y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.23,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000sg5y",
-        "ids": ",aka2026fbstsl,us6000sg5y,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 107,
-        "dmin": 1.319,
-        "rms": 0.65,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 232 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.3927,
-          52.1189,
-          9.598
-        ]
-      },
-      "id": "us6000sg5y"
     }
   ],
   "bbox": [
