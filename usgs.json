@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773775219000,
+    "generated": 1773777991000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 55
+    "count": 57
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1773777652200,
+        "updated": 1773777978461,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329017",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329017.geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "nc",
+        "code": "75329017",
+        "ids": ",nc75329017,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 88,
+        "dmin": 0.00564,
+        "rms": 0.09,
+        "gap": 23,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81266784668,
+          38.8286666870117,
+          1.97000002861023
+        ]
+      },
+      "id": "nc75329017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
         "place": "24 km E of Whittier, Alaska",
-        "time": 1773772724869,
-        "updated": 1773774416040,
+        "time": 1773772724915,
+        "updated": 1773777004052,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fjcobg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fjcobg.geojson",
@@ -23,7 +63,7 @@
         "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 148,
         "net": "ak",
@@ -31,7 +71,7 @@
         "ids": ",aka2026fjcobg,us6000sh0e,",
         "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 74,
+        "nst": 123,
         "dmin": 0.2,
         "rms": 1,
         "gap": 66,
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.248,
-          60.8,
-          16.6
+          -148.244,
+          60.794,
+          17.2
         ]
       },
       "id": "aka2026fjcobg"
@@ -88,6 +128,46 @@
         ]
       },
       "id": "nc75328942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "146 km ESE of Nikolski, Alaska",
+        "time": 1773770371340,
+        "updated": 1773776631594,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fjbgjm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fjbgjm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026fjbgjm",
+        "ids": ",aka2026fjbgjm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.1,
+        "rms": 0.4,
+        "gap": 275,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 146 km ESE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.81,
+          52.503,
+          1.9
+        ]
+      },
+      "id": "aka2026fjbgjm"
     },
     {
       "type": "Feature",
@@ -335,12 +415,12 @@
         "mag": 3.3,
         "place": "48 km SW of McCarthy, Alaska",
         "time": 1773759544799,
-        "updated": 1773768642040,
+        "updated": 1773777062538,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fivgts",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fivgts.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 3.43,
         "alert": null,
         "status": "reviewed",
@@ -348,9 +428,9 @@
         "sig": 168,
         "net": "ak",
         "code": "a2026fivgts",
-        "ids": ",us6000sgv9,aka2026fivgts,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",aka2026fivgts,us6000sgv9,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 37,
         "dmin": 0.1,
         "rms": 1.3,
@@ -2213,7 +2293,7 @@
   "bbox": [
     -178.8697,
     -33.1987,
-    2.5,
+    1.9,
     177.2008,
     69.445,
     577.621
