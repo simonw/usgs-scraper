@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773753978000,
+    "generated": 1773757278000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.36,
+        "place": "8 km ENE of Gilroy, CA",
+        "time": 1773755316030,
+        "updated": 1773757085673,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328797",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75328797.geojson",
+        "felt": 28,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "nc",
+        "code": "75328797",
+        "ids": ",nc75328797,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 86,
+        "dmin": null,
+        "rms": 0.17,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 8 km ENE of Gilroy, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.495498657227,
+          37.041332244873,
+          6.84999990463257
+        ]
+      },
+      "id": "nc75328797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "22 km NW of Susitna, Alaska",
+        "time": 1773754993659,
+        "updated": 1773755084779,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fistki",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fistki.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "a2026fistki",
+        "ids": ",aka2026fistki,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 22 km NW of Susitna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.83,
+          61.673,
+          63.9
+        ]
+      },
+      "id": "aka2026fistki"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.71,
         "place": "25 km W of Petrolia, CA",
         "time": 1773752178280,
-        "updated": 1773753755245,
+        "updated": 1773756262232,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328787",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75328787.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 4,
+        "cdi": 2.7,
         "mmi": 2.583,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 212,
+        "sig": 213,
         "net": "nc",
         "code": "75328787",
         "ids": ",nc75328787,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,shakemap,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 42,
         "dmin": 0.1859,
         "rms": 0.15,
@@ -1688,46 +1768,6 @@
         ]
       },
       "id": "us6000sgl9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "158 km SSE of Vilyuchinsk, Russia",
-        "time": 1773668672829,
-        "updated": 1773674272040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgl1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sgl1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000sgl1",
-        "ids": ",us6000sgl1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 100,
-        "dmin": 1.442,
-        "rms": 0.72,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 158 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.5859,
-          51.7026,
-          43.004
-        ]
-      },
-      "id": "us6000sgl1"
     }
   ],
   "bbox": [
