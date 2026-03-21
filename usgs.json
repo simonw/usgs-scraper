@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774064377000,
+    "generated": 1774067275000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 73
+    "count": 71
   },
   "features": [
     {
@@ -15,14 +15,14 @@
         "mag": 5.8,
         "place": "60 km W of Norsup, Vanuatu",
         "time": 1774063257193,
-        "updated": 1774064331040,
+        "updated": 1774066895725,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si17",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000si17.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": 4.753,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 518,
@@ -30,7 +30,7 @@
         "code": "6000si17",
         "ids": ",us6000si17,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 60,
         "dmin": 0.744,
         "rms": 0.85,
@@ -52,42 +52,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "247 km WSW of Adak, Alaska",
-        "time": 1774062298941,
-        "updated": 1774062551353,
+        "mag": 2.5,
+        "place": "249 km WSW of Adak, Alaska",
+        "time": 1774062299895,
+        "updated": 1774064941040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fpgmye",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fpgmye.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si16",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000si16.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "a2026fpgmye",
-        "ids": ",aka2026fpgmye,",
-        "sources": ",ak,",
+        "sig": 96,
+        "net": "us",
+        "code": "6000si16",
+        "ids": ",aka2026fpgmye,us6000si16,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 199,
+        "nst": 11,
+        "dmin": 0.344,
+        "rms": 0.3,
+        "gap": 195,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 247 km WSW of Adak, Alaska"
+        "title": "M 2.5 - 249 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.9,
-          51.347,
-          5
+          179.8511,
+          51.3665,
+          10
         ]
       },
-      "id": "aka2026fpgmye"
+      "id": "us6000si16"
     },
     {
       "type": "Feature",
@@ -95,7 +95,7 @@
         "mag": 2.5,
         "place": "57 km WNW of Happy Valley, Alaska",
         "time": 1774058720986,
-        "updated": 1774059016267,
+        "updated": 1774064750040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fpenmv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fpenmv.geojson",
@@ -108,8 +108,8 @@
         "sig": 96,
         "net": "ak",
         "code": "a2026fpenmv",
-        "ids": ",aka2026fpenmv,",
-        "sources": ",ak,",
+        "ids": ",us6000si0r,aka2026fpenmv,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 95,
         "dmin": 0.2,
@@ -2848,93 +2848,13 @@
         ]
       },
       "id": "us6000shpz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "84 km ESE of Akutan, Alaska",
-        "time": 1773979236799,
-        "updated": 1774039695803,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fnmpzo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fnmpzo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026fnmpzo",
-        "ids": ",aka2026fnmpzo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.7,
-        "rms": 0.2,
-        "gap": 224,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 84 km ESE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -164.635,
-          53.773,
-          54.9
-        ]
-      },
-      "id": "aka2026fnmpzo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "43 km NNW of San Antonio, Puerto Rico",
-        "time": 1773978413670,
-        "updated": 1773979412680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510353",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510353.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "pr",
-        "code": "71510353",
-        "ids": ",pr71510353,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.3662,
-        "rms": 0.11,
-        "gap": 300,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 43 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2951666666667,
-          18.8345,
-          10
-        ]
-      },
-      "id": "pr71510353"
     }
   ],
   "bbox": [
     -179.908,
     -32.1967,
     0.5,
-    179.9,
+    179.8511,
     66.136,
     599
   ]
