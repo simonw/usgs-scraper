@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774476412000,
+    "generated": 1774480015000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 53
+    "count": 52
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 5,
+        "place": "168 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1774477517682,
+        "updated": 1774478447040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7nc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7nc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000s7nc",
+        "ids": ",us7000s7nc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 2.03,
+        "rms": 0.84,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 168 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.6922,
+          52.217,
+          26.504
+        ]
+      },
+      "id": "us7000s7nc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "20 km NW of Tatitlek, Alaska",
-        "time": 1774475674532,
-        "updated": 1774475760030,
+        "place": "19 km NW of Tatitlek, Alaska",
+        "time": 1774475674678,
+        "updated": 1774476422287,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fyavva",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fyavva.geojson",
@@ -23,7 +63,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "ak",
@@ -31,20 +71,20 @@
         "ids": ",aka2026fyavva,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 32,
+        "nst": 70,
         "dmin": 0.1,
-        "rms": 0.7,
+        "rms": 0.8,
         "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 20 km NW of Tatitlek, Alaska"
+        "title": "M 2.5 - 19 km NW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.932,
-          60.996,
-          21.6
+          -146.935,
+          60.984,
+          20.2
         ]
       },
       "id": "aka2026fyavva"
@@ -335,7 +375,7 @@
         "mag": 3.48,
         "place": "15 km N of Brooktrails, CA",
         "time": 1774455648570,
-        "updated": 1774476247356,
+        "updated": 1774476441155,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332857",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332857.geojson",
@@ -535,17 +575,17 @@
         "mag": 2.9,
         "place": "5 km W of Davis, CA",
         "time": 1774451078290,
-        "updated": 1774473986280,
+        "updated": 1774478186436,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332802",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332802.geojson",
-        "felt": 3,
-        "cdi": 2,
+        "felt": 4,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 130,
+        "sig": 131,
         "net": "nc",
         "code": "75332802",
         "ids": ",nc75332802,",
@@ -855,12 +895,12 @@
         "mag": 4.1,
         "place": "216 km SSW of Prince Rupert, Canada",
         "time": 1774445136267,
-        "updated": 1774454017460,
+        "updated": 1774477284786,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7j3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7j3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": 4.176,
         "alert": "green",
         "status": "reviewed",
@@ -870,7 +910,7 @@
         "code": "7000s7j3",
         "ids": ",us7000s7j3,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 22,
         "dmin": 0.37,
         "rms": 0.39,
@@ -2048,86 +2088,6 @@
         ]
       },
       "id": "aka2026fwirnp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "122 km NNW of Finschhafen, Papua New Guinea",
-        "time": 1774393143409,
-        "updated": 1774400561040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7f1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7f1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000s7f1",
-        "ids": ",us7000s7f1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 3.566,
-        "rms": 0.53,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 122 km NNW of Finschhafen, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.2365,
-          -5.6309,
-          175.248
-        ]
-      },
-      "id": "us7000s7f1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "172 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1774391748738,
-        "updated": 1774393520040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7ex",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7ex.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000s7ex",
-        "ids": ",us7000s7ex,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 2.063,
-        "rms": 0.52,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 172 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7438,
-          52.2052,
-          10
-        ]
-      },
-      "id": "us7000s7ex"
     }
   ],
   "bbox": [
