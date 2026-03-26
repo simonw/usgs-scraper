@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774497489000,
+    "generated": 1774500660000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 51
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "2 km N of Cañete, Chile",
+        "time": 1774499195070,
+        "updated": 1774500526040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7q5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7q5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000s7q5",
+        "ids": ",us7000s7q5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 2.024,
+        "rms": 0.97,
+        "gap": 191,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 2 km N of Cañete, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4011,
+          -37.7813,
+          35
+        ]
+      },
+      "id": "us7000s7q5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 2.46,
         "place": "105 km WNW of Bayview, CA",
         "time": 1774488207950,
-        "updated": 1774494439128,
+        "updated": 1774499259040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75333072",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75333072.geojson",
@@ -108,8 +148,8 @@
         "sig": 93,
         "net": "nc",
         "code": "75333072",
-        "ids": ",nc75333072,",
-        "sources": ",nc,",
+        "ids": ",nc75333072,us7000s7pc,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 1.049,
@@ -168,6 +208,46 @@
         ]
       },
       "id": "us7000s7pa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.42,
+        "place": "49 km N of Suárez, Puerto Rico",
+        "time": 1774486938340,
+        "updated": 1774497660970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510918",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71510918.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 180,
+        "net": "pr",
+        "code": "71510918",
+        "ids": ",pr71510918,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.7319,
+        "rms": 0.28,
+        "gap": 224,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 49 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.8176666666667,
+          18.8773333333333,
+          119.74
+        ]
+      },
+      "id": "pr71510918"
     },
     {
       "type": "Feature",
@@ -615,11 +695,11 @@
         "mag": 4.9,
         "place": "10 km E of Ouranoupolis, Greece",
         "time": 1774465704891,
-        "updated": 1774474884910,
+        "updated": 1774498290881,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7l9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7l9.geojson",
-        "felt": 46,
+        "felt": 47,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
