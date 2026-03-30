@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774887383000,
+    "generated": 1774890866000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,22 +15,22 @@
         "mag": 2.49,
         "place": "1 km S of Redwood Valley, CA",
         "time": 1774887124210,
-        "updated": 1774887351130,
+        "updated": 1774888641741,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335567",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75335567.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 96,
         "net": "nc",
         "code": "75335567",
         "ids": ",nc75335567,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 30,
         "dmin": 0.05176,
         "rms": 0.08,
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1774885810965,
-        "updated": 1774886494645,
+        "mag": 2.7,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1774885811010,
+        "updated": 1774889362234,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ggtkgf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ggtkgf.geojson",
@@ -63,28 +63,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 112,
         "net": "tx",
         "code": "2026ggtkgf",
         "ids": ",tx2026ggtkgf,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 34,
+        "nst": 36,
         "dmin": 0,
-        "rms": 0.4,
-        "gap": 71,
+        "rms": 0.1,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 57 km S of Whites City, New Mexico"
+        "title": "M 2.7 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.405,
-          31.656,
-          4.1836
+          -104.399,
+          31.676,
+          6.0999
         ]
       },
       "id": "tx2026ggtkgf"
@@ -733,41 +733,81 @@
       "type": "Feature",
       "properties": {
         "mag": 7.3,
-        "place": "35 km NE of Luganville, Vanuatu",
-        "time": 1774860248144,
-        "updated": 1774881683473,
+        "place": "48 km ENE of Luganville, Vanuatu",
+        "time": 1774860253823,
+        "updated": 1774890738331,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8q0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s8q0.geojson",
-        "felt": 26,
+        "felt": 31,
         "cdi": 6.1,
-        "mmi": 6.722,
+        "mmi": 6.518,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 836,
+        "sig": 839,
         "net": "us",
         "code": "7000s8q0",
         "ids": ",pt26089000,us7000s8q0,",
         "sources": ",pt,us,",
         "types": ",dyfi,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 82,
-        "dmin": 0.24,
-        "rms": 0.71,
-        "gap": 36,
+        "nst": 181,
+        "dmin": 0.37,
+        "rms": 0.89,
+        "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 7.3 - 35 km NE of Luganville, Vanuatu"
+        "title": "M 7.3 - 48 km ENE of Luganville, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          167.3993,
-          -15.2984,
-          115.813
+          167.5616,
+          -15.3139,
+          121.28
         ]
       },
       "id": "us7000s8q0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "42 km NE of Luganville, Vanuatu",
+        "time": 1774860247642,
+        "updated": 1774890638431,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8v7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s8v7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.895,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000s8v7",
+        "ids": ",us7000s8v7,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 148,
+        "dmin": 0.31,
+        "rms": 0.65,
+        "gap": 25,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - 42 km NE of Luganville, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.4673,
+          -15.2696,
+          115.406
+        ]
+      },
+      "id": "us7000s8v7"
     },
     {
       "type": "Feature",
@@ -2008,46 +2048,6 @@
         ]
       },
       "id": "ci41427552"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "13 km ENE of Karluk, Alaska",
-        "time": 1774803751795,
-        "updated": 1774806884040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gfabse",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gfabse.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026gfabse",
-        "ids": ",us7000s8kb,aka2026gfabse,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.6,
-        "rms": 0.6,
-        "gap": 117,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 13 km ENE of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.241,
-          57.6,
-          44.7
-        ]
-      },
-      "id": "aka2026gfabse"
     }
   ],
   "bbox": [
