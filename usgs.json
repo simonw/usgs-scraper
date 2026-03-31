@@ -1,35 +1,115 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774984748000,
+    "generated": 1774987688000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 57
+    "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.26,
+        "place": "94 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1774985583810,
+        "updated": 1774987491340,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511683",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71511683.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 164,
+        "net": "pr",
+        "code": "71511683",
+        "ids": ",pr71511683,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.8035,
+        "rms": 0.36,
+        "gap": 262,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 94 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8536666666667,
+          19.1968333333333,
+          32.67
+        ]
+      },
+      "id": "pr71511683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "Kermadec Islands, New Zealand",
+        "time": 1774985090278,
+        "updated": 1774986716026,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s963",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s963.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.734,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000s963",
+        "ids": ",us7000s963,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 87,
+        "dmin": 7.654,
+        "rms": 0.89,
+        "gap": 47,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - Kermadec Islands, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7529,
+          -30.2892,
+          143.358
+        ]
+      },
+      "id": "us7000s963"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.92,
         "place": "5 km SW of Laytonville, CA",
         "time": 1774983592120,
-        "updated": 1774984261333,
+        "updated": 1774985542040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75336427",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75336427.geojson",
-        "felt": 1,
+        "felt": 4,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 132,
+        "sig": 133,
         "net": "nc",
         "code": "75336427",
-        "ids": ",nc75336427,",
-        "sources": ",nc,",
+        "ids": ",nc75336427,us7000s95y,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 47,
         "dmin": 0.05383,
@@ -2128,173 +2208,13 @@
         ]
       },
       "id": "aka2026ghclvo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1774900496855,
-        "updated": 1774931252645,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ghbneb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ghbneb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026ghbneb",
-        "ids": ",aka2026ghbneb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 260,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.19,
-          51.134,
-          27
-        ]
-      },
-      "id": "aka2026ghbneb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "119 km ESE of Akutan, Alaska",
-        "time": 1774900396093,
-        "updated": 1774931108679,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ghbltk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ghbltk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026ghbltk",
-        "ids": ",aka2026ghbltk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.8,
-        "rms": 0.6,
-        "gap": 223,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 119 km ESE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -164.063,
-          53.778,
-          22.4
-        ]
-      },
-      "id": "aka2026ghbltk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "40 km NNE of Port-Olry, Vanuatu",
-        "time": 1774900227008,
-        "updated": 1774901395884,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8x0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s8x0.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000s8x0",
-        "ids": ",us7000s8x0,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.745,
-        "rms": 0.77,
-        "gap": 146,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 40 km NNE of Port-Olry, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.2092,
-          -14.6979,
-          85.082
-        ]
-      },
-      "id": "us7000s8x0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "91 km SSE of Sand Point, Alaska",
-        "time": 1774898585747,
-        "updated": 1774931149035,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8wf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s8wf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.429,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "7000s8wf",
-        "ids": ",aka2026ghalta,us7000s8wf,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 42,
-        "dmin": 1.493,
-        "rms": 0.7,
-        "gap": 160,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - 91 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.9368,
-          54.583,
-          35
-        ]
-      },
-      "id": "us7000s8wf"
     }
   ],
   "bbox": [
     -178.7732,
     -55.3251,
     -0.28000000119209,
-    179.19,
+    178.8272,
     65.35,
     698.129
   ]
