@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775444242000,
+    "generated": 1775448202000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.13567439822351,
+        "place": "26 km WNW of Ludlow, CA",
+        "time": 1775447979890,
+        "updated": 1775448112425,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41433384",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41433384.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "ci",
+        "code": "41433384",
+        "ids": ",ci41433384,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 67,
+        "dmin": 0.05569,
+        "rms": 0.200000003,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 26 km WNW of Ludlow, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.401000976562,
+          34.8418350219727,
+          0.340000003576279
+        ]
+      },
+      "id": "ci41433384"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.4,
-        "place": "south of the Kermadec Islands",
-        "time": 1775436147044,
-        "updated": 1775437721061,
+        "mag": 5.2,
+        "place": "Kermadec Islands region",
+        "time": 1775436146628,
+        "updated": 1775447453040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smyb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smyb.geojson",
@@ -105,25 +145,25 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 416,
         "net": "us",
         "code": "6000smyb",
         "ids": ",us6000smyb,",
         "sources": ",us,",
         "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 35,
-        "dmin": 2.807,
-        "rms": 0.87,
+        "nst": 55,
+        "dmin": 2.698,
+        "rms": 0.86,
         "gap": 75,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - south of the Kermadec Islands"
+        "title": "M 5.2 - Kermadec Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.0534,
-          -32.0588,
+          -178.0646,
+          -31.9492,
           10
         ]
       },
@@ -135,7 +175,7 @@
         "mag": 2.9,
         "place": "37 km NNE of Chenega, Alaska",
         "time": 1775431879409,
-        "updated": 1775435488368,
+        "updated": 1775446921040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gsjaxp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gsjaxp.geojson",
@@ -148,8 +188,8 @@
         "sig": 129,
         "net": "ak",
         "code": "a2026gsjaxp",
-        "ids": ",aka2026gsjaxp,",
-        "sources": ",ak,",
+        "ids": ",aka2026gsjaxp,us6000smy5,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 92,
         "dmin": 0.5,
@@ -173,12 +213,12 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "93 km ESE of Adak, Alaska",
-        "time": 1775431065622,
-        "updated": 1775432225863,
+        "place": "88 km ESE of Adak, Alaska",
+        "time": 1775431066472,
+        "updated": 1775444659040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gsipft",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gsipft.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smy7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smy7.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 2.413,
@@ -186,28 +226,68 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 199,
-        "net": "ak",
-        "code": "a2026gsipft",
-        "ids": ",aka2026gsipft,",
-        "sources": ",ak,",
+        "net": "us",
+        "code": "6000smy7",
+        "ids": ",aka2026gsipft,us6000smy7,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 37,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 206,
+        "nst": 40,
+        "dmin": 0.473,
+        "rms": 0.49,
+        "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 93 km ESE of Adak, Alaska"
+        "title": "M 3.6 - 88 km ESE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -175.371,
-          51.563,
-          30.3
+          -175.4079,
+          51.6396,
+          42.435
         ]
       },
-      "id": "aka2026gsipft"
+      "id": "us6000smy7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "74 km WSW of Abra Pampa, Argentina",
+        "time": 1775429766952,
+        "updated": 1775444244040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smy1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smy1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000smy1",
+        "ids": ",us6000smy1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 1.651,
+        "rms": 0.45,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 74 km WSW of Abra Pampa, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3879,
+          -22.9307,
+          242.366
+        ]
+      },
+      "id": "us6000smy1"
     },
     {
       "type": "Feature",
@@ -295,11 +375,11 @@
         "mag": 3.94,
         "place": "4 km ENE of Pāhala, Hawaii",
         "time": 1775425313760,
-        "updated": 1775444177336,
+        "updated": 1775445114265,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74931967",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74931967.geojson",
-        "felt": 79,
+        "felt": 81,
         "cdi": 3.4,
         "mmi": 4.599,
         "alert": "green",
@@ -1568,46 +1648,6 @@
         ]
       },
       "id": "pr2026095000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "39 km NW of Akhiok, Alaska",
-        "time": 1775361673271,
-        "updated": 1775361820279,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gqwgsk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gqwgsk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026gqwgsk",
-        "ids": ",aka2026gqwgsk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.8,
-        "rms": 0.6,
-        "gap": 162,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 39 km NW of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.679,
-          57.173,
-          5
-        ]
-      },
-      "id": "aka2026gqwgsk"
     }
   ],
   "bbox": [
