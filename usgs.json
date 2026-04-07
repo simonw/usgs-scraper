@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775525406000,
+    "generated": 1775530638000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 46
+    "count": 45
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.6,
         "place": "16 km SW of Coyanosa, Texas",
         "time": 1775524588093,
-        "updated": 1775524875591,
+        "updated": 1775526171040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026guigfo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026guigfo.geojson",
@@ -28,8 +28,8 @@
         "sig": 104,
         "net": "tx",
         "code": "2026guigfo",
-        "ids": ",tx2026guigfo,",
-        "sources": ",tx,",
+        "ids": ",us6000sn53,tx2026guigfo,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 27,
         "dmin": 0,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "tx2026guigfo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "65 km E of Adak, Alaska",
+        "time": 1775523358443,
+        "updated": 1775529946412,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026guhote",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026guhote.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.035,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "a2026guhote",
+        "ids": ",aka2026guhote,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 65,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 188,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 65 km E of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.689,
+          51.886,
+          156.4
+        ]
+      },
+      "id": "aka2026guhote"
     },
     {
       "type": "Feature",
@@ -94,8 +134,8 @@
       "properties": {
         "mag": 4.3,
         "place": "140 km S of La Libertad, El Salvador",
-        "time": 1775518286251,
-        "updated": 1775519930040,
+        "time": 1775518285957,
+        "updated": 1775530172040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sn4h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sn4h.geojson",
@@ -111,10 +151,10 @@
         "ids": ",us6000sn4h,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.427,
-        "rms": 0.7,
-        "gap": 213,
+        "nst": 42,
+        "dmin": 1.425,
+        "rms": 0.71,
+        "gap": 209,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.3 - 140 km S of La Libertad, El Salvador"
@@ -122,8 +162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.4319,
-          12.2189,
+          -89.4467,
+          12.2202,
           10
         ]
       },
@@ -132,13 +172,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "89 km SW of Nikolski, Alaska",
-        "time": 1775514521122,
-        "updated": 1775521635707,
+        "mag": 2.9,
+        "place": "95 km SW of Nikolski, Alaska",
+        "time": 1775514521164,
+        "updated": 1775529280040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gucsdz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gucsdz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sn4u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sn4u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000sn4u",
+        "ids": ",aka2026gucsdz,us6000sn4u,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.392,
+        "rms": 0.67,
+        "gap": 302,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 95 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.9685,
+          52.4027,
+          10
+        ]
+      },
+      "id": "us6000sn4u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "248 km ESE of Attu Station, Alaska",
+        "time": 1775514058911,
+        "updated": 1775528752040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sn4s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sn4s.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,68 +226,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 138,
-        "net": "ak",
-        "code": "a2026gucsdz",
-        "ids": ",aka2026gucsdz,",
-        "sources": ",ak,",
+        "net": "us",
+        "code": "6000sn4s",
+        "ids": ",aka2026guclle,us6000sn4s,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 296,
+        "nst": 12,
+        "dmin": 1.221,
+        "rms": 0.42,
+        "gap": 190,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 89 km SW of Nikolski, Alaska"
+        "title": "M 3.0 - 248 km ESE of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -169.847,
-          52.398,
-          1.7
+          176.5385,
+          51.9534,
+          10
         ]
       },
-      "id": "aka2026gucsdz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "248 km ESE of Attu Station, Alaska",
-        "time": 1775514058995,
-        "updated": 1775521354966,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026guclle",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026guclle.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026guclle",
-        "ids": ",aka2026guclle,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 1.2,
-        "rms": 0.3,
-        "gap": 356,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 248 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.596,
-          52.046,
-          4.4
-        ]
-      },
-      "id": "aka2026guclle"
+      "id": "us6000sn4s"
     },
     {
       "type": "Feature",
@@ -215,7 +255,7 @@
         "mag": 2.5,
         "place": "4 km N of Stanton, Texas",
         "time": 1775513157021,
-        "updated": 1775517675297,
+        "updated": 1775527734040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gubyfq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gubyfq.geojson",
@@ -228,8 +268,8 @@
         "sig": 97,
         "net": "tx",
         "code": "2026gubyfq",
-        "ids": ",tx2026gubyfq,",
-        "sources": ",tx,",
+        "ids": ",tx2026gubyfq,us6000sn46,",
+        "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 88,
         "dmin": 0.1,
@@ -255,17 +295,17 @@
         "mag": 3.50592066186957,
         "place": "14 km N of Tecate, B.C., MX",
         "time": 1775509593200,
-        "updated": 1775525188801,
+        "updated": 1775530613109,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41433912",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41433912.geojson",
-        "felt": 206,
+        "felt": 211,
         "cdi": 3.6,
         "mmi": 3.14,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 263,
+        "sig": 265,
         "net": "ci",
         "code": "41433912",
         "ids": ",ci41433912,us6000sn3w,",
@@ -295,17 +335,17 @@
         "mag": 4.3,
         "place": "14 km S of Atoka, New Mexico",
         "time": 1775505696598,
-        "updated": 1775524861088,
+        "updated": 1775527931859,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sn3a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sn3a.geojson",
-        "felt": 164,
+        "felt": 165,
         "cdi": 5.1,
         "mmi": 4.634,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 368,
+        "sig": 369,
         "net": "us",
         "code": "6000sn3a",
         "ids": ",us6000sn3a,",
@@ -1768,93 +1808,13 @@
         ]
       },
       "id": "ci41433384"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "21 km ESE of Kelly, Wyoming",
-        "time": 1775441919472,
-        "updated": 1775442287040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smyr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smyr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000smyr",
-        "ids": ",us6000smyr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.178,
-        "rms": 0.48,
-        "gap": 79,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 21 km ESE of Kelly, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.3739,
-          43.552,
-          11.565
-        ]
-      },
-      "id": "us6000smyr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "125 km E of Bitung, Indonesia",
-        "time": 1775440606796,
-        "updated": 1775443460040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smyk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smyk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000smyk",
-        "ids": ",us6000smyk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 7.384,
-        "rms": 0.78,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 125 km E of Bitung, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.2604,
-          1.4332,
-          35
-        ]
-      },
-      "id": "us6000smyk"
     }
   ],
   "bbox": [
     -178.416,
     -56.9079,
-    1.7,
-    176.596,
+    1.92,
+    176.5385,
     57.334,
     162.925
   ]
