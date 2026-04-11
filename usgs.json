@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775923436000,
+    "generated": 1775927208000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 37
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8098037242889404,
-        "place": "14 km NW of Cliffdell, Washington",
-        "time": 1775923159620,
-        "updated": 1775923371900,
+        "mag": 2.7600000000000002,
+        "place": "13 km NW of Cliffdell, Washington",
+        "time": 1775923159640,
+        "updated": 1775923822920,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62233047",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62233047.geojson",
@@ -23,28 +23,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 117,
         "net": "uw",
         "code": "62233047",
         "ids": ",uw62233047,",
         "sources": ",uw,",
         "types": ",origin,phase-data,",
-        "nst": 143,
-        "dmin": null,
-        "rms": 0.230000004,
+        "nst": 147,
+        "dmin": 0.2258,
+        "rms": 0.24,
         "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 14 km NW of Cliffdell, Washington"
+        "title": "M 2.8 - 13 km NW of Cliffdell, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.20166778564453,
-          47.0351676940918,
-          2.54999995231628
+          -121.20166666666667,
+          47.03033333333333,
+          2.73
         ]
       },
       "id": "uw62233047"
@@ -175,12 +175,12 @@
         "mag": 4.7,
         "place": "12 km NNE of Simav, Turkey",
         "time": 1775917916448,
-        "updated": 1775918738040,
+        "updated": 1775926539431,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spb7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000spb7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +190,7 @@
         "code": "6000spb7",
         "ids": ",us6000spb7,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 45,
         "dmin": 1.549,
         "rms": 0.85,
@@ -1368,133 +1368,13 @@
         ]
       },
       "id": "tx2026hbeiwv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "28 km WSW of Pelican, Alaska",
-        "time": 1775839396670,
-        "updated": 1775855751518,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hbadrs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hbadrs.geojson",
-        "felt": 25,
-        "cdi": 3.1,
-        "mmi": 3.652,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 242,
-        "net": "ak",
-        "code": "a2026hbadrs",
-        "ids": ",aka2026hbadrs,us6000sp5m,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 129,
-        "dmin": 0.3,
-        "rms": 1.1,
-        "gap": 119,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 28 km WSW of Pelican, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.701,
-          57.9,
-          0.9
-        ]
-      },
-      "id": "aka2026hbadrs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "81 km SW of Nikolski, Alaska",
-        "time": 1775838801194,
-        "updated": 1775852616040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sp6z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sp6z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000sp6z",
-        "ids": ",aka2026hazvce,us6000sp6z,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.36,
-        "rms": 0.67,
-        "gap": 286,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 81 km SW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.7151,
-          52.4268,
-          10
-        ]
-      },
-      "id": "us6000sp6z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "221 km ESE of Attu Station, Alaska",
-        "time": 1775838044840,
-        "updated": 1775852327040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sp6h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sp6h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.267,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000sp6h",
-        "ids": ",aka2026hazkoo,us6000sp6h,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 20,
-        "dmin": 1.581,
-        "rms": 1.48,
-        "gap": 289,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 221 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.9696,
-          51.816,
-          35
-        ]
-      },
-      "id": "us6000sp6h"
     }
   ],
   "bbox": [
     -179.8694,
     -23.4022,
     0.079999998211861,
-    175.9696,
+    146.4358,
     63.166,
     538.158
   ]
