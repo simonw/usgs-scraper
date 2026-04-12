@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776017212000,
+    "generated": 1776021185000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 60
+    "count": 58
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "62 km ENE of Astara, Azerbaijan",
+        "time": 1776019560539,
+        "updated": 1776020555040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spiw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000spiw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000spiw",
+        "ids": ",us6000spiw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.796,
+        "rms": 0.58,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 62 km ENE of Astara, Azerbaijan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5691,
+          38.5876,
+          10
+        ]
+      },
+      "id": "us6000spiw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.82,
         "place": "9 km WNW of Cobb, CA",
         "time": 1776014827280,
-        "updated": 1776015739511,
+        "updated": 1776019091040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75343067",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75343067.geojson",
@@ -28,8 +68,8 @@
         "sig": 122,
         "net": "nc",
         "code": "75343067",
-        "ids": ",nc75343067,",
-        "sources": ",nc,",
+        "ids": ",nc75343067,us6000spif,",
+        "sources": ",nc,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 69,
         "dmin": 0.01585,
@@ -215,12 +255,12 @@
         "mag": 3.4,
         "place": "14 km W of Fairview, Wyoming",
         "time": 1776006083981,
-        "updated": 1776015404922,
+        "updated": 1776020164884,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sphy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sphy.geojson",
-        "felt": 9,
-        "cdi": 3.2,
+        "felt": 10,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -2288,126 +2328,6 @@
         ]
       },
       "id": "nn00913991"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "49 km SSW of Tambolaka, Indonesia",
-        "time": 1775934195930,
-        "updated": 1775954429040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spcl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000spcl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000spcl",
-        "ids": ",us6000spcl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.6,
-        "rms": 0.72,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 49 km SSW of Tambolaka, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.0412,
-          -9.8347,
-          50.461
-        ]
-      },
-      "id": "us6000spcl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "50 km ESE of Knik River, Alaska",
-        "time": 1775931770548,
-        "updated": 1775934956821,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hczeiz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hczeiz.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026hczeiz",
-        "ids": ",aka2026hczeiz,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 50 km ESE of Knik River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.99,
-          61.373,
-          19.6
-        ]
-      },
-      "id": "aka2026hczeiz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "28 km NW of Trinidad, CA",
-        "time": 1775931132700,
-        "updated": 1775955963952,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75342702",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75342702.geojson",
-        "felt": 35,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "nc",
-        "code": "75342702",
-        "ids": ",nc75342702,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": 0.2546,
-        "rms": 0.17,
-        "gap": 179,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 28 km NW of Trinidad, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.353,
-          41.2576666666667,
-          19.27
-        ]
-      },
-      "id": "nc75342702"
     }
   ],
   "bbox": [
