@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776360310000,
+    "generated": 1776363523000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 25
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Volcano Islands, Japan region",
+        "time": 1776359957054,
+        "updated": 1776361356040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqla",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqla.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000sqla",
+        "ids": ",us6000sqla,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 10.914,
+        "rms": 0.95,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.079,
+          23.9928,
+          10
+        ]
+      },
+      "id": "us6000sqla"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "268 km W of Puerto Chacabuco, Chile",
+        "time": 1776358312781,
+        "updated": 1776361722040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqk6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqk6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000sqk6",
+        "ids": ",us6000sqk6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 2.019,
+        "rms": 0.92,
+        "gap": 188,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 268 km W of Puerto Chacabuco, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2235,
+          -45.8129,
+          10
+        ]
+      },
+      "id": "us6000sqk6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,22 +255,22 @@
         "mag": 3.01,
         "place": "18 km SE of Silver Springs, Nevada",
         "time": 1776329615589,
-        "updated": 1776330634585,
+        "updated": 1776360887821,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914948",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00914948.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 140,
         "net": "nn",
         "code": "00914948",
         "ids": ",nn00914948,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.063,
         "rms": 0.1617,
@@ -968,52 +1048,12 @@
         ]
       },
       "id": "pr71513733"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.31,
-        "place": "19 km SE of Silver Springs, Nevada",
-        "time": 1776274498969,
-        "updated": 1776305654243,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914859",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00914859.geojson",
-        "felt": 6,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 170,
-        "net": "nn",
-        "code": "00914859",
-        "ids": ",nn00914859,us6000sqby,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.053,
-        "rms": 0.1451,
-        "gap": 69,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.3 - 19 km SE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0429,
-          39.3038,
-          3
-        ]
-      },
-      "id": "nn00914859"
     }
   ],
   "bbox": [
     -178.1517,
-    -32.2098,
-    3,
+    -45.8129,
+    5,
     161.9355,
     63.91,
     419.576
