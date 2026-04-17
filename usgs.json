@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776442560000,
+    "generated": 1776445953000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "75 km SE of Akutan, Alaska",
+        "time": 1776443587722,
+        "updated": 1776444060040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqvn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqvn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.375,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000sqvn",
+        "ids": ",us6000sqvn,aka2026hnvxde,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 11,
+        "dmin": 0.723,
+        "rms": 0.78,
+        "gap": 213,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 75 km SE of Akutan, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.0106,
+          53.626,
+          10
+        ]
+      },
+      "id": "us6000sqvn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.42281329293773,
         "place": "26 km WNW of Ludlow, CA",
         "time": 1776431022160,
-        "updated": 1776431660580,
+        "updated": 1776444614760,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41443376",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41443376.geojson",
@@ -143,7 +183,7 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 180,
         "net": "ci",
@@ -335,12 +375,12 @@
         "mag": 2.7,
         "place": "29 km E of Beluga, Alaska",
         "time": 1776420233117,
-        "updated": 1776422004040,
+        "updated": 1776444771133,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hnizrb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hnizrb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -348,9 +388,9 @@
         "sig": 112,
         "net": "ak",
         "code": "a2026hnizrb",
-        "ids": ",us6000sqra,aka2026hnizrb,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026hnizrb,us6000sqra,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 88,
         "dmin": 0.2,
         "rms": 0.8,
@@ -1488,51 +1528,11 @@
         ]
       },
       "id": "aka2026hmbngd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "268 km W of Puerto Chacabuco, Chile",
-        "time": 1776358312781,
-        "updated": 1776361722040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqk6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqk6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000sqk6",
-        "ids": ",us6000sqk6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 2.019,
-        "rms": 0.92,
-        "gap": 188,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 268 km W of Puerto Chacabuco, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.2235,
-          -45.8129,
-          10
-        ]
-      },
-      "id": "us6000sqk6"
     }
   ],
   "bbox": [
     -179.9118,
-    -45.8129,
+    -32.3197,
     0.43000000715256,
     176.195,
     62.298,
