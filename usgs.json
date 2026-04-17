@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776410901000,
+    "generated": 1776414466000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -55,22 +55,22 @@
         "mag": 4.9,
         "place": "6 km NNE of Gigaquit, Philippines",
         "time": 1776408436592,
-        "updated": 1776409352040,
+        "updated": 1776413205577,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqqr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqqr.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 370,
         "net": "us",
         "code": "6000sqqr",
         "ids": ",us6000sqqr,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 52,
         "dmin": 2.57,
         "rms": 0.64,
@@ -1492,42 +1492,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "114 km N of Yakutat, Alaska",
-        "time": 1776338055740,
-        "updated": 1776376304373,
+        "mag": 2.6,
+        "place": "103 km N of Yakutat, Alaska",
+        "time": 1776338056826,
+        "updated": 1776411666040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hlpple",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hlpple.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqiv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqiv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026hlpple",
-        "ids": ",aka2026hlpple,",
-        "sources": ",ak,",
+        "sig": 104,
+        "net": "us",
+        "code": "6000sqiv",
+        "ids": ",aka2026hlpple,us6000sqiv,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 16,
+        "nst": 32,
         "dmin": 0.6,
-        "rms": 0.9,
-        "gap": 84,
+        "rms": 1.35,
+        "gap": 96,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 114 km N of Yakutat, Alaska"
+        "title": "M 2.6 - 103 km N of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.016,
-          60.56,
-          9.9
+          -140.0341,
+          60.4623,
+          5
         ]
       },
-      "id": "aka2026hlpple"
+      "id": "us6000sqiv"
     },
     {
       "type": "Feature",
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "us6000sqid"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "102 km SSW of Paracas, Peru",
-        "time": 1776326942443,
-        "updated": 1776329973562,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqib",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqib.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000sqib",
-        "ids": ",us6000sqib,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 59,
-        "dmin": 2.656,
-        "rms": 0.72,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 102 km SSW of Paracas, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.767,
-          -14.6589,
-          10
-        ]
-      },
-      "id": "us6000sqib"
     }
   ],
   "bbox": [
