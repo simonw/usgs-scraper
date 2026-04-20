@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776712914000,
+    "generated": 1776715823000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 54
+    "count": 52
   },
   "features": [
     {
@@ -575,12 +575,12 @@
         "mag": 3.56,
         "place": "56 km W of Petrolia, CA",
         "time": 1776691580940,
-        "updated": 1776712341185,
+        "updated": 1776714442463,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75348572",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75348572.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -590,7 +590,7 @@
         "code": "75348572",
         "ids": ",nc75348572,us6000srk0,",
         "sources": ",nc,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 131,
         "dmin": 0.4663,
         "rms": 0.24,
@@ -854,8 +854,8 @@
       "properties": {
         "mag": 4.66,
         "place": "52 km W of Petrolia, CA",
-        "time": 1776681693930,
-        "updated": 1776708220116,
+        "time": 1776681693940,
+        "updated": 1776714793700,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75348507",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75348507.geojson",
@@ -871,8 +871,8 @@
         "ids": ",nc75348507,us6000srj7,ew1776681700,",
         "sources": ",nc,us,ew,",
         "types": ",dyfi,event-sequence,focal-mechanism,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 172,
-        "dmin": 0.4313,
+        "nst": 171,
+        "dmin": 0.4309,
         "rms": 0.23,
         "gap": 225,
         "magType": "mw",
@@ -882,9 +882,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.9015,
+          -124.901,
           40.3466666666667,
-          13.58
+          13.63
         ]
       },
       "id": "nc75348507"
@@ -1935,7 +1935,7 @@
         "mag": 3.35,
         "place": "19 km SSE of Pāhala, Hawaii",
         "time": 1776637862580,
-        "updated": 1776646244937,
+        "updated": 1776713097740,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74939067",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74939067.geojson",
@@ -2088,86 +2088,6 @@
         ]
       },
       "id": "pr71513973"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "south of the Kermadec Islands",
-        "time": 1776628537128,
-        "updated": 1776629631040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srf6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000srf6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000srf6",
-        "ids": ",us6000srf6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 3.178,
-        "rms": 0.71,
-        "gap": 184,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9473,
-          -32.4336,
-          10
-        ]
-      },
-      "id": "us6000srf6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "18 km SE of Silver Springs, Nevada",
-        "time": 1776627117788,
-        "updated": 1776635674546,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00915666.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "nn",
-        "code": "00915666",
-        "ids": ",nn00915666,us6000srf3,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.047,
-        "rms": 0.3108,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 18 km SE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0872,
-          39.2823,
-          10.0042
-        ]
-      },
-      "id": "nn00915666"
     }
   ],
   "bbox": [
