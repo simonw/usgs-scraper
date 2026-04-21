@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776785017000,
+    "generated": 1776788398000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 51
+    "count": 48
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 5,
         "place": "12 km SSW of Santiago Quiavicuzas, Mexico",
         "time": 1776783137411,
-        "updated": 1776784223040,
+        "updated": 1776787126721,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sru5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sru5.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000sru5",
         "ids": ",us6000sru5,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 149,
         "dmin": 4.116,
         "rms": 0.71,
@@ -808,6 +808,46 @@
         ]
       },
       "id": "us6000srr7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
+        "place": "18 km SSE of Silver Springs, Nevada",
+        "time": 1776738848278,
+        "updated": 1776787349981,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915900",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00915900.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "nn",
+        "code": "00915900",
+        "ids": ",nn00915900,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.057,
+        "rms": 0.1629,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 18 km SSE of Silver Springs, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1103,
+          39.2705,
+          7.1937
+        ]
+      },
+      "id": "nn00915900"
     },
     {
       "type": "Feature",
@@ -1888,174 +1928,14 @@
         ]
       },
       "id": "aka2026htkddq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "129 km E of Yamada, Japan",
-        "time": 1776701597100,
-        "updated": 1776704879040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srkt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000srkt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000srkt",
-        "ids": ",us6000srkt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 2.254,
-        "rms": 0.53,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 129 km E of Yamada, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.4588,
-          39.4793,
-          37.502
-        ]
-      },
-      "id": "us6000srkt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "18 km N of Moose Pass, Alaska",
-        "time": 1776701502024,
-        "updated": 1776708086423,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026htijgz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026htijgz.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026htijgz",
-        "ids": ",aka2026htijgz,us6000srkq,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km N of Moose Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.353,
-          60.654,
-          4.5
-        ]
-      },
-      "id": "aka2026htijgz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "26 km NNE of Karluk, Alaska",
-        "time": 1776701288253,
-        "updated": 1776703747040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026htigfl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026htigfl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "a2026htigfl",
-        "ids": ",us6000srkm,aka2026htigfl,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 85,
-        "dmin": 0.5,
-        "rms": 0.5,
-        "gap": 185,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 26 km NNE of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.341,
-          57.797,
-          61.5
-        ]
-      },
-      "id": "aka2026htigfl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "235 km ESE of Attu Station, Alaska",
-        "time": 1776699892705,
-        "updated": 1776712484460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srkj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000srkj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.869,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000srkj",
-        "ids": ",aka2026hthmgv,us6000srkj,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 81,
-        "dmin": 1.31,
-        "rms": 0.78,
-        "gap": 168,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 235 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.4828,
-          52.1867,
-          9.032
-        ]
-      },
-      "id": "us6000srkj"
     }
   ],
   "bbox": [
     -178.4456,
     -62.0123,
     1.5900000333786,
-    176.4828,
-    60.654,
+    170.8816,
+    59.469,
     484.842
   ]
 }
