@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777321106000,
+    "generated": 1777324712000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 36
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "66 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1777313777310,
+        "updated": 1777323118090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514873",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514873.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "pr",
+        "code": "71514873",
+        "ids": ",pr71514873,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.5857,
+        "rms": 0.11,
+        "gap": 240,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 66 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0766666666667,
+          18.93,
+          15.95
+        ]
+      },
+      "id": "pr71514873"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +135,17 @@
         "mag": 3.27,
         "place": "6 km SSW of Redlands, CA",
         "time": 1777301233930,
-        "updated": 1777320271358,
+        "updated": 1777324484428,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41235031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41235031.geojson",
-        "felt": 464,
+        "felt": 466,
         "cdi": 3.4,
         "mmi": 3.62,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 322,
+        "sig": 323,
         "net": "ci",
         "code": "41235031",
         "ids": ",ci41235031,us6000st55,",
@@ -1055,11 +1095,11 @@
         "mag": 2.9,
         "place": "17 km E of Butte, Montana",
         "time": 1777260754194,
-        "updated": 1777318630145,
+        "updated": 1777321134483,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st31",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000st31.geojson",
-        "felt": 39,
+        "felt": 40,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "us6000st2b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "67 km ENE of Pedro Bay, Alaska",
-        "time": 1777235310652,
-        "updated": 1777235583348,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ierfex",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ierfex.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026ierfex",
-        "ids": ",aka2026ierfex,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 89,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 67 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.088,
-          60.119,
-          124.9
-        ]
-      },
-      "id": "aka2026ierfex"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "18 km W of Sarabetsu, Japan",
-        "time": 1777235035561,
-        "updated": 1777278864635,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st1m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000st1m.geojson",
-        "felt": 16,
-        "cdi": 5.3,
-        "mmi": 5.25,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 581,
-        "net": "us",
-        "code": "6000st1m",
-        "ids": ",us6000st1m,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 116,
-        "dmin": 0.633,
-        "rms": 0.75,
-        "gap": 35,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - 18 km W of Sarabetsu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.9615,
-          42.6311,
-          81
-        ]
-      },
-      "id": "us6000st1m"
     }
   ],
   "bbox": [
