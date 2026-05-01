@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777599031000,
+    "generated": 1777604326000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.22,
+        "place": "10 km NNE of Brenas, Puerto Rico",
+        "time": 1777601604250,
+        "updated": 1777602985820,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515233",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71515233.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "pr",
+        "code": "71515233",
+        "ids": ",us7000shgg,pr71515233,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.2318,
+        "rms": 0.2,
+        "gap": 188,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 10 km NNE of Brenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.297,
+          18.5485,
+          97.47
+        ]
+      },
+      "id": "pr71515233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.69,
+        "place": "23 km W of Petrolia, CA",
+        "time": 1777600721550,
+        "updated": 1777603425441,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75354667",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75354667.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": 2.568,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 210,
+        "net": "nc",
+        "code": "75354667",
+        "ids": ",nc75354667,us7000shgd,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 37,
+        "dmin": 0.1658,
+        "rms": 0.19,
+        "gap": 266,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.7 - 23 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.557502746582,
+          40.3105010986328,
+          9.06999969482422
+        ]
+      },
+      "id": "nc75354667"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,50 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "3 km ENE of Balmorhea, Texas",
-        "time": 1777593457158,
-        "updated": 1777593700180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026imgyrf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026imgyrf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2026imgyrf",
-        "ids": ",tx2026imgyrf,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.2,
-        "rms": 1,
-        "gap": 156,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km ENE of Balmorhea, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.704,
-          30.993,
-          0
-        ]
-      },
-      "id": "tx2026imgyrf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.7,
         "place": "52 km S of Whites City, New Mexico",
         "time": 1777593431773,
-        "updated": 1777593972652,
+        "updated": 1777601425314,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026imhbfe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026imhbfe.geojson",
@@ -148,9 +188,9 @@
         "sig": 112,
         "net": "tx",
         "code": "2026imhbfe",
-        "ids": ",tx2026imhbfe,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2026imhbfe,us7000shfn,tx2026imgyrf,",
+        "sources": ",tx,us,tx,",
+        "types": ",associate,origin,phase-data,",
         "nst": 43,
         "dmin": 0,
         "rms": 0.3,
@@ -215,17 +255,17 @@
         "mag": 2.81,
         "place": "14 km N of Morgan Hill, CA",
         "time": 1777589017090,
-        "updated": 1777597620706,
+        "updated": 1777599803736,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75354597",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75354597.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 125,
+        "sig": 126,
         "net": "nc",
         "code": "75354597",
         "ids": ",nc75354597,us7000shf6,",
@@ -1093,7 +1133,7 @@
   "bbox": [
     -178.0356,
     -42.2007,
-    0,
+    0.9,
     178.242,
     61.363,
     248.742
