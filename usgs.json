@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778178446000,
+    "generated": 1778182109000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 33
+    "count": 30
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.47,
         "place": "5 km E of Covelo, CA",
         "time": 1778178237970,
-        "updated": 1778178331844,
+        "updated": 1778180240986,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359502",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359502.geojson",
@@ -30,7 +30,7 @@
         "code": "75359502",
         "ids": ",nc75359502,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 49,
         "dmin": 0.1324,
         "rms": 0.2,
@@ -55,7 +55,7 @@
         "mag": 2.69,
         "place": "4 km E of Covelo, CA",
         "time": 1778177851800,
-        "updated": 1778178122160,
+        "updated": 1778180239986,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359492",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359492.geojson",
@@ -70,7 +70,7 @@
         "code": "75359492",
         "ids": ",nc75359492,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 47,
         "dmin": 0.1337,
         "rms": 0.13,
@@ -135,7 +135,7 @@
         "mag": 2.54,
         "place": "3 km SSW of Pāhala, Hawaii",
         "time": 1778175960480,
-        "updated": 1778177772140,
+        "updated": 1778180730040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74955172",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74955172.geojson",
@@ -148,8 +148,8 @@
         "sig": 99,
         "net": "hv",
         "code": "74955172",
-        "ids": ",hv74955172,",
-        "sources": ",hv,",
+        "ids": ",us6000svzq,hv74955172,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 50,
         "dmin": 0.02852,
@@ -175,17 +175,17 @@
         "mag": 4,
         "place": "17 km SSW of Weston, Colorado",
         "time": 1778175864086,
-        "updated": 1778178271653,
+        "updated": 1778181779042,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svzn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000svzn.geojson",
-        "felt": 20,
+        "felt": 29,
         "cdi": 3.8,
         "mmi": 4.626,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 254,
+        "sig": 257,
         "net": "us",
         "code": "6000svzn",
         "ids": ",us6000svzn,",
@@ -372,6 +372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "265 km W of Adak, Alaska",
+        "time": 1778166125931,
+        "updated": 1778178988547,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026izwvuf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026izwvuf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.341,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "a2026izwvuf",
+        "ids": ",aka2026izwvuf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 47,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 131,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 265 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.558,
+          51.563,
+          74.4
+        ]
+      },
+      "id": "aka2026izwvuf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "26 km ENE of Manley Hot Springs, Alaska",
         "time": 1778155201155,
@@ -534,27 +574,27 @@
       "properties": {
         "mag": 4.4,
         "place": "2 km NW of The Geysers, CA",
-        "time": 1778146963380,
-        "updated": 1778176530047,
+        "time": 1778146963400,
+        "updated": 1778182038893,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358752",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358752.geojson",
-        "felt": 394,
+        "felt": 396,
         "cdi": 5.9,
         "mmi": 5.174,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 530,
+        "sig": 531,
         "net": "nc",
         "code": "75358752",
         "ids": ",ew1778146960,nc75358752,us6000svw6,",
         "sources": ",ew,nc,us,",
         "types": ",dyfi,event-sequence,focal-mechanism,losspager,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 107,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 22,
+        "nst": 121,
+        "dmin": 0.008602,
+        "rms": 0.09,
+        "gap": 16,
         "magType": "mw",
         "type": "earthquake",
         "title": "M 4.4 - 2 km NW of The Geysers, CA"
@@ -562,9 +602,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.77433013916,
-          38.7908325195312,
-          3.53999996185303
+          -122.777166666667,
+          38.7913333333333,
+          3.68
         ]
       },
       "id": "nc75358752"
@@ -1168,173 +1208,13 @@
         ]
       },
       "id": "us6000svs8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1778095157896,
-        "updated": 1778096450040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svrl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000svrl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000svrl",
-        "ids": ",us6000svrl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 8.595,
-        "rms": 0.63,
-        "gap": 70,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -24.0873,
-          -59.5634,
-          10
-        ]
-      },
-      "id": "us6000svrl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "48 km S of Santa Gertrudis Miramar, Mexico",
-        "time": 1778094612813,
-        "updated": 1778101768040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svrf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000svrf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000svrf",
-        "ids": ",us6000svrf,",
-        "sources": ",us,",
-        "types": ",impact-text,origin,phase-data,",
-        "nst": 82,
-        "dmin": 5.686,
-        "rms": 1.06,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 48 km S of Santa Gertrudis Miramar, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.3854,
-          15.6249,
-          35
-        ]
-      },
-      "id": "us6000svrf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "26 km W of Pelican, Alaska",
-        "time": 1778094301365,
-        "updated": 1778174237068,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026iyixvk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026iyixvk.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026iyixvk",
-        "ids": ",aka2026iyixvk,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 170,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 26 km W of Pelican, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.666,
-          57.926,
-          5
-        ]
-      },
-      "id": "aka2026iyixvk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "32 km ENE of Malaga, New Mexico",
-        "time": 1778093752399,
-        "updated": 1778100806040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svrb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000svrb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000svrb",
-        "ids": ",us6000svrb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.112,
-        "rms": 0.4,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 32 km ENE of Malaga, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.737,
-          32.2977,
-          2.9
-        ]
-      },
-      "id": "us6000svrb"
     }
   ],
   "bbox": [
     -178.0277,
-    -59.5634,
+    -27.3997,
     0,
-    154.2368,
+    179.558,
     65.117,
     586.653
   ]
