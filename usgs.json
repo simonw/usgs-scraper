@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778422906000,
+    "generated": 1778426166000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 75
+    "count": 74
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.68,
         "place": "2 km W of Brawley, CA",
         "time": 1778422605960,
-        "updated": 1778422819836,
+        "updated": 1778423255930,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462904",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41462904.geojson",
@@ -28,9 +28,9 @@
         "sig": 110,
         "net": "ci",
         "code": "41462904",
-        "ids": ",ci41462904,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci41462904,us6000swqr,",
+        "sources": ",ci,us,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 57,
         "dmin": 0.0769,
         "rms": 0.29,
@@ -893,38 +893,38 @@
       "type": "Feature",
       "properties": {
         "mag": 4.66486919122063,
-        "place": "4 km WSW of Brawley, CA",
-        "time": 1778397021330,
-        "updated": 1778419274599,
+        "place": "3 km WSW of Brawley, CA",
+        "time": 1778397021250,
+        "updated": 1778426104904,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461608",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461608.geojson",
-        "felt": 162,
+        "felt": 164,
         "cdi": 5.7,
-        "mmi": 4.745,
+        "mmi": 5.257,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 427,
+        "sig": 428,
         "net": "ci",
         "code": "41461608",
         "ids": ",ew1778397020,ci41461608,us6000swmv,attet7x8,",
         "sources": ",ew,ci,us,at,",
-        "types": ",dyfi,event-sequence,focal-mechanism,ground-failure,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 94,
-        "dmin": 0.06775,
-        "rms": 0.319999993,
-        "gap": 38,
+        "types": ",dyfi,event-sequence,focal-mechanism,general-text,ground-failure,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 66,
+        "dmin": 0.06968,
+        "rms": 0.25,
+        "gap": 39,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.7 - 4 km WSW of Brawley, CA"
+        "title": "M 4.7 - 3 km WSW of Brawley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.56950378418,
-          32.9690017700195,
-          13.6999998092651
+          -115.562333333333,
+          32.9713333333333,
+          14.53
         ]
       },
       "id": "ci41461608"
@@ -2015,17 +2015,17 @@
         "mag": 5.5,
         "place": "27 km ENE of Cañete, Chile",
         "time": 1778380447249,
-        "updated": 1778417514421,
+        "updated": 1778423727864,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swk0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swk0.geojson",
-        "felt": 41,
+        "felt": 43,
         "cdi": 5.4,
         "mmi": 4.834,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 488,
+        "sig": 489,
         "net": "us",
         "code": "6000swk0",
         "ids": ",us6000swk0,",
@@ -2892,6 +2892,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "Owen Fracture Zone region",
+        "time": 1778346651168,
+        "updated": 1778424195040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swhi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000swhi",
+        "ids": ",us6000swhi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 10.837,
+        "rms": 0.7,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Owen Fracture Zone region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.34,
+          14.1041,
+          10
+        ]
+      },
+      "id": "us6000swhi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "44 km WNW of Ishigaki, Japan",
         "time": 1778343532053,
@@ -2928,91 +2968,11 @@
         ]
       },
       "id": "us6000swhc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "15 km SW of Smoky Lake, Canada",
-        "time": 1778339105444,
-        "updated": 1778384462543,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swh4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swh4.geojson",
-        "felt": 25,
-        "cdi": 5.4,
-        "mmi": 5.221,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000swh4",
-        "ids": ",us6000swh4,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 98,
-        "dmin": 0.899,
-        "rms": 0.74,
-        "gap": 48,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 15 km SW of Smoky Lake, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.6217,
-          54.009,
-          9.614
-        ]
-      },
-      "id": "us6000swh4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "South Sandwich Islands region",
-        "time": 1778336572509,
-        "updated": 1778353909040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swh0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swh0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000swh0",
-        "ids": ",us6000swh0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 7.099,
-        "rms": 0.57,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.6886,
-          -58.024,
-          97.443
-        ]
-      },
-      "id": "us6000swh0"
     }
   ],
   "bbox": [
     -176.7692,
-    -58.024,
+    -40.2185,
     -0.41999998688698,
     179.642,
     62.766,
