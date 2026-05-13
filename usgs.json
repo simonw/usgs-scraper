@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778684110000,
+    "generated": 1778687327000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "32 km ESE of Pleasant Valley, Alaska",
+        "time": 1778685829725,
+        "updated": 1778685910518,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jkzsau",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jkzsau.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026jkzsau",
+        "ids": ",aka2026jkzsau,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 32 km ESE of Pleasant Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.241,
+          64.76,
+          26
+        ]
+      },
+      "id": "aka2026jkzsau"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,13 +175,13 @@
         "mag": 4.1,
         "place": "281 km WNW of Bandon, Oregon",
         "time": 1778669035455,
-        "updated": 1778684041395,
+        "updated": 1778687298466,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxeg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxeg.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 0,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -150,7 +190,7 @@
         "code": "6000sxeg",
         "ids": ",us6000sxeg,",
         "sources": ",us,",
-        "types": ",event-sequence,oaf,origin,phase-data,",
+        "types": ",event-sequence,oaf,origin,phase-data,shakemap,",
         "nst": 38,
         "dmin": 1.914,
         "rms": 0.65,
@@ -208,6 +248,46 @@
         ]
       },
       "id": "us6000sxef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "2 km WSW of Brawley, CA",
+        "time": 1778666268030,
+        "updated": 1778687251150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466112",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466112.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ci",
+        "code": "41466112",
+        "ids": ",ci41466112,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": 0.06771,
+        "rms": 0.29,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km WSW of Brawley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.550666666667,
+          32.9688333333333,
+          14.98
+        ]
+      },
+      "id": "ci41466112"
     },
     {
       "type": "Feature",
@@ -972,10 +1052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.72,
-        "place": "2 km WSW of Lake Henshaw, CA",
-        "time": 1778619358380,
-        "updated": 1778641326212,
+        "mag": 2.51,
+        "place": "3 km WSW of Lake Henshaw, CA",
+        "time": 1778619358360,
+        "updated": 1778686344930,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41465616",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41465616.geojson",
@@ -985,26 +1065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 123,
+        "sig": 106,
         "net": "ci",
         "code": "41465616",
         "ids": ",ci41465616,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 99,
-        "dmin": 0.02507,
+        "nst": 98,
+        "dmin": 0.02648,
         "rms": 0.22,
         "gap": 14,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 2 km WSW of Lake Henshaw, CA"
+        "title": "M 2.5 - 3 km WSW of Lake Henshaw, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.788666666667,
-          33.2356666666667,
-          13.42
+          -116.790333333333,
+          33.235,
+          13.69
         ]
       },
       "id": "ci41465616"
@@ -1208,126 +1288,6 @@
         ]
       },
       "id": "aka2026jjhbps"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "88 km W of Lata, Solomon Islands",
-        "time": 1778600371100,
-        "updated": 1778683717147,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx5k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx5k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.969,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000sx5k",
-        "ids": ",us6000sx5k,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 186,
-        "dmin": 5.112,
-        "rms": 0.71,
-        "gap": 28,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 88 km W of Lata, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          164.9925,
-          -10.649,
-          68.161
-        ]
-      },
-      "id": "us6000sx5k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "245 km SE of Chiniak, Alaska",
-        "time": 1778598949609,
-        "updated": 1778621717040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx7j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx7j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000sx7j",
-        "ids": ",aka2026jjdkdo,us6000sx7j,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 31,
-        "dmin": 2.442,
-        "rms": 0.81,
-        "gap": 233,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 245 km SE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.1807,
-          56.2063,
-          10
-        ]
-      },
-      "id": "us6000sx7j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "10 km ENE of Xunchang, China",
-        "time": 1778597715727,
-        "updated": 1778604445040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx5d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx5d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000sx5d",
-        "ids": ",us6000sx5d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 161,
-        "dmin": 4.454,
-        "rms": 0.54,
-        "gap": 34,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 10 km ENE of Xunchang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          104.8209,
-          28.4795,
-          10
-        ]
-      },
-      "id": "us6000sx5d"
     }
   ],
   "bbox": [
@@ -1335,7 +1295,7 @@
     -55.3924,
     0.3,
     179.8852,
-    61.809,
+    64.76,
     545.037
   ]
 }
