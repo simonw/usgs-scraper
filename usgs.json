@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778697000000,
+    "generated": 1778700563000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.85,
         "place": "30 km SSW of Alamo, Nevada",
         "time": 1778692665375,
-        "updated": 1778696615241,
+        "updated": 1778698192040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918536",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918536.geojson",
@@ -28,8 +28,8 @@
         "sig": 125,
         "net": "nn",
         "code": "00918536",
-        "ids": ",nn00918536,",
-        "sources": ",nn,",
+        "ids": ",nn00918536,us6000sxia,",
+        "sources": ",nn,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 32,
         "dmin": 0.357,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nn00918536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Carlsberg Ridge",
+        "time": 1778691524087,
+        "updated": 1778698687040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxi7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxi7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000sxi7",
+        "ids": ",us6000sxi7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 81,
+        "dmin": 14.038,
+        "rms": 0.37,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Carlsberg Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.0362,
+          9.8919,
+          10
+        ]
+      },
+      "id": "us6000sxi7"
     },
     {
       "type": "Feature",
@@ -773,9 +813,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "52 km WNW of Elfin Cove, Alaska",
-        "time": 1778641588501,
-        "updated": 1778642671040,
+        "place": "53 km WNW of Elfin Cove, Alaska",
+        "time": 1778641588343,
+        "updated": 1778699108263,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jkbcrd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jkbcrd.geojson",
@@ -783,7 +823,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "ak",
@@ -791,20 +831,20 @@
         "ids": ",us6000sxbz,aka2026jkbcrd,",
         "sources": ",us,ak,",
         "types": ",origin,phase-data,",
-        "nst": 20,
+        "nst": 18,
         "dmin": 0.7,
-        "rms": 1,
-        "gap": 147,
+        "rms": 0.9,
+        "gap": 162,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 52 km WNW of Elfin Cove, Alaska"
+        "title": "M 2.6 - 53 km WNW of Elfin Cove, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -137.108,
-          58.446,
-          0.3
+          -137.119,
+          58.452,
+          0.8
         ]
       },
       "id": "aka2026jkbcrd"
@@ -1248,52 +1288,12 @@
         ]
       },
       "id": "nc75359541"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "13 km S of Mazo Cruz, Peru",
-        "time": 1778610759115,
-        "updated": 1778617390040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx82",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx82.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000sx82",
-        "ids": ",us6000sx82,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.478,
-        "rms": 1,
-        "gap": 103,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 13 km S of Mazo Cruz, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.7192,
-          -16.8629,
-          178.19
-        ]
-      },
-      "id": "us6000sx82"
     }
   ],
   "bbox": [
     -179.4729,
     -55.3924,
-    0.3,
+    0.8,
     179.8852,
     64.76,
     545.037
