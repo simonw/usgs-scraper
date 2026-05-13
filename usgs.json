@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778700563000,
+    "generated": 1778704131000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 32
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.02,
+        "place": "35 km NW of San Antonio, Puerto Rico",
+        "time": 1778701214620,
+        "updated": 1778702517806,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516588",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71516588.geojson",
+        "felt": 2,
+        "cdi": 2.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 141,
+        "net": "pr",
+        "code": "71516588",
+        "ids": ",pr71516588,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.3304,
+        "rms": 0.36,
+        "gap": 304,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 35 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3358333333333,
+          18.7213333333333,
+          10.44
+        ]
+      },
+      "id": "pr71516588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.54,
+        "place": "19 km ESE of Silver Springs, Nevada",
+        "time": 1778701093230,
+        "updated": 1778703319304,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918550",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918550.geojson",
+        "felt": 15,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 197,
+        "net": "nn",
+        "code": "00918550",
+        "ids": ",nn00918550,",
+        "sources": ",nn,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.073,
+        "rms": 0.1303,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 19 km ESE of Silver Springs, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0372,
+          39.324,
+          9.4139
+        ]
+      },
+      "id": "nn00918550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "36 km SSE of Chignik, Alaska",
+        "time": 1778700721151,
+        "updated": 1778700813512,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jlhzfm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jlhzfm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "a2026jlhzfm",
+        "ids": ",aka2026jlhzfm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 211,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 36 km SSE of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.135,
+          55.998,
+          56
+        ]
+      },
+      "id": "aka2026jlhzfm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,7 +375,7 @@
         "mag": 2.79,
         "place": "18 km SSE of Silver Springs, Nevada",
         "time": 1778679184394,
-        "updated": 1778689811622,
+        "updated": 1778701866960,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918519.geojson",
@@ -295,12 +415,12 @@
         "mag": 4.1,
         "place": "281 km WNW of Bandon, Oregon",
         "time": 1778669035455,
-        "updated": 1778694643509,
+        "updated": 1778701663442,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxeg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxeg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 0,
         "alert": "green",
         "status": "reviewed",
@@ -310,7 +430,7 @@
         "code": "6000sxeg",
         "ids": ",us6000sxeg,",
         "sources": ",us,",
-        "types": ",event-sequence,losspager,oaf,origin,phase-data,shakemap,",
+        "types": ",dyfi,event-sequence,losspager,oaf,origin,phase-data,shakemap,",
         "nst": 38,
         "dmin": 1.914,
         "rms": 0.65,
@@ -572,6 +692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "103 km SSW of False Pass, Alaska",
+        "time": 1778656785716,
+        "updated": 1778703724163,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jkjolx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jkjolx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026jkjolx",
+        "ids": ",aka2026jkjolx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.7,
+        "rms": 0.6,
+        "gap": 217,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 103 km SSW of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.839,
+          53.955,
+          27.5
+        ]
+      },
+      "id": "aka2026jkjolx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "South Sandwich Islands region",
         "time": 1778654197861,
@@ -652,6 +812,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "8 km NW of Sutton-Alpine, Alaska",
+        "time": 1778648076706,
+        "updated": 1778701021455,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jkesks",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jkesks.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026jkesks",
+        "ids": ",aka2026jkesks,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.1,
+        "rms": 0.9,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km NW of Sutton-Alpine, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.867,
+          61.84,
+          8.1
+        ]
+      },
+      "id": "aka2026jkesks"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "35 km SW of Masachapa, Nicaragua",
         "time": 1778643921331,
@@ -692,10 +892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
+        "mag": 2.7,
         "place": "47 km WNW of Ninilchik, Alaska",
-        "time": 1778643757622,
-        "updated": 1778643913973,
+        "time": 1778643757551,
+        "updated": 1778700633701,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jkcibc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jkcibc.geojson",
@@ -703,28 +903,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 112,
         "net": "ak",
         "code": "a2026jkcibc",
         "ids": ",aka2026jkcibc,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 104,
+        "nst": 98,
         "dmin": 0.3,
         "rms": 0.7,
-        "gap": 37,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 47 km WNW of Ninilchik, Alaska"
+        "title": "M 2.7 - 47 km WNW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.487,
-          60.18,
-          98.1
+          -152.493,
+          60.177,
+          97.3
         ]
       },
       "id": "aka2026jkcibc"
@@ -1208,86 +1408,6 @@
         ]
       },
       "id": "ci41465616"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "1 km N of Damāvand, Iran",
-        "time": 1778616969353,
-        "updated": 1778623375769,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx99",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx99.geojson",
-        "felt": 9,
-        "cdi": 3.8,
-        "mmi": 4.361,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 288,
-        "net": "us",
-        "code": "6000sx99",
-        "ids": ",us6000sx99,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 61,
-        "dmin": 4.248,
-        "rms": 0.87,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 1 km N of Damāvand, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          52.0695,
-          35.7363,
-          10
-        ]
-      },
-      "id": "us6000sx99"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "2 km NNE of Middletown, CA",
-        "time": 1778614693700,
-        "updated": 1778662396471,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359541",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359541.geojson",
-        "felt": 11,
-        "cdi": 3.5,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 142,
-        "net": "nc",
-        "code": "75359541",
-        "ids": ",nc75359541,us6000sx8l,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 73,
-        "dmin": 0.05074,
-        "rms": 0.16,
-        "gap": 24,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 2 km NNE of Middletown, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.608329772949,
-          38.7693328857422,
-          4
-        ]
-      },
-      "id": "nc75359541"
     }
   ],
   "bbox": [
