@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778783423000,
+    "generated": 1778786921000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 33
+    "count": 35
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 6.2,
         "place": "271 km WSW of Tual, Indonesia",
         "time": 1778781194710,
-        "updated": 1778783402299,
+        "updated": 1778783776040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxqf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxqf.geojson",
-        "felt": 3,
+        "felt": 7,
         "cdi": 3.1,
         "mmi": 3.833,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 592,
+        "sig": 594,
         "net": "us",
         "code": "6000sxqf",
         "ids": ",us6000sxqf,",
@@ -52,39 +52,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "8 km SSW of Pāhala, Hawaii",
-        "time": 1778779845710,
-        "updated": 1778780228460,
+        "mag": 2.85,
+        "place": "7 km SSW of Pāhala, Hawaii",
+        "time": 1778779845670,
+        "updated": 1778785702171,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74959852",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74959852.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 0,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 125,
         "net": "hv",
         "code": "74959852",
-        "ids": ",hv74959852,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.05233,
-        "rms": 0.180000007,
-        "gap": 162,
+        "ids": ",hv74959852,us6000sxqd,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.04467,
+        "rms": 0.11,
+        "gap": 149,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 8 km SSW of Pāhala, Hawaii"
+        "title": "M 2.9 - 7 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.511505126953,
-          19.1316661834717,
-          33.9199981689453
+          -155.507666666667,
+          19.1435,
+          36
         ]
       },
       "id": "hv74959852"
@@ -852,6 +852,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "100 km SSW of Atka, Alaska",
+        "time": 1778719870984,
+        "updated": 1778786533913,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jlspyj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jlspyj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026jlspyj",
+        "ids": ",aka2026jlspyj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.9,
+        "rms": 0.9,
+        "gap": 275,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 100 km SSW of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.493,
+          51.31,
+          1.4
+        ]
+      },
+      "id": "aka2026jlspyj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "41 km ENE of Turmi, Ethiopia",
         "time": 1778717641393,
@@ -888,6 +928,46 @@
         ]
       },
       "id": "us6000sxka"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "132 km WSW of Adak, Alaska",
+        "time": 1778717550178,
+        "updated": 1778785858972,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jlrijx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jlrijx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026jlrijx",
+        "ids": ",aka2026jlrijx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.5,
+        "rms": 0.3,
+        "gap": 234,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 132 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.272,
+          51.253,
+          40.2
+        ]
+      },
+      "id": "aka2026jlrijx"
     },
     {
       "type": "Feature",
@@ -932,38 +1012,38 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
-        "place": "32 km WNW of Ivanof Bay, Alaska",
-        "time": 1778710023114,
-        "updated": 1778724848040,
+        "mag": 3.4,
+        "place": "27 km WNW of Ivanof Bay, Alaska",
+        "time": 1778710023394,
+        "updated": 1778784020476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jlndux",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jlndux.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.903,
+        "mmi": 3.503,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
+        "sig": 178,
         "net": "ak",
         "code": "a2026jlndux",
         "ids": ",av94193268,us6000sxk2,aka2026jlndux,",
         "sources": ",av,us,ak,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 34,
+        "nst": 35,
         "dmin": 0.8,
-        "rms": 1.1,
-        "gap": 161,
+        "rms": 0.9,
+        "gap": 165,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 32 km WNW of Ivanof Bay, Alaska"
+        "title": "M 3.4 - 27 km WNW of Ivanof Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.939,
-          56.036,
+          -159.869,
+          56.017,
           5
         ]
       },
@@ -1331,9 +1411,9 @@
     }
   ],
   "bbox": [
-    -162.4686,
+    -178.272,
     -58.3477,
-    1.9,
+    1.4,
     141.443,
     63.364,
     182.694
