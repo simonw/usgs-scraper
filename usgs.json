@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778841837000,
+    "generated": 1778844863000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 24
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "53 km ENE of Pedro Bay, Alaska",
+        "time": 1778844526851,
+        "updated": 1778844758036,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jojxip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jojxip.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "a2026jojxip",
+        "ids": ",aka2026jojxip,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 129,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 53 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.255,
+          59.998,
+          144.4
+        ]
+      },
+      "id": "aka2026jojxip"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.82,
+        "place": "7 km W of Bennington, Idaho",
+        "time": 1778843144690,
+        "updated": 1778844591343,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80140161",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80140161.geojson",
+        "felt": 3,
+        "cdi": 4.2,
+        "mmi": 3.888,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 226,
+        "net": "uu",
+        "code": "80140161",
+        "ids": ",uu80140161,us6000sxwn,",
+        "sources": ",uu,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 28,
+        "dmin": 0.384,
+        "rms": 0.21,
+        "gap": 110,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 7 km W of Bennington, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4145,
+          42.3863333333333,
+          -2.58
+        ]
+      },
+      "id": "uu80140161"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -928,52 +1008,12 @@
         ]
       },
       "id": "us6000sxn9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "20 km N of Searles Valley, CA",
-        "time": 1778755882640,
-        "updated": 1778809505340,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41467040",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41467040.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "ci",
-        "code": "41467040",
-        "ids": ",ci41467040,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.1052,
-        "rms": 0.15,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 20 km N of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3895,
-          35.9513333333333,
-          2.64
-        ]
-      },
-      "id": "ci41467040"
     }
   ],
   "bbox": [
     -178.5266,
     -55.4449,
-    0.2,
+    -2.58,
     152.4304,
     62.292,
     608.515
