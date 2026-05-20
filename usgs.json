@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779289132000,
+    "generated": 1779293656000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 40
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "73 km WSW of Cantwell, Alaska",
+        "time": 1779290580475,
+        "updated": 1779290742239,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxxvhl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxxvhl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026jxxvhl",
+        "ids": ",aka2026jxxvhl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 139,
+        "dmin": 0.7,
+        "rms": 0.9,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 73 km WSW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.385,
+          63.249,
+          121.9
+        ]
+      },
+      "id": "aka2026jxxvhl"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.5,
         "place": "1 km SW of Bjæverskov, Denmark",
         "time": 1779286473020,
-        "updated": 1779288117172,
+        "updated": 1779293232919,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syyn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syyn.geojson",
-        "felt": 9,
-        "cdi": 3.8,
+        "felt": 164,
+        "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 192,
+        "sig": 252,
         "net": "us",
         "code": "6000syyn",
         "ids": ",us6000syyn,",
@@ -95,22 +135,22 @@
         "mag": 3.7,
         "place": "36 km WNW of Ninilchik, Alaska",
         "time": 1779285815406,
-        "updated": 1779286119350,
+        "updated": 1779293355040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxvdyp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxvdyp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 4,
+        "cdi": 2.7,
         "mmi": 2.129,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 211,
+        "sig": 212,
         "net": "ak",
         "code": "a2026jxvdyp",
-        "ids": ",aka2026jxvdyp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",aka2026jxvdyp,us6000syyj,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 187,
         "dmin": 0.3,
         "rms": 0.9,
@@ -132,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1779285100023,
+        "updated": 1779292954040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syyi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syyi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000syyi",
+        "ids": ",us6000syyi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 4.387,
+        "rms": 0.67,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5997,
+          -20.8027,
+          590.274
+        ]
+      },
+      "id": "us6000syyi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.7,
         "place": "53 km SSW of Wales, Alaska",
         "time": 1779282282723,
-        "updated": 1779282719241,
+        "updated": 1779292076040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxtgrz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxtgrz.geojson",
@@ -148,8 +228,8 @@
         "sig": 211,
         "net": "ak",
         "code": "a2026jxtgrz",
-        "ids": ",aka2026jxtgrz,",
-        "sources": ",ak,",
+        "ids": ",us6000syyf,aka2026jxtgrz,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 34,
         "dmin": 1.5,
@@ -488,6 +568,86 @@
         ]
       },
       "id": "us6000syx6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "92 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1779249476330,
+        "updated": 1779291318140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71517358",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71517358.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "pr",
+        "code": "71517358",
+        "ids": ",pr71517358,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.6743,
+        "rms": 0.28,
+        "gap": 279,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 92 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5868333333333,
+          19.145,
+          18.77
+        ]
+      },
+      "id": "pr71517358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.94,
+        "place": "81 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1779249424200,
+        "updated": 1779289707910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71517343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71517343.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "pr",
+        "code": "71517343",
+        "ids": ",pr71517343,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.6665,
+        "rms": 0.25,
+        "gap": 262,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 81 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8033333333333,
+          19.0671666666667,
+          36.04
+        ]
+      },
+      "id": "pr71517343"
     },
     {
       "type": "Feature",
@@ -1012,10 +1172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.71,
-        "place": "8 km ENE of El Centro, CA",
-        "time": 1779229422260,
-        "updated": 1779230067560,
+        "mag": 2.55,
+        "place": "8 km W of Holtville, CA",
+        "time": 1779229422190,
+        "updated": 1779292382210,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41470568",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41470568.geojson",
@@ -1025,26 +1185,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 113,
+        "sig": 100,
         "net": "ci",
         "code": "41470568",
         "ids": ",ci41470568,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 49,
-        "dmin": 0.02016,
+        "nst": 47,
+        "dmin": 0.01953,
         "rms": 0.28,
         "gap": 34,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 8 km ENE of El Centro, CA"
+        "title": "M 2.6 - 8 km W of Holtville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.470666666667,
-          32.8068333333333,
-          15.95
+          -115.468666666667,
+          32.8118333333333,
+          15.8
         ]
       },
       "id": "ci41470568"
@@ -1568,54 +1728,14 @@
         ]
       },
       "id": "pr71517228"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "8 km WSW of Larsen Bay, Alaska",
-        "time": 1779206576803,
-        "updated": 1779226848040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jwddjd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jwddjd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026jwddjd",
-        "ids": ",us6000syrj,aka2026jwddjd,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.5,
-        "rms": 0.7,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 8 km WSW of Larsen Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.123,
-          57.524,
-          52
-        ]
-      },
-      "id": "aka2026jwddjd"
     }
   ],
   "bbox": [
-    -176.2457,
+    -178.5997,
     -28.5131,
     5,
     175.9863,
     65.169,
-    366.816
+    590.274
   ]
 }
