@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779578067000,
+    "generated": 1779581867000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 46
+    "count": 44
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "55 km NE of Susitna North, Alaska",
         "time": 1779577774034,
-        "updated": 1779577971786,
+        "updated": 1779580899875,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026keblok",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026keblok.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 96,
         "net": "ak",
         "code": "a2026keblok",
-        "ids": ",aka2026keblok,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026keblok,us6000sztx,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 98,
         "dmin": 0.6,
         "rms": 0.9,
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.69,
+        "place": "56 km SE of Boca de Yuma, Dominican Republic",
+        "time": 1779577224210,
+        "updated": 1779579659455,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026143001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026143001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 209,
+        "net": "pr",
+        "code": "2026143001",
+        "ids": ",pr2026143001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.5028,
+        "rms": 0.27,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 56 km SE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2093,
+          18.0415,
+          78
+        ]
+      },
+      "id": "pr2026143001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.3,
         "place": "168 km SW of Nikolski, Alaska",
         "time": 1779572956864,
-        "updated": 1779576570504,
+        "updated": 1779580760870,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szt5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000szt5.geojson",
@@ -375,11 +415,11 @@
         "mag": 3.17,
         "place": "0 km SSE of Hōlualoa, Hawaii",
         "time": 1779557112170,
-        "updated": 1779562707047,
+        "updated": 1779580060122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966927",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966927.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1255,11 +1295,11 @@
         "mag": 5.96,
         "place": "13 km S of Honaunau-Napoopoo, Hawaii",
         "time": 1779522361480,
-        "updated": 1779577694217,
+        "updated": 1779580812126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966427",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966427.geojson",
-        "felt": 6971,
+        "felt": 7002,
         "cdi": 7.2,
         "mmi": 7.245,
         "alert": "yellow",
@@ -1728,126 +1768,6 @@
         ]
       },
       "id": "ci41472752"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "3 km W of Bolognola, Italy",
-        "time": 1779495213769,
-        "updated": 1779512172872,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szmj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000szmj.geojson",
-        "felt": 1,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "6000szmj",
-        "ids": ",us6000szmj,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.129,
-        "rms": 1.12,
-        "gap": 65,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 3 km W of Bolognola, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.1886,
-          42.9918,
-          10
-        ]
-      },
-      "id": "us6000szmj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "12 km NE of Pāhala, Hawaii",
-        "time": 1779493745870,
-        "updated": 1779523374990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966127",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966127.geojson",
-        "felt": 43,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "hv",
-        "code": "74966127",
-        "ids": ",hv74966127,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.03685,
-        "rms": 0.129999995,
-        "gap": 118,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.38200378418,
-          19.2714996337891,
-          31.4599990844727
-        ]
-      },
-      "id": "hv74966127"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "northern Mid-Atlantic Ridge",
-        "time": 1779493149408,
-        "updated": 1779521233040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sznd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sznd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000sznd",
-        "ids": ",us6000sznd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 14.525,
-        "rms": 0.37,
-        "gap": 165,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - northern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -46.5003,
-          17.1707,
-          10
-        ]
-      },
-      "id": "us6000sznd"
     }
   ],
   "bbox": [
