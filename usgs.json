@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779727109000,
+    "generated": 1779730140000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 31
+    "count": 29
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "31 km NNW of Susitna, Alaska",
         "time": 1779725818334,
-        "updated": 1779725916207,
+        "updated": 1779728220204,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026khfsyc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026khfsyc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "a2026khfsyc",
         "ids": ",aka2026khfsyc,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 47,
         "dmin": 0.7,
         "rms": 0.7,
@@ -1168,86 +1168,6 @@
         ]
       },
       "id": "aka2026kfozpf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.15702483704809,
-        "place": "6 km WNW of Delta, B.C., MX",
-        "time": 1779643467690,
-        "updated": 1779680091910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41473864",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41473864.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 153,
-        "net": "ci",
-        "code": "41473864",
-        "ids": ",ci41473864,us6000szy5,",
-        "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.06554,
-        "rms": 0.340000004,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 6 km WNW of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.251663208008,
-          32.3718338012695,
-          12.0600004196167
-        ]
-      },
-      "id": "ci41473864"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "13 km E of Cortes, Philippines",
-        "time": 1779641320754,
-        "updated": 1779687410075,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szxz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000szxz.geojson",
-        "felt": 10,
-        "cdi": 4.8,
-        "mmi": 4.657,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 470,
-        "net": "us",
-        "code": "6000szxz",
-        "ids": ",us6000szxz,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 102,
-        "dmin": 2.334,
-        "rms": 0.89,
-        "gap": 39,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 13 km E of Cortes, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.3113,
-          9.3032,
-          34
-        ]
-      },
-      "id": "us6000szxz"
     }
   ],
   "bbox": [
