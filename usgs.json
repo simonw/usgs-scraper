@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779904663000,
+    "generated": 1779907903000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 50
+    "count": 54
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.54,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1779906265060,
+        "updated": 1779906476163,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41475576",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41475576.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "ci",
+        "code": "41475576",
+        "ids": ",ci41475576,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 62,
+        "dmin": 0.05602,
+        "rms": 0.18,
+        "gap": 33,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.813666666667,
+          35.317,
+          7.78
+        ]
+      },
+      "id": "ci41475576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "28 km SSE of Hope, New Mexico",
+        "time": 1779904425253,
+        "updated": 1779906968040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000snwv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000snwv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.34,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000snwv",
+        "ids": ",us7000snwv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 35,
+        "dmin": 0.048,
+        "rms": 0.39,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 28 km SSE of Hope, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6424,
+          32.5669,
+          6.195
+        ]
+      },
+      "id": "us7000snwv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
-        "place": "45 km NW of Toyah, Texas",
-        "time": 1779903392630,
-        "updated": 1779903824783,
+        "place": "44 km NW of Toyah, Texas",
+        "time": 1779903392643,
+        "updated": 1779906746997,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kjjayn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kjjayn.geojson",
@@ -23,7 +103,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "tx",
@@ -31,20 +111,20 @@
         "ids": ",tx2026kjjayn,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 43,
+        "nst": 26,
         "dmin": 0,
-        "rms": 0.3,
-        "gap": 52,
+        "rms": 0.1,
+        "gap": 77,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 45 km NW of Toyah, Texas"
+        "title": "M 2.6 - 44 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.114,
-          31.615,
-          4.5463
+          -104.103,
+          31.618,
+          6.5485
         ]
       },
       "id": "tx2026kjjayn"
@@ -212,39 +292,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "44 km WNW of Anchor Point, Alaska",
-        "time": 1779885791554,
-        "updated": 1779892503040,
+        "mag": 2.7,
+        "place": "43 km WNW of Anchor Point, Alaska",
+        "time": 1779885791771,
+        "updated": 1779906885156,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kkqqsb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kkqqsb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 112,
         "net": "ak",
         "code": "a2026kkqqsb",
-        "ids": ",us7000snve,aka2026kkqqsb,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
+        "ids": ",aka2026kkqqsb,us7000snve,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 104,
         "dmin": 0.3,
         "rms": 0.6,
         "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 44 km WNW of Anchor Point, Alaska"
+        "title": "M 2.7 - 43 km WNW of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.57,
+          -152.549,
           59.924,
-          87.8
+          85.8
         ]
       },
       "id": "aka2026kkqqsb"
@@ -288,6 +368,46 @@
         ]
       },
       "id": "us7000snvf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "93 km S of Sand Point, Alaska",
+        "time": 1779885274994,
+        "updated": 1779906806358,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kkqjsx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kkqjsx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "a2026kkqjsx",
+        "ids": ",aka2026kkqjsx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.1,
+        "rms": 0.7,
+        "gap": 206,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 93 km S of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.251,
+          54.504,
+          1
+        ]
+      },
+      "id": "aka2026kkqjsx"
     },
     {
       "type": "Feature",
@@ -412,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "168 km S of Adak, Alaska",
+        "time": 1779877764644,
+        "updated": 1779906470623,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kkmete",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kkmete.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "a2026kkmete",
+        "ids": ",aka2026kkmete,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.5,
+        "rms": 0.2,
+        "gap": 308,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 168 km S of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.199,
+          50.387,
+          7.7
+        ]
+      },
+      "id": "aka2026kkmete"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "7 km WNW of Round Valley, CA",
         "time": 1779876787510,
@@ -452,10 +612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "92 km NW of Yakutat, Alaska",
-        "time": 1779875534118,
-        "updated": 1779875621861,
+        "mag": 2.9,
+        "place": "90 km NW of Yakutat, Alaska",
+        "time": 1779875534665,
+        "updated": 1779905808470,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kkkyoe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kkkyoe.geojson",
@@ -463,28 +623,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 129,
         "net": "ak",
         "code": "a2026kkkyoe",
         "ids": ",aka2026kkkyoe,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 21,
+        "nst": 49,
         "dmin": 0.7,
         "rms": 0.9,
-        "gap": 148,
+        "gap": 119,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 92 km NW of Yakutat, Alaska"
+        "title": "M 2.9 - 90 km NW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.948,
-          60.099,
-          1.3
+          -140.876,
+          60.121,
+          3.7
         ]
       },
       "id": "aka2026kkkyoe"
@@ -612,10 +772,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "87 km NNW of Alatna, Alaska",
-        "time": 1779869086611,
-        "updated": 1779869221000,
+        "mag": 2.8,
+        "place": "88 km NNW of Alatna, Alaska",
+        "time": 1779869087646,
+        "updated": 1779905548368,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kkhjok",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kkhjok.geojson",
@@ -623,28 +783,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 121,
         "net": "ak",
         "code": "a2026kkhjok",
         "ids": ",aka2026kkhjok,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 36,
+        "nst": 47,
         "dmin": 1.1,
-        "rms": 0.7,
+        "rms": 1,
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 87 km NNW of Alatna, Alaska"
+        "title": "M 2.8 - 88 km NNW of Alatna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.666,
-          67.247,
-          5
+          -153.684,
+          67.253,
+          10
         ]
       },
       "id": "aka2026kkhjok"
@@ -692,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.55,
+        "mag": 2.64,
         "place": "34 km SE of Mina, Nevada",
-        "time": 1779866256868,
-        "updated": 1779866426201,
+        "time": 1779866257594,
+        "updated": 1779906036003,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919249",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00919249.geojson",
@@ -703,18 +863,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 100,
+        "sig": 107,
         "net": "nn",
         "code": "00919249",
         "ids": ",nn00919249,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.48,
-        "rms": 0.293,
-        "gap": 92,
+        "nst": 17,
+        "dmin": 0.306,
+        "rms": 0.1159,
+        "gap": 80,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 34 km SE of Mina, Nevada"
@@ -722,9 +882,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8172,
-          38.1839,
-          12.481
+          -117.8413,
+          38.1593,
+          7.5398
         ]
       },
       "id": "nn00919249"
@@ -2013,9 +2173,9 @@
   "bbox": [
     -179.4554,
     -50.5213,
-    1.3,
+    1,
     178.7464,
-    67.247,
+    67.253,
     614.902
   ]
 }
