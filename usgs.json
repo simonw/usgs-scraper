@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780381726000,
+    "generated": 1780388886000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 39
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "30 km WNW of Titahi Bay, New Zealand",
+        "time": 1780382288128,
+        "updated": 1780388697943,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq0j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sq0j.geojson",
+        "felt": 4,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 313,
+        "net": "us",
+        "code": "7000sq0j",
+        "ids": ",us7000sq0j,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.322,
+        "rms": 0.57,
+        "gap": 46,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 30 km WNW of Titahi Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.4781,
+          -41.036,
+          66.66
+        ]
+      },
+      "id": "us7000sq0j"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "2 km NNW of Chase, Alaska",
         "time": 1780381586431,
-        "updated": 1780381683253,
+        "updated": 1780383063040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kvgflz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kvgflz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 113,
         "net": "ak",
         "code": "a2026kvgflz",
-        "ids": ",aka2026kvgflz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026kvgflz,us7000sq0i,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": 0.3,
         "rms": 0.7,
@@ -52,18 +92,58 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "68 km NNE of La Serena, Chile",
+        "time": 1780380822141,
+        "updated": 1780381758040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq0g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sq0g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000sq0g",
+        "ids": ",us7000sq0g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.395,
+        "rms": 0.69,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 68 km NNE of La Serena, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9171,
+          -29.3593,
+          66.861
+        ]
+      },
+      "id": "us7000sq0g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.7,
-        "place": "58 km WNW of Anchor Point, Alaska",
-        "time": 1780378252685,
-        "updated": 1780379565016,
+        "place": "59 km WNW of Anchor Point, Alaska",
+        "time": 1780378252622,
+        "updated": 1780382920846,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kvejgr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kvejgr.geojson",
         "felt": 1,
         "cdi": 2,
-        "mmi": 1.897,
+        "mmi": 1.893,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "ak",
@@ -71,20 +151,20 @@
         "ids": ",aka2026kvejgr,us7000sq09,",
         "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 206,
+        "nst": 212,
         "dmin": 0.1,
         "rms": 1,
         "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 58 km WNW of Anchor Point, Alaska"
+        "title": "M 3.7 - 59 km WNW of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.854,
-          59.895,
-          121.6
+          -152.866,
+          59.894,
+          122.3
         ]
       },
       "id": "aka2026kvejgr"
@@ -372,6 +452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "74 km SSE of Atka, Alaska",
+        "time": 1780357540789,
+        "updated": 1780383325321,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kuswcg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kuswcg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "a2026kuswcg",
+        "ids": ",aka2026kuswcg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.7,
+        "rms": 1.2,
+        "gap": 290,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 74 km SSE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.647,
+          51.621,
+          20
+        ]
+      },
+      "id": "aka2026kuswcg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.66,
         "place": "18 km WSW of Johannesburg, CA",
         "time": 1780357269610,
@@ -408,6 +528,46 @@
         ]
       },
       "id": "ci41478304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "85 km SW of Nikolski, Alaska",
+        "time": 1780356465256,
+        "updated": 1780383076898,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kusgkx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kusgkx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026kusgkx",
+        "ids": ",aka2026kusgkx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 214,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 85 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.811,
+          52.427,
+          13.6
+        ]
+      },
+      "id": "aka2026kusgkx"
     },
     {
       "type": "Feature",
@@ -1372,10 +1532,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
+        "mag": 2.6,
         "place": "18 km SSE of Westbrook, Texas",
-        "time": 1780312207319,
-        "updated": 1780320257262,
+        "time": 1780312207378,
+        "updated": 1780386938963,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ksaweu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ksaweu.geojson",
@@ -1385,26 +1545,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 104,
         "net": "tx",
         "code": "2026ksaweu",
         "ids": ",us7000sptp,tx2026ksaweu,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 20,
+        "nst": 28,
         "dmin": 0.3,
-        "rms": 0.1,
-        "gap": 77,
+        "rms": 0.2,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 18 km SSE of Westbrook, Texas"
+        "title": "M 2.6 - 18 km SSE of Westbrook, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.97,
-          32.189,
-          9.2041
+          -100.973,
+          32.195,
+          9.0332
         ]
       },
       "id": "tx2026ksaweu"
@@ -1453,12 +1613,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "6 km W of Dutch Harbor, Alaska",
-        "time": 1780305714267,
-        "updated": 1780350012904,
+        "place": "104 km E of Atka, Alaska",
+        "time": 1780306697617,
+        "updated": 1780388111040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ktqbal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ktqbal.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spxd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000spxd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -1466,28 +1626,68 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 121,
-        "net": "ak",
-        "code": "a2026ktqbal",
-        "ids": ",aka2026ktqbal,",
-        "sources": ",ak,",
+        "net": "us",
+        "code": "7000spxd",
+        "ids": ",us7000spxd,aka2026ktqpqd,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 101,
+        "nst": 11,
+        "dmin": 0.895,
+        "rms": 0.51,
+        "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 6 km W of Dutch Harbor, Alaska"
+        "title": "M 2.8 - 104 km E of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -166.641,
-          53.888,
-          9.3
+          -172.7001,
+          52.0347,
+          10
         ]
       },
-      "id": "aka2026ktqbal"
+      "id": "us7000spxd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "10 km S of Unalaska, Alaska",
+        "time": 1780305713765,
+        "updated": 1780385898040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spxb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000spxb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000spxb",
+        "ids": ",aka2026ktqbal,us7000spxb,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.061,
+        "rms": 0.87,
+        "gap": 178,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 10 km S of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.5143,
+          53.7849,
+          15.197
+        ]
+      },
+      "id": "us7000spxb"
     },
     {
       "type": "Feature",
@@ -1528,46 +1728,6 @@
         ]
       },
       "id": "us7000spt8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.42,
-        "place": "17 km WSW of Toms Place, CA",
-        "time": 1780301047140,
-        "updated": 1780347631847,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369166",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75369166.geojson",
-        "felt": 25,
-        "cdi": 3.1,
-        "mmi": 2.863,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "nc",
-        "code": "75369166",
-        "ids": ",nc75369166,nn00919526,us7000spsz,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 43,
-        "dmin": 0.1091,
-        "rms": 0.08,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 17 km WSW of Toms Place, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.841,
-          37.4811666666667,
-          14.09
-        ]
-      },
-      "id": "nc75369166"
     }
   ],
   "bbox": [
