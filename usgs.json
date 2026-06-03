@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780526923000,
+    "generated": 1780529336000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 54
+    "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "56 km WSW of San Antonio, Chile",
+        "time": 1780526166890,
+        "updated": 1780528170514,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqfa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sqfa.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000sqfa",
+        "ids": ",us7000sqfa,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.471,
+        "rms": 0.56,
+        "gap": 166,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.1 - 56 km WSW of San Antonio, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1328,
+          -33.8454,
+          25.979
+        ]
+      },
+      "id": "us7000sqfa"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,6 +208,46 @@
         ]
       },
       "id": "nc75370386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "110 km S of Adak, Alaska",
+        "time": 1780518213847,
+        "updated": 1780528956319,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kyedvp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kyedvp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "a2026kyedvp",
+        "ids": ",aka2026kyedvp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 1,
+        "rms": 0.6,
+        "gap": 256,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 110 km S of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.404,
+          50.892,
+          8.3
+        ]
+      },
+      "id": "aka2026kyedvp"
     },
     {
       "type": "Feature",
@@ -374,16 +454,16 @@
       "properties": {
         "mag": 3.4,
         "place": "22 km S of Halibut Cove, Alaska",
-        "time": 1780512612527,
-        "updated": 1780514356793,
+        "time": 1780512612845,
+        "updated": 1780529287035,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kybaxh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kybaxh.geojson",
         "felt": 5,
         "cdi": 2.7,
-        "mmi": 2.668,
+        "mmi": 2.616,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 179,
         "net": "ak",
@@ -391,10 +471,10 @@
         "ids": ",aka2026kybaxh,",
         "sources": ",ak,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 78,
+        "nst": 168,
         "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 127,
+        "rms": 0.9,
+        "gap": 123,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.4 - 22 km S of Halibut Cove, Alaska"
@@ -402,52 +482,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.2,
-          59.392,
-          37.8
+          -151.163,
+          59.394,
+          37
         ]
       },
       "id": "aka2026kybaxh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "51 km SW of Cantwell, Alaska",
-        "time": 1780512530894,
-        "updated": 1780513128339,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kyazsr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kyazsr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026kyazsr",
-        "ids": ",aka2026kyazsr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.7,
-        "rms": 0.7,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 51 km SW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.662,
-          63.064,
-          71.7
-        ]
-      },
-      "id": "aka2026kyazsr"
     },
     {
       "type": "Feature",
@@ -1135,7 +1175,7 @@
         "mag": 5.7,
         "place": "154 km WSW of Pistol River, Oregon",
         "time": 1780484034074,
-        "updated": 1780523694415,
+        "updated": 1780527835667,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq93",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sq93.geojson",
@@ -2172,7 +2212,7 @@
   ],
   "bbox": [
     -179.428,
-    -25.0893,
+    -33.8454,
     0.46999999880791,
     176.565,
     83.8038,
