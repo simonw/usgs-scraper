@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780694846000,
+    "generated": 1780698086000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.72,
         "place": "12 km W of Petrolia, CA",
         "time": 1780694009170,
-        "updated": 1780694699257,
+        "updated": 1780695144943,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75371526",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75371526.geojson",
@@ -30,7 +30,7 @@
         "code": "75371526",
         "ids": ",nc75371526,",
         "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 14,
         "dmin": 0.07664,
         "rms": 0.11,
@@ -55,14 +55,14 @@
         "mag": 5.6,
         "place": "Balleny Islands region",
         "time": 1780693089553,
-        "updated": 1780694660660,
+        "updated": 1780694938586,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqzx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sqzx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 0,
-        "alert": null,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 482,
@@ -70,7 +70,7 @@
         "code": "7000sqzx",
         "ids": ",us7000sqzx,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 77,
         "dmin": 7.463,
         "rms": 0.73,
@@ -95,17 +95,17 @@
         "mag": 5.1,
         "place": "0 km SSW of Quetzalapa, Mexico",
         "time": 1780692905129,
-        "updated": 1780694722567,
+        "updated": 1780697582611,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqzv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sqzv.geojson",
-        "felt": 3,
-        "cdi": 3.4,
+        "felt": 14,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 401,
+        "sig": 404,
         "net": "us",
         "code": "7000sqzv",
         "ids": ",us7000sqzv,",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000sqzv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "176 km WSW of Te Anau, New Zealand",
+        "time": 1780690804855,
+        "updated": 1780697381040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqzn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sqzn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000sqzn",
+        "ids": ",us7000sqzn,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.71,
+        "rms": 1.23,
+        "gap": 101,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.0 - 176 km WSW of Te Anau, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.6658,
+          -46.0928,
+          12.018
+        ]
+      },
+      "id": "us7000sqzn"
     },
     {
       "type": "Feature",
@@ -1648,93 +1688,13 @@
         ]
       },
       "id": "us7000sqr7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "90 km ESE of La Tirana, Chile",
-        "time": 1780610364897,
-        "updated": 1780618897311,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqr2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sqr2.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000sqr2",
-        "ids": ",us7000sqr2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.564,
-        "rms": 0.5,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 90 km ESE of La Tirana, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8531,
-          -20.6321,
-          95.497
-        ]
-      },
-      "id": "us7000sqr2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "233 km ESE of Attu Station, Alaska",
-        "time": 1780608779756,
-        "updated": 1780635216040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqsm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sqsm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.469,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000sqsm",
-        "ids": ",aka2026lacmhh,us7000sqsm,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 23,
-        "dmin": 1.357,
-        "rms": 0.51,
-        "gap": 192,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 233 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.3194,
-          51.9918,
-          10
-        ]
-      },
-      "id": "us7000sqsm"
     }
   ],
   "bbox": [
     -177.6208,
     -61.8467,
     1.4,
-    176.3194,
+    165.6658,
     69.61,
     602.46
   ]
