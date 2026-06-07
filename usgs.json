@@ -1,27 +1,67 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780849516000,
+    "generated": 1780853117000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 34
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "20 km SSE of Pāhala, Hawaii",
+        "time": 1780852148840,
+        "updated": 1780852416020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74977747",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74977747.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "74977747",
+        "ids": ",hv74977747,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.1921,
+        "rms": 0.150000006,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 20 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.378997802734,
+          19.045166015625,
+          33.8800010681152
+        ]
+      },
+      "id": "hv74977747"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.55,
         "place": "2 km SW of Alamo, CA",
         "time": 1780846668620,
-        "updated": 1780849248435,
+        "updated": 1780852820157,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372426",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75372426.geojson",
-        "felt": 1214,
+        "felt": 1549,
         "cdi": 3.8,
-        "mmi": 3.069,
+        "mmi": 3.252,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -55,13 +95,13 @@
         "mag": 5.5,
         "place": "139 km SE of Severo-Kuril’sk, Russia",
         "time": 1780844036180,
-        "updated": 1780845897987,
+        "updated": 1780852899661,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr8v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sr8v.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.523,
+        "mmi": 3.573,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -70,7 +110,7 @@
         "code": "7000sr8v",
         "ids": ",us7000sr8v,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 72,
         "dmin": 3.215,
         "rms": 1.22,
@@ -95,7 +135,7 @@
         "mag": 2.82,
         "place": "13 km SSE of Fern Forest, Hawaii",
         "time": 1780842980180,
-        "updated": 1780843226570,
+        "updated": 1780852676040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74977702",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74977702.geojson",
@@ -108,8 +148,8 @@
         "sig": 122,
         "net": "hv",
         "code": "74977702",
-        "ids": ",hv74977702,",
-        "sources": ",hv,",
+        "ids": ",us7000sr8r,hv74977702,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 50,
         "dmin": 0.04058,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "hv74977702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "65 km E of Miguel Ahumada, Mexico",
+        "time": 1780842116134,
+        "updated": 1780852445040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr8p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sr8p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000sr8p",
+        "ids": ",us7000sr8p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.761,
+        "rms": 0.52,
+        "gap": 163,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 65 km E of Miguel Ahumada, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.8325,
+          30.5704,
+          10
+        ]
+      },
+      "id": "us7000sr8p"
     },
     {
       "type": "Feature",
@@ -172,10 +252,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1780839410223,
+        "updated": 1780852000040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr8i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sr8i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000sr8i",
+        "ids": ",us7000sr8i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 6.247,
+        "rms": 0.53,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.971,
+          30.6675,
+          10
+        ]
+      },
+      "id": "us7000sr8i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "168 km SSW of Bengkulu, Indonesia",
+        "time": 1780839106524,
+        "updated": 1780851379040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr8g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sr8g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000sr8g",
+        "ids": ",us7000sr8g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.599,
+        "rms": 0.88,
+        "gap": 144,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 168 km SSW of Bengkulu, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5557,
+          -5.1466,
+          10
+        ]
+      },
+      "id": "us7000sr8g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "58 km SSW of Tanana, Alaska",
         "time": 1780838727992,
-        "updated": 1780838923227,
+        "updated": 1780850773040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lfahum",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lfahum.geojson",
@@ -188,8 +348,8 @@
         "sig": 112,
         "net": "ak",
         "code": "a2026lfahum",
-        "ids": ",aka2026lfahum,",
-        "sources": ",ak,",
+        "ids": ",us7000sr8e,aka2026lfahum,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 54,
         "dmin": 0.6,
@@ -212,10 +372,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "29 km WNW of Sinabang, Indonesia",
+        "time": 1780837570958,
+        "updated": 1780850355040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr8c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sr8c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000sr8c",
+        "ids": ",us7000sr8c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 1.917,
+        "rms": 0.75,
+        "gap": 147,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 29 km WNW of Sinabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.1308,
+          2.5731,
+          26.408
+        ]
+      },
+      "id": "us7000sr8c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.81,
         "place": "83 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1780837554790,
-        "updated": 1780839650611,
+        "updated": 1780849555040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026158001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026158001.geojson",
@@ -228,8 +428,8 @@
         "sig": 223,
         "net": "pr",
         "code": "2026158001",
-        "ids": ",pr2026158001,",
-        "sources": ",pr,",
+        "ids": ",us7000sr8a,pr2026158001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.6546,
@@ -335,17 +535,17 @@
         "mag": 4.29,
         "place": "22 km ESE of Naalehu, Hawaii",
         "time": 1780828917630,
-        "updated": 1780849026233,
+        "updated": 1780852535429,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74977587",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74977587.geojson",
-        "felt": 58,
-        "cdi": 3.4,
+        "felt": 62,
+        "cdi": 3.3,
         "mmi": 3.76,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 303,
+        "sig": 304,
         "net": "hv",
         "code": "74977587",
         "ids": ",hv74977587,us7000sr7i,",
@@ -375,7 +575,7 @@
         "mag": 5.2,
         "place": "7 km W of Prokópi, Greece",
         "time": 1780826568827,
-        "updated": 1780842069581,
+        "updated": 1780850312040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr7d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sr7d.geojson",
@@ -568,6 +768,46 @@
         ]
       },
       "id": "aka2026lemwpp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "24 km W of Delta, B.C., MX",
+        "time": 1780809382210,
+        "updated": 1780852314443,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481840",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41481840.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ci",
+        "code": "41481840",
+        "ids": ",ci41481840,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.1323,
+        "rms": 0.27,
+        "gap": 102,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 24 km W of Delta, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.447,
+          32.3638333333333,
+          1.62
+        ]
+      },
+      "id": "ci41481840"
     },
     {
       "type": "Feature",
@@ -1328,46 +1568,6 @@
         ]
       },
       "id": "us7000sr4j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "33 km WSW of Callao, Peru",
-        "time": 1780763442397,
-        "updated": 1780784114436,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr47",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sr47.geojson",
-        "felt": 3,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000sr47",
-        "ids": ",us7000sr47,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.579,
-        "rms": 0.67,
-        "gap": 153,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 33 km WSW of Callao, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.3929,
-          -12.2009,
-          64.262
-        ]
-      },
-      "id": "us7000sr47"
     }
   ],
   "bbox": [
