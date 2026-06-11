@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781197636000,
+    "generated": 1781203936000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "112 km NW of Vallenar, Chile",
+        "time": 1781201275289,
+        "updated": 1781202437040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssai",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ssai.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000ssai",
+        "ids": ",us7000ssai,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.885,
+        "rms": 0.54,
+        "gap": 170,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - 112 km NW of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.502,
+          -27.8085,
+          18.8
+        ]
+      },
+      "id": "us7000ssai"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.18,
         "place": "18 km WSW of Johannesburg, CA",
         "time": 1781185423410,
-        "updated": 1781188616719,
+        "updated": 1781200273040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484512",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484512.geojson",
@@ -148,8 +188,8 @@
         "sig": 156,
         "net": "ci",
         "code": "41484512",
-        "ids": ",ci41484512,",
-        "sources": ",ci,",
+        "ids": ",ci41484512,us7000ss8i,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 58,
         "dmin": 0.04818,
@@ -215,7 +255,7 @@
         "mag": 3.06,
         "place": "3 km NNW of Volcano, Hawaii",
         "time": 1781184837960,
-        "updated": 1781185500747,
+        "updated": 1781199586040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74979597",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74979597.geojson",
@@ -228,8 +268,8 @@
         "sig": 144,
         "net": "hv",
         "code": "74979597",
-        "ids": ",hv74979597,",
-        "sources": ",hv,",
+        "ids": ",hv74979597,us7000ss8h,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 53,
         "dmin": 0.03049,
@@ -255,12 +295,12 @@
         "mag": 2.5,
         "place": "40 km WNW of Clam Gulch, Alaska",
         "time": 1781181089313,
-        "updated": 1781185950040,
+        "updated": 1781199595978,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lmioeu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lmioeu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -268,9 +308,9 @@
         "sig": 96,
         "net": "ak",
         "code": "a2026lmioeu",
-        "ids": ",us7000ss83,aka2026lmioeu,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026lmioeu,us7000ss83,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 87,
         "dmin": 0.3,
         "rms": 0.6,
@@ -1528,46 +1568,6 @@
         ]
       },
       "id": "hv74979192"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "12 km NNE of Susitna, Alaska",
-        "time": 1781116544902,
-        "updated": 1781122186025,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lkysiz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lkysiz.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "a2026lkysiz",
-        "ids": ",aka2026lkysiz,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 63,
-        "dmin": 0.6,
-        "rms": 1,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 12 km NNE of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.389,
-          61.641,
-          29.7
-        ]
-      },
-      "id": "aka2026lkysiz"
     }
   ],
   "bbox": [
