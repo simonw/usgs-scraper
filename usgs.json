@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781233146000,
+    "generated": 1781238943000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 48
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "73 km SE of Kokhanok, Alaska",
+        "time": 1781233201852,
+        "updated": 1781233291769,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lnlodw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lnlodw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026lnlodw",
+        "ids": ",aka2026lnlodw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 87,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 73 km SE of Kokhanok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.008,
+          58.911,
+          120.2
+        ]
+      },
+      "id": "aka2026lnlodw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "23 km NNE of Goroka, Papua New Guinea",
+        "time": 1781231073972,
+        "updated": 1781233762040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sse2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sse2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000sse2",
+        "ids": ",us7000sse2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 3.876,
+        "rms": 0.78,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 23 km NNE of Goroka, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4675,
+          -5.8872,
+          92.861
+        ]
+      },
+      "id": "us7000sse2"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "47 km WNW of Anchor Point, Alaska",
         "time": 1781230301942,
-        "updated": 1781230468693,
+        "updated": 1781233216040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lnjyhb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lnjyhb.geojson",
@@ -28,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "a2026lnjyhb",
-        "ids": ",aka2026lnjyhb,",
-        "sources": ",ak,",
+        "ids": ",us7000sse0,aka2026lnjyhb,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 115,
         "dmin": 0.2,
@@ -55,22 +135,22 @@
         "mag": 4.2,
         "place": "12 km NNW of Renwick, New Zealand",
         "time": 1781229261482,
-        "updated": 1781232828040,
+        "updated": 1781234287703,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssdy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ssdy.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "us",
         "code": "7000ssdy",
         "ids": ",us7000ssdy,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 0.329,
         "rms": 0.86,
@@ -175,7 +255,7 @@
         "mag": 3.31,
         "place": "68 km NNE of Punta Cana, Dominican Republic",
         "time": 1781225310770,
-        "updated": 1781226220210,
+        "updated": 1781236672040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71519623",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71519623.geojson",
@@ -188,8 +268,8 @@
         "sig": 169,
         "net": "pr",
         "code": "71519623",
-        "ids": ",pr71519623,",
-        "sources": ",pr,",
+        "ids": ",us7000ssdv,pr71519623,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 14,
         "dmin": 0.6734,
@@ -208,6 +288,46 @@
         ]
       },
       "id": "pr71519623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "137 km W of Gold Beach, Oregon",
+        "time": 1781224959469,
+        "updated": 1781235266040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssdu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ssdu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000ssdu",
+        "ids": ",us7000ssdu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.293,
+        "rms": 0.97,
+        "gap": 261,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 137 km W of Gold Beach, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.0921,
+          42.3172,
+          10
+        ]
+      },
+      "id": "us7000ssdu"
     },
     {
       "type": "Feature",
@@ -1848,86 +1968,6 @@
         ]
       },
       "id": "us7000ss5v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "20 km SE of Sarangani, Philippines",
-        "time": 1781147665782,
-        "updated": 1781148828040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss5k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ss5k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000ss5k",
-        "ids": ",us7000ss5k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.79,
-        "rms": 1,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 20 km SE of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.5928,
-          5.2678,
-          10
-        ]
-      },
-      "id": "us7000ss5k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.04,
-        "place": "78 km ENE of Christiansted, U.S. Virgin Islands",
-        "time": 1781146883070,
-        "updated": 1781197159939,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026162000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026162000.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 251,
-        "net": "pr",
-        "code": "2026162000",
-        "ids": ",pr2026162000,us7000ss5g,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.743,
-        "rms": 0.34,
-        "gap": 305,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 78 km ENE of Christiansted, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.0091,
-          17.99,
-          126
-        ]
-      },
-      "id": "pr2026162000"
     }
   ],
   "bbox": [
