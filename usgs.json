@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782281802000,
+    "generated": 1782288289000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "61 km SSW of Panguna, Papua New Guinea",
+        "time": 1782281842718,
+        "updated": 1782282831040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7t2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t7t2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000t7t2",
+        "ids": ",us6000t7t2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 3.951,
+        "rms": 1.05,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 61 km SSW of Panguna, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.1762,
+          -6.7815,
+          70.1
+        ]
+      },
+      "id": "us6000t7t2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1495,7 +1535,7 @@
         "mag": 3.38,
         "place": "5 km SW of Ridgemark, CA",
         "time": 1782205429370,
-        "updated": 1782278787737,
+        "updated": 1782285682040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75382001.geojson",
@@ -1508,8 +1548,8 @@
         "sig": 195,
         "net": "nc",
         "code": "75382001",
-        "ids": ",nc75382001,",
-        "sources": ",nc,",
+        "ids": ",nc75382001,us6000t7ka,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 96,
         "dmin": 0.04194,
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "nc75381991"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "180 km E of Atka, Alaska",
-        "time": 1782199816685,
-        "updated": 1782229875200,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026micuzf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026micuzf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "a2026micuzf",
-        "ids": ",aka2026micuzf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 1.2,
-        "rms": 1.7,
-        "gap": 206,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 180 km E of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -171.569,
-          52.098,
-          20
-        ]
-      },
-      "id": "aka2026micuzf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "174 km E of Hihifo, Tonga",
-        "time": 1782198674440,
-        "updated": 1782202410555,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7k4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t7k4.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000t7k4",
-        "ids": ",us6000t7k4,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 53,
-        "dmin": 2.288,
-        "rms": 1.07,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 174 km E of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.1796,
-          -16.1772,
-          10
-        ]
-      },
-      "id": "us6000t7k4"
     }
   ],
   "bbox": [
