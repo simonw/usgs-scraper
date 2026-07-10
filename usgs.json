@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783695060000,
+    "generated": 1783698240000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "28 km NNE of Aleneva, Alaska",
+        "time": 1783697607798,
+        "updated": 1783697710711,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nodhiw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nodhiw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026nodhiw",
+        "ids": ",aka2026nodhiw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 160,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 28 km NNE of Aleneva, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.666,
+          58.28,
+          49.4
+        ]
+      },
+      "id": "aka2026nodhiw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 2.54,
         "place": "16 km SSW of Honaunau-Napoopoo, Hawaii",
         "time": 1783685537060,
-        "updated": 1783686947040,
+        "updated": 1783697947367,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75000146",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75000146.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -108,9 +148,9 @@
         "sig": 99,
         "net": "hv",
         "code": "75000146",
-        "ids": ",us7000szfw,hv75000146,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv75000146,us7000szfw,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 34,
         "dmin": 0.09695,
         "rms": 0.360000014,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000sz8b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "52 km NNE of Vieques, Puerto Rico",
-        "time": 1783610013380,
-        "updated": 1783613851900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71523173",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71523173.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "pr",
-        "code": "71523173",
-        "ids": ",pr71523173,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.6563,
-        "rms": 0.52,
-        "gap": 224,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 52 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6816666666667,
-          18.876,
-          11
-        ]
-      },
-      "id": "pr71523173"
     }
   ],
   "bbox": [
