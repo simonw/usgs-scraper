@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783890829000,
+    "generated": 1783894407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 42
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "41 km WSW of Anchor Point, Alaska",
+        "time": 1783894266189,
+        "updated": 1783894353367,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nsipgy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nsipgy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "a2026nsipgy",
+        "ids": ",aka2026nsipgy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 41 km WSW of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.528,
+          59.657,
+          86.8
+        ]
+      },
+      "id": "aka2026nsipgy"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.99,
         "place": "14 km S of New Idria, CA",
         "time": 1783889569020,
-        "updated": 1783890744980,
+        "updated": 1783891465863,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394556",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394556.geojson",
@@ -30,7 +70,7 @@
         "code": "75394556",
         "ids": ",nc75394556,us7000szxk,",
         "sources": ",nc,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 68,
         "dmin": 0.136,
         "rms": 0.26,
@@ -52,42 +92,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.3,
-        "place": "14 km ENE of Gardendale, Texas",
-        "time": 1783889542462,
-        "updated": 1783889942040,
+        "mag": 3.6,
+        "place": "11 km SSE of Dilley, Texas",
+        "time": 1783889540714,
+        "updated": 1783891644000,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szxj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000szxj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nqayet",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nqayet.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "7000szxj",
-        "ids": ",us7000szxj,",
-        "sources": ",us,",
+        "sig": 199,
+        "net": "tx",
+        "code": "2026nqayet",
+        "ids": ",us7000szxj,tx2026nqayet,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.325,
-        "rms": 0.71,
-        "gap": 91,
-        "magType": "mb_lg",
+        "nst": 27,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 77,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 14 km ENE of Gardendale, Texas"
+        "title": "M 3.6 - 11 km SSE of Dilley, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.0743,
-          28.5602,
-          5
+          -99.118,
+          28.578,
+          6.8353
         ]
       },
-      "id": "us7000szxj"
+      "id": "tx2026nqayet"
     },
     {
       "type": "Feature",
@@ -255,12 +295,12 @@
         "mag": 4.6,
         "place": "58 km E of Hanmer Springs, New Zealand",
         "time": 1783873868579,
-        "updated": 1783874956040,
+        "updated": 1783894295549,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szwc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000szwc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +310,7 @@
         "code": "7000szwc",
         "ids": ",us7000szwc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 0.163,
         "rms": 0.74,
@@ -775,17 +815,17 @@
         "mag": 4.10922888670317,
         "place": "2 km ESE of Frazier Park, CA",
         "time": 1783852684730,
-        "updated": 1783890413421,
+        "updated": 1783894364460,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291863",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41291863.geojson",
-        "felt": 748,
+        "felt": 756,
         "cdi": 4.8,
         "mmi": 4.172,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 619,
+        "sig": 623,
         "net": "ci",
         "code": "41291863",
         "ids": ",ew1783852680,ci41291863,us7000szuv,",
@@ -1608,86 +1648,6 @@
         ]
       },
       "id": "us7000szse"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "4 km SSW of Indios, Puerto Rico",
-        "time": 1783807830800,
-        "updated": 1783809295660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71523423",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71523423.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "pr",
-        "code": "71523423",
-        "ids": ",pr71523423,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.04064,
-        "rms": 0.07,
-        "gap": 188,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km SSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8391666666667,
-          17.961,
-          15.46
-        ]
-      },
-      "id": "pr71523423"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "78 km ENE of Port Alsworth, Alaska",
-        "time": 1783805143029,
-        "updated": 1783816760734,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqlbis",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nqlbis.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ak",
-        "code": "a2026nqlbis",
-        "ids": ",us7000szs8,aka2026nqlbis,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 182,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 78 km ENE of Port Alsworth, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.94,
-          60.376,
-          143.3
-        ]
-      },
-      "id": "aka2026nqlbis"
     }
   ],
   "bbox": [
