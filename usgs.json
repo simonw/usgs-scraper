@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784194583000,
+    "generated": 1784198100000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 55
+    "count": 57
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.07,
+        "place": "3 km NW of Little America, Wyoming",
+        "time": 1784196794610,
+        "updated": 1784197719680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80145401",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80145401.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 145,
+        "net": "uu",
+        "code": "80145401",
+        "ids": ",uu80145401,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.113,
+        "rms": 0.24,
+        "gap": 155,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 3 km NW of Little America, Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.885166666667,
+          41.5623333333333,
+          -2.66
+        ]
+      },
+      "id": "uu80145401"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.9,
         "place": "42 km NNW of Te Anau, New Zealand",
         "time": 1784193294293,
-        "updated": 1784194514291,
+        "updated": 1784197947146,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0xb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t0xb.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": 4.413,
-        "alert": null,
+        "felt": 26,
+        "cdi": 4.2,
+        "mmi": 4.837,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 536,
+        "sig": 546,
         "net": "us",
         "code": "7000t0xb",
         "ids": ",us7000t0xb,",
         "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 58,
         "dmin": 0.433,
         "rms": 1.31,
@@ -52,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5,
+        "place": "141 km ENE of Hicks Bay, New Zealand",
+        "time": 1784192278825,
+        "updated": 1784196182040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0x8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t0x8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000t0x8",
+        "ids": ",us7000t0x8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.259,
+        "rms": 1.18,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 141 km ENE of Hicks Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.8608,
+          -37.3276,
+          10
+        ]
+      },
+      "id": "us7000t0x8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
         "place": "Volcano Islands, Japan region",
         "time": 1784188149543,
-        "updated": 1784189818416,
+        "updated": 1784195749117,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0x0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t0x0.geojson",
@@ -92,14 +172,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "87 km SW of Altata, Mexico",
+        "time": 1784186939217,
+        "updated": 1784195435040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0x1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t0x1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000t0x1",
+        "ids": ",us7000t0x1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 3.858,
+        "rms": 0.84,
+        "gap": 275,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 87 km SW of Altata, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.4497,
+          24.0014,
+          10
+        ]
+      },
+      "id": "us7000t0x1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.61,
         "place": "31 km SE of Somes Bar, CA",
         "time": 1784182231050,
-        "updated": 1784187074039,
+        "updated": 1784197787321,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75396921",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75396921.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 1,
         "mmi": null,
         "alert": null,
@@ -2168,53 +2288,13 @@
         ]
       },
       "id": "us7000t0mj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "57 km NW of Toyah, Texas",
-        "time": 1784109326894,
-        "updated": 1784134054883,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nusird",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nusird.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2026nusird",
-        "ids": ",us7000t0m4,tx2026nusird,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 57 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.281,
-          31.627,
-          6.7151
-        ]
-      },
-      "id": "tx2026nusird"
     }
   ],
   "bbox": [
     -179.0061,
     -59.9671,
-    1.2,
-    176.2914,
+    -2.66,
+    179.8608,
     63.628,
     625.595
   ]
