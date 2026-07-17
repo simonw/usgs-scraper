@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784280612000,
+    "generated": 1784284171000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 64
+    "count": 63
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "10 km ESE of Burney, CA",
+        "time": 1784282928230,
+        "updated": 1784283444158,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397611",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397611.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "nc",
+        "code": "75397611",
+        "ids": ",nc75397611,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.07458,
+        "rms": 0.12,
+        "gap": 37,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km ESE of Burney, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.548164367676,
+          40.8508338928223,
+          13.8999996185303
+        ]
+      },
+      "id": "nc75397611"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.96,
         "place": "5 km ESE of Interlaken, CA",
         "time": 1784274728130,
-        "updated": 1784279861546,
+        "updated": 1784281719162,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397551",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397551.geojson",
-        "felt": 69,
+        "felt": 71,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 163,
+        "sig": 164,
         "net": "nc",
         "code": "75397551",
         "ids": ",nc75397551,",
@@ -2488,92 +2528,12 @@
         ]
       },
       "id": "us7000t0xw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "2 km NW of Little America, Wyoming",
-        "time": 1784196794630,
-        "updated": 1784211466520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80145401",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80145401.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "uu",
-        "code": "80145401",
-        "ids": ",uu80145401,",
-        "sources": ",uu,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.1102,
-        "rms": 0.15,
-        "gap": 112,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 2 km NW of Little America, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.888166666667,
-          41.5591666666667,
-          -2.16
-        ]
-      },
-      "id": "uu80145401"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "1 km SSW of Guánica, Puerto Rico",
-        "time": 1784195162100,
-        "updated": 1784200222600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524613",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71524613.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "pr",
-        "code": "71524613",
-        "ids": ",pr71524613,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.03825,
-        "rms": 0.25,
-        "gap": 204,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km SSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9133333333333,
-          17.9546666666667,
-          14.18
-        ]
-      },
-      "id": "pr71524613"
     }
   ],
   "bbox": [
     -178.5414,
     -30.1982,
-    -2.16,
+    0,
     179.9611,
     65.434,
     548.78
