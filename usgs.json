@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785097040000,
+    "generated": 1785100468000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.76,
+        "place": "22 km SE of Waikoloa, Hawaii",
+        "time": 1785097859170,
+        "updated": 1785099018725,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75008357",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75008357.geojson",
+        "felt": 12,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 120,
+        "net": "hv",
+        "code": "75008357",
+        "ids": ",hv75008357,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.05636,
+        "rms": 0.129999995,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 22 km SE of Waikoloa, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.615661621094,
+          19.816333770752,
+          23.1299991607666
+        ]
+      },
+      "id": "hv75008357"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "northern Mid-Atlantic Ridge",
         "time": 1785089980684,
-        "updated": 1785091702004,
+        "updated": 1785097581916,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3in",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3in.geojson",
@@ -895,7 +935,7 @@
         "mag": 5.8,
         "place": "99 km SE of Atka, Alaska",
         "time": 1785054918849,
-        "updated": 1785077123562,
+        "updated": 1785098727421,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3fm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3fm.geojson",
@@ -1648,92 +1688,12 @@
         ]
       },
       "id": "us7000t3d9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "91 km SE of Atka, Alaska",
-        "time": 1785013397610,
-        "updated": 1785014553040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3cv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3cv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.195,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000t3cv",
-        "ids": ",aka2026oqgpvp,us7000t3cv,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 108,
-        "dmin": 0.824,
-        "rms": 0.71,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 91 km SE of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.2803,
-          51.6063,
-          40.779
-        ]
-      },
-      "id": "us7000t3cv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "3 km NW of Little America, Wyoming",
-        "time": 1785011541910,
-        "updated": 1785012165727,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80146416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80146416.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "uu",
-        "code": "80146416",
-        "ids": ",uu80146416,",
-        "sources": ",uu,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.1127,
-        "rms": 0.32,
-        "gap": 127,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 3 km NW of Little America, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.889666666667,
-          41.5615,
-          -3.39
-        ]
-      },
-      "id": "uu80146416"
     }
   ],
   "bbox": [
     -177.9322,
     -34.0707,
-    -3.39,
+    0,
     179.8773,
     73.4913,
     535.429
