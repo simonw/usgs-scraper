@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785055433000,
+    "generated": 1785058618000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 32
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
+        "place": "30 km ESE of Akhiok, Alaska",
+        "time": 1785055423131,
+        "updated": 1785055559873,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ordzel",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ordzel.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026ordzel",
+        "ids": ",aka2026ordzel,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 193,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 30 km ESE of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.736,
+          56.81,
+          19.8
+        ]
+      },
+      "id": "aka2026ordzel"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "99 km SE of Atka, Alaska",
+        "time": 1785054918849,
+        "updated": 1785058525848,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3fm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3fm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.206,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "7000t3fm",
+        "ids": ",us7000t3fm,attirx71,aka2026ordrxw,",
+        "sources": ",us,at,ak,",
+        "types": ",event-sequence,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 121,
+        "dmin": 0.895,
+        "rms": 0.99,
+        "gap": 97,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - 99 km SE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.306,
+          51.4994,
+          10
+        ]
+      },
+      "id": "us7000t3fm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
         "place": "24 km SW of Susitna, Alaska",
         "time": 1785053395114,
-        "updated": 1785054281918,
+        "updated": 1785057108040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026orcvvv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026orcvvv.geojson",
@@ -28,8 +108,8 @@
         "sig": 96,
         "net": "ak",
         "code": "a2026orcvvv",
-        "ids": ",aka2026orcvvv,",
-        "sources": ",ak,",
+        "ids": ",aka2026orcvvv,us7000t3fi,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 83,
         "dmin": 0.4,
@@ -1248,53 +1328,13 @@
         ]
       },
       "id": "tx2026onbnwl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "226 km ESE of Attu Station, Alaska",
-        "time": 1784970234956,
-        "updated": 1785045190040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3bw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3bw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.276,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "7000t3bw",
-        "ids": ",aka2026opiqjh,us7000t3bw,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 13,
-        "dmin": 1.402,
-        "rms": 0.48,
-        "gap": 189,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 226 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.2488,
-          52.048,
-          10
-        ]
-      },
-      "id": "us7000t3bw"
     }
   ],
   "bbox": [
     -177.9322,
     -34.0707,
     -3.39,
-    176.2488,
+    156.8988,
     73.4913,
     446.051
   ]
