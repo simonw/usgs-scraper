@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785187256000,
+    "generated": 1785190759000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 55
+    "count": 61
   },
   "features": [
     {
@@ -375,12 +375,12 @@
         "mag": 2.96,
         "place": "17 km SE of Silver Springs, Nevada",
         "time": 1785168838610,
-        "updated": 1785171097040,
+        "updated": 1785188574115,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922405",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00922405.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -388,9 +388,9 @@
         "sig": 135,
         "net": "nn",
         "code": "00922405",
-        "ids": ",us6000tg37,nn00922405,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00922405,us6000tg37,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 9,
         "dmin": 0.069,
         "rms": 0.1404,
@@ -1373,9 +1373,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "22 km ESE of Susitna North, Alaska",
-        "time": 1785132410009,
-        "updated": 1785172421111,
+        "place": "23 km ESE of Susitna North, Alaska",
+        "time": 1785132410017,
+        "updated": 1785190563626,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osutsm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osutsm.geojson",
@@ -1391,18 +1391,18 @@
         "ids": ",aka2026osutsm,",
         "sources": ",ak,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 145,
+        "nst": 144,
         "dmin": 0.4,
         "rms": 1.3,
         "gap": 26,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 22 km ESE of Susitna North, Alaska"
+        "title": "M 3.0 - 23 km ESE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.438,
+          -149.436,
           62.09,
           15.4
         ]
@@ -1488,6 +1488,46 @@
         ]
       },
       "id": "us7000t3lm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "235 km WSW of Adak, Alaska",
+        "time": 1785128555960,
+        "updated": 1785190233180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ossqah",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ossqah.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "a2026ossqah",
+        "ids": ",aka2026ossqah,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 198,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 235 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.931,
+          51.351,
+          62
+        ]
+      },
+      "id": "aka2026ossqah"
     },
     {
       "type": "Feature",
@@ -1652,6 +1692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "100 km SE of Atka, Alaska",
+        "time": 1785122570368,
+        "updated": 1785189870621,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osphnn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osphnn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.219,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "a2026osphnn",
+        "ids": ",aka2026osphnn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 29,
+        "dmin": 0.9,
+        "rms": 1.1,
+        "gap": 217,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 100 km SE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.245,
+          51.516,
+          9.1
+        ]
+      },
+      "id": "aka2026osphnn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "south of Tonga",
         "time": 1785121924308,
@@ -1688,6 +1768,46 @@
         ]
       },
       "id": "us7000t3kz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "101 km SE of Atka, Alaska",
+        "time": 1785121848943,
+        "updated": 1785189713242,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osoxdn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osoxdn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026osoxdn",
+        "ids": ",aka2026osoxdn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.9,
+        "rms": 1,
+        "gap": 307,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 101 km SE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.261,
+          51.489,
+          20
+        ]
+      },
+      "id": "aka2026osoxdn"
     },
     {
       "type": "Feature",
@@ -1932,10 +2052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "233 km ESE of Attu Station, Alaska",
-        "time": 1785117240311,
-        "updated": 1785179842464,
+        "mag": 3.3,
+        "place": "234 km ESE of Attu Station, Alaska",
+        "time": 1785117241841,
+        "updated": 1785189041681,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osmive",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osmive.geojson",
@@ -1945,26 +2065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 168,
         "net": "ak",
         "code": "a2026osmive",
         "ids": ",aka2026osmive,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.4,
-        "rms": 0.7,
-        "gap": 342,
+        "nst": 18,
+        "dmin": 1.5,
+        "rms": 0.9,
+        "gap": 209,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 233 km ESE of Attu Station, Alaska"
+        "title": "M 3.3 - 234 km ESE of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          176.222,
-          51.867,
-          0
+          176.127,
+          51.759,
+          20
         ]
       },
       "id": "aka2026osmive"
@@ -2092,10 +2212,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "95 km SE of Akutan, Alaska",
+        "time": 1785113716259,
+        "updated": 1785188788506,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026oskjoe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026oskjoe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026oskjoe",
+        "ids": ",aka2026oskjoe,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.8,
+        "rms": 0.7,
+        "gap": 238,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 95 km SE of Akutan, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.75,
+          53.532,
+          16.5
+        ]
+      },
+      "id": "aka2026oskjoe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "58 km N of Chickaloon, Alaska",
-        "time": 1785112139720,
-        "updated": 1785113458040,
+        "place": "178 km WSW of Adak, Alaska",
+        "time": 1785112526028,
+        "updated": 1785188516621,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osjsjh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osjsjh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026osjsjh",
+        "ids": ",aka2026osjsjh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 194,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 178 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.1,
+          51.419,
+          73.8
+        ]
+      },
+      "id": "aka2026osjsjh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "58 km NNW of Chickaloon, Alaska",
+        "time": 1785112139585,
+        "updated": 1785188451993,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osjmuh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osjmuh.geojson",
@@ -2103,7 +2303,7 @@
         "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "ak",
@@ -2111,23 +2311,103 @@
         "ids": ",aka2026osjmuh,us7000t3k7,",
         "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 92,
+        "nst": 102,
         "dmin": 0.5,
         "rms": 0.9,
-        "gap": 30,
+        "gap": 21,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 58 km N of Chickaloon, Alaska"
+        "title": "M 2.5 - 58 km NNW of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.677,
-          62.313,
+          -148.699,
+          62.312,
           18.2
         ]
       },
       "id": "aka2026osjmuh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "111 km SE of Atka, Alaska",
+        "time": 1785112006306,
+        "updated": 1785188264559,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osjkzr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osjkzr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026osjkzr",
+        "ids": ",aka2026osjkzr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1,
+        "rms": 0.8,
+        "gap": 307,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 111 km SE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.248,
+          51.388,
+          27.5
+        ]
+      },
+      "id": "aka2026osjkzr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "71 km S of Unalaska, Alaska",
+        "time": 1785111396905,
+        "updated": 1785188142071,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osjcbv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osjcbv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026osjcbv",
+        "ids": ",aka2026osjcbv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.6,
+        "rms": 0.6,
+        "gap": 225,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 71 km S of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.706,
+          53.241,
+          59
+        ]
+      },
+      "id": "aka2026osjcbv"
     },
     {
       "type": "Feature",
@@ -2168,50 +2448,10 @@
         ]
       },
       "id": "us7000t3jr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "109 km W of San Antonio de los Cobres, Argentina",
-        "time": 1785102247754,
-        "updated": 1785104013040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3ji",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3ji.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000t3ji",
-        "ids": ",us7000t3ji,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 1.621,
-        "rms": 0.87,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 109 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3754,
-          -24.4024,
-          183.747
-        ]
-      },
-      "id": "us7000t3ji"
     }
   ],
   "bbox": [
-    -175.3545,
+    -179.931,
     -32.9701,
     0,
     176.255,
