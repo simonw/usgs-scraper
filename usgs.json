@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785622591000,
+    "generated": 1785626133000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.76,
+        "place": "7 km E of Wilkerson, CA",
+        "time": 1785625109620,
+        "updated": 1785625378530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409887",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409887.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 117,
+        "net": "nc",
+        "code": "75409887",
+        "ids": ",nc75409887,nn00922696,",
+        "sources": ",nc,nn,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.03915,
+        "rms": 0.06,
+        "gap": 130,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 7 km E of Wilkerson, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.303833007812,
+          37.2661666870117,
+          4.90000009536743
+        ]
+      },
+      "id": "nc75409887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Fiji region",
+        "time": 1785623379433,
+        "updated": 1785624435040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thid",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000thid.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000thid",
+        "ids": ",us6000thid,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 4.455,
+        "rms": 1.13,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.9988,
+          -20.1867,
+          522.669
+        ]
+      },
+      "id": "us6000thid"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,12 +455,12 @@
         "mag": 4.6,
         "place": "14 km WSW of Honmachi, Japan",
         "time": 1785600441753,
-        "updated": 1785606745040,
+        "updated": 1785622745681,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000thgz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +470,7 @@
         "code": "6000thgz",
         "ids": ",us6000thgz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 79,
         "dmin": 0.937,
         "rms": 0.64,
@@ -535,11 +615,11 @@
         "mag": 2.68,
         "place": "8 km ESE of Cloverdale, CA",
         "time": 1785585040700,
-        "updated": 1785594421005,
+        "updated": 1785625746130,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409602",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409602.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -972,20 +1052,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.79,
+        "mag": 3.67,
         "place": "7 km ESE of Cloverdale, CA",
         "time": 1785571065720,
-        "updated": 1785620394761,
+        "updated": 1785622863669,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409452",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75409452.geojson",
         "felt": 186,
-        "cdi": 4.1,
-        "mmi": 3.881,
+        "cdi": 4,
+        "mmi": 3.884,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 297,
+        "sig": 282,
         "net": "nc",
         "code": "75409452",
         "ids": ",ew1785571060,nc75409452,",
@@ -997,7 +1077,7 @@
         "gap": 31,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.8 - 7 km ESE of Cloverdale, CA"
+        "title": "M 3.7 - 7 km ESE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "us6000thcq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "158 km ENE of Masohi, Indonesia",
-        "time": 1785536310124,
-        "updated": 1785552469040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thck",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000thck.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000thck",
-        "ids": ",us6000thck,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 1.635,
-        "rms": 1.18,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 158 km ENE of Masohi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.3496,
-          -2.9385,
-          10
-        ]
-      },
-      "id": "us6000thck"
     }
   ],
   "bbox": [
