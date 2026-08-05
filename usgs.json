@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785933033000,
+    "generated": 1785936598000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 52
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "28 km SW of Jal, New Mexico",
+        "time": 1785930202217,
+        "updated": 1785936414627,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026phkefu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026phkefu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2026phkefu",
+        "ids": ",tx2026phkefu,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 28 km SW of Jal, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.397,
+          31.928,
+          6.2408
+        ]
+      },
+      "id": "tx2026phkefu"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,12 +655,12 @@
         "mag": 5.1,
         "place": "238 km SSW of Río Grande, Panama",
         "time": 1785903561769,
-        "updated": 1785904277040,
+        "updated": 1785936254560,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ti6z.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -630,7 +670,7 @@
         "code": "6000ti6z",
         "ids": ",us6000ti6z,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 47,
         "dmin": 3.439,
         "rms": 1.04,
@@ -733,9 +773,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.78,
-        "place": "10 km N of New Harmony, Utah",
-        "time": 1785900076100,
-        "updated": 1785900914866,
+        "place": "9 km N of New Harmony, Utah",
+        "time": 1785900076570,
+        "updated": 1785935522910,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147111",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80147111.geojson",
@@ -751,20 +791,20 @@
         "ids": ",uu80147111,",
         "sources": ",uu,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.2357,
-        "rms": 0.319999993,
-        "gap": 56,
+        "nst": 27,
+        "dmin": 0.2118,
+        "rms": 0.13,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 10 km N of New Harmony, Utah"
+        "title": "M 2.8 - 9 km N of New Harmony, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.325164794922,
-          37.5703315734863,
-          -3
+          -113.324666666667,
+          37.5683333333333,
+          11.04
         ]
       },
       "id": "uu80147111"
@@ -975,7 +1015,7 @@
         "mag": 3.99,
         "place": "31 km NNW of Covelo, CA",
         "time": 1785889525780,
-        "updated": 1785911730712,
+        "updated": 1785933327541,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411492",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411492.geojson",
@@ -2008,92 +2048,12 @@
         ]
       },
       "id": "us6000ti0a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "11 km NNE of Kettleman City, CA",
-        "time": 1785849843410,
-        "updated": 1785853048372,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411122",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411122.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "nc",
-        "code": "75411122",
-        "ids": ",nc75411122,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
-        "dmin": 0.1859,
-        "rms": 0.16,
-        "gap": 76,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km NNE of Kettleman City, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.926330566406,
-          36.1015014648438,
-          10.4899997711182
-        ]
-      },
-      "id": "nc75411122"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "10 km NNE of Kettleman City, CA",
-        "time": 1785849669230,
-        "updated": 1785866558067,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411117",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411117.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": 3.285,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "nc",
-        "code": "75411117",
-        "ids": ",nc75411117,us6000ti05,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 74,
-        "dmin": 0.08999,
-        "rms": 0.13,
-        "gap": 45,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.3 - 10 km NNE of Kettleman City, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.930666666667,
-          36.0948333333333,
-          9.78
-        ]
-      },
-      "id": "nc75411117"
     }
   ],
   "bbox": [
     -179.8831,
     -55.7454,
-    -3,
+    1.9744,
     179.4727,
     66.2456,
     603.036
