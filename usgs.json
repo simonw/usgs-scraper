@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786212278000,
+    "generated": 1786216176000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 55
+    "count": 57
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "45 km ESE of Pedro Bay, Alaska",
-        "time": 1786212112979,
-        "updated": 1786212219952,
+        "mag": 2.6,
+        "place": "59 km WNW of Skwentna, Alaska",
+        "time": 1786215109866,
+        "updated": 1786215403040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppwwng",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ppwwng.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppynvf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ppynvf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026ppynvf",
+        "ids": ",us6000tjaq,aka2026ppynvf,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 87,
+        "dmin": 0.7,
+        "rms": 1.3,
+        "gap": 19,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 59 km WNW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.396,
+          62.246,
+          5
+        ]
+      },
+      "id": "aka2026ppynvf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "47 km WNW of Lata, Solomon Islands",
+        "time": 1786213706011,
+        "updated": 1786214744040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjan",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjan.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000tjan",
+        "ids": ",us6000tjan,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 5.499,
+        "rms": 0.64,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 47 km WNW of Lata, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.4256,
+          -10.5042,
+          75.441
+        ]
+      },
+      "id": "us6000tjan"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "45 km ESE of Pedro Bay, Alaska",
+        "time": 1786212112979,
+        "updated": 1786215609770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppwwng",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ppwwng.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": 1.411,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
         "sig": 158,
         "net": "ak",
         "code": "a2026ppwwng",
-        "ids": ",aka2026ppwwng,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026ppwwng,us6000tjak,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 121,
         "dmin": 0.1,
         "rms": 0.7,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "aka2026ppwwng"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "42 km E of Noda, Japan",
+        "time": 1786211878745,
+        "updated": 1786214885646,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjaj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjaj.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": 4.071,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 483,
+        "net": "us",
+        "code": "6000tjaj",
+        "ids": ",us6000tjaj,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 118,
+        "dmin": 1.133,
+        "rms": 0.56,
+        "gap": 96,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 42 km E of Noda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3107,
+          40.1723,
+          34
+        ]
+      },
+      "id": "us6000tjaj"
     },
     {
       "type": "Feature",
@@ -1415,11 +1535,11 @@
         "mag": 5.6,
         "place": "57 km WNW of Skwentna, Alaska",
         "time": 1786164634985,
-        "updated": 1786211344595,
+        "updated": 1786215894916,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026powmkf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026powmkf.geojson",
-        "felt": 1119,
+        "felt": 1124,
         "cdi": 5.4,
         "mmi": 5.879,
         "alert": null,
@@ -1815,11 +1935,11 @@
         "mag": 2.86,
         "place": "6 km NNW of Saratoga Springs, Utah",
         "time": 1786146923160,
-        "updated": 1786204913779,
+        "updated": 1786212594955,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147521",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80147521.geojson",
-        "felt": 541,
+        "felt": 542,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
@@ -2168,46 +2288,6 @@
         ]
       },
       "id": "us6000tj2p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "3 km WNW of Takahagi, Japan",
-        "time": 1786128091903,
-        "updated": 1786129493040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj22",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tj22.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000tj22",
-        "ids": ",us6000tj22,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.996,
-        "rms": 0.96,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 3 km WNW of Takahagi, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.68,
-          36.7231,
-          10
-        ]
-      },
-      "id": "us6000tj22"
     }
   ],
   "bbox": [
