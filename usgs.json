@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786371739000,
+    "generated": 1786375102000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.49,
+        "place": "9 km SE of Pinnacles, CA",
+        "time": 1786373586700,
+        "updated": 1786374443804,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415182",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75415182.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "75415182",
+        "ids": ",nc75415182,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.1104,
+        "rms": 0.19,
+        "gap": 37,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 9 km SE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.069999694824,
+          36.4706649780273,
+          8.13000011444092
+        ]
+      },
+      "id": "nc75415182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "16 km W of San José del Palmar, Colombia",
         "time": 1786367890451,
-        "updated": 1786369219040,
+        "updated": 1786373460864,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjm4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjm4.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000tjm4",
         "ids": ",us6000tjm4,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 115,
         "dmin": 1.542,
         "rms": 1.03,
@@ -95,17 +135,17 @@
         "mag": 7.4,
         "place": "5 km S of San José del Palmar, Colombia",
         "time": 1786365268125,
-        "updated": 1786371493244,
+        "updated": 1786374991631,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjl2.geojson",
-        "felt": 616,
+        "felt": 703,
         "cdi": 7.9,
         "mmi": 6.891,
         "alert": "orange",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 1487,
+        "sig": 1555,
         "net": "us",
         "code": "6000tjl2",
         "ids": ",us6000tjl2,attjk09g,pt26222000,",
@@ -695,7 +735,7 @@
         "mag": 3.4,
         "place": "79 km N of Elim, Alaska",
         "time": 1786338974132,
-        "updated": 1786339141745,
+        "updated": 1786373975040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pspjwf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pspjwf.geojson",
@@ -708,8 +748,8 @@
         "sig": 178,
         "net": "ak",
         "code": "a2026pspjwf",
-        "ids": ",aka2026pspjwf,",
-        "sources": ",ak,",
+        "ids": ",us6000tjje,aka2026pspjwf,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 41,
         "dmin": 0.9,
@@ -768,6 +808,46 @@
         ]
       },
       "id": "hv75017001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "36 km WSW of Campo Acosta, Mexico",
+        "time": 1786331779561,
+        "updated": 1786372870104,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjm0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjm0.geojson",
+        "felt": 5,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 235,
+        "net": "us",
+        "code": "6000tjm0",
+        "ids": ",us6000tjm0,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 41,
+        "dmin": 4.108,
+        "rms": 0.84,
+        "gap": 219,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 36 km WSW of Campo Acosta, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5861,
+          19.6906,
+          10
+        ]
+      },
+      "id": "us6000tjm0"
     },
     {
       "type": "Feature",
@@ -2008,86 +2088,6 @@
         ]
       },
       "id": "us6000tjfr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "197 km SSW of Pagar Alam, Indonesia",
-        "time": 1786288503956,
-        "updated": 1786362946040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjfj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000tjfj",
-        "ids": ",us6000tjfj,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 67,
-        "dmin": 1.41,
-        "rms": 0.76,
-        "gap": 71,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 197 km SSW of Pagar Alam, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          102.8866,
-          -5.7782,
-          35
-        ]
-      },
-      "id": "us6000tjfj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "1 km W of Pāhala, Hawaii",
-        "time": 1786285822310,
-        "updated": 1786333686650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015462",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75015462.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "hv",
-        "code": "75015462",
-        "ids": ",us6000tjfd,hv75015462,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.04271,
-        "rms": 0.12,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 1 km W of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.494333333333,
-          19.2056666666667,
-          30.76
-        ]
-      },
-      "id": "hv75015462"
     }
   ],
   "bbox": [
