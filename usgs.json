@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786350483000,
+    "generated": 1786354040000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 52
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "80 km ESE of Isangel, Vanuatu",
+        "time": 1786350868098,
+        "updated": 1786352732040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjk6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjk6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000tjk6",
+        "ids": ",us6000tjk6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 3.679,
+        "rms": 0.82,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 80 km ESE of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170,
+          -19.7958,
+          10
+        ]
+      },
+      "id": "us6000tjk6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.71,
         "place": "5 km ENE of Wardville, Oklahoma",
         "time": 1786350034292,
-        "updated": 1786350253517,
+        "updated": 1786353285040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026pokr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026pokr.geojson",
@@ -28,8 +68,8 @@
         "sig": 113,
         "net": "ok",
         "code": "2026pokr",
-        "ids": ",ok2026pokr,",
-        "sources": ",ok,",
+        "ids": ",us6000tjk5,ok2026pokr,",
+        "sources": ",us,ok,",
         "types": ",origin,phase-data,",
         "nst": 59,
         "dmin": 0.3495624661,
@@ -1132,6 +1172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.49,
+        "place": "31 km E of Honaunau-Napoopoo, Hawaii",
+        "time": 1786309006950,
+        "updated": 1786351522990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75015567.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "75015567",
+        "ids": ",hv75015567,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.01374,
+        "rms": 0.13,
+        "gap": 68,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 31 km E of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.567833333333,
+          19.4723333333333,
+          42.66
+        ]
+      },
+      "id": "hv75015567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "234 km ESE of Attu Station, Alaska",
         "time": 1786308068277,
@@ -2048,46 +2128,6 @@
         ]
       },
       "id": "us6000tjgs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "70 km SSW of Kaktovik, Alaska",
-        "time": 1786265334638,
-        "updated": 1786280155040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pralmq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pralmq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026pralmq",
-        "ids": ",us6000tjdr,aka2026pralmq,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 102,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 70 km SSW of Kaktovik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.504,
-          69.579,
-          13.5
-        ]
-      },
-      "id": "aka2026pralmq"
     }
   ],
   "bbox": [
