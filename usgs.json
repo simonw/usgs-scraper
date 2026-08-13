@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786631040000,
+    "generated": 1786634255000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 37
+    "count": 34
   },
   "features": [
     {
@@ -1092,10 +1092,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.59,
-        "place": "10 km SW of Valencia, CA",
-        "time": 1786568189370,
-        "updated": 1786597384160,
+        "mag": 2.63,
+        "place": "9 km SW of Valencia, CA",
+        "time": 1786568189310,
+        "updated": 1786633832040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671466",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40671466.geojson",
@@ -1103,28 +1103,28 @@
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 145,
         "net": "ci",
         "code": "40671466",
-        "ids": ",ci40671466,",
-        "sources": ",ci,",
+        "ids": ",ci40671466,us6000tkap,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 107,
-        "dmin": 0.04344,
-        "rms": 0.27,
-        "gap": 13,
+        "nst": 91,
+        "dmin": 0.04246,
+        "rms": 0.26,
+        "gap": 15,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 10 km SW of Valencia, CA"
+        "title": "M 2.6 - 9 km SW of Valencia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.631333333333,
-          34.3848333333333,
-          4.5
+          -118.628666666667,
+          34.3845,
+          4.22
         ]
       },
       "id": "ci40671466"
@@ -1132,42 +1132,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "88 km SSE of Sand Point, Alaska",
-        "time": 1786565033055,
-        "updated": 1786581029975,
+        "mag": 3.6,
+        "place": "99 km SSE of Sand Point, Alaska",
+        "time": 1786565034806,
+        "updated": 1786632469040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pxlaxo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pxlaxo.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkc9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tkc9.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026pxlaxo",
-        "ids": ",aka2026pxlaxo,",
-        "sources": ",ak,",
+        "sig": 199,
+        "net": "us",
+        "code": "6000tkc9",
+        "ids": ",aka2026pxlaxo,us6000tkc9,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.2,
-        "rms": 0.7,
-        "gap": 213,
-        "magType": "ml",
+        "nst": 63,
+        "dmin": 1.283,
+        "rms": 0.74,
+        "gap": 197,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.2 - 88 km SSE of Sand Point, Alaska"
+        "title": "M 3.6 - 99 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.032,
-          54.591,
-          4.8
+          -159.9532,
+          54.501,
+          35
         ]
       },
-      "id": "aka2026pxlaxo"
+      "id": "us6000tkc9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "11 km SW of Hengchun, Taiwan",
+        "time": 1786564461437,
+        "updated": 1786631496040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tka7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tka7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tka7",
+        "ids": ",us6000tka7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 85,
+        "dmin": 0.961,
+        "rms": 0.83,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 11 km SW of Hengchun, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6514,
+          21.9386,
+          15.766
+        ]
+      },
+      "id": "us6000tka7"
     },
     {
       "type": "Feature",
@@ -1328,166 +1368,6 @@
         ]
       },
       "id": "us6000tkak"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "107 km S of Unalaska, Alaska",
-        "time": 1786547731570,
-        "updated": 1786567223275,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pxbkla",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pxbkla.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026pxbkla",
-        "ids": ",aka2026pxbkla,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.9,
-        "rms": 0.4,
-        "gap": 228,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 107 km S of Unalaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -166.754,
-          52.915,
-          22.7
-        ]
-      },
-      "id": "aka2026pxbkla"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "52 km N of Hatillo, Puerto Rico",
-        "time": 1786547497860,
-        "updated": 1786553791670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528298",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528298.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 142,
-        "net": "pr",
-        "code": "71528298",
-        "ids": ",pr71528298,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.5383,
-        "rms": 0.21,
-        "gap": 293,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 52 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8641666666667,
-          18.9548333333333,
-          35.12
-        ]
-      },
-      "id": "pr71528298"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "8 km NNE of Kodiak Station, Alaska",
-        "time": 1786547496546,
-        "updated": 1786575657221,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pxbhdx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pxbhdx.geojson",
-        "felt": 74,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "ak",
-        "code": "a2026pxbhdx",
-        "ids": ",aka2026pxbhdx,us6000tk7y,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.7,
-        "rms": 0.8,
-        "gap": 152,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 8 km NNE of Kodiak Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.539,
-          57.839,
-          5
-        ]
-      },
-      "id": "aka2026pxbhdx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "48 km SE of Pāhala, Hawaii",
-        "time": 1786545916750,
-        "updated": 1786555524590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018581",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018581.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 160,
-        "net": "hv",
-        "code": "75018581",
-        "ids": ",us6000tk7u,hv75018581,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.3949,
-        "rms": 0.15,
-        "gap": 277,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 48 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.154333333333,
-          18.8871666666667,
-          10.89
-        ]
-      },
-      "id": "hv75018581"
     }
   ],
   "bbox": [
