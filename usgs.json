@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786986270000,
+    "generated": 1786989869000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 48
+    "count": 46
   },
   "features": [
     {
@@ -175,12 +175,12 @@
         "mag": 5.8,
         "place": "72 km E of Petropavlovsk-Kamchatsky, Russia",
         "time": 1786970283466,
-        "updated": 1786978059349,
+        "updated": 1786989033032,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015edq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usd0015edq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 4.379,
         "alert": "green",
         "status": "reviewed",
@@ -190,7 +190,7 @@
         "code": "d0015edq",
         "ids": ",usd0015edq,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 111,
         "dmin": 1.217,
         "rms": 0.78,
@@ -855,22 +855,22 @@
         "mag": 3.8,
         "place": "32 km E of Halibut Cove, Alaska",
         "time": 1786943269191,
-        "updated": 1786943934040,
+        "updated": 1786989839317,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qfngls",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qfngls.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 55,
+        "cdi": 3.1,
         "mmi": 3.324,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 239,
         "net": "ak",
         "code": "a2026qfngls",
-        "ids": ",usd0015ebm,aka2026qfngls,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",aka2026qfngls,usd0015ebm,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 59,
         "dmin": 0.1,
         "rms": 0.5,
@@ -1848,86 +1848,6 @@
         ]
       },
       "id": "pr71528693"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "77 km N of Ruteng, Indonesia",
-        "time": 1786901175105,
-        "updated": 1786903217040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e9a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usd0015e9a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "d0015e9a",
-        "ids": ",usd0015e9a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 2.962,
-        "rms": 1.09,
-        "gap": 52,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 77 km N of Ruteng, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.4602,
-          -7.9109,
-          9.309
-        ]
-      },
-      "id": "usd0015e9a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "South Atlantic Ocean",
-        "time": 1786900267915,
-        "updated": 1786903390040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e96",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usd0015e96.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "d0015e96",
-        "ids": ",usd0015e96,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 19.852,
-        "rms": 1.18,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - South Atlantic Ocean"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -20.3712,
-          -22.5775,
-          10
-        ]
-      },
-      "id": "usd0015e96"
     }
   ],
   "bbox": [
