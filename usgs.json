@@ -1,28 +1,68 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787166322000,
+    "generated": 1787169707000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 58
+    "count": 59
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "45 km W of Happy Valley, Alaska",
+        "time": 1787169103493,
+        "updated": 1787169697128,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkiuau",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qkiuau.geojson",
+        "felt": 11,
+        "cdi": 2.2,
+        "mmi": 1.969,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 213,
+        "net": "ak",
+        "code": "a2026qkiuau",
+        "ids": ",aka2026qkiuau,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 246,
+        "dmin": 0.1,
+        "rms": 1.1,
+        "gap": 50,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 45 km W of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.531,
+          60.029,
+          108
+        ]
+      },
+      "id": "aka2026qkiuau"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "215 km E of Levuka, Fiji",
         "time": 1787165129754,
-        "updated": 1787166158040,
+        "updated": 1787166726328,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlz8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tlz8.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 1.565,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 449,
@@ -30,7 +70,7 @@
         "code": "6000tlz8",
         "ids": ",us6000tlz8,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 190,
         "dmin": 2.297,
         "rms": 0.79,
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "50 km NE of Pedro Bay, Alaska",
-        "time": 1787163924871,
-        "updated": 1787164065572,
+        "mag": 3.3,
+        "place": "48 km ESE of Port Alsworth, Alaska",
+        "time": 1787163924653,
+        "updated": 1787169241774,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkfxfr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qkfxfr.geojson",
@@ -103,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 168,
         "net": "ak",
         "code": "a2026qkfxfr",
         "ids": ",aka2026qkfxfr,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 151,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 18,
+        "nst": 207,
+        "dmin": 0.2,
+        "rms": 1.1,
+        "gap": 19,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 50 km NE of Pedro Bay, Alaska"
+        "title": "M 3.3 - 48 km ESE of Port Alsworth, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.43,
-          60.086,
-          165.5
+          -153.469,
+          60.096,
+          163.8
         ]
       },
       "id": "aka2026qkfxfr"
@@ -208,6 +248,46 @@
         ]
       },
       "id": "us6000tlyv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "74 km SE of Pondaguitan, Philippines",
+        "time": 1787159974166,
+        "updated": 1787168927040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlyi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tlyi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000tlyi",
+        "ids": ",us6000tlyi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.591,
+        "rms": 0.88,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 74 km SE of Pondaguitan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6639,
+          5.8923,
+          10
+        ]
+      },
+      "id": "us6000tlyi"
     },
     {
       "type": "Feature",
@@ -1015,11 +1095,11 @@
         "mag": 3.64,
         "place": "14 km N of Warner Springs, CA",
         "time": 1787124695950,
-        "updated": 1787163568052,
+        "updated": 1787168047060,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529896",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41529896.geojson",
-        "felt": 158,
+        "felt": 159,
         "cdi": 3.4,
         "mmi": 3.384,
         "alert": null,
@@ -2288,46 +2368,6 @@
         ]
       },
       "id": "us6000tlqv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "35 km SSW of Jurm, Afghanistan",
-        "time": 1787082669478,
-        "updated": 1787084287405,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlqq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tlqq.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 433,
-        "net": "us",
-        "code": "6000tlqq",
-        "ids": ",us6000tlqq,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 99,
-        "dmin": 2.232,
-        "rms": 0.77,
-        "gap": 22,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 35 km SSW of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.7551,
-          36.5535,
-          195.937
-        ]
-      },
-      "id": "us6000tlqq"
     }
   ],
   "bbox": [
