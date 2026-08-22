@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787396522000,
+    "generated": 1787400033000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 49
+    "count": 44
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.54715490341187,
         "place": "7 km E of Ashford, Washington",
         "time": 1787396064200,
-        "updated": 1787396235310,
+        "updated": 1787398263700,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714083092",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714083092.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "714083092",
         "ids": ",uw714083092,",
         "sources": ",uw,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 73,
         "dmin": 0.02663,
         "rms": 0.189999998,
@@ -55,17 +55,17 @@
         "mag": 4.1,
         "place": "10 km ESE of San Mateo, New Mexico",
         "time": 1787393953862,
-        "updated": 1787396505011,
+        "updated": 1787399991813,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tms8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tms8.geojson",
-        "felt": 7,
+        "felt": 13,
         "cdi": 3.8,
         "mmi": 4.376,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 261,
+        "sig": 264,
         "net": "us",
         "code": "6000tms8",
         "ids": ",us6000tms8,",
@@ -255,17 +255,17 @@
         "mag": 3.9,
         "place": "1 km WSW of Hope, Alaska",
         "time": 1787384560939,
-        "updated": 1787396339532,
+        "updated": 1787397727572,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qoynpe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qoynpe.geojson",
-        "felt": 850,
+        "felt": 853,
         "cdi": 4.1,
         "mmi": 3.417,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 582,
+        "sig": 584,
         "net": "ak",
         "code": "a2026qoynpe",
         "ids": ",aka2026qoynpe,attk5ur4,us6000tmrm,",
@@ -408,6 +408,46 @@
         ]
       },
       "id": "us6000tmrf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "62 km NW of San Antonio, Puerto Rico",
+        "time": 1787379760370,
+        "updated": 1787398205110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529313",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71529313.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "pr",
+        "code": "71529313",
+        "ids": ",pr71529313,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.4603,
+        "rms": 0.29,
+        "gap": 212,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 62 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5663333333333,
+          18.8396666666667,
+          17.23
+        ]
+      },
+      "id": "pr71529313"
     },
     {
       "type": "Feature",
@@ -1728,246 +1768,6 @@
         ]
       },
       "id": "us6000tmfe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Banda Sea",
-        "time": 1787313328424,
-        "updated": 1787317672040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmfc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tmfc",
-        "ids": ",us6000tmfc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.947,
-        "rms": 0.63,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.8904,
-          -6.4826,
-          169.579
-        ]
-      },
-      "id": "us6000tmfc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "62 km ENE of Ruteng, Indonesia",
-        "time": 1787313289678,
-        "updated": 1787320211040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmfd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tmfd",
-        "ids": ",us6000tmfd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 3.48,
-        "rms": 0.53,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 62 km ENE of Ruteng, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.9404,
-          -8.3093,
-          10
-        ]
-      },
-      "id": "us6000tmfd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "261 km WSW of Adak, Alaska",
-        "time": 1787311356073,
-        "updated": 1787343916601,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qnjvsi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qnjvsi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "a2026qnjvsi",
-        "ids": ",aka2026qnjvsi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 212,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 261 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.707,
-          51.3,
-          22.3
-        ]
-      },
-      "id": "aka2026qnjvsi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "47 km N of Ruteng, Indonesia",
-        "time": 1787311012056,
-        "updated": 1787313383040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmf7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmf7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000tmf7",
-        "ids": ",us6000tmf7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 3.248,
-        "rms": 0.63,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 47 km N of Ruteng, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5325,
-          -8.1896,
-          10
-        ]
-      },
-      "id": "us6000tmf7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "3 km SE of Ferndale, CA",
-        "time": 1787310657000,
-        "updated": 1787320046328,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422337",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75422337.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "75422337",
-        "ids": ",nc75422337,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 5,
-        "dmin": 0.2081,
-        "rms": 0.13,
-        "gap": 316,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km SE of Ferndale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.232833862305,
-          40.5596656799316,
-          13.289999961853
-        ]
-      },
-      "id": "nc75422337"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "44 km N of Ruteng, Indonesia",
-        "time": 1787310183763,
-        "updated": 1787311973040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmf5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmf5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tmf5",
-        "ids": ",us6000tmf5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 3.273,
-        "rms": 0.99,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 44 km N of Ruteng, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5403,
-          -8.213,
-          9.98
-        ]
-      },
-      "id": "us6000tmf5"
     }
   ],
   "bbox": [
