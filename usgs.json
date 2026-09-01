@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788225715000,
+    "generated": 1788228237000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 28
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "292 km WNW of Houma, Tonga",
+        "time": 1788226150774,
+        "updated": 1788227088040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td8u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000td8u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000td8u",
+        "ids": ",us7000td8u,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 4.581,
+        "rms": 1,
+        "gap": 63,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 292 km WNW of Houma, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.994,
+          -20.4066,
+          533.035
+        ]
+      },
+      "id": "us7000td8u"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.49,
         "place": "23 km W of Petrolia, CA",
         "time": 1788224827840,
-        "updated": 1788224922958,
+        "updated": 1788226643019,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428002.geojson",
@@ -30,7 +70,7 @@
         "code": "75428002",
         "ids": ",nc75428002,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 18,
         "dmin": 0.157,
         "rms": 0.21,
@@ -1131,11 +1171,11 @@
     }
   ],
   "bbox": [
-    -176.227,
+    -177.994,
     -56.0847,
     4.9,
     179.8021,
     55.0626,
-    508.306
+    533.035
   ]
 }
