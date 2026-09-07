@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788814851000,
+    "generated": 1788818391000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 37
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.66,
+        "place": "35 km E of Hydesville, CA",
+        "time": 1788817464910,
+        "updated": 1788818176898,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431397",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75431397.geojson",
+        "felt": 3,
+        "cdi": 2.2,
+        "mmi": 2.58,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 207,
+        "net": "nc",
+        "code": "75431397",
+        "ids": ",nc75431397,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": 0.1179,
+        "rms": 0.15,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 35 km E of Hydesville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.680000305176,
+          40.5639991760254,
+          23.6000003814697
+        ]
+      },
+      "id": "nc75431397"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "32 km NW of Willow, Alaska",
         "time": 1788811937050,
-        "updated": 1788812196215,
+        "updated": 1788816221320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rtlwqn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rtlwqn.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "a2026rtlwqn",
         "ids": ",aka2026rtlwqn,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 85,
         "dmin": 0.4,
         "rms": 0.8,
@@ -1408,94 +1448,14 @@
         ]
       },
       "id": "aka2026rrtnhu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "21 km SSE of Pāhala, Hawaii",
-        "time": 1788731704770,
-        "updated": 1788737388040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75030237",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75030237.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "75030237",
-        "ids": ",us7000terw,hv75030237,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.1428,
-        "rms": 0.170000002,
-        "gap": 215,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 21 km SSE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.370834350586,
-          19.0410003662109,
-          31.0699996948242
-        ]
-      },
-      "id": "hv75030237"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "235 km E of Levuka, Fiji",
-        "time": 1788728924127,
-        "updated": 1788736910040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tert",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tert.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000tert",
-        "ids": ",us7000tert,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 2.519,
-        "rms": 0.54,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 235 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.4632,
-          -17.9205,
-          608.631
-        ]
-      },
-      "id": "us7000tert"
     }
   ],
   "bbox": [
-    -178.4632,
+    -178.4169,
     -31.2726,
     5,
     179.6916,
     69.752,
-    608.631
+    586.221
   ]
 }
