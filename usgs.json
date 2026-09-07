@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788789630000,
+    "generated": 1788793262000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "98 km SE of Prudhoe Bay, Alaska",
+        "time": 1788791016194,
+        "updated": 1788791236452,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rtagho",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rtagho.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026rtagho",
+        "ids": ",aka2026rtagho,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 126,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 98 km SE of Prudhoe Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.208,
+          69.752,
+          5
+        ]
+      },
+      "id": "aka2026rtagho"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "12 km SSW of Jal, New Mexico",
         "time": 1788786675952,
-        "updated": 1788787846564,
+        "updated": 1788791566040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rqcbab",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026rqcbab.geojson",
@@ -28,8 +68,8 @@
         "sig": 112,
         "net": "tx",
         "code": "2026rqcbab",
-        "ids": ",tx2026rqcbab,",
-        "sources": ",tx,",
+        "ids": ",us7000tevw,tx2026rqcbab,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 27,
         "dmin": 0.1,
@@ -95,12 +135,12 @@
         "mag": 3.18,
         "place": "7 km WNW of Maricao, Puerto Rico",
         "time": 1788768484030,
-        "updated": 1788770764170,
+        "updated": 1788792304834,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531133",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71531133.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "71531133",
         "ids": ",pr71531133,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 12,
         "dmin": 0.04451,
         "rms": 0.22,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000ter6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "109 km SSW of Nikolski, Alaska",
-        "time": 1788706736711,
-        "updated": 1788721085040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ter5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ter5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "7000ter5",
-        "ids": ",aka2026rrfkjq,us7000ter5,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.821,
-        "rms": 0.67,
-        "gap": 228,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 109 km SSW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.3393,
-          52.0016,
-          10
-        ]
-      },
-      "id": "us7000ter5"
     }
   ],
   "bbox": [
@@ -1455,7 +1455,7 @@
     -31.2726,
     2.6199998855591,
     179.6916,
-    68.639,
+    69.752,
     608.631
   ]
 }
