@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789246807000,
+    "generated": 1789250403000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.41,
+        "place": "141 km NNE of Vieques, Puerto Rico",
+        "time": 1789246495100,
+        "updated": 1789247978370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71531543.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "pr",
+        "code": "71531543",
+        "ids": ",pr71531543,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.26,
+        "rms": 0.23,
+        "gap": 273,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 141 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2731666666667,
+          19.5828333333333,
+          72.04
+        ]
+      },
+      "id": "pr71531543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "101 km S of Yudomari, Japan",
         "time": 1789245178910,
-        "updated": 1789246422040,
+        "updated": 1789248296469,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th1q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000th1q.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000th1q",
         "ids": ",us7000th1q,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 95,
         "dmin": 2.179,
         "rms": 0.72,
@@ -135,17 +175,17 @@
         "mag": 4.8,
         "place": "17 km WSW of Lixoúri, Greece",
         "time": 1789235505718,
-        "updated": 1789245782617,
+        "updated": 1789248538797,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th16",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000th16.geojson",
-        "felt": 13,
+        "felt": 15,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 359,
+        "sig": 360,
         "net": "us",
         "code": "7000th16",
         "ids": ",us7000th16,",
@@ -1015,17 +1055,17 @@
         "mag": 3.36,
         "place": "9 km SW of Brentwood, CA",
         "time": 1789197955470,
-        "updated": 1789246704022,
+        "updated": 1789250098425,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75434122",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75434122.geojson",
-        "felt": 242,
+        "felt": 244,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 256,
+        "sig": 257,
         "net": "nc",
         "code": "75434122",
         "ids": ",nc75434122,us7000tgxq,",
@@ -2128,46 +2168,6 @@
         ]
       },
       "id": "us7000tguq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.5,
-        "place": "126 km NNE of Teluknaga, Indonesia",
-        "time": 1789161835907,
-        "updated": 1789218317606,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tgrk.geojson",
-        "felt": 21,
-        "cdi": 3.4,
-        "mmi": 3.013,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 657,
-        "net": "us",
-        "code": "7000tgrk",
-        "ids": ",us7000tgrk,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 116,
-        "dmin": 5.557,
-        "rms": 0.73,
-        "gap": 23,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.5 - 126 km NNE of Teluknaga, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.8742,
-          -4.9832,
-          372
-        ]
-      },
-      "id": "us7000tgrk"
     }
   ],
   "bbox": [
@@ -2176,6 +2176,6 @@
     0,
     177.174,
     62.834,
-    372
+    188.104
   ]
 }
