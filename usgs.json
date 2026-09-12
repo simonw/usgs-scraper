@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789167607000,
+    "generated": 1789171349000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 32
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "5 km N of Stroud, Oklahoma",
+        "time": 1789169257039,
+        "updated": 1789170516595,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026rwas",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026rwas.geojson",
+        "felt": 3,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "ok",
+        "code": "2026rwas",
+        "ids": ",ok2026rwas,us7000tgv3,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 92,
+        "dmin": 0,
+        "rms": 0.14,
+        "gap": 30,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 5 km N of Stroud, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6525,
+          35.79683333,
+          7.6
+        ]
+      },
+      "id": "ok2026rwas"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6.6,
         "place": "115 km NNE of Teluknaga, Indonesia",
         "time": 1789161835001,
-        "updated": 1789164938481,
+        "updated": 1789170479826,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tgrk.geojson",
-        "felt": 6,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": 3.563,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 672,
+        "sig": 674,
         "net": "us",
         "code": "7000tgrk",
         "ids": ",us7000tgrk,",
@@ -1208,92 +1248,12 @@
         ]
       },
       "id": "us7000tgi9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "1 km N of The Geysers, CA",
-        "time": 1789081422410,
-        "updated": 1789090641703,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75433382",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75433382.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "75433382",
-        "ids": ",nc75433382,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
-        "dmin": 0.01162,
-        "rms": 0.07,
-        "gap": 50,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km N of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.759002685547,
-          38.7890014648438,
-          0.5
-        ]
-      },
-      "id": "nc75433382"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "8 km SE of Port Clarence, Alaska",
-        "time": 1789081390729,
-        "updated": 1789140939048,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rzfqpv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rzfqpv.geojson",
-        "felt": 7,
-        "cdi": 4.1,
-        "mmi": 4.005,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 249,
-        "net": "ak",
-        "code": "a2026rzfqpv",
-        "ids": ",aka2026rzfqpv,us7000tghi,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 48,
-        "dmin": 0.9,
-        "rms": 1,
-        "gap": 205,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 8 km SE of Port Clarence, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -166.721,
-          65.211,
-          5
-        ]
-      },
-      "id": "aka2026rzfqpv"
     }
   ],
   "bbox": [
     -179.123,
     -19.6983,
-    0.5,
+    7.6,
     169.3953,
     79.5748,
     358.597
