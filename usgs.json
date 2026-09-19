@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789808422000,
+    "generated": 1789812004000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 53
+    "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "268 km NNW of Kuril’sk, Russia",
+        "time": 1789810444394,
+        "updated": 1789811201040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiim",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tiim.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000tiim",
+        "ids": ",us7000tiim,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 2.497,
+        "rms": 0.74,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 268 km NNW of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3637,
+          47.4016,
+          394.117
+        ]
+      },
+      "id": "us7000tiim"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2048,94 +2088,14 @@
         ]
       },
       "id": "aka2026snavuk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "4 km S of Pāhala, Hawaii",
-        "time": 1789723571300,
-        "updated": 1789765174078,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75039307",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75039307.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "75039307",
-        "ids": ",hv75039307,us7000ti8l,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.02293,
-        "rms": 0.19,
-        "gap": 110,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.484166666667,
-          19.165,
-          10.45
-        ]
-      },
-      "id": "hv75039307"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "112 km SE of Atka, Alaska",
-        "time": 1789723424994,
-        "updated": 1789759817844,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026smympm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026smympm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.337,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "a2026smympm",
-        "ids": ",aka2026smympm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 21,
-        "dmin": 1,
-        "rms": 0.8,
-        "gap": 299,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 112 km SE of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.278,
-          51.364,
-          0
-        ]
-      },
-      "id": "aka2026smympm"
     }
   ],
   "bbox": [
     -177.2286,
     -33.3109,
-    0,
+    0.07,
     167.0585,
     69.531,
-    191.321
+    394.117
   ]
 }
