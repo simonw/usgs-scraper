@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789858802000,
+    "generated": 1789862582000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "15 km SSW of Smiley, Texas",
+        "time": 1789858574262,
+        "updated": 1789861031040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026smwdrk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026smwdrk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2026smwdrk",
+        "ids": ",us7000tim8,tx2026smwdrk,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15 km SSW of Smiley, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.682,
+          29.137,
+          9.6561
+        ]
+      },
+      "id": "tx2026smwdrk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "4 km SW of Guánica, Puerto Rico",
+        "time": 1789858004600,
+        "updated": 1789860421990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533218",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71533218.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "pr",
+        "code": "71533218",
+        "ids": ",pr71533218,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.04294,
+        "rms": 0.08,
+        "gap": 189,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.94,
+          17.9411666666667,
+          9.49
+        ]
+      },
+      "id": "pr71533218"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 2.6,
         "place": "41 km W of Ninilchik, Alaska",
         "time": 1789854943272,
-        "updated": 1789855284657,
+        "updated": 1789861083952,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sptokh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sptokh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +150,7 @@
         "code": "a2026sptokh",
         "ids": ",aka2026sptokh,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 108,
         "dmin": 0.1,
         "rms": 0.7,
@@ -1568,50 +1648,10 @@
         ]
       },
       "id": "pr71532843"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Kermadec Islands region",
-        "time": 1789773508306,
-        "updated": 1789787710116,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tigd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tigd.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000tigd",
-        "ids": ",us7000tigd,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 43,
-        "dmin": 1.513,
-        "rms": 1.12,
-        "gap": 76,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.2286,
-          -27.8581,
-          94.054
-        ]
-      },
-      "id": "us7000tigd"
     }
   ],
   "bbox": [
-    -177.2286,
+    -170.792,
     -55.6255,
     2.6,
     146.3637,
