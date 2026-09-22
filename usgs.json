@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790096417000,
+    "generated": 1790100061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
@@ -95,7 +95,7 @@
         "mag": 3.5,
         "place": "41 km NE of Ambler, Alaska",
         "time": 1790086846022,
-        "updated": 1790096045040,
+        "updated": 1790096775040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026susmgb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026susmgb.geojson",
@@ -110,7 +110,7 @@
         "code": "a2026susmgb",
         "ids": ",us7000tj5r,aka2026susmgb,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
         "nst": 76,
         "dmin": 1.3,
         "rms": 1.3,
@@ -648,6 +648,46 @@
         ]
       },
       "id": "us7000tj3v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.87,
+        "place": "18 km WNW of Klamath Falls, Oregon",
+        "time": 1790059345220,
+        "updated": 1790097988616,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714107561",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714107561.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "uw",
+        "code": "714107561",
+        "ids": ",uw714107561,",
+        "sources": ",uw,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1822,
+        "rms": 0.14,
+        "gap": 124,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 18 km WNW of Klamath Falls, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000666666667,
+          42.2588333333333,
+          13.95
+        ]
+      },
+      "id": "uw714107561"
     },
     {
       "type": "Feature",
@@ -1688,86 +1728,6 @@
         ]
       },
       "id": "aka2026steqzi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "104 km NNE of San Pedro de Atacama, Chile",
-        "time": 1790012323165,
-        "updated": 1790013578040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tizh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tizh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000tizh",
-        "ids": ",us7000tizh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.964,
-        "rms": 0.64,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 104 km NNE of San Pedro de Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6971,
-          -22.0932,
-          198.661
-        ]
-      },
-      "id": "us7000tizh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Fiji region",
-        "time": 1790011366521,
-        "updated": 1790012798040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tizg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tizg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000tizg",
-        "ids": ",us7000tizg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.807,
-        "rms": 0.39,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.4361,
-          -18.7759,
-          409.341
-        ]
-      },
-      "id": "us7000tizg"
     }
   ],
   "bbox": [
