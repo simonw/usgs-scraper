@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790287212000,
+    "generated": 1790290862000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "6 km ENE of Superior, Wyoming",
+        "time": 1790285657230,
+        "updated": 1790287477030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80157946",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80157946.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 142,
+        "net": "uu",
+        "code": "80157946",
+        "ids": ",uu80157946,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.7075,
+        "rms": 0.27,
+        "gap": 231,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 6 km ENE of Superior, Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.908666666667,
+          41.7891666666667,
+          13.05
+        ]
+      },
+      "id": "uu80157946"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1335,12 +1375,12 @@
         "mag": 2.62,
         "place": "17 km WSW of Johannesburg, CA",
         "time": 1790219502650,
-        "updated": 1790275073360,
+        "updated": 1790287555217,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338223.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1350,7 +1390,7 @@
         "code": "41338223",
         "ids": ",ci41338223,us6000tx8n,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 53,
         "dmin": 0.05664,
         "rms": 0.15,
