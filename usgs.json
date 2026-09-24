@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790280054000,
+    "generated": 1790283673000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "30 km SW of Garden City, Texas",
+        "time": 1790282002188,
+        "updated": 1790282534040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txgd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000txgd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "6000txgd",
+        "ids": ",us6000txgd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.545,
+        "rms": 0.41,
+        "gap": 46,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.2 - 30 km SW of Garden City, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7308,
+          31.689,
+          6.372
+        ]
+      },
+      "id": "us6000txgd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "60 km SW of Cantwell, Alaska",
+        "time": 1790281107490,
+        "updated": 1790281309381,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sywlqq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sywlqq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026sywlqq",
+        "ids": ",aka2026sywlqq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 92,
+        "dmin": 0.6,
+        "rms": 0.8,
+        "gap": 30,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 60 km SW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.943,
+          63.084,
+          85.5
+        ]
+      },
+      "id": "aka2026sywlqq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,22 +455,22 @@
         "mag": 2.68,
         "place": "1 km S of Orange Cove, CA",
         "time": 1790264428080,
-        "updated": 1790266041822,
+        "updated": 1790280968265,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75440902",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75440902.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 111,
         "net": "nc",
         "code": "75440902",
         "ids": ",nc75440902,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.2425,
         "rms": 0.18,
@@ -1408,46 +1488,6 @@
         ]
       },
       "id": "us6000tx6g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.96,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1790196276440,
-        "updated": 1790197273310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41337999",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41337999.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 135,
-        "net": "ci",
-        "code": "41337999",
-        "ids": ",ci41337999,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.05365,
-        "rms": 0.15,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 17 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8055,
-          35.3098333333333,
-          7.23
-        ]
-      },
-      "id": "ci41337999"
     }
   ],
   "bbox": [
@@ -1455,7 +1495,7 @@
     -33.8294,
     0.5,
     152.2767,
-    62.767,
+    63.084,
     338.174
   ]
 }
