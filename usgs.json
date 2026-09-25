@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790348413000,
+    "generated": 1790352073000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "62 km SW of San Antonio, Chile",
+        "time": 1790350149560,
+        "updated": 1790351561736,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txme",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000txme.geojson",
+        "felt": 3,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 417,
+        "net": "us",
+        "code": "6000txme",
+        "ids": ",us6000txme,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 86,
+        "dmin": 0.514,
+        "rms": 0.97,
+        "gap": 52,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 62 km SW of San Antonio, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1079,
+          -33.9661,
+          29.072
+        ]
+      },
+      "id": "us6000txme"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,12 +255,12 @@
         "mag": 3.16,
         "place": "16 km SW of Volcano, Hawaii",
         "time": 1790329590540,
-        "updated": 1790344239040,
+        "updated": 1790351818744,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75043607",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75043607.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -228,9 +268,9 @@
         "sig": 154,
         "net": "hv",
         "code": "75043607",
-        "ids": ",us6000txjs,hv75043607,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv75043607,us6000txjs,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 57,
         "dmin": 0.03098,
         "rms": 0.159999996,
@@ -412,10 +452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
+        "mag": 3.13,
         "place": "3 km NW of Little America, Wyoming",
-        "time": 1790314902720,
-        "updated": 1790315482790,
+        "time": 1790314902360,
+        "updated": 1790348650940,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80157966",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80157966.geojson",
@@ -425,16 +465,16 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 151,
         "net": "uu",
         "code": "80157966",
         "ids": ",uu80157966,",
         "sources": ",uu,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.1167,
-        "rms": 0.34,
-        "gap": 127,
+        "nst": 19,
+        "dmin": 0.1149,
+        "rms": 0.18,
+        "gap": 112,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.1 - 3 km NW of Little America, Wyoming"
@@ -442,9 +482,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.881666666667,
-          41.5663333333333,
-          -3.37
+          -109.8855,
+          41.5641666666667,
+          -2.54
         ]
       },
       "id": "uu80157966"
@@ -1488,52 +1528,12 @@
         ]
       },
       "id": "us6000txcw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "1 km S of Orange Cove, CA",
-        "time": 1790264428080,
-        "updated": 1790280968265,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75440902",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75440902.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "nc",
-        "code": "75440902",
-        "ids": ",nc75440902,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.2425,
-        "rms": 0.18,
-        "gap": 159,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km S of Orange Cove, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.314331054688,
-          36.6178321838379,
-          19.4400005340576
-        ]
-      },
-      "id": "nc75440902"
     }
   ],
   "bbox": [
     -177.6601,
     -59.849,
-    -3.37,
+    -2.54,
     174.0792,
     63.084,
     212.621
