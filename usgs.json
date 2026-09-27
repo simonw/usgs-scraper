@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790474747000,
+    "generated": 1790478073000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "110 km NNE of Arctic Village, Alaska",
+        "time": 1790476515964,
+        "updated": 1790476728652,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tdbbzi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tdbbzi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "a2026tdbbzi",
+        "ids": ",aka2026tdbbzi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.7,
+        "rms": 0.8,
+        "gap": 124,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 110 km NNE of Arctic Village, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.6,
+          69.052,
+          1.5
+        ]
+      },
+      "id": "aka2026tdbbzi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "90 km ENE of Tadine, New Caledonia",
+        "time": 1790475730562,
+        "updated": 1790476734040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txw5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000txw5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000txw5",
+        "ids": ",us6000txw5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 1.765,
+        "rms": 0.7,
+        "gap": 131,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 90 km ENE of Tadine, New Caledonia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.7073,
+          -21.2857,
+          10
+        ]
+      },
+      "id": "us6000txw5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 2.62,
         "place": "3 km SW of Pāhala, Hawaii",
         "time": 1790469282910,
-        "updated": 1790470025452,
+        "updated": 1790477012040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75044042",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75044042.geojson",
@@ -108,8 +188,8 @@
         "sig": 106,
         "net": "hv",
         "code": "75044042",
-        "ids": ",hv75044042,",
-        "sources": ",hv,",
+        "ids": ",hv75044042,us6000txvm,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 41,
         "dmin": 0.04221,
@@ -1768,46 +1848,6 @@
         ]
       },
       "id": "nc75442207"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Iceland region",
-        "time": 1790391175988,
-        "updated": 1790391992040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txr0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000txr0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000txr0",
-        "ids": ",us6000txr0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 2.392,
-        "rms": 0.97,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Iceland region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.9554,
-          68.8565,
-          10
-        ]
-      },
-      "id": "us6000txr0"
     }
   ],
   "bbox": [
@@ -1815,7 +1855,7 @@
     -48.5563,
     0.51999998092651,
     179.7488,
-    68.8565,
+    69.052,
     235.082
   ]
 }
