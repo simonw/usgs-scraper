@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791716400000,
+    "generated": 1791720060000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "82 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1791717507916,
+        "updated": 1791718601040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1k3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1k3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000u1k3",
+        "ids": ",us6000u1k3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 92,
+        "dmin": 1.305,
+        "rms": 0.55,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 82 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.8624,
+          53.0788,
+          68.683
+        ]
+      },
+      "id": "us6000u1k3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "7 km E of Pearsall, Texas",
+        "time": 1791716255893,
+        "updated": 1791719257729,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1jz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1jz.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000u1jz",
+        "ids": ",us6000u1jz,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.077,
+        "rms": 0.79,
+        "gap": 108,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km E of Pearsall, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0224,
+          28.8909,
+          7.724
+        ]
+      },
+      "id": "us6000u1jz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +215,7 @@
         "mag": 3.4,
         "place": "61 km ESE of King Salmon, Alaska",
         "time": 1791707226559,
-        "updated": 1791707519822,
+        "updated": 1791718758040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026udjcmd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026udjcmd.geojson",
@@ -148,8 +228,8 @@
         "sig": 178,
         "net": "ak",
         "code": "a2026udjcmd",
-        "ids": ",aka2026udjcmd,",
-        "sources": ",ak,",
+        "ids": ",us6000u1jf,aka2026udjcmd,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 198,
         "dmin": 0,
@@ -295,11 +375,11 @@
         "mag": 3.12133880345907,
         "place": "4 km E of San Jacinto, CA",
         "time": 1791705843090,
-        "updated": 1791711503156,
+        "updated": 1791718234040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41346375.geojson",
-        "felt": 48,
+        "felt": 49,
         "cdi": 3.1,
         "mmi": 3.207,
         "alert": null,
@@ -308,8 +388,8 @@
         "sig": 165,
         "net": "ci",
         "code": "41346375",
-        "ids": ",ci41346375,",
-        "sources": ",ci,",
+        "ids": ",ci41346375,us6000u1ja,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 98,
         "dmin": 0.04919,
@@ -335,7 +415,7 @@
         "mag": 3.72,
         "place": "164 km NE of Cruz Bay, U.S. Virgin Islands",
         "time": 1791704146690,
-        "updated": 1791712551695,
+        "updated": 1791717907040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026284000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026284000.geojson",
@@ -348,8 +428,8 @@
         "sig": 213,
         "net": "pr",
         "code": "2026284000",
-        "ids": ",pr2026284000,",
-        "sources": ",pr,",
+        "ids": ",us6000u1j4,pr2026284000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 1.1696,
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "us6000u1ej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "88 km S of Wonosari, Indonesia",
-        "time": 1791633199266,
-        "updated": 1791637921040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ed",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ed.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000u1ed",
-        "ids": ",us6000u1ed,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 5.237,
-        "rms": 0.55,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 88 km S of Wonosari, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          110.7179,
-          -8.757,
-          68.816
-        ]
-      },
-      "id": "us6000u1ed"
     }
   ],
   "bbox": [
