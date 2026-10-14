@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791986404000,
+    "generated": 1791990076000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "67 km SSW of Vallenar, Chile",
+        "time": 1791988924428,
+        "updated": 1791990036040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2a6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u2a6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000u2a6",
+        "ids": ",us6000u2a6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.28,
+        "rms": 0.71,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 67 km SSW of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9776,
+          -29.151,
+          48.371
+        ]
+      },
+      "id": "us6000u2a6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.99,
         "place": "23 km NE of Hydesville, CA",
         "time": 1791986172400,
-        "updated": 1791986349430,
+        "updated": 1791989382040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449266",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75449266.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 138,
         "net": "nc",
         "code": "75449266",
-        "ids": ",nc75449266,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc75449266,us6000u2a4,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": null,
         "rms": 0.2,
@@ -48,6 +88,86 @@
         ]
       },
       "id": "nc75449266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "4 km SSW of Thomasville, Missouri",
+        "time": 1791984672510,
+        "updated": 1791989530921,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60628596",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60628596.geojson",
+        "felt": 6,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "nm",
+        "code": "60628596",
+        "ids": ",nm60628596,us6000u2a1,",
+        "sources": ",nm,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.6931,
+        "rms": 0.28,
+        "gap": 48,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSW of Thomasville, Missouri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.557,
+          36.759,
+          1.49
+        ]
+      },
+      "id": "nm60628596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "45 km SSE of Ōfunato, Japan",
+        "time": 1791983947599,
+        "updated": 1791989058040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2a0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u2a0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000u2a0",
+        "ids": ",us6000u2a0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 2.195,
+        "rms": 0.49,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 45 km SSE of Ōfunato, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9302,
+          38.6954,
+          56.594
+        ]
+      },
+      "id": "us6000u2a0"
     },
     {
       "type": "Feature",
@@ -335,17 +455,17 @@
         "mag": 2.75310623645782,
         "place": "6 km WSW of Wilderness Rim, Washington",
         "time": 1791968404330,
-        "updated": 1791985747820,
+        "updated": 1791990019725,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714119552",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714119552.geojson",
-        "felt": 54,
+        "felt": 58,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 135,
+        "sig": 136,
         "net": "uw",
         "code": "714119552",
         "ids": ",uw714119552,",
@@ -812,13 +932,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "51 km S of Whites City, New Mexico",
-        "time": 1791935683556,
-        "updated": 1791948480040,
+        "mag": 2.46,
+        "place": "13 km NNW of Borrego Springs, CA",
+        "time": 1791935995930,
+        "updated": 1791989359730,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u268",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u268.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347255",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41347255.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "ci",
+        "code": "41347255",
+        "ids": ",ci41347255,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 108,
+        "dmin": 0.05337,
+        "rms": 0.2,
+        "gap": 14,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km NNW of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4115,
+          33.3651666666667,
+          11.31
+        ]
+      },
+      "id": "ci41347255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "50 km S of Whites City, New Mexico",
+        "time": 1791935683577,
+        "updated": 1791989697553,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ueznej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ueznej.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -826,28 +986,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
-        "net": "us",
-        "code": "6000u268",
-        "ids": ",us6000u268,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2026ueznej",
+        "ids": ",us6000u268,tx2026ueznej,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.181,
-        "rms": 0.22,
-        "gap": 69,
-        "magType": "mb_lg",
+        "nst": 38,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 62,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 51 km S of Whites City, New Mexico"
+        "title": "M 2.6 - 50 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.2952,
-          31.716,
-          8.98
+          -104.3,
+          31.722,
+          6.6638
         ]
       },
-      "id": "us6000u268"
+      "id": "tx2026ueznej"
     },
     {
       "type": "Feature",
@@ -935,17 +1095,17 @@
         "mag": 3.6,
         "place": "23 km WSW of Carlsbad, New Mexico",
         "time": 1791931140232,
-        "updated": 1791977504706,
+        "updated": 1791988389045,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u25y.geojson",
-        "felt": 31,
+        "felt": 32,
         "cdi": 3.2,
         "mmi": 3.822,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 209,
+        "sig": 210,
         "net": "us",
         "code": "6000u25y",
         "ids": ",us6000u25y,",
@@ -1288,86 +1448,6 @@
         ]
       },
       "id": "us6000u21y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "122 km S of Kokopo, Papua New Guinea",
-        "time": 1791902170660,
-        "updated": 1791903253040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u21s.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000u21s",
-        "ids": ",us6000u21s,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 1.246,
-        "rms": 0.7,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 122 km S of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.1255,
-          -5.4448,
-          18.521
-        ]
-      },
-      "id": "us6000u21s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "15 km NNE of Ridgeway, Alaska",
-        "time": 1791901453863,
-        "updated": 1791916553670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uhnbig",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uhnbig.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026uhnbig",
-        "ids": ",aka2026uhnbig,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 90,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 15 km NNE of Ridgeway, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.985,
-          60.663,
-          55.5
-        ]
-      },
-      "id": "aka2026uhnbig"
     }
   ],
   "bbox": [
