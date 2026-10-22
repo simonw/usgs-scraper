@@ -1,50 +1,130 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792681211000,
+    "generated": 1792684850000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "86 km SSE of Igiugig, Alaska",
+        "time": 1792682397039,
+        "updated": 1792682506850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uyfanq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uyfanq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026uyfanq",
+        "ids": ",aka2026uyfanq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 86 km SSE of Igiugig, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.169,
+          58.648,
+          136.4
+        ]
+      },
+      "id": "aka2026uyfanq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "201 km ENE of Nagqu, China",
+        "time": 1792681924462,
+        "updated": 1792683656040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u44n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000u44n",
+        "ids": ",us6000u44n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 70,
+        "dmin": 8.863,
+        "rms": 0.71,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 201 km ENE of Nagqu, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.8669,
+          32.4401,
+          10
+        ]
+      },
+      "id": "us6000u44n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 7,
-        "place": "183 km ENE of Nagqu, China",
-        "time": 1792679619014,
-        "updated": 1792681129840,
+        "place": "191 km ENE of Nagqu, China",
+        "time": 1792679620353,
+        "updated": 1792682939040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u43g.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 8.058,
-        "alert": null,
+        "alert": "orange",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 754,
+        "sig": 1000,
         "net": "us",
         "code": "6000u43g",
         "ids": ",us6000u43g,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": 117,
-        "dmin": 9.026,
-        "rms": 0.94,
-        "gap": 35,
+        "types": ",general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 131,
+        "dmin": 8.956,
+        "rms": 1.01,
+        "gap": 21,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 7.0 - 183 km ENE of Nagqu, China"
+        "title": "M 7.0 - 191 km ENE of Nagqu, China"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          93.7138,
-          32.3357,
-          10
+          93.7797,
+          32.3805,
+          18
         ]
       },
       "id": "us6000u43g"
@@ -55,22 +135,22 @@
         "mag": 3,
         "place": "3 km W of Columbia City, Oregon",
         "time": 1792679119320,
-        "updated": 1792680969960,
+        "updated": 1792683136558,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714124012",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714124012.geojson",
-        "felt": 43,
-        "cdi": 3.1,
-        "mmi": null,
+        "felt": 51,
+        "cdi": 3,
+        "mmi": 2.462,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 152,
+        "sig": 154,
         "net": "uw",
         "code": "714124012",
         "ids": ",uw714124012,",
         "sources": ",uw,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 51,
         "dmin": 0.0275,
         "rms": 0.11,
@@ -1448,126 +1528,6 @@
         ]
       },
       "id": "us6000u3w6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.13,
-        "place": "39 km SSW of Likely, CA",
-        "time": 1792598124610,
-        "updated": 1792602452040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452891",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452891.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 152,
-        "net": "nc",
-        "code": "75452891",
-        "ids": ",nc75452891,nn00926046,us6000u3uq,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.16,
-        "rms": 0.19,
-        "gap": 94,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 39 km SSW of Likely, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.606163024902,
-          40.8834991455078,
-          6.23000001907349
-        ]
-      },
-      "id": "nc75452891"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "208 km WNW of Port-Olry, Vanuatu",
-        "time": 1792596153566,
-        "updated": 1792602042040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3uk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3uk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000u3uk",
-        "ids": ",us6000u3uk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 6.466,
-        "rms": 0.96,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 208 km WNW of Port-Olry, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          165.3793,
-          -14.1338,
-          10
-        ]
-      },
-      "id": "us6000u3uk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "19 km S of Makurazaki, Japan",
-        "time": 1792595587067,
-        "updated": 1792601647040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3un",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3un.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000u3un",
-        "ids": ",us6000u3un,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.435,
-        "rms": 0.87,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 19 km S of Makurazaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.3141,
-          31.0896,
-          168.596
-        ]
-      },
-      "id": "us6000u3un"
     }
   ],
   "bbox": [
