@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792699260000,
+    "generated": 1792702808000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 48
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "153 km S of Kokopo, Papua New Guinea",
+        "time": 1792699504207,
+        "updated": 1792701502040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u473",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u473.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000u473",
+        "ids": ",us6000u473,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 1.53,
+        "rms": 1.11,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 153 km S of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2646,
+          -5.728,
+          10
+        ]
+      },
+      "id": "us6000u473"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,46 +88,6 @@
         ]
       },
       "id": "hv75062386"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "26 km E of Honaunau-Napoopoo, Hawaii",
-        "time": 1792697522270,
-        "updated": 1792698134914,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75062381",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75062381.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "hv",
-        "code": "75062381",
-        "ids": ",hv75062381,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.0276,
-        "rms": 0.319999993,
-        "gap": 100,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 26 km E of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.615493774414,
-          19.42799949646,
-          -0.0299999993294477
-        ]
-      },
-      "id": "hv75062381"
     },
     {
       "type": "Feature",
@@ -735,17 +735,17 @@
         "mag": 3.02,
         "place": "3 km W of Columbia City, Oregon",
         "time": 1792679119290,
-        "updated": 1792697515899,
+        "updated": 1792701876964,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714124012",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714124012.geojson",
-        "felt": 84,
-        "cdi": 2.8,
+        "felt": 90,
+        "cdi": 3.1,
         "mmi": 2.462,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 164,
+        "sig": 168,
         "net": "uw",
         "code": "714124012",
         "ids": ",uw714124012,us6000u43f,",
@@ -1732,6 +1732,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.1,
+        "place": "129 km E of McCarthy, Alaska",
+        "time": 1792617776033,
+        "updated": 1792702405040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3yf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3yf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "6000u3yf",
+        "ids": ",us6000u3yf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.7,
+        "rms": 0.6,
+        "gap": 87,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 129 km E of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.4957,
+          61.4767,
+          4.291
+        ]
+      },
+      "id": "us6000u3yf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
         "place": "17 km SW of Pozo Almonte, Chile",
         "time": 1792617350450,
@@ -1768,166 +1808,6 @@
         ]
       },
       "id": "us6000u3ye"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "68 km NNW of Khorixas, Namibia",
-        "time": 1792614890454,
-        "updated": 1792643452087,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3y1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3y1.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "6000u3y1",
-        "ids": ",us6000u3y1,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 80,
-        "dmin": 2.755,
-        "rms": 0.6,
-        "gap": 28,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 68 km NNW of Khorixas, Namibia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.7284,
-          -19.7855,
-          10
-        ]
-      },
-      "id": "us6000u3y1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "70 km N of Petersville, Alaska",
-        "time": 1792614620350,
-        "updated": 1792614853247,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uwtlhl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uwtlhl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026uwtlhl",
-        "ids": ",aka2026uwtlhl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 77,
-        "dmin": 0.6,
-        "rms": 0.6,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 70 km N of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.606,
-          63.129,
-          115.7
-        ]
-      },
-      "id": "aka2026uwtlhl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "6 km SSE of Akhiok, Alaska",
-        "time": 1792614573943,
-        "updated": 1792675735040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uwtkpf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uwtkpf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026uwtkpf",
-        "ids": ",us6000u3zx,aka2026uwtkpf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 132,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 6 km SSE of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.118,
-          56.898,
-          65.2
-        ]
-      },
-      "id": "aka2026uwtkpf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Banda Sea",
-        "time": 1792614353355,
-        "updated": 1792676905040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3xv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3xv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000u3xv",
-        "ids": ",us6000u3xv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 6.247,
-        "rms": 0.71,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.6818,
-          -6.7238,
-          143.278
-        ]
-      },
-      "id": "us6000u3xv"
     }
   ],
   "bbox": [
