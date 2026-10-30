@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793379579000,
+    "generated": 1793383222000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "44 km W of Anchor Point, Alaska",
+        "time": 1793382284994,
+        "updated": 1793382452814,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vnecvk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vnecvk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026vnecvk",
+        "ids": ",aka2026vnecvk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 98,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 44 km W of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.607,
+          59.719,
+          91.7
+        ]
+      },
+      "id": "aka2026vnecvk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "284 km E of Levuka, Fiji",
+        "time": 1793378929917,
+        "updated": 1793381170040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu93",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tu93.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000tu93",
+        "ids": ",us7000tu93,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 2.92,
+        "rms": 0.9,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 284 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0028,
+          -17.9769,
+          615.692
+        ]
+      },
+      "id": "us7000tu93"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "32 km SE of Bodie, CA",
         "time": 1793375149640,
-        "updated": 1793377048515,
+        "updated": 1793382071970,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459877",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459877.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "75459877",
         "ids": ",nc75459877,nn00926463,",
         "sources": ",nc,nn,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 36,
         "dmin": 0.2748,
         "rms": 0.1,
@@ -128,6 +208,46 @@
         ]
       },
       "id": "nc75459817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "68 km ENE of Kuji, Japan",
+        "time": 1793366299151,
+        "updated": 1793381811040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu83",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tu83.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tu83",
+        "ids": ",us7000tu83,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.117,
+        "rms": 0.38,
+        "gap": 188,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 68 km ENE of Kuji, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4748,
+          40.4803,
+          42.816
+        ]
+      },
+      "id": "us7000tu83"
     },
     {
       "type": "Feature",
@@ -1168,94 +1288,14 @@
         ]
       },
       "id": "aka2026vlkyrn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "141 km E of Miyako, Japan",
-        "time": 1793295421805,
-        "updated": 1793299428040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu2j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tu2j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000tu2j",
-        "ids": ",us7000tu2j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 2.172,
-        "rms": 0.63,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 141 km E of Miyako, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5623,
-          39.8625,
-          35
-        ]
-      },
-      "id": "us7000tu2j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "off the coast of Oregon",
-        "time": 1793293495509,
-        "updated": 1793295621040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu16",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tu16.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "7000tu16",
-        "ids": ",us7000tu16,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 3.79,
-        "rms": 0.98,
-        "gap": 275,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.098,
-          44.5018,
-          10
-        ]
-      },
-      "id": "us7000tu16"
     }
   ],
   "bbox": [
-    -177.0471,
+    -178.0028,
     -62.4457,
     -3.04,
     179.8051,
     68.688,
-    550.623
+    615.692
   ]
 }
