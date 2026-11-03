@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793717979000,
+    "generated": 1793721597000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 36
+    "count": 32
   },
   "features": [
     {
@@ -175,22 +175,22 @@
         "mag": 5.4,
         "place": "24 km NNW of Rioblanco, Colombia",
         "time": 1793697194972,
-        "updated": 1793704808921,
+        "updated": 1793721225245,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv4i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tv4i.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 117,
+        "cdi": 4.8,
         "mmi": 6.313,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 505,
         "net": "us",
         "code": "7000tv4i",
         "ids": ",us7000tv4i,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 79,
         "dmin": 1.776,
         "rms": 1.29,
@@ -452,10 +452,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.28,
+        "place": "6 km NNE of Delta, B.C., MX",
+        "time": 1793674969290,
+        "updated": 1793719045132,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41571744",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41571744.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.352,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "ci",
+        "code": "41571744",
+        "ids": ",ci41571744,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 41,
+        "dmin": 0.0643,
+        "rms": 0.32,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 6 km NNE of Delta, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.164833333333,
+          32.4043333333333,
+          20.3
+        ]
+      },
+      "id": "ci41571744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
         "place": "3 km NNE of Ejido Nuevo León, Mexico",
         "time": 1793674969289,
-        "updated": 1793678299040,
+        "updated": 1793719006330,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv2m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tv2m.geojson",
@@ -488,46 +528,6 @@
         ]
       },
       "id": "us7000tv2m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.45636011376983,
-        "place": "5 km NE of Delta, B.C., MX",
-        "time": 1793674969180,
-        "updated": 1793678647497,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41571744",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41571744.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.314,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 184,
-        "net": "ci",
-        "code": "41571744",
-        "ids": ",ci41571744,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 37,
-        "dmin": 0.0742,
-        "rms": 0.360000014,
-        "gap": 204,
-        "magType": "mlr",
-        "type": "earthquake",
-        "title": "M 3.5 - 5 km NE of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.161003112793,
-          32.3881683349609,
-          19
-        ]
-      },
-      "id": "ci41571744"
     },
     {
       "type": "Feature",
@@ -1288,166 +1288,6 @@
         ]
       },
       "id": "us7000tuxt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "193 km ENE of Nagqu, China",
-        "time": 1793633712369,
-        "updated": 1793636670040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tuxi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000tuxi",
-        "ids": ",us7000tuxi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 8.936,
-        "rms": 0.62,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 193 km ENE of Nagqu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.831,
-          32.3376,
-          10
-        ]
-      },
-      "id": "us7000tuxi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "50 km WSW of Huarmey, Peru",
-        "time": 1793633293954,
-        "updated": 1793634690959,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tuxg.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 401,
-        "net": "us",
-        "code": "7000tuxg",
-        "ids": ",us7000tuxg,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": 2.497,
-        "rms": 0.88,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 50 km WSW of Huarmey, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -78.5994,
-          -10.1699,
-          67.239
-        ]
-      },
-      "id": "us7000tuxg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "38 km SSW of Makurazaki, Japan",
-        "time": 1793632882444,
-        "updated": 1793647146040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tuxf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000tuxf",
-        "ids": ",us7000tuxf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.606,
-        "rms": 0.8,
-        "gap": 118,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 38 km SSW of Makurazaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.2288,
-          30.9321,
-          147.202
-        ]
-      },
-      "id": "us7000tuxf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1793632490010,
-        "updated": 1793633842204,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461397",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75461397.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 114,
-        "net": "nc",
-        "code": "75461397",
-        "ids": ",nc75461397,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 79,
-        "dmin": 0.001409,
-        "rms": 0.07,
-        "gap": 32,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.810333251953,
-          38.8219985961914,
-          2.78999996185303
-        ]
-      },
-      "id": "nc75461397"
     }
   ],
   "bbox": [
