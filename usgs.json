@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793915979000,
+    "generated": 1793919597000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 27
+    "count": 29
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": 1793918088173,
+        "updated": 1793919228040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twcy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twcy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000twcy",
+        "ids": ",us7000twcy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 6.002,
+        "rms": 0.65,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.9392,
+          -23.5322,
+          523.445
+        ]
+      },
+      "id": "us7000twcy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "78 km N of Chickaloon, Alaska",
+        "time": 1793918038466,
+        "updated": 1793918215825,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vypwpu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vypwpu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "a2026vypwpu",
+        "ids": ",aka2026vypwpu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 97,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 18,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 78 km N of Chickaloon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.233,
+          62.49,
+          48.2
+        ]
+      },
+      "id": "aka2026vypwpu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
         "place": "14 km S of Volcano, Hawaii",
-        "time": 1793915292860,
-        "updated": 1793915504690,
+        "time": 1793915292970,
+        "updated": 1793918260040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068981",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068981.geojson",
@@ -23,28 +103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 95,
         "net": "hv",
         "code": "75068981",
-        "ids": ",hv75068981,",
-        "sources": ",hv,",
+        "ids": ",us7000twck,hv75068981,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.06418,
-        "rms": 0.200000003,
-        "gap": 132,
+        "nst": 47,
+        "dmin": 0.06124,
+        "rms": 0.15,
+        "gap": 129,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 14 km S of Volcano, Hawaii"
+        "title": "M 2.5 - 14 km S of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.221328735352,
-          19.3094997406006,
-          0.370000004768372
+          -155.219333333333,
+          19.3123333333333,
+          0.73
         ]
       },
       "id": "hv75068981"
@@ -55,12 +135,12 @@
         "mag": 2.5,
         "place": "31 km SE of Skwentna, Alaska",
         "time": 1793911833376,
-        "updated": 1793912065602,
+        "updated": 1793917425221,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vymljb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vymljb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +150,7 @@
         "code": "a2026vymljb",
         "ids": ",aka2026vymljb,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 75,
         "dmin": 0.5,
         "rms": 0.7,
@@ -735,11 +815,11 @@
         "mag": 4.96,
         "place": "111 km W of Petrolia, CA",
         "time": 1793854562670,
-        "updated": 1793915509421,
+        "updated": 1793919285885,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462637",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75462637.geojson",
-        "felt": 140,
+        "felt": 141,
         "cdi": 3.8,
         "mmi": 2.816,
         "alert": "green",
@@ -848,6 +928,46 @@
         ]
       },
       "id": "aka2026vxflhk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "48 km W of Kailua-Kona, Hawaii",
+        "time": 1793851897840,
+        "updated": 1793918545880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068706",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068706.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "75068706",
+        "ids": ",us7000tw5y,hv75068706,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.4205,
+        "rms": 0.27,
+        "gap": 245,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 48 km W of Kailua-Kona, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.463166666667,
+          19.6473333333333,
+          5.95
+        ]
+      },
+      "id": "hv75068706"
     },
     {
       "type": "Feature",
@@ -1048,54 +1168,14 @@
         ]
       },
       "id": "pr71538513"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "26 km NW of Pāhala, Hawaii",
-        "time": 1793829595690,
-        "updated": 1793840127040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068576",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068576.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "hv",
-        "code": "75068576",
-        "ids": ",hv75068576,us7000tw4f,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.05806,
-        "rms": 0.2,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 26 km NW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.621333333333,
-          19.3953333333333,
-          -2.1
-        ]
-      },
-      "id": "hv75068576"
     }
   ],
   "bbox": [
     -178.7145,
-    -21.1984,
-    -2.1,
-    147.7534,
-    61.813,
+    -23.5322,
+    0.73,
+    179.9392,
+    62.49,
     554.419
   ]
 }
