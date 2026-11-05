@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793901597000,
+    "generated": 1793905179000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 28
+    "count": 27
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 6.1,
         "place": "Fiji region",
         "time": 1793899305897,
-        "updated": 1793900933238,
+        "updated": 1793901714619,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tw8r.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": 0,
         "alert": "green",
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000tw8r",
         "ids": ",us7000tw8r,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 104,
         "dmin": 4.615,
         "rms": 0.96,
@@ -332,20 +332,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.8,
+        "place": "78 km S of Unalaska, Alaska",
+        "time": 1793867520503,
+        "updated": 1793904731979,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vxnuzz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vxnuzz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.651,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "a2026vxnuzz",
+        "ids": ",aka2026vxnuzz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 44,
+        "dmin": 0.7,
+        "rms": 1.1,
+        "gap": 208,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 78 km S of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.475,
+          53.174,
+          7.3
+        ]
+      },
+      "id": "aka2026vxnuzz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.96,
         "place": "111 km W of Petrolia, CA",
         "time": 1793854562670,
-        "updated": 1793900660384,
+        "updated": 1793903803218,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462637",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75462637.geojson",
-        "felt": 134,
+        "felt": 136,
         "cdi": 3.8,
         "mmi": 2.816,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 429,
+        "sig": 430,
         "net": "nc",
         "code": "75462637",
         "ids": ",ew1793854580,nc75462637,us7000tw66,atto0j1g,",
@@ -1048,86 +1088,6 @@
         ]
       },
       "id": "ci41358359"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "21 km N of Searles Valley, CA",
-        "time": 1793818770920,
-        "updated": 1793834081040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358343",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41358343.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "ci",
-        "code": "41358343",
-        "ids": ",ci41358343,us7000tw2z,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.111,
-        "rms": 0.15,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 21 km N of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3925,
-          35.958,
-          2.64
-        ]
-      },
-      "id": "ci41358343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "47 km SSW of Jurm, Afghanistan",
-        "time": 1793818489398,
-        "updated": 1793833199040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw2x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tw2x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000tw2x",
-        "ids": ",us7000tw2x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 2.32,
-        "rms": 0.86,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 47 km SSW of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.7177,
-          36.446,
-          199.264
-        ]
-      },
-      "id": "us7000tw2x"
     }
   ],
   "bbox": [
