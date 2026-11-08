@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794117597000,
+    "generated": 1794121213000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 39
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "90 km NE of Punta Cana, Dominican Republic",
+        "time": 1794119419447,
+        "updated": 1794119949040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twwc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twwc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000twwc",
+        "ids": ",us7000twwc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.85,
+        "rms": 0.57,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 90 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8523,
+          19.2047,
+          30.424
+        ]
+      },
+      "id": "us7000twwc"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "16 km SW of Susitna, Alaska",
         "time": 1794117095372,
-        "updated": 1794117316333,
+        "updated": 1794120707040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wcwnow",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wcwnow.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "a2026wcwnow",
-        "ids": ",aka2026wcwnow,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026wcwnow,us7000tww6,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 128,
         "dmin": 0.4,
         "rms": 0.7,
@@ -53,38 +93,38 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "74 km NNW of Chalkyitsik, Alaska",
-        "time": 1794115059081,
-        "updated": 1794115357541,
+        "place": "73 km NNW of Chalkyitsik, Alaska",
+        "time": 1794115058948,
+        "updated": 1794120467040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wcvkhi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wcvkhi.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.2,
+        "mmi": 4.298,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 222,
         "net": "ak",
         "code": "a2026wcvkhi",
-        "ids": ",aka2026wcvkhi,",
-        "sources": ",ak,",
+        "ids": ",us7000tww1,aka2026wcvkhi,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 106,
+        "nst": 107,
         "dmin": 0.2,
-        "rms": 1.4,
+        "rms": 1.2,
         "gap": 67,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 74 km NNW of Chalkyitsik, Alaska"
+        "title": "M 3.8 - 73 km NNW of Chalkyitsik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -144.258,
-          67.29,
-          6
+          -144.309,
+          67.269,
+          3.5
         ]
       },
       "id": "aka2026wcvkhi"
@@ -252,6 +292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "91 km SSW of Nikolski, Alaska",
+        "time": 1794098072790,
+        "updated": 1794118399951,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wclyuc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wclyuc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026wclyuc",
+        "ids": ",aka2026wclyuc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.7,
+        "rms": 0.8,
+        "gap": 286,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 91 km SSW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.334,
+          52.165,
+          4.7
+        ]
+      },
+      "id": "aka2026wclyuc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "91 km ENE of Hihifo, Tonga",
         "time": 1794094029444,
@@ -372,10 +452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.9,
+        "mag": 5.8,
         "place": "central Mid-Atlantic Ridge",
-        "time": 1794093426073,
-        "updated": 1794100967160,
+        "time": 1794093425477,
+        "updated": 1794118084072,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twun",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twun.geojson",
@@ -385,25 +465,25 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 536,
+        "sig": 518,
         "net": "us",
         "code": "7000twun",
         "ids": ",us7000twun,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 56,
-        "dmin": 15.735,
-        "rms": 1.84,
-        "gap": 79,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 146,
+        "dmin": 13.232,
+        "rms": 0.98,
+        "gap": 86,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.9 - central Mid-Atlantic Ridge"
+        "title": "M 5.8 - central Mid-Atlantic Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -36.9727,
-          7.3411,
+          -36.8221,
+          7.4618,
           10
         ]
       },
@@ -612,6 +692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "203 km SE of Unalaska, Alaska",
+        "time": 1794080708410,
+        "updated": 1794117790729,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wcchuf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wcchuf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "ak",
+        "code": "a2026wcchuf",
+        "ids": ",aka2026wcchuf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 99,
+        "dmin": 1.8,
+        "rms": 0.8,
+        "gap": 216,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 203 km SE of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.782,
+          52.377,
+          27.9
+        ]
+      },
+      "id": "aka2026wcchuf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "1 km NW of Magas Arriba, Puerto Rico",
         "time": 1794079483520,
@@ -815,17 +935,17 @@
         "mag": 5.5,
         "place": "10 km NW of Hamakita, Japan",
         "time": 1794067475125,
-        "updated": 1794106942814,
+        "updated": 1794120581110,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twt0.geojson",
-        "felt": 65,
+        "felt": 67,
         "cdi": 5.6,
-        "mmi": 5.264,
+        "mmi": 6.2,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 502,
+        "sig": 503,
         "net": "us",
         "code": "7000twt0",
         "ids": ",us7000twt0,",
@@ -1528,46 +1648,6 @@
         ]
       },
       "id": "aka2026wbdbcr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "92 km W of Meulaboh, Indonesia",
-        "time": 1794034430455,
-        "updated": 1794036717040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twqr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twqr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000twqr",
-        "ids": ",us7000twqr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 5.417,
-        "rms": 0.79,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 92 km W of Meulaboh, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          95.3048,
-          4.2919,
-          50
-        ]
-      },
-      "id": "us7000twqr"
     }
   ],
   "bbox": [
@@ -1575,7 +1655,7 @@
     -57.9579,
     1.32,
     170.0629,
-    67.29,
+    67.269,
     607.007
   ]
 }
