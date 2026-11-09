@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794214812000,
+    "generated": 1794218376000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -15,14 +15,14 @@
         "mag": 3.5,
         "place": "48 km N of Petersville, Alaska",
         "time": 1794212915531,
-        "updated": 1794213969040,
+        "updated": 1794217570106,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wexuhj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wexuhj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 1.387,
-        "alert": null,
+        "alert": "green",
         "status": "automatic",
         "tsunami": 0,
         "sig": 188,
@@ -30,7 +30,7 @@
         "code": "a2026wexuhj",
         "ids": ",us7000tx2s,aka2026wexuhj,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 200,
         "dmin": 0.4,
         "rms": 1,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000tx2g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "121 km NNW of Hicks Bay, New Zealand",
+        "time": 1794203417844,
+        "updated": 1794215175040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tx1w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000tx1w",
+        "ids": ",us7000tx1w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.066,
+        "rms": 0.74,
+        "gap": 214,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 121 km NNW of Hicks Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.6746,
+          -36.6221,
+          169.371
+        ]
+      },
+      "id": "us7000tx1w"
     },
     {
       "type": "Feature",
@@ -255,11 +295,11 @@
         "mag": 5.7,
         "place": "106 km ENE of Hasaki, Japan",
         "time": 1794199971519,
-        "updated": 1794209565237,
+        "updated": 1794217488515,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tx1f.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 3.8,
         "mmi": 3.784,
         "alert": "green",
@@ -1608,92 +1648,12 @@
         ]
       },
       "id": "us7000twx5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "137 km E of Miyako, Japan",
-        "time": 1794129815700,
-        "updated": 1794131578040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twx1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twx1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000twx1",
-        "ids": ",us7000twx1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 2.096,
-        "rms": 0.62,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 137 km E of Miyako, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5257,
-          39.8647,
-          10
-        ]
-      },
-      "id": "us7000twx1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "22 km W of Volcano, Hawaii",
-        "time": 1794129299660,
-        "updated": 1794129902040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068467",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068467.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "hv",
-        "code": "75068467",
-        "ids": ",us7000twww,hv75068467,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.05874,
-        "rms": 0.230000004,
-        "gap": 39,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 22 km W of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.445663452148,
-          19.4716663360596,
-          -0.829999983310699
-        ]
-      },
-      "id": "hv75068467"
     }
   ],
   "bbox": [
     -176.9956,
-    -27.6901,
-    -0.8299999833107,
+    -36.6221,
+    0.43000000715256,
     179.2119,
     62.926,
     535.494
