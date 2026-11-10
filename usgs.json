@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794333591000,
+    "generated": 1794337201000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 5.2,
         "place": "21 km WNW of Popondetta, Papua New Guinea",
         "time": 1794332209391,
-        "updated": 1794333189040,
+        "updated": 1794334791069,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000txc0.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "7000txc0",
         "ids": ",us7000txc0,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 76,
         "dmin": 1.106,
         "rms": 0.83,
@@ -175,11 +175,11 @@
         "mag": 2.74,
         "place": "1 km N of Lake Davis, CA",
         "time": 1794327380850,
-        "updated": 1794331299995,
+        "updated": 1794334437267,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75464862",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75464862.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -335,17 +335,17 @@
         "mag": 5.6,
         "place": "43 km S of Puerto San José, Guatemala",
         "time": 1794322457647,
-        "updated": 1794330020672,
+        "updated": 1794335515063,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000txb8.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 3.8,
         "mmi": 4.224,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 488,
+        "sig": 489,
         "net": "us",
         "code": "7000txb8",
         "ids": ",us7000txb8,",
@@ -368,6 +368,46 @@
         ]
       },
       "id": "us7000txb8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Java, Indonesia",
+        "time": 1794321096388,
+        "updated": 1794335968040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000txb6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000txb6",
+        "ids": ",us7000txb6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 3.687,
+        "rms": 0.86,
+        "gap": 50,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Java, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9355,
+          -6.9525,
+          101.214
+        ]
+      },
+      "id": "us7000txb6"
     },
     {
       "type": "Feature",
@@ -732,39 +772,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.29,
-        "place": "19 km ESE of Joseph, Oregon",
-        "time": 1794296572710,
-        "updated": 1794333384878,
+        "mag": 4.3,
+        "place": "18 km SE of Joseph, Oregon",
+        "time": 1794296572650,
+        "updated": 1794336962164,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714136981",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714136981.geojson",
-        "felt": 97,
+        "felt": 102,
         "cdi": 4.3,
-        "mmi": 4.157,
+        "mmi": 4.203,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 325,
+        "sig": 328,
         "net": "uw",
         "code": "714136981",
         "ids": ",ew1794296580,uw714136981,us7000tx9t,",
         "sources": ",ew,uw,us,",
         "types": ",dyfi,event-sequence,losspager,oaf,origin,phase-data,shake-alert,shakemap,",
-        "nst": 19,
-        "dmin": 0.2456,
-        "rms": 0.42,
-        "gap": 93,
+        "nst": 44,
+        "dmin": 0.2412,
+        "rms": 0.43,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - 19 km ESE of Joseph, Oregon"
+        "title": "M 4.3 - 18 km SE of Joseph, Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.020333333333,
-          45.2676666666667,
-          2.52
+          -117.038,
+          45.2591666666667,
+          11.67
         ]
       },
       "id": "uw714136981"
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "us7000tx6l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "206 km E of Kirakira, Solomon Islands",
-        "time": 1794250305515,
-        "updated": 1794251468040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tx6j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000tx6j",
-        "ids": ",us7000tx6j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 3.951,
-        "rms": 0.48,
-        "gap": 68,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 206 km E of Kirakira, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          163.8048,
-          -10.5301,
-          10
-        ]
-      },
-      "id": "us7000tx6j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "57 km NNW of Yakutat, Alaska",
-        "time": 1794250088388,
-        "updated": 1794252831040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wfslmi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wfslmi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.246,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026wfslmi",
-        "ids": ",us7000tx6h,aka2026wfslmi,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 62,
-        "dmin": 0.6,
-        "rms": 0.9,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 57 km NNW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.269,
-          59.986,
-          8.8
-        ]
-      },
-      "id": "aka2026wfslmi"
     }
   ],
   "bbox": [
