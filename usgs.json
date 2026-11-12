@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794506375000,
+    "generated": 1794510035000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 34
+    "count": 35
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.95,
         "place": "3 km NNW of Little America, Wyoming",
         "time": 1794503939890,
-        "updated": 1794505367200,
+        "updated": 1794507642193,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164356",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80164356.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "80164356",
         "ids": ",uu80164356,",
         "sources": ",uu,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.1166,
         "rms": 0.2,
@@ -128,6 +128,86 @@
         ]
       },
       "id": "aka2026wlajid"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1794490797544,
+        "updated": 1794509689367,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txst",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000txst.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.238,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000txst",
+        "ids": ",aka2026wkwfwk,us7000txst,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": 0.345,
+        "rms": 1.02,
+        "gap": 193,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.7626,
+          51.3114,
+          35
+        ]
+      },
+      "id": "us7000txst"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Bonin Islands, Japan region",
+        "time": 1794490675661,
+        "updated": 1794506812040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txsu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000txsu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000txsu",
+        "ids": ",us7000txsu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 9.024,
+        "rms": 0.76,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.4195,
+          26.6767,
+          483.86
+        ]
+      },
+      "id": "us7000txsu"
     },
     {
       "type": "Feature",
@@ -1328,53 +1408,13 @@
         ]
       },
       "id": "aka2026wjlejc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "34 km ESE of Vallenar, Chile",
-        "time": 1794422516682,
-        "updated": 1794424808040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000txmi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "7000txmi",
-        "ids": ",us7000txmi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.443,
-        "rms": 1.01,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - 34 km ESE of Vallenar, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.4194,
-          -28.6411,
-          113.235
-        ]
-      },
-      "id": "us7000txmi"
     }
   ],
   "bbox": [
     -179.8474,
     -59.0326,
     -3.42,
-    156.6137,
+    178.7626,
     69.363,
     527.582
   ]
