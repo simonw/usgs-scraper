@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794571200000,
+    "generated": 1794574800000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "12 km ESE of Baculin, Philippines",
+        "time": 1794571977241,
+        "updated": 1794574494040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ty0g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000ty0g",
+        "ids": ",us7000ty0g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 1.145,
+        "rms": 0.74,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 12 km ESE of Baculin, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6864,
+          7.3953,
+          79.163
+        ]
+      },
+      "id": "us7000ty0g"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 3.3,
         "place": "10 km ESE of Nikiski, Alaska",
         "time": 1794563239137,
-        "updated": 1794563495772,
+        "updated": 1794572150115,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wmkmus",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wmkmus.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -150,7 +190,7 @@
         "code": "a2026wmkmus",
         "ids": ",aka2026wmkmus,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 167,
         "dmin": 0.1,
         "rms": 1.1,
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "aka2026wkvgod"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "37 km SE of Naalehu, Hawaii",
-        "time": 1794487807350,
-        "updated": 1794526265670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75069647",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75069647.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "75069647",
-        "ids": ",hv75069647,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.3452,
-        "rms": 0.15,
-        "gap": 262,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 37 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.315333333333,
-          18.8376666666667,
-          28.03
-        ]
-      },
-      "id": "hv75069647"
     }
   ],
   "bbox": [
