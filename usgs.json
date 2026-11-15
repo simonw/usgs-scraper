@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794711604000,
+    "generated": 1794715179000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "291 km WSW of Adak, Alaska",
+        "time": 1794711764124,
+        "updated": 1794713179717,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wppbfb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wppbfb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.69,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "ak",
+        "code": "a2026wppbfb",
+        "ids": ",aka2026wppbfb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 33,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 261,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.3 - 291 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.464,
+          50.912,
+          0
+        ]
+      },
+      "id": "aka2026wppbfb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 3.42,
         "place": "11 km SE of Huntsville, Utah",
         "time": 1794706803330,
-        "updated": 1794711459081,
+        "updated": 1794714864935,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164656",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80164656.geojson",
-        "felt": 292,
+        "felt": 312,
         "cdi": 3.4,
         "mmi": 3.591,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 279,
+        "sig": 286,
         "net": "uu",
         "code": "80164656",
         "ids": ",uu80164656,us7000tybh,",
@@ -1175,11 +1215,11 @@
         "mag": 3.42,
         "place": "14 km WSW of Conconully, Washington",
         "time": 1794645007400,
-        "updated": 1794705065776,
+        "updated": 1794713685789,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714139181",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714139181.geojson",
-        "felt": 90,
+        "felt": 92,
         "cdi": 3.4,
         "mmi": 3.16,
         "alert": null,
@@ -1688,53 +1728,13 @@
         ]
       },
       "id": "aka2026wnvaqb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "54 km NW of San Antonio de los Cobres, Argentina",
-        "time": 1794626306652,
-        "updated": 1794627146040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ty6p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000ty6p",
-        "ids": ",us7000ty6p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 1.631,
-        "rms": 0.84,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 54 km NW of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7642,
-          -23.9436,
-          216.092
-        ]
-      },
-      "id": "us7000ty6p"
     }
   ],
   "bbox": [
     -178.3404,
     -50.3735,
-    0.0008,
-    176.3623,
+    0,
+    179.464,
     63.334,
     506.899
   ]
