@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795028381000,
+    "generated": 1795032044000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 40
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.1,
+        "place": "Pacific-Antarctic Ridge",
+        "time": 1795029263713,
+        "updated": 1795030909690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz37",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tz37.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 572,
+        "net": "us",
+        "code": "7000tz37",
+        "ids": ",us7000tz37,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 105,
+        "dmin": 23.288,
+        "rms": 0.81,
+        "gap": 86,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.1 - Pacific-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.746,
+          -57.7514,
+          10
+        ]
+      },
+      "id": "us7000tz37"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.55,
         "place": "14 km N of Susanville, CA",
         "time": 1795027766640,
-        "updated": 1795028243450,
+        "updated": 1795029140545,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468022",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468022.geojson",
@@ -52,15 +92,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "23 km SSW of Ollagüe, Chile",
+        "time": 1795027613317,
+        "updated": 1795029145040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz33",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tz33.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tz33",
+        "ids": ",us7000tz33,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.899,
+        "rms": 1.01,
+        "gap": 58,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 23 km SSW of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.368,
+          -21.411,
+          133.871
+        ]
+      },
+      "id": "us7000tz33"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "46 km NNE of Kilimatinde, Tanzania",
         "time": 1795025280785,
-        "updated": 1795026748040,
+        "updated": 1795028586842,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz2w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tz2w.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "7000tz2w",
         "ids": ",us7000tz2w,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 105,
         "dmin": 4.251,
         "rms": 0.81,
@@ -208,6 +288,46 @@
         ]
       },
       "id": "mb90213063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "83 km W of Lincoln City, Oregon",
+        "time": 1795019102070,
+        "updated": 1795028603550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714140301",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714140301.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "uw",
+        "code": "714140301",
+        "ids": ",uw714140301,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.9046,
+        "rms": 1.28,
+        "gap": 310,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 83 km W of Lincoln City, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.062666666667,
+          45.0855,
+          -0.21
+        ]
+      },
+      "id": "uw714140301"
     },
     {
       "type": "Feature",
@@ -1612,10 +1732,10 @@
   ],
   "bbox": [
     -178.254,
-    -39.6909,
-    0,
+    -57.7514,
+    -0.21,
     146.5479,
     63.859,
-    130.266
+    133.871
   ]
 }
