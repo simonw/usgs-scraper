@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795806025000,
+    "generated": 1795809624000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 27
+    "count": 26
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.8,
         "place": "13 km E of Susitna North, Alaska",
         "time": 1795805583858,
-        "updated": 1795805774141,
+        "updated": 1795806667542,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xmyzzg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xmyzzg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "a2026xmyzzg",
         "ids": ",aka2026xmyzzg,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 91,
         "dmin": 0.5,
         "rms": 0.8,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "nc75470091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.68,
+        "place": "58 km W of Hawaiian Ocean View, Hawaii",
+        "time": 1795789161720,
+        "updated": 1795809455300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75077137",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75077137.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "hv",
+        "code": "75077137",
+        "ids": ",hv75077137,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.4936,
+        "rms": 0.25,
+        "gap": 292,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 58 km W of Hawaiian Ocean View, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.319166666667,
+          19.0118333333333,
+          6.45
+        ]
+      },
+      "id": "hv75077137"
     },
     {
       "type": "Feature",
@@ -1008,86 +1048,6 @@
         ]
       },
       "id": "aka2026xlfucd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "6 km W of Stratford, CA",
-        "time": 1795722203460,
-        "updated": 1795723941230,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469716",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469716.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "nc",
-        "code": "75469716",
-        "ids": ",nc75469716,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.2385,
-        "rms": 0.16,
-        "gap": 96,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km W of Stratford, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.891166687012,
-          36.1818351745605,
-          24.7800006866455
-        ]
-      },
-      "id": "nc75469716"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Bonin Islands, Japan region",
-        "time": 1795721588628,
-        "updated": 1795722651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udry",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000udry.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000udry",
-        "ids": ",us6000udry,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 184,
-        "dmin": 7.837,
-        "rms": 1.35,
-        "gap": 55,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - Bonin Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.2639,
-          28.3661,
-          84.59
-        ]
-      },
-      "id": "us6000udry"
     }
   ],
   "bbox": [
