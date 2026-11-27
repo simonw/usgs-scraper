@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795788027000,
+    "generated": 1795791586000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 29
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "115 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1795789113210,
+        "updated": 1795790913720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71540203",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71540203.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "71540203",
+        "ids": ",pr71540203,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.9741,
+        "rms": 0.2,
+        "gap": 273,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 115 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8366666666667,
+          19.378,
+          27.26
+        ]
+      },
+      "id": "pr71540203"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,12 +415,12 @@
         "mag": 5,
         "place": "89 km SSE of Sola, Vanuatu",
         "time": 1795745601018,
-        "updated": 1795746886040,
+        "updated": 1795788678492,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udtu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000udtu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +430,7 @@
         "code": "6000udtu",
         "ids": ",us6000udtu,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 6.804,
         "rms": 0.59,
@@ -1088,92 +1128,12 @@
         ]
       },
       "id": "pr71540088"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "19 km S of Weston, Colorado",
-        "time": 1795703726720,
-        "updated": 1795705632040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udnj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000udnj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000udnj",
-        "ids": ",us6000udnj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.169,
-        "rms": 0.43,
-        "gap": 107,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 19 km S of Weston, Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.8388,
-          36.9594,
-          5
-        ]
-      },
-      "id": "us6000udnj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "39 km WSW of Chenega, Alaska",
-        "time": 1795703059434,
-        "updated": 1795703214553,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xkuaks",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xkuaks.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026xkuaks",
-        "ids": ",aka2026xkuaks,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 146,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 39 km WSW of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.608,
-          59.88,
-          0
-        ]
-      },
-      "id": "aka2026xkuaks"
     }
   ],
   "bbox": [
     -177.9493,
     -44.568,
-    0,
+    2.0264,
     167.8571,
     69.597,
     554.031
